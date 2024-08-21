@@ -9,7 +9,7 @@ async function loadTrialInfo(item_id, participant_id) {
 }
 
 function createSelectionTrial(trial, jsPsych) {
-  return {
+  return [{
     type: jsPsychHtmlButtonResponse,
     stimulus: trial.goal === "refer" ? "Refer filler" : "Social filler",
     choices: jsPsych.randomization.repeat(["shared", "unique"], 1),
@@ -31,8 +31,22 @@ function createSelectionTrial(trial, jsPsych) {
         });
       });
     },
-  };
+  },
+  {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: "Recording selection...",
+    choices: "NO_KEYS",
+    trial_duration: function () {
+      return jsPsych.randomization.sampleWithoutReplacement(
+        [1500, 1750, 2000, 2300],
+        1
+      )[0];
+    },
+  },
+];
 }
+
+
 
 async function makeTrials(item_id, participant_id, jsPsych) {
   try {
