@@ -1,3 +1,16 @@
+async function loadInstructions(jsPsych) {
+  const response = await fetch("html/instructions.html");
+  const instructionsHtml = await response.text();
+  const instructionsPages = instructionsHtml.split("<!-- PAGE BREAK -->");
+
+  return instructionsPages.map((page, index) => ({
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: page,
+    choices: [" "], // Space key to proceed
+    prompt: `<p>Page ${index + 1} of ${instructionsPages.length}. Press the space key to continue.</p>`,
+  }));
+}
+
 async function loadTrialInfo(item_id, participant_id) {
   const response = await fetch("json/trials.json");
   const data = await response.json();
@@ -7,6 +20,7 @@ async function loadTrialInfo(item_id, participant_id) {
   }
   return item.trials[participant_id];
 }
+
 
 function createSelectionTrial(trial, jsPsych) {
   return [{
@@ -50,12 +64,16 @@ function createSelectionTrial(trial, jsPsych) {
 
 async function makeTrials(item_id, participant_id, jsPsych) {
   try {
-    const trialInfo = await loadTrialInfo(item_id, participant_id);
     const timeline = [];
+
+    // Load instructions
+    const instructions = await loadInstructions(jsPsych);
+    timeline.push(...instructions);
 
     // TODO: observation phase
 
     // selection phase
+    const trialInfo = await loadTrialInfo(item_id, participant_id);
     const selection_phase_timeline = [];
     trialInfo.forEach((trial) => {
       const selection_trial = createSelectionTrial(trial, jsPsych);
