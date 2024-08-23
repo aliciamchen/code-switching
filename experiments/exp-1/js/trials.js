@@ -1,14 +1,12 @@
-async function loadInstructions(jsPsych) {
-  const response = await fetch("html/instructions.html");
-  const instructionsHtml = await response.text();
-  const instructionsPages = instructionsHtml.split("<!-- PAGE BREAK -->");
-
-  return instructionsPages.map((page, index) => ({
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: page,
-    choices: [" "], // Space key to proceed
-    prompt: `<p>Page ${index + 1} of ${instructionsPages.length}. Press the space key to continue.</p>`,
-  }));
+async function loadInstructionsFromHTML() {
+  try {
+    const response = await fetch('html/instructions.html');
+    const text = await response.text();
+    return text.split('<!-- PAGE BREAK -->');
+  } catch (error) {
+    console.error("Error loading instructions:", error);
+    throw error;
+  }
 }
 
 async function loadTrialInfo(item_id, participant_id) {
@@ -67,8 +65,13 @@ async function makeTrials(item_id, participant_id, jsPsych) {
     const timeline = [];
 
     // Load instructions
-    const instructions = await loadInstructions(jsPsych);
-    timeline.push(...instructions);
+    const instructionPages = await loadInstructionsFromHTML();
+    const instructions = {
+      type: jsPsychInstructions,
+      pages: instructionPages,
+      show_clickable_nav: true
+    };
+    timeline.push(instructions);
 
     // TODO: observation phase
 
