@@ -1,0 +1,2 @@
+let failCount = 0; // keep track of how many times the comprehension check has been failed
+let prolificCode = "asfasdf"

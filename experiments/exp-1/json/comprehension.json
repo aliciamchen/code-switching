@@ -1,0 +1,28 @@
+[
+  {
+    "prompt": "What are the differences between different students' past experience?",
+    "options": [
+      "Students will have seen a different number of tasty and bitter mushrooms from the island before seeing the new mushroom(s) you show them.",
+      "Students will have seen a bunch of different types of islands before seeing the new mushroom(s) you show them.",
+      "Students will know either the cap width or the stem height rule on the island, but not both rules.",
+      "All students' experience is the same, so I will treat all students the same."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "How can I earn a high performance bonus?",
+    "options": [
+      "By selecting a random mushroom on each lesson.",
+      "By considering what my students already know about the island so that I can teach accurately and helpfully."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "Is there a chance I'll encounter the same student twice (not including the students I'll teach over two lessons)?",
+    "options": [
+      "Yes, I might encounter the same student twice.",
+      "No, I will teach a <b>new</b> student each time."
+    ],
+    "required": true
+  }
+]

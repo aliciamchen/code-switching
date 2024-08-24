@@ -3,9 +3,9 @@ async function makeTrials(item_id, participant_id, jsPsych) {
   try {
     const timeline = [];
 
-    // instructions
-    const instructions = await createInstructions();
-    timeline.push(instructions);
+    // comprehension check loop
+    const comprehensionLoop = await createComprehensionLoop(jsPsych);
+    timeline.push(comprehensionLoop);
 
     // TODO: observation phase
 
