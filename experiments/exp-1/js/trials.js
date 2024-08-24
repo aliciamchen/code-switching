@@ -3,6 +3,10 @@ async function makeTrials(item_id, participant_id, jsPsych) {
   try {
     const timeline = [];
 
+    // consent
+    const consent = await createConsent();
+    timeline.push(consent);
+
     // comprehension check loop
     const comprehensionLoop = await createComprehensionLoop(jsPsych);
     timeline.push(comprehensionLoop);

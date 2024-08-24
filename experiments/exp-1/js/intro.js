@@ -1,3 +1,22 @@
+// Consent
+async function createConsent() {
+    try {
+        const response = await fetch("html/consent.html");
+        const text = await response.text();
+        return {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: text,
+        choices: ["I consent to participate"],
+        };
+    } catch (error) {
+        console.error("Error creating consent:", error);
+        throw error;
+    }
+}
+
+
+// Instructions and comprehension loop
+
 async function loadInstructionsFromHTML() {
   try {
     const response = await fetch("html/instructions.html");
@@ -23,7 +42,6 @@ async function createInstructions() {
   }
 }
 
-// Create a comprehension check quiz
 async function createComprehensionCheck() {
   try {
     const response = await fetch("json/comprehension.json");
@@ -75,7 +93,7 @@ function createFailComprehensionCheck() {
   };
 }
 
-async function createComprehensionLoop(jsPsych) {
+async function createComprehensionLoop() {
   const instructions = await createInstructions();
   const comprehensionCheck = await createComprehensionCheck();
   const failComprehensionCheck = createFailComprehensionCheck();
