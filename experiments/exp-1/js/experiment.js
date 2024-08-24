@@ -2,11 +2,6 @@
 
 const jsPsych = initJsPsych();
 
-const hello_trial = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: "Hello world!",
-};
-
 const video_trial = {
   type: jsPsychVideoButtonResponse,
   stimulus: ["stim/videos/test.mp4"],

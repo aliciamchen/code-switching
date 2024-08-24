@@ -17,6 +17,10 @@ async function makeTrials(item_id, participant_id, jsPsych) {
     const selectionTrials = await createSelectionTrials(item_id, participant_id, jsPsych);
     timeline.push(selectionTrials);
 
+    // exit survey
+    const exitSurvey = await createExitSurvey();
+    timeline.push(exitSurvey);
+
     return timeline.flat();
   } catch (error) {
     console.error("Error loading trials:", error);
