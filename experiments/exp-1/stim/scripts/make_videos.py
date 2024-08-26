@@ -1,7 +1,7 @@
 from manim import *
 
 class ChatBubble(Group):  # Change from VGroup to Group
-    def __init__(self, message, bubble_color=BLUE, text_color=WHITE, avatar=None, **kwargs):
+    def __init__(self, message, bubble_color=BLUE, text_color=WHITE, avatar=None, role="director", **kwargs):
         super().__init__(**kwargs)
 
         # Create the text
@@ -23,18 +23,26 @@ class ChatBubble(Group):  # Change from VGroup to Group
         # Add the bubble and text to the elements list
         elements = [bubble, text]
 
-        # If avatar is provided, add it to the left of the bubble
+        # If avatar is provided
         if avatar:
             avatar_image = ImageMobject(avatar).scale(0.5)
-            avatar_image.next_to(bubble, LEFT, buff=0.1)
+            if role == "director":
+                # Director role: avatar to the left of the bubble
+                avatar_image.next_to(bubble, LEFT, buff=0.1)
+            else:
+                # Matcher role: avatar to the right of the bubble
+                avatar_image.next_to(bubble, RIGHT, buff=0.1)
             elements.append(avatar_image)
 
         # Add all elements to the Group
         self.add(*elements)
 
-    def position_bubble(self, align=LEFT, buff=0.5):
+    def position_bubble(self, align=LEFT, buff=0.5, offset_right=False):
         # Align the bubble based on the specified side
-        self.to_edge(align, buff=buff)
+        if offset_right:
+            self.to_edge(LEFT, buff=buff + 1.5)  # Move green bubbles slightly to the right
+        else:
+            self.to_edge(align, buff=buff)
 
 
 class ChatAnimation(Scene):
@@ -63,10 +71,11 @@ class ChatAnimation(Scene):
 
             # Create a chat bubble
             bubble_color = BLUE if role == "director" else GREEN
-            chat_bubble = ChatBubble(text, bubble_color=bubble_color, avatar=avatar)
+            offset_right = role != "director"  # Offset green bubbles to the right
+            chat_bubble = ChatBubble(text, bubble_color=bubble_color, avatar=avatar, role=role)
 
-            # Position the bubble on the left side
-            chat_bubble.to_edge(LEFT, buff=0.5)
+            # Position the bubble on the left or slightly to the right
+            chat_bubble.position_bubble(align=LEFT, buff=0.5, offset_right=offset_right)
             chat_bubble.shift(UP * y_offset)
             y_offset -= 1.5  # Adjust to prevent overlap
 
