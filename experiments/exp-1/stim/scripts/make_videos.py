@@ -135,10 +135,12 @@ class ChatAnimation(Scene):
         target_label = Text("Target", color=RED).scale(0.5).next_to(target_box, UP, buff=0.1)
         self.play(Create(target_box), Write(target_label))
 
+        self.wait(1)
+
         # Highlight the chosen tangrams
         chosen_images = [image_grid[index] for index in chosen_tangrams.values()]
         avatar_images = [ImageMobject(f"../identicons/blue/{player.lower()}.png").scale(0.2) for player in chosen_tangrams.keys()]
         for chosen_image, avatar_image in zip(chosen_images, avatar_images):
-            avatar_image.next_to(chosen_image, DOWN, buff=0.1)
+            avatar_image.move_to(chosen_image.get_corner(UP + RIGHT) + 0.2*DOWN + 0.2*LEFT)
             self.add(avatar_image)
         self.wait(0.5)
