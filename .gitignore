@@ -2,3 +2,4 @@
 .Rproj.user
 *.Rproj
 *.mp4
+__pycache__
