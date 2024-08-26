@@ -1,11 +1,13 @@
+import textwrap
 from manim import *
 
 class ChatBubble(Group):
     def __init__(self, message, bubble_color=BLUE, text_color=WHITE, avatar=None, role="director", **kwargs):
         super().__init__(**kwargs)
 
+        wrapped_text = textwrap.fill(message, width=30)
         # Create the text
-        text = Text(message, font_size=24, color=text_color, font="Arial")
+        text = Text(wrapped_text, font_size=24, color=text_color, font="Arial")
 
         # Create the bubble
         bubble = RoundedRectangle(
