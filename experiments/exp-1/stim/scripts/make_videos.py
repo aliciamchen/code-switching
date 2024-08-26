@@ -5,7 +5,7 @@ class ChatBubble(Group):
         super().__init__(**kwargs)
 
         # Create the text
-        text = Text(message, font_size=24, color=text_color)
+        text = Text(message, font_size=24, color=text_color, font="Arial")
 
         # Create the bubble
         bubble = RoundedRectangle(
@@ -56,11 +56,16 @@ class ChatAnimation(Scene):
 
         # Sample chat data for the reference game
         chat_data = [
-            {"player": "aria", "text": "The tangram looks like a bird.", "time": 1.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
+            {"player": "aria", "text": "The tangram looks like a bird. The tangram looks like a bird.The tangram looks like a bird.The tangram looks like a bird.The tangram looks like a bird.", "time": 1.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
             {"player": "katherine", "text": "Does it have wings?", "time": 3, "role": "matcher", "avatar": "../identicons/blue/katherine.png"},
             {"player": "kayla", "text": "Is it standing or flying?", "time": 4.5, "role": "matcher", "avatar": "../identicons/blue/kayla.png"},
             {"player": "oliver", "text": "I think I see it.", "time": 6, "role": "matcher", "avatar": "../identicons/blue/oliver.png"},
             {"player": "aria", "text": "Yes, it has wings.", "time": 7.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
+                        {"player": "aria", "text": "The tangram looks like a bird.", "time": 1.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
+            {"player": "katherine", "text": "Does it have wings?", "time": 3, "role": "matcher", "avatar": "../identicons/blue/katherine.png"},
+            {"player": "kayla", "text": "Is it standing or flying?", "time": 4.5, "role": "matcher", "avatar": "../identicons/blue/kayla.png"},
+            {"player": "oliver", "text": "I think I see it.", "time": 6, "role": "matcher", "avatar": "../identicons/blue/oliver.png"},
+            {"player": "aria", "text": "Yes, it has wings.", "time": 7.5, "role": "director", "avatar": "../identicons/blue/aria.png"}
         ]
 
         # Define the right edge position for alignment of green bubbles
@@ -133,7 +138,7 @@ class ChatAnimation(Scene):
         # Highlight the target tangram
         target_image = image_grid[target_index]
         target_box = SurroundingRectangle(target_image, color=RED, buff=0, stroke_width=8)
-        target_label = Text("Target", color=RED).scale(0.5).next_to(target_box, UP, buff=0.1)
+        target_label = Text("Target", color=RED, font="Arial", weight=BOLD).scale(0.5).next_to(target_box, UP, buff=0.05)
         self.play(Create(target_box), Write(target_label))
 
         self.wait(1)
