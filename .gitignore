@@ -3,3 +3,4 @@
 *.Rproj
 *.mp4
 __pycache__
+experiments/exp-1/stim/scripts/media/texts
