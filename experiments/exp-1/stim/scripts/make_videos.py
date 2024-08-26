@@ -36,6 +36,7 @@ class ChatBubble(Group):  # Change from VGroup to Group
         # Align the bubble based on the specified side
         self.to_edge(align, buff=buff)
 
+
 class ChatAnimation(Scene):
     def construct(self):
         # Create image grid on the right side and display it at the start
@@ -53,7 +54,7 @@ class ChatAnimation(Scene):
         ]
 
         # Display each message with a delay
-        y_offset = 3
+        y_offset = 3  # Start higher up on the screen
         for item in chat_data:
             text = item["text"]
             time = item["time"]
@@ -64,14 +65,10 @@ class ChatAnimation(Scene):
             bubble_color = BLUE if role == "director" else GREEN
             chat_bubble = ChatBubble(text, bubble_color=bubble_color, avatar=avatar)
 
-            # Position the bubble
-            if role == "director":
-                chat_bubble.position_bubble(align=LEFT)
-            else:
-                chat_bubble.position_bubble(align=RIGHT)
-
+            # Position the bubble on the left side
+            chat_bubble.to_edge(LEFT, buff=0.5)
             chat_bubble.shift(UP * y_offset)
-            y_offset -= 1.2
+            y_offset -= 1.5  # Adjust to prevent overlap
 
             # Animate the bubble appearing on the screen
             self.play(FadeIn(chat_bubble, shift=UP))
@@ -127,12 +124,3 @@ class ChatAnimation(Scene):
             avatar_image = ImageMobject(f"../identicons/blue/{player.lower()}.png").scale(0.3)
             avatar_image.next_to(chosen_image, DOWN, buff=0.1)
             self.play(FadeIn(avatar_image))
-
-
-        # chat_data = [
-        #     {"player": "Director", "text": "The tangram looks like a bird.", "time": 1.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
-        #     {"player": "Matcher1", "text": "Does it have wings?", "time": 3, "role": "matcher", "avatar": "../identicons/blue/katherine.png"},
-        #     {"player": "Matcher2", "text": "Is it standing or flying?", "time": 4.5, "role": "matcher", "avatar": "../identicons/blue/kayla.png"},
-        #     {"player": "Matcher3", "text": "I think I see it.", "time": 6, "role": "matcher", "avatar": "../identicons/blue/oliver.png"},
-        #     {"player": "Director", "text": "Yes, it has wings.", "time": 7.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
-        # ]
