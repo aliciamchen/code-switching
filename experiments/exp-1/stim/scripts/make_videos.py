@@ -48,6 +48,7 @@ class ChatBubble(Group):
 
 class ChatAnimation(Scene):
     def construct(self):
+        # config.background_color = WHITE
         # Create image grid on the right side and display it at the start
         image_grid = self.create_image_grid(3, 4)
         image_grid.to_edge(RIGHT, buff=0.3)
@@ -95,7 +96,7 @@ class ChatAnimation(Scene):
         target_index = 5  # Example target index
         chosen_tangrams = {
             "katherine": 3,
-            "kayla": 5,
+            "kayla": 3,
             "oliver": 2,
         }
 
@@ -137,10 +138,29 @@ class ChatAnimation(Scene):
 
         self.wait(1)
 
+        # Dictionary to keep track of avatar positions for each tangram
+        avatar_positions = {}
+
         # Highlight the chosen tangrams
-        chosen_images = [image_grid[index] for index in chosen_tangrams.values()]
-        avatar_images = [ImageMobject(f"../identicons/blue/{player.lower()}.png").scale(0.2) for player in chosen_tangrams.keys()]
-        for chosen_image, avatar_image in zip(chosen_images, avatar_images):
-            avatar_image.move_to(chosen_image.get_corner(UP + RIGHT) + 0.2*DOWN + 0.2*LEFT)
+        for player, index in chosen_tangrams.items():
+            chosen_image = image_grid[index]
+
+            # Create avatar image
+            avatar_image = ImageMobject(f"../identicons/blue/{player.lower()}.png").scale(0.2)
+
+            # Determine the position to place the avatar
+            if index not in avatar_positions:
+                # If this is the first avatar for this tangram, place it at the initial position
+                avatar_position = chosen_image.get_corner(UP + RIGHT) + 0.2*DOWN + 0.2*LEFT
+                avatar_positions[index] = avatar_position
+            else:
+                # Stack avatars below the previous one
+                avatar_position = avatar_positions[index] + 0.4*DOWN
+                avatar_positions[index] = avatar_position
+
+            # Move the avatar to the calculated position
+            avatar_image.move_to(avatar_position)
             self.add(avatar_image)
+
         self.wait(0.5)
+
