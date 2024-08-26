@@ -1,6 +1,6 @@
 from manim import *
 
-class ChatBubble(Group):  # Change from VGroup to Group
+class ChatBubble(Group):
     def __init__(self, message, bubble_color=BLUE, text_color=WHITE, avatar=None, role="director", **kwargs):
         super().__init__(**kwargs)
 
@@ -25,7 +25,7 @@ class ChatBubble(Group):  # Change from VGroup to Group
 
         # If avatar is provided
         if avatar:
-            avatar_image = ImageMobject(avatar).scale(0.5)
+            avatar_image = ImageMobject(avatar).scale(0.3)
             if role == "director":
                 # Director role: avatar to the left of the bubble
                 avatar_image.next_to(bubble, LEFT, buff=0.1)
@@ -37,10 +37,11 @@ class ChatBubble(Group):  # Change from VGroup to Group
         # Add all elements to the Group
         self.add(*elements)
 
-    def position_bubble(self, align=LEFT, buff=0.5, offset_right=False):
+    def position_bubble(self, align=LEFT, buff=0.5, align_right_edge=False, right_edge_position=0):
         # Align the bubble based on the specified side
-        if offset_right:
-            self.to_edge(LEFT, buff=buff + 1.5)  # Move green bubbles slightly to the right
+        if align_right_edge:
+            # Align the right edge of the bubble to a specific position
+            self.move_to(RIGHT * right_edge_position, aligned_edge=RIGHT)
         else:
             self.to_edge(align, buff=buff)
 
@@ -49,7 +50,7 @@ class ChatAnimation(Scene):
     def construct(self):
         # Create image grid on the right side and display it at the start
         image_grid = self.create_image_grid(3, 4)
-        image_grid.to_edge(RIGHT, buff=0.5)
+        image_grid.to_edge(RIGHT, buff=0.3)
         self.add(image_grid)  # Add the image grid to the scene
 
         # Sample chat data for the reference game
@@ -61,6 +62,9 @@ class ChatAnimation(Scene):
             {"player": "aria", "text": "Yes, it has wings.", "time": 7.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
         ]
 
+        # Define the right edge position for alignment of green bubbles
+        right_edge_position = 0  # This will be the position where the right edges align
+
         # Display each message with a delay
         y_offset = 3  # Start higher up on the screen
         for item in chat_data:
@@ -71,13 +75,17 @@ class ChatAnimation(Scene):
 
             # Create a chat bubble
             bubble_color = BLUE if role == "director" else GREEN
-            offset_right = role != "director"  # Offset green bubbles to the right
+            align_right_edge = role != "director"  # Align right edge for green bubbles
             chat_bubble = ChatBubble(text, bubble_color=bubble_color, avatar=avatar, role=role)
 
-            # Position the bubble on the left or slightly to the right
-            chat_bubble.position_bubble(align=LEFT, buff=0.5, offset_right=offset_right)
+            # Position the bubble on the left or align the right edge
+            if align_right_edge:
+                chat_bubble.position_bubble(align_right_edge=True, right_edge_position=right_edge_position)
+            else:
+                chat_bubble.position_bubble(align=LEFT, buff=0.3)
+
             chat_bubble.shift(UP * y_offset)
-            y_offset -= 1.5  # Adjust to prevent overlap
+            y_offset -= 1  # Adjust to prevent overlap
 
             # Animate the bubble appearing on the screen
             self.play(FadeIn(chat_bubble, shift=UP))
@@ -112,7 +120,7 @@ class ChatAnimation(Scene):
         ]
 
         images = [
-            ImageMobject(img).scale(0.5) for img in image_paths
+            ImageMobject(img).scale(0.4) for img in image_paths
         ]  # Scale down to fit in grid
 
         # Create grid layout using Group
@@ -123,13 +131,14 @@ class ChatAnimation(Scene):
     def highlight_tangrams(self, image_grid, target_index, chosen_tangrams):
         # Highlight the target tangram
         target_image = image_grid[target_index]
-        target_box = SurroundingRectangle(target_image, color=RED, buff=0.1)
-        target_label = Text("Target", color=RED).scale(0.5).next_to(target_box, UP)
+        target_box = SurroundingRectangle(target_image, color=RED, buff=0, stroke_width=8)
+        target_label = Text("Target", color=RED).scale(0.5).next_to(target_box, UP, buff=0.1)
         self.play(Create(target_box), Write(target_label))
 
         # Highlight the chosen tangrams
-        for player, index in chosen_tangrams.items():
-            chosen_image = image_grid[index]
-            avatar_image = ImageMobject(f"../identicons/blue/{player.lower()}.png").scale(0.3)
+        chosen_images = [image_grid[index] for index in chosen_tangrams.values()]
+        avatar_images = [ImageMobject(f"../identicons/blue/{player.lower()}.png").scale(0.2) for player in chosen_tangrams.keys()]
+        for chosen_image, avatar_image in zip(chosen_images, avatar_images):
             avatar_image.next_to(chosen_image, DOWN, buff=0.1)
-            self.play(FadeIn(avatar_image))
+            self.add(avatar_image)
+        self.wait(0.5)
