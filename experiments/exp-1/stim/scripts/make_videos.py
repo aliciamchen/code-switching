@@ -49,7 +49,7 @@ class ChatBubble(Group):
         # Align horizontally based on the role
         if align_right_edge:
             self.to_edge(RIGHT, buff=buff)
-            self.shift(LEFT * 6.5)
+            self.shift(LEFT * 6.8)
         else:
             self.to_edge(LEFT, buff=buff)
 
@@ -77,7 +77,8 @@ class ChatAnimation(Scene):
         ]
 
 
-        previous_bubble = None
+        # List to keep track of all chat bubbles
+        bubbles = []
 
         for item in chat_data:
             text = item["text"]
@@ -92,16 +93,26 @@ class ChatAnimation(Scene):
             bubble_color = BLUE if role == "director" else GREEN
             chat_bubble = ChatBubble(text, bubble_color=bubble_color, avatar=avatar, role=role)
 
-            # Position the bubble relative to the previous one
-            chat_bubble.position_bubble(
-                previous_bubble=previous_bubble,
-                align_right_edge=align_right_edge
-            )
+            # Position the new bubble at the bottom
+            chat_bubble.to_edge(DOWN, buff=0.5)
 
-            previous_bubble = chat_bubble  # Update the previous bubble reference
+            # Move all previous bubbles up to make space for the new bubble
+            if bubbles:
+                for bubble in bubbles:
+                    bubble.shift(UP * (chat_bubble.height + 0.3))
+
+            # Align the new bubble horizontally based on the role
+            if align_right_edge:
+                chat_bubble.to_edge(RIGHT, buff=0.5)
+                chat_bubble.shift(LEFT * 6.8)  # Optional: adjust horizontal position for matcher
+            else:
+                chat_bubble.to_edge(LEFT, buff=0.5)
+
+            # Add the new bubble to the list of bubbles
+            bubbles.append(chat_bubble)
 
             # Animate the bubble appearing on the screen
-            self.play(FadeIn(chat_bubble, shift=UP))
+            self.play(FadeIn(chat_bubble))
             self.wait(time)
 
         # At the end of the conversation, indicate the target tangram and chosen tangrams
@@ -146,9 +157,9 @@ class ChatAnimation(Scene):
         target_image = image_grid[target_index]
         target_box = SurroundingRectangle(target_image, color=RED, buff=0, stroke_width=8)
         target_label = Text("Target", color=RED, font="Arial", weight=BOLD).scale(0.5).next_to(target_box, UP, buff=0.05)
-        self.play(Create(target_box), Write(target_label))
+        self.play(FadeIn(target_box), Write(target_label))
 
-        self.wait(1)
+        # self.wait(1)
 
         # Dictionary to keep track of avatar positions for each tangram
         avatar_positions = {}
