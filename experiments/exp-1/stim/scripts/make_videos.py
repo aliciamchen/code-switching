@@ -230,12 +230,11 @@ class ChatAnimation(Scene):
         )
         self.play(FadeIn(target_box), Write(target_label))
 
-        # self.wait(1)
-
         # Dictionary to keep track of avatar positions for each tangram
         avatar_positions = {}
 
         # Highlight the chosen tangrams
+        correct_guesses = 0
         for player, index in chosen_tangrams.items():
             chosen_image = image_grid[index]
 
@@ -259,5 +258,18 @@ class ChatAnimation(Scene):
             # Move the avatar to the calculated position
             avatar_image.move_to(avatar_position)
             self.add(avatar_image)
+
+            # Check if the guess is correct
+            if index == target_index:
+                correct_guesses += 1
+
+        # Add text above the tangrams indicating the number of correct guesses
+        correct_guesses_text = Text(
+            f"{correct_guesses} out of 3 guessed correctly",
+            color=RED,
+            font="Arial",
+            weight=BOLD
+        ).scale(0.5).next_to(image_grid, UP, buff=0.3)
+        self.add(correct_guesses_text)
 
         self.wait(0.5)
