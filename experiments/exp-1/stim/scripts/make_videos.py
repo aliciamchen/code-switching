@@ -39,13 +39,19 @@ class ChatBubble(Group):
         # Add all elements to the Group
         self.add(*elements)
 
-    def position_bubble(self, align=LEFT, buff=0.5, align_right_edge=False, right_edge_position=0):
-        # Align the bubble based on the specified side
-        if align_right_edge:
-            # Align the right edge of the bubble to a specific position
-            self.move_to(RIGHT * right_edge_position, aligned_edge=RIGHT)
+    def position_bubble(self, previous_bubble=None, align=LEFT, align_right_edge=False, buff=0.5):
+        # Position below the previous bubble with proper spacing
+        if previous_bubble:
+            self.next_to(previous_bubble, DOWN, buff=0.3)
         else:
-            self.to_edge(align, buff=buff)
+            self.to_edge(UP, buff=1)
+
+        # Align horizontally based on the role
+        if align_right_edge:
+            self.to_edge(RIGHT, buff=buff)
+            self.shift(LEFT * 6.5)
+        else:
+            self.to_edge(LEFT, buff=buff)
 
 
 class ChatAnimation(Scene):
@@ -54,46 +60,45 @@ class ChatAnimation(Scene):
         # Create image grid on the right side and display it at the start
         image_grid = self.create_image_grid(3, 4)
         image_grid.to_edge(RIGHT, buff=0.3)
-        self.add(image_grid)  # Add the image grid to the scene
+        self.add(image_grid)
 
         # Sample chat data for the reference game
         chat_data = [
-            {"player": "aria", "text": "The tangram looks like a bird. The tangram looks like a bird.The tangram looks like a bird.The tangram looks like a bird.The tangram looks like a bird.", "time": 1.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
-            {"player": "katherine", "text": "Does it have wings?", "time": 3, "role": "matcher", "avatar": "../identicons/blue/katherine.png"},
+            {"player": "katherine", "text": "The tangram looks like a bird. The tangram looks like a bird.The tangram looks like a bird.The tangram looks like a bird.The tangram looks like a bird.", "time": 1.5, "role": "matcher", "avatar": "../identicons/blue/aria.png"},
+            {"player": "katherine", "text": "Does it have wings?", "time": 3, "role": "director", "avatar": "../identicons/blue/katherine.png"},
             {"player": "kayla", "text": "Is it standing or flying?", "time": 4.5, "role": "matcher", "avatar": "../identicons/blue/kayla.png"},
             {"player": "oliver", "text": "I think I see it.", "time": 6, "role": "matcher", "avatar": "../identicons/blue/oliver.png"},
-            {"player": "aria", "text": "Yes, it has wings.", "time": 7.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
-                        {"player": "aria", "text": "The tangram looks like a bird.", "time": 1.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
-            {"player": "katherine", "text": "Does it have wings?", "time": 3, "role": "matcher", "avatar": "../identicons/blue/katherine.png"},
-            {"player": "kayla", "text": "Is it standing or flying?", "time": 4.5, "role": "matcher", "avatar": "../identicons/blue/kayla.png"},
-            {"player": "oliver", "text": "I think I see it.", "time": 6, "role": "matcher", "avatar": "../identicons/blue/oliver.png"},
-            {"player": "aria", "text": "Yes, it has wings.", "time": 7.5, "role": "director", "avatar": "../identicons/blue/aria.png"}
+            # {"player": "aria", "text": "Yes, it has wings.", "time": 7.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
+            #             {"player": "aria", "text": "The tangram looks like a bird.", "time": 1.5, "role": "director", "avatar": "../identicons/blue/aria.png"},
+            # {"player": "katherine", "text": "Does it have wings?", "time": 3, "role": "matcher", "avatar": "../identicons/blue/katherine.png"},
+            # {"player": "kayla", "text": "Is it standing or flying?", "time": 4.5, "role": "matcher", "avatar": "../identicons/blue/kayla.png"},
+            # {"player": "oliver", "text": "I think I see it.", "time": 6, "role": "matcher", "avatar": "../identicons/blue/oliver.png"},
+            # {"player": "aria", "text": "Yes, it has wings.", "time": 7.5, "role": "director", "avatar": "../identicons/blue/aria.png"}
         ]
 
-        # Define the right edge position for alignment of green bubbles
-        right_edge_position = 0  # This will be the position where the right edges align
 
-        # Display each message with a delay
-        y_offset = 3  # Start higher up on the screen
+        previous_bubble = None
+
         for item in chat_data:
             text = item["text"]
             time = item["time"]
             role = item["role"]
             avatar = item["avatar"]
 
+            # Determine the alignment based on the role
+            align_right_edge = role != "director"  # Right alignment for matcher, left for director
+
             # Create a chat bubble
             bubble_color = BLUE if role == "director" else GREEN
-            align_right_edge = role != "director"  # Align right edge for green bubbles
             chat_bubble = ChatBubble(text, bubble_color=bubble_color, avatar=avatar, role=role)
 
-            # Position the bubble on the left or align the right edge
-            if align_right_edge:
-                chat_bubble.position_bubble(align_right_edge=True, right_edge_position=right_edge_position)
-            else:
-                chat_bubble.position_bubble(align=LEFT, buff=0.3)
+            # Position the bubble relative to the previous one
+            chat_bubble.position_bubble(
+                previous_bubble=previous_bubble,
+                align_right_edge=align_right_edge
+            )
 
-            chat_bubble.shift(UP * y_offset)
-            y_offset -= 1  # Adjust to prevent overlap
+            previous_bubble = chat_bubble  # Update the previous bubble reference
 
             # Animate the bubble appearing on the screen
             self.play(FadeIn(chat_bubble, shift=UP))
