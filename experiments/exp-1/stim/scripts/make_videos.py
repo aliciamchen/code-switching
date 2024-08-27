@@ -51,11 +51,23 @@ class ChatBubble(Group):
 
 class ChatAnimation(Scene):
     def construct(self):
-        # config.background_color = WHITE
+
         # Create image grid on the right side and display it at the start
         image_grid = self.create_image_grid(3, 4)
         image_grid.to_edge(RIGHT, buff=0.3)
         self.add(image_grid)
+
+        # Create a gray background for the chat area
+        chat_background = Rectangle(
+            width=6.6, height=7.4, fill_color=WHITE, fill_opacity=0.1, stroke_color=GRAY
+        )
+        chat_background.to_edge(LEFT, buff=0.4)
+        self.add(chat_background)
+
+        # Add a label "chat" above the chat area
+        chat_label = Text("Chat", color=BLACK, font="Arial", weight=BOLD).scale(0.5)
+        chat_label.next_to(chat_background, UP, buff=0.1)
+        self.add(chat_label)
 
         # Sample chat data for the reference game
         chat_data = [
@@ -80,55 +92,55 @@ class ChatAnimation(Scene):
                 "role": "matcher",
                 "avatar": "../identicons/blue/kayla.png",
             },
-            {
-                "player": "oliver",
-                "text": "I think I see it.",
-                "time": 6,
-                "role": "matcher",
-                "avatar": "../identicons/blue/oliver.png",
-            },
-            {
-                "player": "aria",
-                "text": "Yes, it has wings.",
-                "time": 7.5,
-                "role": "director",
-                "avatar": "../identicons/blue/aria.png",
-            },
-            {
-                "player": "aria",
-                "text": "The tangram looks like a bird.",
-                "time": 1.5,
-                "role": "director",
-                "avatar": "../identicons/blue/aria.png",
-            },
-            {
-                "player": "katherine",
-                "text": "Does it have wings?",
-                "time": 3,
-                "role": "matcher",
-                "avatar": "../identicons/blue/katherine.png",
-            },
-            {
-                "player": "kayla",
-                "text": "Is it standing or flying?",
-                "time": 4.5,
-                "role": "matcher",
-                "avatar": "../identicons/blue/kayla.png",
-            },
-            {
-                "player": "oliver",
-                "text": "I think I see it.",
-                "time": 6,
-                "role": "matcher",
-                "avatar": "../identicons/blue/oliver.png",
-            },
-            {
-                "player": "aria",
-                "text": "Yes, it has wings.",
-                "time": 7.5,
-                "role": "director",
-                "avatar": "../identicons/blue/aria.png",
-            },
+            # {
+            #     "player": "oliver",
+            #     "text": "I think I see it.",
+            #     "time": 6,
+            #     "role": "matcher",
+            #     "avatar": "../identicons/blue/oliver.png",
+            # },
+            # {
+            #     "player": "aria",
+            #     "text": "Yes, it has wings.",
+            #     "time": 7.5,
+            #     "role": "director",
+            #     "avatar": "../identicons/blue/aria.png",
+            # },
+            # {
+            #     "player": "aria",
+            #     "text": "The tangram looks like a bird.",
+            #     "time": 1.5,
+            #     "role": "director",
+            #     "avatar": "../identicons/blue/aria.png",
+            # },
+            # {
+            #     "player": "katherine",
+            #     "text": "Does it have wings?",
+            #     "time": 3,
+            #     "role": "matcher",
+            #     "avatar": "../identicons/blue/katherine.png",
+            # },
+            # {
+            #     "player": "kayla",
+            #     "text": "Is it standing or flying?",
+            #     "time": 4.5,
+            #     "role": "matcher",
+            #     "avatar": "../identicons/blue/kayla.png",
+            # },
+            # {
+            #     "player": "oliver",
+            #     "text": "I think I see it.",
+            #     "time": 6,
+            #     "role": "matcher",
+            #     "avatar": "../identicons/blue/oliver.png",
+            # },
+            # {
+            #     "player": "aria",
+            #     "text": "Yes, it has wings.",
+            #     "time": 7.5,
+            #     "role": "director",
+            #     "avatar": "../identicons/blue/aria.png",
+            # },
         ]
 
         # List to keep track of all chat bubbles
