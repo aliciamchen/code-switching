@@ -84,59 +84,59 @@ class ChatAnimation(Scene):
         chat_data = [
             {
                 "player": "aria",
-                "text": "The tangram looks like a bird. The tangram looks like a bird.The tangram looks like a bird.The tangram looks like a bird.The tangram looks like a bird.",
-                "time": 1.5,
+                "text": "looks like a person sitting down",
+                "time": 1,
                 "role": "director",
                 "avatar": "../identicons/blue/aria.png",
             },
             {
                 "player": "katherine",
-                "text": "Does it have wings?",
-                "time": 3,
-                "role": "director",
+                "text": "to the right or to the left? ",
+                "time": 1,
+                "role": "matcher",
                 "avatar": "../identicons/blue/katherine.png",
             },
             {
                 "player": "kayla",
-                "text": "Is it standing or flying?",
-                "time": 4.5,
+                "text": "to the left right? there is only one",
+                "time": 1,
                 "role": "matcher",
                 "avatar": "../identicons/blue/kayla.png",
             },
             {
                 "player": "oliver",
                 "text": "I think I see it.",
-                "time": 6,
+                "time": 1,
                 "role": "matcher",
                 "avatar": "../identicons/blue/oliver.png",
             },
             {
                 "player": "aria",
-                "text": "Yes, it has wings.",
-                "time": 7.5,
-                "role": "director",
-                "avatar": "../identicons/blue/aria.png",
-            },
-            {
-                "player": "aria",
-                "text": "The tangram looks like a bird.",
-                "time": 1.5,
+                "text": "yes it is sitting down to the left",
+                "time": 2,
                 "role": "director",
                 "avatar": "../identicons/blue/aria.png",
             },
             {
                 "player": "katherine",
-                "text": "Does it have wings?",
-                "time": 3,
+                "text": "ok I've made my selection!",
+                "time": 1,
                 "role": "matcher",
                 "avatar": "../identicons/blue/katherine.png",
             },
             {
                 "player": "kayla",
-                "text": "Is it standing or flying?",
-                "time": 4.5,
+                "text": "ok",
+                "time": 2,
                 "role": "matcher",
                 "avatar": "../identicons/blue/kayla.png",
+            },
+            {
+                "player": "aria",
+                "text": "the one with its head down sitting to the left",
+                "time": 1,
+                "role": "director",
+                "avatar": "../identicons/blue/aria.png",
             },
             # {
             #     "player": "oliver",
@@ -169,9 +169,10 @@ class ChatAnimation(Scene):
             )  # Right alignment for matcher, left for director
 
             # Create a chat bubble
-            bubble_color = BLUE if role == "director" else GREEN
+            bubble_color = DARK_BLUE if role == "director" else BLUE_B
+            text_color = WHITE if role == "director" else BLACK
             chat_bubble = ChatBubble(
-                text, bubble_color=bubble_color, avatar=avatar, role=role
+                text, bubble_color=bubble_color, avatar=avatar, role=role, text_color=text_color
             )
 
             # Position the new bubble at the bottom
@@ -208,9 +209,10 @@ class ChatAnimation(Scene):
         chosen_tangrams = {
             "katherine": 3,
             "kayla": 3,
-            "oliver": 2,
+            "oliver": 5,
         }
 
+        self.wait(2)
         self.highlight_tangrams(image_grid, target_index, chosen_tangrams)
         self.wait(2)
 
@@ -244,10 +246,10 @@ class ChatAnimation(Scene):
         # Highlight the target tangram
         target_image = image_grid[target_index]
         target_box = SurroundingRectangle(
-            target_image, color=RED, buff=0, stroke_width=8
+            target_image, color=GREEN_C, buff=0, stroke_width=10
         )
         target_label = (
-            Text("Target", color=RED, font="Arial", weight=BOLD)
+            Text("Target", color=GREEN_C, font="Arial", weight=BOLD)
             .scale(0.5)
             .next_to(target_box, UP, buff=0.05)
         )
@@ -270,7 +272,7 @@ class ChatAnimation(Scene):
             if index not in avatar_positions:
                 # If this is the first avatar for this tangram, place it at the initial position
                 avatar_position = (
-                    chosen_image.get_corner(UP + RIGHT) + 0.2 * DOWN + 0.2 * LEFT
+                    chosen_image.get_corner(UP + RIGHT) + 0.22 * DOWN + 0.22 * LEFT
                 )
                 avatar_positions[index] = avatar_position
             else:
@@ -290,7 +292,7 @@ class ChatAnimation(Scene):
         correct_guesses_text = (
             Text(
                 f"{correct_guesses} out of 3 guessed correctly",
-                color=RED,
+                color=BLUE,
                 font="Arial",
                 weight=BOLD,
             )
