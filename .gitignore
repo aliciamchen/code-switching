@@ -2,5 +2,6 @@
 .Rproj.user
 *.Rproj
 *.mp4
+*.ipynb
 __pycache__
 experiments/exp-1/stim/scripts/media/texts
