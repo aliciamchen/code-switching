@@ -1,0 +1,106 @@
+{
+  "A": {
+    "thriller": ["3WzEi9zkHF77vdTw5", "P8wDF8HAYYAcwBYsm", "yYtSpzsEi4mnTuPrj"],
+    "zombie": ["kBQMXHtyqWiM2LxL6", "hhTtzgf2BMCbDwG5i", "hYBwiiFBSBi9ySwpJ"],
+    "dancing man": ["rSMFkjhskBteiyQMB"],
+    "crane kick": ["BXWWg9XvCErxTpT9k"],
+    "bird man": ["LfuChcnEB54q8Ztys"]
+  },
+  "B": {
+    "wings": ["rSMFkjhskBteiyQMB"],
+    "princess dance": ["BXWWg9XvCErxTpT9k"],
+    "mouse": ["hHoRuwi7p8k2XhzD3", "P8wDF8HAYYAcwBYsm"],
+    "diamond head": ["kBQMXHtyqWiM2LxL6"]
+  },
+  "C": {
+    "falling guy": [
+      "hhTtzgf2BMCbDwG5i",
+      "pAaZt2Cv9MEFRCAY5",
+      "XpTJWaJYpSojYdngB",
+      "3WzEi9zkHF77vdTw5"
+    ],
+    "no legs": ["hHoRuwi7p8k2XhzD3", "aJmxCcm4qPQKzrTZA"],
+    "Y": ["ogPZPPCKpGn4votMa", "JmgdhSKRPPxDKvprr"],
+    "hug": ["rSMFkjhskBteiyQMB"],
+    "shrug": ["P8wDF8HAYYAcwBYsm"],
+    "italian": ["LfuChcnEB54q8Ztys"]
+  },
+  "D": {
+    "priest": ["kBQMXHtyqWiM2LxL6", "ogPZPPCKpGn4votMa", "3WzEi9zkHF77vdTw5"],
+    "wizard guy": ["JmgdhSKRPPxDKvprr"],
+    "long sleeved book": ["cA2SjWv3CePYZgyzS"],
+    "the man with a box": ["XpTJWaJYpSojYdngB"],
+    "draped clothing": ["LfuChcnEB54q8Ztys"]
+  },
+  "E": {
+    "bunny ears": [
+      "Sjf5nadz9keqBvs24",
+      "yYtSpzsEi4mnTuPrj",
+      "rSMFkjhskBteiyQMB",
+      "BXWWg9XvCErxTpT9k",
+      "JmgdhSKRPPxDKvprr",
+      "3WzEi9zkHF77vdTw5"
+    ],
+    "windmill": ["kBQMXHtyqWiM2LxL6"],
+    "crazy hat person": ["hhTtzgf2BMCbDwG5i"]
+  },
+  "F": {
+    "sad": ["pAaZt2Cv9MEFRCAY5", "rSMFkjhskBteiyQMB"],
+    "sitting man": ["cA2SjWv3CePYZgyzS"],
+    "arms under knees": ["BXWWg9XvCErxTpT9k"],
+    "pointed toes": ["JmgdhSKRPPxDKvprr"],
+    "fetal position": ["LfuChcnEB54q8Ztys"]
+  },
+  "G": {
+    "leg": ["BXWWg9XvCErxTpT9k", "pAaZt2Cv9MEFRCAY5"],
+    "strike a pose": ["hhTtzgf2BMCbDwG5i"],
+    "horse": ["kBQMXHtyqWiM2LxL6"],
+    "dog": ["rSMFkjhskBteiyQMB"],
+    "the strange dancer": ["XpTJWaJYpSojYdngB"]
+  },
+  "H": {
+    "baby": [
+      "rSMFkjhskBteiyQMB",
+      "kBQMXHtyqWiM2LxL6",
+      "ogPZPPCKpGn4votMa",
+      "rSMFkjhskBteiyQMB"
+    ],
+    "no arms": ["hhTtzgf2BMCbDwG5i", "JmgdhSKRPPxDKvprr", "LfuChcnEB54q8Ztys"],
+    "blob": ["yYtSpzsEi4mnTuPrj"],
+    "the innocent one": ["XpTJWaJYpSojYdngB"],
+    "chess pawn": ["P8wDF8HAYYAcwBYsm"],
+    "sleeping bag": ["cA2SjWv3CePYZgyzS"]
+  },
+  "I": {
+    "ice skater": [
+      "hhTtzgf2BMCbDwG5i",
+      "yYtSpzsEi4mnTuPrj",
+      "BXWWg9XvCErxTpT9k",
+      "hYBwiiFBSBi9ySwpJ",
+      "LfuChcnEB54q8Ztys"
+    ],
+    "ballerina": ["pAaZt2Cv9MEFRCAY5"],
+    "yoga guy": ["cA2SjWv3CePYZgyzS"]
+  },
+  "J": {
+    "fat guy": ["XpTJWaJYpSojYdngB", "hHoRuwi7p8k2XhzD3"],
+    "large cube": ["3AT9PDD5rDrb5GS4e"],
+    "man with cape": ["Sjf5nadz9keqBvs24"]
+  },
+  "K": {
+    "on their knees": ["cA2SjWv3CePYZgyzS", "ogPZPPCKpGn4votMa"],
+    "duck": ["3WzEi9zkHF77vdTw5"],
+    "arms held out": ["aJmxCcm4qPQKzrTZA"]
+  },
+  "L": {
+    "s shaped": ["cA2SjWv3CePYZgyzS", "JmgdhSKRPPxDKvprr"],
+    "zigzag": ["hHoRuwi7p8k2XhzD3", "pAaZt2Cv9MEFRCAY5"],
+    "bent knees": [
+      "rSMFkjhskBteiyQMB",
+      "3WzEi9zkHF77vdTw5",
+      "LfuChcnEB54q8Ztys"
+    ],
+    "squats": ["yYtSpzsEi4mnTuPrj"],
+    "crouching": ["XpTJWaJYpSojYdngB"]
+  }
+}
