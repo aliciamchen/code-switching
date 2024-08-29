@@ -1,0 +1,66 @@
+{
+  "red": {
+    "A": {
+      "label": "zombie",
+      "shared": "shared",
+      "game": "hhTtzgf2BMCbDwG5i"
+    },
+    "C": {
+      "label": "shrug",
+      "shared": "unique",
+      "game": "P8wDF8HAYYAcwBYsm"
+    },
+    "D": {
+      "label": "priest",
+      "shared": "shared",
+      "game": "3WzEi9zkHF77vdTw5"
+    },
+    "F": {
+      "label": "fetal position",
+      "shared": "unique",
+      "game": "LfuChcnEB54q8Ztys"
+    },
+    "K": {
+      "label": "on their knees",
+      "shared": "shared",
+      "game": "cA2SjWv3CePYZgyzS"
+    },
+    "L": {
+      "label": "crouching",
+      "shared": "unique",
+      "game": "XpTJWaJYpSojYdngB"
+    }
+  },
+  "blue": {
+    "A": {
+      "label": "zombie",
+      "shared": "shared",
+      "game": "hYBwiiFBSBi9ySwpJ"
+    },
+    "C": {
+      "label": "hug",
+      "shared": "unique",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "D": {
+      "label": "priest",
+      "shared": "shared",
+      "game": "kBQMXHtyqWiM2LxL6"
+    },
+    "F": {
+      "label": "sitting man",
+      "shared": "unique",
+      "game": "cA2SjWv3CePYZgyzS"
+    },
+    "K": {
+      "label": "on their knees",
+      "shared": "shared",
+      "game": "ogPZPPCKpGn4votMa"
+    },
+    "L": {
+      "label": "squats",
+      "shared": "unique",
+      "game": "yYtSpzsEi4mnTuPrj"
+    }
+  }
+}

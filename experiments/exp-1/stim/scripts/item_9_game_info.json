@@ -1,0 +1,66 @@
+{
+  "red": {
+    "A": {
+      "label": "crane kick",
+      "shared": "unique",
+      "game": "BXWWg9XvCErxTpT9k"
+    },
+    "B": {
+      "label": "mouse",
+      "shared": "shared",
+      "game": "P8wDF8HAYYAcwBYsm"
+    },
+    "E": {
+      "label": "bunny ears",
+      "shared": "shared",
+      "game": "yYtSpzsEi4mnTuPrj"
+    },
+    "G": {
+      "label": "dog",
+      "shared": "unique",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "H": {
+      "label": "the innocent one",
+      "shared": "unique",
+      "game": "XpTJWaJYpSojYdngB"
+    },
+    "K": {
+      "label": "on their knees",
+      "shared": "shared",
+      "game": "cA2SjWv3CePYZgyzS"
+    }
+  },
+  "blue": {
+    "A": {
+      "label": "dancing man",
+      "shared": "unique",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "B": {
+      "label": "mouse",
+      "shared": "shared",
+      "game": "hHoRuwi7p8k2XhzD3"
+    },
+    "E": {
+      "label": "bunny ears",
+      "shared": "shared",
+      "game": "JmgdhSKRPPxDKvprr"
+    },
+    "G": {
+      "label": "horse",
+      "shared": "unique",
+      "game": "kBQMXHtyqWiM2LxL6"
+    },
+    "H": {
+      "label": "sleeping bag",
+      "shared": "unique",
+      "game": "cA2SjWv3CePYZgyzS"
+    },
+    "K": {
+      "label": "on their knees",
+      "shared": "shared",
+      "game": "ogPZPPCKpGn4votMa"
+    }
+  }
+}

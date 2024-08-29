@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "B",
+    "shared": "shared",
+    "group": "red",
+    "label": "mouse"
+  },
+  {
+    "tangram": "B",
+    "shared": "shared",
+    "group": "blue",
+    "label": "mouse"
+  },
+  {
+    "tangram": "E",
+    "shared": "shared",
+    "group": "red",
+    "label": "bunny ears"
+  },
+  {
+    "tangram": "E",
+    "shared": "shared",
+    "group": "blue",
+    "label": "bunny ears"
+  },
+  {
+    "tangram": "H",
+    "shared": "unique",
+    "group": "red",
+    "label": "the innocent one"
+  },
+  {
+    "tangram": "H",
+    "shared": "unique",
+    "group": "blue",
+    "label": "sleeping bag"
+  },
+  {
+    "tangram": "A",
+    "shared": "unique",
+    "group": "red",
+    "label": "crane kick"
+  },
+  {
+    "tangram": "A",
+    "shared": "unique",
+    "group": "blue",
+    "label": "dancing man"
+  },
+  {
+    "tangram": "G",
+    "shared": "unique",
+    "group": "red",
+    "label": "dog"
+  },
+  {
+    "tangram": "G",
+    "shared": "unique",
+    "group": "blue",
+    "label": "horse"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "red",
+    "label": "on their knees"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "blue",
+    "label": "on their knees"
+  }
+]

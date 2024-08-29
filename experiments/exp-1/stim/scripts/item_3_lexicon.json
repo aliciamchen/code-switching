@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "I",
+    "shared": "unique",
+    "group": "red",
+    "label": "ballerina"
+  },
+  {
+    "tangram": "I",
+    "shared": "unique",
+    "group": "blue",
+    "label": "yoga guy"
+  },
+  {
+    "tangram": "A",
+    "shared": "shared",
+    "group": "red",
+    "label": "zombie"
+  },
+  {
+    "tangram": "A",
+    "shared": "shared",
+    "group": "blue",
+    "label": "zombie"
+  },
+  {
+    "tangram": "E",
+    "shared": "unique",
+    "group": "red",
+    "label": "windmill"
+  },
+  {
+    "tangram": "E",
+    "shared": "unique",
+    "group": "blue",
+    "label": "crazy hat person"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "red",
+    "label": "italian"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "blue",
+    "label": "shrug"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "red",
+    "label": "on their knees"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "blue",
+    "label": "on their knees"
+  },
+  {
+    "tangram": "L",
+    "shared": "shared",
+    "group": "red",
+    "label": "zigzag"
+  },
+  {
+    "tangram": "L",
+    "shared": "shared",
+    "group": "blue",
+    "label": "zigzag"
+  }
+]

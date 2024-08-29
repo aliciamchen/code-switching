@@ -1,0 +1,66 @@
+{
+  "red": {
+    "A": {
+      "label": "zombie",
+      "shared": "shared",
+      "game": "kBQMXHtyqWiM2LxL6"
+    },
+    "C": {
+      "label": "italian",
+      "shared": "unique",
+      "game": "LfuChcnEB54q8Ztys"
+    },
+    "E": {
+      "label": "windmill",
+      "shared": "unique",
+      "game": "kBQMXHtyqWiM2LxL6"
+    },
+    "I": {
+      "label": "ballerina",
+      "shared": "unique",
+      "game": "pAaZt2Cv9MEFRCAY5"
+    },
+    "K": {
+      "label": "on their knees",
+      "shared": "shared",
+      "game": "ogPZPPCKpGn4votMa"
+    },
+    "L": {
+      "label": "zigzag",
+      "shared": "shared",
+      "game": "pAaZt2Cv9MEFRCAY5"
+    }
+  },
+  "blue": {
+    "A": {
+      "label": "zombie",
+      "shared": "shared",
+      "game": "hYBwiiFBSBi9ySwpJ"
+    },
+    "C": {
+      "label": "shrug",
+      "shared": "unique",
+      "game": "P8wDF8HAYYAcwBYsm"
+    },
+    "E": {
+      "label": "crazy hat person",
+      "shared": "unique",
+      "game": "hhTtzgf2BMCbDwG5i"
+    },
+    "I": {
+      "label": "yoga guy",
+      "shared": "unique",
+      "game": "cA2SjWv3CePYZgyzS"
+    },
+    "K": {
+      "label": "on their knees",
+      "shared": "shared",
+      "game": "cA2SjWv3CePYZgyzS"
+    },
+    "L": {
+      "label": "zigzag",
+      "shared": "shared",
+      "game": "hHoRuwi7p8k2XhzD3"
+    }
+  }
+}

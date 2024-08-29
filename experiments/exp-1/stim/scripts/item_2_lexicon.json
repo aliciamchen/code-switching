@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "L",
+    "shared": "unique",
+    "group": "red",
+    "label": "crouching"
+  },
+  {
+    "tangram": "L",
+    "shared": "unique",
+    "group": "blue",
+    "label": "squats"
+  },
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "red",
+    "label": "the man with a box"
+  },
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "blue",
+    "label": "long sleeved book"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "red",
+    "label": "leg"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "blue",
+    "label": "leg"
+  },
+  {
+    "tangram": "F",
+    "shared": "shared",
+    "group": "red",
+    "label": "sad"
+  },
+  {
+    "tangram": "F",
+    "shared": "shared",
+    "group": "blue",
+    "label": "sad"
+  },
+  {
+    "tangram": "A",
+    "shared": "shared",
+    "group": "red",
+    "label": "zombie"
+  },
+  {
+    "tangram": "A",
+    "shared": "shared",
+    "group": "blue",
+    "label": "zombie"
+  },
+  {
+    "tangram": "J",
+    "shared": "unique",
+    "group": "red",
+    "label": "man with cape"
+  },
+  {
+    "tangram": "J",
+    "shared": "unique",
+    "group": "blue",
+    "label": "large cube"
+  }
+]

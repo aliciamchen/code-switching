@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "red",
+    "label": "the man with a box"
+  },
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "blue",
+    "label": "draped clothing"
+  },
+  {
+    "tangram": "B",
+    "shared": "unique",
+    "group": "red",
+    "label": "princess dance"
+  },
+  {
+    "tangram": "B",
+    "shared": "unique",
+    "group": "blue",
+    "label": "wings"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "red",
+    "label": "leg"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "blue",
+    "label": "leg"
+  },
+  {
+    "tangram": "E",
+    "shared": "shared",
+    "group": "red",
+    "label": "bunny ears"
+  },
+  {
+    "tangram": "E",
+    "shared": "shared",
+    "group": "blue",
+    "label": "bunny ears"
+  },
+  {
+    "tangram": "L",
+    "shared": "shared",
+    "group": "red",
+    "label": "s shaped"
+  },
+  {
+    "tangram": "L",
+    "shared": "shared",
+    "group": "blue",
+    "label": "s shaped"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "red",
+    "label": "italian"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "blue",
+    "label": "shrug"
+  }
+]

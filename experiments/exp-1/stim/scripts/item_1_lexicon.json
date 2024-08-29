@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "D",
+    "shared": "shared",
+    "group": "red",
+    "label": "priest"
+  },
+  {
+    "tangram": "D",
+    "shared": "shared",
+    "group": "blue",
+    "label": "priest"
+  },
+  {
+    "tangram": "L",
+    "shared": "unique",
+    "group": "red",
+    "label": "crouching"
+  },
+  {
+    "tangram": "L",
+    "shared": "unique",
+    "group": "blue",
+    "label": "squats"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "red",
+    "label": "shrug"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "blue",
+    "label": "hug"
+  },
+  {
+    "tangram": "A",
+    "shared": "shared",
+    "group": "red",
+    "label": "zombie"
+  },
+  {
+    "tangram": "A",
+    "shared": "shared",
+    "group": "blue",
+    "label": "zombie"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "red",
+    "label": "on their knees"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "blue",
+    "label": "on their knees"
+  },
+  {
+    "tangram": "F",
+    "shared": "unique",
+    "group": "red",
+    "label": "fetal position"
+  },
+  {
+    "tangram": "F",
+    "shared": "unique",
+    "group": "blue",
+    "label": "sitting man"
+  }
+]

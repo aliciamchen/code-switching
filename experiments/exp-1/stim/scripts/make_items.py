@@ -2,43 +2,35 @@
 This script generates the items (e.g. what set of conversations should each participant see?)
 """
 
-import random
-import re
 import json
+import random
 import pandas as pd
 
-# each dict is a conversation
-# TODO: assign a player who is speaker to each rep number
-# (don't use color specific labels - those can add later. maybe just use alice, bob, carol, etc)
+random.seed(88)
 
-# later - make big games by, for each game choose what is shared and what is unique
-# this will determine the possible conventions for each target
-# then for each target choose a convention, and for each convention choose a game (which determines the convo)
-# NOTE; have to translate the arbitrary speaker labels to alice/bob etc. - each rep corresponds to a fixed speaker
-# e.g. alice 0, bob 1, carol 2, dave 3, alice 4, bob 5
-# each of these correspodns to an avatar
+# conventions = {
+#     "D": {
+#         "shared": ["priest"],
+#         "unique": ["wizard guy", "long sleeved book"],
+#     },  # etc
+# }
 
-conventions = {
-    "D": {
-        "shared": ["priest"],
-        "unique": ["wizard guy", "long sleeved book"],
-    },  # etc
-}
-# if shared draw from shared, if unique draw one from unique
-# TODO: should the unique ones be completely separate from the shared ones? like if in one item "preist" is shared, does that mean that the unique tangrams for another tangram cant include "priest"?
+# conventions_games = {
+#     "D": {
+#         "priest": ["kBQMXHtyqWiM2LxL6", "ogPZPPCKpGn4votMa"],
+#         "wizard guy": ["JmgdhSKRPPxDKvprr"],
+#         "long sleeved book": ["cA2SjWv3CePYZgyzS"],
+#     }
+# }
 
 
-conventions_games = {
-    "D": {"priest": ["xxx", "yyy"], "wizard guy": ["zzz"], "long sleeved book": ["qqq"]}
-}  # etc
-# for "shared" find a list that has at least 2 elements
 
 tangrams = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
-# tangrams = ["D"]
 
 
 def choose_tangrams(tangrams: list):
     """Choose a subset of 6 tangrams from the list of tangrams"""
+    # TODO: later counterbalance across participants
     return random.sample(tangrams, 6)
 
 
@@ -123,7 +115,7 @@ def choose_games(labels: dict, conventions_games: dict):
     return output
 
 
-def make_2AFC_lexicon(choose_games_output):
+def make_2AFC_lexicon(choose_games_output, chosen_tangrams):
     """Takes in the output of choose_games
     Make in the format of e.g.,
     [
@@ -146,9 +138,10 @@ def make_2AFC_lexicon(choose_games_output):
             {"tangram": "L", "shared": "unique", "group": "blue", "label": "labelL1"},
             {"tangram": "L", "shared": "unique", "group": "red", "label": "labelL2"},
         ]
+    Chosen tangrams is available tangrams (e.g. 6)
     """
     lexicon = []
-    for tangram in tangrams:
+    for tangram in chosen_tangrams:
         for group in ["red", "blue"]:
             if choose_games_output[group][tangram]["shared"] == "shared":
                 shared = "shared"
@@ -161,30 +154,40 @@ def make_2AFC_lexicon(choose_games_output):
     return lexicon
 
 
-def wrapper(n_items):
+def main(n_items):
     """wrapper to make n items"""
+    # load in conventions_games.json
+    with open("conventions_games.json", "r") as f:
+        conventions_games = json.load(f)
+
+    # store what can be shared and what can be unique
+    conventions = {}
+    for tangram, labels in conventions_games.items():
+        conventions[tangram] = {"shared": [], "unique": []}
+        for label, games in labels.items():
+            if len(games) > 1:
+                conventions[tangram]['shared'].append(label)
+            else:
+                conventions[tangram]['unique'].append(label)
+    with open("conventions.json", "w") as f:
+        json.dump(conventions, f)
+
+
+    for i in range(n_items):
+        chosen_tangrams = choose_tangrams(tangrams)
+        shared_unique = choose_shared_unique(chosen_tangrams)
+        labels = choose_labels(shared_unique, conventions)
+        games = choose_games(labels, conventions_games)
+        twoafc_lexicon = make_2AFC_lexicon(games, chosen_tangrams)
+
+        # save
+        with open(f"item_{i}_lexicon.json", "w") as f:
+            json.dump(twoafc_lexicon, f, indent=2)
+
+        with open(f"item_{i}_game_info.json", "w") as f:
+            json.dump(games, f, indent=2)
 
 
 if __name__ == "__main__":
 
-    chat_data = (
-        pd.read_csv("../boyce_data/filtered_chat.csv")
-        .reset_index()
-        .rename(columns={"level_0": "chat_idx"})
-    )
-
-    response_data = pd.read_csv('../boyce_data/round_results.csv')
-
-
-    chosen_tangrams = choose_tangrams(tangrams)
-    shared_unique = choose_shared_unique(chosen_tangrams)
-    print(shared_unique)
-    labels = choose_labels(shared_unique, conventions)
-    print(labels)
-    games = choose_games(labels, conventions_games)
-    print(games)
-
-    twoafc_lexicon = make_2AFC_lexicon(games)
-    print(twoafc_lexicon)
-
-    convo_data = get_convo_data("D", "priest", "xxx", chat_data, response_data)
+    main(n_items=10) # generate 10 independent sets of items

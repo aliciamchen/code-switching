@@ -1,0 +1,66 @@
+{
+  "red": {
+    "A": {
+      "label": "crane kick",
+      "shared": "unique",
+      "game": "BXWWg9XvCErxTpT9k"
+    },
+    "C": {
+      "label": "hug",
+      "shared": "unique",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "D": {
+      "label": "wizard guy",
+      "shared": "unique",
+      "game": "JmgdhSKRPPxDKvprr"
+    },
+    "E": {
+      "label": "bunny ears",
+      "shared": "shared",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "F": {
+      "label": "sad",
+      "shared": "shared",
+      "game": "pAaZt2Cv9MEFRCAY5"
+    },
+    "G": {
+      "label": "leg",
+      "shared": "shared",
+      "game": "BXWWg9XvCErxTpT9k"
+    }
+  },
+  "blue": {
+    "A": {
+      "label": "bird man",
+      "shared": "unique",
+      "game": "LfuChcnEB54q8Ztys"
+    },
+    "C": {
+      "label": "shrug",
+      "shared": "unique",
+      "game": "P8wDF8HAYYAcwBYsm"
+    },
+    "D": {
+      "label": "draped clothing",
+      "shared": "unique",
+      "game": "LfuChcnEB54q8Ztys"
+    },
+    "E": {
+      "label": "bunny ears",
+      "shared": "shared",
+      "game": "JmgdhSKRPPxDKvprr"
+    },
+    "F": {
+      "label": "sad",
+      "shared": "shared",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "G": {
+      "label": "leg",
+      "shared": "shared",
+      "game": "pAaZt2Cv9MEFRCAY5"
+    }
+  }
+}

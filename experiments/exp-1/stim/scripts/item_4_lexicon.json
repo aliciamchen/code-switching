@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "L",
+    "shared": "unique",
+    "group": "red",
+    "label": "crouching"
+  },
+  {
+    "tangram": "L",
+    "shared": "unique",
+    "group": "blue",
+    "label": "squats"
+  },
+  {
+    "tangram": "G",
+    "shared": "unique",
+    "group": "red",
+    "label": "dog"
+  },
+  {
+    "tangram": "G",
+    "shared": "unique",
+    "group": "blue",
+    "label": "horse"
+  },
+  {
+    "tangram": "J",
+    "shared": "unique",
+    "group": "red",
+    "label": "man with cape"
+  },
+  {
+    "tangram": "J",
+    "shared": "unique",
+    "group": "blue",
+    "label": "large cube"
+  },
+  {
+    "tangram": "C",
+    "shared": "shared",
+    "group": "red",
+    "label": "Y"
+  },
+  {
+    "tangram": "C",
+    "shared": "shared",
+    "group": "blue",
+    "label": "Y"
+  },
+  {
+    "tangram": "H",
+    "shared": "shared",
+    "group": "red",
+    "label": "baby"
+  },
+  {
+    "tangram": "H",
+    "shared": "shared",
+    "group": "blue",
+    "label": "baby"
+  },
+  {
+    "tangram": "E",
+    "shared": "shared",
+    "group": "red",
+    "label": "bunny ears"
+  },
+  {
+    "tangram": "E",
+    "shared": "shared",
+    "group": "blue",
+    "label": "bunny ears"
+  }
+]

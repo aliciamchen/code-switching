@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "red",
+    "label": "the man with a box"
+  },
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "blue",
+    "label": "draped clothing"
+  },
+  {
+    "tangram": "F",
+    "shared": "shared",
+    "group": "red",
+    "label": "sad"
+  },
+  {
+    "tangram": "F",
+    "shared": "shared",
+    "group": "blue",
+    "label": "sad"
+  },
+  {
+    "tangram": "J",
+    "shared": "shared",
+    "group": "red",
+    "label": "fat guy"
+  },
+  {
+    "tangram": "J",
+    "shared": "shared",
+    "group": "blue",
+    "label": "fat guy"
+  },
+  {
+    "tangram": "I",
+    "shared": "shared",
+    "group": "red",
+    "label": "ice skater"
+  },
+  {
+    "tangram": "I",
+    "shared": "shared",
+    "group": "blue",
+    "label": "ice skater"
+  },
+  {
+    "tangram": "G",
+    "shared": "unique",
+    "group": "red",
+    "label": "horse"
+  },
+  {
+    "tangram": "G",
+    "shared": "unique",
+    "group": "blue",
+    "label": "strike a pose"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "red",
+    "label": "hug"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "blue",
+    "label": "italian"
+  }
+]

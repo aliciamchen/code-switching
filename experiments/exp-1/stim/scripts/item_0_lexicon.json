@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "red",
+    "label": "leg"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "blue",
+    "label": "leg"
+  },
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "red",
+    "label": "wizard guy"
+  },
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "blue",
+    "label": "draped clothing"
+  },
+  {
+    "tangram": "F",
+    "shared": "shared",
+    "group": "red",
+    "label": "sad"
+  },
+  {
+    "tangram": "F",
+    "shared": "shared",
+    "group": "blue",
+    "label": "sad"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "red",
+    "label": "hug"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "blue",
+    "label": "shrug"
+  },
+  {
+    "tangram": "A",
+    "shared": "unique",
+    "group": "red",
+    "label": "crane kick"
+  },
+  {
+    "tangram": "A",
+    "shared": "unique",
+    "group": "blue",
+    "label": "bird man"
+  },
+  {
+    "tangram": "E",
+    "shared": "shared",
+    "group": "red",
+    "label": "bunny ears"
+  },
+  {
+    "tangram": "E",
+    "shared": "shared",
+    "group": "blue",
+    "label": "bunny ears"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "red": {
+    "B": {
+      "label": "princess dance",
+      "shared": "unique",
+      "game": "BXWWg9XvCErxTpT9k"
+    },
+    "C": {
+      "label": "italian",
+      "shared": "unique",
+      "game": "LfuChcnEB54q8Ztys"
+    },
+    "D": {
+      "label": "the man with a box",
+      "shared": "unique",
+      "game": "XpTJWaJYpSojYdngB"
+    },
+    "E": {
+      "label": "bunny ears",
+      "shared": "shared",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "G": {
+      "label": "leg",
+      "shared": "shared",
+      "game": "pAaZt2Cv9MEFRCAY5"
+    },
+    "L": {
+      "label": "s shaped",
+      "shared": "shared",
+      "game": "cA2SjWv3CePYZgyzS"
+    }
+  },
+  "blue": {
+    "B": {
+      "label": "wings",
+      "shared": "unique",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "C": {
+      "label": "shrug",
+      "shared": "unique",
+      "game": "P8wDF8HAYYAcwBYsm"
+    },
+    "D": {
+      "label": "draped clothing",
+      "shared": "unique",
+      "game": "LfuChcnEB54q8Ztys"
+    },
+    "E": {
+      "label": "bunny ears",
+      "shared": "shared",
+      "game": "Sjf5nadz9keqBvs24"
+    },
+    "G": {
+      "label": "leg",
+      "shared": "shared",
+      "game": "BXWWg9XvCErxTpT9k"
+    },
+    "L": {
+      "label": "s shaped",
+      "shared": "shared",
+      "game": "JmgdhSKRPPxDKvprr"
+    }
+  }
+}

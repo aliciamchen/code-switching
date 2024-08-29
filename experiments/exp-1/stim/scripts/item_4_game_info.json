@@ -1,0 +1,66 @@
+{
+  "red": {
+    "C": {
+      "label": "Y",
+      "shared": "shared",
+      "game": "JmgdhSKRPPxDKvprr"
+    },
+    "E": {
+      "label": "bunny ears",
+      "shared": "shared",
+      "game": "BXWWg9XvCErxTpT9k"
+    },
+    "G": {
+      "label": "dog",
+      "shared": "unique",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "H": {
+      "label": "baby",
+      "shared": "shared",
+      "game": "rSMFkjhskBteiyQMB"
+    },
+    "J": {
+      "label": "man with cape",
+      "shared": "unique",
+      "game": "Sjf5nadz9keqBvs24"
+    },
+    "L": {
+      "label": "crouching",
+      "shared": "unique",
+      "game": "XpTJWaJYpSojYdngB"
+    }
+  },
+  "blue": {
+    "C": {
+      "label": "Y",
+      "shared": "shared",
+      "game": "ogPZPPCKpGn4votMa"
+    },
+    "E": {
+      "label": "bunny ears",
+      "shared": "shared",
+      "game": "JmgdhSKRPPxDKvprr"
+    },
+    "G": {
+      "label": "horse",
+      "shared": "unique",
+      "game": "kBQMXHtyqWiM2LxL6"
+    },
+    "H": {
+      "label": "baby",
+      "shared": "shared",
+      "game": "kBQMXHtyqWiM2LxL6"
+    },
+    "J": {
+      "label": "large cube",
+      "shared": "unique",
+      "game": "3AT9PDD5rDrb5GS4e"
+    },
+    "L": {
+      "label": "squats",
+      "shared": "unique",
+      "game": "yYtSpzsEi4mnTuPrj"
+    }
+  }
+}

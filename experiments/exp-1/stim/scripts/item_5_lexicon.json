@@ -1,0 +1,74 @@
+[
+  {
+    "tangram": "F",
+    "shared": "shared",
+    "group": "red",
+    "label": "sad"
+  },
+  {
+    "tangram": "F",
+    "shared": "shared",
+    "group": "blue",
+    "label": "sad"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "red",
+    "label": "leg"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "blue",
+    "label": "leg"
+  },
+  {
+    "tangram": "I",
+    "shared": "shared",
+    "group": "red",
+    "label": "ice skater"
+  },
+  {
+    "tangram": "I",
+    "shared": "shared",
+    "group": "blue",
+    "label": "ice skater"
+  },
+  {
+    "tangram": "K",
+    "shared": "unique",
+    "group": "red",
+    "label": "arms held out"
+  },
+  {
+    "tangram": "K",
+    "shared": "unique",
+    "group": "blue",
+    "label": "duck"
+  },
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "red",
+    "label": "long sleeved book"
+  },
+  {
+    "tangram": "D",
+    "shared": "unique",
+    "group": "blue",
+    "label": "the man with a box"
+  },
+  {
+    "tangram": "A",
+    "shared": "unique",
+    "group": "red",
+    "label": "crane kick"
+  },
+  {
+    "tangram": "A",
+    "shared": "unique",
+    "group": "blue",
+    "label": "dancing man"
+  }
+]
