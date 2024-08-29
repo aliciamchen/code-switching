@@ -1,3 +1,7 @@
+"""
+This script generates the items (e.g. what set of conversations should each participant see?)
+"""
+
 import random
 import re
 import json
@@ -119,104 +123,6 @@ def choose_games(labels: dict, conventions_games: dict):
     return output
 
 
-def extract_letter(tangram_path: str) -> str:
-    """extract letter from tangram path"""
-    match = re.search(r"tangram_([A-Z])", tangram_path)
-    if match:
-        return match.group(1)
-    return None
-
-
-def get_convo_data(tangram, label, game, chat_data, response_data):
-    """
-    Given a target tangram and a game, extract the convo data for each rep
-    (make sure to rename the players to alice, bob, carol, dave, etc.)
-    Output should be in the format of, e.g.,
-        {
-        "target": "C",
-        "convention": "crane kick",
-        "game": "xxx",
-        "rep": 0,
-        "speakerThisRep": "alice",
-        "convo": [{"player": "xxx", "text": "sample", "time": 2, "role": "speaker"}],
-        "choices": {"bob": "B", "carol": "C", "dave": "B"}
-    }
-    (there should be one element per rep)
-    """
-    chat = chat_data[
-        (chat_data["gameId"] == game)
-        & (chat_data["target"] == f"/experiment/tangram_{tangram}.png")
-    ]
-    response = response_data[
-        (response_data["gameId"] == game)
-        & (response_data["target"] == f"/experiment/tangram_{tangram}.png")
-    ]
-
-    # rename the playerIds
-    # rename the speaker at rep 0 to alice, rep 1 to bob, rep 2 to carol, rep 3 to dave
-    rename_mappings = {}
-    for participant in chat["playerId"].unique():
-        speaker_rep_num = chat[chat["speaker"] == participant]["repNum"].unique()[0]
-        speaker_rep_num = (
-            speaker_rep_num % 4
-        )  # dont necessarily need to do this, but just in case
-        rename_mappings[participant] = ["alice", "bob", "carol", "dave"][
-            speaker_rep_num
-        ]
-
-    # rename the playerIds in the chat data
-    for participant in rename_mappings:
-        chat.loc[chat["playerId"] == participant, "playerId"] = rename_mappings[
-            participant
-        ]
-        chat.loc[chat["speaker"] == participant, "speaker"] = rename_mappings[
-            participant
-        ]
-
-    # rename the playerIds in the response data
-    for participant in rename_mappings:
-        response.loc[response["playerId"] == participant, "playerId"] = rename_mappings[
-            participant
-        ]
-
-    # for each rep num, make convo
-    output = []
-    for rep in chat["repNum"].unique():
-        rep_chat = chat[chat["repNum"] == rep]
-        convo = []
-
-        # extract convo data
-        for idx, row in rep_chat.iterrows():
-            convo.append(
-                {
-                    "player": row["playerId"],
-                    "text": row["text"],
-                    "time": random.uniform(0.5, 1.5),
-                    "role": row["role"],
-                }
-            )
-
-        # extract choices
-        choices = response[(response["repNum"] == rep)]
-        choices = {
-            row["playerId"]: extract_letter(row["response"])
-            for idx, row in choices.iterrows()
-        }
-        output.append(
-            {
-                "target": tangram,
-                "convention": label,
-                "game": game,
-                "repNum": rep,
-                "speakerThisRep": rep_chat["speaker"].unique()[0],
-                "convo": convo,
-                "choices": choices,
-            }
-        )
-
-    return output
-
-
 def make_2AFC_lexicon(choose_games_output):
     """Takes in the output of choose_games
     Make in the format of e.g.,
@@ -260,6 +166,16 @@ def wrapper(n_items):
 
 
 if __name__ == "__main__":
+
+    chat_data = (
+        pd.read_csv("../boyce_data/filtered_chat.csv")
+        .reset_index()
+        .rename(columns={"level_0": "chat_idx"})
+    )
+
+    response_data = pd.read_csv('../boyce_data/round_results.csv')
+
+
     chosen_tangrams = choose_tangrams(tangrams)
     shared_unique = choose_shared_unique(chosen_tangrams)
     print(shared_unique)
@@ -269,4 +185,6 @@ if __name__ == "__main__":
     print(games)
 
     twoafc_lexicon = make_2AFC_lexicon(games)
+    print(twoafc_lexicon)
 
+    convo_data = get_convo_data("D", "priest", "xxx", chat_data, response_data)
