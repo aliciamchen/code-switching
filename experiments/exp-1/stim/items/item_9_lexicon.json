@@ -1,39 +1,27 @@
 [
   {
-    "tangram": "D",
+    "tangram": "A",
     "shared": "unique",
     "group": "red",
-    "label": "the man with a box"
+    "label": "crane kick"
   },
   {
-    "tangram": "D",
+    "tangram": "A",
     "shared": "unique",
     "group": "blue",
-    "label": "draped clothing"
+    "label": "dancing man"
   },
   {
     "tangram": "B",
-    "shared": "unique",
+    "shared": "shared",
     "group": "red",
-    "label": "princess dance"
+    "label": "mouse"
   },
   {
     "tangram": "B",
-    "shared": "unique",
-    "group": "blue",
-    "label": "wings"
-  },
-  {
-    "tangram": "G",
-    "shared": "shared",
-    "group": "red",
-    "label": "leg"
-  },
-  {
-    "tangram": "G",
     "shared": "shared",
     "group": "blue",
-    "label": "leg"
+    "label": "mouse"
   },
   {
     "tangram": "E",
@@ -48,27 +36,39 @@
     "label": "bunny ears"
   },
   {
-    "tangram": "L",
-    "shared": "shared",
-    "group": "red",
-    "label": "s shaped"
-  },
-  {
-    "tangram": "L",
-    "shared": "shared",
-    "group": "blue",
-    "label": "s shaped"
-  },
-  {
-    "tangram": "C",
+    "tangram": "G",
     "shared": "unique",
     "group": "red",
-    "label": "italian"
+    "label": "dog"
   },
   {
-    "tangram": "C",
+    "tangram": "G",
     "shared": "unique",
     "group": "blue",
-    "label": "shrug"
+    "label": "horse"
+  },
+  {
+    "tangram": "H",
+    "shared": "unique",
+    "group": "red",
+    "label": "the innocent one"
+  },
+  {
+    "tangram": "H",
+    "shared": "unique",
+    "group": "blue",
+    "label": "sleeping bag"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "red",
+    "label": "on their knees"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "blue",
+    "label": "on their knees"
   }
 ]

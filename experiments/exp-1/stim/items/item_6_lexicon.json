@@ -1,51 +1,51 @@
 [
   {
-    "tangram": "A",
+    "tangram": "C",
     "shared": "unique",
     "group": "red",
-    "label": "crane kick"
+    "label": "hug"
   },
   {
-    "tangram": "A",
+    "tangram": "C",
     "shared": "unique",
     "group": "blue",
-    "label": "dancing man"
+    "label": "italian"
   },
   {
-    "tangram": "H",
+    "tangram": "D",
     "shared": "unique",
     "group": "red",
-    "label": "chess pawn"
+    "label": "the man with a box"
   },
   {
-    "tangram": "H",
+    "tangram": "D",
     "shared": "unique",
     "group": "blue",
-    "label": "the innocent one"
+    "label": "draped clothing"
   },
   {
-    "tangram": "J",
+    "tangram": "F",
     "shared": "shared",
     "group": "red",
-    "label": "fat guy"
+    "label": "sad"
   },
   {
-    "tangram": "J",
+    "tangram": "F",
     "shared": "shared",
     "group": "blue",
-    "label": "fat guy"
+    "label": "sad"
   },
   {
-    "tangram": "E",
+    "tangram": "G",
     "shared": "unique",
     "group": "red",
-    "label": "crazy hat person"
+    "label": "horse"
   },
   {
-    "tangram": "E",
+    "tangram": "G",
     "shared": "unique",
     "group": "blue",
-    "label": "windmill"
+    "label": "strike a pose"
   },
   {
     "tangram": "I",
@@ -60,15 +60,15 @@
     "label": "ice skater"
   },
   {
-    "tangram": "G",
+    "tangram": "J",
     "shared": "shared",
     "group": "red",
-    "label": "leg"
+    "label": "fat guy"
   },
   {
-    "tangram": "G",
+    "tangram": "J",
     "shared": "shared",
     "group": "blue",
-    "label": "leg"
+    "label": "fat guy"
   }
 ]

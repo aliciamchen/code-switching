@@ -1,63 +1,39 @@
 [
   {
-    "tangram": "L",
+    "tangram": "B",
     "shared": "unique",
     "group": "red",
-    "label": "crouching"
+    "label": "princess dance"
   },
   {
-    "tangram": "L",
+    "tangram": "B",
     "shared": "unique",
     "group": "blue",
-    "label": "squats"
-  },
-  {
-    "tangram": "G",
-    "shared": "unique",
-    "group": "red",
-    "label": "dog"
-  },
-  {
-    "tangram": "G",
-    "shared": "unique",
-    "group": "blue",
-    "label": "horse"
-  },
-  {
-    "tangram": "J",
-    "shared": "unique",
-    "group": "red",
-    "label": "man with cape"
-  },
-  {
-    "tangram": "J",
-    "shared": "unique",
-    "group": "blue",
-    "label": "large cube"
+    "label": "wings"
   },
   {
     "tangram": "C",
-    "shared": "shared",
+    "shared": "unique",
     "group": "red",
-    "label": "Y"
+    "label": "italian"
   },
   {
     "tangram": "C",
-    "shared": "shared",
+    "shared": "unique",
     "group": "blue",
-    "label": "Y"
+    "label": "shrug"
   },
   {
-    "tangram": "H",
-    "shared": "shared",
+    "tangram": "D",
+    "shared": "unique",
     "group": "red",
-    "label": "baby"
+    "label": "the man with a box"
   },
   {
-    "tangram": "H",
-    "shared": "shared",
+    "tangram": "D",
+    "shared": "unique",
     "group": "blue",
-    "label": "baby"
+    "label": "draped clothing"
   },
   {
     "tangram": "E",
@@ -70,5 +46,29 @@
     "shared": "shared",
     "group": "blue",
     "label": "bunny ears"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "red",
+    "label": "leg"
+  },
+  {
+    "tangram": "G",
+    "shared": "shared",
+    "group": "blue",
+    "label": "leg"
+  },
+  {
+    "tangram": "L",
+    "shared": "shared",
+    "group": "red",
+    "label": "s shaped"
+  },
+  {
+    "tangram": "L",
+    "shared": "shared",
+    "group": "blue",
+    "label": "s shaped"
   }
 ]

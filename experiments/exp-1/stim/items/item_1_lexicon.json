@@ -1,5 +1,65 @@
 [
   {
+    "tangram": "A",
+    "shared": "shared",
+    "group": "red",
+    "label": "zombie"
+  },
+  {
+    "tangram": "A",
+    "shared": "shared",
+    "group": "blue",
+    "label": "zombie"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "red",
+    "label": "shrug"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "blue",
+    "label": "hug"
+  },
+  {
+    "tangram": "D",
+    "shared": "shared",
+    "group": "red",
+    "label": "priest"
+  },
+  {
+    "tangram": "D",
+    "shared": "shared",
+    "group": "blue",
+    "label": "priest"
+  },
+  {
+    "tangram": "F",
+    "shared": "unique",
+    "group": "red",
+    "label": "fetal position"
+  },
+  {
+    "tangram": "F",
+    "shared": "unique",
+    "group": "blue",
+    "label": "sitting man"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "red",
+    "label": "on their knees"
+  },
+  {
+    "tangram": "K",
+    "shared": "shared",
+    "group": "blue",
+    "label": "on their knees"
+  },
+  {
     "tangram": "L",
     "shared": "unique",
     "group": "red",
@@ -10,65 +70,5 @@
     "shared": "unique",
     "group": "blue",
     "label": "squats"
-  },
-  {
-    "tangram": "D",
-    "shared": "unique",
-    "group": "red",
-    "label": "the man with a box"
-  },
-  {
-    "tangram": "D",
-    "shared": "unique",
-    "group": "blue",
-    "label": "long sleeved book"
-  },
-  {
-    "tangram": "G",
-    "shared": "shared",
-    "group": "red",
-    "label": "leg"
-  },
-  {
-    "tangram": "G",
-    "shared": "shared",
-    "group": "blue",
-    "label": "leg"
-  },
-  {
-    "tangram": "F",
-    "shared": "shared",
-    "group": "red",
-    "label": "sad"
-  },
-  {
-    "tangram": "F",
-    "shared": "shared",
-    "group": "blue",
-    "label": "sad"
-  },
-  {
-    "tangram": "A",
-    "shared": "shared",
-    "group": "red",
-    "label": "zombie"
-  },
-  {
-    "tangram": "A",
-    "shared": "shared",
-    "group": "blue",
-    "label": "zombie"
-  },
-  {
-    "tangram": "J",
-    "shared": "unique",
-    "group": "red",
-    "label": "man with cape"
-  },
-  {
-    "tangram": "J",
-    "shared": "unique",
-    "group": "blue",
-    "label": "large cube"
   }
 ]

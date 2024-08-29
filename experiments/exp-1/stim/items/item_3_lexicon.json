@@ -1,51 +1,51 @@
 [
   {
-    "tangram": "D",
+    "tangram": "A",
     "shared": "shared",
     "group": "red",
-    "label": "priest"
+    "label": "zombie"
   },
   {
-    "tangram": "D",
+    "tangram": "A",
     "shared": "shared",
     "group": "blue",
-    "label": "priest"
-  },
-  {
-    "tangram": "L",
-    "shared": "unique",
-    "group": "red",
-    "label": "crouching"
-  },
-  {
-    "tangram": "L",
-    "shared": "unique",
-    "group": "blue",
-    "label": "squats"
+    "label": "zombie"
   },
   {
     "tangram": "C",
     "shared": "unique",
     "group": "red",
+    "label": "italian"
+  },
+  {
+    "tangram": "C",
+    "shared": "unique",
+    "group": "blue",
     "label": "shrug"
   },
   {
-    "tangram": "C",
+    "tangram": "E",
+    "shared": "unique",
+    "group": "red",
+    "label": "windmill"
+  },
+  {
+    "tangram": "E",
     "shared": "unique",
     "group": "blue",
-    "label": "hug"
+    "label": "crazy hat person"
   },
   {
-    "tangram": "A",
-    "shared": "shared",
+    "tangram": "I",
+    "shared": "unique",
     "group": "red",
-    "label": "zombie"
+    "label": "ballerina"
   },
   {
-    "tangram": "A",
-    "shared": "shared",
+    "tangram": "I",
+    "shared": "unique",
     "group": "blue",
-    "label": "zombie"
+    "label": "yoga guy"
   },
   {
     "tangram": "K",
@@ -60,15 +60,15 @@
     "label": "on their knees"
   },
   {
-    "tangram": "F",
-    "shared": "unique",
+    "tangram": "L",
+    "shared": "shared",
     "group": "red",
-    "label": "fetal position"
+    "label": "zigzag"
   },
   {
-    "tangram": "F",
-    "shared": "unique",
+    "tangram": "L",
+    "shared": "shared",
     "group": "blue",
-    "label": "sitting man"
+    "label": "zigzag"
   }
 ]

@@ -1,15 +1,15 @@
 [
   {
-    "tangram": "B",
+    "tangram": "C",
     "shared": "shared",
     "group": "red",
-    "label": "mouse"
+    "label": "Y"
   },
   {
-    "tangram": "B",
+    "tangram": "C",
     "shared": "shared",
     "group": "blue",
-    "label": "mouse"
+    "label": "Y"
   },
   {
     "tangram": "E",
@@ -22,30 +22,6 @@
     "shared": "shared",
     "group": "blue",
     "label": "bunny ears"
-  },
-  {
-    "tangram": "H",
-    "shared": "unique",
-    "group": "red",
-    "label": "the innocent one"
-  },
-  {
-    "tangram": "H",
-    "shared": "unique",
-    "group": "blue",
-    "label": "sleeping bag"
-  },
-  {
-    "tangram": "A",
-    "shared": "unique",
-    "group": "red",
-    "label": "crane kick"
-  },
-  {
-    "tangram": "A",
-    "shared": "unique",
-    "group": "blue",
-    "label": "dancing man"
   },
   {
     "tangram": "G",
@@ -60,15 +36,39 @@
     "label": "horse"
   },
   {
-    "tangram": "K",
+    "tangram": "H",
     "shared": "shared",
     "group": "red",
-    "label": "on their knees"
+    "label": "baby"
   },
   {
-    "tangram": "K",
+    "tangram": "H",
     "shared": "shared",
     "group": "blue",
-    "label": "on their knees"
+    "label": "baby"
+  },
+  {
+    "tangram": "J",
+    "shared": "unique",
+    "group": "red",
+    "label": "man with cape"
+  },
+  {
+    "tangram": "J",
+    "shared": "unique",
+    "group": "blue",
+    "label": "large cube"
+  },
+  {
+    "tangram": "L",
+    "shared": "unique",
+    "group": "red",
+    "label": "crouching"
+  },
+  {
+    "tangram": "L",
+    "shared": "unique",
+    "group": "blue",
+    "label": "squats"
   }
 ]
