@@ -1,0 +1,164 @@
+[
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "ice skaing one!",
+        "time": 1.387621692360678,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "squre head balancin",
+        "time": 1.1157206924702026,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Ha!  Two triangles on left?",
+        "time": 1.0414715417266356,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "two triangle arms pointing to the left",
+        "time": 1.1653360191539526,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "the ice skating one",
+        "time": 1.2434571725832404,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "figure facing to the left",
+        "time": 1.10898536528865,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Two triangles to the left, facing safe direction?",
+        "time": 0.8144830588562953,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.5383237157613185,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "with one leg sticking back out",
+        "time": 1.3783215587035782,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "dave": "I",
+      "carol": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "figure skater",
+        "time": 1.3424883605521423,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "dave": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Figure skater",
+        "time": 0.7148417380231807,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "figuer skater",
+        "time": 0.9976921994294216,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "figure skater",
+        "time": 1.4090564327278428,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "dave": "I",
+      "carol": "I"
+    }
+  }
+]

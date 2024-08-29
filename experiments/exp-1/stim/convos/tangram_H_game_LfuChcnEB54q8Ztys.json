@@ -1,0 +1,200 @@
+[
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "ok square balancing on top",
+        "time": 1.2594111515890694,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "body is fairly straight with no arms",
+        "time": 1.0550532397821406,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "triangle pointing out at the bottom to the right",
+        "time": 1.311379458053807,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "H",
+      "carol": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "no arms",
+        "time": 1.3078743095274856,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing the right",
+        "time": 0.8595194546075169,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "dave": "H",
+      "carol": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "facing right, square balancing on top, flat on either side",
+        "time": 0.6271867872563511,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "no arms",
+        "time": 0.7642752678568419,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Standing?",
+        "time": 0.61074050691333,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "triangle for feet bottom right",
+        "time": 1.2112244304662143,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "hmm",
+        "time": 1.0227322800448904,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "looks like a blob with a square head",
+        "time": 0.8995956868365053,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Square balancing on left corner?",
+        "time": 0.8995968923356047,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yea",
+        "time": 1.3625952254058267,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Two triangles on top or no?",
+        "time": 1.3737228070520846,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "no triangles",
+        "time": 0.8863178397634232,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "dave": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Facing right, no arms, but like the offering one",
+        "time": 1.3252005787253358,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Flat left side",
+        "time": 0.5720145031067984,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "standing no arms",
+        "time": 1.1612088672401972,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "H",
+      "carol": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "no arms!",
+        "time": 1.4894659808855448,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "dave": "H",
+      "carol": "H"
+    }
+  }
+]

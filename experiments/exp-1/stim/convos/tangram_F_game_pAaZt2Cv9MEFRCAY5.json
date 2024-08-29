@@ -1,0 +1,218 @@
+[
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Person sitting down, facing the left",
+        "time": 0.8574349239354043,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "knees are upwards?",
+        "time": 1.4348975798380796,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Kind of like he's looking down",
+        "time": 0.6467284150405651,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "is their foot facing the left too",
+        "time": 1.1600183871175471,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "this one is rather easy just given that haha",
+        "time": 1.205340155616303,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Foot is facing left",
+        "time": 1.4006329317964252,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Knees kind of make a triangle shape",
+        "time": 0.613512644873554,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "CODE name?",
+        "time": 0.921833659371248,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "sad boi",
+        "time": 0.9459386324663874,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "sad boy lol",
+        "time": 0.869465972873301,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "nice",
+        "time": 1.1021131392947066,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "seems good to me, LOL",
+        "time": 0.8971534030258169,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yeah he does look sad",
+        "time": 1.2045298510588034,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "sad boi",
+        "time": 0.6313662151948399,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "depresso :(",
+        "time": 1.0918719918927087,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "The one facing to the left?",
+        "time": 0.8267917698453598,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "hotcha",
+        "time": 1.4540934210207213,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yeah with his knee out",
+        "time": 1.4214140346796273,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "dave": "F",
+      "alice": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "sad boy",
+        "time": 0.7623159553679291,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "F",
+      "dave": "F",
+      "alice": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "sad boy",
+        "time": 0.7761505261456585,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "alice": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "sad boy",
+        "time": 0.626735309518762,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "sad guy :(",
+        "time": 1.0452139630433377,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "dave": "F",
+      "alice": "F"
+    }
+  }
+]

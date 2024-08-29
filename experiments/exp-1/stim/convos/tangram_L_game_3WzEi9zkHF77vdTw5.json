@@ -1,0 +1,248 @@
+[
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "ok so its like a guy sort of crouching with his hands folded",
+        "time": 0.6380329682683856,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "idk how to describe stuff good sorry",
+        "time": 1.1066685346963587,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "facing right or left?",
+        "time": 0.955235450654895,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "right",
+        "time": 1.4096375988048009,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "like 2 rhombuses on the bottom with a square on that a triangle to the right and a diamond on top",
+        "time": 1.354098150165243,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "but the triangle isnt small",
+        "time": 1.360667152755299,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "thanks",
+        "time": 0.6015514714223954,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "bob": "L",
+      "carol": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Person is crouching with his arms out",
+        "time": 1.440224258995665,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "he is facing to the right",
+        "time": 1.2449323762732245,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "more?",
+        "time": 1.4366489312861694,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Triangle head",
+        "time": 1.108032463975178,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "alice": "L",
+      "carol": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "man crouching facing right with arms out in front of him",
+        "time": 0.7378220161680799,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "bob": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "crouching to the right, triangle arm out praying, knees bent",
+        "time": 1.2523873228551,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "love this!",
+        "time": 0.957789968625968,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "lower half like >",
+        "time": 1.3642128297235727,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "and same",
+        "time": 1.1834077379977428,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "yes!",
+        "time": 0.5378929694032852,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "L",
+      "alice": "L",
+      "carol": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "crouching guy",
+        "time": 0.6000143508134999,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "facing right",
+        "time": 0.7211525414285602,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "knees bent",
+        "time": 1.1381522577320602,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "with arms?",
+        "time": 1.2861729918374063,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yep",
+        "time": 0.8272707065634403,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "bob": "L",
+      "carol": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "crouching guy",
+        "time": 0.6119849293815981,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing right",
+        "time": 1.3177752408644607,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": ">?",
+        "time": 1.2560839816014497,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "he is crouching",
+        "time": 1.0925185421520887,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "knees bent",
+        "time": 0.8090432145774489,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "alice": "L",
+      "carol": "L"
+    }
+  }
+]

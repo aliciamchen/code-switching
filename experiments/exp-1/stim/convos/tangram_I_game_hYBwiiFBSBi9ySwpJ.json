@@ -1,0 +1,122 @@
+[
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back",
+        "time": 0.9475282344292775,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "figure skature pose, standing on one leg",
+        "time": 0.7548458801659282,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "figure skater on one leg",
+        "time": 0.9519738505926009,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "bob": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "figure skater",
+        "time": 0.9518571852968627,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "bob": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "figure skater",
+        "time": 1.40885152983732,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "figure skater",
+        "time": 0.7783593129997207,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "I",
+      "alice": "I"
+    }
+  }
+]

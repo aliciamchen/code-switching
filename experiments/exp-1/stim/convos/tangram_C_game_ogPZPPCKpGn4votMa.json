@@ -1,128 +1,128 @@
 [
   {
-    "target": "D",
-    "convention": "priest",
+    "target": "C",
+    "convention": "Y",
     "game": "ogPZPPCKpGn4votMa",
     "repNum": 0,
     "speakerThisRep": "alice",
     "convo": [
       {
         "player": "alice",
-        "text": "looks like a priest wearing a robe. facing left. arms stretched out holding something",
-        "time": 0.7388232835698344,
+        "text": "person has arms raised up in the air",
+        "time": 1.160591539830234,
         "role": "speaker"
       },
       {
         "player": "alice",
-        "text": "standing straight up",
-        "time": 0.8072386879355633,
+        "text": "like the \"y\" in the ymca song",
+        "time": 0.7204293023796595,
         "role": "speaker"
       }
     ],
     "choices": {
-      "bob": "D",
-      "carol": "D",
-      "dave": "D"
+      "bob": "C",
+      "carol": "C",
+      "dave": "C"
     }
   },
   {
-    "target": "D",
-    "convention": "priest",
+    "target": "C",
+    "convention": "Y",
     "game": "ogPZPPCKpGn4votMa",
     "repNum": 1,
     "speakerThisRep": "bob",
     "convo": [
       {
         "player": "bob",
-        "text": "It looks like a pastor",
-        "time": 0.906676548102786,
+        "text": "the Y in YMCA",
+        "time": 0.5436267482856341,
         "role": "speaker"
       }
     ],
     "choices": {
-      "alice": "D",
-      "carol": "D",
-      "dave": "D"
+      "alice": "C",
+      "carol": "C",
+      "dave": "C"
     }
   },
   {
-    "target": "D",
-    "convention": "priest",
+    "target": "C",
+    "convention": "Y",
     "game": "ogPZPPCKpGn4votMa",
     "repNum": 2,
     "speakerThisRep": "carol",
     "convo": [
       {
         "player": "carol",
-        "text": "looks like the priest holding something facing left",
-        "time": 1.4758213806039575,
+        "text": "y in ymca",
+        "time": 0.9929836374671814,
         "role": "speaker"
       }
     ],
     "choices": {
-      "alice": "D",
-      "bob": "D",
-      "dave": "D"
+      "alice": "C",
+      "bob": "C",
+      "dave": "C"
     }
   },
   {
-    "target": "D",
-    "convention": "priest",
+    "target": "C",
+    "convention": "Y",
     "game": "ogPZPPCKpGn4votMa",
     "repNum": 3,
     "speakerThisRep": "dave",
     "convo": [
       {
         "player": "dave",
-        "text": "priest",
-        "time": 0.998981089489712,
+        "text": "Y in ymca",
+        "time": 1.1058532968733652,
         "role": "speaker"
       }
     ],
     "choices": {
-      "alice": "D",
-      "bob": "D",
-      "carol": "D"
+      "alice": "C",
+      "bob": "C",
+      "carol": "C"
     }
   },
   {
-    "target": "D",
-    "convention": "priest",
+    "target": "C",
+    "convention": "Y",
     "game": "ogPZPPCKpGn4votMa",
     "repNum": 4,
     "speakerThisRep": "alice",
     "convo": [
       {
         "player": "alice",
-        "text": "priest",
-        "time": 1.2415661823203408,
+        "text": "y in ymca",
+        "time": 0.6292291138217126,
         "role": "speaker"
       }
     ],
     "choices": {
-      "bob": "D",
-      "carol": "D",
-      "dave": "D"
+      "bob": "C",
+      "carol": "C",
+      "dave": "C"
     }
   },
   {
-    "target": "D",
-    "convention": "priest",
+    "target": "C",
+    "convention": "Y",
     "game": "ogPZPPCKpGn4votMa",
     "repNum": 5,
     "speakerThisRep": "bob",
     "convo": [
       {
         "player": "bob",
-        "text": "priest",
-        "time": 0.5347255300799085,
+        "text": "y in ymca",
+        "time": 1.3779006803528273,
         "role": "speaker"
       }
     ],
     "choices": {
-      "alice": "D",
-      "carol": "D",
-      "dave": "D"
+      "alice": "C",
+      "carol": "C",
+      "dave": "C"
     }
   }
 ]

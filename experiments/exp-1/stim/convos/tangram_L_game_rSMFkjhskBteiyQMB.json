@@ -1,0 +1,122 @@
+[
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "This looks like a person giving a speech from a book again but this time with knees bent",
+        "time": 1.4789123242714797,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "speaker with bent knee",
+        "time": 1.3584076116817023,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "carol": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "speaker bent knees",
+        "time": 0.81822935669869,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "sermon speaker, with bent knees",
+        "time": 1.335623480623216,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "carol": "L",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "bent speaker",
+        "time": 0.5013979193252174,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "bent knee speaker",
+        "time": 1.4547711084818526,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "carol": "L",
+      "dave": "L"
+    }
+  }
+]

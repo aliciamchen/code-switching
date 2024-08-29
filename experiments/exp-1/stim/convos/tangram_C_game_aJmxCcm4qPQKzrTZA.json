@@ -1,0 +1,182 @@
+[
+  {
+    "target": "C",
+    "convention": "no legs",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "athlete raising arms in victory after a goal",
+        "time": 1.3568132032273652,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "or someone praying with arms facing up to the heavens",
+        "time": 1.1680803212280901,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "B",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "no legs",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "careful, wet floor",
+        "time": 1.4626609923375296,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "sign",
+        "time": 0.805088905760996,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing right",
+        "time": 0.8990293038448238,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "no legs visible",
+        "time": 1.323222948616122,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "body ends at waist?",
+        "time": 0.6616908657470101,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.8471689089657485,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "no legs",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "figure facing right, arms raised, no legs visible",
+        "time": 0.6458498962394404,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "looks like the figure is about to fall over",
+        "time": 0.7351954746914859,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "B",
+      "alice": "C",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "no legs",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "A shadow on the floor. Both arms slightly raised.",
+        "time": 1.1997624566698635,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "No legs. Cuts off mid-body",
+        "time": 1.3468304930484405,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "alice": "C",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "no legs",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "someone praying, arms raised to heaven, body cut off at waist",
+        "time": 0.6199713685559104,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "leaning way to left",
+        "time": 1.046312257700227,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "no legs",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "falling back with arms flying in the air",
+        "time": 0.9839798142266877,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "no legs",
+        "time": 0.6798814911808374,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "alice": "C"
+    }
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "target": "F",
+    "convention": "pointed toes",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "sittiing",
+        "time": 1.2674065023447434,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "diamond leaing face to the left",
+        "time": 0.8441521744333687,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "1 clear food woth shoe",
+        "time": 1.0505226641574308,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "looks like leaning on wall?",
+        "time": 1.1330101371581909,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "gap between leg and body",
+        "time": 1.2484740940992187,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "part of the back is straight",
+        "time": 0.8298566322551643,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "pointed toes",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "facing left, sitting against a wall, head tilted down. knees bent. no arms visible",
+        "time": 0.6315064242503423,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "alice": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "pointed toes",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "sitting down like against wall, facing left, legs and feet to the left",
+        "time": 1.1585423847336285,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "head tilted down?",
+        "time": 1.3502728268144648,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "triangle like shoes?",
+        "time": 0.9982454437566165,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes, head tilted down",
+        "time": 1.148861667642936,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "F",
+      "alice": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "pointed toes",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "sat down, facing left, held tilted slightly down, kness slightly bent to left triangle shoe",
+        "time": 1.3783492660901953,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "alice": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "pointed toes",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "sitting straight back",
+        "time": 1.080975314209718,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "1 leg in fro t to left",
+        "time": 0.5341915263733804,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "head leaning forward",
+        "time": 1.0906088059769354,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "pointed toes",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "facing left, head tilted forward, sitting down against wall, knees bent",
+        "time": 1.0239897686978843,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "1  triangle foot?",
+        "time": 0.5432665754505661,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "pointed toes",
+        "time": 1.4103383771670592,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "alice": "F",
+      "dave": "F"
+    }
+  }
+]

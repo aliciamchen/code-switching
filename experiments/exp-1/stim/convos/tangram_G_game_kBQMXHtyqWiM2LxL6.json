@@ -1,0 +1,302 @@
+[
+  {
+    "target": "G",
+    "convention": "horse",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "?",
+        "time": 1.246951065836416,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Its a lot of shapes. On the bottom is a parollelogram.",
+        "time": 1.317753420481829,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Need a bit more to go by, sorry",
+        "time": 0.5613441543054719,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "the one that looks like a yoga pose?",
+        "time": 1.1681956061760834,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "facing right?",
+        "time": 0.819896839010111,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "No, it doesn't look like a person",
+        "time": 1.484803177651886,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Is the top of it a square that's tilted to the left? Almost looks like it's falling off",
+        "time": 1.179112832474173,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Yeah, adn there's a triangle on the right also falling off",
+        "time": 1.426536870648778,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Towards the bottom",
+        "time": 0.732224250167157,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Yes I know the one",
+        "time": 1.4873022144183006,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "yeah that's the one I meant",
+        "time": 1.0739605660179814,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "bob": "B",
+      "carol": "G",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "horse",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "hmm",
+        "time": 1.1573325124930935,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "looks like someone leaning their head back with a leg forward and another behind (on the knee)",
+        "time": 0.5778607931105304,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "forgive my poor description",
+        "time": 1.0312494164011772,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "the one that's a bit like a yoga pose",
+        "time": 0.8669073128470723,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "and an arm stretched up towards the right",
+        "time": 1.2175716039249207,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Is the head (diamond) falling off to the left?",
+        "time": 1.3527935914575178,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 1.1707884847853043,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "horse",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "nice one",
+        "time": 0.645207825736871,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "The head is falling off to the left",
+        "time": 0.8474787152389379,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "It's the only one with that",
+        "time": 0.7187189007028412,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Parallelogram at the bottom",
+        "time": 1.106059959535079,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "is it the one with the long thing at the back?",
+        "time": 0.6213917685020668,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "No i don't think so",
+        "time": 1.3716635663734502,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "oh ok",
+        "time": 1.1720750146133336,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "darn I think I got the wrong one",
+        "time": 1.0370925115892213,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Does it have a triangle towards the bottom pointing down on the right",
+        "time": 1.082178232027183,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "The head (square) is falling to the left",
+        "time": 1.4005439626419482,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "same lol",
+        "time": 0.7509698063670214,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "bob": "G",
+      "dave": "A",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "horse",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "the yoga pose facing RIGHT, heading tipping back towards the left",
+        "time": 0.5090814203223958,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "with the extra long bit at the bottom left",
+        "time": 1.2401383694388164,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "That's the one I call the horse about to gallop lol",
+        "time": 1.473207460404811,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "lol",
+        "time": 1.3782902376673882,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "bob": "G",
+      "carol": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "horse",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "The weird horse/yoga pose",
+        "time": 0.7854432292829017,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "haha that works",
+        "time": 0.7131095734501589,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "bob": "G",
+      "carol": "G",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "horse",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "horsee",
+        "time": 0.9534681175712106,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "G",
+      "alice": "G"
+    }
+  }
+]

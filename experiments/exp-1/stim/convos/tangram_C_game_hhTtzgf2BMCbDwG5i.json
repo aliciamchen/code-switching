@@ -1,0 +1,146 @@
+[
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "almost looks like someone slipped and is falling backward with hands in the air",
+        "time": 0.7726955647650772,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Does it look like it's from the waist up only? As in we can't see it's legs?",
+        "time": 0.8068718065009971,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 1.4910280245208822,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Gotcha",
+        "time": 1.1698938817721631,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "This is the one who's slipping over.",
+        "time": 1.474489256042414,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Falling backwards. Arms in the air.",
+        "time": 1.3012872875665624,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "G",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the one thats falling backwards",
+        "time": 0.6323775930346501,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "C",
+      "bob": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "falling back guy with his hands arms out",
+        "time": 0.9980280792855889,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "the falling one with no feet",
+        "time": 1.040317379668556,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Falling backwards guy!",
+        "time": 0.7460285850377592,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "alice": "C"
+    }
+  }
+]

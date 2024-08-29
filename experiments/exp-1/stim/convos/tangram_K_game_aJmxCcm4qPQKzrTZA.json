@@ -1,0 +1,200 @@
+[
+  {
+    "target": "K",
+    "convention": "arms held out",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "person kneeling arms in same position as last",
+        "time": 1.1838418239934643,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "would be a thin body facing right",
+        "time": 1.2869245597339511,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "K",
+      "dave": "K",
+      "bob": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "arms held out",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "woman kneeling with arms raised in front",
+        "time": 0.8876730827742496,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "holding a tray",
+        "time": 1.1124972134579378,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "head upright",
+        "time": 0.7987774054590552,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "facing left or right?",
+        "time": 0.761230965520592,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "protruding shape on her back",
+        "time": 1.1061163413340105,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing right",
+        "time": 0.6025042429677413,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "K",
+      "dave": "K",
+      "alice": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "arms held out",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "figure facing right, in a kneeling position, arms in front of her, appears to be holding something",
+        "time": 0.5666861256093405,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "looks like a female figure",
+        "time": 1.2721717614841352,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "K",
+      "alice": "K",
+      "bob": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "arms held out",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Kneeling down. FAcing Right. Arms out in front. Legs against the wall.",
+        "time": 1.242024597768282,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "is the head upright or tilted?",
+        "time": 0.65358078376503,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "it's diamond, right side up",
+        "time": 1.0100798974695324,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "K",
+      "alice": "K",
+      "bob": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "arms held out",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "thinner body kneeling right",
+        "time": 1.1181419925882032,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "arms  in front",
+        "time": 0.865698689777278,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "hunch back",
+        "time": 1.3346457032349748,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "or hump on back",
+        "time": 1.3041275979621743,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "K",
+      "dave": "K",
+      "bob": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "arms held out",
+    "game": "aJmxCcm4qPQKzrTZA",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "woman kneeling facing right",
+        "time": 0.6431983764688326,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "arms held out",
+        "time": 0.554469345309818,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "K",
+      "dave": "K",
+      "alice": "K"
+    }
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Man looks like hes doing the \"thriller\" dance, his head behind him",
+        "time": 1.081204323111576,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "I THOUGHT THAT TOO",
+        "time": 0.967690763498579,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Zombie pose to the left, his head to the right",
+        "time": 1.3006757929670463,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "one leg up?",
+        "time": 0.8793339991748321,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "One leg up, right?",
+        "time": 0.7692056493069713,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Legs are apart to step, arms are together",
+        "time": 1.100492436037766,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "One leg up",
+        "time": 1.4044719338124771,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Thriller dance, standing on one leg with other one up, both arms out, body facing left head facing right",
+        "time": 1.4365307081247445,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "dave": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Thriller",
+        "time": 1.4095565833276587,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "A",
+      "dave": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "thriller",
+        "time": 0.9381620247588959,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Thriller",
+        "time": 1.4168336216592767,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Thriller",
+        "time": 0.7631251412400233,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "dave": "A",
+      "alice": "A"
+    }
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Looks like a letter 'i'",
+        "time": 1.2839504129809787,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "does it look like with its hand out or not",
+        "time": 1.1186218426115477,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "^",
+        "time": 0.6066773682802468,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no hand it is just a head and a body.",
+        "time": 0.551957105012842,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "oke",
+        "time": 1.0899441494783648,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "more like a baby that has been swaddled in a blanket",
+        "time": 1.0429974368673975,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "swaddled baby",
+        "time": 0.9910326240498307,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "I",
+        "time": 0.7448437693349608,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "i",
+        "time": 1.4909857203907522,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the baby i",
+        "time": 0.7188101546319143,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "baby swaddled, looks like an i",
+        "time": 0.8750265906627265,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "swaddled baby",
+        "time": 0.565479626021405,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "iBaby",
+        "time": 0.710195928154811,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  }
+]

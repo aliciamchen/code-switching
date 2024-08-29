@@ -1,0 +1,224 @@
+[
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "s shape body",
+        "time": 1.1501301114539146,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "squatting position",
+        "time": 1.1026959810849708,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "diamond shaped head?",
+        "time": 0.802674406491144,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no feet",
+        "time": 1.469141533444413,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "facing to the right?",
+        "time": 0.6903816676964886,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes diamond",
+        "time": 0.5943563144454974,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "knees bending?",
+        "time": 1.4433444281962162,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 1.2871265140174728,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "arms to the right",
+        "time": 0.5269977597663364,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "straight back?",
+        "time": 0.6193104445646688,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "bent knees",
+        "time": 0.6485242553592004,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "gap behind knees",
+        "time": 0.5568310276538482,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "upright diamond head, facing right. knees bent, can't see feet, looks like just one arm facing right. body is \"S\" shaped",
+        "time": 1.349930648819921,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "alice": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "facing right, bending knees, 's' shaped arms, body and legs",
+        "time": 0.8995685535412812,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "L",
+      "alice": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "s shape",
+        "time": 1.2273173806528437,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "facing right",
+        "time": 1.291317930685163,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Not the praying position",
+        "time": 0.6799585011770437,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "squatting with no feet visible",
+        "time": 1.4152591546370359,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "s shaped?",
+        "time": 1.4616516388012082,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "S shape",
+        "time": 1.0875876429116071,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "arm pointed right?",
+        "time": 0.8615913087288145,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Yes",
+        "time": 0.9649882320851484,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "\"S\" shaped guy",
+        "time": 1.360653111689773,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "alice": "L",
+      "dave": "L"
+    }
+  }
+]

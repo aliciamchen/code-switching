@@ -1,0 +1,176 @@
+[
+  {
+    "target": "A",
+    "convention": "dancing man",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "This one looks like a person dancing. They have one foot on the floor and another foot is raised",
+        "time": 1.087286643960489,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "is their head tilted back?",
+        "time": 1.006081244479896,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "their ears are made from a square shape",
+        "time": 0.5138440357122834,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "and then another 4 sided shape",
+        "time": 0.6438651997111463,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "its the last one we haven't selected",
+        "time": 1.3851895582318283,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "i don't remember which ones i haven't selected... so going off description",
+        "time": 0.7486012670859739,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "factual",
+        "time": 1.008325613575674,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "its the one with 2 heads almost",
+        "time": 0.8499484879168522,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "it seems to me",
+        "time": 0.7815171875331208,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "dancing man",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "dancing man, 1 foot up, 1 down, 2 heads",
+        "time": 1.4864379431350216,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "carol": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "dancing man",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "dancing man",
+        "time": 1.0853162450321978,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "bob": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "dancing man",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "dancing man",
+        "time": 1.0729789667742522,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "two heads",
+        "time": 1.282439997719662,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "carol": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "dancing man",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "dancing man",
+        "time": 0.600314872252328,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "dancing man",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "dancing man",
+        "time": 0.6424188611575162,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "carol": "A",
+      "dave": "A"
+    }
+  }
+]

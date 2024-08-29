@@ -1,0 +1,200 @@
+[
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "its like an angel flying",
+        "time": 0.5039373969503133,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "its like a rhombus with diamond in the top corners and a diamond for the head",
+        "time": 0.6263041971743061,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "so it looks like a guy with wings",
+        "time": 1.1868745630373405,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "square body with two arms out?",
+        "time": 1.3508764170525165,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no like its leaning left",
+        "time": 1.298259187363434,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "are the arms up to the side of the head, or below",
+        "time": 1.4190582057273815,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "above",
+        "time": 1.4336848279249756,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "ace",
+        "time": 1.0275259970788577,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "the guy is tilted to the left?",
+        "time": 0.9422828932497957,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yep",
+        "time": 0.6157756658933978,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "C",
+      "bob": "C",
+      "carol": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "The person looks like he is falling backwards",
+        "time": 1.1242929616912698,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "he is tilted to the left",
+        "time": 1.1400081230017722,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "his arms are above his head",
+        "time": 1.1918609791226888,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "C",
+      "alice": "C",
+      "carol": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "looks like someone falling with arms above head",
+        "time": 1.1524990565487105,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "falling backwards to the left",
+        "time": 1.46597205478726,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "C",
+      "bob": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "falling back to the left",
+        "time": 1.0843522316824354,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "C",
+      "alice": "C",
+      "carol": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "falling left",
+        "time": 0.8540417206561634,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "C",
+      "bob": "C",
+      "carol": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "guy falling to the left",
+        "time": 1.277441774617408,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "team thriller box priest is so good at this now",
+        "time": 1.044536391954777,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "C",
+      "alice": "C",
+      "carol": "C"
+    }
+  }
+]

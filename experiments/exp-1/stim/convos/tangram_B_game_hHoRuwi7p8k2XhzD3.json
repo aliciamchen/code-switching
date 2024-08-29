@@ -1,0 +1,218 @@
+[
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "the head is on a flat surface",
+        "time": 0.9983803863481954,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with a triangle stuck to the side of the head",
+        "time": 0.8638569376904628,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the head and neck looks a bit like a pacman mouth",
+        "time": 1.4060702221932146,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "triangle on the right side of head?",
+        "time": 0.683989098097273,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.5911073238732718,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Head angled, triangle from his neck",
+        "time": 0.9152016054072234,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "does it look like a kneeling fairy/angel?",
+        "time": 1.3682962111857626,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "B",
+      "carol": "B",
+      "bob": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "man kneeling with hands together on left forming a triangle",
+        "time": 0.5097236313834336,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "head looking up facing left",
+        "time": 0.9902694969498265,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "triangle hat on back of head near neck area",
+        "time": 1.2292465904714487,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "feet extend out on left side",
+        "time": 1.4209834097603657,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "bunny ears?",
+        "time": 1.4119781644413414,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "no bunny ears",
+        "time": 0.8373644131275182,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "just one triangle hat on right side of head",
+        "time": 0.6821127942774874,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "B",
+      "carol": "B",
+      "alice": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Looks like a mouses head with two ears, one square one triangle",
+        "time": 1.1314934740863816,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "B",
+      "bob": "B",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "looks like a mouse with one square ear and one triangle one",
+        "time": 1.4143875593378548,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "nose looking to the upper left",
+        "time": 0.7296527795730624,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "B",
+      "bob": "B",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "square head with a triangle hanging off it",
+        "time": 0.810113942659169,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "looks like a mouse?",
+        "time": 0.5670070091250567,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "triangle hanging to the right",
+        "time": 1.0864162523747747,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "head is on a flat surface",
+        "time": 0.6878672064097667,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "B",
+      "carol": "B",
+      "bob": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "mouse head",
+        "time": 0.6358766286852864,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "B",
+      "carol": "B",
+      "alice": "B"
+    }
+  }
+]

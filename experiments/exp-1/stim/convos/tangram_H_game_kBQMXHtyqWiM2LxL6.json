@@ -1,0 +1,194 @@
+[
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "It's a blob in the middle with a head on top",
+        "time": 1.024793719584637,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Its only two shapes",
+        "time": 1.0696113789645234,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "It sort of looks like a wrapped up baby",
+        "time": 0.5812688846055235,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "I'm struggling here",
+        "time": 1.219689088073727,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "with a square head?",
+        "time": 1.1377580551009316,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Yeah, sqare head",
+        "time": 0.8317064074641228,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "There are two like that, but I think only one looks like a wrapped up baby",
+        "time": 0.8579322472360055,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "The main shape is sort of like a hexagon",
+        "time": 1.3788646642500788,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "the one that looks like a wrapped up baby",
+        "time": 1.0583015651753032,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "with a diamond head",
+        "time": 0.8825480039458959,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "It's the baby",
+        "time": 1.015548902329856,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "L",
+      "dave": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "the baby",
+        "time": 1.1048037051372017,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "which one?",
+        "time": 1.2687723576931018,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "the cocooned one",
+        "time": 0.7659276551561043,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "lol",
+        "time": 0.9207369686295591,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "bob": "H",
+      "carol": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Cocooned baby",
+        "time": 1.3744891277511115,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "coccooned baby",
+        "time": 0.6836065840908185,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "this has been more fun than most studies on here",
+        "time": 1.2715582525046982,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "alice": "H"
+    }
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "target": "A",
+    "convention": "crane kick",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Similar to the karate kid movie",
+        "time": 0.8947862059894499,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the crane kick",
+        "time": 1.469608592546378,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Haha! Does it look like they have dangly sleeves!",
+        "time": 1.2564257242968138,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "I don't know that one.",
+        "time": 1.10654875882793,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 1.231985134935491,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "yes i see, thats a good explenation.",
+        "time": 0.9117600655627782,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "carol": "I",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "crane kick",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Crane kick again, face is like a beak, it is the only one which has a triangle beak face",
+        "time": 1.3094926016641315,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Or dangly sleeves?",
+        "time": 0.6889711770394209,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "dave": "A",
+      "carol": "G"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "crane kick",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Dangly sleeves up opposite head",
+        "time": 1.1988603920871106,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Standing on one leg",
+        "time": 1.2232571386026017,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Thanks",
+        "time": 0.5611488906580577,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "dave": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "crane kick",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "crane kick / beak face / one leg slighty raised in front",
+        "time": 0.7349135536814508,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "say no more boss",
+        "time": 1.2281995315440026,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "carol": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "crane kick",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "crane kick",
+        "time": 1.116529829734129,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "carol": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "crane kick",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "crane kick",
+        "time": 0.6689098973221442,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "dave": "A",
+      "carol": "A"
+    }
+  }
+]

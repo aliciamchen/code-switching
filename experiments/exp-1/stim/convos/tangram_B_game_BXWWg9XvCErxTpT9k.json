@@ -1,0 +1,212 @@
+[
+  {
+    "target": "B",
+    "convention": "princess dance",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "the person is kneeling with their hands streched out",
+        "time": 1.0003780255778503,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "not the one facing sideways",
+        "time": 1.3177210477242385,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Does it look like their heels are up behind them?",
+        "time": 1.3819085152842059,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "With a little triangle sticking up behind them?",
+        "time": 1.2985471956607562,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.6357318738800889,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "nice",
+        "time": 1.2778947618081866,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "K",
+      "carol": "L",
+      "bob": "K"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "princess dance",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side",
+        "time": 0.5365414932700117,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "You could say it is wearing a dress",
+        "time": 1.2592121423456402,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "B",
+      "dave": "B",
+      "carol": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "princess dance",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "One triangle arm to the left and one to the right.",
+        "time": 0.930833492223121,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Lets call this one the princess dance",
+        "time": 1.4907420614105846,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Good job",
+        "time": 0.8658032818696034,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "B",
+      "dave": "B",
+      "bob": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "princess dance",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Princess daNCE!",
+        "time": 1.3919364512418329,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "I knew it!",
+        "time": 0.5206693977180438,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "B",
+      "carol": "B",
+      "bob": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "princess dance",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Kneeling with both triangle arms out strectched",
+        "time": 1.34153312108266,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Triangle on back?",
+        "time": 0.5207022466783912,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.6281597592893097,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "one arm facing left one arm facing right?",
+        "time": 0.5314950180311395,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "Thick leg?",
+        "time": 1.2271621720113075,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "its the princess dance with a dress one leg out and two triangles one left one right",
+        "time": 0.8357503399550732,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes, triangle at the legs",
+        "time": 1.3535696964620505,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "B",
+      "carol": "K",
+      "bob": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "princess dance",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "princess dance",
+        "time": 1.0772107355274128,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "B",
+      "dave": "B",
+      "carol": "B"
+    }
+  }
+]

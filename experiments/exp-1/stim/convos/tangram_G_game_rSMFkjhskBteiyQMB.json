@@ -1,0 +1,176 @@
+[
+  {
+    "target": "G",
+    "convention": "dog",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "This one has a square on the left ( ear 1 ) and a 4 sided shape on the right (ear 2) it then has another shape that looks like a rectangle going down.",
+        "time": 1.2825975834394399,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "it connects to a bigger 4 sided shape at the bottom (trapezium?) with a smaller triangle on the right hand side",
+        "time": 1.0573423073800106,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "kind of looks like a dog to me",
+        "time": 1.3825830665117746,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "bob": "G",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "dog",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "looks like a dog, at the top theres a square at the left and a triangle on the right. they are connected to another triangle",
+        "time": 1.4133957589754935,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "the 3 shapes are connected to a rectangle, connecting to the triangle and a parallelogram",
+        "time": 0.6960398381806986,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "carol": "G",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "dog",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the one that looks like its doing the lunge exercise",
+        "time": 0.7790713752243196,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "with arms up",
+        "time": 0.5530855606997622,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "one leg back",
+        "time": 0.6441073225458374,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "that looks like a dog from a different angle?",
+        "time": 0.8985711623785986,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "the one that looks like a dog?",
+        "time": 1.4390547602514117,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "one foot in front on the right",
+        "time": 1.0428003148826117,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "yeah",
+        "time": 1.4526987635704423,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "bob": "G",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "dog",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "the one that looks like a dog",
+        "time": 0.9027573111953311,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "carol": "G",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "dog",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "dog",
+        "time": 0.606581079824279,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "bob": "G",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "dog",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "dog",
+        "time": 1.0677988729356,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "carol": "G",
+      "dave": "G"
+    }
+  }
+]

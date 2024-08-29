@@ -1,0 +1,182 @@
+[
+  {
+    "target": "E",
+    "convention": "windmill",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "It looks like a windmill on top of a hill",
+        "time": 0.5766873053109447,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "The peak is on the left",
+        "time": 0.8649108623914021,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Two triangles and a square on top?",
+        "time": 0.6645694304666625,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "That's correct",
+        "time": 0.5823604159525607,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "I believe I cracked it",
+        "time": 1.187463644187822,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "bob": "E",
+      "carol": "E",
+      "dave": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "windmill",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "We should just create nicknames for these things lol. That one's the priest!",
+        "time": 0.5964432546722255,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Windmill on top of a mountail or hill",
+        "time": 1.0744231547639918,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "lol",
+        "time": 0.7984590139852524,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "straight side on the left",
+        "time": 0.622495413826698,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "dave": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "windmill",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Windmill",
+        "time": 0.6150265444242043,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "E",
+      "dave": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "windmill",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "haha you guys paved the way",
+        "time": 0.8922979869285211,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "windmill on top of a hill on the left",
+        "time": 0.9531463676253911,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "E",
+      "carol": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "windmill",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Windmill",
+        "time": 1.0237694644224848,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Oh yeah",
+        "time": 1.2712726340092826,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "On the left",
+        "time": 0.502512807184509,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "E",
+      "carol": "E",
+      "dave": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "windmill",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "windmill on hill",
+        "time": 0.7289471386675387,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "dave": "E",
+      "alice": "E"
+    }
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "target": "A",
+    "convention": "bird man",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "ok this one looks like it has 2 legs, balancing on one foot",
+        "time": 1.352887426933719,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "leaning left?",
+        "time": 0.5302960533691058,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "looks like a head with a beak is looking down to the raised foot",
+        "time": 0.7331170116203393,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "facing the left",
+        "time": 0.7966616616018676,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "then a square jutting out of the right shoulder",
+        "time": 0.9273822063931952,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Ah, got it",
+        "time": 1.3023363089246605,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "anyone else need more info?",
+        "time": 1.3712769093518182,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "does it look like this figure is ice skating or no",
+        "time": 0.9293959956871597,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "not not the ice skating one, i think i know what you mean",
+        "time": 1.0383175425870874,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "oki",
+        "time": 0.820578337718391,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "carol": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "bird man",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "looks like a walking zombie",
+        "time": 0.952324188289907,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "square tilted back, figure facing the left",
+        "time": 1.482592981149609,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "one leg is down, one leg is up",
+        "time": 1.360838562707911,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "one leg up on the left and one on the ground",
+        "time": 0.7114573768531651,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "?",
+        "time": 0.8793822615350447,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.9039078031332654,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "oh haha you answered",
+        "time": 0.6747087794889101,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "dave": "A",
+      "carol": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "bird man",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "dancing birdman",
+        "time": 1.350395164010876,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "facing left",
+        "time": 1.3566399027970828,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "big triangle for a head",
+        "time": 0.9518241191245469,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "dquare balanced over right shoulder with one leg up",
+        "time": 0.5240337124980524,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "square*",
+        "time": 1.130187757378729,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "gotcha",
+        "time": 1.3362124499246162,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "dave": "A",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "bird man",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Bird man",
+        "time": 0.9405645841277923,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Square on right balancing on corner",
+        "time": 0.8894775363838097,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Left foot off the ground, right foot on",
+        "time": 0.8762663424513437,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "carol": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "bird man",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "bird man dancing",
+        "time": 0.8443140794480573,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "carol": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "bird man",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "bird man",
+        "time": 1.1656331830182975,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "dave": "A",
+      "carol": "A"
+    }
+  }
+]

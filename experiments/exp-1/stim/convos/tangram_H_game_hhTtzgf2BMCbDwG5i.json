@@ -1,0 +1,164 @@
+[
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "this one you can't really see the feet, hard to tell if they're sitting or what",
+        "time": 1.286683369335865,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "can you see arms?",
+        "time": 1.1714602388423545,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no",
+        "time": 1.2643348532214103,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "okay",
+        "time": 1.3592776803417084,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Does it look like it's facing left or right?",
+        "time": 1.3630307037382368,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "does it have a hat?",
+        "time": 0.9606538651342849,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "right i think, and nothing on top of the head, no hat",
+        "time": 1.3174340920397007,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "nice",
+        "time": 0.7249234492521958,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "No arms or legs visible. Maybe sitting or leaning up against something",
+        "time": 0.8741509910833356,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the one with no arms",
+        "time": 1.4521200580470242,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "H",
+      "bob": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "no arms or legs guy",
+        "time": 1.0554378846783155,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "no arms or feet",
+        "time": 1.004854571623939,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "No arms or legs",
+        "time": 0.5369257544296197,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "alice": "H"
+    }
+  }
+]

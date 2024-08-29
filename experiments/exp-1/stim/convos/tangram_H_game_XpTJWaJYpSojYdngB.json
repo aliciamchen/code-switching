@@ -1,0 +1,314 @@
+[
+  {
+    "target": "H",
+    "convention": "the innocent one",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "He is sitting down. Only one side of his knee is visible.",
+        "time": 0.6740059440071638,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "His one knee is pointing to the RIGHT in the pic.",
+        "time": 1.4227204693422237,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "His head is a classic diamond shape.",
+        "time": 1.3299025838720284,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "No arms visible.",
+        "time": 1.0440607233917434,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "no hands and no legs right?",
+        "time": 1.055427250741959,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "No feet visible.",
+        "time": 1.094859006352053,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Yes, Repi.",
+        "time": 0.9269408354731719,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "the innocent one",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "I got it, but his leg wasn't on the left",
+        "time": 0.9069643281764305,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Ye, ye I misguided you.",
+        "time": 0.955677456501034,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Clues??",
+        "time": 1.2927940330979117,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Ok, so he looks like he is medidating I can see only his one knee pointed to the right",
+        "time": 0.5938146503497717,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Anything else??",
+        "time": 0.5356947279031232,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "no arms",
+        "time": 0.6581501957316441,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "What does his head look like?",
+        "time": 0.6761863128506008,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yup no arms",
+        "time": 0.6164464131012821,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "right?",
+        "time": 1.4058391784040323,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "2 triangles off the box on the top?",
+        "time": 0.789681814631927,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "He is looking downard?",
+        "time": 0.7598907123862505,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "*downward?",
+        "time": 1.1546005830558568,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "No.",
+        "time": 1.1019701068878094,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "perfect right angle on the left?",
+        "time": 0.8815574612610868,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "I am inclined to believe so, Minu.",
+        "time": 1.2414462229837877,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "ugh",
+        "time": 0.5070803171522466,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "the innocent one",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the quite sitting guy with no arms",
+        "time": 1.0963746934780312,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "The knee is pointing to the left?",
+        "time": 1.0809420773770313,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes",
+        "time": 0.7101626331495551,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "he looks very innocent to me",
+        "time": 1.2900735497854843,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "doint nothing but sitting",
+        "time": 0.8806492254971341,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "the most simple one, I think",
+        "time": 1.474532553858799,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "H",
+      "bob": "H",
+      "alice": "F"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "the innocent one",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "simple one. no arms, just a box for the head. No legs",
+        "time": 1.296198948809757,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "semi-straight back on the left",
+        "time": 1.4308182720175884,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "the innocent one, LOL",
+        "time": 1.3650847709002285,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "yes",
+        "time": 0.9568545957678951,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "the innocent one",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Sitting down. No arms or legs visible.",
+        "time": 1.1949446981069896,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "the innocent?",
+        "time": 1.127024660840367,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Simplest position.",
+        "time": 1.2050483577248108,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "I think that's what y'all were calling it?",
+        "time": 1.2086023845621199,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "the innocent one",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "the innocent one",
+        "time": 0.645381472443014,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "alice": "H"
+    }
+  }
+]

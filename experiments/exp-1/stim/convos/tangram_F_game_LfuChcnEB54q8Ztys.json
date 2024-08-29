@@ -1,0 +1,194 @@
+[
+  {
+    "target": "F",
+    "convention": "fetal position",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "looks like a person sitting facing the left with their knees bend and feet sticking out",
+        "time": 0.9100745833924628,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "head tilted down slightly",
+        "time": 0.5540404944144354,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Like they're curled up in the fetal position kind of?",
+        "time": 0.6405282868646077,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "square on top balancing on corner?",
+        "time": 0.9204247223378959,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 1.1909878007287789,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "got it",
+        "time": 0.5266062621215343,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "Me too",
+        "time": 1.220253078347924,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes like foestal position",
+        "time": 1.0495214240636408,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "F",
+      "carol": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "fetal position",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "this one's facing to the left",
+        "time": 1.403905712877961,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "legs are out",
+        "time": 1.381184597271622,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "sitting?",
+        "time": 0.9651048297735181,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "square is slightly tilted forward to their legs",
+        "time": 1.126829898740326,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.5778932967601698,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Fetal position?",
+        "time": 0.6308302445635632,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "dave": "F",
+      "carol": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "fetal position",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "fetal position",
+        "time": 1.0783787504178437,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "dave": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "fetal position",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Fetal position",
+        "time": 1.3945623855448779,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "fetal position",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "fetal position",
+        "time": 0.71115034394731,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "F",
+      "carol": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "fetal position",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "fetal position",
+        "time": 1.1314015476652666,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "dave": "F",
+      "carol": "F"
+    }
+  }
+]

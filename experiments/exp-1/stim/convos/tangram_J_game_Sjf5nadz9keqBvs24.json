@@ -1,0 +1,134 @@
+[
+  {
+    "target": "J",
+    "convention": "man with cape",
+    "game": "Sjf5nadz9keqBvs24",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Looks like a guy stood straight with a matador cape one side of him",
+        "time": 1.3123443033408564,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "J",
+      "dave": "J",
+      "carol": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "man with cape",
+    "game": "Sjf5nadz9keqBvs24",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "man stood up straight, he looks like a big blob. One hand out to the right",
+        "time": 1.4841581180357952,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "J",
+      "dave": "J",
+      "carol": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "man with cape",
+    "game": "Sjf5nadz9keqBvs24",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Blob man, body is shaped almost like a T with one triangle arm on the right side",
+        "time": 0.5497992636949962,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "No feet",
+        "time": 1.081955758904022,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Head facing straight",
+        "time": 0.8457011117530384,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "J",
+      "alice": "C",
+      "dave": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "man with cape",
+    "game": "Sjf5nadz9keqBvs24",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Blob man, standing straight up, one hand to the right slightly",
+        "time": 0.8573909638181724,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "J",
+      "alice": "J",
+      "carol": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "man with cape",
+    "game": "Sjf5nadz9keqBvs24",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "guy with cape/matador cape left side stood straight",
+        "time": 1.1286182267207434,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "J",
+      "dave": "J",
+      "carol": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "man with cape",
+    "game": "Sjf5nadz9keqBvs24",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "man with cape",
+        "time": 1.4029943528378308,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "J",
+      "dave": "J",
+      "carol": "J"
+    }
+  }
+]

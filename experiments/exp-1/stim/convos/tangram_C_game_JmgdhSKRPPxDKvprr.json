@@ -1,0 +1,212 @@
+[
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "looks like falling over",
+        "time": 0.6317536597428923,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "diamond face",
+        "time": 0.8713368934733902,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "arms raised",
+        "time": 1.0088004690155232,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "no feet?",
+        "time": 0.5865528894165775,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "falling to the left",
+        "time": 0.5034769521942587,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "no feet",
+        "time": 0.6575343883117609,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "larger gap between face and arm on the right side compared to the left side",
+        "time": 1.3025215275340045,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "just torso, no legs?",
+        "time": 0.545050807441334,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "block body",
+        "time": 0.7590355845976656,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "body and arms look like slanted \"Y\"?",
+        "time": 1.0424799790403432,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes a Y",
+        "time": 1.097002989266644,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "slanted",
+        "time": 0.5910599052438533,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "slanted \"Y\" shaped torso and arms, raised arms, looks like falling to the left",
+        "time": 1.2733159311129825,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "alice": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "slanted 'y' shaped arms and body, outstretched arms raised",
+        "time": 0.8310885857674571,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "like it is falling?",
+        "time": 0.5728405041810709,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes falling to left",
+        "time": 1.4675078666995485,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "C",
+      "alice": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "looks like it falling to left",
+        "time": 0.8728559651328408,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "arms in air like a y",
+        "time": 1.2240618778912526,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "y shape",
+        "time": 0.9104081803228461,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "falling",
+        "time": 0.9645073668521523,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "\"Y\" shaped guy",
+        "time": 1.307620704950255,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "alice": "C",
+      "dave": "C"
+    }
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "this one is doing a side kick",
+        "time": 0.6037417747169666,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with both hands in front",
+        "time": 0.5331567436149445,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "does it have two triangles as hands?",
+        "time": 1.0179795970295777,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "Does it look like they are ice skating",
+        "time": 1.0117521791504185,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.6473941279461338,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing the other way of the kick?",
+        "time": 1.2136261891587585,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Ice skater again, two arms are triangles facing the opposite way of the leg",
+        "time": 1.0214735533990178,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "dave": "I",
+      "carol": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Standing on one leg, other leg raised behind him, with two triangle arms in front",
+        "time": 1.1076336122076442,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Thanks",
+        "time": 0.6162944165376487,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "dave": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "ice skating or kicking behind",
+        "time": 0.7271093647896558,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Skating",
+        "time": 1.1156100462084033,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "ice skater",
+        "time": 0.9381388175562284,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "dave": "I",
+      "carol": "I"
+    }
+  }
+]

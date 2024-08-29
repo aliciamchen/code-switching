@@ -1,0 +1,218 @@
+[
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "this one is a slim one like a person standing again",
+        "time": 0.6848086956484793,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "but",
+        "time": 1.4641571271769065,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "it has a big white triangle on the right side",
+        "time": 0.9361156420503678,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "and a white small parallelogram shape cut out of the left side",
+        "time": 1.1713799748926337,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "two black triangles sticking out of the right side",
+        "time": 1.365610431247881,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "and the left side is flat at the bottom half",
+        "time": 1.4475491988190252,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "and then there's the white small shape cut out of the left side",
+        "time": 1.428746238286415,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the parallelogram",
+        "time": 1.2477562915809624,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "there's a right angle triangle in the bottom left of the shape",
+        "time": 1.3408687903684733,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the black shapes make a right angle",
+        "time": 1.0219549543577848,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "K",
+      "bob": "K",
+      "dave": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "this is the person kneeling",
+        "time": 1.1826689378016968,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "and praying",
+        "time": 1.0568047768223443,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "armsto the right?",
+        "time": 0.7658823004531962,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "On their knees",
+        "time": 1.18419292210149,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "yes to the right",
+        "time": 1.1162062175273246,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "carol": "L",
+      "dave": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "on knees praying",
+        "time": 0.7397705335587864,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "bob": "K",
+      "dave": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "praying but on knees,hands at right",
+        "time": 0.7247465396845731,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "K",
+      "carol": "K",
+      "bob": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "kneeling parying",
+        "time": 1.2275047977722437,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "arms to the right",
+        "time": 1.2615725321616262,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "praying",
+        "time": 1.1077939771437535,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "K",
+      "bob": "K",
+      "dave": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Kneeling prayer",
+        "time": 1.2026981683272224,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "on their knees",
+        "time": 1.1207902282020363,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "K",
+      "carol": "K",
+      "dave": "K"
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "looks like person facing to the right with knees bent and arms to the right like they are making an offering to someone",
+        "time": 0.8347165713219937,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Arms are straight out?",
+        "time": 0.6408461690128968,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "the arms have a flat top and then angled underneath",
+        "time": 1.3947282737258488,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Head is facing on point - perfectly balanced?",
+        "time": 1.330456488615962,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.8154655173673471,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "carol": "L",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "offering position",
+        "time": 0.6222096979069169,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing the right",
+        "time": 0.5531167230936969,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "knees bent",
+        "time": 0.6546171392542155,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "dave": "L",
+      "carol": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "offering in knees bent position, not the one on knees, just knees slightly bent",
+        "time": 0.6202415109775015,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "facing right",
+        "time": 0.6631719409037713,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "dave": "L",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Offer with arms facing straight and to the right, knees bent",
+        "time": 0.6462992983349469,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "carol": "L",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "kneeling offering facing right",
+        "time": 1.3200831033823603,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "carol": "K",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "bent knees",
+    "game": "LfuChcnEB54q8Ztys",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "offering to the right",
+        "time": 0.549762695354961,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "bent knees this time",
+        "time": 1.1344293763496656,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "dave": "L",
+      "carol": "L"
+    }
+  }
+]

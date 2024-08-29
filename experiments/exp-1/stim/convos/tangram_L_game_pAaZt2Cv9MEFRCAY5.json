@@ -1,0 +1,254 @@
+[
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Diamond head, facing to the right",
+        "time": 0.96787726196439,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Standing, but knees are bent",
+        "time": 1.3801875290060308,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "One arm visible, extending to the right",
+        "time": 1.4309578084270136,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "are the arms on the right side?",
+        "time": 0.6654725105014332,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "both hands in the left?",
+        "time": 1.0694546095184057,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "okay",
+        "time": 1.3427404836792163,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "No hands on the left",
+        "time": 0.8145476340204276,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "does it look like a little zigzag",
+        "time": 1.2873113840916175,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "has a leg upwards?",
+        "time": 0.5600753828661563,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes, the legs are like a zig zag",
+        "time": 0.6757246524660865,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "CODE name ZIGZAG",
+        "time": 1.3918547933929535,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "There are no legs upwards",
+        "time": 0.7938953133976999,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "okay so similar to begger guy but no foot pointing up",
+        "time": 0.9945802582319426,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "its like a zigzag",
+        "time": 1.2645977059265905,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "i forgot the code name",
+        "time": 0.9711702107266262,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "zigzag yea",
+        "time": 1.4189998585454722,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "The one standing with knees bent",
+        "time": 1.0855317424760784,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yeah",
+        "time": 1.0765217437178982,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "standing",
+        "time": 1.0722951932012352,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Yeah zigzag",
+        "time": 0.9273259451277914,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "The begger with no foot coming out from the left",
+        "time": 1.216393707298212,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "zigzag",
+        "time": 1.4113538258642666,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "zigzag it is",
+        "time": 0.7684782362006266,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "sorry i forgot",
+        "time": 0.6885466838738599,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "L",
+      "dave": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "zigzag",
+        "time": 0.7466327727304806,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "zigzag",
+        "time": 1.0750096370473918,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "beggar guy",
+        "time": 0.8688535603664622,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "zigzag",
+        "time": 0.5608621443132648,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "L",
+      "alice": "L"
+    }
+  }
+]

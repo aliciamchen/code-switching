@@ -1,0 +1,194 @@
+[
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "This guy looks like he is falling BACKWARDS.",
+        "time": 0.894685585001892,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "hands in the air",
+        "time": 0.8037081711395689,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "no legs?",
+        "time": 0.6477041817135135,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "His two arms are obviously flanking BOTH sides of his flailing body.",
+        "time": 1.334201062673984,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "no legs, right?",
+        "time": 1.199624200816178,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "His body looks like a parallelogram here.",
+        "time": 1.028589773253345,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "YUP. No legs are visible in this pic.",
+        "time": 1.057013914828639,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Yay.",
+        "time": 1.1237669804523767,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "In this one he looks like he is falling",
+        "time": 0.854840245034734,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "backwarsd",
+        "time": 0.7458657674239235,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.5155949028976674,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Two arms on either side.",
+        "time": 1.0105084657079841,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "one hand right behinds his head",
+        "time": 0.5950851609505629,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "falling backwards",
+        "time": 1.3468812090357667,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "hands in the air",
+        "time": 0.6823320303351703,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "C",
+      "bob": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "falling guy!",
+        "time": 0.8406786401400397,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Falling guy",
+        "time": 0.7984715661655818,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "falling man",
+        "time": 1.059794194636844,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "alice": "C"
+    }
+  }
+]

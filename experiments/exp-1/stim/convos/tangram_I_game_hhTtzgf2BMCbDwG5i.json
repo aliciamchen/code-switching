@@ -1,0 +1,140 @@
+[
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left",
+        "time": 0.8645845689431971,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the leg in the air is on the right",
+        "time": 1.0798841266653383,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "dave": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Left facing, arms high, one left out behind them. Like they're ice skating.",
+        "time": 0.7684047551985838,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "*leg",
+        "time": 0.8272762828351324,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "dave": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "this one is facing left, one foot in the air",
+        "time": 0.7179785253723534,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "looks like its skating",
+        "time": 1.055258281584349,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "bob": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "the one skating facing left",
+        "time": 1.2638537709099211,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "bob": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "the skater, facing left, leg up and pointed to the right",
+        "time": 0.6490652580425276,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "dave": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Ice skater. Facing left.",
+        "time": 0.6780942948880584,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "dave": "I",
+      "alice": "I"
+    }
+  }
+]

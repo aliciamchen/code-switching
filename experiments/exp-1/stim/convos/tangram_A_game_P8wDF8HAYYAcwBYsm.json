@@ -1,0 +1,194 @@
+[
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "This one is a bit odd, so listen carefully.",
+        "time": 0.8994032623085189,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "I will write a few lines about it",
+        "time": 0.5852507562518738,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "It looks like a person kicking one foot in front of them. Their head looks like it has a beak!",
+        "time": 1.4505559420905547,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "The have a box over their right shoulder.",
+        "time": 1.1767886953378244,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "It could also in theory looking like a person carrying another person over their shoulder.",
+        "time": 1.1672759925372218,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "michael jackson thriller dance",
+        "time": 1.0162969605759766,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing left",
+        "time": 1.0865987701234854,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "one leg foot on the ground",
+        "time": 0.9908289762105266,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "the other lifting up",
+        "time": 0.5738487995817526,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "lifting forward",
+        "time": 1.083512333482139,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "alice": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "man facing left kicking with diamond on right side head",
+        "time": 0.8260910815709958,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "thriller dance?",
+        "time": 0.5378087180002928,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes",
+        "time": 0.6059391453089465,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "A",
+      "bob": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "thriller",
+        "time": 1.4320663643196605,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "one leg planted, other up",
+        "time": 0.759316813377151,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "alice": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "cuz this thrillaaaah",
+        "time": 0.5944894560928579,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "thrill of night",
+        "time": 1.1432999453553487,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "thriller",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "thriller",
+        "time": 1.0297226314568675,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "alice": "A",
+      "dave": "A"
+    }
+  }
+]

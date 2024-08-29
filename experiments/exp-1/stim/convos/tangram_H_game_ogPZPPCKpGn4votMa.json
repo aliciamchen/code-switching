@@ -1,0 +1,164 @@
+[
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "ok the top is a square and the bottom is one big shape connected to it. kind of potato shaped",
+        "time": 0.9753635665520823,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "facing what way",
+        "time": 0.5218911219641617,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "ok kind of looks like a baby. and the feet would be pointing right.",
+        "time": 0.6921772353451205,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "like a swaddled baby",
+        "time": 1.044161617076286,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "lol",
+        "time": 1.1022055078598791,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "K",
+      "carol": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "its just a blob with a square on top",
+        "time": 1.1927050622151651,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "facing right?",
+        "time": 1.4735586432528502,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "kinda looks like a backwards semicolon",
+        "time": 0.9398432037851229,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.8268227706202501,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "looks like a swaddled baby, facing right",
+        "time": 0.6185829670028805,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "baby one",
+        "time": 1.0618728336506775,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "bob": "H",
+      "carol": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "baby",
+        "time": 1.3950119902658111,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "baby",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "swaddled baby",
+        "time": 1.1546036035774687,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  }
+]

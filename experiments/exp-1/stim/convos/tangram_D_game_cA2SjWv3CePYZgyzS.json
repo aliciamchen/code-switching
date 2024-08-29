@@ -9,31 +9,31 @@
       {
         "player": "alice",
         "text": "this looks like a standing person",
-        "time": 1.4647704291639188,
+        "time": 0.5193806879940412,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "with a triangle and square put together sticking out of the left side",
-        "time": 1.0335298394019272,
+        "time": 0.5283462890029469,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "and the bottom is flat and there's a small triangle at the bottom sticking out left too",
-        "time": 0.5617157148021416,
+        "time": 1.073670694043074,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Like a guy with long sleeves looking at a book?",
-        "time": 1.3885908998708372,
+        "time": 1.100296421391866,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 0.7925479514947721,
+        "time": 1.1280374216931812,
         "role": "speaker"
       }
     ],
@@ -53,49 +53,49 @@
       {
         "player": "bob",
         "text": "A person standing upright looking into a book",
-        "time": 0.8716373802806359,
+        "time": 0.8148429457200195,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "A square on the right",
-        "time": 0.5869734555986127,
+        "time": 1.2721773463423571,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "left rather",
-        "time": 0.8192818590772457,
+        "time": 0.7009087290984993,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "the right is flat",
-        "time": 1.3416970140572824,
+        "time": 1.101054312081225,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "and so is the bottom",
-        "time": 0.8391296870291278,
+        "time": 1.1752403258218038,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Think of someone with a large sleeves on their robe",
-        "time": 1.2369313133314193,
+        "time": 0.6777777684549947,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "is there a right angle on the bottom right ?",
-        "time": 1.0881463595053216,
+        "time": 0.5337299395197738,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 1.4919286437231554,
+        "time": 0.7008051262153789,
         "role": "speaker"
       }
     ],
@@ -115,7 +115,7 @@
       {
         "player": "carol",
         "text": "robe hands reading book",
-        "time": 1.1428996545433132,
+        "time": 1.0953227043256033,
         "role": "speaker"
       }
     ],
@@ -135,7 +135,7 @@
       {
         "player": "dave",
         "text": "guy with long sleeves and book",
-        "time": 0.6113121044724631,
+        "time": 1.13664235013779,
         "role": "speaker"
       }
     ],
@@ -155,25 +155,25 @@
       {
         "player": "alice",
         "text": "flat right side",
-        "time": 0.8511073493772514,
+        "time": 1.2930336636246533,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "person stadning",
-        "time": 0.5330870075815819,
+        "time": 1.3586377110630785,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "reading book to the elft",
-        "time": 1.0404330319355828,
+        "time": 1.1591739924608855,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "left",
-        "time": 0.8199095394821881,
+        "time": 0.5150664898994203,
         "role": "speaker"
       }
     ],
@@ -193,7 +193,7 @@
       {
         "player": "bob",
         "text": "long sleeved book",
-        "time": 0.5575625625946607,
+        "time": 1.1497549758753984,
         "role": "speaker"
       }
     ],

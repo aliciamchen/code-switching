@@ -1,0 +1,266 @@
+[
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Sorry that took me so long to find lol",
+        "time": 1.0718059196014535,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "It looks like someone stood up with their feet both pointing left",
+        "time": 0.758338561685806,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "There's a square and a trapesium at the top",
+        "time": 1.238886129563443,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "kind of with arms outstretched?",
+        "time": 1.1175609316136246,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "their hands out in front of them on the left?",
+        "time": 0.5073651582483765,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "No, not that one",
+        "time": 1.1559982838590404,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Is one leg in the air?",
+        "time": 0.8378562115217805,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "with one foot in the air?",
+        "time": 0.7466985076121415,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Yeah",
+        "time": 1.3981237999243503,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "A",
+      "carol": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "I'm so jealous, that took me so long to try and explain last time",
+        "time": 1.1346307917037737,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "haha by the time the 4th person is describing we should be pros",
+        "time": 1.4389918410798077,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "you laid the way for all of us",
+        "time": 0.6806776139078636,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "the one that looks like a person standing with diamond head leaning back, arms stretched to the left and one foot up facing left",
+        "time": 0.6232052345905854,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "you paved the way, Hera!",
+        "time": 0.8773008592925942,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Lol I know which one you mean but we need name for it",
+        "time": 1.3585577313253308,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "I hate it",
+        "time": 1.1142530571619882,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "looks like a drunken zombie lol",
+        "time": 0.7650373603373894,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Kind of looks like a horse about to gallop? lol",
+        "time": 0.885972643433022,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "hahha",
+        "time": 0.5245069275148867,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Facing the left and both feet are visible",
+        "time": 1.0600316481883403,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "One foot on the floor and one raised up to the left",
+        "time": 1.1814743975627497,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "A",
+      "dave": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "im so curious how u all are doing for score haha",
+        "time": 1.2491020785289928,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "1.44 so far",
+        "time": 1.4610843518644259,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "1.24",
+        "time": 1.149020183110534,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "1.37",
+        "time": 0.6296639179877407,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "oo im 1.41 close! u get less as the speaker",
+        "time": 1.2141920175445868,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "drunken zombie pose facing left, with head tipping back towards the right",
+        "time": 1.4852788184187267,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "one leg in the air",
+        "time": 1.291026021009272,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "A",
+      "carol": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Drunk zombie, with leg slightly in the air pointing left",
+        "time": 0.5541118672893034,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "A",
+      "carol": "A",
+      "dave": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "drunken zombie",
+        "time": 0.5096093101090069,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "dave": "A",
+      "alice": "A"
+    }
+  }
+]

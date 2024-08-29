@@ -1,0 +1,212 @@
+[
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "it looks like a fat man sticking his arm out for a bus",
+        "time": 0.9590395785991714,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "is the left side entirely flat?",
+        "time": 0.8111441047920661,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 1.129353135358496,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Diamond head?",
+        "time": 1.3558541881553017,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "J",
+      "carol": "J",
+      "bob": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "man standing with arms extended on right",
+        "time": 1.0101956502197043,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "left and bottom sides flat",
+        "time": 0.7314280535871355,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "feet sticking out on right side",
+        "time": 1.2757386834821194,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "J",
+      "carol": "J",
+      "alice": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "minu you are the speaker now",
+        "time": 0.6512155592971166,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "Flat side and bottom guy, one foot and one hand point right",
+        "time": 0.7829277005106345,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Diamond head",
+        "time": 1.3596569620666017,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "feet pointing left?",
+        "time": 0.9918407992342927,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "One foot points right no left foot sjowing",
+        "time": 1.4424245997130358,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Flat shoilders",
+        "time": 1.2244360102323908,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "does he look like he's holding a pot?",
+        "time": 1.2360436940882131,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "No",
+        "time": 1.2331050790992284,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Looks like a fat guy calling a bus",
+        "time": 1.3613979467363342,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "J",
+      "bob": "G",
+      "alice": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "fat man hailing a taxi",
+        "time": 0.5135566621617998,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "flat on the left side",
+        "time": 1.3695966819508085,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "one foot",
+        "time": 0.567766185770535,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "bob": "J",
+      "alice": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "fat guy waiting for a bus",
+        "time": 0.920559826993609,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "J",
+      "carol": "J",
+      "bob": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "fat man hailing cab",
+        "time": 0.7066910713352605,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "J",
+      "carol": "J",
+      "alice": "J"
+    }
+  }
+]

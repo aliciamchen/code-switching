@@ -1,0 +1,248 @@
+[
+  {
+    "target": "K",
+    "convention": "duck",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "oh no",
+        "time": 1.0134678406040893,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "its a diamond on a diamond with a triangle out to the right",
+        "time": 0.8122215268560627,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "there is a right angled triangle to the left",
+        "time": 0.5955167453638008,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "looka like a dog looking up with diamond on top ?",
+        "time": 1.104712875070148,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no i don't think so",
+        "time": 1.3789353873346553,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "like a duck looking right with a diamond on top",
+        "time": 1.0437981238452785,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "K",
+      "bob": "J",
+      "carol": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "duck",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "person kneeling like she is praying facing to the right",
+        "time": 0.5615327288054313,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with a triangle behind her?",
+        "time": 1.01872203903361,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "a small triangle",
+        "time": 1.4693469700203763,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "K",
+      "alice": "B",
+      "carol": "D"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "duck",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "i almost wish this game existed for real",
+        "time": 0.8825448354244545,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "its fun",
+        "time": 0.997997621080758,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "and funny",
+        "time": 1.173778827117017,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "man knelt down facing up with his arms out in front of him",
+        "time": 1.3193494955966103,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "to the right",
+        "time": 1.3476743447617376,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "looks like he is praying the islamic way",
+        "time": 1.3231321317892266,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes",
+        "time": 0.6783311563826167,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "??",
+        "time": 1.2950457550326617,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "the one with the diamond on his head?",
+        "time": 1.4868576360501318,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes but not straight back",
+        "time": 1.1963675923649504,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "bob": "K",
+      "alice": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "duck",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "similar to last one, facing right praying, but with knees on the floor",
+        "time": 0.5619590899871939,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "diamond hat?",
+        "time": 0.9737356731633313,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "yes",
+        "time": 0.9633266346262038,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "K",
+      "alice": "K",
+      "carol": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "duck",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "the duck with a diamond hat",
+        "time": 1.4691924926809374,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "facing right",
+        "time": 0.6210755978083368,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "elab",
+        "time": 0.743636251288124,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "its a diamond on a diamond",
+        "time": 0.5236860180797895,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "K",
+      "bob": "K",
+      "carol": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "duck",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "duck",
+        "time": 0.8031561468600054,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "K",
+      "alice": "K",
+      "carol": "K"
+    }
+  }
+]

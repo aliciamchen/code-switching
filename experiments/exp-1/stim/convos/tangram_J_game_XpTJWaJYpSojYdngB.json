@@ -1,0 +1,344 @@
+[
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Hello?",
+        "time": 0.6311232988376085,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "Hey Hera! anything up?",
+        "time": 1.0784876488359092,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Hello",
+        "time": 1.2799735789940658,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "Hera, you have to describe the image",
+        "time": 1.035931420639824,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "He's afk probably",
+        "time": 0.8531578527659904,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "I really do not hope this is true! LOL",
+        "time": 1.3513625963329283,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "The person has his/her foot pointing to the RIGHT. His hand is also pointed to the RIGHT. The left side of his body is completely straight from top to bottom.",
+        "time": 0.5737809164281776,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Hi everyone!",
+        "time": 0.5556834977739831,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "I am a SHE.",
+        "time": 1.375741107705875,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Owh, I guess I already made a choice",
+        "time": 0.8718004422663161,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Now it's up to all of YOU to make your selections.",
+        "time": 1.313059508887385,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Is there just one box on top as the head",
+        "time": 0.7950507121972377,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "of course yes",
+        "time": 1.30186763498393,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Yep, and the head is a DIAMOND shape.",
+        "time": 0.9732136261065282,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "dave": "J",
+      "bob": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Ok he is looking like he is a fat, only one hand pointed to the right",
+        "time": 1.0577347509976631,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "one his foot pointed to the right also",
+        "time": 1.1352547389223133,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "His back and shoulders form a perfect right angle?",
+        "time": 1.2774085562222397,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "In a dancing position? one leg super fat?",
+        "time": 1.378410352637553,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "or the straight back one?",
+        "time": 0.6618561604790091,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "straight back",
+        "time": 0.9692451468990927,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "dave": "J",
+      "alice": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Didn't realize we were in a new round lol.",
+        "time": 1.4149500594608764,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "straight left, standing, ams on right",
+        "time": 0.8361198650172319,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "nothing on left",
+        "time": 0.7160465488735429,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "arms* on right",
+        "time": 0.5693162921219442,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the foot is pointing to the right?",
+        "time": 0.5407173354133715,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes",
+        "time": 0.5320395042217531,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "J",
+      "bob": "J",
+      "alice": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "that was faasat",
+        "time": 0.5988438842371276,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": ":)",
+        "time": 1.0753333586993266,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "right angle, big guy",
+        "time": 1.20436487172919,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "one arm pointing to the right",
+        "time": 1.1897124917187583,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "small foot on the right",
+        "time": 0.9351663975825973,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Foot pointing to the right?",
+        "time": 1.1713173545597795,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "wide body",
+        "time": 0.609789998533678,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "the fat one?",
+        "time": 1.2355195013496236,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Ok.",
+        "time": 1.3633054609252508,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "yep",
+        "time": 1.2832297955430447,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "bob": "J",
+      "alice": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Back is completely straight.",
+        "time": 1.0218982088062256,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Forms a 90-degree angle with his feet.",
+        "time": 1.2799521577833564,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "He is pointing to the right",
+        "time": 1.4632322900751995,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "fat guy?",
+        "time": 1.2741650877111357,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Head is a perfect diamond shape.",
+        "time": 1.4752328711828024,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Yes.",
+        "time": 0.6789118361139873,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "dave": "J",
+      "bob": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "fat guy",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "the fat guy",
+        "time": 1.4933052571188732,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "dave": "J",
+      "alice": "J"
+    }
+  }
+]

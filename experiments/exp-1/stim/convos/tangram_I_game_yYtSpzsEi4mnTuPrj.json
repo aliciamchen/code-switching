@@ -1,0 +1,146 @@
+[
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Man standing on one leg",
+        "time": 1.469059872733895,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "The other behind him",
+        "time": 0.5713918487367006,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Two arms out, but apart",
+        "time": 0.9578246671501061,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "like it's ice skating",
+        "time": 1.134414529910215,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "YES that",
+        "time": 0.6604643900630885,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "bob": "I",
+      "dave": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Skating one, standing on one leg, arms out to the left, one leg and head facing the right",
+        "time": 1.3582214099708567,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "dave": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Ice skating man.",
+        "time": 1.1744706757416479,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "I",
+      "dave": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "ice skater",
+        "time": 1.1419803843639333,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "bob": "I",
+      "alice": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Ice skating",
+        "time": 0.6459977240428609,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "bob": "I",
+      "dave": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "ice skater",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Ice skating",
+        "time": 1.3340426914005432,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "dave": "I",
+      "alice": "I"
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "target": "E",
+    "convention": "crazy hat person",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "sitting down, facing right, with the hat thing on its head",
+        "time": 1.1997240866887624,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "dave": "E",
+      "bob": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "crazy hat person",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "The crazy hat person lol.",
+        "time": 0.6874892412472012,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "haha",
+        "time": 0.9617846999990263,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "dave": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "crazy hat person",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "weird hat one",
+        "time": 0.6091046880992564,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "E",
+      "bob": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "crazy hat person",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "funny hat one",
+        "time": 1.0367079912871704,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "bob": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "crazy hat person",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "crazy hat guy!",
+        "time": 1.2229231618257792,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "dave": "E",
+      "bob": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "crazy hat person",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Crazy hat person",
+        "time": 0.5416729191221986,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "dave": "E",
+      "alice": "E"
+    }
+  }
+]

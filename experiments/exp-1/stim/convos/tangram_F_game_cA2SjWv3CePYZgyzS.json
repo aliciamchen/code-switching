@@ -1,0 +1,128 @@
+[
+  {
+    "target": "F",
+    "convention": "sitting man",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "this one looks like someone sitting on the floor",
+        "time": 1.245553920620503,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with their legs pointing left",
+        "time": 1.0676044073113626,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sitting man",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "This is the sad person sitting down",
+        "time": 1.3590369128349866,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sitting man",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "sad guy seating on floor",
+        "time": 0.942197765260505,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sitting man",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "sad sitting man",
+        "time": 1.2242131736139596,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sitting man",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "sad guy",
+        "time": 1.1176225758953402,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sitting man",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "sitting man",
+        "time": 0.558147220591742,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "F",
+      "dave": "F"
+    }
+  }
+]
