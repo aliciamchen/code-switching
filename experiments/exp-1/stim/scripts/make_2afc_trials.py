@@ -1,6 +1,6 @@
 import random
 import json
-
+# TODO: counterbalancing of 2AFC choices
 items = [
     {
         "item_id": 1,
@@ -80,6 +80,6 @@ def generate_trials_for_participants(num_participants, items):
 all_trials = generate_trials_for_participants(num_participants=10, items=items)
 
 with open("trials.json", "w") as json_file:
-    json.dump(all_trials, json_file, indent=4)
+    json.dump(all_trials, json_file, indent=2)
 
 print("Trials saved to trials.json")

@@ -123,16 +123,8 @@ if __name__ == "__main__":
     )
     response_data = pd.read_csv("../boyce_data/round_results.csv")
 
-    # with open("conventions_games.json", "r") as f:
-    #     conventions_games = json.load(f)
-
-    conventions_games = {
-        "D": {
-            "priest": ["kBQMXHtyqWiM2LxL6", "ogPZPPCKpGn4votMa"],
-            "wizard guy": ["JmgdhSKRPPxDKvprr"],
-            "long sleeved book": ["cA2SjWv3CePYZgyzS"],
-        }
-    }
+    with open("conventions_games.json", "r") as f:
+        conventions_games = json.load(f)
 
     # for each tangram, convention, and game, extract convo data
     for tangram, conventions in conventions_games.items():

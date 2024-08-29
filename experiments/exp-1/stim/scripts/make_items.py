@@ -8,23 +8,6 @@ import pandas as pd
 
 random.seed(88)
 
-# conventions = {
-#     "D": {
-#         "shared": ["priest"],
-#         "unique": ["wizard guy", "long sleeved book"],
-#     },  # etc
-# }
-
-# conventions_games = {
-#     "D": {
-#         "priest": ["kBQMXHtyqWiM2LxL6", "ogPZPPCKpGn4votMa"],
-#         "wizard guy": ["JmgdhSKRPPxDKvprr"],
-#         "long sleeved book": ["cA2SjWv3CePYZgyzS"],
-#     }
-# }
-
-
-
 tangrams = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
 
 
@@ -169,12 +152,11 @@ def main(n_items):
         conventions[tangram] = {"shared": [], "unique": []}
         for label, games in labels.items():
             if len(games) > 1:
-                conventions[tangram]['shared'].append(label)
+                conventions[tangram]["shared"].append(label)
             else:
-                conventions[tangram]['unique'].append(label)
+                conventions[tangram]["unique"].append(label)
     with open("conventions.json", "w") as f:
         json.dump(conventions, f)
-
 
     for i in range(n_items):
         chosen_tangrams = choose_tangrams(tangrams)
@@ -193,4 +175,4 @@ def main(n_items):
 
 if __name__ == "__main__":
 
-    main(n_items=10) # generate 10 independent sets of items
+    main(n_items=10)  # generate 10 independent sets of items
