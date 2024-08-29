@@ -151,6 +151,9 @@ def make_2AFC_lexicon(choose_games_output, chosen_tangrams):
             lexicon.append(
                 {"tangram": tangram, "shared": shared, "group": group, "label": label}
             )
+
+    # order alphabetically by tangram
+    lexicon = sorted(lexicon, key=lambda x: x["tangram"])
     return lexicon
 
 
@@ -181,10 +184,10 @@ def main(n_items):
         twoafc_lexicon = make_2AFC_lexicon(games, chosen_tangrams)
 
         # save
-        with open(f"item_{i}_lexicon.json", "w") as f:
+        with open(f"../items/item_{i}_lexicon.json", "w") as f:
             json.dump(twoafc_lexicon, f, indent=2)
 
-        with open(f"item_{i}_game_info.json", "w") as f:
+        with open(f"../items/item_{i}_game_info.json", "w") as f:
             json.dump(games, f, indent=2)
 
 
