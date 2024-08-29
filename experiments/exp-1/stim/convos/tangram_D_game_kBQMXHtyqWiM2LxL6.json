@@ -1,0 +1,218 @@
+[
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+        "time": 0.8220849749583424,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with really long sleeves",
+        "time": 0.817574908134056,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Looks like it could be a priest or something? Lol",
+        "time": 0.5102152677156584,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Yeah",
+        "time": 0.6519043568063544,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "D",
+      "carol": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Good luck Repi!",
+        "time": 1.278940762802061,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Someone facing left with outstretched hanf",
+        "time": 0.7133963225293943,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "hand",
+        "time": 1.163776690354336,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "thanks z",
+        "time": 0.6503848498161592,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "The priest? LOl",
+        "time": 1.4547710340473614,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "Lol*",
+        "time": 1.2574326163693357,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yeah",
+        "time": 0.6483858307420434,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "the one we just did?",
+        "time": 1.356596634822024,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "lol",
+        "time": 1.3690788482531755,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "dave": "D",
+      "alice": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "The priest facing left",
+        "time": 0.72007817501648,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "D",
+      "dave": "D",
+      "alice": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "35",
+        "time": 0.6502146236031904,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "24",
+        "time": 0.9625270634323353,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "I have trouble with left and right sob",
+        "time": 1.365461725963303,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "the priest facing left",
+        "time": 0.9803134367798124,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "aww no problem",
+        "time": 1.2691841432011215,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "bob": "D",
+      "carol": "D",
+      "alice": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Priest facing left",
+        "time": 1.2499862906041037,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "On a roll now",
+        "time": 0.6274931461734065,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "bob": "D",
+      "carol": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "priest",
+        "time": 0.5270708199371161,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "dave": "D",
+      "alice": "D"
+    }
+  }
+]

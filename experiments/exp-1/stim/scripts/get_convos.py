@@ -1,9 +1,17 @@
 """Extract the conversation data, across reps, for each tangram-game pair"""
 
 import json
+import numpy as np
 import pandas as pd
 import random
 import re
+
+
+def convert_int64(obj):
+    """Convert int64 values to regular integers (use when saving json)"""
+    if isinstance(obj, np.int64):
+        return int(obj)
+    return obj
 
 
 def extract_letter(tangram_path: str) -> str:
@@ -20,7 +28,7 @@ def get_convo_data(
     game: str,
     chat_data: pd.DataFrame,
     response_data: pd.DataFrame,
-):
+) -> list:
     """Get conversation data for a given tangram, label, and game
 
     Args:
@@ -105,3 +113,33 @@ def get_convo_data(
         )
 
     return output
+
+
+if __name__ == "__main__":
+    chat_data = (
+        pd.read_csv("../boyce_data/filtered_chat.csv")
+        .reset_index()
+        .rename(columns={"level_0": "chat_idx"})
+    )
+    response_data = pd.read_csv("../boyce_data/round_results.csv")
+
+    # with open("conventions_games.json", "r") as f:
+    #     conventions_games = json.load(f)
+
+    conventions_games = {
+        "D": {
+            "priest": ["kBQMXHtyqWiM2LxL6", "ogPZPPCKpGn4votMa"],
+            "wizard guy": ["JmgdhSKRPPxDKvprr"],
+            "long sleeved book": ["cA2SjWv3CePYZgyzS"],
+        }
+    }
+
+    # for each tangram, convention, and game, extract convo data
+    for tangram, conventions in conventions_games.items():
+        for convention, games in conventions.items():
+            for game in games:
+                convo_data = get_convo_data(
+                    tangram, convention, game, chat_data, response_data
+                )
+                with open(f"../convos/tangram_{tangram}_game_{game}.json", "w") as f:
+                    json.dump(convo_data, f, default=convert_int64, indent=2)

@@ -1,0 +1,242 @@
+[
+  {
+    "target": "D",
+    "convention": "wizard guy",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "arms with sleeves",
+        "time": 1.0389155076368022,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "facing left",
+        "time": 1.2613867354406203,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "diamond face",
+        "time": 1.31751743238656,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "feet facing left",
+        "time": 0.7421649052036309,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "no gap between legs?",
+        "time": 0.5267426244720639,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "standing straight?",
+        "time": 0.5409629843563417,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "straight back and legs",
+        "time": 0.8453828973803806,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "no gaps",
+        "time": 0.9623265420412326,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "arms behind back?",
+        "time": 0.7331207271484538,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no",
+        "time": 1.129211064433985,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "arms in front facing left",
+        "time": 0.8981962418614514,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "bob": "D",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "wizard guy",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "upright diamond head, facing left. looks like a standing wizard with sleeves on arms which face left.",
+        "time": 0.761899679672757,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "square sleeve",
+        "time": 1.4037723628809333,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "square with small point",
+        "time": 1.457557899699772,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "look like it holding hands out?",
+        "time": 0.5256805777399274,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "at top",
+        "time": 1.4979266313415047,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "yes, arms out",
+        "time": 0.5867574084879359,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "alice": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "wizard guy",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "standing like wizard, facing left, arms with baggy sleeve facing left",
+        "time": 0.5058783307444161,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "D",
+      "alice": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "wizard guy",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "facing left",
+        "time": 0.7749566115107268,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "sleeves",
+        "time": 1.085771335011029,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "wizard guy?",
+        "time": 1.0664348920508413,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "yes",
+        "time": 1.3672317701569412,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "bob": "D",
+      "alice": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "wizard guy",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "wizzard guy",
+        "time": 1.2453404586518872,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "sleeves?",
+        "time": 0.9987457656137063,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "square sleeves with hands",
+        "time": 1.2323862220179895,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "bob": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "wizard guy",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "wizard guy",
+        "time": 0.7159880074114625,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "alice": "D",
+      "dave": "D"
+    }
+  }
+]
