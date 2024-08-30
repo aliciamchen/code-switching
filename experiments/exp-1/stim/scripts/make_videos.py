@@ -46,7 +46,7 @@ class ChatBubble(Group):
     def __init__(
         self,
         message: str,
-        bubble_color=BLUE,
+        bubble_color,
         text_color=WHITE,
         avatar: str = None,
         role: str = "speaker",
@@ -99,8 +99,6 @@ class ChatAnimation(Scene):
 
         chat_label = self.create_chat_label(chat_background)
         self.add(chat_label)
-
-        # chat_data = self.get_chat_data()
 
         bubbles = []
 
@@ -165,7 +163,7 @@ class ChatAnimation(Scene):
         return black_rectangle
 
     def create_chat_label(self, chat_background: Rectangle) -> Text:
-        chat_label = Text("Chat", color=BLUE, font=TEXT_FONT, weight=BOLD).scale(
+        chat_label = Text("Chat", color=BLUE if self.color == "blue" else RED, font=TEXT_FONT, weight=BOLD).scale(
             CHAT_LABEL_SCALE
         )
         chat_label.next_to(chat_background, UP, buff=CHAT_LABEL_BUFF)
@@ -173,12 +171,16 @@ class ChatAnimation(Scene):
         return chat_label
 
     def create_chat_bubble(self, item: dict) -> ChatBubble:
-        bubble_color = DARK_BLUE if item["role"] == "speaker" else BLUE_B
-        text_color = WHITE if item["role"] == "speaker" else BLACK
+        if self.color == "red":
+            bubble_color = RED_E if item["role"] == "speaker" else RED_A
+            text_color = WHITE if item["role"] == "speaker" else BLACK
+        elif self.color == "blue":
+            bubble_color = DARK_BLUE if item["role"] == "speaker" else BLUE_B
+            text_color = WHITE if item["role"] == "speaker" else BLACK
         return ChatBubble(
             item["text"],
             bubble_color=bubble_color,
-            avatar=avatar_mappings["blue"][item["player"]],
+            avatar=avatar_mappings[self.color][item["player"]],
             role=item["role"],
             text_color=text_color,
         )
@@ -214,8 +216,7 @@ class ChatAnimation(Scene):
 
             index = self.available_tangrams.index(tangram)
             chosen_image = image_grid[index]
-            avatar_image = ImageMobject(avatar_mappings["blue"][player]
-                # f"../identicons/blue/{player.lower()}.png"
+            avatar_image = ImageMobject(avatar_mappings[self.color][player]
             ).scale(AVATAR_IMAGE_SCALE)
 
             if index not in avatar_positions:
@@ -238,7 +239,7 @@ class ChatAnimation(Scene):
         correct_guesses_text = (
             Text(
                 f"{correct_guesses} out of 3 guessed correctly",
-                color=BLUE,
+                color=BLUE if self.color == "blue" else RED,
                 font=TEXT_FONT,
                 weight=BOLD,
             )
@@ -259,7 +260,7 @@ def generate_videos_for_item(item_number):
             with open(f"../convos/tangram_{tangram}_game_{info["game"]}.json", "r") as f:
                 convs = json.load(f)
                 for conv in convs:
-                    config.output_file = f"item_{item_number}_target_{conv['target']}_repNum_{conv["repNum"]}.mp4"
+                    config.output_file = f"item_{item_number}_{color}_target_{conv['target']}_repNum_{conv["repNum"]}.mp4"
                     config.quality = "low_quality"
                     scene = ChatAnimation(conv, available_tangrams, color)
                     scene.render()
