@@ -22,6 +22,7 @@ AVATAR_STACK_OFFSET = 0.4
 CORRECT_GUESSES_TEXT_SCALE = 0.5
 CORRECT_GUESSES_TEXT_BUFF = 0.3
 
+
 class ChatBubble(Group):
     def __init__(
         self,
@@ -34,7 +35,9 @@ class ChatBubble(Group):
     ):
         super().__init__(**kwargs)
         wrapped_text = textwrap.fill(message, width=30)
-        text = Text(wrapped_text, font_size=TEXT_FONT_SIZE, color=text_color, font=TEXT_FONT)
+        text = Text(
+            wrapped_text, font_size=TEXT_FONT_SIZE, color=text_color, font=TEXT_FONT
+        )
         bubble = RoundedRectangle(
             corner_radius=BUBBLE_CORNER_RADIUS,
             width=text.width + BUBBLE_PADDING_WIDTH,
@@ -82,7 +85,11 @@ class ChatAnimation(Scene):
 
             if bubbles:
                 for bubble in bubbles:
-                    animations.append(ApplyMethod(bubble.shift, UP * (chat_bubble.height + BUBBLE_SHIFT)))
+                    animations.append(
+                        ApplyMethod(
+                            bubble.shift, UP * (chat_bubble.height + BUBBLE_SHIFT)
+                        )
+                    )
 
             self.align_chat_bubble(chat_bubble, item["role"])
             bubbles.append(chat_bubble)
@@ -138,21 +145,71 @@ class ChatAnimation(Scene):
         return black_rectangle
 
     def create_chat_label(self, chat_background: Rectangle) -> Text:
-        chat_label = Text("Chat", color=BLUE, font=TEXT_FONT, weight=BOLD).scale(CHAT_LABEL_SCALE)
+        chat_label = Text("Chat", color=BLUE, font=TEXT_FONT, weight=BOLD).scale(
+            CHAT_LABEL_SCALE
+        )
         chat_label.next_to(chat_background, UP, buff=CHAT_LABEL_BUFF)
         chat_label.set_z_index(2)
         return chat_label
 
     def get_chat_data(self) -> list:
         return [
-            {"player": "aria", "text": "looks like a person sitting down", "time": 1, "role": "director", "avatar": "../identicons/blue/aria.png"},
-            {"player": "katherine", "text": "to the right or to the left? ", "time": 1, "role": "matcher", "avatar": "../identicons/blue/katherine.png"},
-            {"player": "kayla", "text": "to the left right? there is only one", "time": 1, "role": "matcher", "avatar": "../identicons/blue/kayla.png"},
-            {"player": "oliver", "text": "I think I see it.", "time": 1, "role": "matcher", "avatar": "../identicons/blue/oliver.png"},
-            {"player": "aria", "text": "yes it is sitting down to the left", "time": 2, "role": "director", "avatar": "../identicons/blue/aria.png"},
-            {"player": "katherine", "text": "ok I've made my selection!", "time": 1, "role": "matcher", "avatar": "../identicons/blue/katherine.png"},
-            {"player": "kayla", "text": "ok", "time": 2, "role": "matcher", "avatar": "../identicons/blue/kayla.png"},
-            {"player": "aria", "text": "the one with its head down sitting to the left", "time": 1, "role": "director", "avatar": "../identicons/blue/aria.png"},
+            {
+                "player": "aria",
+                "text": "looks like a person sitting down",
+                "time": 1,
+                "role": "director",
+                "avatar": "../identicons/blue/aria.png",
+            },
+            {
+                "player": "katherine",
+                "text": "to the right or to the left? ",
+                "time": 1,
+                "role": "matcher",
+                "avatar": "../identicons/blue/katherine.png",
+            },
+            {
+                "player": "kayla",
+                "text": "to the left right? there is only one",
+                "time": 1,
+                "role": "matcher",
+                "avatar": "../identicons/blue/kayla.png",
+            },
+            {
+                "player": "oliver",
+                "text": "I think I see it.",
+                "time": 1,
+                "role": "matcher",
+                "avatar": "../identicons/blue/oliver.png",
+            },
+            {
+                "player": "aria",
+                "text": "yes it is sitting down to the left",
+                "time": 2,
+                "role": "director",
+                "avatar": "../identicons/blue/aria.png",
+            },
+            {
+                "player": "katherine",
+                "text": "ok I've made my selection!",
+                "time": 1,
+                "role": "matcher",
+                "avatar": "../identicons/blue/katherine.png",
+            },
+            {
+                "player": "kayla",
+                "text": "ok",
+                "time": 2,
+                "role": "matcher",
+                "avatar": "../identicons/blue/kayla.png",
+            },
+            {
+                "player": "aria",
+                "text": "the one with its head down sitting to the left",
+                "time": 1,
+                "role": "director",
+                "avatar": "../identicons/blue/aria.png",
+            },
         ]
 
     def create_chat_bubble(self, item: dict) -> ChatBubble:
@@ -173,10 +230,18 @@ class ChatAnimation(Scene):
         else:
             chat_bubble.to_edge(LEFT, buff=0.5)
 
-    def highlight_tangrams(self, image_grid: Group, target_index: int, chosen_tangrams: dict):
+    def highlight_tangrams(
+        self, image_grid: Group, target_index: int, chosen_tangrams: dict
+    ):
         target_image = image_grid[target_index]
-        target_box = SurroundingRectangle(target_image, color=GREEN_C, buff=0, stroke_width=TARGET_BOX_STROKE_WIDTH)
-        target_label = Text("Target", color=GREEN_C, font=TEXT_FONT, weight=BOLD).scale(0.5).next_to(target_box, UP, buff=0.05)
+        target_box = SurroundingRectangle(
+            target_image, color=GREEN_C, buff=0, stroke_width=TARGET_BOX_STROKE_WIDTH
+        )
+        target_label = (
+            Text("Target", color=GREEN_C, font=TEXT_FONT, weight=BOLD)
+            .scale(0.5)
+            .next_to(target_box, UP, buff=0.05)
+        )
         self.play(FadeIn(target_box), Write(target_label))
 
         avatar_positions = {}
@@ -184,10 +249,16 @@ class ChatAnimation(Scene):
 
         for player, index in chosen_tangrams.items():
             chosen_image = image_grid[index]
-            avatar_image = ImageMobject(f"../identicons/blue/{player.lower()}.png").scale(AVATAR_IMAGE_SCALE)
+            avatar_image = ImageMobject(
+                f"../identicons/blue/{player.lower()}.png"
+            ).scale(AVATAR_IMAGE_SCALE)
 
             if index not in avatar_positions:
-                avatar_position = chosen_image.get_corner(UP + RIGHT) + AVATAR_POSITION_OFFSET * DOWN + AVATAR_POSITION_OFFSET * LEFT
+                avatar_position = (
+                    chosen_image.get_corner(UP + RIGHT)
+                    + AVATAR_POSITION_OFFSET * DOWN
+                    + AVATAR_POSITION_OFFSET * LEFT
+                )
                 avatar_positions[index] = avatar_position
             else:
                 avatar_position = avatar_positions[index] + AVATAR_STACK_OFFSET * DOWN
@@ -199,6 +270,15 @@ class ChatAnimation(Scene):
             if index == target_index:
                 correct_guesses += 1
 
-        correct_guesses_text = Text(f"{correct_guesses} out of 3 guessed correctly", color=BLUE, font=TEXT_FONT, weight=BOLD).scale(CORRECT_GUESSES_TEXT_SCALE).next_to(image_grid, UP, buff=CORRECT_GUESSES_TEXT_BUFF)
+        correct_guesses_text = (
+            Text(
+                f"{correct_guesses} out of 3 guessed correctly",
+                color=BLUE,
+                font=TEXT_FONT,
+                weight=BOLD,
+            )
+            .scale(CORRECT_GUESSES_TEXT_SCALE)
+            .next_to(image_grid, UP, buff=CORRECT_GUESSES_TEXT_BUFF)
+        )
         self.add(correct_guesses_text)
         self.wait(0.5)
