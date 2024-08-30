@@ -3,8 +3,6 @@ import json
 import random
 from manim import *
 
-# TODO: take in argument for whether red or blue; change colors accordingly
-
 # Constants
 BUBBLE_CORNER_RADIUS = 0.3
 BUBBLE_PADDING_WIDTH = 0.5
@@ -254,6 +252,8 @@ def generate_videos_for_item(item_number):
         game_info = json.load(f)
     available_tangrams = list(game_info["red"].keys())
     assert list(game_info["blue"].keys()) == available_tangrams
+
+    config.media_dir = "../convo_vids"
 
     for color, tangram_info in game_info.items():
         for tangram, info in tangram_info.items():
