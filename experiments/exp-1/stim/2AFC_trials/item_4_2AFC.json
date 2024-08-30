@@ -1,0 +1,4418 @@
+[
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "red",
+        "label": "Y"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "red",
+        "label": "baby"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    }
+  ]
+]

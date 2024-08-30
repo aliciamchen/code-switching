@@ -1,0 +1,4418 @@
+[
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "dog"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "the innocent one"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sleeping bag"
+      }
+    }
+  ]
+]

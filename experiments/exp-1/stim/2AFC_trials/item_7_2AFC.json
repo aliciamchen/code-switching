@@ -1,0 +1,4418 @@
+[
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "red",
+        "label": "princess dance"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      "unique": {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "wings"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "s shaped"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ]
+]

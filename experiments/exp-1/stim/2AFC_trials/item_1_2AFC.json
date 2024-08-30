@@ -1,0 +1,4418 @@
+[
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "red",
+        "label": "fetal position"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "F",
+        "shared": "unique",
+        "group": "blue",
+        "label": "sitting man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "hug"
+      }
+    }
+  ]
+]

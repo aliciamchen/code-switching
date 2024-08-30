@@ -1,0 +1,4418 @@
+[
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "red",
+        "label": "crouching"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "L",
+        "shared": "unique",
+        "group": "blue",
+        "label": "squats"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "red",
+        "label": "man with cape"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "J",
+        "shared": "unique",
+        "group": "blue",
+        "label": "large cube"
+      }
+    }
+  ]
+]

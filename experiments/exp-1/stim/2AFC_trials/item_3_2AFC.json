@@ -1,0 +1,4418 @@
+[
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    }
+  ]
+]

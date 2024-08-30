@@ -1,0 +1,4418 @@
+[
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "crane kick"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "dancing man"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "chess pawn"
+      }
+    },
+    {
+      "goal": "refer",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the innocent one"
+      }
+    }
+  ]
+]
