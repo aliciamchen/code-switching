@@ -1,4 +1,6 @@
 import textwrap
+import json
+import random
 from manim import *
 
 # TODO: take in argument for whether red or blue; change colors accordingly
@@ -40,46 +42,6 @@ avatar_mappings = {
 }
 
 
-# files
-# (later, this should be loaded in via a json file)
-test_data = {
-    "target": "A",
-    "convention": "thriller",
-    "game": "3WzEi9zkHF77vdTw5",
-    "repNum": 0,
-    "speakerThisRep": "alice",
-    "convo": [
-        {
-            "player": "alice",
-            "text": "ok its like a guy facing left with his head to the right over his back and a leg out to the left",
-            "time": 0.7996382005124651,
-            "role": "speaker",
-        },
-        {
-            "player": "alice",
-            "text": "his arms are level with his head",
-            "time": 0.6367287955613831,
-            "role": "speaker",
-        },
-        {
-            "player": "alice",
-            "text": "his head comes past the right side of his body by a bit",
-            "time": 1.345429440597403,
-            "role": "speaker",
-        },
-        {
-            "player": "alice",
-            "text": "its the only one with a leg out to the left",
-            "time": 0.5417025705579315,
-            "role": "speaker",
-        },
-    ],
-    "choices": {"dave": "A", "bob": "A", "carol": "A"},
-}
-
-available_tangrams = ["A", "B", "C", "D", "E", "F"] # TODO: load in available tangrams from other file?
-
-
 class ChatBubble(Group):
     def __init__(
         self,
@@ -118,6 +80,12 @@ class ChatBubble(Group):
 
 
 class ChatAnimation(Scene):
+    def __init__(self, chat_data, available_tangrams, color, **kwargs):
+        self.chat_data = chat_data
+        self.available_tangrams = available_tangrams
+        self.color = color
+        super().__init__(**kwargs)
+
     def construct(self):
         image_grid = self.create_image_grid(2, 3)
         image_grid.to_edge(RIGHT, buff=0.3)
@@ -132,10 +100,11 @@ class ChatAnimation(Scene):
         chat_label = self.create_chat_label(chat_background)
         self.add(chat_label)
 
-        chat_data = self.get_chat_data()
+        # chat_data = self.get_chat_data()
+
         bubbles = []
 
-        for item in chat_data:
+        for item in self.chat_data["convo"]:
             chat_bubble = self.create_chat_bubble(item)
             chat_bubble.to_edge(DOWN, buff=0.5)
             animations = [FadeIn(chat_bubble)]
@@ -153,16 +122,21 @@ class ChatAnimation(Scene):
             self.play(AnimationGroup(*animations, lag_ratio=0))
             self.wait(item["time"])
 
-        # target_index = 5
-        # chosen_tangrams = {"katherine": 3, "kayla": 3, "oliver": 5}
-        target = test_data["target"]
-        chosen_tangrams = test_data["choices"]
+
+        target = self.chat_data["target"]
+        chosen_tangrams = self.chat_data["choices"]
+        for player, choice in chosen_tangrams.items():
+            if choice not in self.available_tangrams:
+                available_tangrams_list = self.available_tangrams.copy()
+                available_tangrams_list.remove(target)
+                chosen_tangrams[player] = random.choice(available_tangrams_list)
+
         self.wait(2)
         self.highlight_tangrams(image_grid, target, chosen_tangrams)
         self.wait(2)
 
     def create_image_grid(self, rows: int, cols: int) -> Group:
-        image_paths = [f"../tangrams/tangram_{tangram}.png" for tangram in available_tangrams]
+        image_paths = [f"../tangrams/tangram_{tangram}.png" for tangram in self.available_tangrams]
         images = [ImageMobject(img).scale(0.55) for img in image_paths]
         return Group(*images).arrange_in_grid(rows=rows, cols=cols, buff=0.1)
 
@@ -198,9 +172,6 @@ class ChatAnimation(Scene):
         chat_label.set_z_index(2)
         return chat_label
 
-    def get_chat_data(self) -> list:
-        return test_data["convo"]
-
     def create_chat_bubble(self, item: dict) -> ChatBubble:
         bubble_color = DARK_BLUE if item["role"] == "speaker" else BLUE_B
         text_color = WHITE if item["role"] == "speaker" else BLACK
@@ -223,7 +194,7 @@ class ChatAnimation(Scene):
         self, image_grid: Group, target: str, chosen_tangrams: dict
     ):
         # target index is the index of the target in available_tangrams
-        target_index = available_tangrams.index(target)
+        target_index = self.available_tangrams.index(target)
 
         target_image = image_grid[target_index]
         target_box = SurroundingRectangle(
@@ -236,14 +207,12 @@ class ChatAnimation(Scene):
         )
         self.play(FadeIn(target_box), Write(target_label))
 
-        # target_index = 5
-        # chosen_tangrams = {"katherine": 3, "kayla": 3, "oliver": 5}
-
         avatar_positions = {}
         correct_guesses = 0
 
         for player, tangram in chosen_tangrams.items():
-            index = available_tangrams.index(tangram)
+
+            index = self.available_tangrams.index(tangram)
             chosen_image = image_grid[index]
             avatar_image = ImageMobject(avatar_mappings["blue"][player]
                 # f"../identicons/blue/{player.lower()}.png"
@@ -278,3 +247,26 @@ class ChatAnimation(Scene):
         )
         self.add(correct_guesses_text)
         self.wait(0.5)
+
+def generate_videos_for_item(item_number):
+    with open(f"../items/item_{item_number}_game_info.json", "r") as f:
+        game_info = json.load(f)
+    available_tangrams = list(game_info["red"].keys())
+    assert list(game_info["blue"].keys()) == available_tangrams
+
+    for color, tangram_info in game_info.items():
+        for tangram, info in tangram_info.items():
+            with open(f"../convos/tangram_{tangram}_game_{info["game"]}.json", "r") as f:
+                convs = json.load(f)
+                for conv in convs:
+                    config.output_file = f"item_{item_number}_target_{conv['target']}_repNum_{conv["repNum"]}.mp4"
+                    config.quality = "low_quality"
+                    scene = ChatAnimation(conv, available_tangrams, color)
+                    scene.render()
+
+
+
+if __name__ == "__main__":
+
+    generate_videos_for_item(0)
+
