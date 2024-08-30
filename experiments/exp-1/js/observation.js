@@ -1,0 +1,64 @@
+async function getAvailableTangrams(item_id) {
+  const response = await fetch(`stim/items/item_${item_id}_game_info.json`);
+  const data = await response.json();
+
+  // get the possible tangrams, which are the keys in the 2nd level
+  const available_tangrams = Object.keys(data.red);
+
+  return available_tangrams;
+}
+
+async function createVideoTrials(item_id, jsPsych) {
+  try {
+    const available_tangrams = await getAvailableTangrams(item_id);
+
+    // show all targets for repNum 0 in randomized order, for one color and then for the other color
+    // more specifically, e.g. for repNum 0 first show all the red, target A, in randomized order
+    // then show all the blue, target A, in randomized order
+    // then show all the red, target B, in randomized order
+    // then move on to repNum 1
+    // videos are in stim/videos/480p15 and are in format item_{item_id}_{color}_target_{tangram}_repNum_{repNum}.mp4
+    const first_color = jsPsych.randomization.shuffle(["red", "blue"])[0];
+    const second_color = first_color === "red" ? "blue" : "red";
+
+    const video_trials = [];
+    for (let repNum = 0; repNum < 6; repNum++) {
+      for (let color of [first_color, second_color]) {
+        // randomize the order of the tangrams
+        const shuffled_tangrams =
+          jsPsych.randomization.shuffle(available_tangrams);
+        for (let tangram of shuffled_tangrams) {
+          const video_trial = {
+            type: jsPsychVideoButtonResponse,
+            stimulus: [
+              `stim/convo_vids/videos/480p15/item_${item_id}_${color}_target_${tangram}_repNum_${repNum}.mp4`,
+            ],
+            width: 800,
+            choices: ["Continue"],
+            prompt: "<p>Please press continue when you are finished.</p>",
+            controls: true,
+            autoplay: false,
+            response_allowed_while_playing: false,
+          };
+          video_trials.push(video_trial);
+        }
+      }
+    }
+
+    return video_trials;
+  } catch (error) {
+    console.error("Error loading video trials:", error);
+    throw error;
+  }
+}
+
+const video_trial = {
+  type: jsPsychVideoButtonResponse,
+  stimulus: ["stim/videos/test.mp4"],
+  width: 800,
+  choices: ["Continue"],
+  prompt: "<p>Please press continue when you are finished.</p>",
+  controls: true,
+  autoplay: false,
+  response_allowed_while_playing: false,
+};

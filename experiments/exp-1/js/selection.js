@@ -1,12 +1,12 @@
 // Selection phase
 async function loadTrialInfo(item_id, participant_id) {
-  const response = await fetch("json/trials.json");
+  const response = await fetch(`stim/2AFC_trials/item_${item_id}_2AFC.json`);
   const data = await response.json();
-  const item = data.find((item_1) => item_1.item_id === item_id);
+  const item = data[participant_id];
   if (!item) {
     throw new Error(`Item with id ${item_id} not found.`);
   }
-  return item.trials[participant_id];
+  return item;
 }
 
 function createSelectionTrial(trial, jsPsych) {

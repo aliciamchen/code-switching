@@ -3,6 +3,13 @@ async function makeTrials(item_id, participant_id, jsPsych) {
   try {
     const timeline = [];
 
+    // preload all of the videos in stim/convo_vids/videos/480p15 if they correspond to the item_id
+    const preload = {
+      type: jsPsychPreload,
+      auto_preload: true,
+    };
+    timeline.push(preload);
+
     // consent
     const consent = await createConsent();
     timeline.push(consent);
@@ -12,9 +19,15 @@ async function makeTrials(item_id, participant_id, jsPsych) {
     timeline.push(comprehensionLoop);
 
     // TODO: observation phase
+    const videoTrials = await createVideoTrials(item_id, jsPsych);
+    timeline.push(videoTrials);
 
     // selection phase
-    const selectionTrials = await createSelectionTrials(item_id, participant_id, jsPsych);
+    const selectionTrials = await createSelectionTrials(
+      item_id,
+      participant_id,
+      jsPsych
+    );
     timeline.push(selectionTrials);
 
     // exit survey
