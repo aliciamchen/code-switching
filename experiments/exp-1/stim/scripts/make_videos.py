@@ -1,6 +1,8 @@
 import textwrap
 from manim import *
 
+# TODO: take in argument for whether red or blue; change colors accordingly
+
 # Constants
 BUBBLE_CORNER_RADIUS = 0.3
 BUBBLE_PADDING_WIDTH = 0.5
@@ -20,7 +22,62 @@ AVATAR_IMAGE_SCALE = 0.2
 AVATAR_POSITION_OFFSET = 0.22
 AVATAR_STACK_OFFSET = 0.4
 CORRECT_GUESSES_TEXT_SCALE = 0.5
-CORRECT_GUESSES_TEXT_BUFF = 0.3
+CORRECT_GUESSES_TEXT_BUFF = 0.4
+
+avatar_mappings = {
+    "red": {
+        "alice": "../identicons/red/alexandra.png",
+        "bob": "../identicons/red/cole.png",
+        "carol": "../identicons/red/kaylee.png",
+        "dave": "../identicons/red/noah.png",
+    },
+    "blue": {
+        "alice": "../identicons/blue/aria.png",
+        "bob": "../identicons/blue/katherine.png",
+        "carol": "../identicons/blue/kayla.png",
+        "dave": "../identicons/blue/oliver.png",
+    },
+}
+
+
+# files
+# (later, this should be loaded in via a json file)
+test_data = {
+    "target": "A",
+    "convention": "thriller",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+        {
+            "player": "alice",
+            "text": "ok its like a guy facing left with his head to the right over his back and a leg out to the left",
+            "time": 0.7996382005124651,
+            "role": "speaker",
+        },
+        {
+            "player": "alice",
+            "text": "his arms are level with his head",
+            "time": 0.6367287955613831,
+            "role": "speaker",
+        },
+        {
+            "player": "alice",
+            "text": "his head comes past the right side of his body by a bit",
+            "time": 1.345429440597403,
+            "role": "speaker",
+        },
+        {
+            "player": "alice",
+            "text": "its the only one with a leg out to the left",
+            "time": 0.5417025705579315,
+            "role": "speaker",
+        },
+    ],
+    "choices": {"dave": "A", "bob": "A", "carol": "A"},
+}
+
+available_tangrams = ["A", "B", "C", "D", "E", "F"] # TODO: load in available tangrams from other file?
 
 
 class ChatBubble(Group):
@@ -30,7 +87,7 @@ class ChatBubble(Group):
         bubble_color=BLUE,
         text_color=WHITE,
         avatar: str = None,
-        role: str = "director",
+        role: str = "speaker",
         **kwargs,
     ):
         super().__init__(**kwargs)
@@ -51,7 +108,7 @@ class ChatBubble(Group):
 
         if avatar:
             avatar_image = ImageMobject(avatar).scale(AVATAR_SCALE)
-            if role == "director":
+            if role == "speaker":
                 avatar_image.next_to(bubble, LEFT, buff=AVATAR_BUFF)
             else:
                 avatar_image.next_to(bubble, RIGHT, buff=AVATAR_BUFF)
@@ -62,7 +119,7 @@ class ChatBubble(Group):
 
 class ChatAnimation(Scene):
     def construct(self):
-        image_grid = self.create_image_grid(3, 4)
+        image_grid = self.create_image_grid(2, 3)
         image_grid.to_edge(RIGHT, buff=0.3)
         self.add(image_grid)
 
@@ -96,28 +153,17 @@ class ChatAnimation(Scene):
             self.play(AnimationGroup(*animations, lag_ratio=0))
             self.wait(item["time"])
 
-        target_index = 5
-        chosen_tangrams = {"katherine": 3, "kayla": 3, "oliver": 5}
+        # target_index = 5
+        # chosen_tangrams = {"katherine": 3, "kayla": 3, "oliver": 5}
+        target = test_data["target"]
+        chosen_tangrams = test_data["choices"]
         self.wait(2)
-        self.highlight_tangrams(image_grid, target_index, chosen_tangrams)
+        self.highlight_tangrams(image_grid, target, chosen_tangrams)
         self.wait(2)
 
     def create_image_grid(self, rows: int, cols: int) -> Group:
-        image_paths = [
-            "../tangrams/tangram_A.png",
-            "../tangrams/tangram_B.png",
-            "../tangrams/tangram_C.png",
-            "../tangrams/tangram_D.png",
-            "../tangrams/tangram_E.png",
-            "../tangrams/tangram_F.png",
-            "../tangrams/tangram_G.png",
-            "../tangrams/tangram_H.png",
-            "../tangrams/tangram_I.png",
-            "../tangrams/tangram_J.png",
-            "../tangrams/tangram_K.png",
-            "../tangrams/tangram_L.png",
-        ]
-        images = [ImageMobject(img).scale(0.4) for img in image_paths]
+        image_paths = [f"../tangrams/tangram_{tangram}.png" for tangram in available_tangrams]
+        images = [ImageMobject(img).scale(0.55) for img in image_paths]
         return Group(*images).arrange_in_grid(rows=rows, cols=cols, buff=0.1)
 
     def create_chat_background(self) -> Rectangle:
@@ -153,86 +199,32 @@ class ChatAnimation(Scene):
         return chat_label
 
     def get_chat_data(self) -> list:
-        return [
-            {
-                "player": "aria",
-                "text": "looks like a person sitting down",
-                "time": 1,
-                "role": "director",
-                "avatar": "../identicons/blue/aria.png",
-            },
-            {
-                "player": "katherine",
-                "text": "to the right or to the left? ",
-                "time": 1,
-                "role": "matcher",
-                "avatar": "../identicons/blue/katherine.png",
-            },
-            {
-                "player": "kayla",
-                "text": "to the left right? there is only one",
-                "time": 1,
-                "role": "matcher",
-                "avatar": "../identicons/blue/kayla.png",
-            },
-            {
-                "player": "oliver",
-                "text": "I think I see it.",
-                "time": 1,
-                "role": "matcher",
-                "avatar": "../identicons/blue/oliver.png",
-            },
-            {
-                "player": "aria",
-                "text": "yes it is sitting down to the left",
-                "time": 2,
-                "role": "director",
-                "avatar": "../identicons/blue/aria.png",
-            },
-            {
-                "player": "katherine",
-                "text": "ok I've made my selection!",
-                "time": 1,
-                "role": "matcher",
-                "avatar": "../identicons/blue/katherine.png",
-            },
-            {
-                "player": "kayla",
-                "text": "ok",
-                "time": 2,
-                "role": "matcher",
-                "avatar": "../identicons/blue/kayla.png",
-            },
-            {
-                "player": "aria",
-                "text": "the one with its head down sitting to the left",
-                "time": 1,
-                "role": "director",
-                "avatar": "../identicons/blue/aria.png",
-            },
-        ]
+        return test_data["convo"]
 
     def create_chat_bubble(self, item: dict) -> ChatBubble:
-        bubble_color = DARK_BLUE if item["role"] == "director" else BLUE_B
-        text_color = WHITE if item["role"] == "director" else BLACK
+        bubble_color = DARK_BLUE if item["role"] == "speaker" else BLUE_B
+        text_color = WHITE if item["role"] == "speaker" else BLACK
         return ChatBubble(
             item["text"],
             bubble_color=bubble_color,
-            avatar=item["avatar"],
+            avatar=avatar_mappings["blue"][item["player"]],
             role=item["role"],
             text_color=text_color,
         )
 
     def align_chat_bubble(self, chat_bubble: ChatBubble, role: str):
-        if role != "director":
+        if role != "speaker":
             chat_bubble.to_edge(RIGHT, buff=0.5)
             chat_bubble.shift(LEFT * 6.8)
         else:
             chat_bubble.to_edge(LEFT, buff=0.5)
 
     def highlight_tangrams(
-        self, image_grid: Group, target_index: int, chosen_tangrams: dict
+        self, image_grid: Group, target: str, chosen_tangrams: dict
     ):
+        # target index is the index of the target in available_tangrams
+        target_index = available_tangrams.index(target)
+
         target_image = image_grid[target_index]
         target_box = SurroundingRectangle(
             target_image, color=GREEN_C, buff=0, stroke_width=TARGET_BOX_STROKE_WIDTH
@@ -244,13 +236,17 @@ class ChatAnimation(Scene):
         )
         self.play(FadeIn(target_box), Write(target_label))
 
+        # target_index = 5
+        # chosen_tangrams = {"katherine": 3, "kayla": 3, "oliver": 5}
+
         avatar_positions = {}
         correct_guesses = 0
 
-        for player, index in chosen_tangrams.items():
+        for player, tangram in chosen_tangrams.items():
+            index = available_tangrams.index(tangram)
             chosen_image = image_grid[index]
-            avatar_image = ImageMobject(
-                f"../identicons/blue/{player.lower()}.png"
+            avatar_image = ImageMobject(avatar_mappings["blue"][player]
+                # f"../identicons/blue/{player.lower()}.png"
             ).scale(AVATAR_IMAGE_SCALE)
 
             if index not in avatar_positions:
