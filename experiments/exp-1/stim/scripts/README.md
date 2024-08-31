@@ -1,75 +1,23 @@
 # Scripts to generate stimuli
 
-## Conventions for each tangram
+This folder contains the scripts to generate the stimuli and randomization for Experiment 1.
 
-Gameids and converged expressions on `repNum = 5`, for `countCorrect = 3`
+## Files
 
-Also, we should skip the tangrams that dont actively have abstract descriptions??
+### Game info from Boyce data
 
-- Tangram A:
-  - "Zombie!" hhTtzgf2BMCbDwG5i
-  - "bIRD HEAD" cA2SjWv3CePYZgyzS
-  - "Thriller" yYtSpzsEi4mnTuPrj
-  - "dancing man" rSMFkjhskBteiyQMB
-  - "crane kick" BXWWg9XvCErxTpT9k
-- Tangram B:
-  - "wings" rSMFkjhskBteiyQMB
-  - "princess dance" BXWWg9XvCErxTpT9k
-  - "mouse head" hHoRuwi7p8k2XhzD3
-- Tangram C:
-  - "flying" BXWWg9XvCErxTpT9k
-  - "no legs" hHoRuwi7p8k2XhzD3
-  - ""Y" shaped guy" JmgdhSKRPPxDKvprr
-  - "no legs" aJmxCcm4qPQKzrTZA
-  - "leaning left" hYBwiiFBSBi9ySwpJ
-- Tangram D:
-  - "priest" kBQMXHtyqWiM2LxL6
-  - "priest" ogPZPPCKpGn4votMa
-  - "wizard guy" JmgdhSKRPPxDKvprr
-  - "Pope" yYtSpzsEi4mnTuPrj
-  - "long sleeved book" cA2SjWv3CePYZgyzS
-  - "standing up" BXWWg9XvCErxTpT9k
-  - "facing left" Sjf5nadz9keqBvs24
-- Tangram E:
-  - "Crazy hat person" hhTtzgf2BMCbDwG5i
-  - "hat with 2 triangles" ogPZPPCKpGn4votMa
-  - "bunny ears" Sjf5nadz9keqBvs24
-  - "bunny ears" rSMFkjhskBteiyQMB
-  - "bunny ears" JmgdhSKRPPxDKvprr
-- Tangram F:
-  - "sitting man" cA2SjWv3CePYZgyzS
-  - "arms under knees" BXWWg9XvCErxTpT9k
-  - "pointed toes" JmgdhSKRPPxDKvprr
-  - "fetal position" LfuChcnEB54q8Ztys
-- Tangram G:
-  - "Strike a pose" hhTtzgf2BMCbDwG5i
-  - "horsee" kBQMXHtyqWiM2LxL6
-  - "dog" rSMFkjhskBteiyQMB
-  - "The strange dancer" XpTJWaJYpSojYdngB
-  - "thick leg" BXWWg9XvCErxTpT9k
-- Tangram H:
-  - "swaddled baby" ogPZPPCKpGn4votMa
-  - "Blob" yYtSpzsEi4mnTuPrj
-  - "iBaby" rSMFkjhskBteiyQMB
-  - "the innocent one" XpTJWaJYpSojYdngB
-  - "no arms" JmgdhSKRPPxDKvprr
-  - "chess pawn" P8wDF8HAYYAcwBYsm
-- Tangram I:
-  - "ballerina" pAaZt2Cv9MEFRCAY5
-  - "ice skater" BXWWg9XvCErxTpT9k
-  - "figure skater" hYBwiiFBSBi9ySwpJ
-  - "figure skater" LfuChcnEB54q8Ztys
-- Tangram J: (skip?)
-  - "the fat guy" XpTJWaJYpSojYdngB
-  - "fat man hailing cab" hHoRuwi7p8k2XhzD3
-  - "large cube" 3AT9PDD5rDrb5GS4e
-- tangram K: skip?
-  - "on their knees" cA2SjWv3CePYZgyzS
-  - "kneeling speaker" rSMFkjhskBteiyQMB
-  - "duck" 3WzEi9zkHF77vdTw5
-  - "arms held out" aJmxCcm4qPQKzrTZA
-- tangram L:
-  - "s shaped" cA2SjWv3CePYZgyzS
-  - ""S" shaped guy" JmgdhSKRPPxDKvprr
-  - "bent knee speaker" rSMFkjhskBteiyQMB
-  - "knees bent" 3WzEi9zkHF77vdTw5
+`conventions.json` contains all the possible final referring expressions, for each tangram. The `shared` expressions correspond to the expressions that two or more groups converged on, and the `unique` expressions are the (abstract) expressions that one group converged on. These expressions were selected by manually inspecting the final referring expressions (round 5) from `../boyce_data/filtered_chat.csv`, and filtering by games where 2/3 or 3/3 participants got the answer right.
+
+`conventions_games.json` contains the `gameId` that each of the conventions in `conventions.json` belongs to, formatted this way for ease of access
+
+`get_convos.py` extracts and formats the conversation and selection history for each tangram-game pair in `conventions_games.json`. It uses the chat data in `../boyce_data/filtered_chat.csv` and the response data in `../boyce_data/round_results.csv`; outputs are saved in `../convos`. These files are among the inputs that are needed for generating the videos.
+
+### Making the items
+
+`make_items.py` takes in `conventions.json`, the number of items to generate, and generates the high-level info for each item (i.e. which tangrams should appear in each item? which tangrams have shared labels, and which have unique labels? what labels should each of the groups see, for each tangram? for each tangram-label pair, which game should the conversation be drawn from) For each item, the tangrams, and the labels, are drawn without replacement from their respective available sets. The outputs are saved in `../stim/items`, labeled by their item number.
+
+### Making the individual stimuli
+
+`make_videos.py` generates all the video stimuli for a specified item number. It loads in the game info for the specified item from `../items`, and finds the relevant conversation info from `../convos`. Videos are saved in `../convo_vids/videos`.
+
+`make_2afc_trials.py` takes each item and the specified number of items to loop over, and generates all the combinations of 2AFC trials for each item. They are generated so that each pari consists of one 'shared' tangram and one 'unique' tangram. There are twice as many 'unique' tangrams as 'shared' tangram, so each 'shared' tangram is paired with the same corresponding 'unique' tangram for each group. Then for each shared-unique pairing, the goal condition is 'refer' for one of the groups and 'social' the other group. This assignment is all counterbalanced across participants, so for 6 tangrams there are 48 unique sets of trials. Each set of sets of trials is stored in `../2AFC_trials` by its item number.
