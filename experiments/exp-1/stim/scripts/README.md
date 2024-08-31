@@ -14,7 +14,7 @@ This folder contains the scripts to generate the stimuli and randomization for E
 
 ### Making the items
 
-`make_items.py` takes in `conventions.json`, the number of items to generate, and generates the high-level info for each item (i.e. which tangrams should appear in each item? which tangrams have shared labels, and which have unique labels? what labels should each of the groups see, for each tangram? for each tangram-label pair, which game should the conversation be drawn from) For each item, the tangrams, and the labels, are drawn without replacement from their respective available sets. The outputs are saved in `../stim/items`, labeled by their item number.
+`make_items.py` takes in `conventions.json`, the number of items to generate, and generates the high-level info for each item (i.e. which tangrams should appear in each item? which tangrams have shared labels, and which have unique labels? what labels should each of the groups see, for each tangram? for each tangram-label pair, which game should the conversation be drawn from) For each item, the tangrams, and the labels, are drawn without replacement from their respective available sets. The outputs are saved in `../stim/items`, labeled by their item number. These outputs are the direct inputs to the javascript experiment.
 
 ### Making the individual stimuli
 
