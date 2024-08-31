@@ -11,10 +11,27 @@ async function loadTrialInfo(item_id, participant_id) {
 
 function createSelectionTrial(trial, jsPsych) {
   choice_order = jsPsych.randomization.repeat(["shared", "unique"], 1);
+
+  function make_prompt(trial) {
+    if (trial.goal === "refer") {
+      if (trial.audience === "one") {
+        return `<p>refer to ${trial.audience_group} group filler</p>`;
+      } else if (trial.audience === "both") {
+        return "<p>refer to both groups filler</p>";
+      }
+    } else if (trial.goal === "social") {
+      if (trial.audience === "one") {
+        return `<p>social filler for ${trial.audience_group} group</p>`;
+      } else if (trial.audience === "both") {
+        return "<p>social filler for both groups</p>";
+      }
+    }
+  }
+
   return [
     {
       type: jsPsychHtmlButtonResponse,
-      stimulus: trial.goal === "refer" ? "Refer filler" : "Social filler",
+      stimulus: make_prompt(trial),
       choices: choice_order,
       prompt: "<p>Select a tangram-label pair to send to XXX</p>",
       button_html: (choice) =>
@@ -34,7 +51,14 @@ function createSelectionTrial(trial, jsPsych) {
           });
         });
       },
-      data: { trialInfo: trial, task: "selection", choice_order: choice_order },
+      data: {
+        trialInfo: trial,
+        task: "selection",
+        choice_order: choice_order,
+        goal: trial.goal,
+        audience: trial.audience,
+        audience_group: trial.audience_group,
+      },
       on_finish: function (data) {
         data.choice = data.choice_order[data.response];
       },

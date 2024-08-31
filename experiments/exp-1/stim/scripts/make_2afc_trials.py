@@ -4,23 +4,6 @@ import json
 
 random.seed(88)
 
-items = [
-    {
-        "item_id": 1,
-        "lexicon": [
-            {"tangram": "A", "shared": "unique", "group": "blue", "label": "labelA1"},
-            {"tangram": "A", "shared": "unique", "group": "red", "label": "labelA2"},
-            {"tangram": "C", "shared": "unique", "group": "blue", "label": "labelC1"},
-            {"tangram": "C", "shared": "unique", "group": "red", "label": "labelC2"},
-            {"tangram": "F", "shared": "shared", "group": "both", "label": "labelF"},
-            {"tangram": "H", "shared": "shared", "group": "both", "label": "labelH"},
-            {"tangram": "I", "shared": "shared", "group": "both", "label": "labelI"},
-            {"tangram": "J", "shared": "unique", "group": "blue", "label": "labelJ1"},
-            {"tangram": "J", "shared": "unique", "group": "red", "label": "labelJ2"},
-        ],
-    }
-]
-
 
 def separate_tangrams(lexicon):
     shared_tangrams = [entry for entry in lexicon if entry["shared"] == "shared"]
@@ -38,28 +21,18 @@ def generate_all_unique_sets(lexicon, shared_tangrams, unique_tangrams):
     all_sets = []
     shared_permutations = list(itertools.permutations(shared_set))
 
-    refer_social_pairs = [["refer", "social"], ["social", "refer"]]
+    # Generate all combinations of the valid pairs of audiences
+    audience_pairs = [["one", "both"], ["both", "one"]]
+    audience_combs = list(itertools.product(audience_pairs, repeat=3))
 
-    # Generate all combinations of the valid pairs
-    # e.g.
-    # [
-    #     (["refer", "social"], ["refer", "social"], ["refer", "social"]),
-    #     (["refer", "social"], ["refer", "social"], ["social", "refer"]),
-    #     (["refer", "social"], ["social", "refer"], ["refer", "social"]),
-    #     (["refer", "social"], ["social", "refer"], ["social", "refer"]),
-    #     (["social", "refer"], ["refer", "social"], ["refer", "social"]),
-    #     (["social", "refer"], ["refer", "social"], ["social", "refer"]),
-    #     (["social", "refer"], ["social", "refer"], ["refer", "social"]),
-    #     (["social", "refer"], ["social", "refer"], ["social", "refer"]),
-    # ]
-    refer_social_combs = list(itertools.product(refer_social_pairs, repeat=3))
-
-    for comb in refer_social_combs:
+    for comb in audience_combs:
         for shared_perm in shared_permutations:
             trials = []
             for i in range(3):
-                trial_red = {
-                    "goal": comb[i][0],
+                trial_red_refer = {
+                    "goal": "refer",
+                    "audience": comb[i][0],
+                    "audience_group": "red",
                     "shared": [
                         entry
                         for entry in lexicon
@@ -73,12 +46,31 @@ def generate_all_unique_sets(lexicon, shared_tangrams, unique_tangrams):
                         and (entry["tangram"] == unique_set[i])
                     ][0],
                 }
-                trial_blue = {
-                    "goal": comb[i][1],
+                trial_red_social = {
+                    "goal": "social",
+                    "audience": comb[i][0],
+                    "audience_group": "red",
                     "shared": [
                         entry
                         for entry in lexicon
                         if (entry["group"] == "red")
+                        and (entry["tangram"] == shared_perm[i])
+                    ][0],
+                    "unique": [
+                        entry
+                        for entry in lexicon
+                        if (entry["group"] == "red")
+                        and (entry["tangram"] == unique_set[i])
+                    ][0],
+                }
+                trial_blue_refer = {
+                    "goal": "refer",
+                    "audience": comb[i][1],
+                    "audience_group": "blue",
+                    "shared": [
+                        entry
+                        for entry in lexicon
+                        if (entry["group"] == "blue")
                         and (entry["tangram"] == shared_perm[i])
                     ][0],
                     "unique": [
@@ -88,8 +80,27 @@ def generate_all_unique_sets(lexicon, shared_tangrams, unique_tangrams):
                         and (entry["tangram"] == unique_set[i])
                     ][0],
                 }
-                trials.append(trial_red)
-                trials.append(trial_blue)
+                trial_blue_social = {
+                    "goal": "social",
+                    "audience": comb[i][1],
+                    "audience_group": "blue",
+                    "shared": [
+                        entry
+                        for entry in lexicon
+                        if (entry["group"] == "blue")
+                        and (entry["tangram"] == shared_perm[i])
+                    ][0],
+                    "unique": [
+                        entry
+                        for entry in lexicon
+                        if (entry["group"] == "blue")
+                        and (entry["tangram"] == unique_set[i])
+                    ][0],
+                }
+                trials.append(trial_red_refer)
+                trials.append(trial_red_social)
+                trials.append(trial_blue_refer)
+                trials.append(trial_blue_social)
             all_sets.append(trials)
     return all_sets
 
