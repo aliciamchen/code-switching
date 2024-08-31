@@ -17,7 +17,7 @@ async function createVideoTrials(item_id, jsPsych) {
     // then show all the blue, target A, in randomized order
     // then show all the red, target B, in randomized order
     // then move on to repNum 1
-    // videos are in stim/videos/480p15 and are in format item_{item_id}_{color}_target_{tangram}_repNum_{repNum}.mp4
+
     const first_color = jsPsych.randomization.shuffle(["red", "blue"])[0];
     const second_color = first_color === "red" ? "blue" : "red";
 
@@ -25,6 +25,17 @@ async function createVideoTrials(item_id, jsPsych) {
     for (let repNum = 0; repNum < 6; repNum++) {
       for (let color of [first_color, second_color]) {
         // randomize the order of the tangrams
+        const prep_trial = {
+          type: jsPsychHtmlButtonResponse,
+          stimulus: `<h1 style="color: ${color}">${
+            color.charAt(0).toUpperCase() + color.slice(1)
+          } group</h1>
+          <h2>Round ${repNum + 1}</h2>`,
+          choices: ["Continue"],
+        };
+
+        video_trials.push(prep_trial);
+
         const shuffled_tangrams =
           jsPsych.randomization.shuffle(available_tangrams);
         for (let tangram of shuffled_tangrams) {
@@ -42,7 +53,25 @@ async function createVideoTrials(item_id, jsPsych) {
           };
           video_trials.push(video_trial);
         }
+
+        const end_of_round_color = {
+          type: jsPsychHtmlButtonResponse,
+          stimulus: `<h1>End of round for <span style="color: ${color}">${
+            color.charAt(0).toUpperCase() + color.slice(1)
+          }</span> group</h1>`,
+          choices: ["Continue"],
+        };
+        video_trials.push(end_of_round_color);
       }
+      const end_of_round = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `<h1>End of round ${repNum + 1}</h1>
+        <p>Please press continue${
+          repNum < 5 ? " to move on to the next round" : ""
+        }.</p>`,
+        choices: ["Continue"],
+      };
+      video_trials.push(end_of_round);
     }
 
     return video_trials;
@@ -51,14 +80,3 @@ async function createVideoTrials(item_id, jsPsych) {
     throw error;
   }
 }
-
-const video_trial = {
-  type: jsPsychVideoButtonResponse,
-  stimulus: ["stim/videos/test.mp4"],
-  width: 800,
-  choices: ["Continue"],
-  prompt: "<p>Please press continue when you are finished.</p>",
-  controls: true,
-  autoplay: false,
-  response_allowed_while_playing: false,
-};
