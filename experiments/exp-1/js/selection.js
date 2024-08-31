@@ -10,11 +10,12 @@ async function loadTrialInfo(item_id, participant_id) {
 }
 
 function createSelectionTrial(trial, jsPsych) {
+  choice_order = jsPsych.randomization.repeat(["shared", "unique"], 1);
   return [
     {
       type: jsPsychHtmlButtonResponse,
       stimulus: trial.goal === "refer" ? "Refer filler" : "Social filler",
-      choices: jsPsych.randomization.repeat(["shared", "unique"], 1),
+      choices: choice_order,
       prompt: "<p>Select a tangram-label pair to send to XXX</p>",
       button_html: (choice) =>
         `<div style="margin: 30px; cursor: pointer;" class="tangram">
@@ -32,6 +33,10 @@ function createSelectionTrial(trial, jsPsych) {
             tangram.style.outline = "";
           });
         });
+      },
+      data: { trialInfo: trial, task: "selection", choice_order: choice_order },
+      on_finish: function (data) {
+        data.choice = data.choice_order[data.response];
       },
     },
     {
