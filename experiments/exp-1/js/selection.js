@@ -12,18 +12,26 @@ async function loadTrialInfo(item_id, participant_id) {
 function createSelectionTrial(trial, jsPsych) {
   choice_order = jsPsych.randomization.repeat(["shared", "unique"], 1);
 
-  function make_prompt(trial) {
+  function make_stimulus(trial) {
     if (trial.goal === "refer") {
       if (trial.audience === "one") {
-        return `<p>refer to ${trial.audience_group} group filler</p>`;
+        return `<p>Please select a picture and its corresponding description.</p>\
+        <p>After the task ends, the chosen description will be shown to <b>a random player in the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group</b>.</p>\
+        <p>We will ask them to use your description to <b>guess its corresponding picture</b> out of the ${params.n_tangrams} pictures, and you will be awarded a $${params.perTrialBonus} bonus if they guess the picture correctly.</p>`;
       } else if (trial.audience === "both") {
-        return "<p>refer to both groups filler</p>";
+        return `<p>Please select a picture and its corresponding description.</p>\
+        <p>After the task ends, the chosen description will be shown to <b>a random player across <em>both</em> groups.</b></p>\
+        <p>We will ask them to use your description to <b>guess its corresponding picture</b> out of the ${params.n_tangrams} pictures, and you will be awarded a $${params.perTrialBonus} bonus if they guess the picture correctly.</p>`;
       }
     } else if (trial.goal === "social") {
       if (trial.audience === "one") {
-        return `<p>social filler for ${trial.audience_group} group</p>`;
+        return `<p>Please select a picture and its corresponding description.</p>\
+        <p>After the task ends, the chosen description will be shown to <b>a random player in the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group</b>.</p>\
+        <p>We will ask them to use your description to <b>guess whether or not you are in their own group</b>, and you will be awarded a $${params.perTrialBonus} bonus if they correctly guess that you are in the same group as them.</p>`;
       } else if (trial.audience === "both") {
-        return "<p>social filler for both groups</p>";
+        return `<p>Please select a picture and its corresponding description.</p>\
+        <p>After the task ends, the chosen description will be shown to <b>a random player across <em>both</em> groups</b>.</p>\
+        <p>We will ask them to use your description to <b>guess whether or not you are in their own group</b>, and you will be awarded a $${params.perTrialBonus} bonus if they correctly guess that you are in the same group as them.</p>`;
       }
     }
   }
@@ -31,9 +39,10 @@ function createSelectionTrial(trial, jsPsych) {
   return [
     {
       type: jsPsychHtmlButtonResponse,
-      stimulus: make_prompt(trial),
+      stimulus: make_stimulus(trial),
       choices: choice_order,
-      prompt: "<p>Select a tangram-label pair to send to XXX</p>",
+      prompt:
+        "<p>Please click on the tangram-label pair when you are ready.</p>",
       button_html: (choice) =>
         `<div style="margin: 30px; cursor: pointer;" class="tangram">
                  <img src="stim/tangrams/tangram_${
@@ -44,7 +53,7 @@ function createSelectionTrial(trial, jsPsych) {
       on_load: function () {
         document.querySelectorAll(".tangram").forEach((tangram) => {
           tangram.addEventListener("mouseover", function () {
-            tangram.style.outline = "5px solid lightpink";
+            tangram.style.outline = "5px solid gray";
           });
           tangram.addEventListener("mouseout", function () {
             tangram.style.outline = "";
