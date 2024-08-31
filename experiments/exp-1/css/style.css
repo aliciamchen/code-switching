@@ -1,3 +1,5 @@
-.tangram:hover {
-    border: 5px solid lightpink;
-  }
+.jspsych-content {
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+}
