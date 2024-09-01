@@ -110,7 +110,8 @@ async function createSelectionTrials(item_id, participant_id, jsPsych) {
     const instructions_reminder = {
       type: jsPsychHtmlButtonResponse,
       stimulus: `
-      <h1>Reminder</h1>
+      <h2>🤨 Part 2: Questions 🤨</h2>
+      <h3>⚠️ Reminder ⚠️</h3>
       <div class="align-left">
       <p>
       In this part, there are a total of 12 questions. For each question, you will be given two

@@ -19,3 +19,7 @@
   color: blue;
   font-weight: bold;
 }
+
+.video-container {
+  justify-content: center;
+}
