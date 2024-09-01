@@ -1,27 +1,30 @@
 [
   {
-    "prompt": "What are the differences between different students' past experience?",
+    "prompt": "What is the difference between the red and blue groups?",
     "options": [
-      "Students will have seen a different number of tasty and bitter mushrooms from the island before seeing the new mushroom(s) you show them.",
-      "Students will have seen a bunch of different types of islands before seeing the new mushroom(s) you show them.",
-      "Students will know either the cap width or the stem height rule on the island, but not both rules.",
-      "All students' experience is the same, so I will treat all students the same."
+      "(A) The players in the red group are more experienced than the players in the blue group.",
+      "(B) The players in the blue group only interact with each other, while the players in the red group only interact with each other.",
+      "(C) The players move between the groups: they are reassigned to new groups after each round."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "What happens to the descriptions that I select during the second part of the task?",
+    "options": [
+      "(A) They will be shown to the real players that played the game that I observed.",
+      "(B) They will always be shown to a random player across both groups.",
+      "(C) They will be shown to naive participants who have never played the game before.",
+      "(D) A and B",
+      "(E) A and C"
     ],
     "required": true
   },
   {
     "prompt": "How can I earn a high performance bonus?",
     "options": [
-      "By selecting a random mushroom on each lesson.",
-      "By considering what my students already know about the island so that I can teach accurately and helpfully."
-    ],
-    "required": true
-  },
-  {
-    "prompt": "Is there a chance I'll encounter the same student twice (not including the students I'll teach over two lessons)?",
-    "options": [
-      "Yes, I might encounter the same student twice.",
-      "No, I will teach a <b>new</b> student each time."
+      "(A) By clicking through the videos as quickly as possible.",
+      "(B) By selecting descriptions in the second part of the task that allow the players to correctly guess what they are prompted to guess.",
+      "(C) By selecting descriptions in the second part of the task that are the most creative."
     ],
     "required": true
   }

@@ -1,19 +1,18 @@
 // Consent
 async function createConsent() {
-    try {
-        const response = await fetch("html/consent.html");
-        const text = await response.text();
-        return {
-        type: jsPsychHtmlButtonResponse,
-        stimulus: text,
-        choices: ["I consent to participate"],
-        };
-    } catch (error) {
-        console.error("Error creating consent:", error);
-        throw error;
-    }
+  try {
+    const response = await fetch("html/consent.html");
+    const text = await response.text();
+    return {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: text,
+      choices: ["I consent to participate"],
+    };
+  } catch (error) {
+    console.error("Error creating consent:", error);
+    throw error;
+  }
 }
-
 
 // Instructions and comprehension loop
 
@@ -35,6 +34,7 @@ async function createInstructions() {
       type: jsPsychInstructions,
       pages: instructionPages,
       show_clickable_nav: true,
+      show_page_number: true,
     };
   } catch (error) {
     console.error("Error creating instructions:", error);
@@ -53,9 +53,9 @@ async function createComprehensionCheck() {
       preamble: "<p>Please answer the following questions:</p>",
       on_finish: function (data) {
         data.pass = [
-          data.response.Q0.includes("stem"),
-          data.response.Q1.includes("accurately"),
-          data.response.Q2.includes("new"),
+          data.response.Q0.includes("only"),
+          data.response.Q1.includes("real"),
+          data.response.Q2.includes("correctly"),
         ].every(Boolean);
 
         if (!data.pass) {
