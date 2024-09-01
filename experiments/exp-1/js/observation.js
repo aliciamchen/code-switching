@@ -22,6 +22,13 @@ async function createVideoTrials(item_id, jsPsych) {
     const second_color = first_color === "red" ? "blue" : "red";
 
     const video_trials = [];
+    const pass_intro = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `<p>Congrats on passing the comprehension quiz!</p><p>Please press "continue" to begin the first part of the task.</p>`,
+      choices: ["Continue"],
+    };
+    video_trials.push(pass_intro);
+
     for (let repNum = 0; repNum < 6; repNum++) {
       for (let color of [first_color, second_color]) {
         // randomize the order of the tangrams
@@ -73,6 +80,14 @@ async function createVideoTrials(item_id, jsPsych) {
       };
       video_trials.push(end_of_round);
     }
+
+    const end_of_video_trials = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `<h1>End of first phase</h1>
+      <p>Please press continue to move on to the second phase.</p>`,
+      choices: ["Continue"],
+    };
+    video_trials.push(end_of_video_trials);
 
     return video_trials;
   } catch (error) {
