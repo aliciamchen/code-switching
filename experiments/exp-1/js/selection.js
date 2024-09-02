@@ -79,6 +79,7 @@ function createSelectionTrial(trial, jsPsych) {
       data: {
         trialInfo: trial,
         task: "selection",
+        type: "response",
         choice_order: choice_order,
         goal: trial.goal,
         audience: trial.audience,
