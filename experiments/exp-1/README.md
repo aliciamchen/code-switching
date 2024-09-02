@@ -1,8 +1,8 @@
-# Scripts to generate stimuli
+# Experiment 1
+
+## `/stim`
 
 This folder contains the scripts to generate the stimuli and randomization for Experiment 1.
-
-## Files
 
 ### Game info from Boyce data
 
@@ -21,3 +21,9 @@ This folder contains the scripts to generate the stimuli and randomization for E
 `make_videos.py` generates all the video stimuli for a specified item number. It loads in the game info for the specified item from `../items`, and finds the relevant conversation info from `../convos`. Videos are saved in `../convo_vids/videos`.
 
 `make_2afc_trials.py` takes each item and the specified number of items to loop over, and generates all the combinations of 2AFC trials for each item. They are generated so that each pari consists of one 'shared' tangram and one 'unique' tangram. There are twice as many 'unique' tangrams as 'shared' tangram, so each 'shared' tangram is paired with the same corresponding 'unique' tangram for each group. Then for each shared-unique pairing, the audience is either a specific group or any group (so two pairs are specific and one pair is any, or vice versa). There is a within-participant manipulation of goal, so each trial is seen with the "refer" goal once and with the "social" goal once. This assignment is all counterbalanced across participants, so for 6 tangrams (12 trials) there are 48 unique sets of trials. Each set of sets of trials is stored in `../2AFC_trials` by its item number.
+
+
+## scp ing to MIT scrips
+
+`scp -r exp-1 aliciach@athena.dialup.mit.edu:~/www/tangrams/v1`
+website is at `https://web.mit.edu/aliciach/www/tangrams/v1/exp-1/`
