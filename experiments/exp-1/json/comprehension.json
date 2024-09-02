@@ -3,7 +3,7 @@
     "prompt": "What is the difference between the red and blue groups?",
     "options": [
       "(A) The players in the red group are more experienced than the players in the blue group.",
-      "(B) The players in the blue group only interact with each other, while the players in the red group only interact with each other.",
+      "(B) The players in the blue group only interact with each other, and the players in the red group only interact with each other.",
       "(C) The players move between the groups: they are reassigned to new groups after each round."
     ],
     "required": true
@@ -23,7 +23,7 @@
     "prompt": "How can I earn a high performance bonus?",
     "options": [
       "(A) By clicking through the videos as quickly as possible.",
-      "(B) By selecting descriptions in the second part of the task that allow the players to correctly guess what they are prompted to guess.",
+      "(B) By selecting descriptions in the second part of the task that help the players correctly answer what they are prompted to answer.",
       "(C) By selecting descriptions in the second part of the task that are the most creative."
     ],
     "required": true

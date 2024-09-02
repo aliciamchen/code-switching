@@ -18,7 +18,7 @@ async function makeTrials(item_id, participant_id, jsPsych) {
     const comprehensionLoop = await createComprehensionLoop(jsPsych);
     timeline.push(comprehensionLoop);
 
-    // TODO: observation phase
+    // observation phase
     const videoTrials = await createVideoTrials(item_id, jsPsych);
     timeline.push(videoTrials);
 
@@ -31,8 +31,8 @@ async function makeTrials(item_id, participant_id, jsPsych) {
     timeline.push(selectionTrials);
 
     // exit survey
-    const exitSurvey = await createExitSurvey();
-    timeline.push(exitSurvey);
+    const exit = await createExit();
+    timeline.push(exit);
 
     return timeline.flat();
   } catch (error) {

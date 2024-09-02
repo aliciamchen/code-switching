@@ -3,7 +3,7 @@
 const local_testing = true;
 
 const params = {
-  perTrialBonus: 0.5,
+  perTrialBonus: 0.25,
   n_tangrams: 6
 }
 
