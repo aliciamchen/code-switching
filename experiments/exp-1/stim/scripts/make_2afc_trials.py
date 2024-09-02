@@ -22,11 +22,18 @@ def generate_all_unique_sets(lexicon, shared_tangrams, unique_tangrams):
     shared_permutations = list(itertools.permutations(shared_set))
 
     # Generate all combinations of the valid pairs of audiences
-    audience_pairs = [["one", "both"], ["both", "one"]]
+    audience_pairs = [("one", "both"), ("both", "one")]
     audience_combs = list(itertools.product(audience_pairs, repeat=3))
+    # get rid of the combinations that have three of the same element
+    audience_combs = [
+        audience_comb
+        for audience_comb in audience_combs
+        if len(set(audience_comb)) == 2
+    ]
 
-    for comb in audience_combs:
-        for shared_perm in shared_permutations:
+    for shared_perm in shared_permutations:
+        for comb in audience_combs:
+            # print(comb)
             trials = []
             for i in range(3):
                 trial_red_refer = {
@@ -117,6 +124,7 @@ def main(n_items):
             # note that each index of this list is a set of trials for a single participant
             json.dump(all_sets, json_file, indent=2)
             print(f"Saved in ../2AFC_trials/item_{item_num}_2AFC.json")
+
 
 if __name__ == "__main__":
     main(10)
