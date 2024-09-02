@@ -7,6 +7,7 @@ const params = {
   n_tangrams: 6
 }
 
+// TODO: get item id and participant id from datapipe condition assignment
 var item_id = 0; // which item (set of stimuli?)
 var participant_id = 5; // which participant (determines what 2AFC set)
 
