@@ -9,19 +9,19 @@
       {
         "player": "alice",
         "text": "ok square balancing on top",
-        "time": 1.2594111515890694,
+        "time": 0.7911054664367908,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "body is fairly straight with no arms",
-        "time": 1.0550532397821406,
+        "time": 0.7646880435281799,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "triangle pointing out at the bottom to the right",
-        "time": 1.311379458053807,
+        "time": 0.8539990718396644,
         "role": "speaker"
       }
     ],
@@ -41,13 +41,13 @@
       {
         "player": "bob",
         "text": "no arms",
-        "time": 1.3078743095274856,
+        "time": 0.7221814782805633,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "facing the right",
-        "time": 0.8595194546075169,
+        "time": 0.9696083577616637,
         "role": "speaker"
       }
     ],
@@ -67,61 +67,61 @@
       {
         "player": "carol",
         "text": "facing right, square balancing on top, flat on either side",
-        "time": 0.6271867872563511,
+        "time": 0.9624821061482496,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "no arms",
-        "time": 0.7642752678568419,
+        "time": 0.6592368289143057,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Standing?",
-        "time": 0.61074050691333,
+        "time": 0.8349939435648462,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "triangle for feet bottom right",
-        "time": 1.2112244304662143,
+        "time": 0.786632719955703,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "hmm",
-        "time": 1.0227322800448904,
+        "time": 0.8077306771767909,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "looks like a blob with a square head",
-        "time": 0.8995956868365053,
+        "time": 0.8635269370438766,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Square balancing on left corner?",
-        "time": 0.8995968923356047,
+        "time": 0.6128390823975108,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "yea",
-        "time": 1.3625952254058267,
+        "time": 0.7282389783599466,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Two triangles on top or no?",
-        "time": 1.3737228070520846,
+        "time": 0.6261599453036558,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "no triangles",
-        "time": 0.8863178397634232,
+        "time": 0.874602250209766,
         "role": "speaker"
       }
     ],
@@ -141,13 +141,13 @@
       {
         "player": "dave",
         "text": "Facing right, no arms, but like the offering one",
-        "time": 1.3252005787253358,
+        "time": 0.9110659149191387,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Flat left side",
-        "time": 0.5720145031067984,
+        "time": 0.7284658255022755,
         "role": "speaker"
       }
     ],
@@ -167,7 +167,7 @@
       {
         "player": "alice",
         "text": "standing no arms",
-        "time": 1.1612088672401972,
+        "time": 0.676823984157567,
         "role": "speaker"
       }
     ],
@@ -187,7 +187,7 @@
       {
         "player": "bob",
         "text": "no arms!",
-        "time": 1.4894659808855448,
+        "time": 0.8873951480872942,
         "role": "speaker"
       }
     ],

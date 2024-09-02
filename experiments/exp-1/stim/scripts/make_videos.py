@@ -127,9 +127,9 @@ class ChatAnimation(Scene):
                 available_tangrams_list.remove(target)
                 chosen_tangrams[player] = random.choice(available_tangrams_list)
 
-        self.wait(2)
+        self.wait(1.5)
         self.highlight_tangrams(image_grid, target, chosen_tangrams)
-        self.wait(2)
+        self.wait(1)
 
     def create_image_grid(self, rows: int, cols: int) -> Group:
         image_paths = [f"../tangrams/tangram_{tangram}.png" for tangram in self.available_tangrams]

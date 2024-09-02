@@ -9,43 +9,43 @@
       {
         "player": "alice",
         "text": "the head is on a flat surface",
-        "time": 0.9983803863481954,
+        "time": 0.789041225231169,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "with a triangle stuck to the side of the head",
-        "time": 0.8638569376904628,
+        "time": 0.7102475856577058,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "the head and neck looks a bit like a pacman mouth",
-        "time": 1.4060702221932146,
+        "time": 0.642912909829748,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "triangle on the right side of head?",
-        "time": 0.683989098097273,
+        "time": 0.7551589421074378,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 0.5911073238732718,
+        "time": 0.7181959119797097,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Head angled, triangle from his neck",
-        "time": 0.9152016054072234,
+        "time": 0.8489354016369819,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "does it look like a kneeling fairy/angel?",
-        "time": 1.3682962111857626,
+        "time": 0.939250838712189,
         "role": "listener"
       }
     ],
@@ -65,43 +65,43 @@
       {
         "player": "bob",
         "text": "man kneeling with hands together on left forming a triangle",
-        "time": 0.5097236313834336,
+        "time": 0.9674039979389641,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "head looking up facing left",
-        "time": 0.9902694969498265,
+        "time": 0.663108795772633,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "triangle hat on back of head near neck area",
-        "time": 1.2292465904714487,
+        "time": 0.8654164711288839,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "feet extend out on left side",
-        "time": 1.4209834097603657,
+        "time": 0.6760874116314372,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "bunny ears?",
-        "time": 1.4119781644413414,
+        "time": 0.6828919956591631,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "no bunny ears",
-        "time": 0.8373644131275182,
+        "time": 0.6047968462191655,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "just one triangle hat on right side of head",
-        "time": 0.6821127942774874,
+        "time": 0.8659546329187872,
         "role": "speaker"
       }
     ],
@@ -121,7 +121,7 @@
       {
         "player": "carol",
         "text": "Looks like a mouses head with two ears, one square one triangle",
-        "time": 1.1314934740863816,
+        "time": 0.9600420493235162,
         "role": "speaker"
       }
     ],
@@ -141,13 +141,13 @@
       {
         "player": "dave",
         "text": "looks like a mouse with one square ear and one triangle one",
-        "time": 1.4143875593378548,
+        "time": 0.6303993821018425,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "nose looking to the upper left",
-        "time": 0.7296527795730624,
+        "time": 0.7266789611332338,
         "role": "speaker"
       }
     ],
@@ -167,25 +167,25 @@
       {
         "player": "alice",
         "text": "square head with a triangle hanging off it",
-        "time": 0.810113942659169,
+        "time": 0.6876377717078417,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "looks like a mouse?",
-        "time": 0.5670070091250567,
+        "time": 0.9855051904310501,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "triangle hanging to the right",
-        "time": 1.0864162523747747,
+        "time": 0.6555521320456984,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "head is on a flat surface",
-        "time": 0.6878672064097667,
+        "time": 0.6661475583874573,
         "role": "speaker"
       }
     ],
@@ -205,7 +205,7 @@
       {
         "player": "bob",
         "text": "mouse head",
-        "time": 0.6358766286852864,
+        "time": 0.9853737303773382,
         "role": "speaker"
       }
     ],

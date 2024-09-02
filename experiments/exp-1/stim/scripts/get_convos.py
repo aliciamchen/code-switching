@@ -89,7 +89,7 @@ def get_convo_data(
                 {
                     "player": row["playerId"],
                     "text": row["text"],
-                    "time": random.uniform(0.5, 1.5),
+                    "time": random.uniform(0.6, 1),
                     "role": row["role"],
                 }
             )

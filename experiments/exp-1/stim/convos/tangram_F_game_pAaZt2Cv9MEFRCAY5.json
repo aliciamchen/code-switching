@@ -9,79 +9,79 @@
       {
         "player": "alice",
         "text": "Person sitting down, facing the left",
-        "time": 0.8574349239354043,
+        "time": 0.9059886732177603,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "knees are upwards?",
-        "time": 1.4348975798380796,
+        "time": 0.8974998771821436,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Kind of like he's looking down",
-        "time": 0.6467284150405651,
+        "time": 0.7125518920037853,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "is their foot facing the left too",
-        "time": 1.1600183871175471,
+        "time": 0.9522896544376029,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "this one is rather easy just given that haha",
-        "time": 1.205340155616303,
+        "time": 0.9439817521508139,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Foot is facing left",
-        "time": 1.4006329317964252,
+        "time": 0.7701605732576988,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Knees kind of make a triangle shape",
-        "time": 0.613512644873554,
+        "time": 0.8299553908411232,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "CODE name?",
-        "time": 0.921833659371248,
+        "time": 0.6697999076113156,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "sad boi",
-        "time": 0.9459386324663874,
+        "time": 0.7597786977998763,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "sad boy lol",
-        "time": 0.869465972873301,
+        "time": 0.9268632918816978,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "nice",
-        "time": 1.1021131392947066,
+        "time": 0.9862353350755068,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "seems good to me, LOL",
-        "time": 0.8971534030258169,
+        "time": 0.9844595941381041,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yeah he does look sad",
-        "time": 1.2045298510588034,
+        "time": 0.832920920940789,
         "role": "speaker"
       }
     ],
@@ -101,31 +101,31 @@
       {
         "player": "bob",
         "text": "sad boi",
-        "time": 0.6313662151948399,
+        "time": 0.7387153902202864,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "depresso :(",
-        "time": 1.0918719918927087,
+        "time": 0.814631062906392,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "The one facing to the left?",
-        "time": 0.8267917698453598,
+        "time": 0.7885268270182122,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "hotcha",
-        "time": 1.4540934210207213,
+        "time": 0.8108313905390478,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yeah with his knee out",
-        "time": 1.4214140346796273,
+        "time": 0.6032294828061471,
         "role": "speaker"
       }
     ],
@@ -145,7 +145,7 @@
       {
         "player": "carol",
         "text": "sad boy",
-        "time": 0.7623159553679291,
+        "time": 0.9333880983568908,
         "role": "speaker"
       }
     ],
@@ -165,7 +165,7 @@
       {
         "player": "dave",
         "text": "sad boy",
-        "time": 0.7761505261456585,
+        "time": 0.8856231864654632,
         "role": "speaker"
       }
     ],
@@ -185,7 +185,7 @@
       {
         "player": "alice",
         "text": "sad boy",
-        "time": 0.626735309518762,
+        "time": 0.7519134315546648,
         "role": "speaker"
       }
     ],
@@ -205,7 +205,7 @@
       {
         "player": "bob",
         "text": "sad guy :(",
-        "time": 1.0452139630433377,
+        "time": 0.7299552142508199,
         "role": "speaker"
       }
     ],

@@ -9,31 +9,31 @@
       {
         "player": "alice",
         "text": "this looks like a standing person",
-        "time": 0.5193806879940412,
+        "time": 0.9696337620555211,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "with a triangle and square put together sticking out of the left side",
-        "time": 0.5283462890029469,
+        "time": 0.7755445553166698,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "and the bottom is flat and there's a small triangle at the bottom sticking out left too",
-        "time": 1.073670694043074,
+        "time": 0.6313350178833,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Like a guy with long sleeves looking at a book?",
-        "time": 1.100296421391866,
+        "time": 0.8610813231786267,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 1.1280374216931812,
+        "time": 0.9909461219471611,
         "role": "speaker"
       }
     ],
@@ -53,49 +53,49 @@
       {
         "player": "bob",
         "text": "A person standing upright looking into a book",
-        "time": 0.8148429457200195,
+        "time": 0.8660210633281227,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "A square on the right",
-        "time": 1.2721773463423571,
+        "time": 0.8773542043984879,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "left rather",
-        "time": 0.7009087290984993,
+        "time": 0.7839898194015844,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "the right is flat",
-        "time": 1.101054312081225,
+        "time": 0.975002618003653,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "and so is the bottom",
-        "time": 1.1752403258218038,
+        "time": 0.9559522166122304,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Think of someone with a large sleeves on their robe",
-        "time": 0.6777777684549947,
+        "time": 0.9289421113849803,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "is there a right angle on the bottom right ?",
-        "time": 0.5337299395197738,
+        "time": 0.8518432957584918,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 0.7008051262153789,
+        "time": 0.8980934146624627,
         "role": "speaker"
       }
     ],
@@ -115,7 +115,7 @@
       {
         "player": "carol",
         "text": "robe hands reading book",
-        "time": 1.0953227043256033,
+        "time": 0.9321444554824629,
         "role": "speaker"
       }
     ],
@@ -135,7 +135,7 @@
       {
         "player": "dave",
         "text": "guy with long sleeves and book",
-        "time": 1.13664235013779,
+        "time": 0.9974192178849046,
         "role": "speaker"
       }
     ],
@@ -155,25 +155,25 @@
       {
         "player": "alice",
         "text": "flat right side",
-        "time": 1.2930336636246533,
+        "time": 0.7085983682956287,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "person stadning",
-        "time": 1.3586377110630785,
+        "time": 0.6641415040423558,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "reading book to the elft",
-        "time": 1.1591739924608855,
+        "time": 0.6114021103115264,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "left",
-        "time": 0.5150664898994203,
+        "time": 0.9276090453656267,
         "role": "speaker"
       }
     ],
@@ -193,7 +193,7 @@
       {
         "player": "bob",
         "text": "long sleeved book",
-        "time": 1.1497549758753984,
+        "time": 0.8999168806923483,
         "role": "speaker"
       }
     ],

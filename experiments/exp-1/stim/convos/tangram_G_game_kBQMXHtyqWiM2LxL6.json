@@ -9,67 +9,67 @@
       {
         "player": "carol",
         "text": "?",
-        "time": 1.246951065836416,
+        "time": 0.7229344321551078,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Its a lot of shapes. On the bottom is a parollelogram.",
-        "time": 1.317753420481829,
+        "time": 0.6282638947996898,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Need a bit more to go by, sorry",
-        "time": 0.5613441543054719,
+        "time": 0.734114694850339,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "the one that looks like a yoga pose?",
-        "time": 1.1681956061760834,
+        "time": 0.8847852062914875,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "facing right?",
-        "time": 0.819896839010111,
+        "time": 0.813391269567932,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "No, it doesn't look like a person",
-        "time": 1.484803177651886,
+        "time": 0.6777610342628337,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Is the top of it a square that's tilted to the left? Almost looks like it's falling off",
-        "time": 1.179112832474173,
+        "time": 0.6557548649387445,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yeah, adn there's a triangle on the right also falling off",
-        "time": 1.426536870648778,
+        "time": 0.6188156567768253,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Towards the bottom",
-        "time": 0.732224250167157,
+        "time": 0.7564683574646329,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Yes I know the one",
-        "time": 1.4873022144183006,
+        "time": 0.8295113296985991,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "yeah that's the one I meant",
-        "time": 1.0739605660179814,
+        "time": 0.6737332021721656,
         "role": "listener"
       }
     ],
@@ -89,43 +89,43 @@
       {
         "player": "bob",
         "text": "hmm",
-        "time": 1.1573325124930935,
+        "time": 0.7850861739486943,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "looks like someone leaning their head back with a leg forward and another behind (on the knee)",
-        "time": 0.5778607931105304,
+        "time": 0.939212753523556,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "forgive my poor description",
-        "time": 1.0312494164011772,
+        "time": 0.9860475229875445,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "the one that's a bit like a yoga pose",
-        "time": 0.8669073128470723,
+        "time": 0.770447476210587,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "and an arm stretched up towards the right",
-        "time": 1.2175716039249207,
+        "time": 0.9952750059935311,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Is the head (diamond) falling off to the left?",
-        "time": 1.3527935914575178,
+        "time": 0.6772640972122084,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 1.1707884847853043,
+        "time": 0.8265505712250187,
         "role": "speaker"
       }
     ],
@@ -145,67 +145,67 @@
       {
         "player": "dave",
         "text": "nice one",
-        "time": 0.645207825736871,
+        "time": 0.661099382256432,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "The head is falling off to the left",
-        "time": 0.8474787152389379,
+        "time": 0.9864755465468238,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "It's the only one with that",
-        "time": 0.7187189007028412,
+        "time": 0.7410150398071996,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Parallelogram at the bottom",
-        "time": 1.106059959535079,
+        "time": 0.8400682026646574,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "is it the one with the long thing at the back?",
-        "time": 0.6213917685020668,
+        "time": 0.8560829726553852,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "No i don't think so",
-        "time": 1.3716635663734502,
+        "time": 0.7531363702080406,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "oh ok",
-        "time": 1.1720750146133336,
+        "time": 0.7123423973549076,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "darn I think I got the wrong one",
-        "time": 1.0370925115892213,
+        "time": 0.6238564459735803,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Does it have a triangle towards the bottom pointing down on the right",
-        "time": 1.082178232027183,
+        "time": 0.9820405853685139,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "The head (square) is falling to the left",
-        "time": 1.4005439626419482,
+        "time": 0.647498959684101,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "same lol",
-        "time": 0.7509698063670214,
+        "time": 0.6554932684424926,
         "role": "listener"
       }
     ],
@@ -225,25 +225,25 @@
       {
         "player": "dave",
         "text": "the yoga pose facing RIGHT, heading tipping back towards the left",
-        "time": 0.5090814203223958,
+        "time": 0.8082515941675694,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "with the extra long bit at the bottom left",
-        "time": 1.2401383694388164,
+        "time": 0.9450423274746209,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "That's the one I call the horse about to gallop lol",
-        "time": 1.473207460404811,
+        "time": 0.743024486697583,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "lol",
-        "time": 1.3782902376673882,
+        "time": 0.8208073785565955,
         "role": "listener"
       }
     ],
@@ -263,13 +263,13 @@
       {
         "player": "alice",
         "text": "The weird horse/yoga pose",
-        "time": 0.7854432292829017,
+        "time": 0.9576867949255538,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "haha that works",
-        "time": 0.7131095734501589,
+        "time": 0.7305030867805686,
         "role": "listener"
       }
     ],
@@ -289,7 +289,7 @@
       {
         "player": "bob",
         "text": "horsee",
-        "time": 0.9534681175712106,
+        "time": 0.7560246174289385,
         "role": "speaker"
       }
     ],

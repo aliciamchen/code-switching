@@ -9,13 +9,13 @@
       {
         "player": "alice",
         "text": "person has arms raised up in the air",
-        "time": 1.160591539830234,
+        "time": 0.7676124469269681,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "like the \"y\" in the ymca song",
-        "time": 0.7204293023796595,
+        "time": 0.7827391769834329,
         "role": "speaker"
       }
     ],
@@ -35,7 +35,7 @@
       {
         "player": "bob",
         "text": "the Y in YMCA",
-        "time": 0.5436267482856341,
+        "time": 0.6527087133583037,
         "role": "speaker"
       }
     ],
@@ -55,7 +55,7 @@
       {
         "player": "carol",
         "text": "y in ymca",
-        "time": 0.9929836374671814,
+        "time": 0.9386928238153718,
         "role": "speaker"
       }
     ],
@@ -75,7 +75,7 @@
       {
         "player": "dave",
         "text": "Y in ymca",
-        "time": 1.1058532968733652,
+        "time": 0.8521376867493504,
         "role": "speaker"
       }
     ],
@@ -95,7 +95,7 @@
       {
         "player": "alice",
         "text": "y in ymca",
-        "time": 0.6292291138217126,
+        "time": 0.7911121684985931,
         "role": "speaker"
       }
     ],
@@ -115,7 +115,7 @@
       {
         "player": "bob",
         "text": "y in ymca",
-        "time": 1.3779006803528273,
+        "time": 0.7261287953365981,
         "role": "speaker"
       }
     ],

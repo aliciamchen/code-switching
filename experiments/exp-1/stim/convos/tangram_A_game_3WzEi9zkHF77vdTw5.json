@@ -9,25 +9,25 @@
       {
         "player": "alice",
         "text": "ok its like a guy facing left with his head to the right over his back and a leg out to the left",
-        "time": 0.7996382005124651,
+        "time": 0.9916653913092122,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "his arms are level with his head",
-        "time": 0.6367287955613831,
+        "time": 0.8838557412142785,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "his head comes past the right side of his body by a bit",
-        "time": 1.345429440597403,
+        "time": 0.722063708183316,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "its the only one with a leg out to the left",
-        "time": 0.5417025705579315,
+        "time": 0.6023148431108882,
         "role": "speaker"
       }
     ],
@@ -47,25 +47,25 @@
       {
         "player": "bob",
         "text": "the persons legs are facing the left but his head which is shaped almost like the box is facing to the right",
-        "time": 1.2230227999217798,
+        "time": 0.80717182767981,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "more?",
-        "time": 1.0086582427294206,
+        "time": 0.8987538794679015,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "it is like he is walking to the left",
-        "time": 0.6426412489703941,
+        "time": 0.9355640504603762,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "is it a bit like the thriller dance",
-        "time": 0.9025717480744636,
+        "time": 0.716756219820531,
         "role": "listener"
       }
     ],
@@ -85,13 +85,13 @@
       {
         "player": "carol",
         "text": "looks like a man walking to the left with a square backpack on and triangle on his face l",
-        "time": 0.7624229004562142,
+        "time": 0.6064082153425071,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "one leg on floor to the left one leg left is slightly raised",
-        "time": 0.9508462693493187,
+        "time": 0.8150923998001554,
         "role": "speaker"
       }
     ],
@@ -111,25 +111,25 @@
       {
         "player": "dave",
         "text": "leg lifted to the left",
-        "time": 0.8727055271514005,
+        "time": 0.7678901415346082,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "thriller dance",
-        "time": 1.3551013667908418,
+        "time": 0.8209950437939012,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "yessss",
-        "time": 0.5951656737981411,
+        "time": 0.8346762657390894,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "lol",
-        "time": 0.8472734810062572,
+        "time": 0.8849023769311481,
         "role": "listener"
       }
     ],
@@ -149,7 +149,7 @@
       {
         "player": "alice",
         "text": "thriller",
-        "time": 0.928493032868374,
+        "time": 0.6348524894506214,
         "role": "speaker"
       }
     ],
@@ -169,7 +169,7 @@
       {
         "player": "bob",
         "text": "triller",
-        "time": 1.0100075237971735,
+        "time": 0.678874034829873,
         "role": "speaker"
       }
     ],

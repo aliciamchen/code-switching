@@ -9,73 +9,73 @@
       {
         "player": "alice",
         "text": "It looks like a dancer, standing upright on one leg",
-        "time": 1.4269886792537823,
+        "time": 0.7643035384235465,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "The other leg pointing to the right",
-        "time": 0.8543677800780672,
+        "time": 0.8770144701389107,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Two arms to the left",
-        "time": 0.864058415316737,
+        "time": 0.843303476632487,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Like a ballerina kind of",
-        "time": 1.3206632068697726,
+        "time": 0.7723771407944915,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "full body is on the left?",
-        "time": 0.889004042380992,
+        "time": 0.605000654842804,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yes",
-        "time": 1.0762990765189187,
+        "time": 0.9050414681252369,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "far from the standing leg?",
-        "time": 1.433261602864293,
+        "time": 0.6027691236426616,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yes, body is mostly in the left half",
-        "time": 1.087410208252411,
+        "time": 0.9554489412822349,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "And the legs are on the right half",
-        "time": 0.8271549589390448,
+        "time": 0.9110405021602548,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "All right what should we code name it? dancing?",
-        "time": 1.1532798347845885,
+        "time": 0.646070136099404,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Ballerina",
-        "time": 0.6926024321283875,
+        "time": 0.7542322842628483,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "alright",
-        "time": 1.0023238572697524,
+        "time": 0.6950539930535715,
         "role": "listener"
       }
     ],
@@ -95,13 +95,13 @@
       {
         "player": "bob",
         "text": "ballerina",
-        "time": 1.204389060948695,
+        "time": 0.7175657495110872,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "gg",
-        "time": 1.0847324386478059,
+        "time": 0.9726491648097239,
         "role": "listener"
       }
     ],
@@ -121,7 +121,7 @@
       {
         "player": "carol",
         "text": "ballerina",
-        "time": 1.1122610158545503,
+        "time": 0.7926388100178487,
         "role": "speaker"
       }
     ],
@@ -141,7 +141,7 @@
       {
         "player": "dave",
         "text": "ballerina",
-        "time": 1.0960485371784001,
+        "time": 0.6719639608161382,
         "role": "speaker"
       }
     ],
@@ -161,7 +161,7 @@
       {
         "player": "alice",
         "text": "ballerina",
-        "time": 1.4064466781059246,
+        "time": 0.8269258453585501,
         "role": "speaker"
       }
     ],
@@ -181,49 +181,49 @@
       {
         "player": "dave",
         "text": "fat leg sounds like a pirate yarrr",
-        "time": 1.2000248346736275,
+        "time": 0.9665982904587735,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "last one",
-        "time": 0.7682065423525797,
+        "time": 0.609803156568624,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "before i say it, i hope yall have a nice life and this was really fun okok",
-        "time": 0.7185751017478922,
+        "time": 0.7863082747987817,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": ":,(",
-        "time": 0.9337757724630465,
+        "time": 0.6786234095930024,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "The rounds were smooth as hell, Loved you guyz.",
-        "time": 1.3848297549940112,
+        "time": 0.60325572241963,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "ballerina",
-        "time": 0.7426438548491702,
+        "time": 0.9825636555385745,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "farewell",
-        "time": 1.3986989585783258,
+        "time": 0.9434233782588816,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "bye guys",
-        "time": 0.7185784027058273,
+        "time": 0.9483004035244801,
         "role": "listener"
       }
     ],

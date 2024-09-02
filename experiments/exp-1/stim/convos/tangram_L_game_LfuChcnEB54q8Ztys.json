@@ -9,31 +9,31 @@
       {
         "player": "alice",
         "text": "looks like person facing to the right with knees bent and arms to the right like they are making an offering to someone",
-        "time": 0.8347165713219937,
+        "time": 0.9303427466423256,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Arms are straight out?",
-        "time": 0.6408461690128968,
+        "time": 0.8832170964734043,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "the arms have a flat top and then angled underneath",
-        "time": 1.3947282737258488,
+        "time": 0.9148617159026569,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Head is facing on point - perfectly balanced?",
-        "time": 1.330456488615962,
+        "time": 0.8007042492219931,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 0.8154655173673471,
+        "time": 0.9833425010045564,
         "role": "speaker"
       }
     ],
@@ -53,19 +53,19 @@
       {
         "player": "bob",
         "text": "offering position",
-        "time": 0.6222096979069169,
+        "time": 0.7625590909763004,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "facing the right",
-        "time": 0.5531167230936969,
+        "time": 0.9153169273162177,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "knees bent",
-        "time": 0.6546171392542155,
+        "time": 0.7851976674472375,
         "role": "speaker"
       }
     ],
@@ -85,13 +85,13 @@
       {
         "player": "carol",
         "text": "offering in knees bent position, not the one on knees, just knees slightly bent",
-        "time": 0.6202415109775015,
+        "time": 0.710959751549542,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "facing right",
-        "time": 0.6631719409037713,
+        "time": 0.9082123279927649,
         "role": "speaker"
       }
     ],
@@ -111,7 +111,7 @@
       {
         "player": "dave",
         "text": "Offer with arms facing straight and to the right, knees bent",
-        "time": 0.6462992983349469,
+        "time": 0.8868157100451859,
         "role": "speaker"
       }
     ],
@@ -131,7 +131,7 @@
       {
         "player": "alice",
         "text": "kneeling offering facing right",
-        "time": 1.3200831033823603,
+        "time": 0.647064738807705,
         "role": "speaker"
       }
     ],
@@ -151,13 +151,13 @@
       {
         "player": "bob",
         "text": "offering to the right",
-        "time": 0.549762695354961,
+        "time": 0.6386525964275133,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "bent knees this time",
-        "time": 1.1344293763496656,
+        "time": 0.6363191418195355,
         "role": "speaker"
       }
     ],

@@ -9,37 +9,37 @@
       {
         "player": "alice",
         "text": "sittiing",
-        "time": 1.2674065023447434,
+        "time": 0.739198901127556,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "diamond leaing face to the left",
-        "time": 0.8441521744333687,
+        "time": 0.9158978295635481,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "1 clear food woth shoe",
-        "time": 1.0505226641574308,
+        "time": 0.9276506052806183,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "looks like leaning on wall?",
-        "time": 1.1330101371581909,
+        "time": 0.6594187497954533,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "gap between leg and body",
-        "time": 1.2484740940992187,
+        "time": 0.9655828402974813,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "part of the back is straight",
-        "time": 0.8298566322551643,
+        "time": 0.670714021804017,
         "role": "speaker"
       }
     ],
@@ -59,7 +59,7 @@
       {
         "player": "bob",
         "text": "facing left, sitting against a wall, head tilted down. knees bent. no arms visible",
-        "time": 0.6315064242503423,
+        "time": 0.6738810706671364,
         "role": "speaker"
       }
     ],
@@ -79,25 +79,25 @@
       {
         "player": "carol",
         "text": "sitting down like against wall, facing left, legs and feet to the left",
-        "time": 1.1585423847336285,
+        "time": 0.6575201206176837,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "head tilted down?",
-        "time": 1.3502728268144648,
+        "time": 0.6968617694737957,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "triangle like shoes?",
-        "time": 0.9982454437566165,
+        "time": 0.7826144012842525,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "yes, head tilted down",
-        "time": 1.148861667642936,
+        "time": 0.631049261851589,
         "role": "speaker"
       }
     ],
@@ -117,7 +117,7 @@
       {
         "player": "dave",
         "text": "sat down, facing left, held tilted slightly down, kness slightly bent to left triangle shoe",
-        "time": 1.3783492660901953,
+        "time": 0.6647803118731764,
         "role": "speaker"
       }
     ],
@@ -137,19 +137,19 @@
       {
         "player": "alice",
         "text": "sitting straight back",
-        "time": 1.080975314209718,
+        "time": 0.7354913951281656,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "1 leg in fro t to left",
-        "time": 0.5341915263733804,
+        "time": 0.6255395170267121,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "head leaning forward",
-        "time": 1.0906088059769354,
+        "time": 0.6146537224859621,
         "role": "speaker"
       }
     ],
@@ -169,19 +169,19 @@
       {
         "player": "bob",
         "text": "facing left, head tilted forward, sitting down against wall, knees bent",
-        "time": 1.0239897686978843,
+        "time": 0.6003618761183764,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "1  triangle foot?",
-        "time": 0.5432665754505661,
+        "time": 0.8569600342467567,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "pointed toes",
-        "time": 1.4103383771670592,
+        "time": 0.6828845436523507,
         "role": "speaker"
       }
     ],

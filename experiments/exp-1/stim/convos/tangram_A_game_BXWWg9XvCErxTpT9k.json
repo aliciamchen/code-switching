@@ -9,37 +9,37 @@
       {
         "player": "alice",
         "text": "Similar to the karate kid movie",
-        "time": 0.8947862059894499,
+        "time": 0.8398383089209719,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "the crane kick",
-        "time": 1.469608592546378,
+        "time": 0.7832716081463531,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Haha! Does it look like they have dangly sleeves!",
-        "time": 1.2564257242968138,
+        "time": 0.7237667522519452,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "I don't know that one.",
-        "time": 1.10654875882793,
+        "time": 0.9399548677990804,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 1.231985134935491,
+        "time": 0.6533887859840563,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "yes i see, thats a good explenation.",
-        "time": 0.9117600655627782,
+        "time": 0.880145566545758,
         "role": "listener"
       }
     ],
@@ -59,13 +59,13 @@
       {
         "player": "bob",
         "text": "Crane kick again, face is like a beak, it is the only one which has a triangle beak face",
-        "time": 1.3094926016641315,
+        "time": 0.7980084617158401,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Or dangly sleeves?",
-        "time": 0.6889711770394209,
+        "time": 0.7237371954956077,
         "role": "listener"
       }
     ],
@@ -85,19 +85,19 @@
       {
         "player": "carol",
         "text": "Dangly sleeves up opposite head",
-        "time": 1.1988603920871106,
+        "time": 0.9308506167881951,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Standing on one leg",
-        "time": 1.2232571386026017,
+        "time": 0.7833743880842498,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Thanks",
-        "time": 0.5611488906580577,
+        "time": 0.6792219954010712,
         "role": "listener"
       }
     ],
@@ -117,13 +117,13 @@
       {
         "player": "dave",
         "text": "crane kick / beak face / one leg slighty raised in front",
-        "time": 0.7349135536814508,
+        "time": 0.639118249699674,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "say no more boss",
-        "time": 1.2281995315440026,
+        "time": 0.7883290864724131,
         "role": "listener"
       }
     ],
@@ -143,7 +143,7 @@
       {
         "player": "alice",
         "text": "crane kick",
-        "time": 1.116529829734129,
+        "time": 0.6354445313762512,
         "role": "speaker"
       }
     ],
@@ -163,7 +163,7 @@
       {
         "player": "bob",
         "text": "crane kick",
-        "time": 0.6689098973221442,
+        "time": 0.6521610611925973,
         "role": "speaker"
       }
     ],

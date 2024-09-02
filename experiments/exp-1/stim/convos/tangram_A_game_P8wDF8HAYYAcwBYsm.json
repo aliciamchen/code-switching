@@ -9,31 +9,31 @@
       {
         "player": "alice",
         "text": "This one is a bit odd, so listen carefully.",
-        "time": 0.8994032623085189,
+        "time": 0.6858806900611614,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "I will write a few lines about it",
-        "time": 0.5852507562518738,
+        "time": 0.8737218951772665,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "It looks like a person kicking one foot in front of them. Their head looks like it has a beak!",
-        "time": 1.4505559420905547,
+        "time": 0.7938677099849561,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "The have a box over their right shoulder.",
-        "time": 1.1767886953378244,
+        "time": 0.9238992510764258,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "It could also in theory looking like a person carrying another person over their shoulder.",
-        "time": 1.1672759925372218,
+        "time": 0.7749007520229428,
         "role": "speaker"
       }
     ],
@@ -53,31 +53,31 @@
       {
         "player": "bob",
         "text": "michael jackson thriller dance",
-        "time": 1.0162969605759766,
+        "time": 0.8642099385250359,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "facing left",
-        "time": 1.0865987701234854,
+        "time": 0.7374177341687347,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "one leg foot on the ground",
-        "time": 0.9908289762105266,
+        "time": 0.9381626326939909,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "the other lifting up",
-        "time": 0.5738487995817526,
+        "time": 0.9675509540345051,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "lifting forward",
-        "time": 1.083512333482139,
+        "time": 0.6522406297556584,
         "role": "speaker"
       }
     ],
@@ -97,19 +97,19 @@
       {
         "player": "carol",
         "text": "man facing left kicking with diamond on right side head",
-        "time": 0.8260910815709958,
+        "time": 0.9275583813762609,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "thriller dance?",
-        "time": 0.5378087180002928,
+        "time": 0.7106888640139667,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "yes",
-        "time": 0.6059391453089465,
+        "time": 0.822177140842059,
         "role": "speaker"
       }
     ],
@@ -129,13 +129,13 @@
       {
         "player": "dave",
         "text": "thriller",
-        "time": 1.4320663643196605,
+        "time": 0.6874649703522738,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "one leg planted, other up",
-        "time": 0.759316813377151,
+        "time": 0.9553131858827012,
         "role": "speaker"
       }
     ],
@@ -155,13 +155,13 @@
       {
         "player": "alice",
         "text": "cuz this thrillaaaah",
-        "time": 0.5944894560928579,
+        "time": 0.7152925195486688,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "thrill of night",
-        "time": 1.1432999453553487,
+        "time": 0.8265937056884722,
         "role": "speaker"
       }
     ],
@@ -181,7 +181,7 @@
       {
         "player": "bob",
         "text": "thriller",
-        "time": 1.0297226314568675,
+        "time": 0.8071024782316393,
         "role": "speaker"
       }
     ],

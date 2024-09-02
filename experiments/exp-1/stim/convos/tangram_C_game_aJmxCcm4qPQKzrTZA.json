@@ -9,13 +9,13 @@
       {
         "player": "alice",
         "text": "athlete raising arms in victory after a goal",
-        "time": 1.3568132032273652,
+        "time": 0.7010987614406914,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "or someone praying with arms facing up to the heavens",
-        "time": 1.1680803212280901,
+        "time": 0.695855022419833,
         "role": "speaker"
       }
     ],
@@ -35,37 +35,37 @@
       {
         "player": "bob",
         "text": "careful, wet floor",
-        "time": 1.4626609923375296,
+        "time": 0.9574143062053746,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "sign",
-        "time": 0.805088905760996,
+        "time": 0.9333286494859513,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "facing right",
-        "time": 0.8990293038448238,
+        "time": 0.9696266134726965,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "no legs visible",
-        "time": 1.323222948616122,
+        "time": 0.778105414866286,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "body ends at waist?",
-        "time": 0.6616908657470101,
+        "time": 0.9106252969580696,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 0.8471689089657485,
+        "time": 0.9708400368442127,
         "role": "speaker"
       }
     ],
@@ -85,13 +85,13 @@
       {
         "player": "carol",
         "text": "figure facing right, arms raised, no legs visible",
-        "time": 0.6458498962394404,
+        "time": 0.777483237912591,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "looks like the figure is about to fall over",
-        "time": 0.7351954746914859,
+        "time": 0.6072209462082233,
         "role": "speaker"
       }
     ],
@@ -111,13 +111,13 @@
       {
         "player": "dave",
         "text": "A shadow on the floor. Both arms slightly raised.",
-        "time": 1.1997624566698635,
+        "time": 0.9269227929414162,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "No legs. Cuts off mid-body",
-        "time": 1.3468304930484405,
+        "time": 0.6242026213633352,
         "role": "speaker"
       }
     ],
@@ -137,13 +137,13 @@
       {
         "player": "alice",
         "text": "someone praying, arms raised to heaven, body cut off at waist",
-        "time": 0.6199713685559104,
+        "time": 0.7720318733281145,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "leaning way to left",
-        "time": 1.046312257700227,
+        "time": 0.8989561091394883,
         "role": "speaker"
       }
     ],
@@ -163,13 +163,13 @@
       {
         "player": "bob",
         "text": "falling back with arms flying in the air",
-        "time": 0.9839798142266877,
+        "time": 0.9001437605082909,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "no legs",
-        "time": 0.6798814911808374,
+        "time": 0.8711121472497534,
         "role": "speaker"
       }
     ],

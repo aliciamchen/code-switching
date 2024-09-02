@@ -9,25 +9,25 @@
       {
         "player": "alice",
         "text": "someone kneeling down with his arms pointing right with his knees pointing right too",
-        "time": 0.742887201230419,
+        "time": 0.9187882036258591,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "his legs are combined into a square",
-        "time": 0.8597010971232262,
+        "time": 0.8907781127982514,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Diamond head",
-        "time": 1.1032768175021703,
+        "time": 0.6918866414521896,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "hands form a triangle?",
-        "time": 0.7949824428478998,
+        "time": 0.7515812331150343,
         "role": "listener"
       }
     ],
@@ -47,37 +47,37 @@
       {
         "player": "bob",
         "text": "man kneeling, arms form a triangle on the right side",
-        "time": 1.436491452556769,
+        "time": 0.763027314357104,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "knees bent and form a triangles pointing right",
-        "time": 1.0020613194328756,
+        "time": 0.6411012398601754,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "diamond head",
-        "time": 1.0270919297341872,
+        "time": 0.7402727591289028,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "knees and legs form a rectangle",
-        "time": 0.8742397869285454,
+        "time": 0.7902163155923086,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Zigzag shape",
-        "time": 0.8409184148271679,
+        "time": 0.7805546946317947,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 1.4425332781440732,
+        "time": 0.9919983603646139,
         "role": "speaker"
       }
     ],
@@ -97,49 +97,49 @@
       {
         "player": "carol",
         "text": "Women kneeling, bent at knee, diamond head, sloped shoilders, one arm visible pointing right, she looks right",
-        "time": 0.5605543362976171,
+        "time": 0.8133114237792223,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Zigzag leg lady",
-        "time": 1.2267412208989092,
+        "time": 0.8174223203863987,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "triangle hanging off the back of her head?",
-        "time": 0.6602731110599344,
+        "time": 0.9008325312637058,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "No",
-        "time": 1.1912340126955794,
+        "time": 0.8561139317176556,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Looks like shes holding antray",
-        "time": 1.2018599674426764,
+        "time": 0.8063742039617252,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Holding a tray",
-        "time": 0.6684478113196,
+        "time": 0.9026701053235527,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "knees facing right with her arm?",
-        "time": 1.115170002702615,
+        "time": 0.873846884838074,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "Arm, knee points right",
-        "time": 1.480794670288924,
+        "time": 0.9039729869827202,
         "role": "speaker"
       }
     ],
@@ -159,19 +159,19 @@
       {
         "player": "dave",
         "text": "zigzag lady",
-        "time": 0.9067616008366811,
+        "time": 0.750419313053407,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "kneeling to the right, holding a bowl",
-        "time": 0.5334266879841689,
+        "time": 0.8344302948035562,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "knees pointing out but not touching the ground",
-        "time": 0.6790652369391924,
+        "time": 0.7102961906456549,
         "role": "speaker"
       }
     ],
@@ -191,25 +191,25 @@
       {
         "player": "alice",
         "text": "zig zag lady with arms pointing right",
-        "time": 1.371504871211424,
+        "time": 0.6679620220013015,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "flat back",
-        "time": 0.5345049765164955,
+        "time": 0.7611019279657492,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "No tail",
-        "time": 1.3216166830554217,
+        "time": 0.9019204230126768,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "no tail",
-        "time": 0.9870217579121711,
+        "time": 0.9141749909018568,
         "role": "speaker"
       }
     ],
@@ -229,25 +229,25 @@
       {
         "player": "bob",
         "text": "man facing right",
-        "time": 1.1787472332332247,
+        "time": 0.7030758834751494,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "right knee sticking out?",
-        "time": 1.00573573102373,
+        "time": 0.8817528197069637,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "hands in triangle knees together facng right",
-        "time": 1.3633947384545506,
+        "time": 0.6278133006131635,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "zigzag",
-        "time": 1.0899284136327232,
+        "time": 0.9487398660096198,
         "role": "speaker"
       }
     ],

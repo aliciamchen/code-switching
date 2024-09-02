@@ -9,37 +9,37 @@
       {
         "player": "alice",
         "text": "Mand Kneeling, praying. Not all the way to the ground though",
-        "time": 1.4811007465945032,
+        "time": 0.8198152282206723,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "*Man",
-        "time": 1.1845838770710069,
+        "time": 0.754017430949405,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Also looks like someone doing a squat",
-        "time": 0.9059667837601765,
+        "time": 0.7637874849461149,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Are his \"knees\" bent? Like \">\"?",
-        "time": 0.5768866047230247,
+        "time": 0.8612932457551892,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yes",
-        "time": 0.9734789095529719,
+        "time": 0.8267775103359434,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Thanks!",
-        "time": 1.1061843901412698,
+        "time": 0.9299493057000618,
         "role": "listener"
       }
     ],
@@ -59,31 +59,31 @@
       {
         "player": "bob",
         "text": "The prayer one head and arms to the right and looks like a squat",
-        "time": 1.2707913111445808,
+        "time": 0.6159406916643415,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Knees bent to the left like >",
-        "time": 0.7029618454348926,
+        "time": 0.6715383594214559,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Knees are perfectly bent? (>)",
-        "time": 1.383073588380411,
+        "time": 0.9414060738075282,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Sorry to the right",
-        "time": 0.6383418639330453,
+        "time": 0.600573407367278,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Got it.",
-        "time": 0.7560605008989264,
+        "time": 0.8568478212282267,
         "role": "listener"
       }
     ],
@@ -103,19 +103,19 @@
       {
         "player": "carol",
         "text": "Man kneeling/squatting like to pray. Legs are perfectly bent in this position: >",
-        "time": 1.3762930431780367,
+        "time": 0.7125002184501681,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Facing the right.",
-        "time": 0.9728466412127593,
+        "time": 0.7594384050300013,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Hands outstretched to the right.",
-        "time": 1.489346878587618,
+        "time": 0.8718058474773522,
         "role": "speaker"
       }
     ],
@@ -135,7 +135,7 @@
       {
         "player": "dave",
         "text": "squats",
-        "time": 0.5518014802685955,
+        "time": 0.7730215357251649,
         "role": "speaker"
       }
     ],
@@ -155,7 +155,7 @@
       {
         "player": "alice",
         "text": "Squats",
-        "time": 0.8563957756761796,
+        "time": 0.814829090269519,
         "role": "speaker"
       }
     ],
@@ -175,7 +175,7 @@
       {
         "player": "bob",
         "text": "Squats",
-        "time": 0.9560275407051018,
+        "time": 0.9044923765056175,
         "role": "speaker"
       }
     ],

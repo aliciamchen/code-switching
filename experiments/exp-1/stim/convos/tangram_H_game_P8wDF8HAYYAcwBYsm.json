@@ -9,37 +9,37 @@
       {
         "player": "alice",
         "text": "This is perhaps the least sharp or jagged image on the screen.",
-        "time": 1.3685365328782495,
+        "time": 0.9178936250720025,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "It looks like a pawn from chess.",
-        "time": 1.1607021361376388,
+        "time": 0.955244454742973,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Maybe a clergyman with a robe that hangs just a little extra to the bottom right.",
-        "time": 1.3239314537961382,
+        "time": 0.8292290609166701,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "There are NO visible hands",
-        "time": 1.4369946244351555,
+        "time": 0.7586584072464484,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "All you can see is a diamond shaped head and a long torso with a slight tail at the end,",
-        "time": 0.887725342415712,
+        "time": 0.9341321691781397,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "like the end of a cape or robe",
-        "time": 1.2807583370244808,
+        "time": 0.9580147770253035,
         "role": "speaker"
       }
     ],
@@ -59,13 +59,13 @@
       {
         "player": "bob",
         "text": "the one last described as a chess pawn",
-        "time": 0.7688334511456598,
+        "time": 0.6019507970998733,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "a triangular point sticking out to the right at the bottom",
-        "time": 1.3880768876489773,
+        "time": 0.6297866150983383,
         "role": "speaker"
       }
     ],
@@ -85,7 +85,7 @@
       {
         "player": "carol",
         "text": "Chess piece, looking right",
-        "time": 1.340471169629191,
+        "time": 0.7168160530989549,
         "role": "speaker"
       }
     ],
@@ -105,25 +105,25 @@
       {
         "player": "dave",
         "text": "chess pan, or monk sitting/kneeling",
-        "time": 1.0009506182650723,
+        "time": 0.9603694503870873,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "no arms",
-        "time": 0.7957744951589366,
+        "time": 0.9286431401200772,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "looking right",
-        "time": 1.3999136994989416,
+        "time": 0.6410628929250585,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "pawn*",
-        "time": 0.9426996654258094,
+        "time": 0.9115924473688245,
         "role": "speaker"
       }
     ],
@@ -143,7 +143,7 @@
       {
         "player": "alice",
         "text": "the one that looks like a basic pawn from chess.",
-        "time": 0.6175360687937622,
+        "time": 0.8227251963987792,
         "role": "speaker"
       }
     ],
@@ -163,7 +163,7 @@
       {
         "player": "bob",
         "text": "chess pawn",
-        "time": 1.2462646242398552,
+        "time": 0.8196011567229319,
         "role": "speaker"
       }
     ],

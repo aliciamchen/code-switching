@@ -9,7 +9,7 @@
       {
         "player": "alice",
         "text": "Picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back",
-        "time": 0.9475282344292775,
+        "time": 0.6074577039829028,
         "role": "speaker"
       }
     ],
@@ -29,7 +29,7 @@
       {
         "player": "bob",
         "text": "figure skature pose, standing on one leg",
-        "time": 0.7548458801659282,
+        "time": 0.692294027943394,
         "role": "speaker"
       }
     ],
@@ -49,7 +49,7 @@
       {
         "player": "carol",
         "text": "figure skater on one leg",
-        "time": 0.9519738505926009,
+        "time": 0.9085725813881202,
         "role": "speaker"
       }
     ],
@@ -69,7 +69,7 @@
       {
         "player": "dave",
         "text": "figure skater",
-        "time": 0.9518571852968627,
+        "time": 0.6091439074290652,
         "role": "speaker"
       }
     ],
@@ -89,7 +89,7 @@
       {
         "player": "alice",
         "text": "figure skater",
-        "time": 1.40885152983732,
+        "time": 0.6272531537542281,
         "role": "speaker"
       }
     ],
@@ -109,7 +109,7 @@
       {
         "player": "bob",
         "text": "figure skater",
-        "time": 0.7783593129997207,
+        "time": 0.8800901195427411,
         "role": "speaker"
       }
     ],

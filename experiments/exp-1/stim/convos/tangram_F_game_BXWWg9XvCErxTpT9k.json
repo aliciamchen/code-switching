@@ -9,49 +9,49 @@
       {
         "player": "bob",
         "text": "good question",
-        "time": 1.4143448529611513,
+        "time": 0.7751005208424853,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "sitting down looking upwards",
-        "time": 0.9925974582086131,
+        "time": 0.8702655702577398,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "does it have legs in front with arms under its knees?",
-        "time": 0.5871663620229516,
+        "time": 0.7077675567973494,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "one arm up and one down?",
-        "time": 0.5279991704402694,
+        "time": 0.6261138783586406,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes @Hera",
-        "time": 0.6183888578844428,
+        "time": 0.7877047179366957,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "no @Minu",
-        "time": 0.563118900316629,
+        "time": 0.813995657392913,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "You could say it is looking down",
-        "time": 0.6639265172887591,
+        "time": 0.7293187569146997,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "Thanks both",
-        "time": 0.5696040845074223,
+        "time": 0.6686419850560493,
         "role": "listener"
       }
     ],
@@ -71,13 +71,13 @@
       {
         "player": "dave",
         "text": "Excellent!",
-        "time": 1.4386416875945405,
+        "time": 0.76068284270963,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Arms tucked under its knees looking down and sitting down",
-        "time": 1.4751955553064984,
+        "time": 0.8466016002559347,
         "role": "speaker"
       }
     ],
@@ -97,13 +97,13 @@
       {
         "player": "carol",
         "text": "Sitting down with hands under legs",
-        "time": 0.7758603583559044,
+        "time": 0.6761959318557262,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "ok",
-        "time": 1.4619711653048961,
+        "time": 0.9592830799440835,
         "role": "listener"
       }
     ],
@@ -123,7 +123,7 @@
       {
         "player": "dave",
         "text": "sitting with knees up and hands under knees",
-        "time": 1.4738037358646876,
+        "time": 0.8307753053223238,
         "role": "speaker"
       }
     ],
@@ -143,7 +143,7 @@
       {
         "player": "alice",
         "text": "sitting down with knees up",
-        "time": 1.4007382260828485,
+        "time": 0.9101250286349256,
         "role": "speaker"
       }
     ],
@@ -163,7 +163,7 @@
       {
         "player": "bob",
         "text": "arms under knees",
-        "time": 0.748901016628559,
+        "time": 0.782622421517613,
         "role": "speaker"
       }
     ],

@@ -9,31 +9,31 @@
       {
         "player": "alice",
         "text": "sitting down and its looking downwards with two triangles on top",
-        "time": 0.7369374434162879,
+        "time": 0.6780283447893172,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Like a arabbit?",
-        "time": 0.5322689734668049,
+        "time": 0.6796452920444428,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Like bunny ears?",
-        "time": 0.7884545552324593,
+        "time": 0.7744353018096846,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 1.4865813548123632,
+        "time": 0.729333472952929,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Nice haha",
-        "time": 1.4316573500473466,
+        "time": 0.9290667093247991,
         "role": "listener"
       }
     ],
@@ -53,7 +53,7 @@
       {
         "player": "bob",
         "text": "Bunny rabbit ears looking down",
-        "time": 0.7750459307391466,
+        "time": 0.8739218009016827,
         "role": "speaker"
       }
     ],
@@ -73,7 +73,7 @@
       {
         "player": "carol",
         "text": "Sitting down with bunny ears",
-        "time": 0.6832549993153747,
+        "time": 0.654360133890827,
         "role": "speaker"
       }
     ],
@@ -93,7 +93,7 @@
       {
         "player": "dave",
         "text": "bunny ears!",
-        "time": 0.5761312976381116,
+        "time": 0.7964358505328015,
         "role": "speaker"
       }
     ],
@@ -113,7 +113,7 @@
       {
         "player": "alice",
         "text": "Rabbit ears",
-        "time": 1.0681681564099945,
+        "time": 0.8289217144056173,
         "role": "speaker"
       }
     ],
@@ -133,7 +133,7 @@
       {
         "player": "bob",
         "text": "bunny ears",
-        "time": 1.2145510551155174,
+        "time": 0.7896774409784882,
         "role": "speaker"
       }
     ],

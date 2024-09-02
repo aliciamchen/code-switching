@@ -9,31 +9,31 @@
       {
         "player": "alice",
         "text": "this one makes an s shape",
-        "time": 0.7700456973271843,
+        "time": 0.8811804552846081,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Triangle out to the right like arms?",
-        "time": 0.7770952993108706,
+        "time": 0.6490520505566673,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "and has a pointy black triangle pointing out mid way on the right side",
-        "time": 1.10682318269501,
+        "time": 0.9018073777828107,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "yh triangle out only on the right side",
-        "time": 1.397623734605169,
+        "time": 0.8873468806277192,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Got ya",
-        "time": 1.261173165978076,
+        "time": 0.7599908703485578,
         "role": "listener"
       }
     ],
@@ -53,31 +53,31 @@
       {
         "player": "bob",
         "text": "this si the one that looks like an s shape",
-        "time": 0.7314383618202068,
+        "time": 0.7570359274159312,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "with a head",
-        "time": 0.9907162967224004,
+        "time": 0.7809841076221197,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "triangles pointing to the right that look like hands",
-        "time": 0.8063445671393222,
+        "time": 0.8207560806811204,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "is the head tilted ?",
-        "time": 1.2330405745425577,
+        "time": 0.8971577217820549,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Nno",
-        "time": 0.8252110341560643,
+        "time": 0.6615557805487172,
         "role": "speaker"
       }
     ],
@@ -97,13 +97,13 @@
       {
         "player": "carol",
         "text": "praying but knees aren't on ground",
-        "time": 1.4278815197157497,
+        "time": 0.6783725624700915,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "s shape",
-        "time": 1.4054734449303758,
+        "time": 0.9064097946829113,
         "role": "speaker"
       }
     ],
@@ -123,13 +123,13 @@
       {
         "player": "dave",
         "text": "s shape praying guy standing",
-        "time": 0.9472192361098647,
+        "time": 0.769859582169373,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "hands to right",
-        "time": 0.7181333321357213,
+        "time": 0.7843008017486843,
         "role": "speaker"
       }
     ],
@@ -149,7 +149,7 @@
       {
         "player": "alice",
         "text": "s shape",
-        "time": 0.5930491248533885,
+        "time": 0.6778264774314533,
         "role": "speaker"
       }
     ],
@@ -169,7 +169,7 @@
       {
         "player": "bob",
         "text": "s shaped",
-        "time": 0.9039302882753756,
+        "time": 0.767627465910963,
         "role": "speaker"
       }
     ],

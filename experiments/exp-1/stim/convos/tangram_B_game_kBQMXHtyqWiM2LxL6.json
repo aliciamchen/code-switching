@@ -9,73 +9,73 @@
       {
         "player": "alice",
         "text": "Someone kneeling facing the right with their arms out stretched",
-        "time": 1.2421593610958528,
+        "time": 0.6269479280779103,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Neither of the kneeling ones you selected before",
-        "time": 1.1907237371725974,
+        "time": 0.7218248633091185,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "looks a bit like a windmill?",
-        "time": 1.331602050686821,
+        "time": 0.8467543898663079,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Think I've got it",
-        "time": 0.8561621738842925,
+        "time": 0.7121498046739447,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yeah",
-        "time": 0.585392691660654,
+        "time": 0.7448420307686218,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Im stuck",
-        "time": 1.0838762656442524,
+        "time": 0.6237529496769091,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "Anything else?",
-        "time": 0.5586628101800862,
+        "time": 0.6438414084228941,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "A lump in the middle, with a triangle pointing out to the left at the bottom",
-        "time": 1.2756897297545906,
+        "time": 0.8959178593358317,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "it looks like they're kneeling, looking to the right with their head tipped back a bit, arms spread out back and front",
-        "time": 1.3798152745655141,
+        "time": 0.8832328088142245,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Two triangles in the middle outstretched to both sides",
-        "time": 1.4098406868129114,
+        "time": 0.7386381722437685,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Think I chose the wrong one and can't change it",
-        "time": 1.1949099861736838,
+        "time": 0.8758076272688751,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "sigh",
-        "time": 1.2729406129328913,
+        "time": 0.7348828084092058,
         "role": "listener"
       }
     ],
@@ -95,73 +95,73 @@
       {
         "player": "bob",
         "text": "another kneeling one",
-        "time": 1.4780500926714029,
+        "time": 0.7846415544176812,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "facing right",
-        "time": 0.9163580997544826,
+        "time": 0.8537918967907967,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Ugh I hate the kneelers",
-        "time": 1.3288424243366432,
+        "time": 0.7200364529084063,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "2 triangles adjacent like arms stretched out",
-        "time": 0.8204064870703253,
+        "time": 0.7188772562087031,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "I'm not sure which one you mean",
-        "time": 0.8842331206029794,
+        "time": 0.7748874383917512,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "square head",
-        "time": 0.7918064896417952,
+        "time": 0.6719791193322275,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "diamond rather",
-        "time": 0.7906592024922711,
+        "time": 0.7668471140678338,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "the one that looks a little like a windmill",
-        "time": 0.7571529973671748,
+        "time": 0.7168940891527886,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "triangle attached to the right",
-        "time": 1.1016829903859704,
+        "time": 0.9499543642348485,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "and joined triangle on the left",
-        "time": 1.1906412461308387,
+        "time": 0.7283879698565487,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Ahh the bottom of the diamond has a triangle coming out of it?",
-        "time": 0.6417688270329269,
+        "time": 0.9766825640583733,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 1.0728383754741273,
+        "time": 0.8338626350468938,
         "role": "speaker"
       }
     ],
@@ -181,37 +181,37 @@
       {
         "player": "carol",
         "text": "It's the one kneeling",
-        "time": 0.7230845623150984,
+        "time": 0.7208392428449312,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Facing right",
-        "time": 0.5366282711880187,
+        "time": 0.8146431839468644,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "There's a triangle attached to the bottom of the head (diamond)",
-        "time": 0.8635439077681364,
+        "time": 0.8176563240356275,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Does it have a triangle at the bottom? Are the arms outstretched?",
-        "time": 1.256378057384726,
+        "time": 0.7558370642835328,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "there's a triangle at the bottom left",
-        "time": 0.9751961492293092,
+        "time": 0.9878127874252003,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "not sure what the arms are in this image sorry",
-        "time": 0.5442476859975367,
+        "time": 0.7086719091879534,
         "role": "speaker"
       }
     ],
@@ -231,31 +231,31 @@
       {
         "player": "dave",
         "text": "kneeling facing the right, arms spread open, looks a little like a windmill",
-        "time": 0.6455393573235773,
+        "time": 0.9131931805750398,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "with the small triangle at the bottom left",
-        "time": 0.8747673108535419,
+        "time": 0.7715472389470369,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "what should we call this one",
-        "time": 1.3930067485340527,
+        "time": 0.6714600729717043,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "the baby windmill? lol",
-        "time": 0.8437433337838052,
+        "time": 0.801161913544328,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "lol",
-        "time": 0.8861314406647142,
+        "time": 0.9203963929876346,
         "role": "listener"
       }
     ],
@@ -275,7 +275,7 @@
       {
         "player": "alice",
         "text": "Mini windmill or kneeling with arms out",
-        "time": 1.305875067436819,
+        "time": 0.7784481107897043,
         "role": "speaker"
       }
     ],
@@ -295,13 +295,13 @@
       {
         "player": "bob",
         "text": "the kneeling to the right with arms outstretched",
-        "time": 0.6927456643641506,
+        "time": 0.9936062040955447,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "diamond head",
-        "time": 1.307216432603445,
+        "time": 0.8684659625580078,
         "role": "speaker"
       }
     ],

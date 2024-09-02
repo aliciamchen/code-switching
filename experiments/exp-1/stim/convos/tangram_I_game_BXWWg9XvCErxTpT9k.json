@@ -9,37 +9,37 @@
       {
         "player": "alice",
         "text": "this one is doing a side kick",
-        "time": 0.6037417747169666,
+        "time": 0.973214667776257,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "with both hands in front",
-        "time": 0.5331567436149445,
+        "time": 0.8426207137978339,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "does it have two triangles as hands?",
-        "time": 1.0179795970295777,
+        "time": 0.6149862358196285,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "Does it look like they are ice skating",
-        "time": 1.0117521791504185,
+        "time": 0.892304451068209,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 0.6473941279461338,
+        "time": 0.8628011345275972,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "facing the other way of the kick?",
-        "time": 1.2136261891587585,
+        "time": 0.8134106194837136,
         "role": "listener"
       }
     ],
@@ -59,7 +59,7 @@
       {
         "player": "bob",
         "text": "Ice skater again, two arms are triangles facing the opposite way of the leg",
-        "time": 1.0214735533990178,
+        "time": 0.9224956252925769,
         "role": "speaker"
       }
     ],
@@ -79,13 +79,13 @@
       {
         "player": "carol",
         "text": "Standing on one leg, other leg raised behind him, with two triangle arms in front",
-        "time": 1.1076336122076442,
+        "time": 0.6390509313454038,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Thanks",
-        "time": 0.6162944165376487,
+        "time": 0.6574315453717247,
         "role": "listener"
       }
     ],
@@ -105,7 +105,7 @@
       {
         "player": "dave",
         "text": "ice skating or kicking behind",
-        "time": 0.7271093647896558,
+        "time": 0.6971891009528182,
         "role": "speaker"
       }
     ],
@@ -125,7 +125,7 @@
       {
         "player": "alice",
         "text": "Skating",
-        "time": 1.1156100462084033,
+        "time": 0.8438065112526999,
         "role": "speaker"
       }
     ],
@@ -145,7 +145,7 @@
       {
         "player": "bob",
         "text": "ice skater",
-        "time": 0.9381388175562284,
+        "time": 0.6041186361498182,
         "role": "speaker"
       }
     ],

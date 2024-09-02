@@ -9,31 +9,31 @@
       {
         "player": "alice",
         "text": "rectangle body with two arms and a head",
-        "time": 0.9806349662077487,
+        "time": 0.8670219854857849,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "arms out wide",
-        "time": 0.9360140122701512,
+        "time": 0.7135848251422223,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "No legs?",
-        "time": 1.0355541611711736,
+        "time": 0.9383961578320688,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "straight body lines, one arm has a triangle for a hand and the other is a square",
-        "time": 1.258257142129688,
+        "time": 0.7403093218457133,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "no legs",
-        "time": 1.1613766555650633,
+        "time": 0.8800889226824007,
         "role": "speaker"
       }
     ],
@@ -53,37 +53,37 @@
       {
         "player": "bob",
         "text": "looks like a flying ghost",
-        "time": 1.439590058008698,
+        "time": 0.8635612426782553,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "No legs",
-        "time": 1.3304384843442296,
+        "time": 0.917008140911949,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "arms extended on either side of head facing up",
-        "time": 0.895300044712885,
+        "time": 0.8926346057445822,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "wacky inflatable guy",
-        "time": 1.0188068634527068,
+        "time": 0.8297931569918979,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "no legs",
-        "time": 0.95192753018392,
+        "time": 0.6656853352469588,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "yeah!!",
-        "time": 1.0885956488430395,
+        "time": 0.760869610685396,
         "role": "speaker"
       }
     ],
@@ -103,19 +103,19 @@
       {
         "player": "carol",
         "text": "Ghost guy, no legs, two arms raised as if to say wtf",
-        "time": 1.2035254206066808,
+        "time": 0.7480414546906677,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "wacky inflatable guy?",
-        "time": 0.8962154436825088,
+        "time": 0.7829202363898052,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "One hand square, one hand looks traingular",
-        "time": 1.2758503942642963,
+        "time": 0.6683913031134874,
         "role": "speaker"
       }
     ],
@@ -135,13 +135,13 @@
       {
         "player": "dave",
         "text": "man with no legs shrugging",
-        "time": 0.6037117012646106,
+        "time": 0.9726059808438505,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "doing the Y from YMCA",
-        "time": 1.0765036601961468,
+        "time": 0.7222036445499246,
         "role": "speaker"
       }
     ],
@@ -161,19 +161,19 @@
       {
         "player": "alice",
         "text": "wacky inflatable guy",
-        "time": 0.8143416195828297,
+        "time": 0.8561303835809222,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "rectangle body no feet",
-        "time": 1.0895669257220033,
+        "time": 0.7860489907414616,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "square hand and a triangle hand",
-        "time": 0.7465195390943735,
+        "time": 0.6646281227885699,
         "role": "speaker"
       }
     ],
@@ -193,13 +193,13 @@
       {
         "player": "bob",
         "text": "ghost man with arms up",
-        "time": 0.83264800419542,
+        "time": 0.8027753845550311,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "no legs",
-        "time": 1.4225313664069579,
+        "time": 0.8328273568493878,
         "role": "speaker"
       }
     ],

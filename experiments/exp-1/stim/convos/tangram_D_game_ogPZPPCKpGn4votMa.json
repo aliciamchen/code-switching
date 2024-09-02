@@ -9,13 +9,13 @@
       {
         "player": "alice",
         "text": "looks like a priest wearing a robe. facing left. arms stretched out holding something",
-        "time": 0.7388232835698344,
+        "time": 0.6225148558082695,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "standing straight up",
-        "time": 0.8072386879355633,
+        "time": 0.8743104137621863,
         "role": "speaker"
       }
     ],
@@ -35,7 +35,7 @@
       {
         "player": "bob",
         "text": "It looks like a pastor",
-        "time": 0.906676548102786,
+        "time": 0.7989701191187415,
         "role": "speaker"
       }
     ],
@@ -55,7 +55,7 @@
       {
         "player": "carol",
         "text": "looks like the priest holding something facing left",
-        "time": 1.4758213806039575,
+        "time": 0.974233050567917,
         "role": "speaker"
       }
     ],
@@ -75,7 +75,7 @@
       {
         "player": "dave",
         "text": "priest",
-        "time": 0.998981089489712,
+        "time": 0.8616244534048176,
         "role": "speaker"
       }
     ],
@@ -95,7 +95,7 @@
       {
         "player": "alice",
         "text": "priest",
-        "time": 1.2415661823203408,
+        "time": 0.9516971756662287,
         "role": "speaker"
       }
     ],
@@ -115,7 +115,7 @@
       {
         "player": "bob",
         "text": "priest",
-        "time": 0.5347255300799085,
+        "time": 0.6806630996050087,
         "role": "speaker"
       }
     ],

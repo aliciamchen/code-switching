@@ -9,13 +9,13 @@
       {
         "player": "alice",
         "text": "the one that looks like a standing person with one leg on the ground and one sticking out to the right",
-        "time": 0.9573033599555195,
+        "time": 0.786996317522005,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "and two triangles pointing left",
-        "time": 0.8809561616084765,
+        "time": 0.6066638854169296,
         "role": "speaker"
       }
     ],
@@ -35,19 +35,19 @@
       {
         "player": "bob",
         "text": "this is a person on one foot, with the other leg pointing to the right",
-        "time": 0.8606369717386438,
+        "time": 0.6686286841730311,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "triangles pointing to the left",
-        "time": 1.2556945619959117,
+        "time": 0.613191313166472,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "yoga guy?",
-        "time": 1.122199288031716,
+        "time": 0.8703617537006143,
         "role": "listener"
       }
     ],
@@ -67,7 +67,7 @@
       {
         "player": "carol",
         "text": "yoga guy",
-        "time": 0.5323136900596153,
+        "time": 0.6511924031658358,
         "role": "speaker"
       }
     ],
@@ -87,7 +87,7 @@
       {
         "player": "dave",
         "text": "yoga dude",
-        "time": 0.9063225805907763,
+        "time": 0.6875647130150675,
         "role": "speaker"
       }
     ],
@@ -107,7 +107,7 @@
       {
         "player": "alice",
         "text": "yoga",
-        "time": 1.4925211553169109,
+        "time": 0.6187540694941895,
         "role": "speaker"
       }
     ],
@@ -127,7 +127,7 @@
       {
         "player": "bob",
         "text": "yoga guy",
-        "time": 1.0496200824366924,
+        "time": 0.6376772937614534,
         "role": "speaker"
       }
     ],

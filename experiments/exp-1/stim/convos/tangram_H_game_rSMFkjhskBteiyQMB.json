@@ -9,37 +9,37 @@
       {
         "player": "alice",
         "text": "Looks like a letter 'i'",
-        "time": 1.2839504129809787,
+        "time": 0.6275732946788589,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "does it look like with its hand out or not",
-        "time": 1.1186218426115477,
+        "time": 0.9154517974110291,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "^",
-        "time": 0.6066773682802468,
+        "time": 0.6536991291356228,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "no hand it is just a head and a body.",
-        "time": 0.551957105012842,
+        "time": 0.8742115760837734,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "oke",
-        "time": 1.0899441494783648,
+        "time": 0.768948452473185,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "more like a baby that has been swaddled in a blanket",
-        "time": 1.0429974368673975,
+        "time": 0.9999250950389726,
         "role": "speaker"
       }
     ],
@@ -59,19 +59,19 @@
       {
         "player": "bob",
         "text": "swaddled baby",
-        "time": 0.9910326240498307,
+        "time": 0.6113131113012249,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "I",
-        "time": 0.7448437693349608,
+        "time": 0.7603760080293325,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "i",
-        "time": 1.4909857203907522,
+        "time": 0.665036115039151,
         "role": "speaker"
       }
     ],
@@ -91,7 +91,7 @@
       {
         "player": "carol",
         "text": "the baby i",
-        "time": 0.7188101546319143,
+        "time": 0.669923974612772,
         "role": "speaker"
       }
     ],
@@ -111,7 +111,7 @@
       {
         "player": "dave",
         "text": "baby swaddled, looks like an i",
-        "time": 0.8750265906627265,
+        "time": 0.763908851955091,
         "role": "speaker"
       }
     ],
@@ -131,7 +131,7 @@
       {
         "player": "alice",
         "text": "swaddled baby",
-        "time": 0.565479626021405,
+        "time": 0.9078102714947544,
         "role": "speaker"
       }
     ],
@@ -151,7 +151,7 @@
       {
         "player": "bob",
         "text": "iBaby",
-        "time": 0.710195928154811,
+        "time": 0.9815520195984869,
         "role": "speaker"
       }
     ],

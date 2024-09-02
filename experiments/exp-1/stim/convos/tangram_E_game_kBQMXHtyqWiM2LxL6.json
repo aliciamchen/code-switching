@@ -9,31 +9,31 @@
       {
         "player": "alice",
         "text": "It looks like a windmill on top of a hill",
-        "time": 0.5766873053109447,
+        "time": 0.8735358074345314,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "The peak is on the left",
-        "time": 0.8649108623914021,
+        "time": 0.8346799938315133,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Two triangles and a square on top?",
-        "time": 0.6645694304666625,
+        "time": 0.6688229978053145,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "That's correct",
-        "time": 0.5823604159525607,
+        "time": 0.9608476310453321,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "I believe I cracked it",
-        "time": 1.187463644187822,
+        "time": 0.6422843989606966,
         "role": "listener"
       }
     ],
@@ -53,25 +53,25 @@
       {
         "player": "carol",
         "text": "We should just create nicknames for these things lol. That one's the priest!",
-        "time": 0.5964432546722255,
+        "time": 0.9606669014160459,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Windmill on top of a mountail or hill",
-        "time": 1.0744231547639918,
+        "time": 0.7564178563554314,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "lol",
-        "time": 0.7984590139852524,
+        "time": 0.7697572482295622,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "straight side on the left",
-        "time": 0.622495413826698,
+        "time": 0.7878055043067224,
         "role": "speaker"
       }
     ],
@@ -91,7 +91,7 @@
       {
         "player": "carol",
         "text": "Windmill",
-        "time": 0.6150265444242043,
+        "time": 0.9313479385263665,
         "role": "speaker"
       }
     ],
@@ -111,13 +111,13 @@
       {
         "player": "dave",
         "text": "haha you guys paved the way",
-        "time": 0.8922979869285211,
+        "time": 0.766565117832745,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "windmill on top of a hill on the left",
-        "time": 0.9531463676253911,
+        "time": 0.744684348571746,
         "role": "speaker"
       }
     ],
@@ -137,19 +137,19 @@
       {
         "player": "alice",
         "text": "Windmill",
-        "time": 1.0237694644224848,
+        "time": 0.697429377270111,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Oh yeah",
-        "time": 1.2712726340092826,
+        "time": 0.8909274301188388,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "On the left",
-        "time": 0.502512807184509,
+        "time": 0.9046748579549256,
         "role": "speaker"
       }
     ],
@@ -169,7 +169,7 @@
       {
         "player": "bob",
         "text": "windmill on hill",
-        "time": 0.7289471386675387,
+        "time": 0.6460508892806852,
         "role": "speaker"
       }
     ],

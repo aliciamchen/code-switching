@@ -9,13 +9,13 @@
       {
         "player": "alice",
         "text": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left",
-        "time": 0.8645845689431971,
+        "time": 0.890320530023875,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "the leg in the air is on the right",
-        "time": 1.0798841266653383,
+        "time": 0.8535739180099696,
         "role": "speaker"
       }
     ],
@@ -35,13 +35,13 @@
       {
         "player": "bob",
         "text": "Left facing, arms high, one left out behind them. Like they're ice skating.",
-        "time": 0.7684047551985838,
+        "time": 0.7810685098489365,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "*leg",
-        "time": 0.8272762828351324,
+        "time": 0.7026966063479231,
         "role": "speaker"
       }
     ],
@@ -61,13 +61,13 @@
       {
         "player": "carol",
         "text": "this one is facing left, one foot in the air",
-        "time": 0.7179785253723534,
+        "time": 0.8413597282084349,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "looks like its skating",
-        "time": 1.055258281584349,
+        "time": 0.9248364806284552,
         "role": "speaker"
       }
     ],
@@ -87,7 +87,7 @@
       {
         "player": "dave",
         "text": "the one skating facing left",
-        "time": 1.2638537709099211,
+        "time": 0.989655594247027,
         "role": "speaker"
       }
     ],
@@ -107,7 +107,7 @@
       {
         "player": "alice",
         "text": "the skater, facing left, leg up and pointed to the right",
-        "time": 0.6490652580425276,
+        "time": 0.9858923751122862,
         "role": "speaker"
       }
     ],
@@ -127,7 +127,7 @@
       {
         "player": "bob",
         "text": "Ice skater. Facing left.",
-        "time": 0.6780942948880584,
+        "time": 0.8810538831325325,
         "role": "speaker"
       }
     ],

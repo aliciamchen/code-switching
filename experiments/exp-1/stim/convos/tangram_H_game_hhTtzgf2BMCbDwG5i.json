@@ -9,49 +9,49 @@
       {
         "player": "alice",
         "text": "this one you can't really see the feet, hard to tell if they're sitting or what",
-        "time": 1.286683369335865,
+        "time": 0.7153142941946552,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "can you see arms?",
-        "time": 1.1714602388423545,
+        "time": 0.6359663382975029,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "no",
-        "time": 1.2643348532214103,
+        "time": 0.722156753893905,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "okay",
-        "time": 1.3592776803417084,
+        "time": 0.9575392379624799,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Does it look like it's facing left or right?",
-        "time": 1.3630307037382368,
+        "time": 0.6305120194336142,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "does it have a hat?",
-        "time": 0.9606538651342849,
+        "time": 0.9401611197861398,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "right i think, and nothing on top of the head, no hat",
-        "time": 1.3174340920397007,
+        "time": 0.7736352793925115,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "nice",
-        "time": 0.7249234492521958,
+        "time": 0.6201465574110809,
         "role": "speaker"
       }
     ],
@@ -71,7 +71,7 @@
       {
         "player": "bob",
         "text": "No arms or legs visible. Maybe sitting or leaning up against something",
-        "time": 0.8741509910833356,
+        "time": 0.6816476488425685,
         "role": "speaker"
       }
     ],
@@ -91,7 +91,7 @@
       {
         "player": "carol",
         "text": "the one with no arms",
-        "time": 1.4521200580470242,
+        "time": 0.6870931124870444,
         "role": "speaker"
       }
     ],
@@ -111,7 +111,7 @@
       {
         "player": "dave",
         "text": "no arms or legs guy",
-        "time": 1.0554378846783155,
+        "time": 0.9208135533474077,
         "role": "speaker"
       }
     ],
@@ -131,7 +131,7 @@
       {
         "player": "alice",
         "text": "no arms or feet",
-        "time": 1.004854571623939,
+        "time": 0.804013572570467,
         "role": "speaker"
       }
     ],
@@ -151,7 +151,7 @@
       {
         "player": "bob",
         "text": "No arms or legs",
-        "time": 0.5369257544296197,
+        "time": 0.8008748694597924,
         "role": "speaker"
       }
     ],

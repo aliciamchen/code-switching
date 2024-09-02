@@ -9,49 +9,49 @@
       {
         "player": "alice",
         "text": "diamond head",
-        "time": 1.0573026138081143,
+        "time": 0.9779667309645637,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "block body",
-        "time": 1.3475330549186588,
+        "time": 0.7622932906856194,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "no arms",
-        "time": 0.6267605366905233,
+        "time": 0.9918560464062903,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "facing which way?",
-        "time": 1.0768107960487985,
+        "time": 0.7815472989980402,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "slanted shoulders?",
-        "time": 0.9289865740123318,
+        "time": 0.7851091994406714,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 0.6295181520130988,
+        "time": 0.9899799922539027,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "face left or right?",
-        "time": 1.3092726378177195,
+        "time": 0.7619745578614148,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "bottom part of block body more towards the right",
-        "time": 0.8019649311342925,
+        "time": 0.8726720192637838,
         "role": "speaker"
       }
     ],
@@ -71,25 +71,25 @@
       {
         "player": "bob",
         "text": "upright diamond for head, hard to tell which way it's facing. body, legs and arms all one piece but looks like knees face right",
-        "time": 1.085743960161941,
+        "time": 0.6180946043118898,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "legs could be tucked under",
-        "time": 0.855127971184973,
+        "time": 0.6055198280037078,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "shoulders slanting down?",
-        "time": 0.7325434102934646,
+        "time": 0.964379547414255,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 0.700752124758466,
+        "time": 0.7900874529237959,
         "role": "speaker"
       }
     ],
@@ -109,19 +109,19 @@
       {
         "player": "carol",
         "text": "diamond head, slanting down shoulders, no arms, block body",
-        "time": 0.5247021241175467,
+        "time": 0.8622398332197401,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "knees to front, facing right, legs tucked under?",
-        "time": 0.6588023344412975,
+        "time": 0.865426620653863,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "yes",
-        "time": 1.0038346001629121,
+        "time": 0.7040004553357281,
         "role": "speaker"
       }
     ],
@@ -141,25 +141,25 @@
       {
         "player": "dave",
         "text": "head straight up. slanted shoulders",
-        "time": 0.5960618329655847,
+        "time": 0.8503019516638044,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "small triangle bottom right",
-        "time": 0.9597574536769178,
+        "time": 0.9814160835877084,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "looks like kneeling? can't see arms or legs?",
-        "time": 1.1432717899799996,
+        "time": 0.9094715322917772,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "yh",
-        "time": 1.4432703724572447,
+        "time": 0.9094491409785951,
         "role": "speaker"
       }
     ],
@@ -179,37 +179,37 @@
       {
         "player": "alice",
         "text": "body is a kind of weird block",
-        "time": 0.9491446265626731,
+        "time": 0.9945696743104557,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "with right triangle on the right",
-        "time": 1.278696282353519,
+        "time": 0.8451815553401659,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "slanting shoulders and no arms?",
-        "time": 0.997908418713487,
+        "time": 0.8839838103028554,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 1.4177078673232115,
+        "time": 0.6251231244325032,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "no feet?",
-        "time": 0.6397579667420062,
+        "time": 0.7753233105706433,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "no feet",
-        "time": 1.4546784460705457,
+        "time": 0.7680207663709532,
         "role": "speaker"
       }
     ],
@@ -229,13 +229,13 @@
       {
         "player": "bob",
         "text": "blob shaped body, knees face right, calves tucked under thighs",
-        "time": 1.0781316059039834,
+        "time": 0.7259243440679907,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "no arms",
-        "time": 1.4064900571522312,
+        "time": 0.8096822569926867,
         "role": "speaker"
       }
     ],

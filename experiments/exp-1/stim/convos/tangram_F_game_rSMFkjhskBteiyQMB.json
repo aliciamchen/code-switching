@@ -9,61 +9,61 @@
       {
         "player": "alice",
         "text": "This one looks like a person sat down. Their head is a rotated square.",
-        "time": 1.416445463258321,
+        "time": 0.7190178742355587,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "do they have bunny ears?",
-        "time": 1.1077963551110486,
+        "time": 0.7757519553023009,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "or knee up",
-        "time": 1.0343740122137182,
+        "time": 0.6318387383777834,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "sat down with legs out?",
-        "time": 0.7734882496197691,
+        "time": 0.7683319810795037,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "They look as if they are sad so the head is tilted down.",
-        "time": 1.2822319193022063,
+        "time": 0.9466263472414786,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "1 knee up no bunny ears.",
-        "time": 1.3915826151611959,
+        "time": 0.8242629001534142,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "perfect",
-        "time": 1.0365088158574385,
+        "time": 0.8414469171913954,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "does the timer run out if everyone answers?",
-        "time": 1.4226798515777723,
+        "time": 0.8373123703780102,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "don't think so... i think we've all answered by now, right?",
-        "time": 1.3197435445870918,
+        "time": 0.6872828862865502,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "ah so it runs all 60 minutes",
-        "time": 0.6433423729563257,
+        "time": 0.7352245166512221,
         "role": "listener"
       }
     ],
@@ -83,7 +83,7 @@
       {
         "player": "bob",
         "text": "man sat down with 1 knee up",
-        "time": 1.226368927622616,
+        "time": 0.7412289047535802,
         "role": "speaker"
       }
     ],
@@ -103,13 +103,13 @@
       {
         "player": "carol",
         "text": "the sad guy sitting down with knees bent ups head slightly  tilted up",
-        "time": 0.5283586744274853,
+        "time": 0.978988559370349,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "bent up*",
-        "time": 1.1562395421458977,
+        "time": 0.8559235953375599,
         "role": "speaker"
       }
     ],
@@ -129,7 +129,7 @@
       {
         "player": "dave",
         "text": "depressed man, sitting down, one knee bent up, head tilted forward",
-        "time": 0.9569747298984549,
+        "time": 0.8142466876688714,
         "role": "speaker"
       }
     ],
@@ -149,7 +149,7 @@
       {
         "player": "alice",
         "text": "depressed man bent knee",
-        "time": 1.1962169172433972,
+        "time": 0.7217905891287879,
         "role": "speaker"
       }
     ],
@@ -169,7 +169,7 @@
       {
         "player": "bob",
         "text": "sad man knee up",
-        "time": 0.7913121980886677,
+        "time": 0.8242275409319603,
         "role": "speaker"
       }
     ],

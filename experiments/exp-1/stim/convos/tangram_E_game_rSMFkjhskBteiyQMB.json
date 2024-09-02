@@ -9,7 +9,7 @@
       {
         "player": "alice",
         "text": "bunny ears",
-        "time": 1.0342669867131935,
+        "time": 0.7131818504805891,
         "role": "speaker"
       }
     ],
@@ -29,7 +29,7 @@
       {
         "player": "bob",
         "text": "bunny ears",
-        "time": 1.1994769143045345,
+        "time": 0.6744235442603782,
         "role": "speaker"
       }
     ],
@@ -49,7 +49,7 @@
       {
         "player": "carol",
         "text": "bunny ears",
-        "time": 1.0680714118631618,
+        "time": 0.9107064149369667,
         "role": "speaker"
       }
     ],
@@ -69,7 +69,7 @@
       {
         "player": "dave",
         "text": "bunny ears",
-        "time": 1.3541808568744376,
+        "time": 0.7956955297135536,
         "role": "speaker"
       }
     ],
@@ -89,7 +89,7 @@
       {
         "player": "alice",
         "text": "bunny ears",
-        "time": 1.0768721589238273,
+        "time": 0.9594841847146276,
         "role": "speaker"
       }
     ],
@@ -109,7 +109,7 @@
       {
         "player": "bob",
         "text": "bunny ears",
-        "time": 0.7211835549974148,
+        "time": 0.7150534553821508,
         "role": "speaker"
       }
     ],

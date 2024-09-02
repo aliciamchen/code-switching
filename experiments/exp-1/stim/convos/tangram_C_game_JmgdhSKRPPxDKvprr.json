@@ -9,73 +9,73 @@
       {
         "player": "alice",
         "text": "looks like falling over",
-        "time": 0.6317536597428923,
+        "time": 0.8602540223977978,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "diamond face",
-        "time": 0.8713368934733902,
+        "time": 0.8989337559183407,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "arms raised",
-        "time": 1.0088004690155232,
+        "time": 0.972980392390711,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "no feet?",
-        "time": 0.5865528894165775,
+        "time": 0.9813918531480097,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "falling to the left",
-        "time": 0.5034769521942587,
+        "time": 0.9771419637550407,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "no feet",
-        "time": 0.6575343883117609,
+        "time": 0.688790938157827,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "larger gap between face and arm on the right side compared to the left side",
-        "time": 1.3025215275340045,
+        "time": 0.6503611827095097,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "just torso, no legs?",
-        "time": 0.545050807441334,
+        "time": 0.9833572632682115,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "block body",
-        "time": 0.7590355845976656,
+        "time": 0.8686434560564735,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "body and arms look like slanted \"Y\"?",
-        "time": 1.0424799790403432,
+        "time": 0.6560700866358284,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes a Y",
-        "time": 1.097002989266644,
+        "time": 0.8905581118165289,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "slanted",
-        "time": 0.5910599052438533,
+        "time": 0.881907962950895,
         "role": "speaker"
       }
     ],
@@ -95,7 +95,7 @@
       {
         "player": "bob",
         "text": "slanted \"Y\" shaped torso and arms, raised arms, looks like falling to the left",
-        "time": 1.2733159311129825,
+        "time": 0.8547090146280472,
         "role": "speaker"
       }
     ],
@@ -115,19 +115,19 @@
       {
         "player": "carol",
         "text": "slanted 'y' shaped arms and body, outstretched arms raised",
-        "time": 0.8310885857674571,
+        "time": 0.8395508655351058,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "like it is falling?",
-        "time": 0.5728405041810709,
+        "time": 0.85230390051096,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "yes falling to left",
-        "time": 1.4675078666995485,
+        "time": 0.6485987633021589,
         "role": "speaker"
       }
     ],
@@ -147,13 +147,13 @@
       {
         "player": "dave",
         "text": "looks like it falling to left",
-        "time": 0.8728559651328408,
+        "time": 0.7263121392685724,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "arms in air like a y",
-        "time": 1.2240618778912526,
+        "time": 0.9644035696088294,
         "role": "speaker"
       }
     ],
@@ -173,13 +173,13 @@
       {
         "player": "alice",
         "text": "y shape",
-        "time": 0.9104081803228461,
+        "time": 0.9444981602893896,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "falling",
-        "time": 0.9645073668521523,
+        "time": 0.8899975889933218,
         "role": "speaker"
       }
     ],
@@ -199,7 +199,7 @@
       {
         "player": "bob",
         "text": "\"Y\" shaped guy",
-        "time": 1.307620704950255,
+        "time": 0.8264368231161142,
         "role": "speaker"
       }
     ],

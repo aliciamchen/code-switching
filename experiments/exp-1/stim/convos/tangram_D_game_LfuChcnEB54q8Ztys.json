@@ -9,25 +9,25 @@
       {
         "player": "alice",
         "text": "standing figre",
-        "time": 1.49881255993568,
+        "time": 0.9009366062464323,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "square head on the top facing left",
-        "time": 0.8466308587219602,
+        "time": 0.7097593746505241,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "flat down the right side of the body",
-        "time": 0.8711470121347117,
+        "time": 0.6877294440602539,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "arms out to the left, like the offering one but standing straight",
-        "time": 1.0789560923363242,
+        "time": 0.6955016213671327,
         "role": "speaker"
       }
     ],
@@ -47,25 +47,25 @@
       {
         "player": "bob",
         "text": "it's the same one as the last one of the first round",
-        "time": 0.6442617914105231,
+        "time": 0.8324239708635499,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "standing facing the left",
-        "time": 1.4986085358914014,
+        "time": 0.8155299957143514,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "body's standing to the left",
-        "time": 1.190126752932744,
+        "time": 0.9397417786809102,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "yes yes",
-        "time": 1.4224215283414843,
+        "time": 0.7546954747347618,
         "role": "speaker"
       }
     ],
@@ -85,31 +85,31 @@
       {
         "player": "carol",
         "text": "standing, facing left with arms out and square balanced head",
-        "time": 0.6218502572926453,
+        "time": 0.8939157297453083,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "flat right side",
-        "time": 0.8622938302478136,
+        "time": 0.7662747826778571,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Arms straight?",
-        "time": 0.5333723142389437,
+        "time": 0.6556768228009127,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "arms are flat on the top ith a square underneath?",
-        "time": 1.4477570792112169,
+        "time": 0.8773061490324725,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "almost looks like clothing is draping from the arm",
-        "time": 1.3035418855813414,
+        "time": 0.691067096767964,
         "role": "speaker"
       }
     ],
@@ -129,7 +129,7 @@
       {
         "player": "dave",
         "text": "Like the offer one but facing left and looks like clothes hanging from arms",
-        "time": 1.418457005417538,
+        "time": 0.7558933657336551,
         "role": "speaker"
       }
     ],
@@ -149,13 +149,13 @@
       {
         "player": "alice",
         "text": "standing offering to the left draping clothes on ar",
-        "time": 0.8851795888509116,
+        "time": 0.6055058403720516,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "aarm",
-        "time": 1.3137763859063767,
+        "time": 0.639603166777867,
         "role": "speaker"
       }
     ],
@@ -175,7 +175,7 @@
       {
         "player": "bob",
         "text": "draped clothing",
-        "time": 1.048212229508525,
+        "time": 0.7864807239436626,
         "role": "speaker"
       }
     ],

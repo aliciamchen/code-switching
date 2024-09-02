@@ -9,85 +9,85 @@
       {
         "player": "dave",
         "text": "Hello?",
-        "time": 0.6311232988376085,
+        "time": 0.6096939419105455,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "Hey Hera! anything up?",
-        "time": 1.0784876488359092,
+        "time": 0.9667414915975385,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Hello",
-        "time": 1.2799735789940658,
+        "time": 0.6110690236232269,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "Hera, you have to describe the image",
-        "time": 1.035931420639824,
+        "time": 0.7390371531515211,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "He's afk probably",
-        "time": 0.8531578527659904,
+        "time": 0.8258647516958466,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "I really do not hope this is true! LOL",
-        "time": 1.3513625963329283,
+        "time": 0.7334006724368879,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "The person has his/her foot pointing to the RIGHT. His hand is also pointed to the RIGHT. The left side of his body is completely straight from top to bottom.",
-        "time": 0.5737809164281776,
+        "time": 0.8060348250961824,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Hi everyone!",
-        "time": 0.5556834977739831,
+        "time": 0.9185704875660897,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "I am a SHE.",
-        "time": 1.375741107705875,
+        "time": 0.6971584938275927,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Owh, I guess I already made a choice",
-        "time": 0.8718004422663161,
+        "time": 0.7375451290492768,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Now it's up to all of YOU to make your selections.",
-        "time": 1.313059508887385,
+        "time": 0.907992833879463,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Is there just one box on top as the head",
-        "time": 0.7950507121972377,
+        "time": 0.7931083327175648,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "of course yes",
-        "time": 1.30186763498393,
+        "time": 0.6258657993506579,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yep, and the head is a DIAMOND shape.",
-        "time": 0.9732136261065282,
+        "time": 0.7210236540767593,
         "role": "speaker"
       }
     ],
@@ -107,37 +107,37 @@
       {
         "player": "bob",
         "text": "Ok he is looking like he is a fat, only one hand pointed to the right",
-        "time": 1.0577347509976631,
+        "time": 0.7253328682682993,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "one his foot pointed to the right also",
-        "time": 1.1352547389223133,
+        "time": 0.7393905032620398,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "His back and shoulders form a perfect right angle?",
-        "time": 1.2774085562222397,
+        "time": 0.8403166366843506,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "In a dancing position? one leg super fat?",
-        "time": 1.378410352637553,
+        "time": 0.9631610036331802,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "or the straight back one?",
-        "time": 0.6618561604790091,
+        "time": 0.7763836495303202,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "straight back",
-        "time": 0.9692451468990927,
+        "time": 0.7836779731946514,
         "role": "speaker"
       }
     ],
@@ -157,37 +157,37 @@
       {
         "player": "alice",
         "text": "Didn't realize we were in a new round lol.",
-        "time": 1.4149500594608764,
+        "time": 0.6627295582072276,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "straight left, standing, ams on right",
-        "time": 0.8361198650172319,
+        "time": 0.6873829262962358,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "nothing on left",
-        "time": 0.7160465488735429,
+        "time": 0.8157238929975987,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "arms* on right",
-        "time": 0.5693162921219442,
+        "time": 0.9078560459470293,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "the foot is pointing to the right?",
-        "time": 0.5407173354133715,
+        "time": 0.7541197245889169,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "yes",
-        "time": 0.5320395042217531,
+        "time": 0.9686918818453443,
         "role": "speaker"
       }
     ],
@@ -207,61 +207,61 @@
       {
         "player": "carol",
         "text": "that was faasat",
-        "time": 0.5988438842371276,
+        "time": 0.730708335371074,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": ":)",
-        "time": 1.0753333586993266,
+        "time": 0.8620194763488336,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "right angle, big guy",
-        "time": 1.20436487172919,
+        "time": 0.8855763795565171,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "one arm pointing to the right",
-        "time": 1.1897124917187583,
+        "time": 0.713848805052611,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "small foot on the right",
-        "time": 0.9351663975825973,
+        "time": 0.6581861442671572,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Foot pointing to the right?",
-        "time": 1.1713173545597795,
+        "time": 0.6219998677740716,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "wide body",
-        "time": 0.609789998533678,
+        "time": 0.6668575870217809,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "the fat one?",
-        "time": 1.2355195013496236,
+        "time": 0.9377505456496372,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Ok.",
-        "time": 1.3633054609252508,
+        "time": 0.6925047158685994,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "yep",
-        "time": 1.2832297955430447,
+        "time": 0.9422308050076705,
         "role": "speaker"
       }
     ],
@@ -281,37 +281,37 @@
       {
         "player": "alice",
         "text": "Back is completely straight.",
-        "time": 1.0218982088062256,
+        "time": 0.7309522095853729,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Forms a 90-degree angle with his feet.",
-        "time": 1.2799521577833564,
+        "time": 0.9183790992773768,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "He is pointing to the right",
-        "time": 1.4632322900751995,
+        "time": 0.8731588932257532,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "fat guy?",
-        "time": 1.2741650877111357,
+        "time": 0.7837786205525216,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Head is a perfect diamond shape.",
-        "time": 1.4752328711828024,
+        "time": 0.6707676925648441,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Yes.",
-        "time": 0.6789118361139873,
+        "time": 0.6061642493801137,
         "role": "speaker"
       }
     ],
@@ -331,7 +331,7 @@
       {
         "player": "bob",
         "text": "the fat guy",
-        "time": 1.4933052571188732,
+        "time": 0.6984516895565026,
         "role": "speaker"
       }
     ],

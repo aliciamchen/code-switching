@@ -9,7 +9,7 @@
       {
         "player": "alice",
         "text": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right",
-        "time": 0.9242721789104145,
+        "time": 0.766346744067067,
         "role": "speaker"
       }
     ],
@@ -29,13 +29,13 @@
       {
         "player": "bob",
         "text": "This is a large black square with a diamond balanced on top",
-        "time": 0.9853848260536964,
+        "time": 0.9601976346482239,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "diamond is balanced on a long flat surface at the top",
-        "time": 1.4086783330625048,
+        "time": 0.9265929552240344,
         "role": "speaker"
       }
     ],
@@ -55,7 +55,7 @@
       {
         "player": "carol",
         "text": "Big square body with what looks like a tiny arm pointing right and a diamond head",
-        "time": 0.997353804375863,
+        "time": 0.7512680741572993,
         "role": "speaker"
       }
     ],
@@ -75,7 +75,7 @@
       {
         "player": "dave",
         "text": "square shape with diamond on top",
-        "time": 0.8775288505703801,
+        "time": 0.8595728020569271,
         "role": "speaker"
       }
     ],
@@ -95,19 +95,19 @@
       {
         "player": "alice",
         "text": "cube body",
-        "time": 0.6955587281886723,
+        "time": 0.8672839824837777,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "diamond on top",
-        "time": 0.7726943692841404,
+        "time": 0.6963349078276002,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "attached to cube flat surface by its point",
-        "time": 1.363168474525467,
+        "time": 0.6179947044083557,
         "role": "speaker"
       }
     ],
@@ -127,13 +127,13 @@
       {
         "player": "bob",
         "text": "top of image is diamond balanced on a flat surface",
-        "time": 0.925983759654923,
+        "time": 0.710128142804685,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "large cube",
-        "time": 1.24058644491907,
+        "time": 0.9182868421527168,
         "role": "speaker"
       }
     ],

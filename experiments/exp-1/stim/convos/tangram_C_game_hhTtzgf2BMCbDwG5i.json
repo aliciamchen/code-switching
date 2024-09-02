@@ -9,25 +9,25 @@
       {
         "player": "alice",
         "text": "almost looks like someone slipped and is falling backward with hands in the air",
-        "time": 0.7726955647650772,
+        "time": 0.7561238736773312,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Does it look like it's from the waist up only? As in we can't see it's legs?",
-        "time": 0.8068718065009971,
+        "time": 0.9827924605769404,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 1.4910280245208822,
+        "time": 0.7963670582820994,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Gotcha",
-        "time": 1.1698938817721631,
+        "time": 0.7082113885128893,
         "role": "listener"
       }
     ],
@@ -47,13 +47,13 @@
       {
         "player": "bob",
         "text": "This is the one who's slipping over.",
-        "time": 1.474489256042414,
+        "time": 0.8860525809722499,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Falling backwards. Arms in the air.",
-        "time": 1.3012872875665624,
+        "time": 0.6986400328804161,
         "role": "speaker"
       }
     ],
@@ -73,7 +73,7 @@
       {
         "player": "carol",
         "text": "the one thats falling backwards",
-        "time": 0.6323775930346501,
+        "time": 0.6776834277389296,
         "role": "speaker"
       }
     ],
@@ -93,7 +93,7 @@
       {
         "player": "dave",
         "text": "falling back guy with his hands arms out",
-        "time": 0.9980280792855889,
+        "time": 0.9709609965980099,
         "role": "speaker"
       }
     ],
@@ -113,7 +113,7 @@
       {
         "player": "alice",
         "text": "the falling one with no feet",
-        "time": 1.040317379668556,
+        "time": 0.8061073194236472,
         "role": "speaker"
       }
     ],
@@ -133,7 +133,7 @@
       {
         "player": "bob",
         "text": "Falling backwards guy!",
-        "time": 0.7460285850377592,
+        "time": 0.871184901015871,
         "role": "speaker"
       }
     ],

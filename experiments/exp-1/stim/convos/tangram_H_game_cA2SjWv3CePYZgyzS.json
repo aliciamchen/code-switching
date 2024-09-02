@@ -9,55 +9,55 @@
       {
         "player": "alice",
         "text": "this on looks the most smooth",
-        "time": 0.6042302822329494,
+        "time": 0.8832862497966691,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "with the least triangles sticking out",
-        "time": 1.3201632496690274,
+        "time": 0.6457323237988152,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "making a fat l shape with only a small flick at the bottom",
-        "time": 1.2076038082972875,
+        "time": 0.8306435173439856,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "does it look like a cucumber?",
-        "time": 1.110175391500126,
+        "time": 0.985833923058688,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yh",
-        "time": 0.7189870517971085,
+        "time": 0.9270032304774589,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "the let side is flat",
-        "time": 1.0299209481757385,
+        "time": 0.6063260676166974,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "apart from some white cut outs above and below",
-        "time": 1.363341974634755,
+        "time": 0.7407164769884339,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "the middle part of the left side is flat",
-        "time": 0.8744309425548573,
+        "time": 0.8489301218712182,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "let me know If you need more",
-        "time": 0.5752222818233722,
+        "time": 0.7947163951651076,
         "role": "speaker"
       }
     ],
@@ -77,25 +77,25 @@
       {
         "player": "bob",
         "text": "this is a person in a sleeping bag with no arms or legs",
-        "time": 1.0383314757951556,
+        "time": 0.6022560038063879,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "with the head sticking out",
-        "time": 1.1381063516572512,
+        "time": 0.9195679302848256,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "cucumber again?",
-        "time": 1.037146330858692,
+        "time": 0.9812052320341325,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yeah",
-        "time": 1.4376410734143334,
+        "time": 0.7270060300989009,
         "role": "speaker"
       }
     ],
@@ -115,7 +115,7 @@
       {
         "player": "carol",
         "text": "bean bag/ cucumber",
-        "time": 0.9934971762126219,
+        "time": 0.9298277277134382,
         "role": "speaker"
       }
     ],
@@ -135,7 +135,7 @@
       {
         "player": "dave",
         "text": "sleeping bag cucumber",
-        "time": 0.771657304084374,
+        "time": 0.9660076873401727,
         "role": "speaker"
       }
     ],
@@ -155,13 +155,13 @@
       {
         "player": "alice",
         "text": "sleeping bag",
-        "time": 1.2441778385487812,
+        "time": 0.9283804347915102,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "cucumber",
-        "time": 0.537934169305461,
+        "time": 0.7372871451722885,
         "role": "speaker"
       }
     ],
@@ -181,7 +181,7 @@
       {
         "player": "bob",
         "text": "sleeping bag",
-        "time": 1.214061027791912,
+        "time": 0.688870443122704,
         "role": "speaker"
       }
     ],

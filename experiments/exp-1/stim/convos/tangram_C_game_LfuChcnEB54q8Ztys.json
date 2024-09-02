@@ -9,61 +9,61 @@
       {
         "player": "alice",
         "text": "square head balancing on a corner",
-        "time": 1.4582377795905357,
+        "time": 0.8169215450264723,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "body is a rectanle on a lean",
-        "time": 0.7613413594877092,
+        "time": 0.8067600643882653,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "rectangle",
-        "time": 0.6413868443793224,
+        "time": 0.929447099980778,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "then two arms reaching up above the head",
-        "time": 0.6348288377623855,
+        "time": 0.7737190904843992,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "think I got it",
-        "time": 0.969165577344856,
+        "time": 0.6477445133138089,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "this one is easier",
-        "time": 1.0036351542481654,
+        "time": 0.8057961075672998,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "Think I got it too.  Much easer",
-        "time": 0.9308588458067023,
+        "time": 0.6437689641954313,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "We'll see",
-        "time": 0.5570416075144649,
+        "time": 0.7576963874709665,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yeah def a bit easier i think",
-        "time": 1.0754153634830514,
+        "time": 0.742165169711649,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "yay",
-        "time": 1.4029942851127681,
+        "time": 0.799343785629848,
         "role": "speaker"
       }
     ],
@@ -83,25 +83,25 @@
       {
         "player": "bob",
         "text": "arms are separated, one on the left and one on the right",
-        "time": 0.9835589820587195,
+        "time": 0.6605494698397392,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "hands up in the air?>",
-        "time": 0.8391480150491036,
+        "time": 0.9162295121915613,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "person seems to be leaning more towards the left",
-        "time": 0.9364975188407892,
+        "time": 0.764354980828974,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 0.8308709936536786,
+        "time": 0.7704587818688012,
         "role": "speaker"
       }
     ],
@@ -121,31 +121,31 @@
       {
         "player": "carol",
         "text": "arms facing up with slanted rectangle",
-        "time": 1.2584535068835954,
+        "time": 0.6275711021563745,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "leaning to left",
-        "time": 1.0645688318527768,
+        "time": 0.7796953328743972,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Like an Italian talking with their hands up in the air?",
-        "time": 0.7124446754977267,
+        "time": 0.8882855039923516,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "you got it",
-        "time": 1.3255282289890888,
+        "time": 0.6666822372411151,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "haha",
-        "time": 0.5098021953823297,
+        "time": 0.6292676405346002,
         "role": "listener"
       }
     ],
@@ -165,7 +165,7 @@
       {
         "player": "dave",
         "text": "Italian talking with their hand up",
-        "time": 1.478518728560954,
+        "time": 0.9008676280779142,
         "role": "speaker"
       }
     ],
@@ -185,7 +185,7 @@
       {
         "player": "alice",
         "text": "italian",
-        "time": 0.9492877256907283,
+        "time": 0.9003366755314932,
         "role": "speaker"
       }
     ],
@@ -205,7 +205,7 @@
       {
         "player": "bob",
         "text": "italian",
-        "time": 1.1968434749156778,
+        "time": 0.9436165254449753,
         "role": "speaker"
       }
     ],

@@ -9,49 +9,49 @@
       {
         "player": "alice",
         "text": "on its like a rabbit looking right",
-        "time": 1.4071743125285026,
+        "time": 0.8279872714277361,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "his head is kind of square",
-        "time": 1.2368981597522761,
+        "time": 0.6135797025846914,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "please elaborate",
-        "time": 0.6596649870380698,
+        "time": 0.6020862838900992,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "and the body is two triangles",
-        "time": 0.8975414564326288,
+        "time": 0.8126940201914865,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "its lying down",
-        "time": 1.18457694191891,
+        "time": 0.6768313788084354,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "2 triangles",
-        "time": 0.7323073581615281,
+        "time": 0.8693728423530662,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "square on that looking right. 2 triangle ears on top",
-        "time": 1.2841546344811952,
+        "time": 0.8151501933090491,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "i see thanks",
-        "time": 1.1293875681853716,
+        "time": 0.7886413541838773,
         "role": "listener"
       }
     ],
@@ -71,7 +71,7 @@
       {
         "player": "bob",
         "text": "bunny with two triangles for for ears facing the right",
-        "time": 0.5396898583012693,
+        "time": 0.9938322728033503,
         "role": "speaker"
       }
     ],
@@ -91,7 +91,7 @@
       {
         "player": "carol",
         "text": "man sat on floor facing right with bunny rabbit ears on",
-        "time": 1.4738385742684121,
+        "time": 0.7820838495350629,
         "role": "speaker"
       }
     ],
@@ -111,7 +111,7 @@
       {
         "player": "dave",
         "text": "bunny ears",
-        "time": 1.005052637329634,
+        "time": 0.8444563180642366,
         "role": "speaker"
       }
     ],
@@ -131,7 +131,7 @@
       {
         "player": "alice",
         "text": "bunny ears",
-        "time": 0.7455087209469381,
+        "time": 0.663405299557221,
         "role": "speaker"
       }
     ],
@@ -151,7 +151,7 @@
       {
         "player": "bob",
         "text": "bunny ears",
-        "time": 0.6196352897359126,
+        "time": 0.736837148711111,
         "role": "speaker"
       }
     ],

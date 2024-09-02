@@ -9,43 +9,43 @@
       {
         "player": "alice",
         "text": "ok so its like a guy sort of crouching with his hands folded",
-        "time": 0.6380329682683856,
+        "time": 0.8771466326835329,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "idk how to describe stuff good sorry",
-        "time": 1.1066685346963587,
+        "time": 0.8315283160465721,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "facing right or left?",
-        "time": 0.955235450654895,
+        "time": 0.6546289660441892,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "right",
-        "time": 1.4096375988048009,
+        "time": 0.6580248855039558,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "like 2 rhombuses on the bottom with a square on that a triangle to the right and a diamond on top",
-        "time": 1.354098150165243,
+        "time": 0.8339850621289192,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "but the triangle isnt small",
-        "time": 1.360667152755299,
+        "time": 0.7915730355022947,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "thanks",
-        "time": 0.6015514714223954,
+        "time": 0.7280556660020738,
         "role": "listener"
       }
     ],
@@ -65,25 +65,25 @@
       {
         "player": "bob",
         "text": "Person is crouching with his arms out",
-        "time": 1.440224258995665,
+        "time": 0.9348588136303769,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "he is facing to the right",
-        "time": 1.2449323762732245,
+        "time": 0.868414720746294,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "more?",
-        "time": 1.4366489312861694,
+        "time": 0.6629044974336167,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "Triangle head",
-        "time": 1.108032463975178,
+        "time": 0.9199081212592571,
         "role": "speaker"
       }
     ],
@@ -103,7 +103,7 @@
       {
         "player": "carol",
         "text": "man crouching facing right with arms out in front of him",
-        "time": 0.7378220161680799,
+        "time": 0.796031334175484,
         "role": "speaker"
       }
     ],
@@ -123,31 +123,31 @@
       {
         "player": "dave",
         "text": "crouching to the right, triangle arm out praying, knees bent",
-        "time": 1.2523873228551,
+        "time": 0.8029063872781181,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "love this!",
-        "time": 0.957789968625968,
+        "time": 0.6491496146702922,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "lower half like >",
-        "time": 1.3642128297235727,
+        "time": 0.969105867911864,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "and same",
-        "time": 1.1834077379977428,
+        "time": 0.6919735433432909,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "yes!",
-        "time": 0.5378929694032852,
+        "time": 0.9358215038251002,
         "role": "speaker"
       }
     ],
@@ -167,31 +167,31 @@
       {
         "player": "alice",
         "text": "crouching guy",
-        "time": 0.6000143508134999,
+        "time": 0.6549140877672927,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "facing right",
-        "time": 0.7211525414285602,
+        "time": 0.7451865515913683,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "knees bent",
-        "time": 1.1381522577320602,
+        "time": 0.8606575961065956,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "with arms?",
-        "time": 1.2861729918374063,
+        "time": 0.7300540508434651,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yep",
-        "time": 0.8272707065634403,
+        "time": 0.8140709245777057,
         "role": "speaker"
       }
     ],
@@ -211,31 +211,31 @@
       {
         "player": "bob",
         "text": "crouching guy",
-        "time": 0.6119849293815981,
+        "time": 0.9172341211408397,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "facing right",
-        "time": 1.3177752408644607,
+        "time": 0.6446327984623473,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": ">?",
-        "time": 1.2560839816014497,
+        "time": 0.9477110055790532,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "he is crouching",
-        "time": 1.0925185421520887,
+        "time": 0.9441288231186241,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "knees bent",
-        "time": 0.8090432145774489,
+        "time": 0.6020876134321939,
         "role": "speaker"
       }
     ],

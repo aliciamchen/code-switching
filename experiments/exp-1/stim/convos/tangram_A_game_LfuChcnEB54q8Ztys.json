@@ -9,61 +9,61 @@
       {
         "player": "alice",
         "text": "ok this one looks like it has 2 legs, balancing on one foot",
-        "time": 1.352887426933719,
+        "time": 0.9228778351390099,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "leaning left?",
-        "time": 0.5302960533691058,
+        "time": 0.8311393298579021,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "looks like a head with a beak is looking down to the raised foot",
-        "time": 0.7331170116203393,
+        "time": 0.6349396782072968,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "facing the left",
-        "time": 0.7966616616018676,
+        "time": 0.9635816606107046,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "then a square jutting out of the right shoulder",
-        "time": 0.9273822063931952,
+        "time": 0.7775108138816481,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Ah, got it",
-        "time": 1.3023363089246605,
+        "time": 0.6850392480880058,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "anyone else need more info?",
-        "time": 1.3712769093518182,
+        "time": 0.7609133345067729,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "does it look like this figure is ice skating or no",
-        "time": 0.9293959956871597,
+        "time": 0.7691656539865414,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "not not the ice skating one, i think i know what you mean",
-        "time": 1.0383175425870874,
+        "time": 0.6064008716052866,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "oki",
-        "time": 0.820578337718391,
+        "time": 0.7319184296300417,
         "role": "listener"
       }
     ],
@@ -83,43 +83,43 @@
       {
         "player": "bob",
         "text": "looks like a walking zombie",
-        "time": 0.952324188289907,
+        "time": 0.7033017199183059,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "square tilted back, figure facing the left",
-        "time": 1.482592981149609,
+        "time": 0.9606045752871455,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "one leg is down, one leg is up",
-        "time": 1.360838562707911,
+        "time": 0.9764771673314933,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "one leg up on the left and one on the ground",
-        "time": 0.7114573768531651,
+        "time": 0.922327408231544,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "?",
-        "time": 0.8793822615350447,
+        "time": 0.6873253240357445,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 0.9039078031332654,
+        "time": 0.8471497280783761,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "oh haha you answered",
-        "time": 0.6747087794889101,
+        "time": 0.8420519227376778,
         "role": "listener"
       }
     ],
@@ -139,37 +139,37 @@
       {
         "player": "carol",
         "text": "dancing birdman",
-        "time": 1.350395164010876,
+        "time": 0.6250420948195298,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "facing left",
-        "time": 1.3566399027970828,
+        "time": 0.7542827965969555,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "big triangle for a head",
-        "time": 0.9518241191245469,
+        "time": 0.9463074226934298,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "dquare balanced over right shoulder with one leg up",
-        "time": 0.5240337124980524,
+        "time": 0.9035455218947323,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "square*",
-        "time": 1.130187757378729,
+        "time": 0.7765891236542857,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "gotcha",
-        "time": 1.3362124499246162,
+        "time": 0.7343528308499641,
         "role": "listener"
       }
     ],
@@ -189,19 +189,19 @@
       {
         "player": "dave",
         "text": "Bird man",
-        "time": 0.9405645841277923,
+        "time": 0.8109938316627042,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Square on right balancing on corner",
-        "time": 0.8894775363838097,
+        "time": 0.7916558064122232,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Left foot off the ground, right foot on",
-        "time": 0.8762663424513437,
+        "time": 0.754461214608308,
         "role": "speaker"
       }
     ],
@@ -221,7 +221,7 @@
       {
         "player": "alice",
         "text": "bird man dancing",
-        "time": 0.8443140794480573,
+        "time": 0.9252298542961134,
         "role": "speaker"
       }
     ],
@@ -241,7 +241,7 @@
       {
         "player": "bob",
         "text": "bird man",
-        "time": 1.1656331830182975,
+        "time": 0.8944062394320567,
         "role": "speaker"
       }
     ],

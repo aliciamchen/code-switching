@@ -9,67 +9,67 @@
       {
         "player": "alice",
         "text": "arms with sleeves",
-        "time": 0.5417351734900564,
+        "time": 0.9697039592955172,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "facing left",
-        "time": 1.3899593359873572,
+        "time": 0.9267692188603289,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "diamond face",
-        "time": 1.0634890042461898,
+        "time": 0.9148149073753649,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "feet facing left",
-        "time": 1.034511304859469,
+        "time": 0.618275998356112,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "no gap between legs?",
-        "time": 0.9737137270346924,
+        "time": 0.9587252506648115,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "standing straight?",
-        "time": 1.1300706525211697,
+        "time": 0.8548972875682392,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "straight back and legs",
-        "time": 0.9424232519023374,
+        "time": 0.6024536359686821,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "no gaps",
-        "time": 1.2303261188731813,
+        "time": 0.9288030390765756,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "arms behind back?",
-        "time": 1.3211720027388765,
+        "time": 0.9659719922562219,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "no",
-        "time": 1.3834154486213324,
+        "time": 0.8446661063283718,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "arms in front facing left",
-        "time": 1.1090714514365685,
+        "time": 0.7734605511140672,
         "role": "speaker"
       }
     ],
@@ -89,37 +89,37 @@
       {
         "player": "bob",
         "text": "upright diamond head, facing left. looks like a standing wizard with sleeves on arms which face left.",
-        "time": 1.2853178912850205,
+        "time": 0.7085877702393732,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "square sleeve",
-        "time": 0.650001377609369,
+        "time": 0.9247431378036894,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "square with small point",
-        "time": 1.3490726437435916,
+        "time": 0.7486365412110461,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "look like it holding hands out?",
-        "time": 1.1328023967408498,
+        "time": 0.9628690123603141,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "at top",
-        "time": 1.2076131717229677,
+        "time": 0.6512547198855353,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "yes, arms out",
-        "time": 1.1318649432683947,
+        "time": 0.8752921345637195,
         "role": "speaker"
       }
     ],
@@ -139,7 +139,7 @@
       {
         "player": "carol",
         "text": "standing like wizard, facing left, arms with baggy sleeve facing left",
-        "time": 1.1341789204531252,
+        "time": 0.9748004362947064,
         "role": "speaker"
       }
     ],
@@ -159,25 +159,25 @@
       {
         "player": "dave",
         "text": "facing left",
-        "time": 1.2047449219909578,
+        "time": 0.947318572897969,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "sleeves",
-        "time": 1.020997197407713,
+        "time": 0.7249713455853402,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "wizard guy?",
-        "time": 1.2021055230075515,
+        "time": 0.8268758319649654,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "yes",
-        "time": 1.1833869923729465,
+        "time": 0.7430424048313233,
         "role": "speaker"
       }
     ],
@@ -197,19 +197,19 @@
       {
         "player": "alice",
         "text": "wizzard guy",
-        "time": 1.3900089071413837,
+        "time": 0.791212829703855,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "sleeves?",
-        "time": 0.936443453614557,
+        "time": 0.9719862260878662,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "square sleeves with hands",
-        "time": 0.697549143376157,
+        "time": 0.7690560152999828,
         "role": "speaker"
       }
     ],
@@ -229,7 +229,7 @@
       {
         "player": "bob",
         "text": "wizard guy",
-        "time": 1.3456499127311345,
+        "time": 0.7737272117959354,
         "role": "speaker"
       }
     ],

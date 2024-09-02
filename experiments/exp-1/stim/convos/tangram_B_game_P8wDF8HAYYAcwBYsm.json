@@ -9,43 +9,43 @@
       {
         "player": "alice",
         "text": "Another odd one. Does not look much like a human.",
-        "time": 0.5551540172756618,
+        "time": 0.8817771896739135,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "I can sorta see a mouse though!",
-        "time": 0.6134006243991003,
+        "time": 0.9398442956604416,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "they're all odd, just describe",
-        "time": 1.1679659467969246,
+        "time": 0.7103941915454913,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "it's cool",
-        "time": 1.309362155002419,
+        "time": 0.6809874384590512,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "two big ears, pointing nose. Facing left.",
-        "time": 0.8347981477107159,
+        "time": 0.9920778816423682,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "A small triangle on the left side could be its foot or tail.",
-        "time": 0.6233778961015821,
+        "time": 0.9552539457180387,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Its ears are a diamond and a triangle",
-        "time": 1.1497870966546468,
+        "time": 0.8193267350811146,
         "role": "speaker"
       }
     ],
@@ -65,13 +65,13 @@
       {
         "player": "alice",
         "text": "welp",
-        "time": 0.8392856023207712,
+        "time": 0.8879213838904203,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "the one previously described as a pointy nosed mouse",
-        "time": 0.6701607388266411,
+        "time": 0.9751672885403537,
         "role": "speaker"
       }
     ],
@@ -91,31 +91,31 @@
       {
         "player": "carol",
         "text": "wacky guy two hands up with a little lagging triangle on left side",
-        "time": 0.5157619376548979,
+        "time": 0.9044705433196845,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "mouse with pointy nose?",
-        "time": 0.6638968696248297,
+        "time": 0.717465083411022,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "no",
-        "time": 0.8025885104475645,
+        "time": 0.9284961152543738,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "more info",
-        "time": 1.2429235764735824,
+        "time": 0.7824405230117866,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "diamond head, one hand is almost off, other is connected",
-        "time": 1.223768905131532,
+        "time": 0.7272595333514246,
         "role": "speaker"
       }
     ],
@@ -135,7 +135,7 @@
       {
         "player": "dave",
         "text": "mouse with pointy nose, looking left",
-        "time": 0.7399554926348364,
+        "time": 0.6805416615956649,
         "role": "speaker"
       }
     ],
@@ -155,13 +155,13 @@
       {
         "player": "alice",
         "text": "pointy nose mouse",
-        "time": 1.4265816596694365,
+        "time": 0.8746104030977522,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "facing left",
-        "time": 1.0323298709192308,
+        "time": 0.8569227895002782,
         "role": "speaker"
       }
     ],
@@ -181,7 +181,7 @@
       {
         "player": "bob",
         "text": "left facing pointy nosed mouse",
-        "time": 0.8563050113963948,
+        "time": 0.7183700724914348,
         "role": "speaker"
       }
     ],

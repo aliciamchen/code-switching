@@ -9,61 +9,61 @@
       {
         "player": "alice",
         "text": "this one is a slim one like a person standing again",
-        "time": 0.6848086956484793,
+        "time": 0.8900898689489598,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "but",
-        "time": 1.4641571271769065,
+        "time": 0.79047985235875,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "it has a big white triangle on the right side",
-        "time": 0.9361156420503678,
+        "time": 0.8354610773204972,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "and a white small parallelogram shape cut out of the left side",
-        "time": 1.1713799748926337,
+        "time": 0.7393803958970074,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "two black triangles sticking out of the right side",
-        "time": 1.365610431247881,
+        "time": 0.8276920052936717,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "and the left side is flat at the bottom half",
-        "time": 1.4475491988190252,
+        "time": 0.8104441997584497,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "and then there's the white small shape cut out of the left side",
-        "time": 1.428746238286415,
+        "time": 0.6941981057900574,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "the parallelogram",
-        "time": 1.2477562915809624,
+        "time": 0.7380947157489611,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "there's a right angle triangle in the bottom left of the shape",
-        "time": 1.3408687903684733,
+        "time": 0.9742220683298717,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "the black shapes make a right angle",
-        "time": 1.0219549543577848,
+        "time": 0.7084912954995005,
         "role": "speaker"
       }
     ],
@@ -83,31 +83,31 @@
       {
         "player": "bob",
         "text": "this is the person kneeling",
-        "time": 1.1826689378016968,
+        "time": 0.6865959489037758,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "and praying",
-        "time": 1.0568047768223443,
+        "time": 0.796205942900393,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "armsto the right?",
-        "time": 0.7658823004531962,
+        "time": 0.7773781944844834,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "On their knees",
-        "time": 1.18419292210149,
+        "time": 0.8931484581133144,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "yes to the right",
-        "time": 1.1162062175273246,
+        "time": 0.9223634682826003,
         "role": "speaker"
       }
     ],
@@ -127,7 +127,7 @@
       {
         "player": "carol",
         "text": "on knees praying",
-        "time": 0.7397705335587864,
+        "time": 0.6729704730797288,
         "role": "speaker"
       }
     ],
@@ -147,7 +147,7 @@
       {
         "player": "dave",
         "text": "praying but on knees,hands at right",
-        "time": 0.7247465396845731,
+        "time": 0.7943281004815964,
         "role": "speaker"
       }
     ],
@@ -167,19 +167,19 @@
       {
         "player": "alice",
         "text": "kneeling parying",
-        "time": 1.2275047977722437,
+        "time": 0.9606062640456351,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "arms to the right",
-        "time": 1.2615725321616262,
+        "time": 0.7619424584857625,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "praying",
-        "time": 1.1077939771437535,
+        "time": 0.8128592094735805,
         "role": "speaker"
       }
     ],
@@ -199,13 +199,13 @@
       {
         "player": "bob",
         "text": "Kneeling prayer",
-        "time": 1.2026981683272224,
+        "time": 0.7225984920383314,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "on their knees",
-        "time": 1.1207902282020363,
+        "time": 0.7854470269791769,
         "role": "speaker"
       }
     ],

@@ -9,7 +9,7 @@
       {
         "player": "alice",
         "text": "Looks like a guy stood straight with a matador cape one side of him",
-        "time": 1.3123443033408564,
+        "time": 0.9928628608849632,
         "role": "speaker"
       }
     ],
@@ -29,7 +29,7 @@
       {
         "player": "bob",
         "text": "man stood up straight, he looks like a big blob. One hand out to the right",
-        "time": 1.4841581180357952,
+        "time": 0.750523821089147,
         "role": "speaker"
       }
     ],
@@ -49,19 +49,19 @@
       {
         "player": "carol",
         "text": "Blob man, body is shaped almost like a T with one triangle arm on the right side",
-        "time": 0.5497992636949962,
+        "time": 0.7890455163739298,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "No feet",
-        "time": 1.081955758904022,
+        "time": 0.6190501929854252,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Head facing straight",
-        "time": 0.8457011117530384,
+        "time": 0.9809708899231191,
         "role": "speaker"
       }
     ],
@@ -81,7 +81,7 @@
       {
         "player": "dave",
         "text": "Blob man, standing straight up, one hand to the right slightly",
-        "time": 0.8573909638181724,
+        "time": 0.9132834715131736,
         "role": "speaker"
       }
     ],
@@ -101,7 +101,7 @@
       {
         "player": "alice",
         "text": "guy with cape/matador cape left side stood straight",
-        "time": 1.1286182267207434,
+        "time": 0.6476349270397591,
         "role": "speaker"
       }
     ],
@@ -121,7 +121,7 @@
       {
         "player": "bob",
         "text": "man with cape",
-        "time": 1.4029943528378308,
+        "time": 0.7075953143889594,
         "role": "speaker"
       }
     ],

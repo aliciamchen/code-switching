@@ -9,49 +9,49 @@
       {
         "player": "alice",
         "text": "It's a blob in the middle with a head on top",
-        "time": 1.024793719584637,
+        "time": 0.9194277938358459,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Its only two shapes",
-        "time": 1.0696113789645234,
+        "time": 0.921227455424444,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "It sort of looks like a wrapped up baby",
-        "time": 0.5812688846055235,
+        "time": 0.8129773741125242,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "I'm struggling here",
-        "time": 1.219689088073727,
+        "time": 0.7402957279180041,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "with a square head?",
-        "time": 1.1377580551009316,
+        "time": 0.6844019405926332,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yeah, sqare head",
-        "time": 0.8317064074641228,
+        "time": 0.7056791875599379,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "There are two like that, but I think only one looks like a wrapped up baby",
-        "time": 0.8579322472360055,
+        "time": 0.7814158243181573,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "The main shape is sort of like a hexagon",
-        "time": 1.3788646642500788,
+        "time": 0.9740895577616517,
         "role": "speaker"
       }
     ],
@@ -71,13 +71,13 @@
       {
         "player": "bob",
         "text": "the one that looks like a wrapped up baby",
-        "time": 1.0583015651753032,
+        "time": 0.638460938419212,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "with a diamond head",
-        "time": 0.8825480039458959,
+        "time": 0.7074830706874454,
         "role": "speaker"
       }
     ],
@@ -97,7 +97,7 @@
       {
         "player": "carol",
         "text": "It's the baby",
-        "time": 1.015548902329856,
+        "time": 0.8456350400805008,
         "role": "speaker"
       }
     ],
@@ -117,25 +117,25 @@
       {
         "player": "dave",
         "text": "the baby",
-        "time": 1.1048037051372017,
+        "time": 0.6525085040273989,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "which one?",
-        "time": 1.2687723576931018,
+        "time": 0.7292588794421948,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "the cocooned one",
-        "time": 0.7659276551561043,
+        "time": 0.7975594147973465,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "lol",
-        "time": 0.9207369686295591,
+        "time": 0.9815615167845438,
         "role": "listener"
       }
     ],
@@ -155,7 +155,7 @@
       {
         "player": "alice",
         "text": "Cocooned baby",
-        "time": 1.3744891277511115,
+        "time": 0.6610580786332432,
         "role": "speaker"
       }
     ],
@@ -175,13 +175,13 @@
       {
         "player": "bob",
         "text": "coccooned baby",
-        "time": 0.6836065840908185,
+        "time": 0.6217948561161741,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "this has been more fun than most studies on here",
-        "time": 1.2715582525046982,
+        "time": 0.690263357779344,
         "role": "listener"
       }
     ],

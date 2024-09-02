@@ -9,55 +9,55 @@
       {
         "player": "alice",
         "text": "Monk blob?",
-        "time": 1.059810262045792,
+        "time": 0.6397690720721195,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "No visible arms or legs",
-        "time": 0.8589777606883702,
+        "time": 0.6012448167358796,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Maybe sitting cross legged with one knee bent outwards",
-        "time": 0.8802061866489445,
+        "time": 0.637695505743949,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Is it kind of like the kneeling one? Left side has an angle (\\) where the right side is a triangle at the bottom (>)?",
-        "time": 0.6306173387617676,
+        "time": 0.6629306605864058,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Knee bend to the right",
-        "time": 1.2863698177471454,
+        "time": 0.8957683846449601,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Does it look like its looking up",
-        "time": 1.2804011594893447,
+        "time": 0.7054315612403699,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "And to the right",
-        "time": 0.6003580547308706,
+        "time": 0.7388819427008201,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yes looks like looking up",
-        "time": 1.3802061824613183,
+        "time": 0.9882384599255309,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "> on right side",
-        "time": 1.2125100199696224,
+        "time": 0.8099667147030435,
         "role": "speaker"
       }
     ],
@@ -77,7 +77,7 @@
       {
         "player": "bob",
         "text": "Looks like a blob no legs or arms",
-        "time": 0.8325759564222648,
+        "time": 0.6261705108326763,
         "role": "speaker"
       }
     ],
@@ -97,7 +97,7 @@
       {
         "player": "carol",
         "text": "The Blob. No legs/arms.",
-        "time": 1.0115757754715462,
+        "time": 0.8776475726198323,
         "role": "speaker"
       }
     ],
@@ -117,7 +117,7 @@
       {
         "player": "dave",
         "text": "blob",
-        "time": 1.0577406381958046,
+        "time": 0.8305398434770858,
         "role": "speaker"
       }
     ],
@@ -137,7 +137,7 @@
       {
         "player": "alice",
         "text": "Blob",
-        "time": 1.4279945196327783,
+        "time": 0.8746207052296775,
         "role": "speaker"
       }
     ],
@@ -157,13 +157,13 @@
       {
         "player": "bob",
         "text": "Blov",
-        "time": 1.187728256409303,
+        "time": 0.7520833800985804,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Blob",
-        "time": 0.9326217198473261,
+        "time": 0.6878598597843404,
         "role": "speaker"
       }
     ],

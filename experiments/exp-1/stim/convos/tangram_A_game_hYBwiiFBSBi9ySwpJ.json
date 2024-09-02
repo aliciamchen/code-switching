@@ -9,25 +9,25 @@
       {
         "player": "dave",
         "text": "hi",
-        "time": 0.7725696354672256,
+        "time": 0.7768138856487873,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "Hi",
-        "time": 1.365692518129464,
+        "time": 0.8810382094426414,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "hi",
-        "time": 1.3960767387203967,
+        "time": 0.7178751405334343,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "The picture looks like it's carrying a flag over it's shoulder",
-        "time": 0.5348598491661521,
+        "time": 0.8576795684124447,
         "role": "speaker"
       }
     ],
@@ -47,7 +47,7 @@
       {
         "player": "bob",
         "text": "zomibie walk, standing on one foot",
-        "time": 0.7713283707521976,
+        "time": 0.7731552346725138,
         "role": "speaker"
       }
     ],
@@ -67,7 +67,7 @@
       {
         "player": "carol",
         "text": "zombie",
-        "time": 0.5888216772897512,
+        "time": 0.8816727650441496,
         "role": "speaker"
       }
     ],
@@ -87,31 +87,31 @@
       {
         "player": "dave",
         "text": "bear with a flag, facing left, marching",
-        "time": 0.5424451814516655,
+        "time": 0.8338108527009283,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "what do you mean by bear?",
-        "time": 0.7379378354110007,
+        "time": 0.8569992600068815,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "zombie",
-        "time": 1.2180714653100533,
+        "time": 0.7910327603012541,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "figure then. one leg up",
-        "time": 1.1806901343029519,
+        "time": 0.9978386199046967,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "oh",
-        "time": 0.6124967011693981,
+        "time": 0.9200622689015572,
         "role": "listener"
       }
     ],
@@ -131,7 +131,7 @@
       {
         "player": "alice",
         "text": "zombie with flag",
-        "time": 1.327542156902275,
+        "time": 0.7413933670456077,
         "role": "speaker"
       }
     ],
@@ -151,7 +151,7 @@
       {
         "player": "bob",
         "text": "zombie",
-        "time": 0.6171494186098565,
+        "time": 0.7707626885686577,
         "role": "speaker"
       }
     ],

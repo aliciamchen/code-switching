@@ -9,37 +9,37 @@
       {
         "player": "alice",
         "text": "oh no",
-        "time": 1.0134678406040893,
+        "time": 0.967189377804151,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "its a diamond on a diamond with a triangle out to the right",
-        "time": 0.8122215268560627,
+        "time": 0.7171473996382541,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "there is a right angled triangle to the left",
-        "time": 0.5955167453638008,
+        "time": 0.9958335982666303,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "looka like a dog looking up with diamond on top ?",
-        "time": 1.104712875070148,
+        "time": 0.6262950514923623,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "no i don't think so",
-        "time": 1.3789353873346553,
+        "time": 0.7089234427693378,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "like a duck looking right with a diamond on top",
-        "time": 1.0437981238452785,
+        "time": 0.6555380348056671,
         "role": "speaker"
       }
     ],
@@ -59,19 +59,19 @@
       {
         "player": "bob",
         "text": "person kneeling like she is praying facing to the right",
-        "time": 0.5615327288054313,
+        "time": 0.6475180794663784,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "with a triangle behind her?",
-        "time": 1.01872203903361,
+        "time": 0.8697554146589646,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "a small triangle",
-        "time": 1.4693469700203763,
+        "time": 0.852432068282786,
         "role": "speaker"
       }
     ],
@@ -91,61 +91,61 @@
       {
         "player": "alice",
         "text": "i almost wish this game existed for real",
-        "time": 0.8825448354244545,
+        "time": 0.902368589986581,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "its fun",
-        "time": 0.997997621080758,
+        "time": 0.9945788533615079,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "and funny",
-        "time": 1.173778827117017,
+        "time": 0.6988379361658192,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "man knelt down facing up with his arms out in front of him",
-        "time": 1.3193494955966103,
+        "time": 0.7358014762996222,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "to the right",
-        "time": 1.3476743447617376,
+        "time": 0.7256402386857499,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "looks like he is praying the islamic way",
-        "time": 1.3231321317892266,
+        "time": 0.7423042511590444,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "yes",
-        "time": 0.6783311563826167,
+        "time": 0.6216723752713956,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "??",
-        "time": 1.2950457550326617,
+        "time": 0.95877019037388,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "the one with the diamond on his head?",
-        "time": 1.4868576360501318,
+        "time": 0.7663890374536676,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "yes but not straight back",
-        "time": 1.1963675923649504,
+        "time": 0.6760035929597316,
         "role": "speaker"
       }
     ],
@@ -165,19 +165,19 @@
       {
         "player": "dave",
         "text": "similar to last one, facing right praying, but with knees on the floor",
-        "time": 0.5619590899871939,
+        "time": 0.8013390900571349,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "diamond hat?",
-        "time": 0.9737356731633313,
+        "time": 0.8067661285860988,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "yes",
-        "time": 0.9633266346262038,
+        "time": 0.8271768571618952,
         "role": "speaker"
       }
     ],
@@ -197,25 +197,25 @@
       {
         "player": "alice",
         "text": "the duck with a diamond hat",
-        "time": 1.4691924926809374,
+        "time": 0.7542876695367439,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "facing right",
-        "time": 0.6210755978083368,
+        "time": 0.7038302564297629,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "elab",
-        "time": 0.743636251288124,
+        "time": 0.9056883148608079,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "its a diamond on a diamond",
-        "time": 0.5236860180797895,
+        "time": 0.9105583268531946,
         "role": "speaker"
       }
     ],
@@ -235,7 +235,7 @@
       {
         "player": "bob",
         "text": "duck",
-        "time": 0.8031561468600054,
+        "time": 0.8778497951849442,
         "role": "speaker"
       }
     ],

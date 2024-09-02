@@ -9,49 +9,49 @@
       {
         "player": "bob",
         "text": "Oh this is more difficult than expected.",
-        "time": 0.9528382306030568,
+        "time": 0.6886205780600108,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yeah",
-        "time": 1.2021042972968625,
+        "time": 0.7178668707036782,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "this one has one foot in the air like it's walking",
-        "time": 0.9717349019235739,
+        "time": 0.9324732693369897,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "and one foot planted firmly on the ground",
-        "time": 0.5415467538498523,
+        "time": 0.9072916606536021,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "with a diamond on the right side",
-        "time": 1.3679878115530077,
+        "time": 0.8835656739932363,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "does it look a bit like a zombie?",
-        "time": 1.2405448934473455,
+        "time": 0.8010734875210508,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "with the hands",
-        "time": 0.7382615402293473,
+        "time": 0.6283303270917041,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "got it yes",
-        "time": 0.6446122427358354,
+        "time": 0.7928527712590332,
         "role": "listener"
       }
     ],
@@ -71,7 +71,7 @@
       {
         "player": "bob",
         "text": "Zombie person.",
-        "time": 1.4223645006080983,
+        "time": 0.8267664382656414,
         "role": "speaker"
       }
     ],
@@ -91,7 +91,7 @@
       {
         "player": "carol",
         "text": "zombie one",
-        "time": 0.6830610258668027,
+        "time": 0.7313215917288982,
         "role": "speaker"
       }
     ],
@@ -111,7 +111,7 @@
       {
         "player": "dave",
         "text": "the zombie",
-        "time": 0.5339940410032907,
+        "time": 0.9569137624097392,
         "role": "speaker"
       }
     ],
@@ -131,7 +131,7 @@
       {
         "player": "alice",
         "text": "zombie",
-        "time": 0.890628551787717,
+        "time": 0.6197469594644798,
         "role": "speaker"
       }
     ],
@@ -151,7 +151,7 @@
       {
         "player": "bob",
         "text": "Zombie!",
-        "time": 1.1874062216850234,
+        "time": 0.9900985174027063,
         "role": "speaker"
       }
     ],

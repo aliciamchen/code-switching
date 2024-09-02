@@ -9,55 +9,55 @@
       {
         "player": "alice",
         "text": "This one looks like a person dancing. They have one foot on the floor and another foot is raised",
-        "time": 1.087286643960489,
+        "time": 0.8746698156000702,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "is their head tilted back?",
-        "time": 1.006081244479896,
+        "time": 0.9759287754829916,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "their ears are made from a square shape",
-        "time": 0.5138440357122834,
+        "time": 0.8359741148438753,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "and then another 4 sided shape",
-        "time": 0.6438651997111463,
+        "time": 0.8191106771833726,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "its the last one we haven't selected",
-        "time": 1.3851895582318283,
+        "time": 0.8124828411094117,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "i don't remember which ones i haven't selected... so going off description",
-        "time": 0.7486012670859739,
+        "time": 0.9759315042657446,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "factual",
-        "time": 1.008325613575674,
+        "time": 0.823212639751971,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "its the one with 2 heads almost",
-        "time": 0.8499484879168522,
+        "time": 0.7963856733671543,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "it seems to me",
-        "time": 0.7815171875331208,
+        "time": 0.7564244715680789,
         "role": "listener"
       }
     ],
@@ -77,7 +77,7 @@
       {
         "player": "bob",
         "text": "dancing man, 1 foot up, 1 down, 2 heads",
-        "time": 1.4864379431350216,
+        "time": 0.8624276442568397,
         "role": "speaker"
       }
     ],
@@ -97,7 +97,7 @@
       {
         "player": "carol",
         "text": "dancing man",
-        "time": 1.0853162450321978,
+        "time": 0.9825106276435391,
         "role": "speaker"
       }
     ],
@@ -117,13 +117,13 @@
       {
         "player": "dave",
         "text": "dancing man",
-        "time": 1.0729789667742522,
+        "time": 0.600398735644413,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "two heads",
-        "time": 1.282439997719662,
+        "time": 0.6942087497544167,
         "role": "speaker"
       }
     ],
@@ -143,7 +143,7 @@
       {
         "player": "alice",
         "text": "dancing man",
-        "time": 0.600314872252328,
+        "time": 0.6170786982157273,
         "role": "speaker"
       }
     ],
@@ -163,7 +163,7 @@
       {
         "player": "bob",
         "text": "dancing man",
-        "time": 0.6424188611575162,
+        "time": 0.7463691379122724,
         "role": "speaker"
       }
     ],

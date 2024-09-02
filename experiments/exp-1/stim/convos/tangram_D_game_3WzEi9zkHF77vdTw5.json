@@ -9,19 +9,19 @@
       {
         "player": "alice",
         "text": "ok its like a guy looking left carrying a box",
-        "time": 1.255703342295404,
+        "time": 0.6555113415612273,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "in his arms or on his back",
-        "time": 0.7648835481069716,
+        "time": 0.6160283462093411,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "in his arms",
-        "time": 1.267370128646268,
+        "time": 0.6084205691863818,
         "role": "speaker"
       }
     ],
@@ -41,13 +41,13 @@
       {
         "player": "bob",
         "text": "The person is facing left and his holding like an open box",
-        "time": 0.918114723122267,
+        "time": 0.9464672523759647,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "looks like a priest",
-        "time": 0.8325619482743906,
+        "time": 0.6302659641952232,
         "role": "speaker"
       }
     ],
@@ -67,25 +67,25 @@
       {
         "player": "carol",
         "text": "looks like a priest facing right or somoen holding an open bow facing right",
-        "time": 0.9609099341451973,
+        "time": 0.8536056081251979,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "left",
-        "time": 0.8988661384821592,
+        "time": 0.6670963826555999,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "sorry i meant left",
-        "time": 1.1070603559408632,
+        "time": 0.8471601758467054,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "box not bow",
-        "time": 0.8698218216198811,
+        "time": 0.7307620936421317,
         "role": "speaker"
       }
     ],
@@ -105,7 +105,7 @@
       {
         "player": "dave",
         "text": "priest facing left carrying a box",
-        "time": 1.001008310062832,
+        "time": 0.9895383262007579,
         "role": "speaker"
       }
     ],
@@ -125,7 +125,7 @@
       {
         "player": "alice",
         "text": "box priest",
-        "time": 0.6970536463712125,
+        "time": 0.8714089841405543,
         "role": "speaker"
       }
     ],
@@ -145,7 +145,7 @@
       {
         "player": "bob",
         "text": "priest with box",
-        "time": 1.4693101924551693,
+        "time": 0.9782935219363741,
         "role": "speaker"
       }
     ],

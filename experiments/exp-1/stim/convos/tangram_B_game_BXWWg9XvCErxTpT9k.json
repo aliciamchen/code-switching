@@ -9,37 +9,37 @@
       {
         "player": "alice",
         "text": "the person is kneeling with their hands streched out",
-        "time": 1.0003780255778503,
+        "time": 0.9730942060996014,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "not the one facing sideways",
-        "time": 1.3177210477242385,
+        "time": 0.9304514127829837,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "Does it look like their heels are up behind them?",
-        "time": 1.3819085152842059,
+        "time": 0.9790750087375419,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "With a little triangle sticking up behind them?",
-        "time": 1.2985471956607562,
+        "time": 0.8454046323483058,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 0.6357318738800889,
+        "time": 0.7780360115939623,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "nice",
-        "time": 1.2778947618081866,
+        "time": 0.7282475513360542,
         "role": "listener"
       }
     ],
@@ -59,13 +59,13 @@
       {
         "player": "bob",
         "text": "Two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side",
-        "time": 0.5365414932700117,
+        "time": 0.9337807261501557,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "You could say it is wearing a dress",
-        "time": 1.2592121423456402,
+        "time": 0.7089819099077596,
         "role": "speaker"
       }
     ],
@@ -85,19 +85,19 @@
       {
         "player": "carol",
         "text": "One triangle arm to the left and one to the right.",
-        "time": 0.930833492223121,
+        "time": 0.942524632269766,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "Lets call this one the princess dance",
-        "time": 1.4907420614105846,
+        "time": 0.8498808773329416,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Good job",
-        "time": 0.8658032818696034,
+        "time": 0.6972749531211766,
         "role": "listener"
       }
     ],
@@ -117,13 +117,13 @@
       {
         "player": "dave",
         "text": "Princess daNCE!",
-        "time": 1.3919364512418329,
+        "time": 0.9934221842326282,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "I knew it!",
-        "time": 0.5206693977180438,
+        "time": 0.9478511300290737,
         "role": "listener"
       }
     ],
@@ -143,43 +143,43 @@
       {
         "player": "alice",
         "text": "Kneeling with both triangle arms out strectched",
-        "time": 1.34153312108266,
+        "time": 0.6151216045063042,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Triangle on back?",
-        "time": 0.5207022466783912,
+        "time": 0.6476087029616798,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 0.6281597592893097,
+        "time": 0.7017964046246036,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "one arm facing left one arm facing right?",
-        "time": 0.5314950180311395,
+        "time": 0.8195948414975427,
         "role": "listener"
       },
       {
         "player": "dave",
         "text": "Thick leg?",
-        "time": 1.2271621720113075,
+        "time": 0.9832203465965975,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "its the princess dance with a dress one leg out and two triangles one left one right",
-        "time": 0.8357503399550732,
+        "time": 0.6125275188837707,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes, triangle at the legs",
-        "time": 1.3535696964620505,
+        "time": 0.6385540254298249,
         "role": "speaker"
       }
     ],
@@ -199,7 +199,7 @@
       {
         "player": "bob",
         "text": "princess dance",
-        "time": 1.0772107355274128,
+        "time": 0.7566523674721668,
         "role": "speaker"
       }
     ],

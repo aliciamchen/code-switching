@@ -9,7 +9,7 @@
       {
         "player": "alice",
         "text": "sitting down, facing right, with the hat thing on its head",
-        "time": 1.1997240866887624,
+        "time": 0.976477891646703,
         "role": "speaker"
       }
     ],
@@ -29,13 +29,13 @@
       {
         "player": "bob",
         "text": "The crazy hat person lol.",
-        "time": 0.6874892412472012,
+        "time": 0.6133115545517603,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "haha",
-        "time": 0.9617846999990263,
+        "time": 0.9064235387393946,
         "role": "listener"
       }
     ],
@@ -55,7 +55,7 @@
       {
         "player": "carol",
         "text": "weird hat one",
-        "time": 0.6091046880992564,
+        "time": 0.6377558217434461,
         "role": "speaker"
       }
     ],
@@ -75,7 +75,7 @@
       {
         "player": "dave",
         "text": "funny hat one",
-        "time": 1.0367079912871704,
+        "time": 0.9158024405666673,
         "role": "speaker"
       }
     ],
@@ -95,7 +95,7 @@
       {
         "player": "alice",
         "text": "crazy hat guy!",
-        "time": 1.2229231618257792,
+        "time": 0.7598844952450056,
         "role": "speaker"
       }
     ],
@@ -115,7 +115,7 @@
       {
         "player": "bob",
         "text": "Crazy hat person",
-        "time": 0.5416729191221986,
+        "time": 0.8224481149516233,
         "role": "speaker"
       }
     ],

@@ -9,25 +9,25 @@
       {
         "player": "alice",
         "text": "it looks like a fat man sticking his arm out for a bus",
-        "time": 0.9590395785991714,
+        "time": 0.815734150100582,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "is the left side entirely flat?",
-        "time": 0.8111441047920661,
+        "time": 0.918417785586399,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 1.129353135358496,
+        "time": 0.762667377839173,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Diamond head?",
-        "time": 1.3558541881553017,
+        "time": 0.9133622818369509,
         "role": "listener"
       }
     ],
@@ -47,19 +47,19 @@
       {
         "player": "bob",
         "text": "man standing with arms extended on right",
-        "time": 1.0101956502197043,
+        "time": 0.6036542006810454,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "left and bottom sides flat",
-        "time": 0.7314280535871355,
+        "time": 0.6541409258720534,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "feet sticking out on right side",
-        "time": 1.2757386834821194,
+        "time": 0.780549133094186,
         "role": "speaker"
       }
     ],
@@ -79,55 +79,55 @@
       {
         "player": "alice",
         "text": "minu you are the speaker now",
-        "time": 0.6512155592971166,
+        "time": 0.8404746023775971,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "Flat side and bottom guy, one foot and one hand point right",
-        "time": 0.7829277005106345,
+        "time": 0.8522809389490564,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Diamond head",
-        "time": 1.3596569620666017,
+        "time": 0.7069507799490623,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "feet pointing left?",
-        "time": 0.9918407992342927,
+        "time": 0.9846271540106916,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "One foot points right no left foot sjowing",
-        "time": 1.4424245997130358,
+        "time": 0.9299888582293243,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Flat shoilders",
-        "time": 1.2244360102323908,
+        "time": 0.9791840386491538,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "does he look like he's holding a pot?",
-        "time": 1.2360436940882131,
+        "time": 0.9662130777890522,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "No",
-        "time": 1.2331050790992284,
+        "time": 0.633789821295894,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "Looks like a fat guy calling a bus",
-        "time": 1.3613979467363342,
+        "time": 0.7934418993103107,
         "role": "speaker"
       }
     ],
@@ -147,19 +147,19 @@
       {
         "player": "dave",
         "text": "fat man hailing a taxi",
-        "time": 0.5135566621617998,
+        "time": 0.980037741902941,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "flat on the left side",
-        "time": 1.3695966819508085,
+        "time": 0.9987298026400169,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "one foot",
-        "time": 0.567766185770535,
+        "time": 0.7164820963298538,
         "role": "speaker"
       }
     ],
@@ -179,7 +179,7 @@
       {
         "player": "alice",
         "text": "fat guy waiting for a bus",
-        "time": 0.920559826993609,
+        "time": 0.8119126078927632,
         "role": "speaker"
       }
     ],
@@ -199,7 +199,7 @@
       {
         "player": "bob",
         "text": "fat man hailing cab",
-        "time": 0.7066910713352605,
+        "time": 0.7318557367900901,
         "role": "speaker"
       }
     ],

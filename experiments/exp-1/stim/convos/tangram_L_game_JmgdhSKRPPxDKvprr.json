@@ -9,73 +9,73 @@
       {
         "player": "alice",
         "text": "s shape body",
-        "time": 1.1501301114539146,
+        "time": 0.7680779475327338,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "squatting position",
-        "time": 1.1026959810849708,
+        "time": 0.7567399214521164,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "diamond shaped head?",
-        "time": 0.802674406491144,
+        "time": 0.685834502648299,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "no feet",
-        "time": 1.469141533444413,
+        "time": 0.6267072929166914,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "facing to the right?",
-        "time": 0.6903816676964886,
+        "time": 0.75095967092691,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes diamond",
-        "time": 0.5943563144454974,
+        "time": 0.9692743210381201,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "knees bending?",
-        "time": 1.4433444281962162,
+        "time": 0.6388248337340034,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 1.2871265140174728,
+        "time": 0.7402263045955814,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "arms to the right",
-        "time": 0.5269977597663364,
+        "time": 0.8298721848740817,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "straight back?",
-        "time": 0.6193104445646688,
+        "time": 0.9131413703601818,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "bent knees",
-        "time": 0.6485242553592004,
+        "time": 0.6241392015361321,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "gap behind knees",
-        "time": 0.5568310276538482,
+        "time": 0.7727029061878554,
         "role": "speaker"
       }
     ],
@@ -95,7 +95,7 @@
       {
         "player": "bob",
         "text": "upright diamond head, facing right. knees bent, can't see feet, looks like just one arm facing right. body is \"S\" shaped",
-        "time": 1.349930648819921,
+        "time": 0.8466642179258119,
         "role": "speaker"
       }
     ],
@@ -115,7 +115,7 @@
       {
         "player": "carol",
         "text": "facing right, bending knees, 's' shaped arms, body and legs",
-        "time": 0.8995685535412812,
+        "time": 0.6017049924376857,
         "role": "speaker"
       }
     ],
@@ -135,13 +135,13 @@
       {
         "player": "dave",
         "text": "s shape",
-        "time": 1.2273173806528437,
+        "time": 0.6194188019730376,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "facing right",
-        "time": 1.291317930685163,
+        "time": 0.7243869060393864,
         "role": "speaker"
       }
     ],
@@ -161,37 +161,37 @@
       {
         "player": "alice",
         "text": "Not the praying position",
-        "time": 0.6799585011770437,
+        "time": 0.9777681049883107,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "squatting with no feet visible",
-        "time": 1.4152591546370359,
+        "time": 0.7257024463568864,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "s shaped?",
-        "time": 1.4616516388012082,
+        "time": 0.7336646746702546,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "S shape",
-        "time": 1.0875876429116071,
+        "time": 0.8339445969411088,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "arm pointed right?",
-        "time": 0.8615913087288145,
+        "time": 0.627405405625521,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "Yes",
-        "time": 0.9649882320851484,
+        "time": 0.9958668518725702,
         "role": "speaker"
       }
     ],
@@ -211,7 +211,7 @@
       {
         "player": "bob",
         "text": "\"S\" shaped guy",
-        "time": 1.360653111689773,
+        "time": 0.7007926706641654,
         "role": "speaker"
       }
     ],

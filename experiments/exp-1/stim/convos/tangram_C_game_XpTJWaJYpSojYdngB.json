@@ -9,43 +9,43 @@
       {
         "player": "alice",
         "text": "This guy looks like he is falling BACKWARDS.",
-        "time": 0.894685585001892,
+        "time": 0.7867901595785429,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "hands in the air",
-        "time": 0.8037081711395689,
+        "time": 0.8534262485633368,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "no legs?",
-        "time": 0.6477041817135135,
+        "time": 0.7803317906495829,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "His two arms are obviously flanking BOTH sides of his flailing body.",
-        "time": 1.334201062673984,
+        "time": 0.6067996232508968,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "no legs, right?",
-        "time": 1.199624200816178,
+        "time": 0.8271609110701105,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "His body looks like a parallelogram here.",
-        "time": 1.028589773253345,
+        "time": 0.8052480670043289,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "YUP. No legs are visible in this pic.",
-        "time": 1.057013914828639,
+        "time": 0.7897466590045412,
         "role": "speaker"
       }
     ],
@@ -65,37 +65,37 @@
       {
         "player": "alice",
         "text": "Yay.",
-        "time": 1.1237669804523767,
+        "time": 0.9078415640231223,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "In this one he looks like he is falling",
-        "time": 0.854840245034734,
+        "time": 0.8233544950109425,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "backwarsd",
-        "time": 0.7458657674239235,
+        "time": 0.8338168906365004,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "yes",
-        "time": 0.5155949028976674,
+        "time": 0.6134598047959496,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "Two arms on either side.",
-        "time": 1.0105084657079841,
+        "time": 0.62663676803595,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "one hand right behinds his head",
-        "time": 0.5950851609505629,
+        "time": 0.8503815502397027,
         "role": "speaker"
       }
     ],
@@ -115,13 +115,13 @@
       {
         "player": "carol",
         "text": "falling backwards",
-        "time": 1.3468812090357667,
+        "time": 0.7671921494580707,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "hands in the air",
-        "time": 0.6823320303351703,
+        "time": 0.7614265130635243,
         "role": "speaker"
       }
     ],
@@ -141,7 +141,7 @@
       {
         "player": "dave",
         "text": "falling guy!",
-        "time": 0.8406786401400397,
+        "time": 0.6893847292048103,
         "role": "speaker"
       }
     ],
@@ -161,7 +161,7 @@
       {
         "player": "alice",
         "text": "Falling guy",
-        "time": 0.7984715661655818,
+        "time": 0.8126765964493031,
         "role": "speaker"
       }
     ],
@@ -181,7 +181,7 @@
       {
         "player": "bob",
         "text": "falling man",
-        "time": 1.059794194636844,
+        "time": 0.6534531865043889,
         "role": "speaker"
       }
     ],

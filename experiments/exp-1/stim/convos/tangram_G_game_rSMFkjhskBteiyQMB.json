@@ -9,19 +9,19 @@
       {
         "player": "alice",
         "text": "This one has a square on the left ( ear 1 ) and a 4 sided shape on the right (ear 2) it then has another shape that looks like a rectangle going down.",
-        "time": 1.2825975834394399,
+        "time": 0.8349159660930086,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "it connects to a bigger 4 sided shape at the bottom (trapezium?) with a smaller triangle on the right hand side",
-        "time": 1.0573423073800106,
+        "time": 0.6989192847946597,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "kind of looks like a dog to me",
-        "time": 1.3825830665117746,
+        "time": 0.9489222215397581,
         "role": "speaker"
       }
     ],
@@ -41,13 +41,13 @@
       {
         "player": "bob",
         "text": "looks like a dog, at the top theres a square at the left and a triangle on the right. they are connected to another triangle",
-        "time": 1.4133957589754935,
+        "time": 0.9840899428379389,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "the 3 shapes are connected to a rectangle, connecting to the triangle and a parallelogram",
-        "time": 0.6960398381806986,
+        "time": 0.8428419270456347,
         "role": "speaker"
       }
     ],
@@ -67,43 +67,43 @@
       {
         "player": "carol",
         "text": "the one that looks like its doing the lunge exercise",
-        "time": 0.7790713752243196,
+        "time": 0.8218872105317306,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "with arms up",
-        "time": 0.5530855606997622,
+        "time": 0.7797551207112774,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "one leg back",
-        "time": 0.6441073225458374,
+        "time": 0.7572923613923352,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "that looks like a dog from a different angle?",
-        "time": 0.8985711623785986,
+        "time": 0.9132511576656716,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "the one that looks like a dog?",
-        "time": 1.4390547602514117,
+        "time": 0.8096977366864878,
         "role": "listener"
       },
       {
         "player": "carol",
         "text": "one foot in front on the right",
-        "time": 1.0428003148826117,
+        "time": 0.7395433100872646,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "yeah",
-        "time": 1.4526987635704423,
+        "time": 0.8030455424572006,
         "role": "speaker"
       }
     ],
@@ -123,7 +123,7 @@
       {
         "player": "dave",
         "text": "the one that looks like a dog",
-        "time": 0.9027573111953311,
+        "time": 0.6324549625097909,
         "role": "speaker"
       }
     ],
@@ -143,7 +143,7 @@
       {
         "player": "alice",
         "text": "dog",
-        "time": 0.606581079824279,
+        "time": 0.7222501774172092,
         "role": "speaker"
       }
     ],
@@ -163,7 +163,7 @@
       {
         "player": "bob",
         "text": "dog",
-        "time": 1.0677988729356,
+        "time": 0.6790905705891317,
         "role": "speaker"
       }
     ],

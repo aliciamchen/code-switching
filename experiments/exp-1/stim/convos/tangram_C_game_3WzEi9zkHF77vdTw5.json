@@ -9,61 +9,61 @@
       {
         "player": "alice",
         "text": "its like an angel flying",
-        "time": 0.5039373969503133,
+        "time": 0.6038536338127602,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "its like a rhombus with diamond in the top corners and a diamond for the head",
-        "time": 0.6263041971743061,
+        "time": 0.8489128408013562,
         "role": "speaker"
       },
       {
         "player": "alice",
         "text": "so it looks like a guy with wings",
-        "time": 1.1868745630373405,
+        "time": 0.8439455622375023,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "square body with two arms out?",
-        "time": 1.3508764170525165,
+        "time": 0.874575432259936,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "no like its leaning left",
-        "time": 1.298259187363434,
+        "time": 0.6357175003240959,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "are the arms up to the side of the head, or below",
-        "time": 1.4190582057273815,
+        "time": 0.6592565875014532,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "above",
-        "time": 1.4336848279249756,
+        "time": 0.7739591981212022,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "ace",
-        "time": 1.0275259970788577,
+        "time": 0.7330971028699784,
         "role": "listener"
       },
       {
         "player": "bob",
         "text": "the guy is tilted to the left?",
-        "time": 0.9422828932497957,
+        "time": 0.723989488799808,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yep",
-        "time": 0.6157756658933978,
+        "time": 0.9967124290722316,
         "role": "speaker"
       }
     ],
@@ -83,19 +83,19 @@
       {
         "player": "bob",
         "text": "The person looks like he is falling backwards",
-        "time": 1.1242929616912698,
+        "time": 0.9029666379647713,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "he is tilted to the left",
-        "time": 1.1400081230017722,
+        "time": 0.8108264217279387,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "his arms are above his head",
-        "time": 1.1918609791226888,
+        "time": 0.9574182724525759,
         "role": "speaker"
       }
     ],
@@ -115,13 +115,13 @@
       {
         "player": "carol",
         "text": "looks like someone falling with arms above head",
-        "time": 1.1524990565487105,
+        "time": 0.6317118105804509,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "falling backwards to the left",
-        "time": 1.46597205478726,
+        "time": 0.7491566758953364,
         "role": "speaker"
       }
     ],
@@ -141,7 +141,7 @@
       {
         "player": "dave",
         "text": "falling back to the left",
-        "time": 1.0843522316824354,
+        "time": 0.9233510976181419,
         "role": "speaker"
       }
     ],
@@ -161,7 +161,7 @@
       {
         "player": "alice",
         "text": "falling left",
-        "time": 0.8540417206561634,
+        "time": 0.7775299473645982,
         "role": "speaker"
       }
     ],
@@ -181,13 +181,13 @@
       {
         "player": "bob",
         "text": "guy falling to the left",
-        "time": 1.277441774617408,
+        "time": 0.6843147383458504,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "team thriller box priest is so good at this now",
-        "time": 1.044536391954777,
+        "time": 0.7617384361943831,
         "role": "listener"
       }
     ],

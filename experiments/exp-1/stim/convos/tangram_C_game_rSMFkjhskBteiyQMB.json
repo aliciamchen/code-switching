@@ -9,19 +9,19 @@
       {
         "player": "alice",
         "text": "This looks like a person with their arms raised up",
-        "time": 1.0605727021824385,
+        "time": 0.9732803672711761,
         "role": "speaker"
       },
       {
         "player": "carol",
         "text": "like its going in for a hug?",
-        "time": 1.19973176650275,
+        "time": 0.8341001130721142,
         "role": "listener"
       },
       {
         "player": "alice",
         "text": "yes",
-        "time": 0.9289199254838706,
+        "time": 0.9958000142354843,
         "role": "speaker"
       }
     ],
@@ -41,13 +41,13 @@
       {
         "player": "bob",
         "text": "flailing arm, hugging",
-        "time": 0.8266757326248585,
+        "time": 0.6789323149857333,
         "role": "speaker"
       },
       {
         "player": "bob",
         "text": "2 arms up",
-        "time": 0.696218491401792,
+        "time": 0.7450726800611318,
         "role": "speaker"
       }
     ],
@@ -67,7 +67,7 @@
       {
         "player": "carol",
         "text": "the one that wants a hug",
-        "time": 0.9279214683595258,
+        "time": 0.9673006432866452,
         "role": "speaker"
       }
     ],
@@ -87,13 +87,13 @@
       {
         "player": "dave",
         "text": "man going in for hug",
-        "time": 0.6430379438426708,
+        "time": 0.7367119650080194,
         "role": "speaker"
       },
       {
         "player": "dave",
         "text": "both arms open wide",
-        "time": 0.6109764326185276,
+        "time": 0.7058012223147453,
         "role": "speaker"
       }
     ],
@@ -113,7 +113,7 @@
       {
         "player": "alice",
         "text": "person trying to hug",
-        "time": 0.9995259581352217,
+        "time": 0.7004726738461114,
         "role": "speaker"
       }
     ],
@@ -133,7 +133,7 @@
       {
         "player": "bob",
         "text": "hug",
-        "time": 0.904709779818052,
+        "time": 0.918880501953456,
         "role": "speaker"
       }
     ],
