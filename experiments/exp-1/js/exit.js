@@ -16,24 +16,13 @@ async function createExit(jsPsych) {
     };
     exit.push(exit_survey);
 
-    /* Save stuff */
-    function save_data_json(name, data) {
-      var xhr = new XMLHttpRequest();
-      xhr.open("POST", "php/save_data.php");
-      xhr.setRequestHeader("Content-Type", "application/json");
-      xhr.send(JSON.stringify({ filename: name, filedata: data }));
-    }
 
     const save_data = {
-      type: jsPsychCallFunction,
-      func: function () {
-        save_data_json(subject_id + "_output_all", jsPsych.data.get().json());
-        save_data_json(
-          subject_id + "_output_responses",
-          jsPsych.data.get().filter({ type: "response" }).json()
-        );
-      },
-      timing_post_trial: 0,
+      type: jsPsychPipe,
+      action: "save",
+      experiment_id: "ZycTOU10DI0v",
+      filename: `item-${item_id}_id-${participant_id}_${subject_id}.json`,
+      data_string: () => jsPsych.data.get().json(),
     };
 
     if (!local_testing) {
