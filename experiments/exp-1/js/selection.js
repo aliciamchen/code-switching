@@ -66,16 +66,6 @@ function createSelectionTrial(trial, jsPsych) {
                  }.png" style="width: 150px;" />
                  <p>${trial[choice]?.label || "default"}</p>
              </div>`,
-      on_load: function () {
-        document.querySelectorAll(".tangram").forEach((tangram) => {
-          tangram.addEventListener("mouseover", function () {
-            tangram.style.outline = "5px solid gray";
-          });
-          tangram.addEventListener("mouseout", function () {
-            tangram.style.outline = "";
-          });
-        });
-      },
       data: {
         trialInfo: trial,
         task: "selection",

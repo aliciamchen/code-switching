@@ -23,3 +23,7 @@
 .video-container {
   justify-content: center;
 }
+
+.tangram:hover {
+  outline: 5px solid gray;
+}
