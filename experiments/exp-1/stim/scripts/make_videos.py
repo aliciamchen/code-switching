@@ -12,30 +12,30 @@ TEXT_FONT = "Arial"
 CHAT_BACKGROUND_WIDTH = 6.6
 CHAT_BACKGROUND_HEIGHT = 7.05
 BLACK_RECTANGLE_HEIGHT = 2
-AVATAR_SCALE = 0.3
+AVATAR_SCALE = 0.75
 AVATAR_BUFF = 0.1
 CHAT_LABEL_SCALE = 0.5
 CHAT_LABEL_BUFF = 0.12
 BUBBLE_SHIFT = 0.3
 TARGET_BOX_STROKE_WIDTH = 10
-AVATAR_IMAGE_SCALE = 0.2
-AVATAR_POSITION_OFFSET = 0.22
-AVATAR_STACK_OFFSET = 0.4
+AVATAR_IMAGE_SCALE = 0.5
+AVATAR_POSITION_OFFSET = 0.26
+AVATAR_STACK_OFFSET = 0.5
 CORRECT_GUESSES_TEXT_SCALE = 0.5
 CORRECT_GUESSES_TEXT_BUFF = 0.4
 
 avatar_mappings = {
     "red": {
-        "alice": "../identicons/red/alexandra.png",
-        "bob": "../identicons/red/cole.png",
-        "carol": "../identicons/red/kaylee.png",
-        "dave": "../identicons/red/noah.png",
+        "alice": "../identicons/red/HT.png",
+        "bob": "../identicons/red/JW.png",
+        "carol": "../identicons/red/MZ.png",
+        "dave": "../identicons/red/RS.png",
     },
     "blue": {
-        "alice": "../identicons/blue/aria.png",
-        "bob": "../identicons/blue/katherine.png",
-        "carol": "../identicons/blue/kayla.png",
-        "dave": "../identicons/blue/oliver.png",
+        "alice": "../identicons/blue/AB.png",
+        "bob": "../identicons/blue/LO.png",
+        "carol": "../identicons/blue/PE.png",
+        "dave": "../identicons/blue/WI.png",
     },
 }
 
@@ -209,6 +209,8 @@ class ChatAnimation(Scene):
 
         avatar_positions = {}
         correct_guesses = 0
+
+        self.wait(0.5)
 
         for player, tangram in chosen_tangrams.items():
 

@@ -14,7 +14,7 @@ async function makeTrials(item_id, participant_id, jsPsych) {
     const consent = await createConsent();
     timeline.push(consent);
 
-    // comprehension check loop
+    // instructions + comprehension check loop
     const comprehensionLoop = await createComprehensionLoop(jsPsych);
     timeline.push(comprehensionLoop);
 

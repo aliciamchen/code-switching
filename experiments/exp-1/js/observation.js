@@ -34,9 +34,9 @@ async function createVideoTrials(item_id, jsPsych) {
         // randomize the order of the tangrams
         const prep_trial = {
           type: jsPsychHtmlButtonResponse,
-          stimulus: `<h1 style="color: ${color}">${
+          stimulus: `<h1><span style="color: ${color}">${
             color.charAt(0).toUpperCase() + color.slice(1)
-          } group</h1>
+          }</span> group</h1>
           <h2>Round ${repNum + 1}</h2>`,
           choices: ["Continue"],
         };
@@ -53,9 +53,15 @@ async function createVideoTrials(item_id, jsPsych) {
             ],
             width: 800,
             choices: ["Continue"],
-            prompt: "<p>Please press continue when you are finished.</p>",
+            prompt: `
+            <h2><span style="color: ${color}">${
+              color.charAt(0).toUpperCase() + color.slice(1)
+            }</span> group</h2>
+            <h3>Round ${repNum + 1}</h3>
+            <p>Please press continue when you are finished.</p>
+            `,
             controls: true,
-            autoplay: false,
+            autoplay: true,
             response_allowed_while_playing: false,
           };
           video_trials.push(video_trial);
