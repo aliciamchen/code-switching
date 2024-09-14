@@ -79,10 +79,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -94,74 +94,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -172,6 +104,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -181,10 +181,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -198,10 +198,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -285,10 +285,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -300,74 +300,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -378,6 +310,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -387,10 +387,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -404,10 +404,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -491,74 +491,6 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -570,10 +502,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "J",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "fat guy"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -587,10 +519,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "J",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "fat guy"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -604,16 +536,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "J",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "fat guy"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -697,74 +697,6 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -776,10 +708,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "J",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "fat guy"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -793,10 +725,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "J",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "fat guy"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -810,16 +742,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "J",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "fat guy"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -903,10 +903,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -918,74 +918,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -996,6 +928,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -1005,10 +1005,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -1022,10 +1022,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -1109,10 +1109,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -1124,74 +1124,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -1202,6 +1134,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -1211,10 +1211,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -1228,10 +1228,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -1315,10 +1315,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -1330,74 +1330,6 @@
         "shared": "shared",
         "group": "red",
         "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -1408,6 +1340,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -1417,10 +1417,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -1434,10 +1434,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -1521,10 +1521,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -1536,74 +1536,6 @@
         "shared": "shared",
         "group": "red",
         "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -1614,6 +1546,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -1623,10 +1623,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -1640,10 +1640,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -1727,74 +1727,6 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -1806,10 +1738,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "I",
+        "tangram": "J",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -1823,10 +1755,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "J",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -1840,16 +1772,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "J",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -1933,74 +1933,6 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -2012,10 +1944,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "I",
+        "tangram": "J",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -2029,10 +1961,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "J",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -2046,16 +1978,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "J",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -2139,10 +2139,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -2154,74 +2154,6 @@
         "shared": "shared",
         "group": "red",
         "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -2232,6 +2164,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -2241,10 +2241,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -2258,10 +2258,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -2345,10 +2345,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -2360,74 +2360,6 @@
         "shared": "shared",
         "group": "red",
         "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -2438,6 +2370,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -2447,10 +2447,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -2464,10 +2464,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -2551,10 +2551,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -2566,74 +2566,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -2644,6 +2576,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -2653,10 +2653,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -2670,10 +2670,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -2757,10 +2757,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -2772,74 +2772,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -2850,6 +2782,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -2859,10 +2859,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -2876,10 +2876,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -2963,74 +2963,6 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -3042,10 +2974,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "J",
+        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "fat guy"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -3059,10 +2991,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "J",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "fat guy"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -3076,16 +3008,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "J",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "fat guy"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -3169,74 +3169,6 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -3248,10 +3180,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "J",
+        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "fat guy"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -3265,10 +3197,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "J",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "fat guy"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -3282,16 +3214,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "J",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "fat guy"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -3375,10 +3375,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -3390,74 +3390,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -3468,6 +3400,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -3477,10 +3477,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -3494,10 +3494,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -3581,10 +3581,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -3596,74 +3596,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -3674,6 +3606,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "red",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -3683,10 +3683,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -3700,10 +3700,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -3787,10 +3787,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -3802,74 +3802,6 @@
         "shared": "shared",
         "group": "red",
         "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -3880,6 +3812,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -3889,10 +3889,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -3906,10 +3906,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -3993,10 +3993,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -4008,74 +4008,6 @@
         "shared": "shared",
         "group": "red",
         "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -4086,6 +4018,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -4095,10 +4095,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -4112,10 +4112,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -4199,74 +4199,6 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -4278,10 +4210,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "F",
+        "tangram": "J",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -4295,10 +4227,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "J",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -4312,16 +4244,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "J",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -4405,74 +4405,6 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "red",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -4484,10 +4416,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "F",
+        "tangram": "J",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -4501,10 +4433,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "J",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
@@ -4518,16 +4450,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "J",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "fat guy"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -4611,10 +4611,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -4626,74 +4626,6 @@
         "shared": "shared",
         "group": "red",
         "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -4704,6 +4636,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -4713,10 +4713,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -4730,10 +4730,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -4817,10 +4817,10 @@
         "label": "fat guy"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -4832,74 +4832,6 @@
         "shared": "shared",
         "group": "red",
         "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "J",
-        "shared": "shared",
-        "group": "blue",
-        "label": "fat guy"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -4910,6 +4842,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -4919,10 +4919,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -4936,10 +4936,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -5023,10 +5023,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -5038,74 +5038,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -5116,6 +5048,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -5125,10 +5125,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -5142,10 +5142,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -5229,10 +5229,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -5244,74 +5244,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -5322,6 +5254,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -5331,10 +5331,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -5348,10 +5348,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -5435,74 +5435,6 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -5514,10 +5446,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -5531,10 +5463,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -5548,16 +5480,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -5641,74 +5641,6 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -5720,10 +5652,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -5737,10 +5669,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -5754,16 +5686,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -5847,10 +5847,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -5862,74 +5862,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -5940,6 +5872,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -5949,10 +5949,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -5966,10 +5966,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -6053,10 +6053,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -6068,74 +6068,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -6146,6 +6078,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -6155,10 +6155,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -6172,10 +6172,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -6259,10 +6259,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -6274,74 +6274,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -6352,6 +6284,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -6361,10 +6361,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -6378,10 +6378,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -6465,10 +6465,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -6480,74 +6480,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -6558,6 +6490,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -6567,10 +6567,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -6584,10 +6584,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -6671,74 +6671,6 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -6750,10 +6682,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -6767,10 +6699,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -6784,16 +6716,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -6877,74 +6877,6 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -6956,10 +6888,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -6973,10 +6905,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -6990,16 +6922,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "blue",
+        "label": "strike a pose"
       }
     }
   ],
@@ -7083,10 +7083,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -7098,74 +7098,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -7176,6 +7108,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -7185,10 +7185,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -7202,10 +7202,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ],
@@ -7289,10 +7289,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "G",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "horse"
+        "label": "the man with a box"
       }
     },
     {
@@ -7304,74 +7304,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "red",
-        "label": "horse"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "G",
-        "shared": "unique",
-        "group": "blue",
-        "label": "strike a pose"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "the man with a box"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -7382,6 +7314,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "draped clothing"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "G",
+        "shared": "unique",
+        "group": "red",
+        "label": "horse"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -7391,10 +7391,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     },
     {
@@ -7408,10 +7408,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "strike a pose"
       }
     }
   ]

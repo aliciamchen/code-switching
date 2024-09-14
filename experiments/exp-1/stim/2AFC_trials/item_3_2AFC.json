@@ -5,2478 +5,6 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
         "tangram": "L",
         "shared": "shared",
         "group": "red",
@@ -4949,6 +2477,3714 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "italian"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      "unique": {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "shrug"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "red",
+        "label": "ballerina"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      "unique": {
+        "tangram": "I",
+        "shared": "unique",
+        "group": "blue",
+        "label": "yoga guy"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "red",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "windmill"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      "unique": {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    }
+  ],
+  [
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
         "tangram": "A",
         "shared": "shared",
         "group": "red",
@@ -6170,1242 +7406,6 @@
         "shared": "shared",
         "group": "blue",
         "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "italian"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "red",
-        "label": "ballerina"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      "unique": {
-        "tangram": "I",
-        "shared": "unique",
-        "group": "blue",
-        "label": "yoga guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "windmill"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
       },
       "unique": {
         "tangram": "E",

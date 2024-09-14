@@ -11,74 +11,6 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -90,10 +22,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -107,10 +39,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -124,16 +56,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -217,10 +217,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -232,74 +232,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -310,6 +242,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -319,10 +319,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -336,10 +336,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -423,10 +423,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -438,74 +438,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -516,6 +448,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -525,10 +525,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -542,10 +542,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -629,10 +629,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -644,74 +644,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -722,6 +654,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -731,10 +731,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -748,10 +748,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -835,10 +835,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -850,74 +850,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -928,6 +860,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -937,10 +937,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -954,10 +954,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -1041,74 +1041,6 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -1120,10 +1052,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -1137,10 +1069,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -1154,16 +1086,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -1247,74 +1247,6 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -1326,10 +1258,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "G",
+        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -1343,10 +1275,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "G",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -1360,16 +1292,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "G",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -1453,10 +1453,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -1468,74 +1468,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -1546,6 +1478,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -1555,10 +1555,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -1572,10 +1572,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -1659,10 +1659,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -1674,74 +1674,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -1752,6 +1684,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -1761,10 +1761,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -1778,10 +1778,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -1865,10 +1865,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -1880,74 +1880,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -1958,6 +1890,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -1967,10 +1967,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -1984,10 +1984,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -2071,10 +2071,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -2086,74 +2086,6 @@
         "shared": "shared",
         "group": "red",
         "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -2164,6 +2096,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -2173,10 +2173,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -2190,10 +2190,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -2277,74 +2277,6 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -2356,10 +2288,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "G",
+        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -2373,10 +2305,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "G",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -2390,16 +2322,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "G",
+        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "sad"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -2483,74 +2483,6 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -2562,10 +2494,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -2579,10 +2511,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -2596,16 +2528,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -2689,10 +2689,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -2704,74 +2704,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -2782,6 +2714,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -2791,10 +2791,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -2808,10 +2808,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -2895,10 +2895,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -2910,74 +2910,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -2988,6 +2920,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -2997,10 +2997,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -3014,10 +3014,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -3101,10 +3101,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -3116,74 +3116,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -3194,6 +3126,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -3203,10 +3203,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -3220,10 +3220,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -3307,10 +3307,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -3322,74 +3322,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -3400,6 +3332,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -3409,10 +3409,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -3426,10 +3426,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -3513,74 +3513,6 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -3592,10 +3524,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -3609,10 +3541,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -3626,16 +3558,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -3719,74 +3719,6 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -3798,10 +3730,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "G",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -3815,10 +3747,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "G",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -3832,16 +3764,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "G",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -3925,10 +3925,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -3940,74 +3940,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -4018,6 +3950,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -4027,10 +4027,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -4044,10 +4044,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -4131,10 +4131,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -4146,74 +4146,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -4224,6 +4156,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -4233,10 +4233,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -4250,10 +4250,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -4337,10 +4337,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -4352,74 +4352,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -4430,6 +4362,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -4439,10 +4439,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -4456,10 +4456,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -4543,10 +4543,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -4558,74 +4558,6 @@
         "shared": "shared",
         "group": "red",
         "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -4636,6 +4568,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -4645,10 +4645,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -4662,10 +4662,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -4749,74 +4749,6 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -4828,10 +4760,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "G",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -4845,10 +4777,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "G",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -4862,16 +4794,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "G",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -4955,74 +4955,6 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -5034,10 +4966,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "F",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -5051,10 +4983,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -5068,16 +5000,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -5161,10 +5161,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -5176,74 +5176,6 @@
         "shared": "shared",
         "group": "red",
         "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -5254,6 +5186,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -5263,10 +5263,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -5280,10 +5280,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -5367,10 +5367,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -5382,74 +5382,6 @@
         "shared": "shared",
         "group": "red",
         "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -5460,6 +5392,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -5469,10 +5469,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -5486,10 +5486,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -5573,10 +5573,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -5588,74 +5588,6 @@
         "shared": "shared",
         "group": "red",
         "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -5666,6 +5598,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -5675,10 +5675,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -5692,10 +5692,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -5779,10 +5779,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -5794,74 +5794,6 @@
         "shared": "shared",
         "group": "red",
         "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
       },
       "unique": {
         "tangram": "D",
@@ -5872,6 +5804,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -5881,10 +5881,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -5898,10 +5898,10 @@
         "label": "sad"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -5985,74 +5985,6 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -6064,10 +5996,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "F",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -6081,10 +6013,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -6098,16 +6030,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "F",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "red",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -6191,74 +6191,6 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -6270,10 +6202,10 @@
       "audience": "one",
       "audience_group": "red",
       "shared": {
-        "tangram": "I",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -6287,10 +6219,10 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -6304,16 +6236,84 @@
       "audience": "both",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {
@@ -6397,10 +6397,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -6412,74 +6412,6 @@
         "shared": "shared",
         "group": "red",
         "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -6490,6 +6422,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -6499,10 +6499,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -6516,10 +6516,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -6603,10 +6603,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -6618,74 +6618,6 @@
         "shared": "shared",
         "group": "red",
         "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -6696,6 +6628,74 @@
     },
     {
       "goal": "refer",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "one",
       "audience_group": "blue",
       "shared": {
@@ -6705,10 +6705,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -6722,10 +6722,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -6809,10 +6809,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -6824,74 +6824,6 @@
         "shared": "shared",
         "group": "red",
         "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -6902,6 +6834,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -6911,10 +6911,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -6928,10 +6928,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -7015,10 +7015,10 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
+        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "arms held out"
+        "label": "long sleeved book"
       }
     },
     {
@@ -7030,74 +7030,6 @@
         "shared": "shared",
         "group": "red",
         "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "long sleeved book"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
       },
       "unique": {
         "tangram": "D",
@@ -7108,6 +7040,74 @@
     },
     {
       "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      "unique": {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
       "audience": "both",
       "audience_group": "blue",
       "shared": {
@@ -7117,10 +7117,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -7134,10 +7134,10 @@
         "label": "ice skater"
       },
       "unique": {
-        "tangram": "D",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "the man with a box"
+        "label": "duck"
       }
     },
     {
@@ -7221,74 +7221,6 @@
         "label": "leg"
       },
       "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "arms held out"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
@@ -7300,10 +7232,10 @@
       "audience": "both",
       "audience_group": "red",
       "shared": {
-        "tangram": "I",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -7317,10 +7249,10 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
@@ -7334,16 +7266,84 @@
       "audience": "one",
       "audience_group": "blue",
       "shared": {
-        "tangram": "I",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "leg"
       },
       "unique": {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
         "label": "the man with a box"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "both",
+      "audience_group": "red",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "arms held out"
+      }
+    },
+    {
+      "goal": "refer",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    },
+    {
+      "goal": "social",
+      "audience": "one",
+      "audience_group": "blue",
+      "shared": {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      "unique": {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     },
     {

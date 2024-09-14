@@ -1,66 +1,66 @@
 {
-  "red": {
-    "A": {
-      "label": "zombie",
-      "shared": "shared",
-      "game": "hhTtzgf2BMCbDwG5i"
+    "red": {
+      "A": {
+        "label": "thriller",
+        "shared": "shared",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "B": {
+        "label": "mouse",
+        "shared": "unique",
+        "game": "hHoRuwi7p8k2XhzD3"
+      },
+      "C": {
+        "label": "falling guy",
+        "shared": "unique",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "D": {
+        "label": "priest",
+        "shared": "shared",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "H": {
+        "label": "baby",
+        "shared": "shared",
+        "game": "rSMFkjhskBteiyQMB"
+      },
+      "L": {
+        "label": "zigzag",
+        "shared": "unique",
+        "game": "hHoRuwi7p8k2XhzD3"
+      }
     },
-    "C": {
-      "label": "shrug",
-      "shared": "unique",
-      "game": "P8wDF8HAYYAcwBYsm"
-    },
-    "D": {
-      "label": "priest",
-      "shared": "shared",
-      "game": "3WzEi9zkHF77vdTw5"
-    },
-    "F": {
-      "label": "fetal position",
-      "shared": "unique",
-      "game": "LfuChcnEB54q8Ztys"
-    },
-    "K": {
-      "label": "on their knees",
-      "shared": "shared",
-      "game": "cA2SjWv3CePYZgyzS"
-    },
-    "L": {
-      "label": "crouching",
-      "shared": "unique",
-      "game": "XpTJWaJYpSojYdngB"
-    }
-  },
-  "blue": {
-    "A": {
-      "label": "zombie",
-      "shared": "shared",
-      "game": "hYBwiiFBSBi9ySwpJ"
-    },
-    "C": {
-      "label": "hug",
-      "shared": "unique",
-      "game": "rSMFkjhskBteiyQMB"
-    },
-    "D": {
-      "label": "priest",
-      "shared": "shared",
-      "game": "kBQMXHtyqWiM2LxL6"
-    },
-    "F": {
-      "label": "sitting man",
-      "shared": "unique",
-      "game": "cA2SjWv3CePYZgyzS"
-    },
-    "K": {
-      "label": "on their knees",
-      "shared": "shared",
-      "game": "ogPZPPCKpGn4votMa"
-    },
-    "L": {
-      "label": "squats",
-      "shared": "unique",
-      "game": "yYtSpzsEi4mnTuPrj"
+    "blue": {
+      "A": {
+        "label": "thriller",
+        "shared": "shared",
+        "game": "P8wDF8HAYYAcwBYsm"
+      },
+      "B": {
+        "label": "princess dance",
+        "shared": "unique",
+        "game": "BXWWg9XvCErxTpT9k"
+      },
+      "C": {
+        "label": "no legs",
+        "shared": "unique",
+        "game": "hHoRuwi7p8k2XhzD3"
+      },
+      "D": {
+        "label": "priest",
+        "shared": "shared",
+        "game": "ogPZPPCKpGn4votMa"
+      },
+      "H": {
+        "label": "baby",
+        "shared": "shared",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "L": {
+        "label": "bent knees",
+        "shared": "unique",
+        "game": "rSMFkjhskBteiyQMB"
+      }
     }
   }
-}

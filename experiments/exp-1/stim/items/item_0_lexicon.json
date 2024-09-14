@@ -1,74 +1,74 @@
 [
-  {
-    "tangram": "A",
-    "shared": "unique",
-    "group": "red",
-    "label": "crane kick"
-  },
-  {
-    "tangram": "A",
-    "shared": "unique",
-    "group": "blue",
-    "label": "bird man"
-  },
-  {
-    "tangram": "C",
-    "shared": "unique",
-    "group": "red",
-    "label": "hug"
-  },
-  {
-    "tangram": "C",
-    "shared": "unique",
-    "group": "blue",
-    "label": "shrug"
-  },
-  {
-    "tangram": "D",
-    "shared": "unique",
-    "group": "red",
-    "label": "wizard guy"
-  },
-  {
-    "tangram": "D",
-    "shared": "unique",
-    "group": "blue",
-    "label": "draped clothing"
-  },
-  {
-    "tangram": "E",
-    "shared": "shared",
-    "group": "red",
-    "label": "bunny ears"
-  },
-  {
-    "tangram": "E",
-    "shared": "shared",
-    "group": "blue",
-    "label": "bunny ears"
-  },
-  {
-    "tangram": "F",
-    "shared": "shared",
-    "group": "red",
-    "label": "sad"
-  },
-  {
-    "tangram": "F",
-    "shared": "shared",
-    "group": "blue",
-    "label": "sad"
-  },
-  {
-    "tangram": "G",
-    "shared": "shared",
-    "group": "red",
-    "label": "leg"
-  },
-  {
-    "tangram": "G",
-    "shared": "shared",
-    "group": "blue",
-    "label": "leg"
-  }
-]
+    {
+      "tangram": "A",
+      "shared": "unique",
+      "group": "red",
+      "label": "thriller"
+    },
+    {
+      "tangram": "A",
+      "shared": "unique",
+      "group": "blue",
+      "label": "zombie"
+    },
+    {
+      "tangram": "B",
+      "shared": "shared",
+      "group": "red",
+      "label": "mouse"
+    },
+    {
+      "tangram": "B",
+      "shared": "shared",
+      "group": "blue",
+      "label": "mouse"
+    },
+    {
+      "tangram": "C",
+      "shared": "shared",
+      "group": "red",
+      "label": "falling guy"
+    },
+    {
+      "tangram": "C",
+      "shared": "shared",
+      "group": "blue",
+      "label": "falling guy"
+    },
+    {
+      "tangram": "D",
+      "shared": "unique",
+      "group": "red",
+      "label": "priest"
+    },
+    {
+      "tangram": "D",
+      "shared": "unique",
+      "group": "blue",
+      "label": "long sleeved book"
+    },
+    {
+      "tangram": "H",
+      "shared": "unique",
+      "group": "red",
+      "label": "baby"
+    },
+    {
+      "tangram": "H",
+      "shared": "unique",
+      "group": "blue",
+      "label": "no arms"
+    },
+    {
+      "tangram": "L",
+      "shared": "shared",
+      "group": "red",
+      "label": "zigzag"
+    },
+    {
+      "tangram": "L",
+      "shared": "shared",
+      "group": "blue",
+      "label": "zigzag"
+    }
+  ]
