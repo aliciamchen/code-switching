@@ -1,16 +1,11 @@
 // Selection phase
-async function loadTrialInfo(item_id, participant_id) {
+async function loadTrialInfo(item_id) {
   const response = await fetch(`stim/2AFC_trials/item_${item_id}_2AFC.json`);
   const data = await response.json();
-  const item = data[participant_id];
-  if (!item) {
-    throw new Error(`Item with id ${item_id} not found.`);
-  }
-  return item;
+  return data;
 }
 
 function createSelectionTrial(trial, jsPsych) {
-  choice_order = jsPsych.randomization.repeat(["shared", "unique"], 1);
 
   function make_stimulus(trial) {
     if (trial.goal === "refer") {
@@ -56,26 +51,26 @@ function createSelectionTrial(trial, jsPsych) {
     {
       type: jsPsychHtmlButtonResponse,
       stimulus: make_stimulus(trial),
-      choices: choice_order,
+      choices: jsPsych.randomization.repeat(trial.options, 1),
       prompt:
         "<p>Please click on the tangram-description pair when you are ready.</p>",
       button_html: (choice) =>
         `<div style="margin: 30px; cursor: pointer;" class="tangram">
                  <img src="stim/tangrams/tangram_${
-                   trial[choice]?.tangram || "default"
+                   choice?.tangram || "default"
                  }.png" style="width: 150px;" />
-                 <p>${trial[choice]?.label || "default"}</p>
+                 <p>${choice?.label || "default"}</p>
              </div>`,
       data: {
         trialInfo: trial,
+        choices: trial.options,
         task: "selection",
         type: "response",
-        choice_order: choice_order,
         audience: trial.audience,
         audience_group: trial.audience_group,
       },
       on_finish: function (data) {
-        data.choice = data.choice_order[data.response];
+        data.choice = data.choices[data.response];
       },
     },
     {
@@ -92,9 +87,9 @@ function createSelectionTrial(trial, jsPsych) {
   ];
 }
 
-async function createSelectionTrials(item_id, participant_id, jsPsych) {
+async function createSelectionTrials(item_id, jsPsych) {
   try {
-    const trialInfo = await loadTrialInfo(item_id, participant_id);
+    const trialInfo = await loadTrialInfo(item_id);
     const selection_phase_timeline = [];
 
     const instructions_reminder = {

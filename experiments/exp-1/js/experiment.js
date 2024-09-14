@@ -35,7 +35,6 @@ jsPsych.data.addProperties({
   study_id: study_id,
   session_id: session_id,
   item_id: item_id,
-  participant_id: participant_id,
   url: window.location.href,
 });
 
