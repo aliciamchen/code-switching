@@ -1,7418 +1,962 @@
 [
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "red",
-        "label": "on their knees"
+        "label": "baby"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "fetal position"
+        "label": "mouse"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "red",
-        "label": "on their knees"
+        "label": "baby"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "fetal position"
+        "label": "mouse"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "blue",
-        "label": "on their knees"
+        "label": "baby"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "blue",
-        "label": "on their knees"
+        "label": "baby"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "baby"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "crouching"
+        "label": "zigzag"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "baby"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "crouching"
+        "label": "zigzag"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "baby"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "bent knees"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "baby"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "bent knees"
       }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "red",
-        "label": "zombie"
+        "label": "baby"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "red",
-        "label": "shrug"
+        "label": "falling guy"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "red",
-        "label": "zombie"
+        "label": "baby"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "red",
-        "label": "shrug"
+        "label": "falling guy"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "blue",
-        "label": "zombie"
+        "label": "baby"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "hug"
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "blue",
-        "label": "zombie"
+        "label": "baby"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "hug"
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
         "shared": "shared",
         "group": "red",
-        "label": "on their knees"
+        "label": "priest"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "fetal position"
+        "label": "mouse"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
         "shared": "shared",
         "group": "red",
-        "label": "on their knees"
+        "label": "priest"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "fetal position"
+        "label": "mouse"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
         "shared": "shared",
         "group": "blue",
-        "label": "on their knees"
+        "label": "priest"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
         "shared": "shared",
         "group": "blue",
-        "label": "on their knees"
+        "label": "priest"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "D",
         "shared": "shared",
         "group": "red",
         "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "crouching"
+        "label": "zigzag"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "D",
         "shared": "shared",
         "group": "red",
         "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "crouching"
+        "label": "zigzag"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "D",
         "shared": "shared",
         "group": "blue",
         "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "bent knees"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "D",
         "shared": "shared",
         "group": "blue",
         "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "bent knees"
       }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
         "shared": "shared",
         "group": "red",
-        "label": "zombie"
+        "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "red",
-        "label": "shrug"
+        "label": "falling guy"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
         "shared": "shared",
         "group": "red",
-        "label": "zombie"
+        "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "red",
-        "label": "shrug"
+        "label": "falling guy"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
         "shared": "shared",
         "group": "blue",
-        "label": "zombie"
+        "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "hug"
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
         "shared": "shared",
         "group": "blue",
-        "label": "zombie"
+        "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "hug"
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "on their knees"
+        "label": "thriller"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "fetal position"
+        "label": "mouse"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "on their knees"
+        "label": "thriller"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "fetal position"
+        "label": "mouse"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "on their knees"
+        "label": "thriller"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "on their knees"
+        "label": "thriller"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "crouching"
+        "label": "zigzag"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "crouching"
+        "label": "zigzag"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "bent knees"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "bent knees"
       }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "zombie"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "red",
-        "label": "shrug"
+        "label": "falling guy"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "zombie"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "red",
-        "label": "shrug"
+        "label": "falling guy"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "zombie"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "hug"
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "zombie"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
         "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
+        "label": "baby"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "shared",
         "group": "blue",
-        "label": "on their knees"
+        "label": "baby"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "D",
         "shared": "shared",
         "group": "red",
         "label": "priest"
       },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
+      {
         "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "D",
         "shared": "shared",
         "group": "blue",
         "label": "priest"
       },
-      "unique": {
-        "tangram": "L",
+      {
+        "tangram": "D",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "long sleeved book"
       }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "zombie"
+        "label": "thriller"
       },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
+      {
         "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
         "shared": "unique",
-        "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
         "group": "blue",
         "label": "zombie"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "zombie"
+        "label": "thriller"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
+        "label": "zombie"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
+        "label": "mouse"
       },
-      "unique": {
-        "tangram": "F",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "sitting man"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "mouse"
       },
-      "unique": {
-        "tangram": "L",
+      {
+        "tangram": "B",
         "shared": "unique",
-        "group": "red",
-        "label": "crouching"
+        "group": "blue",
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "bent knees"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "L",
         "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
         "group": "red",
-        "label": "zombie"
+        "label": "zigzag"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "L",
         "shared": "unique",
-        "group": "red",
-        "label": "shrug"
+        "group": "blue",
+        "label": "bent knees"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "red",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "hug"
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "red",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "red",
-        "label": "fetal position"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "K",
-        "shared": "shared",
-        "group": "blue",
-        "label": "on their knees"
-      },
-      "unique": {
-        "tangram": "F",
-        "shared": "unique",
-        "group": "blue",
-        "label": "sitting man"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "crouching"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      "unique": {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "squats"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
+        "label": "falling guy"
       },
-      "unique": {
-        "tangram": "L",
+      {
+        "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "squats"
+        "label": "no legs"
       }
-    }
-  ]
+    ]
+  }
 ]

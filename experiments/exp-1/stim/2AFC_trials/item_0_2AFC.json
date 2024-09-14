@@ -1,7418 +1,962 @@
 [
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "mouse"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "hug"
+        "label": "baby"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "mouse"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "hug"
+        "label": "baby"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "mouse"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "shrug"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "mouse"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "shrug"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "red",
-        "label": "bunny ears"
+        "label": "mouse"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
+        "label": "priest"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "red",
-        "label": "bunny ears"
+        "label": "mouse"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
+        "label": "priest"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "blue",
-        "label": "bunny ears"
+        "label": "mouse"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "blue",
-        "label": "bunny ears"
+        "label": "mouse"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "mouse"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "crane kick"
+        "label": "thriller"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "mouse"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "crane kick"
+        "label": "thriller"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "mouse"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
+        "label": "zombie"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "mouse"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
+        "label": "zombie"
       }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "zigzag"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "hug"
+        "label": "baby"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "zigzag"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "hug"
+        "label": "baby"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "zigzag"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "shrug"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "zigzag"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "shrug"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "red",
-        "label": "bunny ears"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
+        "label": "priest"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "red",
-        "label": "bunny ears"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
+        "label": "priest"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "blue",
-        "label": "bunny ears"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "blue",
-        "label": "bunny ears"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "crane kick"
+        "label": "thriller"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "crane kick"
+        "label": "thriller"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
+        "label": "zombie"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "zigzag"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
+        "label": "zombie"
       }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
         "shared": "shared",
         "group": "red",
-        "label": "sad"
+        "label": "falling guy"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
+        "label": "baby"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "falling guy"
       },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "crane kick"
+        "label": "baby"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "falling guy"
       },
-      "unique": {
-        "tangram": "A",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "falling guy"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "shrug"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
         "shared": "shared",
         "group": "red",
-        "label": "bunny ears"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
+        "label": "priest"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
         "group": "red",
-        "label": "bunny ears"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
+        "label": "priest"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
         "group": "blue",
-        "label": "bunny ears"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
         "group": "blue",
-        "label": "bunny ears"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "crane kick"
+        "label": "thriller"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "crane kick"
+        "label": "thriller"
       }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
+        "label": "zombie"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
+        "label": "zombie"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
         "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
+        "label": "mouse"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "shrug"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
         "shared": "shared",
         "group": "blue",
-        "label": "sad"
+        "label": "mouse"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
+        "label": "princess dance"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
+        "label": "zigzag"
       },
-      "unique": {
-        "tangram": "D",
+      {
+        "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "bent knees"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
         "shared": "shared",
         "group": "blue",
-        "label": "bunny ears"
+        "label": "zigzag"
       },
-      "unique": {
-        "tangram": "D",
+      {
+        "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
+        "label": "bent knees"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
         "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
+        "label": "falling guy"
       },
-      "unique": {
-        "tangram": "A",
+      {
+        "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
         "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
         "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
+        "label": "falling guy"
       },
-      "unique": {
+      {
         "tangram": "C",
         "shared": "unique",
-        "group": "red",
-        "label": "hug"
+        "group": "blue",
+        "label": "no legs"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
+        "label": "baby"
       },
-      "unique": {
-        "tangram": "C",
+      {
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "shrug"
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
         "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
         "group": "red",
-        "label": "bunny ears"
+        "label": "baby"
       },
-      "unique": {
-        "tangram": "D",
+      {
+        "tangram": "H",
         "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
+        "group": "blue",
+        "label": "no arms"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
+        "label": "priest"
       },
-      "unique": {
+      {
         "tangram": "D",
         "shared": "unique",
         "group": "blue",
-        "label": "draped clothing"
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "D",
         "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "label": "priest"
       },
-      "unique": {
-        "tangram": "A",
+      {
+        "tangram": "D",
         "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
+        "group": "blue",
+        "label": "long sleeved book"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
+        "label": "zombie"
       }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
+    ]
+  },
+  {
+    "type": "control",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
         "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
         "shared": "unique",
         "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    }
-  ],
-  [
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "hug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      "unique": {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "shrug"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "red",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "wizard guy"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "E",
-        "shared": "shared",
-        "group": "blue",
-        "label": "bunny ears"
-      },
-      "unique": {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "draped clothing"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "one",
-      "audience_group": "red",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "red",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "crane kick"
-      }
-    },
-    {
-      "goal": "refer",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
-      },
-      "unique": {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bird man"
-      }
-    },
-    {
-      "goal": "social",
-      "audience": "both",
-      "audience_group": "blue",
-      "shared": {
-        "tangram": "F",
-        "shared": "shared",
-        "group": "blue",
-        "label": "sad"
+        "label": "thriller"
       },
-      "unique": {
+      {
         "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "bird man"
+        "label": "zombie"
       }
-    }
-  ]
+    ]
+  }
 ]
