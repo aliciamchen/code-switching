@@ -9,7 +9,7 @@ const params = {
 
 // TODO: get item id and participant id from datapipe condition assignment
 var item_id = 0; // which item (set of stimuli?)
-var participant_id = 5; // which participant (determines what 2AFC set)
+// TODO later: use datapipe to assign item id
 
 const jsPsych = initJsPsych({
   on_finish: function () {
@@ -40,7 +40,7 @@ jsPsych.data.addProperties({
 
 var timeline = [];
 
-makeTrials(item_id, participant_id, jsPsych).then((trials) => {
+makeTrials(item_id, jsPsych).then((trials) => {
   timeline.push(trials);
   jsPsych.run(timeline.flat());
 });

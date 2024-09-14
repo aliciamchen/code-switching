@@ -21,7 +21,7 @@ async function createExit(jsPsych) {
       type: jsPsychPipe,
       action: "save",
       experiment_id: "ZycTOU10DI0v",
-      filename: `item-${item_id}_id-${participant_id}_${subject_id}.json`,
+      filename: `item-${item_id}_id-${subject_id}.json`,
       data_string: () => jsPsych.data.get().json(),
     };
 

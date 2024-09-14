@@ -1,5 +1,5 @@
 // put all the trials together
-async function makeTrials(item_id, participant_id, jsPsych) {
+async function makeTrials(item_id, jsPsych) {
   try {
     const timeline = [];
 
@@ -25,7 +25,6 @@ async function makeTrials(item_id, participant_id, jsPsych) {
     // selection phase
     const selectionTrials = await createSelectionTrials(
       item_id,
-      participant_id,
       jsPsych
     );
     timeline.push(selectionTrials);
