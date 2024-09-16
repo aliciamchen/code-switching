@@ -54,8 +54,8 @@ async function createComprehensionCheck() {
       on_finish: function (data) {
         data.pass = [
           data.response.Q0.includes("only"),
-          data.response.Q1.includes("real"),
-          data.response.Q2.includes("correctly"),
+          data.response.Q1.includes("and each"),
+          data.response.Q2.includes("random order"),
         ].every(Boolean);
 
         if (!data.pass) {

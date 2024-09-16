@@ -6,43 +6,24 @@ async function loadTrialInfo(item_id) {
 }
 
 function createSelectionTrial(trial, jsPsych) {
-
   function make_stimulus(trial) {
     if (trial.goal === "refer") {
       if (trial.audience === "one") {
         return `<p>Please select a description.</p>\
-        <p>After the task ends, the chosen description will be shown to <b>a random player in the <span style="color: ${
-          trial.audience_group
-        }">${trial.audience_group}</span> group</b>.</p>\
-        <p>We will ask them to use your description to <b>guess its corresponding picture</b> out of the ${
-          params.n_tangrams
-        } pictures, and you will be awarded a $${params.perTrialBonus.toFixed(
-          2
-        )} bonus if they guess the picture correctly.</p>`;
+        <p>Imagine that your chosen description will be shown to <strong>a random player in the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group.</strong></p>\
+        <p>The question they will answer: <em>"What picture is this person referring to?"</em> <br><strong>You want them to correctly choose the corresponding picture out of the 6 pictures.</strong></p>
+        <p></p>`;
       } else if (trial.audience === "both") {
-        return `<p>Please select a description.</p>\
-        <p>After the task ends, the chosen description will be shown to <b>a random player across <em>both</em> groups.</b></p>\
-        <p>We will ask them to use your description to <b>guess its corresponding picture</b> out of the ${
-          params.n_tangrams
-        } pictures, and you will be awarded a $${params.perTrialBonus.toFixed(
-          2
-        )} bonus if they guess the picture correctly.</p>`;
+        return `Not implemented`;
       }
     } else if (trial.goal === "social") {
       if (trial.audience === "one") {
         return `<p>Please select a description.</p>\
-        <p>After the task ends, the chosen description will be shown to <b>a random player in the <span style="color: ${
-          trial.audience_group
-        }">${trial.audience_group}</span> group</b>.</p>\
-        <p>We will ask them to use your description to <b>guess whether or not you are in their own group</b>, and you will be awarded a $${params.perTrialBonus.toFixed(
-          2
-        )} bonus if they correctly guess that you are in the same group as them.</p>`;
+        <p>Imagine that your chosen description will be shown to <strong>a random player in the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group</strong>.</p>\
+        <p>The question they will answer: <em>"Is this person sending the description also a member of the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group?"</em> <br><strong>You want them to say yes.</strong></p>
+        <p></p>`;
       } else if (trial.audience === "both") {
-        return `<p>Please select a description.</p>\
-        <p>After the task ends, the chosen description will be shown to <b>a random player across <em>both</em> groups</b>.</p>\
-        <p>We will ask them to use your description to <b>guess whether or not you are in their own group</b>, and you will be awarded a $${params.perTrialBonus.toFixed(
-          2
-        )} bonus if they correctly guess that you are in the same group as them.</p>`;
+        return `Not implemented`;
       }
     }
   }
@@ -53,7 +34,7 @@ function createSelectionTrial(trial, jsPsych) {
       stimulus: make_stimulus(trial),
       choices: jsPsych.randomization.repeat(trial.options, 1),
       prompt:
-        "<p>Please click on the tangram-description pair when you are ready.</p>",
+        "<p>Please click on the picture-description pair when you are ready.</p>",
       button_html: (choice) =>
         `<div style="margin: 30px; cursor: pointer;" class="tangram">
                  <img src="stim/tangrams/tangram_${
@@ -79,7 +60,7 @@ function createSelectionTrial(trial, jsPsych) {
       choices: "NO_KEYS",
       trial_duration: function () {
         return jsPsych.randomization.sampleWithoutReplacement(
-          [1500, 1750, 2000, 2300],
+          [1500, 1750],
           1
         )[0];
       },
@@ -99,20 +80,14 @@ async function createSelectionTrials(item_id, jsPsych) {
       <h3>⚠️ Reminder ⚠️</h3>
       <div class="align-left">
       <p>
-      In this part, there are a total of 12 questions. For each question, you will be given two
+      In this part, there are a total of ${trialInfo.length} questions. For each question, you will be given two
       options to select from, each option a picture and its corresponding
       description.
       </p>
       <p>
-        The descriptions you choose will be sent to the participants that played the
-        game you just observed. For each pair of options, we will tell you (1)
-        <em>who</em> will see the desciption you select; and (2) <em>what</em> we
-        will prompt the players to guess based on the description you select.
-      </p>
-      <p>
-        You will earn an
-        additional bonus, up to XXX, based on the number of correct answers the
-        players select using your responses in this part of the task.
+      We will ask you to imagine that your chosen description will be sent to a certain group, \
+      and that you are trying to get them to answer a question in a certain way based on the description you select. \
+      We will tell you <em>which group</em> will see your description, and <em>what question</em> they will be asked to answer.
       </p>
       <p>Please make sure to read each of the questions carefully before making your selection.</p>
       </div>

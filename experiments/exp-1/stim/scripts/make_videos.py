@@ -249,7 +249,7 @@ class ChatAnimation(Scene):
         self.add(correct_guesses_text)
         self.wait(0.5)
 
-def generate_videos_for_item(item_number):
+def generate_videos_for_item(item_number, is_pilot=False):
     with open(f"../items/item_{item_number}_game_info.json", "r") as f:
         game_info = json.load(f)
     available_tangrams = list(game_info["red"].keys())
@@ -271,5 +271,6 @@ def generate_videos_for_item(item_number):
 
 if __name__ == "__main__":
 
-    generate_videos_for_item(0)
+    generate_videos_for_item(0, is_pilot=True)
+    generate_videos_for_item(1, is_pilot=True)
 

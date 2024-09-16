@@ -8,10 +8,10 @@ async function createExit(jsPsych) {
     const exit_survey = {
       type: jsPsychSurveyHtmlForm,
       preamble: `
-        <p>You have reached the end of the experiment! To collect your bonus, please complete the following questions. Your answer to these questions will not affect your bonus, so please answer honestly.</p>
+        <p>You have reached the end of the experiment! Thank you for your participation. To collect your pay, please complete the following questions. Your answer to these questions will not affect your pay, so please answer honestly.</p>
         `,
       html: text,
-      button_label: ["Continue, save data, and collect bonus!"],
+      button_label: ["Continue, save data, and collect pay!"],
       data: { task: "exit-survey", type: "response" },
     };
     exit.push(exit_survey);
@@ -21,7 +21,7 @@ async function createExit(jsPsych) {
       type: jsPsychPipe,
       action: "save",
       experiment_id: "ZycTOU10DI0v",
-      filename: `item-${item_id}_id-${subject_id}.json`,
+      filename: `item-${item_id}_id-${subject_id}.json`, // TODO: save date and time??
       data_string: () => jsPsych.data.get().json(),
     };
 
