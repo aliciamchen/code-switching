@@ -12,8 +12,8 @@ def separate_tangrams(lexicon):
 
 
 def generate_main_trials(lexicon, shared_tangrams, unique_tangrams):
-    unique_set = list(set([entry["tangram"] for entry in unique_tangrams]))
-    shared_set = list(set([entry["tangram"] for entry in shared_tangrams]))
+    unique_set = sorted(list(set([entry["tangram"] for entry in unique_tangrams])))
+    shared_set = sorted(list(set([entry["tangram"] for entry in shared_tangrams])))
 
     # generate list of all possible pairs of tangram, where there is one shared and one unique tangram
     tangram_pairs = list(itertools.product(shared_set, unique_set))
@@ -63,12 +63,18 @@ def generate_control_trials(
                 if (entry["group"] == audience_group)
                 and (entry["tangram"] == shared_tangram)
             ][0]
-            unseen_label_option = [
+            unseen_label_option_ = [
                 entry
                 for entry in other_lexicon
                 if (entry["tangram"] == shared_tangram)
                 and (entry["label"] != this_option["label"])
             ][0]
+
+            # drop "shared" and "group" keys from unseen_label_option
+            unseen_label_option = unseen_label_option_.copy()
+            unseen_label_option.pop("shared", None)
+            unseen_label_option.pop("group", None)
+            unseen_label_option["group"] = "unseen"
 
             trial = {
                 "type": "same",
