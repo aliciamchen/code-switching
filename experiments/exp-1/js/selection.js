@@ -44,14 +44,11 @@ function createSelectionTrial(trial, jsPsych) {
              </div>`,
       data: {
         trialInfo: trial,
-        choices: trial.options,
+        options: trial.options,
         task: "selection",
-        type: "response",
-        audience: trial.audience,
-        audience_group: trial.audience_group,
       },
       on_finish: function (data) {
-        data.choice = data.choices[data.response];
+        data.choice = data.options[data.response];
       },
     },
     {
@@ -80,16 +77,23 @@ async function createSelectionTrials(item_id, jsPsych) {
       <h3>⚠️ Reminder ⚠️</h3>
       <div class="align-left">
       <p>
-      In this part, there are a total of ${trialInfo.length} questions. For each question, you will be given two
-      options to select from, each option a picture and its corresponding
-      description.
+        In the second part of the task, it will be <strong>up to you</strong> to
+        choose words that go with these pictures.
       </p>
       <p>
-      We will ask you to imagine that your chosen description will be sent to a certain group, \
-      and that you are trying to get them to answer a question in a certain way based on the description you select. \
-      We will tell you <em>which group</em> will see your description, and <em>what question</em> they will be asked to answer.
+        On each screen, you will see two pictures with a word describing each, and
+        you will have to pick one of them. We will tell you
+        <strong>who</strong> will see your choice (a member of the red group or the
+        blue group) and <strong>what question</strong> they will be answering when
+        they see it. Your goal is to try to get them to answer the question in a
+        certain way based on the word you select.
       </p>
-      <p>Please make sure to read each of the questions carefully before making your selection.</p>
+      <p>
+        Please read carefully, so you know <strong>who</strong> will see the picture
+        and words you chose, <strong>what question</strong> they will be answering,
+        and <strong>how</strong> you want them to answer it.
+      </p>
+      <p>You will do this 48 times.</p>
       </div>
       `,
       choices: ["Continue"],
