@@ -40,7 +40,7 @@ async function makeTrials(jsPsych) {
     timeline.push(selectionTrials);
 
     // exit survey
-    const exit = await createExit(jsPsych);
+    const exit = await createExit(item_id, jsPsych);
     timeline.push(exit);
 
     return timeline.flat();

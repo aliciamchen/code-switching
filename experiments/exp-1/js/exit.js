@@ -1,5 +1,5 @@
 // exit survey and debrief
-async function createExit(jsPsych) {
+async function createExit(item_id, jsPsych) {
   try {
     // Exit survey
     const response = await fetch("html/exit-survey.html");
