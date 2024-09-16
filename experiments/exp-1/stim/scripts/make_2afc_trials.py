@@ -23,7 +23,7 @@ def generate_main_trials(lexicon, shared_tangrams, unique_tangrams):
         for audience_group in ["red", "blue"]:
             for goal in ["refer", "social"]:
                 trial = {
-                    "type": "main",
+                    "type": "diff",  # the two tangrams are different
                     "goal": goal,
                     "audience": "one",
                     "audience_group": audience_group,
@@ -71,9 +71,10 @@ def generate_control_trials(
             ][0]
 
             trial = {
-                "type": "control",
+                "type": "same",
                 "goal": "refer",
                 "audience": "one",
+                "unseen_label": unseen_label_option["label"],
                 "audience_group": audience_group,
                 "options": [this_option, unseen_label_option],
             }
@@ -94,7 +95,7 @@ def generate_control_trials(
             ][0]
 
             trial = {
-                "type": "control",
+                "type": "same",
                 "goal": "social",
                 "audience": "one",
                 "audience_group": audience_group,
@@ -121,7 +122,6 @@ def main(items):
         trials = main_trials + control_trials
         print(f"Generated {len(trials)} sets of trials for item {item_num}")
         with open(f"../2AFC_trials/item_{item_num}_2AFC.json", "w") as json_file:
-            # note that each index of this list is a set of trials for a single participant
             json.dump(trials, json_file, indent=2)
             print(f"Saved in ../2AFC_trials/item_{item_num}_2AFC.json")
 

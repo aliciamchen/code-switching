@@ -1,406 +1,6 @@
 [
   {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "red",
-        "label": "mouse"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "red",
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "red",
-        "label": "mouse"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "red",
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "blue",
-        "label": "mouse"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "blue",
-        "label": "no arms"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "blue",
-        "label": "mouse"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "blue",
-        "label": "no arms"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "red",
-        "label": "mouse"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "red",
-        "label": "mouse"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "blue",
-        "label": "mouse"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "blue",
-        "label": "mouse"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "red",
-        "label": "mouse"
-      },
-      {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "thriller"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "red",
-        "label": "mouse"
-      },
-      {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "red",
-        "label": "thriller"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "blue",
-        "label": "mouse"
-      },
-      {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "zombie"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "blue",
-        "label": "mouse"
-      },
-      {
-        "tangram": "A",
-        "shared": "unique",
-        "group": "blue",
-        "label": "zombie"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "red",
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "red",
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "blue",
-        "label": "no arms"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "blue",
-        "label": "no arms"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "red",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
-      }
-    ]
-  },
-  {
-    "type": "main",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
-      }
-    ]
-  },
-  {
-    "type": "main",
+    "type": "diff",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
@@ -420,7 +20,7 @@
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -440,7 +40,7 @@
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "refer",
     "audience": "one",
     "audience_group": "blue",
@@ -460,7 +60,7 @@
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -480,7 +80,407 @@
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "baby"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "red",
+        "label": "zigzag"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "baby"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "no arms"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "no arms"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "thriller"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "red",
+        "label": "thriller"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "blue",
+        "label": "mouse"
+      },
+      {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "blue",
+        "label": "mouse"
+      },
+      {
+        "tangram": "A",
+        "shared": "unique",
+        "group": "blue",
+        "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "blue",
+        "label": "mouse"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "blue",
+        "label": "mouse"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "baby"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "baby"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "blue",
+        "label": "mouse"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "no arms"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "blue",
+        "label": "mouse"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "no arms"
+      }
+    ]
+  },
+  {
+    "type": "diff",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
@@ -492,15 +492,15 @@
         "label": "falling guy"
       },
       {
-        "tangram": "H",
+        "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "baby"
+        "label": "thriller"
       }
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -512,15 +512,15 @@
         "label": "falling guy"
       },
       {
-        "tangram": "H",
+        "tangram": "A",
         "shared": "unique",
         "group": "red",
-        "label": "baby"
+        "label": "thriller"
       }
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "refer",
     "audience": "one",
     "audience_group": "blue",
@@ -532,15 +532,15 @@
         "label": "falling guy"
       },
       {
-        "tangram": "H",
+        "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "no arms"
+        "label": "zombie"
       }
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -552,15 +552,15 @@
         "label": "falling guy"
       },
       {
-        "tangram": "H",
+        "tangram": "A",
         "shared": "unique",
         "group": "blue",
-        "label": "no arms"
+        "label": "zombie"
       }
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
@@ -580,7 +580,7 @@
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -600,7 +600,7 @@
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "refer",
     "audience": "one",
     "audience_group": "blue",
@@ -620,7 +620,7 @@
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -640,7 +640,7 @@
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
@@ -652,15 +652,15 @@
         "label": "falling guy"
       },
       {
-        "tangram": "A",
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "thriller"
+        "label": "baby"
       }
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -672,15 +672,15 @@
         "label": "falling guy"
       },
       {
-        "tangram": "A",
+        "tangram": "H",
         "shared": "unique",
         "group": "red",
-        "label": "thriller"
+        "label": "baby"
       }
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "refer",
     "audience": "one",
     "audience_group": "blue",
@@ -692,15 +692,15 @@
         "label": "falling guy"
       },
       {
-        "tangram": "A",
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "zombie"
+        "label": "no arms"
       }
     ]
   },
   {
-    "type": "main",
+    "type": "diff",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -712,57 +712,18 @@
         "label": "falling guy"
       },
       {
-        "tangram": "A",
+        "tangram": "H",
         "shared": "unique",
         "group": "blue",
-        "label": "zombie"
+        "label": "no arms"
       }
     ]
   },
   {
-    "type": "control",
+    "type": "same",
     "goal": "refer",
     "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "red",
-        "label": "mouse"
-      },
-      {
-        "tangram": "B",
-        "shared": "unique",
-        "group": "blue",
-        "label": "princess dance"
-      }
-    ]
-  },
-  {
-    "type": "control",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "B",
-        "shared": "shared",
-        "group": "blue",
-        "label": "mouse"
-      },
-      {
-        "tangram": "B",
-        "shared": "unique",
-        "group": "blue",
-        "label": "princess dance"
-      }
-    ]
-  },
-  {
-    "type": "control",
-    "goal": "refer",
-    "audience": "one",
+    "unseen_label": "bent knees",
     "audience_group": "red",
     "options": [
       {
@@ -780,9 +741,10 @@
     ]
   },
   {
-    "type": "control",
+    "type": "same",
     "goal": "refer",
     "audience": "one",
+    "unseen_label": "bent knees",
     "audience_group": "blue",
     "options": [
       {
@@ -800,9 +762,52 @@
     ]
   },
   {
-    "type": "control",
+    "type": "same",
     "goal": "refer",
     "audience": "one",
+    "unseen_label": "princess dance",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "red",
+        "label": "mouse"
+      },
+      {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "princess dance"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "princess dance",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "blue",
+        "label": "mouse"
+      },
+      {
+        "tangram": "B",
+        "shared": "unique",
+        "group": "blue",
+        "label": "princess dance"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "no legs",
     "audience_group": "red",
     "options": [
       {
@@ -820,9 +825,10 @@
     ]
   },
   {
-    "type": "control",
+    "type": "same",
     "goal": "refer",
     "audience": "one",
+    "unseen_label": "no legs",
     "audience_group": "blue",
     "options": [
       {
@@ -840,87 +846,7 @@
     ]
   },
   {
-    "type": "control",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "red",
-        "label": "baby"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "blue",
-        "label": "no arms"
-      }
-    ]
-  },
-  {
-    "type": "control",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "red",
-        "label": "baby"
-      },
-      {
-        "tangram": "H",
-        "shared": "unique",
-        "group": "blue",
-        "label": "no arms"
-      }
-    ]
-  },
-  {
-    "type": "control",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
-      }
-    ]
-  },
-  {
-    "type": "control",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
-      }
-    ]
-  },
-  {
-    "type": "control",
+    "type": "same",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -940,7 +866,7 @@
     ]
   },
   {
-    "type": "control",
+    "type": "same",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -956,6 +882,86 @@
         "shared": "unique",
         "group": "blue",
         "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "baby"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "no arms"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "red",
+        "label": "baby"
+      },
+      {
+        "tangram": "H",
+        "shared": "unique",
+        "group": "blue",
+        "label": "no arms"
       }
     ]
   }
