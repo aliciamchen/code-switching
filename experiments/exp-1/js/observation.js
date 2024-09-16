@@ -24,7 +24,7 @@ async function createVideoTrials(item_id, jsPsych) {
     const video_trials = [];
     const pass_intro = {
       type: jsPsychHtmlButtonResponse,
-      stimulus: `<p>Congrats on passing the comprehension quiz!</p><p>Please press "continue" to begin the first part of the task.</p>`,
+      stimulus: `<p>Congrats on passing the comprehension check!</p><p>Please press "continue" to begin the first part of the task.</p>`,
       choices: ["Continue"],
     };
     video_trials.push(pass_intro);
@@ -65,36 +65,6 @@ async function createVideoTrials(item_id, jsPsych) {
             response_allowed_while_playing: false,
           };
           video_trials.push(video_trial);
-
-          // Participants select which tangram they thought the target tangram was
-          // const tangram_attention = {
-          //   type: jsPsychHtmlButtonResponse,
-          //   stimulus: `<h3>Which picture did you think the target picture was?</h3>`,
-          //   choices: available_tangrams,
-          //   button_html: (
-          //     choice
-          //   ) => `<div style="margin: 30px; cursor: pointer;" class="tangram">
-          //   <img src="stim/tangrams/tangram_${
-          //     choice || "default"
-          //   }.png" style="width: 150px;" /></div>`,
-          //   button_layout: "grid",
-          //   grid_columns: 3,
-          //   grid_rows: 2,
-          //   data: {
-          //     task: "attention",
-          //     type: "response",
-          //     choices: available_tangrams,
-          //     actual_target: tangram,
-          //     group: color,
-          //     repNum: repNum,
-          //   },
-          //   on_finish: function (data) {
-          //     data.correct = data.response === data.actual_target
-          //   }
-          // };
-          // video_trials.push(tangram_attention);
-
-          // TODO: add next video display unless its the second to last video of the rep
         }
 
         const end_of_round_color = {

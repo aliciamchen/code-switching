@@ -33,7 +33,7 @@ async function createExit(jsPsych) {
     const debrief = {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: `<p>Thanks for participating in the experiment!</p>
-                    <p><a href="https://app.prolific.co/submissions/complete?cc=C1E1PWV8">Click here to return to Prolific and complete the study</a>.</p>
+                    <p><a href="https://app.prolific.com/submissions/complete?cc=C1AKB1HA">Click here to return to Prolific and complete the study</a>.</p>
                     <p>It is now safe to close the window. Your pay will be delivered within a few days.</p>
                     `,
       choices: "NO_KEYS",
