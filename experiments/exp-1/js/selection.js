@@ -28,11 +28,13 @@ function createSelectionTrial(trial, jsPsych) {
     }
   }
 
+  var shuffled_options = jsPsych.randomization.repeat(trial.options, 1);
+
   return [
     {
       type: jsPsychHtmlButtonResponse,
       stimulus: make_stimulus(trial),
-      choices: jsPsych.randomization.repeat(trial.options, 1),
+      choices: shuffled_options,
       prompt:
         "<p>Please click on the picture-description pair when you are ready.</p>",
       button_html: (choice) =>
@@ -44,11 +46,11 @@ function createSelectionTrial(trial, jsPsych) {
              </div>`,
       data: {
         trialInfo: trial,
-        options: trial.options,
+        displayed_options: shuffled_options,
         task: "selection",
       },
       on_finish: function (data) {
-        data.choice = data.options[data.response];
+        data.choice = data.displayed_options[data.response];
       },
     },
     {
