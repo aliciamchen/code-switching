@@ -10,3 +10,5 @@ experiments/exp-1/stim/convo_vids/images
 experiments/exp-1/stim/convo_vids/texts
 partial_movie_files
 old
+.vscode
+raw_data
