@@ -21,6 +21,29 @@ def generate_main_trials(lexicon, shared_tangrams, unique_tangrams):
     trials = []
     for tangram_pair in tangram_pairs:
         for audience_group in ["red", "blue"]:
+
+            # Add 'refer' to both groups
+            trial = {
+                "type": "diff",  # the two tangrams are different
+                "goal": "refer",
+                "audience": "both",
+                "options": [
+                    [
+                        entry
+                        for entry in lexicon
+                        if (entry["group"] == audience_group)
+                        and (entry["tangram"] == tangram_pair[0])
+                    ][0],
+                    [
+                        entry
+                        for entry in lexicon
+                        if (entry["group"] == audience_group)
+                        and (entry["tangram"] == tangram_pair[1])
+                    ][0],
+                ],
+            }
+            trials.append(trial)
+
             for goal in ["refer", "social"]:
                 trial = {
                     "type": "diff",  # the two tangrams are different
@@ -43,7 +66,8 @@ def generate_main_trials(lexicon, shared_tangrams, unique_tangrams):
                     ],
                 }
                 trials.append(trial)
-    assert len(trials) == 36
+
+    print(f"Generated {len(trials)} main trials")
     return trials
 
 
@@ -57,7 +81,7 @@ def generate_control_trials(
     shared_control_trials = []
     for shared_tangram in shared_set:
         for audience_group in ["red", "blue"]:
-            this_option = [
+            this_option_ = [
                 entry
                 for entry in this_lexicon
                 if (entry["group"] == audience_group)
@@ -67,7 +91,7 @@ def generate_control_trials(
                 entry
                 for entry in other_lexicon
                 if (entry["tangram"] == shared_tangram)
-                and (entry["label"] != this_option["label"])
+                and (entry["label"] != this_option_["label"])
             ][0]
 
             # drop "shared" and "group" keys from unseen_label_option
@@ -75,6 +99,9 @@ def generate_control_trials(
             unseen_label_option.pop("shared", None)
             unseen_label_option.pop("group", None)
             unseen_label_option["group"] = "unseen"
+
+            this_option = this_option_.copy()
+            this_option.pop("group", None)
 
             trial = {
                 "type": "same",
@@ -85,6 +112,17 @@ def generate_control_trials(
                 "options": [this_option, unseen_label_option],
             }
             shared_control_trials.append(trial)
+
+        # 'refer' both groups control trial (there should be 3 of these)
+        # (these are not group specific)
+        trial = {
+            "type": "same",
+            "goal": "refer",
+            "audience": "both",
+            "unseen_label": unseen_label_option["label"],
+            "options": [this_option, unseen_label_option],
+        }
+        shared_control_trials.append(trial)
 
     unique_control_trials = []
     for unique_tangram in unique_set:

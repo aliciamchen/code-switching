@@ -14,7 +14,10 @@ function createSelectionTrial(trial, jsPsych) {
         <p>The question they will answer: <em>"What picture is this person referring to?"</em> <br><strong>You want them to correctly choose the corresponding picture out of the 6 pictures.</strong></p>
         <p></p>`;
       } else if (trial.audience === "both") {
-        return `Not implemented`;
+        return `<p>Please select a description.</p>\
+        <p>Imagine that your chosen description will be shown to <strong>a random player in <em>either</em> group.</strong></p>\
+        <p>The question they will answer: <em>"What picture is this person referring to?"</em> <br><strong>You want them to correctly choose the corresponding picture out of the 6 pictures.</strong></p>
+        <p></p>`;
       }
     } else if (trial.goal === "social") {
       if (trial.audience === "one") {
@@ -85,8 +88,8 @@ async function createSelectionTrials(item_id, jsPsych) {
       <p>
         On each screen, you will see two pictures with a word describing each, and
         you will have to pick one of them. We will tell you
-        <strong>who</strong> will see your choice (a member of the red group or the
-        blue group) and <strong>what question</strong> they will be answering when
+        <strong>who</strong> will see your choice (a member of the red group, a member of the
+        blue group, or a member of either group) and <strong>what question</strong> they will be answering when
         they see it. Your goal is to try to get them to answer the question in a
         certain way based on the word you select.
       </p>
@@ -95,7 +98,7 @@ async function createSelectionTrials(item_id, jsPsych) {
         and words you chose, <strong>what question</strong> they will be answering,
         and <strong>how</strong> you want them to answer it.
       </p>
-      <p>You will do this 48 times.</p>
+      <p>You will do this 69 times. (We know this seems like a lot, but each page is short!)</p>
       </div>
       `,
       choices: ["Continue"],
