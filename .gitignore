@@ -12,3 +12,4 @@ partial_movie_files
 old
 .vscode
 raw_data
+.RData
