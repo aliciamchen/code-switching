@@ -127,6 +127,8 @@ ggplot(control_trials_social, aes(x = goal, y = audience_group)) +
 
 ### Break down by participant
 
+Calculating means is probably not the best way to visualize this but it's ok for now
+
 ```{r}
 control_trials_refer.means.participant <- control_trials_refer %>% 
   group_by(subject_id) %>% 
