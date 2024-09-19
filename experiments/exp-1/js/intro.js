@@ -56,6 +56,7 @@ async function createComprehensionCheck() {
           data.response.Q0.includes("only"),
           data.response.Q1.includes("and each"),
           data.response.Q2.includes("random order"),
+          data.response.Q3.includes("attention"),
         ].every(Boolean);
 
         if (!data.pass) {

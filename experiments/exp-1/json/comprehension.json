@@ -26,5 +26,14 @@
       "(C) The Speaker described a random picture to the Listeners. Then, the Speaker role rotated to the next player."
     ],
     "required": true
+  },
+  {
+    "prompt": "How can I earn the highest possible bonus in this task?",
+    "options": [
+      "(A) By choosing the most interesting descriptions for the pictures in the second part of the task.",
+      "(B) By clicking through the second part of the task as fast as possible, so that I can finish the task quickly.",
+      "(C) By paying attention to the videos in the first part of the task, so that I can pick the correct choices in the second part of the task."
+    ],
+    "required": true
   }
 ]
