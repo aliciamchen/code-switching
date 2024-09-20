@@ -2,7 +2,7 @@
 
 ## `/stim`
 
-This folder contains the scripts to generate the stimuli and randomization for Experiment 1.
+This folder contains the stimuli and randomization for Experiment 1 (as well as the scripts needed to generate them)
 
 ### Game info from Boyce data
 
@@ -10,17 +10,21 @@ This folder contains the scripts to generate the stimuli and randomization for E
 
 `conventions_games.json` contains the `gameId` that each of the conventions in `conventions.json` belongs to, formatted this way for ease of access
 
-`get_convos.py` extracts and formats the conversation and selection history for each tangram-game pair in `conventions_games.json`. It uses the chat data in `../boyce_data/filtered_chat.csv` and the response data in `../boyce_data/round_results.csv`; outputs are saved in `../convos`. These files are among the inputs that are needed for generating the videos.
+`scripts/get_convos.py` extracts and formats the conversation and selection history for each tangram-game pair in `conventions_games.json`. It uses the chat data in `boyce_data/filtered_chat.csv` and the response data in `boyce_data/round_results.csv`; outputs are saved in `convos`. These files are among the inputs that are needed for generating the videos.
 
-### Making the items
+### Making the items, stimuli, trials, etc:
 
-`make_items.py` takes in `conventions.json`, the number of items to generate, and generates the high-level info for each item (i.e. which tangrams should appear in each item? which tangrams have shared labels, and which have unique labels? what labels should each of the groups see, for each tangram? for each tangram-label pair, which game should the conversation be drawn from) For each item, the tangrams, and the labels, are drawn without replacement from their respective available sets. The outputs are saved in `../stim/items`, labeled by their item number. These outputs are the direct inputs to the javascript experiment.
+`items` contains the game info and lexicon for each counterbalancing assignment (called an 'item') here. (these names might have to be changed later if we actually use different items)
+
+Right now, these are generated manually by choosing from the referring expressions in `conventions.json` and `conventions_games.json`. Which tangrams are shared and unique are arbitrary selected (and the assigment is reversed by counterbalancing assignment), and the games to pull from for each expression are chosen in order from `conventions_games.json`
+
+The files in `items` are used to generate the `.json` files in `2AFC_trials` and to the video generation script. And both the files in `items` and `2AFC_trials` are also direct inputs to the javascript experiment.
 
 ### Making the individual stimuli
 
 `make_videos.py` generates all the video stimuli for a specified item number. It loads in the game info for the specified item from `../items`, and finds the relevant conversation info from `../convos`. Videos are saved in `../convo_vids/videos`.
 
-`make_2afc_trials.py` takes each item and the specified number of items to loop over, and generates all the combinations of 2AFC trials for each item. They are generated so that each pari consists of one 'shared' tangram and one 'unique' tangram. There are twice as many 'unique' tangrams as 'shared' tangram, so each 'shared' tangram is paired with the same corresponding 'unique' tangram for each group. Then for each shared-unique pairing, the audience is either a specific group or any group (so two pairs are specific and one pair is any, or vice versa). There is a within-participant manipulation of goal, so each trial is seen with the "refer" goal once and with the "social" goal once. This assignment is all counterbalanced across participants, so for 6 tangrams (12 trials) there are 48 unique sets of trials. Each set of sets of trials is stored in `../2AFC_trials` by its item number.
+`make_2afc_trials.py` takes each item and generates its corresponding 2AFC trials. Right now for the 'unseen' tangrams, are taken from the other counterbalancing assignment
 
 ## scp ing to MIT scripts
 
