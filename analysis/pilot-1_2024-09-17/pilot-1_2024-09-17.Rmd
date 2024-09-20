@@ -17,7 +17,7 @@ theme_set(theme_classic(base_size = 20))
 # Selection trials
 
 ```{r}
-selection_trials <- read_csv(here("analysis", "pilot-1_2024-09-17", "selection_trials.csv"))
+selection_trials <- read_csv(here("data", "pilot-1_2024-09-17", "selection_trials.csv"))
 ```
 Main trials (different tangrams shown): Are there differences between refer and social goals?
 
@@ -167,7 +167,7 @@ ggplot(control_trials_social.means.participant, aes(x = goal, y = empirical_stat
 # Exit survey
 
 ```{r}
-exit_survey <- read_csv(here("analysis", "pilot-1_2024-09-17", "exit_survey.csv"))
+exit_survey <- read_csv(here("data", "pilot-1_2024-09-17", "exit_survey.csv"))
 ```
 
 What feedback did participants give?

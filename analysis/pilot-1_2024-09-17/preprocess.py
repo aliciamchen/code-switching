@@ -7,8 +7,8 @@ import uuid
 
 def main():
 
-    in_dir = "../../data/pilot-1_2024-09-17/raw_data"
-    filenames = sorted(glob.glob(in_dir + "/*.json"))
+    in_dir = "../../data/pilot-1_2024-09-17/"
+    filenames = sorted(glob.glob(in_dir + "raw_data" + "/*.json"))
 
     selection_trial_headers = [
         "subject_id",
@@ -47,7 +47,7 @@ def main():
             subject_id_map[original_id] = str(uuid.uuid4())
         return subject_id_map[original_id]
 
-    with open("selection_trials.csv", "w", newline="") as csvfile:
+    with open(in_dir + "selection_trials.csv", "w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=selection_trial_headers)
         writer.writeheader()
 
@@ -106,7 +106,7 @@ def main():
                         }
                     )
 
-    with open("exit_survey.csv", "w", newline="") as csvfile:
+    with open(in_dir + "exit_survey.csv", "w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=exit_survey_headers)
         writer.writeheader()
 

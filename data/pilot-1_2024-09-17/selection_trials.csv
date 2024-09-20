@@ -1,0 +1,385 @@
+subject_id,item_id,type,goal,audience,option1.tangram,option1.shared,option1.group,option1.label,option2.tangram,option2.shared,option2.group,option2.label,response.tangram,response.shared,response.group,response.label,understood
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,L,shared,blue,zigzag,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,B,shared,red,mouse,D,unique,red,priest,B,shared,red,mouse,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,C,shared,red,falling guy,H,unique,red,baby,C,shared,red,falling guy,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,social,blue,H,unique,red,baby,H,unique,blue,no arms,H,unique,blue,no arms,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,B,shared,blue,mouse,H,unique,blue,no arms,H,unique,blue,no arms,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,refer,red,L,shared,red,zigzag,L,,unseen,bent knees,L,shared,red,zigzag,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,C,shared,blue,falling guy,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,B,shared,red,mouse,A,unique,red,thriller,A,unique,red,thriller,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,L,shared,blue,zigzag,A,unique,blue,zombie,A,unique,blue,zombie,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,C,shared,blue,falling guy,H,unique,blue,no arms,H,unique,blue,no arms,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,C,shared,blue,falling guy,A,unique,blue,zombie,A,unique,blue,zombie,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,B,shared,blue,mouse,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,L,shared,blue,zigzag,H,unique,blue,no arms,H,unique,blue,no arms,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,C,shared,red,falling guy,A,unique,red,thriller,A,unique,red,thriller,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,refer,red,C,shared,red,falling guy,C,,unseen,no legs,C,shared,red,falling guy,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,B,shared,blue,mouse,H,unique,blue,no arms,H,unique,blue,no arms,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,B,shared,blue,mouse,A,unique,blue,zombie,A,unique,blue,zombie,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,social,red,D,unique,red,priest,D,unique,blue,long sleeved book,D,unique,red,priest,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,L,shared,red,zigzag,D,unique,red,priest,D,unique,red,priest,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,C,shared,red,falling guy,H,unique,red,baby,H,unique,red,baby,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,L,shared,blue,zigzag,H,unique,blue,no arms,H,unique,blue,no arms,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,C,shared,blue,falling guy,A,unique,blue,zombie,A,unique,blue,zombie,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,L,shared,blue,zigzag,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,L,shared,red,zigzag,H,unique,red,baby,H,unique,red,baby,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,social,red,H,unique,red,baby,H,unique,blue,no arms,H,unique,red,baby,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,refer,blue,C,shared,blue,falling guy,C,,unseen,no legs,C,,unseen,no legs,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,B,shared,red,mouse,H,unique,red,baby,H,unique,red,baby,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,C,shared,red,falling guy,A,unique,red,thriller,A,unique,red,thriller,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,social,red,A,unique,red,thriller,A,unique,blue,zombie,A,unique,red,thriller,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,social,blue,D,unique,red,priest,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,C,shared,blue,falling guy,H,unique,blue,no arms,H,unique,blue,no arms,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,refer,red,B,shared,red,mouse,B,,unseen,princess dance,B,shared,red,mouse,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,L,shared,red,zigzag,D,unique,red,priest,D,unique,red,priest,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,B,shared,blue,mouse,A,unique,blue,zombie,A,unique,blue,zombie,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,B,shared,red,mouse,D,unique,red,priest,D,unique,red,priest,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,B,shared,blue,mouse,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,C,shared,red,falling guy,D,unique,red,priest,D,unique,red,priest,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,L,shared,red,zigzag,A,unique,red,thriller,A,unique,red,thriller,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,social,blue,A,unique,red,thriller,A,unique,blue,zombie,A,unique,blue,zombie,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,C,shared,red,falling guy,D,unique,red,priest,D,unique,red,priest,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,L,shared,red,zigzag,A,unique,red,thriller,A,unique,red,thriller,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,blue,C,shared,blue,falling guy,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,refer,blue,B,shared,blue,mouse,B,,unseen,princess dance,B,shared,blue,mouse,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,B,shared,red,mouse,A,unique,red,thriller,A,unique,red,thriller,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,refer,red,B,shared,red,mouse,H,unique,red,baby,H,unique,red,baby,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,red,L,shared,red,zigzag,H,unique,red,baby,H,unique,red,baby,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,diff,social,blue,L,shared,blue,zigzag,A,unique,blue,zombie,A,unique,blue,zombie,yes
+e94e79db-65c5-490b-b047-1982b6944338,0,same,refer,blue,L,shared,blue,zigzag,L,,unseen,bent knees,L,shared,blue,zigzag,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,L,shared,blue,zigzag,H,unique,blue,no arms,H,unique,blue,no arms,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,L,shared,blue,zigzag,H,unique,blue,no arms,H,unique,blue,no arms,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,social,red,H,unique,red,baby,H,unique,blue,no arms,H,unique,red,baby,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,C,shared,blue,falling guy,A,unique,blue,zombie,A,unique,blue,zombie,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,social,red,D,unique,red,priest,D,unique,blue,long sleeved book,D,unique,red,priest,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,C,shared,blue,falling guy,H,unique,blue,no arms,C,shared,blue,falling guy,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,L,shared,red,zigzag,D,unique,red,priest,D,unique,red,priest,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,B,shared,blue,mouse,D,unique,blue,long sleeved book,B,shared,blue,mouse,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,C,shared,red,falling guy,A,unique,red,thriller,A,unique,red,thriller,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,refer,blue,L,shared,blue,zigzag,L,,unseen,bent knees,L,,unseen,bent knees,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,B,shared,red,mouse,H,unique,red,baby,H,unique,red,baby,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,C,shared,blue,falling guy,D,unique,blue,long sleeved book,C,shared,blue,falling guy,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,L,shared,red,zigzag,H,unique,red,baby,L,shared,red,zigzag,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,refer,blue,C,shared,blue,falling guy,C,,unseen,no legs,C,shared,blue,falling guy,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,C,shared,red,falling guy,D,unique,red,priest,D,unique,red,priest,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,L,shared,blue,zigzag,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,B,shared,red,mouse,A,unique,red,thriller,A,unique,red,thriller,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,L,shared,red,zigzag,H,unique,red,baby,L,shared,red,zigzag,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,social,blue,D,unique,red,priest,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,L,shared,red,zigzag,A,unique,red,thriller,A,unique,red,thriller,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,refer,red,B,shared,red,mouse,B,,unseen,princess dance,B,shared,red,mouse,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,B,shared,blue,mouse,H,unique,blue,no arms,B,shared,blue,mouse,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,social,blue,H,unique,red,baby,H,unique,blue,no arms,H,unique,blue,no arms,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,C,shared,red,falling guy,D,unique,red,priest,D,unique,red,priest,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,B,shared,red,mouse,D,unique,red,priest,D,unique,red,priest,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,social,red,A,unique,red,thriller,A,unique,blue,zombie,A,unique,red,thriller,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,B,shared,red,mouse,D,unique,red,priest,D,unique,red,priest,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,L,shared,blue,zigzag,A,unique,blue,zombie,A,unique,blue,zombie,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,C,shared,blue,falling guy,D,unique,blue,long sleeved book,C,shared,blue,falling guy,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,refer,red,C,shared,red,falling guy,C,,unseen,no legs,C,shared,red,falling guy,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,B,shared,blue,mouse,D,unique,blue,long sleeved book,B,shared,blue,mouse,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,refer,blue,B,shared,blue,mouse,B,,unseen,princess dance,B,shared,blue,mouse,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,C,shared,blue,falling guy,A,unique,blue,zombie,A,unique,blue,zombie,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,L,shared,blue,zigzag,D,unique,blue,long sleeved book,L,shared,blue,zigzag,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,C,shared,blue,falling guy,H,unique,blue,no arms,H,unique,blue,no arms,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,C,shared,red,falling guy,H,unique,red,baby,H,unique,red,baby,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,refer,red,L,shared,red,zigzag,L,,unseen,bent knees,L,,unseen,bent knees,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,L,shared,blue,zigzag,A,unique,blue,zombie,A,unique,blue,zombie,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,B,shared,blue,mouse,A,unique,blue,zombie,A,unique,blue,zombie,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,L,shared,red,zigzag,A,unique,red,thriller,A,unique,red,thriller,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,C,shared,red,falling guy,A,unique,red,thriller,A,unique,red,thriller,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,same,social,blue,A,unique,red,thriller,A,unique,blue,zombie,A,unique,blue,zombie,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,blue,B,shared,blue,mouse,H,unique,blue,no arms,B,shared,blue,mouse,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,B,shared,red,mouse,H,unique,red,baby,H,unique,red,baby,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,social,red,B,shared,red,mouse,A,unique,red,thriller,A,unique,red,thriller,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,L,shared,red,zigzag,D,unique,red,priest,D,unique,red,priest,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,red,C,shared,red,falling guy,H,unique,red,baby,H,unique,red,baby,yes
+432db6eb-ee20-4cb8-9f31-83b3c8648e72,0,diff,refer,blue,B,shared,blue,mouse,A,unique,blue,zombie,A,unique,blue,zombie,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,social,blue,H,unique,red,baby,H,unique,blue,no arms,H,unique,blue,no arms,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,C,shared,red,falling guy,D,unique,red,priest,D,unique,red,priest,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,refer,red,B,shared,red,mouse,B,,unseen,princess dance,B,shared,red,mouse,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,L,shared,red,zigzag,A,unique,red,thriller,A,unique,red,thriller,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,C,shared,red,falling guy,A,unique,red,thriller,A,unique,red,thriller,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,C,shared,blue,falling guy,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,C,shared,blue,falling guy,H,unique,blue,no arms,H,unique,blue,no arms,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,B,shared,red,mouse,A,unique,red,thriller,A,unique,red,thriller,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,L,shared,blue,zigzag,A,unique,blue,zombie,A,unique,blue,zombie,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,B,shared,blue,mouse,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,C,shared,red,falling guy,A,unique,red,thriller,A,unique,red,thriller,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,B,shared,red,mouse,H,unique,red,baby,H,unique,red,baby,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,social,blue,A,unique,red,thriller,A,unique,blue,zombie,A,unique,blue,zombie,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,refer,red,C,shared,red,falling guy,C,,unseen,no legs,C,,unseen,no legs,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,B,shared,blue,mouse,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,C,shared,blue,falling guy,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,L,shared,red,zigzag,D,unique,red,priest,D,unique,red,priest,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,L,shared,blue,zigzag,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,C,shared,blue,falling guy,A,unique,blue,zombie,A,unique,blue,zombie,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,B,shared,red,mouse,H,unique,red,baby,H,unique,red,baby,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,L,shared,blue,zigzag,H,unique,blue,no arms,H,unique,blue,no arms,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,social,red,H,unique,red,baby,H,unique,blue,no arms,H,unique,red,baby,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,B,shared,blue,mouse,A,unique,blue,zombie,A,unique,blue,zombie,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,L,shared,red,zigzag,H,unique,red,baby,H,unique,red,baby,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,B,shared,blue,mouse,H,unique,blue,no arms,H,unique,blue,no arms,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,L,shared,blue,zigzag,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,L,shared,red,zigzag,H,unique,red,baby,H,unique,red,baby,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,social,red,D,unique,red,priest,D,unique,blue,long sleeved book,D,unique,red,priest,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,L,shared,blue,zigzag,A,unique,blue,zombie,A,unique,blue,zombie,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,refer,blue,L,shared,blue,zigzag,L,,unseen,bent knees,L,shared,blue,zigzag,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,C,shared,red,falling guy,H,unique,red,baby,H,unique,red,baby,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,C,shared,red,falling guy,D,unique,red,priest,D,unique,red,priest,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,B,shared,red,mouse,D,unique,red,priest,D,unique,red,priest,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,blue,L,shared,blue,zigzag,H,unique,blue,no arms,H,unique,blue,no arms,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,B,shared,blue,mouse,A,unique,blue,zombie,A,unique,blue,zombie,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,B,shared,red,mouse,A,unique,red,thriller,A,unique,red,thriller,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,refer,blue,C,shared,blue,falling guy,C,,unseen,no legs,C,shared,blue,falling guy,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,L,shared,red,zigzag,D,unique,red,priest,D,unique,red,priest,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,L,shared,red,zigzag,A,unique,red,thriller,A,unique,red,thriller,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,social,blue,D,unique,red,priest,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,C,shared,blue,falling guy,H,unique,blue,no arms,H,unique,blue,no arms,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,B,shared,blue,mouse,H,unique,blue,no arms,H,unique,blue,no arms,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,refer,red,L,shared,red,zigzag,L,,unseen,bent knees,L,shared,red,zigzag,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,refer,red,B,shared,red,mouse,D,unique,red,priest,D,unique,red,priest,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,blue,C,shared,blue,falling guy,A,unique,blue,zombie,A,unique,blue,zombie,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,social,red,A,unique,red,thriller,A,unique,blue,zombie,A,unique,red,thriller,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,same,refer,blue,B,shared,blue,mouse,B,,unseen,princess dance,B,shared,blue,mouse,yes
+f8ab3d39-4da1-4ddd-b58b-a7e1653d30f2,0,diff,social,red,C,shared,red,falling guy,H,unique,red,baby,H,unique,red,baby,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,L,shared,blue,zigzag,A,unique,blue,zombie,L,shared,blue,zigzag,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,C,shared,red,falling guy,D,unique,red,priest,C,shared,red,falling guy,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,B,shared,red,mouse,A,unique,red,thriller,A,unique,red,thriller,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,C,shared,red,falling guy,H,unique,red,baby,C,shared,red,falling guy,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,L,shared,blue,zigzag,A,unique,blue,zombie,A,unique,blue,zombie,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,L,shared,blue,zigzag,H,unique,blue,no arms,H,unique,blue,no arms,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,C,shared,blue,falling guy,A,unique,blue,zombie,A,unique,blue,zombie,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,L,shared,red,zigzag,H,unique,red,baby,L,shared,red,zigzag,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,B,shared,blue,mouse,A,unique,blue,zombie,A,unique,blue,zombie,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,B,shared,red,mouse,H,unique,red,baby,B,shared,red,mouse,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,B,shared,red,mouse,D,unique,red,priest,B,shared,red,mouse,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,social,blue,D,unique,red,priest,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,L,shared,red,zigzag,H,unique,red,baby,L,shared,red,zigzag,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,C,shared,blue,falling guy,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,C,shared,red,falling guy,H,unique,red,baby,H,unique,red,baby,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,B,shared,red,mouse,A,unique,red,thriller,A,unique,red,thriller,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,C,shared,blue,falling guy,D,unique,blue,long sleeved book,C,shared,blue,falling guy,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,B,shared,blue,mouse,H,unique,blue,no arms,H,unique,blue,no arms,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,social,blue,H,unique,red,baby,H,unique,blue,no arms,H,unique,blue,no arms,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,L,shared,red,zigzag,D,unique,red,priest,D,unique,red,priest,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,refer,red,L,shared,red,zigzag,L,,unseen,bent knees,L,shared,red,zigzag,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,refer,red,B,shared,red,mouse,B,,unseen,princess dance,B,shared,red,mouse,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,B,shared,blue,mouse,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,L,shared,red,zigzag,A,unique,red,thriller,A,unique,red,thriller,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,L,shared,blue,zigzag,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,L,shared,red,zigzag,D,unique,red,priest,L,shared,red,zigzag,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,L,shared,red,zigzag,A,unique,red,thriller,A,unique,red,thriller,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,refer,blue,L,shared,blue,zigzag,L,,unseen,bent knees,L,,unseen,bent knees,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,refer,blue,C,shared,blue,falling guy,C,,unseen,no legs,C,shared,blue,falling guy,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,C,shared,red,falling guy,A,unique,red,thriller,A,unique,red,thriller,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,social,blue,A,unique,red,thriller,A,unique,blue,zombie,A,unique,blue,zombie,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,social,red,D,unique,red,priest,D,unique,blue,long sleeved book,D,unique,red,priest,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,B,shared,blue,mouse,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,C,shared,red,falling guy,D,unique,red,priest,C,shared,red,falling guy,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,C,shared,blue,falling guy,H,unique,blue,no arms,H,unique,blue,no arms,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,C,shared,blue,falling guy,H,unique,blue,no arms,H,unique,blue,no arms,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,B,shared,blue,mouse,H,unique,blue,no arms,H,unique,blue,no arms,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,blue,L,shared,blue,zigzag,H,unique,blue,no arms,H,unique,blue,no arms,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,B,shared,blue,mouse,A,unique,blue,zombie,A,unique,blue,zombie,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,refer,red,C,shared,red,falling guy,C,,unseen,no legs,C,shared,red,falling guy,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,social,red,C,shared,red,falling guy,A,unique,red,thriller,A,unique,red,thriller,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,social,red,H,unique,red,baby,H,unique,blue,no arms,H,unique,red,baby,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,L,shared,blue,zigzag,D,unique,blue,long sleeved book,D,unique,blue,long sleeved book,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,refer,blue,B,shared,blue,mouse,B,,unseen,princess dance,B,shared,blue,mouse,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,blue,C,shared,blue,falling guy,A,unique,blue,zombie,A,unique,blue,zombie,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,same,social,red,A,unique,red,thriller,A,unique,blue,zombie,A,unique,red,thriller,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,B,shared,red,mouse,D,unique,red,priest,D,unique,red,priest,yes
+fe1d531c-54dd-4d3e-b5da-ab0d2573df04,0,diff,refer,red,B,shared,red,mouse,H,unique,red,baby,H,unique,red,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,D,shared,blue,priest,C,unique,blue,no legs,C,unique,blue,no legs,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,A,shared,red,thriller,B,unique,red,mouse,A,shared,red,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,social,red,B,unique,red,mouse,B,unique,blue,princess dance,B,unique,red,mouse,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,A,shared,blue,thriller,C,unique,blue,no legs,A,shared,blue,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,social,red,C,unique,red,falling guy,C,unique,blue,no legs,C,unique,blue,no legs,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,D,shared,blue,priest,L,unique,blue,bent knees,D,shared,blue,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,refer,blue,D,shared,blue,priest,D,,unseen,long sleeved book,D,shared,blue,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,A,shared,red,thriller,C,unique,red,falling guy,C,unique,red,falling guy,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,D,shared,red,priest,C,unique,red,falling guy,D,shared,red,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,refer,red,D,shared,red,priest,D,,unseen,long sleeved book,D,shared,red,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,H,shared,red,baby,C,unique,red,falling guy,H,shared,red,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,A,shared,red,thriller,C,unique,red,falling guy,A,shared,red,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,D,shared,red,priest,L,unique,red,zigzag,L,unique,red,zigzag,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,refer,blue,H,shared,blue,baby,H,,unseen,no arms,H,shared,blue,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,H,shared,blue,baby,C,unique,blue,no legs,H,shared,blue,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,H,shared,blue,baby,B,unique,blue,princess dance,H,shared,blue,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,D,shared,red,priest,B,unique,red,mouse,D,shared,red,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,A,shared,red,thriller,B,unique,red,mouse,A,shared,red,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,H,shared,red,baby,L,unique,red,zigzag,H,shared,red,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,A,shared,blue,thriller,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,H,shared,red,baby,B,unique,red,mouse,B,unique,red,mouse,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,H,shared,blue,baby,L,unique,blue,bent knees,H,shared,blue,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,H,shared,blue,baby,C,unique,blue,no legs,H,shared,blue,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,H,shared,red,baby,C,unique,red,falling guy,C,unique,red,falling guy,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,social,red,L,unique,red,zigzag,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,refer,blue,A,shared,blue,thriller,A,,unseen,zombie,A,shared,blue,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,A,shared,blue,thriller,B,unique,blue,princess dance,A,shared,blue,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,H,shared,red,baby,B,unique,red,mouse,H,shared,red,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,A,shared,red,thriller,L,unique,red,zigzag,A,shared,red,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,H,shared,blue,baby,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,D,shared,blue,priest,C,unique,blue,no legs,D,shared,blue,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,refer,red,A,shared,red,thriller,A,,unseen,zombie,A,shared,red,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,A,shared,blue,thriller,C,unique,blue,no legs,C,unique,blue,no legs,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,refer,red,H,shared,red,baby,H,,unseen,no arms,H,shared,red,baby,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,H,shared,blue,baby,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,A,shared,blue,thriller,L,unique,blue,bent knees,A,shared,blue,thriller,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,D,shared,red,priest,B,unique,red,mouse,D,shared,red,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,red,D,shared,red,priest,L,unique,red,zigzag,D,shared,red,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,D,shared,blue,priest,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,D,shared,red,priest,C,unique,red,falling guy,D,shared,red,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,A,shared,red,thriller,L,unique,red,zigzag,L,unique,red,zigzag,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,D,shared,blue,priest,B,unique,blue,princess dance,D,shared,blue,priest,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,refer,blue,D,shared,blue,priest,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,blue,A,shared,blue,thriller,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,social,blue,C,unique,red,falling guy,C,unique,blue,no legs,C,unique,blue,no legs,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,diff,social,red,H,shared,red,baby,L,unique,red,zigzag,L,unique,red,zigzag,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,social,blue,L,unique,red,zigzag,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+3fb9ccf1-ec43-4574-b643-6b6cafa8d3e5,1,same,social,blue,B,unique,red,mouse,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,D,shared,red,priest,C,unique,red,falling guy,D,shared,red,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,A,shared,red,thriller,L,unique,red,zigzag,L,unique,red,zigzag,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,D,shared,red,priest,B,unique,red,mouse,D,shared,red,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,refer,red,A,shared,red,thriller,A,,unseen,zombie,A,,unseen,zombie,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,A,shared,blue,thriller,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,D,shared,red,priest,C,unique,red,falling guy,C,unique,red,falling guy,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,A,shared,blue,thriller,C,unique,blue,no legs,C,unique,blue,no legs,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,D,shared,red,priest,B,unique,red,mouse,D,shared,red,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,D,shared,blue,priest,L,unique,blue,bent knees,D,shared,blue,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,refer,red,D,shared,red,priest,D,,unseen,long sleeved book,D,,unseen,long sleeved book,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,social,red,C,unique,red,falling guy,C,unique,blue,no legs,C,unique,red,falling guy,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,A,shared,blue,thriller,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,H,shared,red,baby,B,unique,red,mouse,B,unique,red,mouse,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,refer,blue,D,shared,blue,priest,D,,unseen,long sleeved book,D,shared,blue,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,D,shared,blue,priest,C,unique,blue,no legs,C,unique,blue,no legs,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,A,shared,red,thriller,C,unique,red,falling guy,C,unique,red,falling guy,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,social,red,B,unique,red,mouse,B,unique,blue,princess dance,B,unique,red,mouse,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,H,shared,blue,baby,C,unique,blue,no legs,C,unique,blue,no legs,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,H,shared,blue,baby,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,D,shared,blue,priest,B,unique,blue,princess dance,D,shared,blue,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,A,shared,red,thriller,C,unique,red,falling guy,C,unique,red,falling guy,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,A,shared,blue,thriller,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,A,shared,red,thriller,B,unique,red,mouse,A,shared,red,thriller,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,H,shared,red,baby,L,unique,red,zigzag,L,unique,red,zigzag,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,H,shared,blue,baby,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,refer,blue,H,shared,blue,baby,H,,unseen,no arms,H,shared,blue,baby,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,refer,red,H,shared,red,baby,H,,unseen,no arms,H,,unseen,no arms,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,refer,blue,A,shared,blue,thriller,A,,unseen,zombie,A,,unseen,zombie,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,H,shared,red,baby,L,unique,red,zigzag,H,shared,red,baby,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,D,shared,blue,priest,C,unique,blue,no legs,C,unique,blue,no legs,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,social,blue,C,unique,red,falling guy,C,unique,blue,no legs,C,unique,red,falling guy,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,H,shared,blue,baby,B,unique,blue,princess dance,H,shared,blue,baby,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,social,blue,B,unique,red,mouse,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,A,shared,red,thriller,B,unique,red,mouse,A,shared,red,thriller,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,H,shared,red,baby,C,unique,red,falling guy,C,unique,red,falling guy,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,A,shared,blue,thriller,C,unique,blue,no legs,C,unique,blue,no legs,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,social,blue,L,unique,red,zigzag,L,unique,blue,bent knees,L,unique,red,zigzag,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,H,shared,blue,baby,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,H,shared,red,baby,C,unique,red,falling guy,C,unique,red,falling guy,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,H,shared,blue,baby,C,unique,blue,no legs,C,unique,blue,no legs,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,same,social,red,L,unique,red,zigzag,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,D,shared,red,priest,L,unique,red,zigzag,D,shared,red,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,blue,D,shared,blue,priest,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,A,shared,red,thriller,L,unique,red,zigzag,A,shared,red,thriller,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,social,red,D,shared,red,priest,L,unique,red,zigzag,D,shared,red,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,D,shared,blue,priest,L,unique,blue,bent knees,D,shared,blue,priest,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,red,H,shared,red,baby,B,unique,red,mouse,H,shared,red,baby,yes
+7ee45547-631e-4b0b-885d-1fc20154f219,1,diff,refer,blue,A,shared,blue,thriller,B,unique,blue,princess dance,A,shared,blue,thriller,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,H,shared,red,baby,B,unique,red,mouse,H,shared,red,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,refer,red,D,shared,red,priest,D,,unseen,long sleeved book,D,shared,red,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,social,blue,B,unique,red,mouse,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,A,shared,red,thriller,C,unique,red,falling guy,C,unique,red,falling guy,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,refer,red,A,shared,red,thriller,A,,unseen,zombie,A,shared,red,thriller,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,D,shared,blue,priest,B,unique,blue,princess dance,D,shared,blue,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,social,blue,L,unique,red,zigzag,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,H,shared,blue,baby,L,unique,blue,bent knees,H,shared,blue,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,A,shared,blue,thriller,B,unique,blue,princess dance,A,shared,blue,thriller,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,refer,blue,H,shared,blue,baby,H,,unseen,no arms,H,shared,blue,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,H,shared,blue,baby,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,A,shared,blue,thriller,C,unique,blue,no legs,C,unique,blue,no legs,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,A,shared,red,thriller,B,unique,red,mouse,B,unique,red,mouse,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,social,red,B,unique,red,mouse,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,D,shared,blue,priest,L,unique,blue,bent knees,D,shared,blue,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,H,shared,blue,baby,C,unique,blue,no legs,H,shared,blue,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,D,shared,blue,priest,C,unique,blue,no legs,D,shared,blue,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,D,shared,red,priest,L,unique,red,zigzag,D,shared,red,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,A,shared,blue,thriller,B,unique,blue,princess dance,A,shared,blue,thriller,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,social,red,C,unique,red,falling guy,C,unique,blue,no legs,C,unique,blue,no legs,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,D,shared,red,priest,B,unique,red,mouse,D,shared,red,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,H,shared,red,baby,C,unique,red,falling guy,C,unique,red,falling guy,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,H,shared,blue,baby,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,D,shared,blue,priest,B,unique,blue,princess dance,D,shared,blue,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,A,shared,blue,thriller,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,refer,blue,D,shared,blue,priest,D,,unseen,long sleeved book,D,shared,blue,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,H,shared,blue,baby,C,unique,blue,no legs,H,shared,blue,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,A,shared,red,thriller,C,unique,red,falling guy,C,unique,red,falling guy,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,refer,red,H,shared,red,baby,H,,unseen,no arms,H,shared,red,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,D,shared,red,priest,C,unique,red,falling guy,D,shared,red,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,H,shared,red,baby,B,unique,red,mouse,H,shared,red,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,H,shared,red,baby,C,unique,red,falling guy,H,shared,red,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,D,shared,red,priest,C,unique,red,falling guy,C,unique,red,falling guy,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,A,shared,red,thriller,B,unique,red,mouse,A,shared,red,thriller,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,A,shared,blue,thriller,L,unique,blue,bent knees,A,shared,blue,thriller,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,D,shared,blue,priest,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,H,shared,red,baby,L,unique,red,zigzag,L,unique,red,zigzag,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,A,shared,red,thriller,L,unique,red,zigzag,A,shared,red,thriller,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,H,shared,blue,baby,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,A,shared,red,thriller,L,unique,red,zigzag,A,shared,red,thriller,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,blue,D,shared,blue,priest,C,unique,blue,no legs,D,shared,blue,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,D,shared,red,priest,B,unique,red,mouse,B,unique,red,mouse,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,social,blue,C,unique,red,falling guy,C,unique,blue,no legs,C,unique,red,falling guy,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,refer,blue,A,shared,blue,thriller,A,,unseen,zombie,A,,unseen,zombie,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,refer,red,H,shared,red,baby,L,unique,red,zigzag,H,shared,red,baby,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,same,social,red,L,unique,red,zigzag,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,red,D,shared,red,priest,L,unique,red,zigzag,D,shared,red,priest,yes
+e28fa527-8a42-4fbd-b274-4d471fb60f28,1,diff,social,blue,A,shared,blue,thriller,C,unique,blue,no legs,A,shared,blue,thriller,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,D,shared,red,priest,B,unique,red,mouse,D,shared,red,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,refer,blue,H,shared,blue,baby,H,,unseen,no arms,H,shared,blue,baby,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,A,shared,blue,thriller,C,unique,blue,no legs,A,shared,blue,thriller,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,H,shared,red,baby,B,unique,red,mouse,H,shared,red,baby,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,D,shared,blue,priest,C,unique,blue,no legs,D,shared,blue,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,D,shared,red,priest,L,unique,red,zigzag,L,unique,red,zigzag,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,A,shared,red,thriller,L,unique,red,zigzag,L,unique,red,zigzag,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,A,shared,blue,thriller,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,H,shared,blue,baby,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,social,red,L,unique,red,zigzag,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,D,shared,red,priest,C,unique,red,falling guy,D,shared,red,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,D,shared,blue,priest,C,unique,blue,no legs,D,shared,blue,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,A,shared,red,thriller,C,unique,red,falling guy,A,shared,red,thriller,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,D,shared,blue,priest,L,unique,blue,bent knees,D,shared,blue,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,H,shared,red,baby,C,unique,red,falling guy,C,unique,red,falling guy,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,D,shared,red,priest,L,unique,red,zigzag,D,shared,red,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,D,shared,red,priest,B,unique,red,mouse,D,shared,red,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,A,shared,blue,thriller,C,unique,blue,no legs,C,unique,blue,no legs,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,H,shared,red,baby,C,unique,red,falling guy,C,unique,red,falling guy,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,social,blue,C,unique,red,falling guy,C,unique,blue,no legs,C,unique,blue,no legs,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,refer,red,H,shared,red,baby,H,,unseen,no arms,H,,unseen,no arms,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,A,shared,blue,thriller,B,unique,blue,princess dance,A,shared,blue,thriller,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,social,blue,L,unique,red,zigzag,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,D,shared,blue,priest,L,unique,blue,bent knees,D,shared,blue,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,H,shared,red,baby,L,unique,red,zigzag,L,unique,red,zigzag,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,D,shared,red,priest,C,unique,red,falling guy,C,unique,red,falling guy,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,H,shared,blue,baby,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,A,shared,red,thriller,C,unique,red,falling guy,A,shared,red,thriller,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,A,shared,blue,thriller,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,refer,red,D,shared,red,priest,D,,unseen,long sleeved book,D,shared,red,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,H,shared,blue,baby,L,unique,blue,bent knees,L,unique,blue,bent knees,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,social,red,B,unique,red,mouse,B,unique,blue,princess dance,B,unique,red,mouse,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,refer,blue,A,shared,blue,thriller,A,,unseen,zombie,A,,unseen,zombie,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,H,shared,red,baby,B,unique,red,mouse,B,unique,red,mouse,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,red,A,shared,red,thriller,B,unique,red,mouse,B,unique,red,mouse,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,D,shared,blue,priest,B,unique,blue,princess dance,D,shared,blue,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,A,shared,blue,thriller,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,H,shared,blue,baby,C,unique,blue,no legs,C,unique,blue,no legs,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,social,blue,B,unique,red,mouse,B,unique,blue,princess dance,B,unique,red,mouse,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,H,shared,blue,baby,C,unique,blue,no legs,C,unique,blue,no legs,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,blue,H,shared,blue,baby,B,unique,blue,princess dance,B,unique,blue,princess dance,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,refer,red,A,shared,red,thriller,A,,unseen,zombie,A,,unseen,zombie,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,refer,blue,D,shared,blue,priest,D,,unseen,long sleeved book,D,shared,blue,priest,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,H,shared,red,baby,L,unique,red,zigzag,L,unique,red,zigzag,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,A,shared,red,thriller,B,unique,red,mouse,A,shared,red,thriller,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,same,social,red,C,unique,red,falling guy,C,unique,blue,no legs,C,unique,blue,no legs,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,social,red,A,shared,red,thriller,L,unique,red,zigzag,A,shared,red,thriller,yes
+2895ba61-9568-4564-84c0-4e1c0c9101d3,1,diff,refer,blue,D,shared,blue,priest,B,unique,blue,princess dance,D,shared,blue,priest,yes
