@@ -46,7 +46,7 @@ class ChatBubble(Group):
         message: str,
         bubble_color,
         text_color=WHITE,
-        avatar: str = None,
+        avatar: str = None, # type: ignore
         role: str = "speaker",
         **kwargs,
     ):
@@ -110,7 +110,7 @@ class ChatAnimation(Scene):
                     animations.append(
                         ApplyMethod(
                             bubble.shift, UP * (chat_bubble.height + BUBBLE_SHIFT)
-                        )
+                        ) # type: ignore
                     )
 
             self.align_chat_bubble(chat_bubble, item["role"])
