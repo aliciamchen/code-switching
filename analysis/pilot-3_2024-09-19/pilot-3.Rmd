@@ -1,7 +1,7 @@
 ---
-title: "pilot 2"
+title: "pilot 3"
 author: "Alicia Chen"
-date: "2024-09-18"
+date: "2024-09-19"
 output:
   html_document: default
 ---
@@ -17,7 +17,7 @@ theme_set(theme_classic(base_size = 20))
 # Selection trials
 
 ```{r}
-selection_trials <- read_csv(here("data", "pilot-2_2024-09-18", "selection_trials.csv")) %>% 
+selection_trials <- read_csv(here("data", "pilot-3_2024-09-19", "selection_trials.csv")) %>% 
   group_by(subject_id) %>%
   mutate(trial_num = row_number()) %>% 
   select(subject_id, item_id, trial_num, everything()) %>% 
@@ -135,7 +135,7 @@ ggplot(
   geom_hline(yintercept = 0.5,
              color = "red",
              linetype = "dashed") +
-  labs(x = "audience + goal", y = "shared or unique", title = "different tangrams1") +
+  labs(x = "audience + goal", y = "shared or unique", title = "different tangrams") +
   scale_y_continuous(breaks = c(0, 1),
                      labels = c("unique", "shared"))
 
@@ -310,7 +310,7 @@ control_trials_social.memory <- control_trials_social %>%
 # Exit survey
 
 ```{r}
-exit_survey <- read_csv(here("data", "pilot-2_2024-09-18", "exit_survey.csv"))
+exit_survey <- read_csv(here("data", "pilot-3_2024-09-19", "exit_survey.csv"))
 ```
 
 What feedback did participants give?

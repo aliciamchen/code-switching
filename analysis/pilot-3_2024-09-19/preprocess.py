@@ -6,7 +6,7 @@ import uuid
 
 def main():
 
-    in_dir = "../../data/pilot-2_2024-09-18/"
+    in_dir = "../../data/pilot-3_2024-09-19/"
     filenames = sorted(glob.glob(in_dir + "raw_data" + "/*.json"))
 
     selection_trial_headers = [
