@@ -2,7 +2,7 @@
 
 This version of the pilot is the same as pilot 2, but the base pay was switched to $10 and participants could get a perfornace bonus ($0.10 per 'correct' choice) for the 2AFC trials. Realistically, all participants were awarded a $5 bonus.
 
-This version of the experiment was made with commit #7c675b4
+This version of the experiment was made with commit #8e59906
 
 ## `selection_trials.csv`: the 2AFC trials
 
