@@ -8,7 +8,8 @@ async function createExit(item_id, jsPsych) {
     const exit_survey = {
       type: jsPsychSurveyHtmlForm,
       preamble: `
-        <p>You have reached the end of the experiment! Thank you for your participation. To collect your pay, please complete the following questions. Your answer to these questions will not affect your pay, so please answer honestly.</p>
+        <p>You have reached the end of the experiment! Thank you for your participation. Note: There weren't any 'correct' answers to the questions, so we will award everyone a bonus of $5.</p>
+        <p><strong>To collect your pay, please complete the following questions. Your answer to these questions will not affect your pay, so please answer honestly.</strong></p>
         `,
       html: text,
       button_label: ["Continue, save data, and collect pay!"],
