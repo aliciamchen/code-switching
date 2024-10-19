@@ -26,7 +26,7 @@ def generate_main_trials(lexicon, shared_tangrams, unique_tangrams):
             trial = {
                 "type": "diff",  # the two tangrams are different
                 "goal": "refer",
-                "audience": "both",
+                "audience": "either",
                 "options": [
                     [
                         entry
@@ -67,7 +67,6 @@ def generate_main_trials(lexicon, shared_tangrams, unique_tangrams):
                 }
                 trials.append(trial)
 
-    print(f"Generated {len(trials)} main trials")
     return trials
 
 
@@ -81,7 +80,7 @@ def generate_control_trials(
     shared_control_trials = []
     for shared_tangram in shared_set:
         for audience_group in ["red", "blue"]:
-            this_option_ = [
+            this_option = [
                 entry
                 for entry in this_lexicon
                 if (entry["group"] == audience_group)
@@ -91,7 +90,7 @@ def generate_control_trials(
                 entry
                 for entry in other_lexicon
                 if (entry["tangram"] == shared_tangram)
-                and (entry["label"] != this_option_["label"])
+                and (entry["label"] != this_option["label"])
             ][0]
 
             # drop "shared" and "group" keys from unseen_label_option
@@ -99,9 +98,6 @@ def generate_control_trials(
             unseen_label_option.pop("shared", None)
             unseen_label_option.pop("group", None)
             unseen_label_option["group"] = "unseen"
-
-            this_option = this_option_.copy()
-            this_option.pop("group", None)
 
             trial = {
                 "type": "same",
@@ -112,17 +108,6 @@ def generate_control_trials(
                 "options": [this_option, unseen_label_option],
             }
             shared_control_trials.append(trial)
-
-        # 'refer' both groups control trial (there should be 3 of these)
-        # (these are not group specific)
-        trial = {
-            "type": "same",
-            "goal": "refer",
-            "audience": "both",
-            "unseen_label": unseen_label_option["label"],
-            "options": [this_option, unseen_label_option],
-        }
-        shared_control_trials.append(trial)
 
     unique_control_trials = []
     for unique_tangram in unique_set:
@@ -150,12 +135,12 @@ def generate_control_trials(
     return shared_control_trials + unique_control_trials
 
 
-def main(items):
-    for item_num in items:
-        with open(f"../items/item_{item_num}_lexicon.json", "r") as f:
+def generate_2afc_trials(item_num):
+    for counterbalance in ["a", "b"]:
+        with open(f"../items/item_{item_num}_{counterbalance}_lexicon.json", "r") as f:
             lexicon = json.load(f)
-        other_item_num = 1 if item_num == 0 else 0
-        with open(f"../items/item_{other_item_num}_lexicon.json", "r") as f:
+        other_counterbalance = "b" if counterbalance == "a" else "a"
+        with open(f"../items/item_{item_num}_{other_counterbalance}_lexicon.json", "r") as f:
             other_lexicon = json.load(f)
 
         shared_tangrams, unique_tangrams = separate_tangrams(lexicon)
@@ -164,12 +149,13 @@ def main(items):
             lexicon, other_lexicon, shared_tangrams, unique_tangrams
         )
         trials = main_trials + control_trials
-        print(f"Generated {len(trials)} sets of trials for item {item_num}")
-        with open(f"../2AFC_trials/item_{item_num}_2AFC.json", "w") as json_file:
+        print(f"Generated {len(trials)} sets of trials for item {item_num} {counterbalance}")
+        with open(f"../2AFC_trials/item_{item_num}_{counterbalance}_2AFC.json", "w") as json_file:
             json.dump(trials, json_file, indent=2)
-            print(f"Saved in ../2AFC_trials/item_{item_num}_2AFC.json")
+            print(f"Saved in ../2AFC_trials/item_{item_num}_{counterbalance}_2AFC.json")
 
 
 if __name__ == "__main__":
-    main([0, 1])
-    print("Done")
+    generate_2afc_trials(item_num=0)
+    generate_2afc_trials(item_num=1)
+    generate_2afc_trials(item_num=2)

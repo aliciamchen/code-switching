@@ -1,66 +1,66 @@
 {
     "red": {
-      "A": {
-        "label": "thriller",
-        "shared": "shared",
-        "game": "3WzEi9zkHF77vdTw5"
-      },
-      "B": {
-        "label": "mouse",
+      "E": {
+        "label": "windmill",
         "shared": "unique",
-        "game": "hHoRuwi7p8k2XhzD3"
-      },
-      "C": {
-        "label": "falling guy",
-        "shared": "unique",
-        "game": "hhTtzgf2BMCbDwG5i"
-      },
-      "D": {
-        "label": "priest",
-        "shared": "shared",
         "game": "kBQMXHtyqWiM2LxL6"
       },
-      "H": {
-        "label": "baby",
+      "F": {
+        "label": "sad",
         "shared": "shared",
-        "game": "rSMFkjhskBteiyQMB"
+        "game": "pAaZt2Cv9MEFRCAY5"
       },
-      "L": {
-        "label": "zigzag",
+      "G": {
+        "label": "leg",
+        "shared": "shared",
+        "game": "BXWWg9XvCErxTpT9k"
+      },
+      "I": {
+        "label": "ballerina",
         "shared": "unique",
-        "game": "hHoRuwi7p8k2XhzD3"
+        "game": "pAaZt2Cv9MEFRCAY5"
+      },
+      "J": {
+        "label": "fat guy",
+        "shared": "unique",
+        "game": "XpTJWaJYpSojYdngB"
+      },
+      "K": {
+        "label": "on their knees",
+        "shared": "shared",
+        "game": "cA2SjWv3CePYZgyzS"
       }
     },
     "blue": {
-      "A": {
-        "label": "thriller",
+      "E": {
+        "label": "bunny ears",
+        "shared": "unique",
+        "game": "Sjf5nadz9keqBvs24"
+      },
+      "F": {
+        "label": "sad",
         "shared": "shared",
-        "game": "P8wDF8HAYYAcwBYsm"
+        "game": "rSMFkjhskBteiyQMB"
       },
-      "B": {
-        "label": "princess dance",
+      "G": {
+        "label": "leg",
+        "shared": "shared",
+        "game": "pAaZt2Cv9MEFRCAY5"
+      },
+      "I": {
+        "label": "ice skater",
         "shared": "unique",
-        "game": "BXWWg9XvCErxTpT9k"
+        "game": "hhTtzgf2BMCbDwG5i"
       },
-      "C": {
-        "label": "no legs",
+      "J": {
+        "label": "large cube",
         "shared": "unique",
-        "game": "hHoRuwi7p8k2XhzD3"
+        "game": "3AT9PDD5rDrb5GS4e"
       },
-      "D": {
-        "label": "priest",
+      "K": {
+        "label": "on their knees",
         "shared": "shared",
         "game": "ogPZPPCKpGn4votMa"
-      },
-      "H": {
-        "label": "baby",
-        "shared": "shared",
-        "game": "kBQMXHtyqWiM2LxL6"
-      },
-      "L": {
-        "label": "bent knees",
-        "shared": "unique",
-        "game": "rSMFkjhskBteiyQMB"
       }
     }
   }

@@ -1,63 +1,63 @@
 [
     {
-      "tangram": "E",
+      "tangram": "A",
       "shared": "unique",
       "group": "red",
-      "label": "windmill"
+      "label": "thriller"
+    },
+    {
+      "tangram": "A",
+      "shared": "unique",
+      "group": "blue",
+      "label": "zombie"
+    },
+    {
+      "tangram": "C",
+      "shared": "shared",
+      "group": "red",
+      "label": "falling guy"
+    },
+    {
+      "tangram": "C",
+      "shared": "shared",
+      "group": "blue",
+      "label": "falling guy"
     },
     {
       "tangram": "E",
-      "shared": "unique",
+      "shared": "shared",
+      "group": "red",
+      "label": "bunny ears"
+    },
+    {
+      "tangram": "E",
+      "shared": "shared",
       "group": "blue",
       "label": "bunny ears"
     },
     {
-      "tangram": "F",
-      "shared": "shared",
-      "group": "red",
-      "label": "sad"
-    },
-    {
-      "tangram": "F",
-      "shared": "shared",
-      "group": "blue",
-      "label": "sad"
-    },
-    {
       "tangram": "G",
-      "shared": "shared",
+      "shared": "unique",
       "group": "red",
       "label": "leg"
     },
     {
       "tangram": "G",
-      "shared": "shared",
+      "shared": "unique",
       "group": "blue",
-      "label": "leg"
+      "label": "dog"
     },
     {
       "tangram": "I",
       "shared": "unique",
       "group": "red",
-      "label": "ballerina"
-    },
-    {
-      "tangram": "I",
-      "shared": "unique",
-      "group": "blue",
       "label": "ice skater"
     },
     {
-      "tangram": "J",
-      "shared": "unique",
-      "group": "red",
-      "label": "fat guy"
-    },
-    {
-      "tangram": "J",
+      "tangram": "I",
       "shared": "unique",
       "group": "blue",
-      "label": "large cube"
+      "label": "yoga guy"
     },
     {
       "tangram": "K",

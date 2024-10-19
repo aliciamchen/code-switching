@@ -2,8 +2,10 @@
 async function makeTrials(jsPsych) {
   try {
     const condition = await jsPsychPipe.getCondition("ZycTOU10DI0v");
-    const item_id = condition % 2;
-    console.log(condition, item_id);
+    const item_id = Math.floor(condition / 2) % 3;
+    const counterbalance = condition % 2 === 0 ? 'a' : 'b';
+
+    console.log(condition, item_id, counterbalance);
 
     jsPsych.data.addProperties({
       subject_id: subject_id,
@@ -11,6 +13,7 @@ async function makeTrials(jsPsych) {
       session_id: session_id,
       condition: condition,
       item_id: item_id,
+      counterbalance: counterbalance,
       url: window.location.href,
     });
 
@@ -32,11 +35,11 @@ async function makeTrials(jsPsych) {
     timeline.push(comprehensionLoop);
 
     // observation phase
-    const videoTrials = await createVideoTrials(item_id, jsPsych);
+    const videoTrials = await createVideoTrials(item_id, counterbalance, jsPsych);
     timeline.push(videoTrials);
 
     // selection phase
-    const selectionTrials = await createSelectionTrials(item_id, jsPsych);
+    const selectionTrials = await createSelectionTrials(item_id, counterbalance, jsPsych);
     timeline.push(selectionTrials);
 
     // exit survey

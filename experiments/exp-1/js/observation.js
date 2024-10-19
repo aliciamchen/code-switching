@@ -1,5 +1,5 @@
-async function getAvailableTangrams(item_id) {
-  const response = await fetch(`stim/items/item_${item_id}_game_info.json`);
+async function getAvailableTangrams(item_id, counterbalance) {
+  const response = await fetch(`stim/items/item_${item_id}_${counterbalance}_game_info.json`);
   const data = await response.json();
 
   // get the possible tangrams, which are the keys in the 2nd level
@@ -8,9 +8,9 @@ async function getAvailableTangrams(item_id) {
   return available_tangrams;
 }
 
-async function createVideoTrials(item_id, jsPsych) {
+async function createVideoTrials(item_id, counterbalance, jsPsych) {
   try {
-    const available_tangrams = await getAvailableTangrams(item_id);
+    const available_tangrams = await getAvailableTangrams(item_id, counterbalance);
 
     // show all targets for repNum 0 in randomized order, for one color and then for the other color
     // more specifically, e.g. for repNum 0 first show all the red, target A, in randomized order
@@ -49,7 +49,7 @@ async function createVideoTrials(item_id, jsPsych) {
           const video_trial = {
             type: jsPsychVideoButtonResponse,
             stimulus: [
-              `stim/convo_vids/videos/480p15/item_${item_id}_${color}_target_${tangram}_repNum_${repNum}.mp4`,
+              `stim/convo_vids/videos/480p15/item_${item_id}_${counterbalance}_${color}_target_${tangram}_repNum_${repNum}.mp4`,
             ],
             width: 800,
             choices: ["Continue"],

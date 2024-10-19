@@ -249,8 +249,8 @@ class ChatAnimation(Scene):
         self.add(correct_guesses_text)
         self.wait(0.5)
 
-def generate_videos_for_item(item_number, is_pilot=False):
-    with open(f"../items/item_{item_number}_game_info.json", "r") as f:
+def generate_videos_for_item(item_number, counterbalance):
+    with open(f"../items/item_{item_number}_{counterbalance}_game_info.json", "r") as f:
         game_info = json.load(f)
     available_tangrams = list(game_info["red"].keys())
     assert list(game_info["blue"].keys()) == available_tangrams
@@ -262,7 +262,7 @@ def generate_videos_for_item(item_number, is_pilot=False):
             with open(f"../convos/tangram_{tangram}_game_{info["game"]}.json", "r") as f:
                 convs = json.load(f)
                 for conv in convs:
-                    config.output_file = f"item_{item_number}_{color}_target_{conv['target']}_repNum_{conv["repNum"]}.mp4"
+                    config.output_file = f"item_{item_number}_{counterbalance}_{color}_target_{conv['target']}_repNum_{conv["repNum"]}.mp4"
                     config.quality = "low_quality"
                     scene = ChatAnimation(conv, available_tangrams, color)
                     scene.render()
@@ -271,6 +271,11 @@ def generate_videos_for_item(item_number, is_pilot=False):
 
 if __name__ == "__main__":
 
-    generate_videos_for_item(0, is_pilot=True)
-    generate_videos_for_item(1, is_pilot=True)
+    generate_videos_for_item(item_number=0, counterbalance="a")
+    generate_videos_for_item(item_number=0, counterbalance="b")
+    generate_videos_for_item(item_number=1, counterbalance="a")
+    generate_videos_for_item(item_number=1, counterbalance="b")
+    generate_videos_for_item(item_number=2, counterbalance="a")
+    generate_videos_for_item(item_number=2, counterbalance="b")
+
 

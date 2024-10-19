@@ -8,125 +8,7 @@
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "thriller"
-      },
-      {
-        "tangram": "B",
-        "shared": "unique",
-        "group": "red",
-        "label": "mouse"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "thriller"
-      },
-      {
-        "tangram": "B",
-        "shared": "unique",
-        "group": "red",
-        "label": "mouse"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "thriller"
-      },
-      {
-        "tangram": "B",
-        "shared": "unique",
-        "group": "red",
-        "label": "mouse"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "thriller"
-      },
-      {
-        "tangram": "B",
-        "shared": "unique",
-        "group": "blue",
-        "label": "princess dance"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "thriller"
-      },
-      {
-        "tangram": "B",
-        "shared": "unique",
-        "group": "blue",
-        "label": "princess dance"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "thriller"
-      },
-      {
-        "tangram": "B",
-        "shared": "unique",
-        "group": "blue",
-        "label": "princess dance"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
         "tangram": "C",
@@ -146,7 +28,7 @@
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
         "tangram": "C",
@@ -166,7 +48,7 @@
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
         "tangram": "C",
@@ -185,13 +67,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -205,13 +87,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -225,13 +107,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -244,13 +126,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -264,13 +146,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -284,13 +166,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -303,13 +185,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -323,13 +205,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -343,13 +225,13 @@
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -359,16 +241,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "zombie"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "on their knees"
       }
     ]
   },
@@ -379,16 +261,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "zombie"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "on their knees"
       }
     ]
   },
@@ -399,16 +281,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "zombie"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "on their knees"
       }
     ]
   },
@@ -418,16 +300,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "zombie"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "duck"
       }
     ]
   },
@@ -438,16 +320,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "zombie"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "duck"
       }
     ]
   },
@@ -458,16 +340,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "zombie"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "duck"
       }
     ]
   },
@@ -477,10 +359,10 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "leg"
       },
       {
         "tangram": "C",
@@ -497,10 +379,10 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "leg"
       },
       {
         "tangram": "C",
@@ -517,10 +399,10 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "leg"
       },
       {
         "tangram": "C",
@@ -536,16 +418,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "leg"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -556,16 +438,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "leg"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -576,16 +458,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "leg"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -595,16 +477,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "leg"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -615,16 +497,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "leg"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -635,16 +517,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "leg"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -654,16 +536,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "leg"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -674,16 +556,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "leg"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -694,16 +576,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "leg"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -713,16 +595,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "leg"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "on their knees"
       }
     ]
   },
@@ -733,16 +615,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "leg"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "on their knees"
       }
     ]
   },
@@ -753,16 +635,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "leg"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "on their knees"
       }
     ]
   },
@@ -772,16 +654,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "leg"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "duck"
       }
     ]
   },
@@ -792,16 +674,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "leg"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "duck"
       }
     ]
   },
@@ -812,16 +694,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "leg"
       },
       {
-        "tangram": "B",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "duck"
       }
     ]
   },
@@ -831,10 +713,10 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
         "tangram": "C",
@@ -851,10 +733,10 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
         "tangram": "C",
@@ -871,10 +753,10 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
         "tangram": "C",
@@ -890,16 +772,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -910,16 +792,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -930,16 +812,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -949,16 +831,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -969,16 +851,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -989,16 +871,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "bunny ears"
       }
     ]
   },
@@ -1008,16 +890,16 @@
     "audience": "either",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -1028,16 +910,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -1048,16 +930,134 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "ice skater"
       },
       {
-        "tangram": "L",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     ]
   },
@@ -1065,18 +1065,18 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "long sleeved book",
+    "unseen_label": "yoga guy",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "I",
         "shared": "shared",
         "group": "red",
-        "label": "priest"
+        "label": "ice skater"
       },
       {
-        "tangram": "D",
-        "label": "long sleeved book",
+        "tangram": "I",
+        "label": "yoga guy",
         "group": "unseen"
       }
     ]
@@ -1085,18 +1085,18 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "long sleeved book",
+    "unseen_label": "yoga guy",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "D",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "priest"
+        "label": "ice skater"
       },
       {
-        "tangram": "D",
-        "label": "long sleeved book",
+        "tangram": "I",
+        "label": "yoga guy",
         "group": "unseen"
       }
     ]
@@ -1105,18 +1105,18 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "zombie",
+    "unseen_label": "thriller",
     "audience_group": "red",
     "options": [
       {
         "tangram": "A",
         "shared": "shared",
         "group": "red",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
         "tangram": "A",
-        "label": "zombie",
+        "label": "thriller",
         "group": "unseen"
       }
     ]
@@ -1125,18 +1125,18 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "zombie",
+    "unseen_label": "thriller",
     "audience_group": "blue",
     "options": [
       {
         "tangram": "A",
         "shared": "shared",
         "group": "blue",
-        "label": "thriller"
+        "label": "zombie"
       },
       {
         "tangram": "A",
-        "label": "zombie",
+        "label": "thriller",
         "group": "unseen"
       }
     ]
@@ -1145,18 +1145,18 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "no arms",
+    "unseen_label": "dog",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "baby"
+        "label": "leg"
       },
       {
-        "tangram": "H",
-        "label": "no arms",
+        "tangram": "G",
+        "label": "dog",
         "group": "unseen"
       }
     ]
@@ -1165,59 +1165,19 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "no arms",
+    "unseen_label": "dog",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "H",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "baby"
+        "label": "leg"
       },
       {
-        "tangram": "H",
-        "label": "no arms",
+        "tangram": "G",
+        "label": "dog",
         "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bent knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "red",
-        "label": "zigzag"
-      },
-      {
-        "tangram": "L",
-        "shared": "unique",
-        "group": "blue",
-        "label": "bent knees"
       }
     ]
   },
@@ -1237,7 +1197,7 @@
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -1257,7 +1217,7 @@
         "tangram": "C",
         "shared": "unique",
         "group": "blue",
-        "label": "no legs"
+        "label": "Y"
       }
     ]
   },
@@ -1268,16 +1228,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "B",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "bunny ears"
       },
       {
-        "tangram": "B",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -1288,16 +1248,56 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "B",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "bunny ears"
       },
       {
-        "tangram": "B",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
       }
     ]
   }

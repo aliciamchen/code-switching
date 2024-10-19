@@ -1,74 +1,74 @@
 [
     {
       "tangram": "E",
-      "shared": "unique",
+      "shared": "shared",
       "group": "red",
-      "label": "windmill"
+      "label": "bunny ears"
     },
     {
       "tangram": "E",
-      "shared": "unique",
+      "shared": "shared",
       "group": "blue",
       "label": "bunny ears"
     },
     {
       "tangram": "F",
-      "shared": "shared",
+      "shared": "unique",
       "group": "red",
       "label": "sad"
     },
     {
       "tangram": "F",
-      "shared": "shared",
+      "shared": "unique",
       "group": "blue",
-      "label": "sad"
+      "label": "fetal position"
     },
     {
       "tangram": "G",
-      "shared": "shared",
+      "shared": "unique",
       "group": "red",
       "label": "leg"
     },
     {
       "tangram": "G",
-      "shared": "shared",
+      "shared": "unique",
       "group": "blue",
-      "label": "leg"
+      "label": "strike a pose"
     },
     {
       "tangram": "I",
-      "shared": "unique",
+      "shared": "shared",
       "group": "red",
-      "label": "ballerina"
+      "label": "ice skater"
     },
     {
       "tangram": "I",
-      "shared": "unique",
+      "shared": "shared",
       "group": "blue",
       "label": "ice skater"
     },
     {
       "tangram": "J",
-      "shared": "unique",
+      "shared": "shared",
       "group": "red",
       "label": "fat guy"
     },
     {
       "tangram": "J",
-      "shared": "unique",
+      "shared": "shared",
       "group": "blue",
-      "label": "large cube"
+      "label": "fat guy"
     },
     {
       "tangram": "K",
-      "shared": "shared",
+      "shared": "unique",
       "group": "red",
       "label": "on their knees"
     },
     {
       "tangram": "K",
-      "shared": "shared",
+      "shared": "unique",
       "group": "blue",
-      "label": "on their knees"
+      "label": "duck"
     }
   ]
