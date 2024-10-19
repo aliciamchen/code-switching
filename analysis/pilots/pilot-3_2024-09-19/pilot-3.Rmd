@@ -10,8 +10,13 @@ output:
 library(here)
 library(tidyverse)
 library(tidyboot)
+library(lme4)
+library(lmerTest)
+library(emmeans)
+library(simr)
 
 theme_set(theme_classic(base_size = 20))
+options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 ```
 
 # Selection trials
@@ -305,6 +310,79 @@ control_trials_social.memory <- control_trials_social %>%
   group_by(option1.tangram, option1.label, option2.tangram, option2.label) %>% 
   tidyboot_mean(group_label, na.rm = T)
 ```
+
+
+# Power analysis on pilot data
+
+```{r}
+diff_tangrams <- selection_trials %>% mutate(
+  response.unique = ifelse(response.shared == "shared", 0, 1)
+) %>% 
+  filter(type == "diff")
+```
+
+```{r}
+mod <- glmer(response.unique ~ audience * goal + (1 | subject_id) + (1 | item_id/ option2.tangram), data = diff_tangrams, family = "binomial")
+```
+
+```{r}
+summary(mod)
+```
+
+Comparisons between means
+
+```{r}
+emmeans(mod, pairwise ~ goal|audience) %>% 
+  summary(infer = T)
+```
+
+```{r}
+sum <- summary(contrast(emmeans(mod, ~ goal | audience), method = "pairwise"))$p.value
+sum
+```
+
+
+```{r}
+# extract the one refer - one social contrast
+test_one_refer_vs_one_social <- function(mod) {
+  emm <- emmeans(mod, ~ goal | audience)
+  contrast_results <- contrast(emm, method = "pairwise")
+  
+  # Extract p-value for the "one refer vs. one social" contrast
+  # Assuming it is the first contrast in the results
+  pval <- summary(contrast_results)$p.value[2]
+  
+  return(pval)
+}
+```
+
+```{r}
+power_result <- powerSim(mod, test = test_one_refer_vs_one_social, nsim = 100)
+print(power_result)
+```
+
+```{r}
+extended_model <- extend(mod, along = "subject_id", n = 30)
+```
+
+```{r}
+power_result <- powerSim(extended_model, test = test_one_refer_vs_one_social, nsim = 100)
+print(power_result)
+```
+
+
+```{r}
+# Plot the extended power curve
+power_curve_extended <- powerCurve(extended_model, test = test_one_refer_vs_one_social, along = "subject_id", nsim = 50)
+plot(power_curve_extended)
+```
+
+```{r}
+power_result <- powerSim(extended_model, test = test_one_refer_vs_one_social, nsim = 50)
+print(power_result)
+```
+
+
 
 
 # Exit survey

@@ -30,4 +30,9 @@ The files in `items` are used to generate the `.json` files in `2AFC_trials` and
 
 `scp -r exp-1 aliciach@athena.dialup.mit.edu:~/www/tangrams/v1`
 
+`rsync -av --exclude 'stim/boyce_data' --exclude 'stim/convo_vids/videos/480p15/partial_movie_files' --exclude 'stim/convos' --exclude 'stim/convo_vids/texts' exp-1/ aliciach@athena.dialup.mit.edu:~/www/tangrams`
+
+
 website is at https://web.mit.edu/aliciach/www/tangrams/v1/exp-1/
+
+https://web.mit.edu/aliciach/www/tangrams
