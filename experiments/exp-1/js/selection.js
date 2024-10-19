@@ -1,6 +1,6 @@
 // Selection phase
-async function loadTrialInfo(item_id) {
-  const response = await fetch(`stim/2AFC_trials/item_${item_id}_2AFC.json`);
+async function loadTrialInfo(item_id, counterbalance) {
+  const response = await fetch(`stim/2AFC_trials/item_${item_id}_${counterbalance}_2AFC.json`);
   const data = await response.json();
   return data;
 }
@@ -13,7 +13,7 @@ function createSelectionTrial(trial, jsPsych) {
         <p>Imagine that your chosen description will be shown to <strong>a random player in the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group.</strong></p>\
         <p>The question they will answer: <em>"What picture is this person referring to?"</em> <br><strong>You want them to correctly choose the corresponding picture out of the 6 pictures.</strong></p>
         <p></p>`;
-      } else if (trial.audience === "both") {
+      } else if (trial.audience === "either") {
         return `<p>Please select a description.</p>\
         <p>Imagine that your chosen description will be shown to <strong>a random player in <em>either</em> group.</strong></p>\
         <p>The question they will answer: <em>"What picture is this person referring to?"</em> <br><strong>You want them to correctly choose the corresponding picture out of the 6 pictures.</strong></p>
@@ -70,9 +70,9 @@ function createSelectionTrial(trial, jsPsych) {
   ];
 }
 
-async function createSelectionTrials(item_id, jsPsych) {
+async function createSelectionTrials(item_id, counterbalance, jsPsych) {
   try {
-    const trialInfo = await loadTrialInfo(item_id);
+    const trialInfo = await loadTrialInfo(item_id, counterbalance);
     const selection_phase_timeline = [];
 
     const instructions_reminder = {

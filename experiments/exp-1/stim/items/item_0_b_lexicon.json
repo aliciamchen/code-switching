@@ -1,0 +1,74 @@
+[
+    {
+      "tangram": "A",
+      "shared": "shared",
+      "group": "red",
+      "label": "thriller"
+    },
+    {
+      "tangram": "A",
+      "shared": "shared",
+      "group": "blue",
+      "label": "thriller"
+    },
+    {
+      "tangram": "B",
+      "shared": "unique",
+      "group": "red",
+      "label": "mouse"
+    },
+    {
+      "tangram": "B",
+      "shared": "unique",
+      "group": "blue",
+      "label": "princess dance"
+    },
+    {
+      "tangram": "C",
+      "shared": "unique",
+      "group": "red",
+      "label": "falling guy"
+    },
+    {
+      "tangram": "C",
+      "shared": "unique",
+      "group": "blue",
+      "label": "no legs"
+    },
+    {
+      "tangram": "D",
+      "shared": "shared",
+      "group": "red",
+      "label": "priest"
+    },
+    {
+      "tangram": "D",
+      "shared": "shared",
+      "group": "blue",
+      "label": "priest"
+    },
+    {
+      "tangram": "H",
+      "shared": "shared",
+      "group": "red",
+      "label": "baby"
+    },
+    {
+      "tangram": "H",
+      "shared": "shared",
+      "group": "blue",
+      "label": "baby"
+    },
+    {
+      "tangram": "L",
+      "shared": "unique",
+      "group": "red",
+      "label": "zigzag"
+    },
+    {
+      "tangram": "L",
+      "shared": "unique",
+      "group": "blue",
+      "label": "bent knees"
+    }
+  ]

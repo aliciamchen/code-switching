@@ -2,7 +2,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "B",
@@ -61,7 +61,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "B",
@@ -120,7 +120,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "B",
@@ -179,7 +179,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "B",
@@ -238,7 +238,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "B",
@@ -297,7 +297,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "B",
@@ -356,7 +356,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "C",
@@ -415,7 +415,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "C",
@@ -474,7 +474,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "C",
@@ -533,7 +533,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "C",
@@ -592,7 +592,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "C",
@@ -651,7 +651,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "C",
@@ -710,7 +710,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "L",
@@ -769,7 +769,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "L",
@@ -828,7 +828,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "L",
@@ -887,7 +887,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "L",
@@ -946,7 +946,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "L",
@@ -1005,7 +1005,7 @@
   {
     "type": "diff",
     "goal": "refer",
-    "audience": "both",
+    "audience": "either",
     "options": [
       {
         "tangram": "L",
@@ -1058,62 +1058,6 @@
         "shared": "unique",
         "group": "blue",
         "label": "no arms"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "no legs",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "C",
-        "shared": "shared",
-        "label": "falling guy"
-      },
-      {
-        "tangram": "C",
-        "label": "no legs",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "no legs",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "C",
-        "shared": "shared",
-        "label": "falling guy"
-      },
-      {
-        "tangram": "C",
-        "label": "no legs",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "both",
-    "unseen_label": "no legs",
-    "options": [
-      {
-        "tangram": "C",
-        "shared": "shared",
-        "label": "falling guy"
-      },
-      {
-        "tangram": "C",
-        "label": "no legs",
-        "group": "unseen"
       }
     ]
   },
@@ -1127,6 +1071,7 @@
       {
         "tangram": "L",
         "shared": "shared",
+        "group": "red",
         "label": "zigzag"
       },
       {
@@ -1146,6 +1091,7 @@
       {
         "tangram": "L",
         "shared": "shared",
+        "group": "blue",
         "label": "zigzag"
       },
       {
@@ -1158,17 +1104,39 @@
   {
     "type": "same",
     "goal": "refer",
-    "audience": "both",
-    "unseen_label": "bent knees",
+    "audience": "one",
+    "unseen_label": "no legs",
+    "audience_group": "red",
     "options": [
       {
-        "tangram": "L",
+        "tangram": "C",
         "shared": "shared",
-        "label": "zigzag"
+        "group": "red",
+        "label": "falling guy"
       },
       {
-        "tangram": "L",
-        "label": "bent knees",
+        "tangram": "C",
+        "label": "no legs",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "no legs",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
+        "shared": "shared",
+        "group": "blue",
+        "label": "falling guy"
+      },
+      {
+        "tangram": "C",
+        "label": "no legs",
         "group": "unseen"
       }
     ]
@@ -1183,6 +1151,7 @@
       {
         "tangram": "B",
         "shared": "shared",
+        "group": "red",
         "label": "mouse"
       },
       {
@@ -1202,6 +1171,7 @@
       {
         "tangram": "B",
         "shared": "shared",
+        "group": "blue",
         "label": "mouse"
       },
       {
@@ -1213,19 +1183,41 @@
   },
   {
     "type": "same",
-    "goal": "refer",
-    "audience": "both",
-    "unseen_label": "princess dance",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
     "options": [
       {
-        "tangram": "B",
-        "shared": "shared",
-        "label": "mouse"
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
       },
       {
-        "tangram": "B",
-        "label": "princess dance",
-        "group": "unseen"
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
       }
     ]
   },
@@ -1306,46 +1298,6 @@
         "shared": "unique",
         "group": "blue",
         "label": "no arms"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
-      },
-      {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
       }
     ]
   }

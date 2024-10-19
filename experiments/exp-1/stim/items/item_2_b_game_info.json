@@ -1,0 +1,66 @@
+{
+    "red": {
+      "A": {
+        "label": "zombie",
+        "shared": "shared",
+        "game": "hYBwiiFBSBi9ySwpJ"
+      },
+      "C": {
+        "label": "falling guy",
+        "shared": "unique",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "E": {
+        "label": "bunny ears",
+        "shared": "unique",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "G": {
+        "label": "leg",
+        "shared": "shared",
+        "game": "pAaZt2Cv9MEFRCAY5"
+      },
+      "I": {
+        "label": "ice skater",
+        "shared": "shared",
+        "game": "LfuChcnEB54q8Ztys"
+      },
+      "K": {
+        "label": "on their knees",
+        "shared": "unique",
+        "game": "cA2SjWv3CePYZgyzS"
+      }
+    },
+    "blue": {
+      "A": {
+        "label": "zombie",
+        "shared": "shared",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "C": {
+        "label": "Y",
+        "shared": "unique",
+        "game": "JmgdhSKRPPxDKvprr"
+      },
+      "E": {
+        "label": "crazy hat person",
+        "shared": "unique",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "G": {
+        "label": "leg",
+        "shared": "shared",
+        "game": "BXWWg9XvCErxTpT9k"
+      },
+      "I": {
+        "label": "ice skater",
+        "shared": "shared",
+        "game": "hYBwiiFBSBi9ySwpJ"
+      },
+      "K": {
+        "label": "duck",
+        "shared": "unique",
+        "game": "3WzEi9zkHF77vdTw5"
+      }
+    }
+  }
