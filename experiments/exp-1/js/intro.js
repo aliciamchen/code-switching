@@ -16,10 +16,24 @@ async function createConsent() {
 
 // Instructions and comprehension loop
 
-async function loadInstructionsFromHTML() {
+async function loadInstructionsFromHTML(item_id) {
   try {
     const response = await fetch("html/instructions.html");
-    const text = await response.text();
+    let text = await response.text();
+
+    // Define JavaScript variables for the video sources
+    const videoSrc = item_id === 1
+      ? `stim/convo_vids/videos/480p15/item_${item_id}_a_red_target_E_repNum_0.mp4`
+      : `stim/convo_vids/videos/480p15/item_${item_id}_a_red_target_A_repNum_0.mp4`;
+
+    const tangramsSrc = `stim/images/tangrams_${item_id}.png`;
+    const targetSrc = `stim/images/target-tangram_${item_id}.png`;
+
+    // Replace placeholders with actual video sources
+    text = text.replace("PLACEHOLDER_VIDEO_SRC", videoSrc);
+    text = text.replace("PLACEHOLDER_TANGRAMS_SRC", tangramsSrc);
+    text = text.replace("PLACEHOLDER_TARGET_SRC", targetSrc);
+
     return text.split("<!-- PAGE BREAK -->");
   } catch (error) {
     console.error("Error loading instructions:", error);
@@ -27,9 +41,9 @@ async function loadInstructionsFromHTML() {
   }
 }
 
-async function createInstructions() {
+async function createInstructions(item_id) {
   try {
-    const instructionPages = await loadInstructionsFromHTML();
+    const instructionPages = await loadInstructionsFromHTML(item_id);
     return {
       type: jsPsychInstructions,
       pages: instructionPages,
@@ -94,8 +108,8 @@ function createFailComprehensionCheck() {
   };
 }
 
-async function createComprehensionLoop() {
-  const instructions = await createInstructions();
+async function createComprehensionLoop(item_id) {
+  const instructions = await createInstructions(item_id);
   const comprehensionCheck = await createComprehensionCheck();
   const failComprehensionCheck = createFailComprehensionCheck();
 

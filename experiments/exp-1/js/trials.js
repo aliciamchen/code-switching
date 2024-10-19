@@ -31,7 +31,7 @@ async function makeTrials(jsPsych) {
     timeline.push(consent);
 
     // instructions + comprehension check loop
-    const comprehensionLoop = await createComprehensionLoop(jsPsych);
+    const comprehensionLoop = await createComprehensionLoop(item_id, jsPsych);
     timeline.push(comprehensionLoop);
 
     // observation phase
