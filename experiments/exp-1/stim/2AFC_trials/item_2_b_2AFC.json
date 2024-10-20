@@ -1065,18 +1065,18 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "yoga guy",
+    "unseen_label": "dog",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "I",
+        "tangram": "G",
         "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "label": "leg"
       },
       {
-        "tangram": "I",
-        "label": "yoga guy",
+        "tangram": "G",
+        "label": "dog",
         "group": "unseen"
       }
     ]
@@ -1085,18 +1085,37 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "yoga guy",
+    "unseen_label": "dog",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "I",
+        "tangram": "G",
         "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "label": "leg"
       },
       {
-        "tangram": "I",
-        "label": "yoga guy",
+        "tangram": "G",
+        "label": "dog",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "dog",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "G",
+        "label": "dog",
         "group": "unseen"
       }
     ]
@@ -1144,19 +1163,18 @@
   {
     "type": "same",
     "goal": "refer",
-    "audience": "one",
-    "unseen_label": "dog",
-    "audience_group": "red",
+    "audience": "either",
+    "unseen_label": "thriller",
     "options": [
       {
-        "tangram": "G",
+        "tangram": "A",
         "shared": "shared",
-        "group": "red",
-        "label": "leg"
+        "group": "blue",
+        "label": "zombie"
       },
       {
-        "tangram": "G",
-        "label": "dog",
+        "tangram": "A",
+        "label": "thriller",
         "group": "unseen"
       }
     ]
@@ -1165,18 +1183,57 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "dog",
+    "unseen_label": "yoga guy",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "I",
+        "label": "yoga guy",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "yoga guy",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "G",
+        "tangram": "I",
         "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "label": "ice skater"
       },
       {
-        "tangram": "G",
-        "label": "dog",
+        "tangram": "I",
+        "label": "yoga guy",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "yoga guy",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "I",
+        "label": "yoga guy",
         "group": "unseen"
       }
     ]
@@ -1228,16 +1285,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "E",
+        "tangram": "K",
         "shared": "unique",
         "group": "red",
-        "label": "bunny ears"
+        "label": "on their knees"
       },
       {
-        "tangram": "E",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "crazy hat person"
+        "label": "duck"
       }
     ]
   },
@@ -1248,16 +1305,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "E",
+        "tangram": "K",
         "shared": "unique",
         "group": "red",
-        "label": "bunny ears"
+        "label": "on their knees"
       },
       {
-        "tangram": "E",
+        "tangram": "K",
         "shared": "unique",
         "group": "blue",
-        "label": "crazy hat person"
+        "label": "duck"
       }
     ]
   },
@@ -1268,16 +1325,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "K",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "on their knees"
+        "label": "bunny ears"
       },
       {
-        "tangram": "K",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "duck"
+        "label": "crazy hat person"
       }
     ]
   },
@@ -1288,16 +1345,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "K",
+        "tangram": "E",
         "shared": "unique",
         "group": "red",
-        "label": "on their knees"
+        "label": "bunny ears"
       },
       {
-        "tangram": "K",
+        "tangram": "E",
         "shared": "unique",
         "group": "blue",
-        "label": "duck"
+        "label": "crazy hat person"
       }
     ]
   }

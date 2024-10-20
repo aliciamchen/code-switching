@@ -1104,6 +1104,25 @@
   {
     "type": "same",
     "goal": "refer",
+    "audience": "either",
+    "unseen_label": "strike a pose",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "G",
+        "label": "strike a pose",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
     "audience": "one",
     "unseen_label": "duck",
     "audience_group": "red",
@@ -1144,6 +1163,25 @@
   {
     "type": "same",
     "goal": "refer",
+    "audience": "either",
+    "unseen_label": "duck",
+    "options": [
+      {
+        "tangram": "K",
+        "shared": "shared",
+        "group": "blue",
+        "label": "on their knees"
+      },
+      {
+        "tangram": "K",
+        "label": "duck",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
     "audience": "one",
     "unseen_label": "fetal position",
     "audience_group": "red",
@@ -1167,6 +1205,25 @@
     "audience": "one",
     "unseen_label": "fetal position",
     "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "F",
+        "shared": "shared",
+        "group": "blue",
+        "label": "sad"
+      },
+      {
+        "tangram": "F",
+        "label": "fetal position",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "fetal position",
     "options": [
       {
         "tangram": "F",

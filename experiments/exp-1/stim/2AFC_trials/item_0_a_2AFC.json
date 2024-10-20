@@ -1065,18 +1065,18 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "bent knees",
+    "unseen_label": "princess dance",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "L",
+        "tangram": "B",
         "shared": "shared",
         "group": "red",
-        "label": "zigzag"
+        "label": "mouse"
       },
       {
-        "tangram": "L",
-        "label": "bent knees",
+        "tangram": "B",
+        "label": "princess dance",
         "group": "unseen"
       }
     ]
@@ -1085,18 +1085,37 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "bent knees",
+    "unseen_label": "princess dance",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "L",
+        "tangram": "B",
         "shared": "shared",
         "group": "blue",
-        "label": "zigzag"
+        "label": "mouse"
       },
       {
-        "tangram": "L",
-        "label": "bent knees",
+        "tangram": "B",
+        "label": "princess dance",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "princess dance",
+    "options": [
+      {
+        "tangram": "B",
+        "shared": "shared",
+        "group": "blue",
+        "label": "mouse"
+      },
+      {
+        "tangram": "B",
+        "label": "princess dance",
         "group": "unseen"
       }
     ]
@@ -1144,19 +1163,18 @@
   {
     "type": "same",
     "goal": "refer",
-    "audience": "one",
-    "unseen_label": "princess dance",
-    "audience_group": "red",
+    "audience": "either",
+    "unseen_label": "no legs",
     "options": [
       {
-        "tangram": "B",
+        "tangram": "C",
         "shared": "shared",
-        "group": "red",
-        "label": "mouse"
+        "group": "blue",
+        "label": "falling guy"
       },
       {
-        "tangram": "B",
-        "label": "princess dance",
+        "tangram": "C",
+        "label": "no legs",
         "group": "unseen"
       }
     ]
@@ -1165,59 +1183,58 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "princess dance",
-    "audience_group": "blue",
+    "unseen_label": "bent knees",
+    "audience_group": "red",
     "options": [
       {
-        "tangram": "B",
+        "tangram": "L",
         "shared": "shared",
-        "group": "blue",
-        "label": "mouse"
+        "group": "red",
+        "label": "zigzag"
       },
       {
-        "tangram": "B",
-        "label": "princess dance",
+        "tangram": "L",
+        "label": "bent knees",
         "group": "unseen"
       }
     ]
   },
   {
     "type": "same",
-    "goal": "social",
+    "goal": "refer",
     "audience": "one",
-    "audience_group": "red",
+    "unseen_label": "bent knees",
+    "audience_group": "blue",
     "options": [
       {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
       },
       {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
+        "tangram": "L",
+        "label": "bent knees",
+        "group": "unseen"
       }
     ]
   },
   {
     "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "bent knees",
     "options": [
       {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "red",
-        "label": "priest"
+        "tangram": "L",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zigzag"
       },
       {
-        "tangram": "D",
-        "shared": "unique",
-        "group": "blue",
-        "label": "long sleeved book"
+        "tangram": "L",
+        "label": "bent knees",
+        "group": "unseen"
       }
     ]
   },
@@ -1298,6 +1315,46 @@
         "shared": "unique",
         "group": "blue",
         "label": "no arms"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "red",
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "shared": "unique",
+        "group": "blue",
+        "label": "long sleeved book"
       }
     ]
   }

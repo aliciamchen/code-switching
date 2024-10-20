@@ -109,6 +109,16 @@ def generate_control_trials(
             }
             shared_control_trials.append(trial)
 
+        # refer to either group
+        trial = {
+            "type": "same",
+            "goal": "refer",
+            "audience": "either",
+            "unseen_label": unseen_label_option["label"],
+            "options": [this_option, unseen_label_option],
+        }
+        shared_control_trials.append(trial)
+
     unique_control_trials = []
     for unique_tangram in unique_set:
         for audience_group in ["red", "blue"]:

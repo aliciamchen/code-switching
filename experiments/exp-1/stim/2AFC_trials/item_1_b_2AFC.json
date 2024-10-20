@@ -1104,6 +1104,25 @@
   {
     "type": "same",
     "goal": "refer",
+    "audience": "either",
+    "unseen_label": "ballerina",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "I",
+        "label": "ballerina",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
     "audience": "one",
     "unseen_label": "large cube",
     "audience_group": "red",
@@ -1144,6 +1163,25 @@
   {
     "type": "same",
     "goal": "refer",
+    "audience": "either",
+    "unseen_label": "large cube",
+    "options": [
+      {
+        "tangram": "J",
+        "shared": "shared",
+        "group": "blue",
+        "label": "fat guy"
+      },
+      {
+        "tangram": "J",
+        "label": "large cube",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
     "audience": "one",
     "unseen_label": "windmill",
     "audience_group": "red",
@@ -1167,6 +1205,25 @@
     "audience": "one",
     "unseen_label": "windmill",
     "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "E",
+        "shared": "shared",
+        "group": "blue",
+        "label": "bunny ears"
+      },
+      {
+        "tangram": "E",
+        "label": "windmill",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "windmill",
     "options": [
       {
         "tangram": "E",
