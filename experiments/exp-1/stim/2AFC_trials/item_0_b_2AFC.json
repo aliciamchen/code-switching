@@ -1065,46 +1065,6 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "long sleeved book",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "red",
-        "label": "priest"
-      },
-      {
-        "tangram": "D",
-        "label": "long sleeved book",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "long sleeved book",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "D",
-        "shared": "shared",
-        "group": "blue",
-        "label": "priest"
-      },
-      {
-        "tangram": "D",
-        "label": "long sleeved book",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
     "unseen_label": "zombie",
     "audience_group": "red",
     "options": [
@@ -1127,6 +1087,25 @@
     "audience": "one",
     "unseen_label": "zombie",
     "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "thriller"
+      },
+      {
+        "tangram": "A",
+        "label": "zombie",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "zombie",
     "options": [
       {
         "tangram": "A",
@@ -1183,21 +1162,99 @@
   },
   {
     "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "no arms",
+    "options": [
+      {
+        "tangram": "H",
+        "shared": "shared",
+        "group": "blue",
+        "label": "baby"
+      },
+      {
+        "tangram": "H",
+        "label": "no arms",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "long sleeved book",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "red",
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "label": "long sleeved book",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "long sleeved book",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "blue",
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "label": "long sleeved book",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "long sleeved book",
+    "options": [
+      {
+        "tangram": "D",
+        "shared": "shared",
+        "group": "blue",
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "label": "long sleeved book",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "L",
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "mouse"
       },
       {
-        "tangram": "L",
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "princess dance"
       }
     ]
   },
@@ -1208,16 +1265,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "L",
+        "tangram": "B",
         "shared": "unique",
         "group": "red",
-        "label": "zigzag"
+        "label": "mouse"
       },
       {
-        "tangram": "L",
+        "tangram": "B",
         "shared": "unique",
         "group": "blue",
-        "label": "bent knees"
+        "label": "princess dance"
       }
     ]
   },
@@ -1268,16 +1325,16 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "B",
+        "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "zigzag"
       },
       {
-        "tangram": "B",
+        "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "bent knees"
       }
     ]
   },
@@ -1288,16 +1345,16 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "B",
+        "tangram": "L",
         "shared": "unique",
         "group": "red",
-        "label": "mouse"
+        "label": "zigzag"
       },
       {
-        "tangram": "B",
+        "tangram": "L",
         "shared": "unique",
         "group": "blue",
-        "label": "princess dance"
+        "label": "bent knees"
       }
     ]
   }
