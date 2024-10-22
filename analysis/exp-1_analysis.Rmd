@@ -1,0 +1,462 @@
+---
+title: "experiment 1 analysis"
+author: "Alicia Chen"
+date: "2024-10-21"
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(tidyboot)
+library(glue)
+library(lme4)
+library(lmerTest)
+library(emmeans)
+library(simr)
+
+theme_set(theme_classic(base_size = 20))
+options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
+```
+
+# Data, participants, and sanity checks
+
+Load data
+
+```{r}
+selection_trials <- read_csv(here("data", "selection_trials.csv")) %>% 
+  group_by(subject_id) %>%
+  mutate(trial_num = row_number()) %>% 
+  rename(response.unique = response.shared) %>% 
+  select(subject_id, item_id, trial_num, everything()) %>% 
+  ungroup()
+
+exit_survey <- read_csv(here("data", "exit_survey.csv"))
+```
+How many participants? 
+
+```{r}
+n_participants <- n_distinct(selection_trials$subject_id)
+
+n_understood <- exit_survey %>% 
+  filter(understood == "yes") %>% 
+  nrow()
+
+print(glue("we have {n_participants} total participants, of which {n_understood} said they understood the instructions"))
+
+# Exclude the participants who did not understand the instructions
+selection_trials <- selection_trials %>% 
+  filter(understood == "yes")
+```
+
+Demographics
+
+```{r}
+exit_survey %>% 
+  filter(understood == "yes") %>% 
+  group_by(gender) %>% 
+  count() 
+
+exit_survey %>% 
+  filter(understood == "yes") %>% 
+  summarize(mean_age = mean(age), sd_age = sd(age))
+```
+
+## Counterbalancing assignments 
+
+How many participants were in each item_id, counterbalancing assignment? 
+
+```{r}
+selection_trials %>% 
+  group_by(item_id, counterbalance) %>% 
+  summarize(n = n_distinct(subject_id))
+```
+
+
+## How many trials per condition?
+
+For each participant, there should be: 
+
+- 36 'different tangram' trials, where the audience is a specified ('one') group
+  - 18 trials for the 'refer' goal and 18 trials for the 'social' goal
+- 18 'different tangram' trials, where the audience is 'either' group
+  - All of these are the 'refer' goal
+
+```{r}
+selection_trials %>% 
+  filter(type == "diff") %>% 
+  group_by(subject_id, audience, goal) %>% 
+  count()
+```
+
+There should be 9 'same tangram' 'refer' trials, and 6 'same tangram' 'social' trials
+
+```{r}
+selection_trials %>% 
+  filter(type == "same") %>%
+  group_by(subject_id, audience, goal) %>% 
+  count()
+```
+
+
+
+# "Different tangram" trials
+
+
+```{r}
+diff.tangrams <- selection_trials %>%
+  filter(type == "diff") %>% 
+  mutate(response.unique = ifelse(response.unique == "unique", 1, 0)) 
+
+diff.tangrams.means <- diff.tangrams %>%
+  group_by(goal, audience) %>%
+  tidyboot_mean(response.unique, na.rm = T)
+
+diff.tangrams.means
+```
+
+Plot means aggregated across participants
+
+```{r}
+ggplot(diff.tangrams,
+       aes(x = goal, y = response.unique, color = audience)) +
+  geom_point(
+    position = position_jitterdodge(
+      jitter.width = 0.15,
+      jitter.height = 0.1,
+      dodge.width = 0.3
+    ),
+    size = 3,
+    stroke = 0,
+    alpha = 0.1
+  ) +
+  geom_point(
+    data = diff.tangrams.means,
+    position = position_dodge(width = 0.3),
+    aes(x = goal, y = empirical_stat, color = audience),
+    size = 3,
+    fill = "black",
+    inherit.aes = FALSE
+  ) +
+  geom_errorbar(
+    data = diff.tangrams.means,
+    position = position_dodge(width = 0.3),
+    aes(
+      x = goal,
+      ymin = ci_lower,
+      ymax = ci_upper,
+      color = audience
+    ),
+    size = 1.5,
+    width = 0.05,
+    inherit.aes = FALSE
+  ) +
+  geom_hline(yintercept = 0.5,
+             color = "red",
+             linetype = "dashed") +
+  labs(x = "goal", y = "shared or unique label", title = "different tangrams") +
+  scale_y_continuous(breaks = c(0, 1),
+                     labels = c("shared", "unique")) 
+```
+
+
+## Plot slopes per participant
+
+```{r}
+diff.tangrams.means.subj <- 
+  diff.tangrams %>%
+  group_by(subject_id, goal, audience) %>%
+  tidyboot_mean(response.unique, na.rm = T)
+```
+
+
+```{r}
+inner_dodge <- position_dodge(width = 0.79)
+
+diff.tangrams.means.subj$audience_goal <- with(diff.tangrams.means.subj,
+                                                         interaction(audience, goal, sep = " "))
+
+ggplot(
+  diff.tangrams.means.subj,
+  aes(
+    x = audience_goal,
+    y = empirical_stat,
+    group = subject_id,
+    color = audience
+  )
+) +
+  geom_line(position = position_dodge(width = 0.3),
+            aes(group = subject_id),
+            alpha = 0.5) +
+  geom_point(
+    position = position_dodge(width = 0.3),
+    size = 2,
+    fill = "black",
+    alpha = 0.3
+  ) +
+  geom_errorbar(
+    position = position_dodge(width = 0.3),
+    aes(ymin = ci_lower, ymax = ci_upper),
+    size = 1.4,
+    width = 0.2,
+    alpha = 0.3
+  ) +
+  geom_hline(yintercept = 0.5,
+             color = "red",
+             linetype = "dashed") +
+  labs(x = "audience + goal", y = "shared or unique", title = "different tangrams") +
+  scale_y_continuous(breaks = c(0, 1),
+                     labels = c("shared", "unique"))
+
+```
+
+
+# "Same tangram" trials
+
+## "Refer" goal
+
+For the "refer" goal, people should choose the seen label over the unseen label, both when talking to one group and when talking to either group
+
+```{r}
+same.tangram.refer <- selection_trials %>% 
+  filter(type == "same", goal == "refer") %>% 
+  mutate(seen = case_when(
+    response.group == "unseen" ~ 0,
+    response.unique == "shared" ~ 1
+  ))
+ 
+  
+same.tangram.refer.means <- same.tangram.refer %>% 
+  group_by(audience) %>%
+  tidyboot_mean(seen, na.rm = T) 
+```
+
+```{r fig.width=3, fig.height=4}
+ggplot(same.tangram.refer, aes(x = audience, y = seen)) +
+  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.1) +
+  geom_point(data = same.tangram.refer.means, aes(x = audience, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
+  geom_errorbar(data = same.tangram.refer.means, aes(x = audience, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "audience", y = "seen or unseen label", title = "same tangrams") +
+  scale_y_continuous(breaks = c(0, 1), labels = c("unseen", "seen")) +
+  theme(legend.position = "none", plot.title = element_text(size = 15))
+```
+## "Social" goal
+
+For the "social" goal, people should choose the tangram belonging to the audience group
+
+```{r}
+same.tangrams.social <- selection_trials %>% 
+  filter(type == "same", goal == "social") %>% 
+  mutate(group_label = ifelse(audience_group == response.group, 1, 0))
+
+same.tangrams.social.means <- same.tangrams.social %>%
+  tidyboot_mean(group_label, na.rm = T) %>% 
+  mutate(goal = "social")
+```
+
+```{r fig.width=3, fig.height=4}
+ggplot(same.tangrams.social, aes(x = goal, y = group_label)) +
+  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.3) +
+  geom_point(data = same.tangrams.social.means, aes(x = goal, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
+  geom_errorbar(data = same.tangrams.social.means, aes(x = goal, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "goal", y = "label belongs to audience grp", title = "same tangrams") +
+  scale_y_continuous(breaks = c(0, 1), labels = c("no", "yes")) +
+  theme(legend.position = "none", plot.title = element_text(size = 15))
+```
+
+### Correlate results for same and different tangram trials
+
+across participants, does % selecting shared, for different tangrams, correlate with % selecting Seen in same tangram, in the "either refer" condition?
+
+```{r}
+pct.seen.both.refer <- same.tangram.refer %>% 
+  filter(audience == "either") %>% 
+  group_by(subject_id) %>% 
+  tidyboot_mean(seen, na.rm = T) 
+
+pct.unique.diff <- diff.tangrams.means.subj %>%
+  filter(goal == "refer", audience == "either")
+```
+
+```{r}
+ggplot(pct.seen.both.refer, aes(x = empirical_stat, y = pct.unique.diff$empirical_stat)) +
+  geom_jitter(alpha = 0.5, size = 3, width = 0.01, height = 0.01) +
+  geom_smooth(method = "lm") +
+  lims(x = c(0, 1), y = c(0, 1)) +
+  labs(x = "prop Seen, same tangrams", y = "prop Group-specific, diff tangrams", title = "refer to either group")
+```
+
+Across participants, does % selecting unique, for different tangrams, correlate with %  Correct in same tangram, in the "social" condition?
+
+```{r}
+pct.correct.social <- same.tangrams.social %>% 
+  filter(goal == "social") %>% 
+  group_by(subject_id) %>% 
+  tidyboot_mean(group_label, na.rm = T)
+
+pct.unique.diff <- diff.tangrams.means.subj %>%
+  filter(goal == "social")
+```
+
+```{r}
+ggplot(pct.correct.social, aes(x = empirical_stat, y = pct.unique.diff$empirical_stat)) +
+  geom_jitter(alpha = 0.5, size = 3, width = 0.01, height = 0.01) +
+  geom_smooth(method = "lm") +
+  lims(x = c(0, 1), y = c(0, 1)) +
+  labs(x = "prop Correct group, same tangram", y = "prop Group-specific, diff tangrams", title = "social goal")
+```
+
+# Only look at participants who did above chance on the same-tangram trials
+
+```{r}
+# Participants who were above chance on both the same-tangram refer trials and the same-tangram social trials
+above_chance_same <- same.tangram.refer %>% 
+  group_by(subject_id) %>% 
+  summarize(above_chance = mean(seen) > 0.9) %>% 
+  inner_join(same.tangrams.social %>% 
+               group_by(subject_id) %>% 
+               summarize(above_chance = mean(group_label) > 0.9), by = "subject_id") %>% 
+  filter(above_chance.x & above_chance.y) %>% 
+  select(subject_id)
+
+selection_trials <- selection_trials %>% 
+  filter(subject_id %in% above_chance_same$subject_id)
+```
+
+```{r}
+diff.tangrams <- selection_trials %>%
+  filter(type == "diff") %>% 
+  mutate(response.unique = ifelse(response.unique == "unique", 1, 0)) 
+
+diff.tangrams.means <- diff.tangrams %>%
+  group_by(goal, audience) %>%
+  tidyboot_mean(response.unique, na.rm = T)
+
+diff.tangrams.means
+```
+
+Plot means aggregated across participants
+
+```{r}
+ggplot(diff.tangrams,
+       aes(x = goal, y = response.unique, color = audience)) +
+  geom_point(
+    position = position_jitterdodge(
+      jitter.width = 0.15,
+      jitter.height = 0.1,
+      dodge.width = 0.3
+    ),
+    size = 3,
+    stroke = 0,
+    alpha = 0.1
+  ) +
+  geom_point(
+    data = diff.tangrams.means,
+    position = position_dodge(width = 0.3),
+    aes(x = goal, y = empirical_stat, color = audience),
+    size = 3,
+    fill = "black",
+    inherit.aes = FALSE
+  ) +
+  geom_errorbar(
+    data = diff.tangrams.means,
+    position = position_dodge(width = 0.3),
+    aes(
+      x = goal,
+      ymin = ci_lower,
+      ymax = ci_upper,
+      color = audience
+    ),
+    size = 1.5,
+    width = 0.05,
+    inherit.aes = FALSE
+  ) +
+  geom_hline(yintercept = 0.5,
+             color = "red",
+             linetype = "dashed") +
+  labs(x = "goal", y = "shared or unique label", title = "different tangrams") +
+  scale_y_continuous(breaks = c(0, 1),
+                     labels = c("shared", "unique")) 
+```
+
+
+
+# Data analysis
+
+## "Different tangram" trials
+
+```{r}
+# Note that option2.tangram always corresponds to the shared tangram
+mod <- glmer(response.unique ~ audience * goal + (1 | subject_id) + (1 | item_id/ option2.tangram), data = diff.tangrams, family = "binomial")
+```
+
+```{r}
+summary(mod)
+```
+
+Comparisons between means
+
+```{r}
+emmeans(mod, pairwise ~ goal|audience) %>% 
+  summary(infer = T)
+```
+
+```{r}
+emmeans(mod, pairwise ~ goal*audience) %>% 
+  summary(infer = T)
+```
+
+We predict that participants will choose the group-specific label more often when trying to show social affiliation, compared to when trying to refer effectively. We will test this (1) across all different-tangram trials, (2) across the trials where the audience group is specified, and (3) by comparing the ‘social’ goal for a specified ‘red/blue’ group, to the ‘refer’ goal for an unspecified group.
+
+TODO: fix this
+
+```{r}
+# is social > refer, regardless of audience? 
+# do not consider the missing level
+emmeans(mod, pairwise ~ goal) %>% 
+  summary(infer = T)
+```
+
+
+## "Same tangram" trials
+
+For the "refer" goal, do participants successfully choose the seen label over the unseen label? 
+
+```{r}
+mod.same.refer <- glmer(seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id / option1.tangram), data = same.tangram.refer, family = "binomial")
+summary(mod.same.refer)
+```
+
+
+
+For the "social" goal, do participants successfully choose the tangram that belongs to the audience group? 
+
+```{r}
+mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id / option1.tangram), data = same.tangrams.social, family = "binomial")
+summary(mod.same.social)
+```
+
+Convert intercepts from logit scale
+
+```{r}
+# Inverse logit function
+inv_logit <- function(x) {
+  exp(x) / (1 + exp(x))
+}
+
+inv_logit(fixef(mod.same.refer))
+inv_logit(fixef(mod.same.social))
+```
+
+
+# Exit survey
+
+What feedback did participants give?
+
+```{r}
+exit_survey$comments
+```
+
