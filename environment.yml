@@ -15,7 +15,6 @@ dependencies:
   - contourpy=1.2.0=py312h48ca7d4_0
   - cycler=0.11.0=pyhd3eb1b0_0
   - debugpy=1.6.7=py312h313beb8_0
-  - decorator=5.1.1=pyhd8ed1ab_0
   - exceptiongroup=1.2.2=pyhd8ed1ab_0
   - executing=2.0.1=pyhd8ed1ab_0
   - expat=2.6.2=h313beb8_0
@@ -96,26 +95,40 @@ dependencies:
   - zlib=1.2.13=h18a0788_1
   - zstd=1.5.5=hd90d995_2
   - pip:
+      - certifi==2024.7.4
+      - charset-normalizer==3.3.2
       - click==8.1.7
       - cloup==3.0.5
       - cython==3.0.11
+      - decorator==4.4.2
       - glcontext==3.0.0
+      - idna==3.8
+      - imageio==2.35.1
+      - imageio-ffmpeg==0.5.1
       - isosurfaces==0.1.2
+      - jax==0.4.35
+      - jaxlib==0.4.35
       - manim==0.18.1
       - manimpango==0.5.0
       - mapbox-earcut==1.0.2
       - markdown-it-py==3.0.0
       - mdurl==0.1.2
+      - memo-lang==0.4.1
+      - ml-dtypes==0.5.0
       - moderngl==5.11.1
       - moderngl-window==2.4.6
+      - moviepy==1.0.3
       - multipledispatch==1.0.0
       - networkx==3.3
+      - opt-einsum==3.4.0
+      - proglog==0.1.10
       - pycairo==1.26.1
       - pydub==0.25.1
       - pyglet==2.0.17
       - pyobjc-core==10.3.1
       - pyobjc-framework-cocoa==10.3.1
       - pyrr==0.10.3
+      - requests==2.32.3
       - rich==13.7.1
       - scipy==1.14.1
       - screeninfo==0.8.1
@@ -123,5 +136,6 @@ dependencies:
       - srt==3.5.3
       - svgelements==1.9.6
       - tqdm==4.66.5
+      - urllib3==2.2.2
       - watchdog==4.0.2
 prefix: /Users/aliciachen/miniconda3/envs/code-switching
