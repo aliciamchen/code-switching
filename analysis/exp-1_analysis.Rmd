@@ -155,9 +155,11 @@ ggplot(diff.tangrams,
   geom_hline(yintercept = 0.5,
              color = "red",
              linetype = "dashed") +
-  labs(x = "goal", y = "shared or unique label", title = "different tangrams") +
+  labs(x = "goal", y = "label type", title = "") +
   scale_y_continuous(breaks = c(0, 1),
-                     labels = c("shared", "unique")) 
+                     labels = c("shared", "group-specific")) +
+  # change legend labels
+  scale_color_discrete(labels = c("unknown", "known")) 
 ```
 
 

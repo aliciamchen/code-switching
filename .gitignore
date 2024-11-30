@@ -12,4 +12,6 @@ partial_movie_files
 old
 .vscode
 raw_data
+raw_data_old
 .RData
+Quals.pdf
