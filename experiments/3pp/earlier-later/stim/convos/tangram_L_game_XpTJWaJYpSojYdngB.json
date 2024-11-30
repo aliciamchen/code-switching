@@ -1,0 +1,434 @@
+[
+  {
+    "target": "L",
+    "convention": "crouching",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "The guy has his arms pointed far out on the RIGHT.",
+        "time": 0.7417087550485303,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "His knees are also pointed to the RIGHT.",
+        "time": 0.7193679273847026,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "not seeing it",
+        "time": 0.9464808179868711,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "His legs are below him pointing to the left in the pic.",
+        "time": 0.8298072939065769,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "His head is an upright position here.",
+        "time": 0.6529047213727718,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "> this angle on the leg side of the leg?",
+        "time": 0.7369603292040607,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "\"\">\"\"",
+        "time": 0.7343168390628712,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Look for the cone shape pointing to the right.",
+        "time": 0.8352438731559779,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "I see him, ty.",
+        "time": 0.6863589595703787,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "B",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "crouching",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "UGGGGHHHHH",
+        "time": 0.7338053219449997,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Lol.",
+        "time": 0.9228155087732088,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "This is the one the Repi selected before",
+        "time": 0.9333130333622915,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "in the last target round",
+        "time": 0.9285425126988256,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Which one.",
+        "time": 0.6444141064366996,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Didn't catch it.",
+        "time": 0.9402656478938769,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Pls repeat.",
+        "time": 0.9466036491731497,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "This who who looks like he is holding a box",
+        "time": 0.6625484173718231,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "flat leg on floor?",
+        "time": 0.7797685876796872,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "one*",
+        "time": 0.8950636941369099,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "knees are pointed to the right",
+        "time": 0.679562540145407,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "I would call that his feet",
+        "time": 0.9148355989672103,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "back of the knees has a > angle?",
+        "time": 0.6119947242811172,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Yes.",
+        "time": 0.8885972192099947,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "D",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "crouching",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the begger with his legs straight on the floor",
+        "time": 0.6946064242368439,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "the one I missed",
+        "time": 0.8030059151620788,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "knees and hands on right",
+        "time": 0.9061839131276469,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "no legs upward",
+        "time": 0.6799560797422792,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "looks like feet pointed upwards on left?",
+        "time": 0.7526653331390343,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "no n",
+        "time": 0.9458453322185744,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "i think so, minu?",
+        "time": 0.7923613187225277,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "hmm",
+        "time": 0.7364834946659454,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "the one that doesn't have a small leg on the left",
+        "time": 0.6747767603716117,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "yes?",
+        "time": 0.9850192709480131,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "his leg IS pointing up?",
+        "time": 0.910172993091056,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "no",
+        "time": 0.7659166206810134,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "straight on the floor",
+        "time": 0.6280223390928443,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "anything on his head?",
+        "time": 0.9644330480314361,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "nope",
+        "time": 0.8013496139721993,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": ">>",
+        "time": 0.9245729157304937,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "knees position",
+        "time": 0.6517950193746224,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "knees and legs position is > >",
+        "time": 0.6590528141438123,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "yey",
+        "time": 0.685594830197922,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "H",
+      "bob": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "crouching",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Good luck minu",
+        "time": 0.9255392933199955,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "Okay, so the guy is half standing with his hands out to the left",
+        "time": 0.7529227141498994,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "half standing/half kneeling, knees pointed to the right",
+        "time": 0.7762733360245014,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "nothing but the square for a head",
+        "time": 0.7580772095451943,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "perfect straight back on the left",
+        "time": 0.63028391898356,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "bob": "L",
+      "alice": "J"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "crouching",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Waiting for a handing out in a half-crouching position.",
+        "time": 0.7515749780684665,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Hands pointing to the right.",
+        "time": 0.9857086937807704,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Knee pointing to the right.",
+        "time": 0.9693877772883308,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "got it",
+        "time": 0.6168390342748595,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Ok!",
+        "time": 0.7574790551610571,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "L",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "crouching",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "hands and knees pointed to the right",
+        "time": 0.7179700081223765,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "perefect > angle",
+        "time": 0.9687694001920796,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "perfect*",
+        "time": 0.6612525516997158,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "the begging one or the crouching guy?",
+        "time": 0.7239509307064017,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "perfect diamond shape of his head",
+        "time": 0.6256009819362492,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "crouching",
+        "time": 0.8789587631820341,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "L",
+      "alice": "K"
+    }
+  }
+]

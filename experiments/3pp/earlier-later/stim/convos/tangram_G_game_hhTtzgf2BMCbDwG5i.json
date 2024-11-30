@@ -1,0 +1,152 @@
+[
+  {
+    "target": "G",
+    "convention": "strike a pose",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "just one left i guess",
+        "time": 0.8044209001233925,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Nice!",
+        "time": 0.9405281155939776,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "we can't select until the speaker messages though i think",
+        "time": 0.9854695460263446,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "this looks like its striking a pose or something, on foot outstretched behind him and the other close in front, facing right, one hand kind of up in the air by the head",
+        "time": 0.786142319007127,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "head tilted back to the left",
+        "time": 0.745206079955266,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "G",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "strike a pose",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "The one who looks like they're striking a pose. Big thick leg sticking out behind them to the left. Head tilted back",
+        "time": 0.6012179449112577,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "to the left",
+        "time": 0.8014423802517141,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "strike a pose",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the one striking a pose",
+        "time": 0.7626157041274415,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "G",
+      "bob": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "strike a pose",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "striking a pose",
+        "time": 0.953527684817302,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "bob": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "strike a pose",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "striking a pose",
+        "time": 0.9479681474594396,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "G",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "strike a pose",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Strike a pose.",
+        "time": 0.7948041264467329,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "G",
+      "alice": "G"
+    }
+  }
+]

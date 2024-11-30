@@ -1,0 +1,194 @@
+[
+  {
+    "target": "H",
+    "convention": "sleeping bag",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "this on looks the most smooth",
+        "time": 0.8832862497966691,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with the least triangles sticking out",
+        "time": 0.6457323237988152,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "making a fat l shape with only a small flick at the bottom",
+        "time": 0.8306435173439856,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "does it look like a cucumber?",
+        "time": 0.985833923058688,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yh",
+        "time": 0.9270032304774589,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the let side is flat",
+        "time": 0.6063260676166974,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "apart from some white cut outs above and below",
+        "time": 0.7407164769884339,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the middle part of the left side is flat",
+        "time": 0.8489301218712182,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "let me know If you need more",
+        "time": 0.7947163951651076,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "sleeping bag",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "this is a person in a sleeping bag with no arms or legs",
+        "time": 0.6022560038063879,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "with the head sticking out",
+        "time": 0.9195679302848256,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "cucumber again?",
+        "time": 0.9812052320341325,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yeah",
+        "time": 0.7270060300989009,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "sleeping bag",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "bean bag/ cucumber",
+        "time": 0.9298277277134382,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "sleeping bag",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "sleeping bag cucumber",
+        "time": 0.9660076873401727,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "bob": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "sleeping bag",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "sleeping bag",
+        "time": 0.9283804347915102,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "cucumber",
+        "time": 0.7372871451722885,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "sleeping bag",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "sleeping bag",
+        "time": 0.688870443122704,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "H",
+      "carol": "H",
+      "dave": "H"
+    }
+  }
+]

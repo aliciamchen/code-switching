@@ -1,0 +1,1827 @@
+[
+    {
+        "item_id": 1,
+        "trials": [
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                }
+            ],
+            [
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelL1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelJ2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "D",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelD"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelC1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelK1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelB1"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "F",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelF"
+                    },
+                    "unique": {
+                        "tangram": "J",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelJ1"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelA2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "C",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelC2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "G",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelG"
+                    },
+                    "unique": {
+                        "tangram": "K",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelK2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "H",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelH"
+                    },
+                    "unique": {
+                        "tangram": "L",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelL2"
+                    }
+                },
+                {
+                    "goal": "refer",
+                    "shared": {
+                        "tangram": "I",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelI"
+                    },
+                    "unique": {
+                        "tangram": "B",
+                        "shared": "unique",
+                        "group": "red",
+                        "label": "labelB2"
+                    }
+                },
+                {
+                    "goal": "social",
+                    "shared": {
+                        "tangram": "E",
+                        "shared": "shared",
+                        "group": "both",
+                        "label": "labelE"
+                    },
+                    "unique": {
+                        "tangram": "A",
+                        "shared": "unique",
+                        "group": "blue",
+                        "label": "labelA1"
+                    }
+                }
+            ]
+        ]
+    }
+]

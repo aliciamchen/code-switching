@@ -1,0 +1,140 @@
+[
+  {
+    "target": "I",
+    "convention": "yoga guy",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "the one that looks like a standing person with one leg on the ground and one sticking out to the right",
+        "time": 0.786996317522005,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "and two triangles pointing left",
+        "time": 0.6066638854169296,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "bob": "I",
+      "dave": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "yoga guy",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "this is a person on one foot, with the other leg pointing to the right",
+        "time": 0.6686286841730311,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "triangles pointing to the left",
+        "time": 0.613191313166472,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "yoga guy?",
+        "time": 0.8703617537006143,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "carol": "E",
+      "dave": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "yoga guy",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "yoga guy",
+        "time": 0.6511924031658358,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "bob": "I",
+      "dave": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "yoga guy",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "yoga dude",
+        "time": 0.6875647130150675,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "carol": "I",
+      "bob": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "yoga guy",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "yoga",
+        "time": 0.6187540694941895,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "bob": "I",
+      "dave": "I"
+    }
+  },
+  {
+    "target": "I",
+    "convention": "yoga guy",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "yoga guy",
+        "time": 0.6376772937614534,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "I",
+      "carol": "I",
+      "dave": "I"
+    }
+  }
+]

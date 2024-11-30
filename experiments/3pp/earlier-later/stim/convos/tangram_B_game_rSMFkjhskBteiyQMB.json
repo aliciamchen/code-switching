@@ -1,0 +1,182 @@
+[
+  {
+    "target": "B",
+    "convention": "wings",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Rotated square at the top, a triangle is touching it's point. They are touching another triangle.",
+        "time": 0.6346251213957089,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "this picture looks like an animal sat down",
+        "time": 0.6531748133190837,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "do the two triangles kind look like wings?",
+        "time": 0.6602611803552145,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "kind of*",
+        "time": 0.9443729003046182,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "B",
+      "bob": "B",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "wings",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "wings",
+        "time": 0.7250319731864983,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "man kneeling head facing down",
+        "time": 0.7100334800914301,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "carol": "B",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "wings",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "wings, man head facing down, kneeling",
+        "time": 0.6464599962219747,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "bob": "B",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "wings",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "wings",
+        "time": 0.7321174693820549,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "kneeling, head tilted down",
+        "time": 0.9066268727850567,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "B",
+      "bob": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "wings",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "mouse",
+        "time": 0.967251627812163,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "mouse?",
+        "time": 0.9663183806155162,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "bunny ears",
+        "time": 0.7639088527940473,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no, point of square and point of 2 different triangles touches",
+        "time": 0.9204029438182953,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "unfortunate i have chosen bunny ears on minu's word",
+        "time": 0.6204241611125607,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "like, the guy with wings?",
+        "time": 0.6455563335082272,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "bob": "E",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "wings",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "wings",
+        "time": 0.8600428898299346,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "B",
+      "carol": "B",
+      "dave": "B"
+    }
+  }
+]

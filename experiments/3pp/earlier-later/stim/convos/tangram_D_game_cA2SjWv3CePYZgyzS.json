@@ -1,0 +1,206 @@
+[
+  {
+    "target": "D",
+    "convention": "long sleeved book",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "this looks like a standing person",
+        "time": 0.9696337620555211,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with a triangle and square put together sticking out of the left side",
+        "time": 0.7755445553166698,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "and the bottom is flat and there's a small triangle at the bottom sticking out left too",
+        "time": 0.6313350178833,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Like a guy with long sleeves looking at a book?",
+        "time": 0.8610813231786267,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.9909461219471611,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "bob": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "long sleeved book",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "A person standing upright looking into a book",
+        "time": 0.8660210633281227,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "A square on the right",
+        "time": 0.8773542043984879,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "left rather",
+        "time": 0.7839898194015844,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "the right is flat",
+        "time": 0.975002618003653,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "and so is the bottom",
+        "time": 0.9559522166122304,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Think of someone with a large sleeves on their robe",
+        "time": 0.9289421113849803,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "is there a right angle on the bottom right ?",
+        "time": 0.8518432957584918,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.8980934146624627,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "D",
+      "carol": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "long sleeved book",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "robe hands reading book",
+        "time": 0.9321444554824629,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "D",
+      "bob": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "long sleeved book",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "guy with long sleeves and book",
+        "time": 0.9974192178849046,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "J",
+      "carol": "D",
+      "bob": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "long sleeved book",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "flat right side",
+        "time": 0.7085983682956287,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "person stadning",
+        "time": 0.6641415040423558,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "reading book to the elft",
+        "time": 0.6114021103115264,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "left",
+        "time": 0.9276090453656267,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "bob": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "long sleeved book",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "long sleeved book",
+        "time": 0.8999168806923483,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "D",
+      "carol": "D",
+      "dave": "D"
+    }
+  }
+]

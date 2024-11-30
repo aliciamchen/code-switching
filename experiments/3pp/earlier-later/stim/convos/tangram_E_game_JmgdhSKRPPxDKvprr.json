@@ -1,0 +1,230 @@
+[
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "bunny ears",
+        "time": 0.9497293781827273,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "face leaning forward to the right",
+        "time": 0.6160417533015606,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "right angle back?",
+        "time": 0.8356332075545447,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "and legs?",
+        "time": 0.9492509462013303,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "sitting with back straight facing right?",
+        "time": 0.6236189856578215,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "bodo is 2 joined triangles",
+        "time": 0.8506694939741011,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "like it sitting down with lefts to chest?",
+        "time": 0.8302760200625235,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes sitting with straight back",
+        "time": 0.9386853242729842,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "head tilted down?",
+        "time": 0.6726715575084407,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "facing right",
+        "time": 0.8399281775795175,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "yes a tilt",
+        "time": 0.8291115434206742,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "triangle bunny like ears",
+        "time": 0.9934387196095762,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "no gap between legs",
+        "time": 0.9515844697517934,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "bob": "E",
+      "dave": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "rabbit ears",
+        "time": 0.9376981881309976,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "leaning against wall",
+        "time": 0.9119321040650316,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing right",
+        "time": 0.9599828215739434,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "no gap between feet",
+        "time": 0.6071795745085409,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "sitting?",
+        "time": 0.7628027633426373,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "sitting, no gap",
+        "time": 0.696951311536059,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "alice": "E",
+      "dave": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "bunny ears, sitting, facing right",
+        "time": 0.617306066221907,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "E",
+      "alice": "E",
+      "dave": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "bunny ears",
+        "time": 0.6644123329847055,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "sat down facting right",
+        "time": 0.8715468876197954,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "bob": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "bunny ears",
+        "time": 0.8185773770760303,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "bob": "E",
+      "dave": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "bunny ears",
+        "time": 0.6823313042385531,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "alice": "E",
+      "dave": "E"
+    }
+  }
+]

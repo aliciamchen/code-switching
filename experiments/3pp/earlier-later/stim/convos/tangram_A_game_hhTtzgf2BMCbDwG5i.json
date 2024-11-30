@@ -1,0 +1,164 @@
+[
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Oh this is more difficult than expected.",
+        "time": 0.6886205780600108,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yeah",
+        "time": 0.7178668707036782,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "this one has one foot in the air like it's walking",
+        "time": 0.9324732693369897,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "and one foot planted firmly on the ground",
+        "time": 0.9072916606536021,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with a diamond on the right side",
+        "time": 0.8835656739932363,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "does it look a bit like a zombie?",
+        "time": 0.8010734875210508,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "with the hands",
+        "time": 0.6283303270917041,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "got it yes",
+        "time": 0.7928527712590332,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "dave": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Zombie person.",
+        "time": 0.8267664382656414,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "dave": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "zombie one",
+        "time": 0.7313215917288982,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "bob": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "the zombie",
+        "time": 0.9569137624097392,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "zombie",
+        "time": 0.6197469594644798,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "dave": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Zombie!",
+        "time": 0.9900985174027063,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "dave": "A",
+      "alice": "A"
+    }
+  }
+]

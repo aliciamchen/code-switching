@@ -1,0 +1,158 @@
+[
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "ok its like a guy looking left carrying a box",
+        "time": 0.6555113415612273,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "in his arms or on his back",
+        "time": 0.6160283462093411,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "in his arms",
+        "time": 0.6084205691863818,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "D",
+      "bob": "D",
+      "carol": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "The person is facing left and his holding like an open box",
+        "time": 0.9464672523759647,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "looks like a priest",
+        "time": 0.6302659641952232,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "D",
+      "alice": "D",
+      "carol": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "looks like a priest facing right or somoen holding an open bow facing right",
+        "time": 0.8536056081251979,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "left",
+        "time": 0.6670963826555999,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "sorry i meant left",
+        "time": 0.8471601758467054,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "box not bow",
+        "time": 0.7307620936421317,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "D",
+      "bob": "D",
+      "alice": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "priest facing left carrying a box",
+        "time": 0.9895383262007579,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "D",
+      "alice": "D",
+      "carol": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "box priest",
+        "time": 0.8714089841405543,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "D",
+      "bob": "D",
+      "carol": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "3WzEi9zkHF77vdTw5",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "priest with box",
+        "time": 0.9782935219363741,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "D",
+      "alice": "D",
+      "carol": "D"
+    }
+  }
+]

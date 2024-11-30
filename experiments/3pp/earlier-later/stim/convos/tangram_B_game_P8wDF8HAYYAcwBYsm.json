@@ -1,0 +1,194 @@
+[
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Another odd one. Does not look much like a human.",
+        "time": 0.8817771896739135,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "I can sorta see a mouse though!",
+        "time": 0.9398442956604416,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "they're all odd, just describe",
+        "time": 0.7103941915454913,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "it's cool",
+        "time": 0.6809874384590512,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "two big ears, pointing nose. Facing left.",
+        "time": 0.9920778816423682,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "A small triangle on the left side could be its foot or tail.",
+        "time": 0.9552539457180387,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Its ears are a diamond and a triangle",
+        "time": 0.8193267350811146,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "I",
+      "bob": "G",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "welp",
+        "time": 0.8879213838904203,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "the one previously described as a pointy nosed mouse",
+        "time": 0.9751672885403537,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "alice": "B",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "wacky guy two hands up with a little lagging triangle on left side",
+        "time": 0.9044705433196845,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "mouse with pointy nose?",
+        "time": 0.717465083411022,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "no",
+        "time": 0.9284961152543738,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "more info",
+        "time": 0.7824405230117866,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "diamond head, one hand is almost off, other is connected",
+        "time": 0.7272595333514246,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "B",
+      "bob": "B",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "mouse with pointy nose, looking left",
+        "time": 0.6805416615956649,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "B",
+      "alice": "B",
+      "bob": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "pointy nose mouse",
+        "time": 0.8746104030977522,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "facing left",
+        "time": 0.8569227895002782,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "B",
+      "bob": "B",
+      "dave": "B"
+    }
+  },
+  {
+    "target": "B",
+    "convention": "mouse",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "left facing pointy nosed mouse",
+        "time": 0.7183700724914348,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "B",
+      "alice": "B",
+      "dave": "B"
+    }
+  }
+]

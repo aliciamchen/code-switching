@@ -1,0 +1,39 @@
+[
+  {
+    "prompt": "What is the difference between the red and blue groups?",
+    "options": [
+      "(A) The players in the red group are more experienced than the players in the blue group.",
+      "(B) The players in the blue group only interact with each other, and the players in the red group only interact with each other.",
+      "(C) The players move between the groups: they are reassigned to new groups after each round.",
+      "(D) The players in each group see a different set of pictures."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "What kind of feedback did the Speakers and the Listeners see during the gameplay?",
+    "options": [
+      "(A) The Speakers saw each of the Listeners' guesses, and each of the Listeners saw what the correct picture was.",
+      "(B) The Speakers saw each of the Listeners' guesses, but the Listeners didn't see what the correct picture was.",
+      "(C) The Listeners saw what the correct picture was, but the speakers didn't see each of the Listeners' guesses."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "What did the Speaker do in each of the rounds?",
+    "options": [
+      "(A) The Speaker generated the most creative description of each of the 6 pictures, that they could think of.",
+      "(B) The Speaker described each of the 6 pictures to the Listeners. Then, the Speaker role rotated to the next player.",
+      "(C) The Speaker described a random picture to the Listeners. Then, the Speaker role rotated to the next player."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "How can I earn the highest possible bonus in this task?",
+    "options": [
+      "(A) By choosing the most interesting descriptions for the pictures in the second part of the task.",
+      "(B) By clicking through the second part of the task as fast as possible, so that I can finish the task quickly.",
+      "(C) By paying attention to the videos in the first part of the task, so that I can pick the correct choices in the second part of the task."
+    ],
+    "required": true
+  }
+]

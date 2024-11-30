@@ -1,0 +1,74 @@
+[
+    {
+      "tangram": "E",
+      "shared": "unique",
+      "group": "red",
+      "label": "windmill"
+    },
+    {
+      "tangram": "E",
+      "shared": "unique",
+      "group": "blue",
+      "label": "bunny ears"
+    },
+    {
+      "tangram": "F",
+      "shared": "shared",
+      "group": "red",
+      "label": "sad"
+    },
+    {
+      "tangram": "F",
+      "shared": "shared",
+      "group": "blue",
+      "label": "sad"
+    },
+    {
+      "tangram": "G",
+      "shared": "shared",
+      "group": "red",
+      "label": "leg"
+    },
+    {
+      "tangram": "G",
+      "shared": "shared",
+      "group": "blue",
+      "label": "leg"
+    },
+    {
+      "tangram": "I",
+      "shared": "unique",
+      "group": "red",
+      "label": "ballerina"
+    },
+    {
+      "tangram": "I",
+      "shared": "unique",
+      "group": "blue",
+      "label": "ice skater"
+    },
+    {
+      "tangram": "J",
+      "shared": "unique",
+      "group": "red",
+      "label": "fat guy"
+    },
+    {
+      "tangram": "J",
+      "shared": "unique",
+      "group": "blue",
+      "label": "large cube"
+    },
+    {
+      "tangram": "K",
+      "shared": "shared",
+      "group": "red",
+      "label": "on their knees"
+    },
+    {
+      "tangram": "K",
+      "shared": "shared",
+      "group": "blue",
+      "label": "on their knees"
+    }
+  ]

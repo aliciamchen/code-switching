@@ -1,0 +1,1361 @@
+[
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "either",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "diff",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "dog",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "red",
+        "label": "leg"
+      },
+      {
+        "tangram": "G",
+        "label": "dog",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "dog",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "G",
+        "label": "dog",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "dog",
+    "options": [
+      {
+        "tangram": "G",
+        "shared": "shared",
+        "group": "blue",
+        "label": "leg"
+      },
+      {
+        "tangram": "G",
+        "label": "dog",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "thriller",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "red",
+        "label": "zombie"
+      },
+      {
+        "tangram": "A",
+        "label": "thriller",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "thriller",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "A",
+        "label": "thriller",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "thriller",
+    "options": [
+      {
+        "tangram": "A",
+        "shared": "shared",
+        "group": "blue",
+        "label": "zombie"
+      },
+      {
+        "tangram": "A",
+        "label": "thriller",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "yoga guy",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "red",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "I",
+        "label": "yoga guy",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "yoga guy",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "I",
+        "label": "yoga guy",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "yoga guy",
+    "options": [
+      {
+        "tangram": "I",
+        "shared": "shared",
+        "group": "blue",
+        "label": "ice skater"
+      },
+      {
+        "tangram": "I",
+        "label": "yoga guy",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "red",
+        "label": "falling guy"
+      },
+      {
+        "tangram": "C",
+        "shared": "unique",
+        "group": "blue",
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "red",
+        "label": "on their knees"
+      },
+      {
+        "tangram": "K",
+        "shared": "unique",
+        "group": "blue",
+        "label": "duck"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "red",
+        "label": "bunny ears"
+      },
+      {
+        "tangram": "E",
+        "shared": "unique",
+        "group": "blue",
+        "label": "crazy hat person"
+      }
+    ]
+  }
+]
