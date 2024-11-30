@@ -1,0 +1,224 @@
+[
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "cone sticking out from chest facing right",
+        "time": 0.6700458632378602,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "triangle point sticking up in the back",
+        "time": 0.7123127351439208,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "its the one that looks like its kneeling rather than squatting",
+        "time": 0.7901472994612218,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "facing what way?",
+        "time": 0.6016387378604651,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "facing right",
+        "time": 0.9476702179833049,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "L",
+      "carol": "K",
+      "dave": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "it kinda looks like a dog balancing a diamond on its nose",
+        "time": 0.9839976262815778,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "triangle pointing to the right",
+        "time": 0.6567973743849874,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "bit confused on this one",
+        "time": 0.6772476022375805,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "same",
+        "time": 0.7915760935358166,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "lol sorry if you look at the right side of the shape it creates a < shape",
+        "time": 0.7773127321793394,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "have we seen this one before",
+        "time": 0.666071148522578,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "no",
+        "time": 0.8879880832031581,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "and it has a right triangle pointing up on the left side",
+        "time": 0.6367831318590718,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "B",
+      "carol": "K",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "there's a diamond on top, there is a triangle pointing to the right and below it is bent knees with a small point on the left",
+        "time": 0.7400295217797712,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "makes a < on the right side",
+        "time": 0.9281820718564282,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "K",
+      "bob": "L",
+      "dave": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "looks like someone kneeling down with their feet up behind them",
+        "time": 0.8152622502405074,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing which way",
+        "time": 0.6342732816803401,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "diamond head",
+        "time": 0.9454341769367893,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "right i think",
+        "time": 0.7816682395754561,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "K",
+      "bob": "L",
+      "carol": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "person kneeling facing right. triangle sticking out from chest",
+        "time": 0.875092840418072,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "the person on their knees rather than squatting",
+        "time": 0.9952505272105903,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "L",
+      "carol": "K",
+      "dave": "K"
+    }
+  },
+  {
+    "target": "K",
+    "convention": "on their knees",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "person kneeling facing to the right",
+        "time": 0.6830139425566034,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "on their knees with a triangle pointing to the right",
+        "time": 0.8652244973468268,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "K",
+      "carol": "K",
+      "dave": "K"
+    }
+  }
+]

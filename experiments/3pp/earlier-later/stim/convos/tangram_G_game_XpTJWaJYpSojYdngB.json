@@ -1,0 +1,542 @@
+[
+  {
+    "target": "G",
+    "convention": "the strange dancer",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "The knees are pointed to the LEFT side. Or they look like knees anyhow.",
+        "time": 0.6646888939000964,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "The square head is also on the left side of the body.",
+        "time": 0.7777097516427678,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "is he sitting?",
+        "time": 0.8373280456060903,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "in a yoga position?",
+        "time": 0.908558673338909,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "One arm is to the RIGHT of the body (behind the head).",
+        "time": 0.6296182494315781,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "He looks like he is actually KNEELING.",
+        "time": 0.7050748962715846,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "On his KNEES.",
+        "time": 0.8084359346869534,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Not on his butt.",
+        "time": 0.9298412061105136,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Both arms are behind his head.",
+        "time": 0.8097307069427346,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "so confused now",
+        "time": 0.6177955892948598,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Same.",
+        "time": 0.8113917054180866,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "One arm is raised towards the top behind his head. The other is aimed behind his back.",
+        "time": 0.6396406910587789,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Agh! I mistapped now I can't change my response",
+        "time": 0.9961209532792962,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "I think its the one seems like dancing",
+        "time": 0.8979566158401145,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "B",
+      "dave": "F",
+      "bob": "E"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "the strange dancer",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Ok so his head is pointed backwards to the left",
+        "time": 0.7946202642213585,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "both legs on the ground",
+        "time": 0.6442535011329096,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "?",
+        "time": 0.712555186958699,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "??",
+        "time": 0.8997995085362426,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "standing with arms on the left?",
+        "time": 0.9980524125346624,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "I'm not seeing any head that's pointing to the left backwards.",
+        "time": 0.6039788765723874,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "me either",
+        "time": 0.80069786687146,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "looks like he is asking for something?",
+        "time": 0.8335762990980607,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "can you start over?",
+        "time": 0.8348396636004348,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "straight on right side?",
+        "time": 0.761341359291716,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Ok both this legs are on the ground",
+        "time": 0.6939355680729933,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "his*",
+        "time": 0.7740188514786763,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "he is not standing",
+        "time": 0.6247745088010246,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "he has both arms pointed to the right",
+        "time": 0.7994352785271424,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "on leg in the air?",
+        "time": 0.6645103214972192,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "They're pointing in opposite directions on the right?",
+        "time": 0.9390036499619339,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "The arms?",
+        "time": 0.71496777097245,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "No.",
+        "time": 0.840697347713364,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "no idea",
+        "time": 0.6841695112362366,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "dave": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "the strange dancer",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "we are almost halfway there!!",
+        "time": 0.9849931120479793,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "The toughest dancer, Fat big leg on the left, small leg on the right",
+        "time": 0.6785487651094888,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "head facing left",
+        "time": 0.802141468254205,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "arms are on the right",
+        "time": 0.6478790255820123,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "the complicated looking one?",
+        "time": 0.795928201554444,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "arms are bent from hlafways at the elbow",
+        "time": 0.6093495735104745,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "I find this one the most complicated",
+        "time": 0.7229137630155599,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "but his leg is on the floor?",
+        "time": 0.6112323334779519,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "has a very tiny shoulder on the left",
+        "time": 0.8517018051775658,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "yes",
+        "time": 0.8246111187866524,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "G",
+      "bob": "I",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "the strange dancer",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "complicated one. bunny ears",
+        "time": 0.669619902603405,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "looks like he's lounging, laying down",
+        "time": 0.8381020239439829,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "one triangle dangling off to the right",
+        "time": 0.8283711760407906,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "dancer you say?",
+        "time": 0.9815409926691995,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "no, not standing",
+        "time": 0.8119963703633487,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "head on left",
+        "time": 0.952328890517279,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "looks like he's laying down with one giant leg on the left",
+        "time": 0.6825389316409736,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "head is crazy. Has all the shapes",
+        "time": 0.9510252823637084,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "lets call this the dancer",
+        "time": 0.72559477352052,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "i think i get this one wrong every time.",
+        "time": 0.7926798725321548,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "long neck?",
+        "time": 0.9291164558224012,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": ";(",
+        "time": 0.6451208921634722,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "looks like a puppy to me",
+        "time": 0.7260627554013055,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "bob": "A",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "the strange dancer",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Kneeling",
+        "time": 0.6361968319035262,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Both arms behind him",
+        "time": 0.801308028780905,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "One is up in the air",
+        "time": 0.8593331954309836,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "The other is behind his butt.",
+        "time": 0.6494376378479019,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Knee(s) is/are on the left side in the pic.",
+        "time": 0.6053219484551879,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Head is boxy looking.",
+        "time": 0.6106614102432062,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "dancer?",
+        "time": 0.8604462308212868,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Slight shoulder jut on the left.",
+        "time": 0.7006587924022912,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "It's a weird dance, but I think so.",
+        "time": 0.7944732565436646,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "does it look like his feet are on the left",
+        "time": 0.6212484823707424,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "They look tucked beneath him.",
+        "time": 0.8812489511693259,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "I call this loudspeaker guy i think...no one knows what I'm talking about lol",
+        "time": 0.9172568179989818,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "I consider the knees to be pointing to the left.",
+        "time": 0.7276131053029347,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Both arms are on the right side in the picture.",
+        "time": 0.6047956845663415,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "big triangle hanging off the box at the top?",
+        "time": 0.8356930943447566,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Behind him/his body.",
+        "time": 0.94701499772066,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "No triangle connected to the box head.",
+        "time": 0.9290698008236359,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "damn i don't know",
+        "time": 0.994587005160417,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "The hands look like those Grand Opening rainbow flags that businesses put up.",
+        "time": 0.7635108413331693,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "L",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "the strange dancer",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "The strange dancer",
+        "time": 0.97085069437253,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "G",
+      "alice": "G"
+    }
+  }
+]

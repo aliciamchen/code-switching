@@ -1,0 +1,74 @@
+[
+    {
+      "tangram": "A",
+      "shared": "unique",
+      "group": "red",
+      "label": "thriller"
+    },
+    {
+      "tangram": "A",
+      "shared": "unique",
+      "group": "blue",
+      "label": "zombie"
+    },
+    {
+      "tangram": "C",
+      "shared": "shared",
+      "group": "red",
+      "label": "falling guy"
+    },
+    {
+      "tangram": "C",
+      "shared": "shared",
+      "group": "blue",
+      "label": "falling guy"
+    },
+    {
+      "tangram": "E",
+      "shared": "shared",
+      "group": "red",
+      "label": "bunny ears"
+    },
+    {
+      "tangram": "E",
+      "shared": "shared",
+      "group": "blue",
+      "label": "bunny ears"
+    },
+    {
+      "tangram": "G",
+      "shared": "unique",
+      "group": "red",
+      "label": "leg"
+    },
+    {
+      "tangram": "G",
+      "shared": "unique",
+      "group": "blue",
+      "label": "dog"
+    },
+    {
+      "tangram": "I",
+      "shared": "unique",
+      "group": "red",
+      "label": "ice skater"
+    },
+    {
+      "tangram": "I",
+      "shared": "unique",
+      "group": "blue",
+      "label": "yoga guy"
+    },
+    {
+      "tangram": "K",
+      "shared": "shared",
+      "group": "red",
+      "label": "on their knees"
+    },
+    {
+      "tangram": "K",
+      "shared": "shared",
+      "group": "blue",
+      "label": "on their knees"
+    }
+  ]

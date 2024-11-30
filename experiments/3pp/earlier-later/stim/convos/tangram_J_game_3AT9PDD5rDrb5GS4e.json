@@ -1,0 +1,146 @@
+[
+  {
+    "target": "J",
+    "convention": "large cube",
+    "game": "3AT9PDD5rDrb5GS4e",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right",
+        "time": 0.766346744067067,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "bob": "J",
+      "dave": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "large cube",
+    "game": "3AT9PDD5rDrb5GS4e",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "This is a large black square with a diamond balanced on top",
+        "time": 0.9601976346482239,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "diamond is balanced on a long flat surface at the top",
+        "time": 0.9265929552240344,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "alice": "J",
+      "dave": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "large cube",
+    "game": "3AT9PDD5rDrb5GS4e",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Big square body with what looks like a tiny arm pointing right and a diamond head",
+        "time": 0.7512680741572993,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "J",
+      "alice": "J",
+      "dave": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "large cube",
+    "game": "3AT9PDD5rDrb5GS4e",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "square shape with diamond on top",
+        "time": 0.8595728020569271,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "bob": "J",
+      "alice": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "large cube",
+    "game": "3AT9PDD5rDrb5GS4e",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "cube body",
+        "time": 0.8672839824837777,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "diamond on top",
+        "time": 0.6963349078276002,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "attached to cube flat surface by its point",
+        "time": 0.6179947044083557,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "bob": "J",
+      "dave": "J"
+    }
+  },
+  {
+    "target": "J",
+    "convention": "large cube",
+    "game": "3AT9PDD5rDrb5GS4e",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "top of image is diamond balanced on a flat surface",
+        "time": 0.710128142804685,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "large cube",
+        "time": 0.9182868421527168,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "J",
+      "alice": "J",
+      "dave": "J"
+    }
+  }
+]

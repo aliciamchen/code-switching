@@ -1,0 +1,260 @@
+[
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "someone kneeling down with his arms pointing right with his knees pointing right too",
+        "time": 0.9187882036258591,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "his legs are combined into a square",
+        "time": 0.8907781127982514,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Diamond head",
+        "time": 0.6918866414521896,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "hands form a triangle?",
+        "time": 0.7515812331150343,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "carol": "L",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "man kneeling, arms form a triangle on the right side",
+        "time": 0.763027314357104,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "knees bent and form a triangles pointing right",
+        "time": 0.6411012398601754,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "diamond head",
+        "time": 0.7402727591289028,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "knees and legs form a rectangle",
+        "time": 0.7902163155923086,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Zigzag shape",
+        "time": 0.7805546946317947,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.9919983603646139,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "carol": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Women kneeling, bent at knee, diamond head, sloped shoilders, one arm visible pointing right, she looks right",
+        "time": 0.8133114237792223,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Zigzag leg lady",
+        "time": 0.8174223203863987,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "triangle hanging off the back of her head?",
+        "time": 0.9008325312637058,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "No",
+        "time": 0.8561139317176556,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Looks like shes holding antray",
+        "time": 0.8063742039617252,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Holding a tray",
+        "time": 0.9026701053235527,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "knees facing right with her arm?",
+        "time": 0.873846884838074,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "Arm, knee points right",
+        "time": 0.9039729869827202,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "bob": "K",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "zigzag lady",
+        "time": 0.750419313053407,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "kneeling to the right, holding a bowl",
+        "time": 0.8344302948035562,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "knees pointing out but not touching the ground",
+        "time": 0.7102961906456549,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "zig zag lady with arms pointing right",
+        "time": 0.6679620220013015,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "flat back",
+        "time": 0.7611019279657492,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "No tail",
+        "time": 0.9019204230126768,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no tail",
+        "time": 0.9141749909018568,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "carol": "L",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "zigzag",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "man facing right",
+        "time": 0.7030758834751494,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "right knee sticking out?",
+        "time": 0.8817528197069637,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "hands in triangle knees together facng right",
+        "time": 0.6278133006131635,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "zigzag",
+        "time": 0.9487398660096198,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "L",
+      "carol": "L",
+      "alice": "L"
+    }
+  }
+]

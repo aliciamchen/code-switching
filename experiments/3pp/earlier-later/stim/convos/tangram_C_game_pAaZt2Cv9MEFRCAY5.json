@@ -1,0 +1,194 @@
+[
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "It looks like a person is falling backwards with his arms outstretche",
+        "time": 0.9880216812459477,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Body is slanted to the left",
+        "time": 0.8917580959800854,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "CODE name falling",
+        "time": 0.8548454950223603,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "no legs are visible right",
+        "time": 0.9346107827300123,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "One arm facing up and to the right, the other to the left",
+        "time": 0.8044041794427677,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "gotcha",
+        "time": 0.7597783020839162,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "No legs visible",
+        "time": 0.9835524522845609,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "waaaah",
+        "time": 0.8248302995686774,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "guy falling",
+        "time": 0.7373323955671777,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "both arms outstretched",
+        "time": 0.65779738178996,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "hanz up",
+        "time": 0.8785061159299743,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yeah",
+        "time": 0.9134211781101971,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "guy falling",
+        "time": 0.6387374471905568,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "C",
+      "dave": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "falling guy",
+        "time": 0.8374501779642901,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "for real this time",
+        "time": 0.6453358284013718,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "alice": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "guy falling backwards with arms outstretched",
+        "time": 0.8817124581709787,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "falling guy",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "falling guy, arms outstretched",
+        "time": 0.9059810962325974,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "i feel like we are closer to one another haha",
+        "time": 0.6285567137667457,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "dave": "C",
+      "alice": "C"
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "looks like a priest wearing a robe. facing left. arms stretched out holding something",
+        "time": 0.6225148558082695,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "standing straight up",
+        "time": 0.8743104137621863,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "D",
+      "carol": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "It looks like a pastor",
+        "time": 0.7989701191187415,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "D",
+      "carol": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "looks like the priest holding something facing left",
+        "time": 0.974233050567917,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "D",
+      "bob": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "priest",
+        "time": 0.8616244534048176,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "D",
+      "bob": "D",
+      "carol": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "priest",
+        "time": 0.9516971756662287,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "D",
+      "carol": "D",
+      "dave": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "priest",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "priest",
+        "time": 0.6806630996050087,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "D",
+      "carol": "D",
+      "dave": "D"
+    }
+  }
+]

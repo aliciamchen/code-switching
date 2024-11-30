@@ -1,0 +1,74 @@
+[
+    {
+      "tangram": "E",
+      "shared": "shared",
+      "group": "red",
+      "label": "bunny ears"
+    },
+    {
+      "tangram": "E",
+      "shared": "shared",
+      "group": "blue",
+      "label": "bunny ears"
+    },
+    {
+      "tangram": "F",
+      "shared": "unique",
+      "group": "red",
+      "label": "sad"
+    },
+    {
+      "tangram": "F",
+      "shared": "unique",
+      "group": "blue",
+      "label": "fetal position"
+    },
+    {
+      "tangram": "G",
+      "shared": "unique",
+      "group": "red",
+      "label": "leg"
+    },
+    {
+      "tangram": "G",
+      "shared": "unique",
+      "group": "blue",
+      "label": "strike a pose"
+    },
+    {
+      "tangram": "I",
+      "shared": "shared",
+      "group": "red",
+      "label": "ice skater"
+    },
+    {
+      "tangram": "I",
+      "shared": "shared",
+      "group": "blue",
+      "label": "ice skater"
+    },
+    {
+      "tangram": "J",
+      "shared": "shared",
+      "group": "red",
+      "label": "fat guy"
+    },
+    {
+      "tangram": "J",
+      "shared": "shared",
+      "group": "blue",
+      "label": "fat guy"
+    },
+    {
+      "tangram": "K",
+      "shared": "unique",
+      "group": "red",
+      "label": "on their knees"
+    },
+    {
+      "tangram": "K",
+      "shared": "unique",
+      "group": "blue",
+      "label": "duck"
+    }
+  ]

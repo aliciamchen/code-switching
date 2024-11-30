@@ -1,0 +1,66 @@
+{
+    "red": {
+      "A": {
+        "label": "thriller",
+        "shared": "unique",
+        "game": "yYtSpzsEi4mnTuPrj"
+      },
+      "C": {
+        "label": "falling guy",
+        "shared": "shared",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "E": {
+        "label": "bunny ears",
+        "shared": "shared",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "G": {
+        "label": "leg",
+        "shared": "unique",
+        "game": "pAaZt2Cv9MEFRCAY5"
+      },
+      "I": {
+        "label": "ice skater",
+        "shared": "unique",
+        "game": "LfuChcnEB54q8Ztys"
+      },
+      "K": {
+        "label": "on their knees",
+        "shared": "shared",
+        "game": "cA2SjWv3CePYZgyzS"
+      }
+    },
+    "blue": {
+      "A": {
+        "label": "zombie",
+        "shared": "unique",
+        "game": "hYBwiiFBSBi9ySwpJ"
+      },
+      "C": {
+        "label": "falling guy",
+        "shared": "shared",
+        "game": "XpTJWaJYpSojYdngB"
+      },
+      "E": {
+        "label": "bunny ears",
+        "shared": "shared",
+        "game": "JmgdhSKRPPxDKvprr"
+      },
+      "G": {
+        "label": "dog",
+        "shared": "unique",
+        "game": "rSMFkjhskBteiyQMB"
+      },
+      "I": {
+        "label": "yoga guy",
+        "shared": "unique",
+        "game": "cA2SjWv3CePYZgyzS"
+      },
+      "K": {
+        "label": "on their knees",
+        "shared": "shared",
+        "game": "ogPZPPCKpGn4votMa"
+      }
+    }
+  }

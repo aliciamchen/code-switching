@@ -1,0 +1,74 @@
+[
+    {
+      "tangram": "A",
+      "shared": "shared",
+      "group": "red",
+      "label": "zombie"
+    },
+    {
+      "tangram": "A",
+      "shared": "shared",
+      "group": "blue",
+      "label": "zombie"
+    },
+    {
+      "tangram": "C",
+      "shared": "unique",
+      "group": "red",
+      "label": "falling guy"
+    },
+    {
+      "tangram": "C",
+      "shared": "unique",
+      "group": "blue",
+      "label": "Y"
+    },
+    {
+      "tangram": "E",
+      "shared": "unique",
+      "group": "red",
+      "label": "bunny ears"
+    },
+    {
+      "tangram": "E",
+      "shared": "unique",
+      "group": "blue",
+      "label": "crazy hat person"
+    },
+    {
+      "tangram": "G",
+      "shared": "shared",
+      "group": "red",
+      "label": "leg"
+    },
+    {
+      "tangram": "G",
+      "shared": "shared",
+      "group": "blue",
+      "label": "leg"
+    },
+    {
+      "tangram": "I",
+      "shared": "shared",
+      "group": "red",
+      "label": "ice skater"
+    },
+    {
+      "tangram": "I",
+      "shared": "shared",
+      "group": "blue",
+      "label": "ice skater"
+    },
+    {
+      "tangram": "K",
+      "shared": "unique",
+      "group": "red",
+      "label": "on their knees"
+    },
+    {
+      "tangram": "K",
+      "shared": "unique",
+      "group": "blue",
+      "label": "duck"
+    }
+  ]

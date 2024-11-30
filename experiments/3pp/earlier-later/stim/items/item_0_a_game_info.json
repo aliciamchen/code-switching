@@ -1,0 +1,66 @@
+{
+    "red": {
+      "A": {
+        "label": "thriller",
+        "shared": "unique",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "B": {
+        "label": "mouse",
+        "shared": "shared",
+        "game": "hHoRuwi7p8k2XhzD3"
+      },
+      "C": {
+        "label": "falling guy",
+        "shared": "shared",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "D": {
+        "label": "priest",
+        "shared": "unique",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "H": {
+        "label": "baby",
+        "shared": "unique",
+        "game": "rSMFkjhskBteiyQMB"
+      },
+      "L": {
+        "label": "zigzag",
+        "shared": "shared",
+        "game": "hHoRuwi7p8k2XhzD3"
+      }
+    },
+    "blue": {
+      "A": {
+        "label": "zombie",
+        "shared": "unique",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "B": {
+        "label": "mouse",
+        "shared": "shared",
+        "game": "P8wDF8HAYYAcwBYsm"
+      },
+      "C": {
+        "label": "falling guy",
+        "shared": "shared",
+        "game": "pAaZt2Cv9MEFRCAY5"
+      },
+      "D": {
+        "label": "long sleeved book",
+        "shared": "unique",
+        "game": "cA2SjWv3CePYZgyzS"
+      },
+      "H": {
+        "label": "no arms",
+        "shared": "unique",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "L": {
+        "label": "zigzag",
+        "shared": "shared",
+        "game": "pAaZt2Cv9MEFRCAY5"
+      }
+    }
+  }
