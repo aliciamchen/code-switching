@@ -72,20 +72,28 @@ class Z(IntEnum):
 
 
 @jax.jit
-def meaning(u, o):
-    """
-    Check if an utterance `u` is valid for a tangram `o`
-    """
-    return (u & o) != 0
+def is_consistent(a, b, c):
+    return (a & b & c) != 0
 
 
 @memo
-def L0[u: U, o: O]():
+def L0[u: U, o: O, z: Z]():
     cast: [speaker, listener]
     listener: thinks[
         speaker : given(o in O, wpp=1),
-        speaker : chooses(u in U, wpp=meaning(u, o))
+        speaker : given(z in Z, wpp=1),
+        speaker : chooses(u in U, wpp=is_consistent(u, o, z)),
     ]
     listener: observes[speaker.u] is u
     listener: chooses(o in O, wpp=Pr[speaker.o == o])
-    return Pr[listener.o == o]
+    listener: chooses(z in Z, wpp=Pr[speaker.z == z])
+    return Pr[(listener.o == o) and (listener.z == z)]
+
+
+@memo
+def S[u: U, o: O, z: Z](alpha):
+    cast: [speaker, listener]
+    speaker: knows(o)
+    speaker: knows(z)
+    speaker: chooses(u in U, wpp=exp(alpha * L0[u, o, z]()))
+    return Pr[speaker.u == u]
