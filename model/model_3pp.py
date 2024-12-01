@@ -40,7 +40,7 @@ class O(IntEnum):
     TANGRAM_F = U.SHORT_RED_F | U.SHORT_BLUE_F | U.LONG_RED_F | U.LONG_BLUE_F
 
 
-class Z(IntEnum):
+class Z_s(IntEnum):
     RED = (
         U.SHORT_SHARED_A
         | U.LONG_RED_A
@@ -70,30 +70,58 @@ class Z(IntEnum):
         | U.LONG_BLUE_F
     )
 
+# Define costs in a dense array
+COST_MAPPING = jnp.array([1 if "SHORT" in u.name else 3 for u in U])
 
 @jax.jit
-def is_consistent(a, b, c):
-    return (a & b & c) != 0
+def cost(utterance: U):
+    # Compute the dense index using log2 of the enum value
+    dense_index = jnp.log2(utterance).astype(int)
+    return COST_MAPPING[dense_index]
+
+@jax.jit
+def is_consistent(*args):
+    result = args[0]
+    for arg in args[1:]:
+        result &= arg
+    return result != 0
 
 
 @memo
-def L0[u: U, o: O, z: Z]():
+def L0_o[u: U, o: O, z_s: Z_s]():
     cast: [speaker, listener]
     listener: thinks[
         speaker : given(o in O, wpp=1),
-        speaker : given(z in Z, wpp=1),
-        speaker : chooses(u in U, wpp=is_consistent(u, o, z)),
+        speaker : given(z_s in Z_s, wpp=1),
+        speaker : chooses(u in U, wpp=is_consistent(u, o, z_s)),
     ]
     listener: observes[speaker.u] is u
     listener: chooses(o in O, wpp=Pr[speaker.o == o])
-    listener: chooses(z in Z, wpp=Pr[speaker.z == z])
-    return Pr[(listener.o == o) and (listener.z == z)]
+    listener: chooses(z_s in Z_s, wpp=Pr[speaker.z_s == z_s])
+    return Pr[listener.o == o]
 
 
 @memo
-def S[u: U, o: O, z: Z](alpha):
+def L0_z[u: U, o: O, z_s: Z_s]():
+    cast: [speaker, listener]
+    listener: thinks[
+        speaker : given(o in O, wpp=1),
+        speaker : given(z_s in Z_s, wpp=1),
+        speaker : chooses(u in U, wpp=is_consistent(u, o, z_s)),
+    ]
+    listener: observes[speaker.u] is u
+    listener: chooses(o in O, wpp=Pr[speaker.o == o])
+    listener: chooses(z_s in Z_s, wpp=Pr[speaker.z_s == z_s])
+    return Pr[listener.z_s == z_s]
+
+
+@memo
+def S[u: U, o: O, z_s: Z_s](alpha):
     cast: [speaker, listener]
     speaker: knows(o)
-    speaker: knows(z)
-    speaker: chooses(u in U, wpp=exp(alpha * L0[u, o, z]()))
+    speaker: knows(z_s)
+    speaker: chooses(u in U, wpp=exp(alpha * (L0_o[u, o, z_s]() + L0_z[u, o, z_s]() - cost(u))))
     return Pr[speaker.u == u]
+
+
+# TODO: build in listener group stuff — listener doesn't know what the other utterances are
