@@ -122,20 +122,3 @@ def S[u: U, o: O, z_s: Z_s](alpha):
     speaker: knows(z_s)
     speaker: chooses(u in U, wpp=exp(alpha * (L0_o[u, o, z_s]() + L0_z[u, o, z_s]() - cost(u))))
     return Pr[speaker.u == u]
-
-
-# TODO: build in listener group stuff — listener doesn't know what the other utterances are
-# based on the listener identity, only two utterances - speaker should be restricted to utterances in only one group
-# how to measure informativity of earlier vs. later utterances?
-# the main question is what PRIORS we would need for this kind of behavior
-
-# ALSO, need to re-define informativity based on group membership...BASED ON LISTENERS GROUP, informativity
-# is different
-
-# So O should also take into consideration group membership?
-# need to consideration assumption that longer utterances are informative to everyone,
-# while shorter utterances are only informative to the in group. BUT this might not actually be the case
-# If they have the SAME INFORMATIVITY, then why would you not just use the shorter utterance?
-
-# long is informative but short specifically signals social identity?
-# what if you are speaking to either group? its an empirical question..
