@@ -93,7 +93,7 @@ def L0_o[u: U, o: O, z_s: Z_s]():
     listener: thinks[
         speaker : given(o in O, wpp=1),
         speaker : given(z_s in Z_s, wpp=1),
-        speaker : chooses(u in U, wpp=is_consistent(u, o, z_s)), # TODO: change to be about listener group membership
+        speaker : chooses(u in U, wpp=is_consistent(u, o, z_s)),
     ]
     listener: observes[speaker.u] is u
     listener: chooses(o in O, wpp=Pr[speaker.o == o])
