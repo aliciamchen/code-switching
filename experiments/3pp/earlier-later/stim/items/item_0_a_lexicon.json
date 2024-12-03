@@ -1,74 +1,223 @@
 [
-    {
-      "tangram": "A",
-      "shared": "unique",
-      "group": "red",
-      "label": "thriller"
-    },
-    {
-      "tangram": "A",
-      "shared": "unique",
-      "group": "blue",
-      "label": "zombie"
-    },
-    {
-      "tangram": "B",
-      "shared": "shared",
-      "group": "red",
-      "label": "mouse"
-    },
-    {
-      "tangram": "B",
-      "shared": "shared",
-      "group": "blue",
-      "label": "mouse"
-    },
-    {
-      "tangram": "C",
-      "shared": "shared",
-      "group": "red",
-      "label": "falling guy"
-    },
-    {
-      "tangram": "C",
-      "shared": "shared",
-      "group": "blue",
-      "label": "falling guy"
-    },
-    {
-      "tangram": "D",
-      "shared": "unique",
-      "group": "red",
-      "label": "priest"
-    },
-    {
-      "tangram": "D",
-      "shared": "unique",
-      "group": "blue",
-      "label": "long sleeved book"
-    },
-    {
-      "tangram": "H",
-      "shared": "unique",
-      "group": "red",
-      "label": "baby"
-    },
-    {
-      "tangram": "H",
-      "shared": "unique",
-      "group": "blue",
-      "label": "no arms"
-    },
-    {
-      "tangram": "L",
-      "shared": "shared",
-      "group": "red",
-      "label": "zigzag"
-    },
-    {
-      "tangram": "L",
-      "shared": "shared",
-      "group": "blue",
-      "label": "zigzag"
-    }
-  ]
+  {
+    "tangram": "A",
+    "group": "red",
+    "game": "3WzEi9zkHF77vdTw5",
+    "shared": "unique",
+    "earlier": "earlier",
+    "length": 41,
+    "label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit"
+  },
+  {
+    "tangram": "A",
+    "group": "red",
+    "game": "3WzEi9zkHF77vdTw5",
+    "shared": "unique",
+    "earlier": "later",
+    "length": 1,
+    "label": "thriller"
+  },
+  {
+    "tangram": "A",
+    "group": "blue",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "shared": "unique",
+    "earlier": "earlier",
+    "length": 27,
+    "label": "it looks like someone stood up with their feet both pointing left, there's a square and a trapesium at the top, with one leg in the air"
+  },
+  {
+    "tangram": "A",
+    "group": "blue",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "shared": "unique",
+    "earlier": "later",
+    "length": 1,
+    "label": "zombie"
+  },
+
+  {
+    "tangram": "B",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "group": "red",
+    "shared": "shared",
+    "earlier": "earlier",
+    "length": 28,
+    "label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth"
+  },
+  {
+    "tangram": "B",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "group": "red",
+    "shared": "shared",
+    "earlier": "later",
+    "length": 1,
+    "label": "mouse"
+  },
+  {
+    "tangram": "B",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "group": "blue",
+    "shared": "shared",
+    "earlier": "earlier",
+    "length": 28,
+    "label": "two big ears, pointing nose, facing left. A small triangle on the left side could be its foot or tail, its ears are a diamond and a triangle"
+  },
+  {
+    "tangram": "B",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "group": "blue",
+    "shared": "shared",
+    "earlier": "later",
+    "length": 1,
+    "label": "mouse"
+  },
+
+  {
+    "tangram": "C",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "group": "red",
+    "shared": "shared",
+    "earlier": "earlier",
+    "length": 22,
+    "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
+  },
+  {
+    "tangram": "C",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "group": "red",
+    "shared": "shared",
+    "earlier": "later",
+    "length": 2,
+    "label": "falling guy"
+  },
+  {
+    "tangram": "C",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "group": "blue",
+    "shared": "shared",
+    "earlier": "earlier",
+    "length": 32,
+    "label": "it looks like a person is falling backwards with his arms outstretched, body is slanted to the left, one arm facing up and to the right and the other to the left"
+  },
+  {
+    "tangram": "C",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "group": "blue",
+    "shared": "shared",
+    "earlier": "later",
+    "length": 2,
+    "label": "falling guy"
+  },
+
+  {
+    "tangram": "D",
+    "group": "red",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "shared": "unique",
+    "earlier": "earlier",
+    "length": 18,
+    "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open"
+  },
+  {
+    "tangram": "D",
+    "group": "red",
+    "game": "kBQMXHtyqWiM2LxL6",
+    "shared": "unique",
+    "earlier": "later",
+    "length": 1,
+    "label": "priest"
+  },
+  {
+    "tangram": "D",
+    "game": "cA2SjWv3CePYZgyzS",
+    "group": "blue",
+    "shared": "unique",
+    "earlier": "earlier",
+    "length": 36,
+    "label": "this looks like a standing person, with a triangle and square put together sticking out of the left sie, and the bottom is flat and there's a small triangle at the bottom sticking out left too"
+  },
+  {
+    "tangram": "D",
+    "game": "cA2SjWv3CePYZgyzS",
+    "group": "blue",
+    "shared": "unique",
+    "earlier": "later",
+    "length": 3,
+    "label": "long sleeved book"
+  },
+
+  {
+    "tangram": "H",
+    "group": "red",
+    "game": "rSMFkjhskBteiyQMB",
+    "shared": "unique",
+    "earlier": "earlier",
+    "length": 25,
+    "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket"
+  },
+  {
+    "tangram": "H",
+    "group": "red",
+    "game": "rSMFkjhskBteiyQMB",
+    "shared": "unique",
+    "earlier": "later",
+    "length": 1,
+    "label": "baby"
+  },
+  {
+    "tangram": "H",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "group": "blue",
+    "shared": "unique",
+    "earlier": "earlier",
+    "length": 27,
+    "label": "this one you can't really see the feet, hard to tell if they're sitting or what, no arms, facing right, and nothing on top of the head"
+  },
+  {
+    "tangram": "H",
+    "game": "hhTtzgf2BMCbDwG5i",
+    "group": "blue",
+    "shared": "unique",
+    "earlier": "later",
+    "length": 2,
+    "label": "no arms"
+  },
+
+  {
+    "tangram": "L",
+    "group": "red",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "shared": "shared",
+    "earlier": "earlier",
+    "length": 21,
+    "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
+  },
+  {
+    "tangram": "L",
+    "group": "red",
+    "game": "hHoRuwi7p8k2XhzD3",
+    "shared": "shared",
+    "earlier": "later",
+    "length": 1,
+    "label": "zigzag"
+  },
+  {
+    "tangram": "L",
+    "group": "blue",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "shared": "shared",
+    "earlier": "earlier",
+    "length": 30,
+    "label": "diamond head, facing to the right, standing but knees are bent, one arm visible extending to the right, no hands on the left, the legs are like a zig zag"
+  },
+  {
+    "tangram": "L",
+    "group": "blue",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "shared": "shared",
+    "earlier": "later",
+    "length": 1,
+    "label": "zigzag"
+  }
+]
