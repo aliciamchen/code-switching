@@ -1,786 +1,6 @@
 [
   {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "red",
-        "game": "BXWWg9XvCErxTpT9k",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
-      },
-      {
-        "tangram": "G",
-        "group": "red",
-        "game": "BXWWg9XvCErxTpT9k",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "leg"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "red",
-        "game": "BXWWg9XvCErxTpT9k",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
-      },
-      {
-        "tangram": "G",
-        "group": "red",
-        "game": "BXWWg9XvCErxTpT9k",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "leg"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "red",
-        "game": "BXWWg9XvCErxTpT9k",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
-      },
-      {
-        "tangram": "G",
-        "group": "red",
-        "game": "BXWWg9XvCErxTpT9k",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "leg"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "blue",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 61,
-        "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left"
-      },
-      {
-        "tangram": "G",
-        "group": "blue",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "leg"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "blue",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 61,
-        "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left"
-      },
-      {
-        "tangram": "G",
-        "group": "blue",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "leg"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "blue",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 61,
-        "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left"
-      },
-      {
-        "tangram": "G",
-        "group": "blue",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "leg"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "K",
-        "group": "red",
-        "game": "cA2SjWv3CePYZgyzS",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 85,
-        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
-      },
-      {
-        "tangram": "K",
-        "group": "red",
-        "game": "cA2SjWv3CePYZgyzS",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 3,
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "K",
-        "group": "red",
-        "game": "cA2SjWv3CePYZgyzS",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 85,
-        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
-      },
-      {
-        "tangram": "K",
-        "group": "red",
-        "game": "cA2SjWv3CePYZgyzS",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 3,
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "K",
-        "group": "red",
-        "game": "cA2SjWv3CePYZgyzS",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 85,
-        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
-      },
-      {
-        "tangram": "K",
-        "group": "red",
-        "game": "cA2SjWv3CePYZgyzS",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 3,
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "K",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right"
-      },
-      {
-        "tangram": "K",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 3,
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "K",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right"
-      },
-      {
-        "tangram": "K",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 3,
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "K",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right"
-      },
-      {
-        "tangram": "K",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 3,
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "J",
-        "group": "red",
-        "game": "XpTJWaJYpSojYdngB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 48,
-        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape"
-      },
-      {
-        "tangram": "J",
-        "group": "red",
-        "game": "XpTJWaJYpSojYdngB",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "fat guy"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "J",
-        "group": "red",
-        "game": "XpTJWaJYpSojYdngB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 48,
-        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape"
-      },
-      {
-        "tangram": "J",
-        "group": "red",
-        "game": "XpTJWaJYpSojYdngB",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "fat guy"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "J",
-        "group": "red",
-        "game": "XpTJWaJYpSojYdngB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 48,
-        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape"
-      },
-      {
-        "tangram": "J",
-        "group": "red",
-        "game": "XpTJWaJYpSojYdngB",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "fat guy"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "J",
-        "group": "blue",
-        "game": "3AT9PDD5rDrb5GS4e",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 26,
-        "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right"
-      },
-      {
-        "tangram": "J",
-        "group": "blue",
-        "game": "3AT9PDD5rDrb5GS4e",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "large cube"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "J",
-        "group": "blue",
-        "game": "3AT9PDD5rDrb5GS4e",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 26,
-        "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right"
-      },
-      {
-        "tangram": "J",
-        "group": "blue",
-        "game": "3AT9PDD5rDrb5GS4e",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "large cube"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "J",
-        "group": "blue",
-        "game": "3AT9PDD5rDrb5GS4e",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 26,
-        "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right"
-      },
-      {
-        "tangram": "J",
-        "group": "blue",
-        "game": "3AT9PDD5rDrb5GS4e",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "large cube"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "F",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 23,
-        "label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape"
-      },
-      {
-        "tangram": "F",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "sad"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "F",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 23,
-        "label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape"
-      },
-      {
-        "tangram": "F",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "sad"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "F",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 23,
-        "label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape"
-      },
-      {
-        "tangram": "F",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "sad"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "F",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears"
-      },
-      {
-        "tangram": "F",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "sad"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "F",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears"
-      },
-      {
-        "tangram": "F",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "sad"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "F",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears"
-      },
-      {
-        "tangram": "F",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "sad"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half"
-      },
-      {
-        "tangram": "I",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 1,
-        "label": "ballerina"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half"
-      },
-      {
-        "tangram": "I",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 1,
-        "label": "ballerina"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half"
-      },
-      {
-        "tangram": "I",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 1,
-        "label": "ballerina"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "group": "blue",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right"
-      },
-      {
-        "tangram": "I",
-        "group": "blue",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "ice skater"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "group": "blue",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right"
-      },
-      {
-        "tangram": "I",
-        "group": "blue",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "ice skater"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "group": "blue",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right"
-      },
-      {
-        "tangram": "I",
-        "group": "blue",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "ice skater"
-      }
-    ]
-  },
-  {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
@@ -806,7 +26,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -832,7 +52,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "either",
     "audience_group": "red",
@@ -858,7 +78,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "one",
     "audience_group": "blue",
@@ -884,7 +104,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -910,7 +130,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "either",
     "audience_group": "blue",
@@ -936,87 +156,9 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "leg",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "red",
-        "game": "BXWWg9XvCErxTpT9k",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
-      },
-      {
-        "tangram": "G",
-        "game": "BXWWg9XvCErxTpT9k",
-        "earlier": "later",
-        "length": 1,
-        "label": "leg",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "blue",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 61,
-        "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left"
-      },
-      {
-        "tangram": "G",
-        "game": "BXWWg9XvCErxTpT9k",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "unseen_label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
-    "options": [
-      {
-        "tangram": "G",
-        "group": "blue",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 61,
-        "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left"
-      },
-      {
-        "tangram": "G",
-        "game": "BXWWg9XvCErxTpT9k",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "sad",
     "audience_group": "red",
     "options": [
       {
@@ -1030,29 +172,784 @@
       },
       {
         "tangram": "F",
+        "group": "red",
         "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
         "earlier": "later",
         "length": 1,
-        "label": "sad",
-        "group": "unseen"
+        "label": "sad"
       }
     ]
   },
   {
-    "type": "same",
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "F",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 23,
+        "label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape"
+      },
+      {
+        "tangram": "F",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "sad"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "F",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 23,
+        "label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape"
+      },
+      {
+        "tangram": "F",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "sad"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "F",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears"
+      },
+      {
+        "tangram": "F",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "sad"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "F",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears"
+      },
+      {
+        "tangram": "F",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "sad"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "F",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears"
+      },
+      {
+        "tangram": "F",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "sad"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "red",
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 21,
+        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
+      },
+      {
+        "tangram": "G",
+        "group": "red",
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "red",
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 21,
+        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
+      },
+      {
+        "tangram": "G",
+        "group": "red",
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "red",
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 21,
+        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
+      },
+      {
+        "tangram": "G",
+        "group": "red",
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "blue",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 61,
+        "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left"
+      },
+      {
+        "tangram": "G",
+        "group": "blue",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "blue",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 61,
+        "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left"
+      },
+      {
+        "tangram": "G",
+        "group": "blue",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "blue",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 61,
+        "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left"
+      },
+      {
+        "tangram": "G",
+        "group": "blue",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 41,
+        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half"
+      },
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "ballerina"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 41,
+        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half"
+      },
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "ballerina"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 41,
+        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half"
+      },
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "ballerina"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right"
+      },
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right"
+      },
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right"
+      },
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "J",
+        "group": "red",
+        "game": "XpTJWaJYpSojYdngB",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 48,
+        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape"
+      },
+      {
+        "tangram": "J",
+        "group": "red",
+        "game": "XpTJWaJYpSojYdngB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "fat guy"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "J",
+        "group": "red",
+        "game": "XpTJWaJYpSojYdngB",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 48,
+        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape"
+      },
+      {
+        "tangram": "J",
+        "group": "red",
+        "game": "XpTJWaJYpSojYdngB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "fat guy"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "J",
+        "group": "red",
+        "game": "XpTJWaJYpSojYdngB",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 48,
+        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape"
+      },
+      {
+        "tangram": "J",
+        "group": "red",
+        "game": "XpTJWaJYpSojYdngB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "fat guy"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "J",
+        "group": "blue",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right"
+      },
+      {
+        "tangram": "J",
+        "group": "blue",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "large cube"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "J",
+        "group": "blue",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right"
+      },
+      {
+        "tangram": "J",
+        "group": "blue",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "large cube"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "J",
+        "group": "blue",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right"
+      },
+      {
+        "tangram": "J",
+        "group": "blue",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "large cube"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "K",
+        "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 85,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
+      },
+      {
+        "tangram": "K",
+        "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "K",
+        "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 85,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
+      },
+      {
+        "tangram": "K",
+        "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "K",
+        "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 85,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
+      },
+      {
+        "tangram": "K",
+        "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "K",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 27,
+        "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right"
+      },
+      {
+        "tangram": "K",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "K",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 27,
+        "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right"
+      },
+      {
+        "tangram": "K",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "K",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 27,
+        "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right"
+      },
+      {
+        "tangram": "K",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
     "goal": "refer",
     "audience": "one",
     "unseen_label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",
-    "audience_group": "blue",
+    "audience_group": "red",
     "options": [
       {
         "tangram": "F",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
         "shared": "shared",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears"
+        "earlier": "later",
+        "length": 1,
+        "label": "sad"
       },
       {
         "tangram": "F",
@@ -1065,19 +962,20 @@
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
     "goal": "refer",
-    "audience": "either",
+    "audience": "one",
     "unseen_label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",
+    "audience_group": "blue",
     "options": [
       {
         "tangram": "F",
         "group": "blue",
         "game": "rSMFkjhskBteiyQMB",
         "shared": "shared",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears"
+        "earlier": "later",
+        "length": 1,
+        "label": "sad"
       },
       {
         "tangram": "F",
@@ -1090,10 +988,112 @@
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",
+    "options": [
+      {
+        "tangram": "F",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "sad"
+      },
+      {
+        "tangram": "F",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "earlier": "earlier",
+        "length": 23,
+        "label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "on their knees",
+    "unseen_label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "red",
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      },
+      {
+        "tangram": "G",
+        "game": "BXWWg9XvCErxTpT9k",
+        "earlier": "earlier",
+        "length": 21,
+        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "blue",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      },
+      {
+        "tangram": "G",
+        "game": "BXWWg9XvCErxTpT9k",
+        "earlier": "earlier",
+        "length": 21,
+        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
+    "options": [
+      {
+        "tangram": "G",
+        "group": "blue",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
+      },
+      {
+        "tangram": "G",
+        "game": "BXWWg9XvCErxTpT9k",
+        "earlier": "earlier",
+        "length": 21,
+        "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",
     "audience_group": "red",
     "options": [
       {
@@ -1101,35 +1101,9 @@
         "group": "red",
         "game": "cA2SjWv3CePYZgyzS",
         "shared": "shared",
-        "earlier": "earlier",
-        "length": 85,
-        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
-      },
-      {
-        "tangram": "K",
-        "game": "cA2SjWv3CePYZgyzS",
         "earlier": "later",
         "length": 3,
-        "label": "on their knees",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "K",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right"
+        "label": "on their knees"
       },
       {
         "tangram": "K",
@@ -1142,7 +1116,33 @@
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "K",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
+      },
+      {
+        "tangram": "K",
+        "game": "cA2SjWv3CePYZgyzS",
+        "earlier": "earlier",
+        "length": 85,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
     "goal": "refer",
     "audience": "either",
     "unseen_label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",
@@ -1152,9 +1152,9 @@
         "group": "blue",
         "game": "ogPZPPCKpGn4votMa",
         "shared": "shared",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right"
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
       },
       {
         "tangram": "K",
@@ -1167,111 +1167,7 @@
     ]
   },
   {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "J",
-        "group": "red",
-        "game": "XpTJWaJYpSojYdngB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 48,
-        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape"
-      },
-      {
-        "tangram": "J",
-        "group": "blue",
-        "game": "3AT9PDD5rDrb5GS4e",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 26,
-        "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "J",
-        "group": "red",
-        "game": "XpTJWaJYpSojYdngB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 48,
-        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape"
-      },
-      {
-        "tangram": "J",
-        "group": "blue",
-        "game": "3AT9PDD5rDrb5GS4e",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 26,
-        "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half"
-      },
-      {
-        "tangram": "I",
-        "group": "blue",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "group": "red",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half"
-      },
-      {
-        "tangram": "I",
-        "group": "blue",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right"
-      }
-    ]
-  },
-  {
-    "type": "same",
+    "type": "baseline",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -1281,23 +1177,23 @@
         "group": "red",
         "game": "kBQMXHtyqWiM2LxL6",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 23,
-        "label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top"
+        "earlier": "later",
+        "length": 1,
+        "label": "windmill"
       },
       {
         "tangram": "E",
         "group": "blue",
         "game": "Sjf5nadz9keqBvs24",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "The gentleman is lunging forward throwing hands in the air, it is difficult to make out, also looks like a rabbit with head down and big ears"
+        "earlier": "later",
+        "length": 2,
+        "label": "bunny ears"
       }
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -1307,18 +1203,122 @@
         "group": "red",
         "game": "kBQMXHtyqWiM2LxL6",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 23,
-        "label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top"
+        "earlier": "later",
+        "length": 1,
+        "label": "windmill"
       },
       {
         "tangram": "E",
         "group": "blue",
         "game": "Sjf5nadz9keqBvs24",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "The gentleman is lunging forward throwing hands in the air, it is difficult to make out, also looks like a rabbit with head down and big ears"
+        "earlier": "later",
+        "length": 2,
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "ballerina"
+      },
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "ballerina"
+      },
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "J",
+        "group": "red",
+        "game": "XpTJWaJYpSojYdngB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "fat guy"
+      },
+      {
+        "tangram": "J",
+        "group": "blue",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "large cube"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "J",
+        "group": "red",
+        "game": "XpTJWaJYpSojYdngB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "fat guy"
+      },
+      {
+        "tangram": "J",
+        "group": "blue",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "large cube"
       }
     ]
   }

@@ -1,6 +1,6 @@
 [
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "either",
     "audience_group": "red",
@@ -78,7 +78,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "one",
     "audience_group": "blue",
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "either",
     "audience_group": "blue",
@@ -156,631 +156,7 @@
     ]
   },
   {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "D",
-        "group": "red",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open"
-      },
-      {
-        "tangram": "D",
-        "group": "red",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "D",
-        "group": "red",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open"
-      },
-      {
-        "tangram": "D",
-        "group": "red",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "D",
-        "group": "red",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open"
-      },
-      {
-        "tangram": "D",
-        "group": "red",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "D",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 17,
-        "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up"
-      },
-      {
-        "tangram": "D",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "D",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 17,
-        "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up"
-      },
-      {
-        "tangram": "D",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "D",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 17,
-        "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up"
-      },
-      {
-        "tangram": "D",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "priest"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "group": "red",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
-      },
-      {
-        "tangram": "L",
-        "group": "red",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 1,
-        "label": "zigzag"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "group": "red",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
-      },
-      {
-        "tangram": "L",
-        "group": "red",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 1,
-        "label": "zigzag"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "group": "red",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
-      },
-      {
-        "tangram": "L",
-        "group": "red",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 1,
-        "label": "zigzag"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "This looks like a person giving a speech from a book again but this time with knees bent"
-      },
-      {
-        "tangram": "L",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "bent knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "This looks like a person giving a speech from a book again but this time with knees bent"
-      },
-      {
-        "tangram": "L",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "bent knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "This looks like a person giving a speech from a book again but this time with knees bent"
-      },
-      {
-        "tangram": "L",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "bent knees"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "C",
-        "group": "red",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 22,
-        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
-      },
-      {
-        "tangram": "C",
-        "group": "red",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "C",
-        "group": "red",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 22,
-        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
-      },
-      {
-        "tangram": "C",
-        "group": "red",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "C",
-        "group": "red",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 22,
-        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
-      },
-      {
-        "tangram": "C",
-        "group": "red",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "C",
-        "group": "blue",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 30,
-        "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs"
-      },
-      {
-        "tangram": "C",
-        "group": "blue",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "no legs"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "C",
-        "group": "blue",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 30,
-        "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs"
-      },
-      {
-        "tangram": "C",
-        "group": "blue",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "no legs"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "C",
-        "group": "blue",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 30,
-        "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs"
-      },
-      {
-        "tangram": "C",
-        "group": "blue",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "later",
-        "length": 2,
-        "label": "no legs"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "H",
-        "group": "red",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 25,
-        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket"
-      },
-      {
-        "tangram": "H",
-        "group": "red",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "H",
-        "group": "red",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 25,
-        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket"
-      },
-      {
-        "tangram": "H",
-        "group": "red",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "H",
-        "group": "red",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 25,
-        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket"
-      },
-      {
-        "tangram": "H",
-        "group": "red",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "H",
-        "group": "blue",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 33,
-        "label": "it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon"
-      },
-      {
-        "tangram": "H",
-        "group": "blue",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "H",
-        "group": "blue",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 33,
-        "label": "it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon"
-      },
-      {
-        "tangram": "H",
-        "group": "blue",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "H",
-        "group": "blue",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 33,
-        "label": "it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon"
-      },
-      {
-        "tangram": "H",
-        "group": "blue",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "shared": "shared",
-        "earlier": "later",
-        "length": 1,
-        "label": "baby"
-      }
-    ]
-  },
-  {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
@@ -806,7 +182,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -832,7 +208,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "either",
     "audience_group": "red",
@@ -858,7 +234,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "one",
     "audience_group": "blue",
@@ -884,7 +260,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -910,7 +286,7 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "either",
     "audience_group": "blue",
@@ -936,10 +312,321 @@
     ]
   },
   {
-    "type": "same",
+    "type": "main",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "baby",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 22,
+        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
+      },
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 22,
+        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
+      },
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 22,
+        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
+      },
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 30,
+        "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs"
+      },
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "no legs"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 30,
+        "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs"
+      },
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "no legs"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 30,
+        "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs"
+      },
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "no legs"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
+        "group": "red",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 18,
+        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open"
+      },
+      {
+        "tangram": "D",
+        "group": "red",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
+        "group": "red",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 18,
+        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open"
+      },
+      {
+        "tangram": "D",
+        "group": "red",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "D",
+        "group": "red",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 18,
+        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open"
+      },
+      {
+        "tangram": "D",
+        "group": "red",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 17,
+        "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up"
+      },
+      {
+        "tangram": "D",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 17,
+        "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up"
+      },
+      {
+        "tangram": "D",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 17,
+        "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up"
+      },
+      {
+        "tangram": "D",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "priest"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
     "audience_group": "red",
     "options": [
       {
@@ -953,19 +640,71 @@
       },
       {
         "tangram": "H",
+        "group": "red",
         "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
         "earlier": "later",
         "length": 1,
-        "label": "baby",
-        "group": "unseen"
+        "label": "baby"
       }
     ]
   },
   {
-    "type": "same",
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
+        "group": "red",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket"
+      },
+      {
+        "tangram": "H",
+        "group": "red",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "baby"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
+        "group": "red",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket"
+      },
+      {
+        "tangram": "H",
+        "group": "red",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "baby"
+      }
+    ]
+  },
+  {
+    "type": "main",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
     "audience_group": "blue",
     "options": [
       {
@@ -979,19 +718,20 @@
       },
       {
         "tangram": "H",
-        "game": "rSMFkjhskBteiyQMB",
-        "earlier": "earlier",
-        "length": 25,
-        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
-        "group": "unseen"
+        "group": "blue",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "baby"
       }
     ]
   },
   {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "unseen_label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
     "options": [
       {
         "tangram": "H",
@@ -1004,55 +744,212 @@
       },
       {
         "tangram": "H",
-        "game": "rSMFkjhskBteiyQMB",
-        "earlier": "earlier",
-        "length": 25,
-        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
-        "group": "unseen"
+        "group": "blue",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "baby"
       }
     ]
   },
   {
-    "type": "same",
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
+        "group": "blue",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 33,
+        "label": "it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon"
+      },
+      {
+        "tangram": "H",
+        "group": "blue",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "baby"
+      }
+    ]
+  },
+  {
+    "type": "main",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "thriller",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "A",
+        "tangram": "L",
         "group": "red",
-        "game": "3WzEi9zkHF77vdTw5",
-        "shared": "shared",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
         "earlier": "earlier",
-        "length": 41,
-        "label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit"
+        "length": 21,
+        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
       },
       {
-        "tangram": "A",
-        "game": "3WzEi9zkHF77vdTw5",
+        "tangram": "L",
+        "group": "red",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
         "earlier": "later",
         "length": 1,
-        "label": "thriller",
-        "group": "unseen"
+        "label": "zigzag"
       }
     ]
   },
   {
-    "type": "same",
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
+        "group": "red",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 21,
+        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
+      },
+      {
+        "tangram": "L",
+        "group": "red",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "zigzag"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
+        "group": "red",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 21,
+        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
+      },
+      {
+        "tangram": "L",
+        "group": "red",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "zigzag"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 18,
+        "label": "This looks like a person giving a speech from a book again but this time with knees bent"
+      },
+      {
+        "tangram": "L",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "bent knees"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 18,
+        "label": "This looks like a person giving a speech from a book again but this time with knees bent"
+      },
+      {
+        "tangram": "L",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "bent knees"
+      }
+    ]
+  },
+  {
+    "type": "main",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 18,
+        "label": "This looks like a person giving a speech from a book again but this time with knees bent"
+      },
+      {
+        "tangram": "L",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "bent knees"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
     "goal": "refer",
     "audience": "one",
     "unseen_label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
-    "audience_group": "blue",
+    "audience_group": "red",
     "options": [
       {
         "tangram": "A",
-        "group": "blue",
-        "game": "P8wDF8HAYYAcwBYsm",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
         "shared": "shared",
-        "earlier": "earlier",
-        "length": 43,
-        "label": "it looks like a person kicking one foot in front of them. their head looks like it has a beak! they have a box over their right shoulder. It could also in theory looking like a person carrying another person over their shoulder."
+        "earlier": "later",
+        "length": 1,
+        "label": "thriller"
       },
       {
         "tangram": "A",
@@ -1065,19 +962,20 @@
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
     "goal": "refer",
-    "audience": "either",
+    "audience": "one",
     "unseen_label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+    "audience_group": "blue",
     "options": [
       {
         "tangram": "A",
         "group": "blue",
         "game": "P8wDF8HAYYAcwBYsm",
         "shared": "shared",
-        "earlier": "earlier",
-        "length": 43,
-        "label": "it looks like a person kicking one foot in front of them. their head looks like it has a beak! they have a box over their right shoulder. It could also in theory looking like a person carrying another person over their shoulder."
+        "earlier": "later",
+        "length": 1,
+        "label": "thriller"
       },
       {
         "tangram": "A",
@@ -1090,10 +988,35 @@
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "P8wDF8HAYYAcwBYsm",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "thriller"
+      },
+      {
+        "tangram": "A",
+        "game": "3WzEi9zkHF77vdTw5",
+        "earlier": "earlier",
+        "length": 41,
+        "label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "priest",
+    "unseen_label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
     "audience_group": "red",
     "options": [
       {
@@ -1101,35 +1024,9 @@
         "group": "red",
         "game": "kBQMXHtyqWiM2LxL6",
         "shared": "shared",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open"
-      },
-      {
-        "tangram": "D",
-        "game": "kBQMXHtyqWiM2LxL6",
         "earlier": "later",
         "length": 1,
-        "label": "priest",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "D",
-        "group": "blue",
-        "game": "ogPZPPCKpGn4votMa",
-        "shared": "shared",
-        "earlier": "earlier",
-        "length": 17,
-        "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up"
+        "label": "priest"
       },
       {
         "tangram": "D",
@@ -1142,7 +1039,33 @@
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "D",
+        "group": "blue",
+        "game": "ogPZPPCKpGn4votMa",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "priest"
+      },
+      {
+        "tangram": "D",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "earlier": "earlier",
+        "length": 18,
+        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
     "goal": "refer",
     "audience": "either",
     "unseen_label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
@@ -1152,9 +1075,9 @@
         "group": "blue",
         "game": "ogPZPPCKpGn4votMa",
         "shared": "shared",
-        "earlier": "earlier",
-        "length": 17,
-        "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up"
+        "earlier": "later",
+        "length": 1,
+        "label": "priest"
       },
       {
         "tangram": "D",
@@ -1167,7 +1090,84 @@
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "H",
+        "group": "red",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "baby"
+      },
+      {
+        "tangram": "H",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "H",
+        "group": "blue",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "baby"
+      },
+      {
+        "tangram": "H",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+    "options": [
+      {
+        "tangram": "H",
+        "group": "blue",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "baby"
+      },
+      {
+        "tangram": "H",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -1177,23 +1177,23 @@
         "group": "red",
         "game": "hHoRuwi7p8k2XhzD3",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth"
+        "earlier": "later",
+        "length": 1,
+        "label": "mouse"
       },
       {
         "tangram": "B",
         "group": "blue",
         "game": "BXWWg9XvCErxTpT9k",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side, you could say it is wearing a dress"
+        "earlier": "later",
+        "length": 2,
+        "label": "princess dance"
       }
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -1203,75 +1203,23 @@
         "group": "red",
         "game": "hHoRuwi7p8k2XhzD3",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth"
+        "earlier": "later",
+        "length": 1,
+        "label": "mouse"
       },
       {
         "tangram": "B",
         "group": "blue",
         "game": "BXWWg9XvCErxTpT9k",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 27,
-        "label": "two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side, you could say it is wearing a dress"
+        "earlier": "later",
+        "length": 2,
+        "label": "princess dance"
       }
     ]
   },
   {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "L",
-        "group": "red",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
-      },
-      {
-        "tangram": "L",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "This looks like a person giving a speech from a book again but this time with knees bent"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "L",
-        "group": "red",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square"
-      },
-      {
-        "tangram": "L",
-        "group": "blue",
-        "game": "rSMFkjhskBteiyQMB",
-        "shared": "unique",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "This looks like a person giving a speech from a book again but this time with knees bent"
-      }
-    ]
-  },
-  {
-    "type": "same",
+    "type": "baseline",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
@@ -1281,23 +1229,23 @@
         "group": "red",
         "game": "hhTtzgf2BMCbDwG5i",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 22,
-        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
+        "earlier": "later",
+        "length": 2,
+        "label": "falling guy"
       },
       {
         "tangram": "C",
         "group": "blue",
         "game": "hHoRuwi7p8k2XhzD3",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 30,
-        "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs"
+        "earlier": "later",
+        "length": 2,
+        "label": "no legs"
       }
     ]
   },
   {
-    "type": "same",
+    "type": "baseline",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
@@ -1307,18 +1255,70 @@
         "group": "red",
         "game": "hhTtzgf2BMCbDwG5i",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 22,
-        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only"
+        "earlier": "later",
+        "length": 2,
+        "label": "falling guy"
       },
       {
         "tangram": "C",
         "group": "blue",
         "game": "hHoRuwi7p8k2XhzD3",
         "shared": "unique",
-        "earlier": "earlier",
-        "length": 30,
-        "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs"
+        "earlier": "later",
+        "length": 2,
+        "label": "no legs"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "L",
+        "group": "red",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "zigzag"
+      },
+      {
+        "tangram": "L",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "bent knees"
+      }
+    ]
+  },
+  {
+    "type": "baseline",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "L",
+        "group": "red",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "zigzag"
+      },
+      {
+        "tangram": "L",
+        "group": "blue",
+        "game": "rSMFkjhskBteiyQMB",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "bent knees"
       }
     ]
   }

@@ -13,7 +13,7 @@ def separate_tangrams(lexicon):
 
 def generate_main_trials(lexicon):
 
-    tangrams = list(set([entry["tangram"] for entry in lexicon]))
+    tangrams = sorted(list(set([entry["tangram"] for entry in lexicon])))
     trials = []
     for tangram in tangrams:
         for audience_group in ["red", "blue"]:
@@ -30,7 +30,7 @@ def generate_main_trials(lexicon):
                 ]
                 if len(options) == 2:
                     trial = {
-                        "type": "same",  # the two tangrams are the same
+                        "type": "main",  # main or control/baseline
                         "goal": condition["goal"],
                         "audience": condition["audience"],
                         "audience_group": audience_group,
@@ -45,8 +45,8 @@ def generate_control_trials(
     this_lexicon, other_lexicon, shared_tangrams, unique_tangrams
 ):
     """other_lexicon is lexicon of another (counterbalanced) items to get the labels that are not seen"""
-    unique_set = list(set([entry["tangram"] for entry in unique_tangrams]))
-    shared_set = list(set([entry["tangram"] for entry in shared_tangrams]))
+    unique_set = sorted(list(set([entry["tangram"] for entry in unique_tangrams])))
+    shared_set = sorted(list(set([entry["tangram"] for entry in shared_tangrams])))
 
     shared_control_trials = []
     for shared_tangram in shared_set:
@@ -56,6 +56,7 @@ def generate_control_trials(
                 for entry in this_lexicon
                 if (entry["group"] == audience_group)
                 and (entry["tangram"] == shared_tangram)
+                and (entry["earlier"] == "later")
             ][0]
             unseen_label_option_ = [
                 entry
@@ -71,7 +72,7 @@ def generate_control_trials(
             unseen_label_option["group"] = "unseen"
 
             trial = {
-                "type": "same",
+                "type": "baseline",
                 "goal": "refer",
                 "audience": "one",
                 "unseen_label": unseen_label_option["label"],
@@ -82,7 +83,7 @@ def generate_control_trials(
 
         # refer to either group
         trial = {
-            "type": "same",
+            "type": "baseline",
             "goal": "refer",
             "audience": "either",
             "unseen_label": unseen_label_option["label"],
@@ -96,16 +97,20 @@ def generate_control_trials(
             red_label_option = [
                 entry
                 for entry in this_lexicon
-                if (entry["group"] == "red") and (entry["tangram"] == unique_tangram)
+                if (entry["group"] == "red")
+                and (entry["tangram"] == unique_tangram)
+                and (entry["earlier"] == "later")
             ][0]
             blue_label_option = [
                 entry
                 for entry in this_lexicon
-                if (entry["group"] == "blue") and (entry["tangram"] == unique_tangram)
+                if (entry["group"] == "blue")
+                and (entry["tangram"] == unique_tangram)
+                and (entry["earlier"] == "later")
             ][0]
 
             trial = {
-                "type": "same",
+                "type": "baseline",
                 "goal": "social",
                 "audience": "one",
                 "audience_group": audience_group,
