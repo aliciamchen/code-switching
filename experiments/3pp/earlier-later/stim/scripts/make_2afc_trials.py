@@ -11,61 +11,32 @@ def separate_tangrams(lexicon):
     return shared_tangrams, unique_tangrams
 
 
-def generate_main_trials(lexicon, shared_tangrams, unique_tangrams):
-    unique_set = sorted(list(set([entry["tangram"] for entry in unique_tangrams])))
-    shared_set = sorted(list(set([entry["tangram"] for entry in shared_tangrams])))
+def generate_main_trials(lexicon):
 
-    # generate list of all possible pairs of tangram, where there is one shared and one unique tangram
-    tangram_pairs = list(itertools.product(shared_set, unique_set))
-
+    tangrams = list(set([entry["tangram"] for entry in lexicon]))
     trials = []
-    for tangram_pair in tangram_pairs:
+    for tangram in tangrams:
         for audience_group in ["red", "blue"]:
-
-            # Add 'refer' to both groups
-            trial = {
-                "type": "diff",  # the two tangrams are different
-                "goal": "refer",
-                "audience": "either",
-                "options": [
-                    [
-                        entry
-                        for entry in lexicon
-                        if (entry["group"] == audience_group)
-                        and (entry["tangram"] == tangram_pair[0])
-                    ][0],
-                    [
-                        entry
-                        for entry in lexicon
-                        if (entry["group"] == audience_group)
-                        and (entry["tangram"] == tangram_pair[1])
-                    ][0],
-                ],
-            }
-            trials.append(trial)
-
-            for goal in ["refer", "social"]:
-                trial = {
-                    "type": "diff",  # the two tangrams are different
-                    "goal": goal,
-                    "audience": "one",
-                    "audience_group": audience_group,
-                    "options": [
-                        [
-                            entry
-                            for entry in lexicon
-                            if (entry["group"] == audience_group)
-                            and (entry["tangram"] == tangram_pair[0])
-                        ][0],
-                        [
-                            entry
-                            for entry in lexicon
-                            if (entry["group"] == audience_group)
-                            and (entry["tangram"] == tangram_pair[1])
-                        ][0],
-                    ],
-                }
-                trials.append(trial)
+            for condition in [
+                {"audience": "one", "goal": "refer"},
+                {"audience": "one", "goal": "social"},
+                {"audience": "either", "goal": "refer"},
+            ]:
+                options = [
+                    entry
+                    for entry in lexicon
+                    if (entry["group"] == audience_group)
+                    and (entry["tangram"] == tangram)
+                ]
+                if len(options) == 2:
+                    trial = {
+                        "type": "same",  # the two tangrams are the same
+                        "goal": condition["goal"],
+                        "audience": condition["audience"],
+                        "audience_group": audience_group,
+                        "options": options,
+                    }
+                    trials.append(trial)
 
     return trials
 
@@ -150,17 +121,25 @@ def generate_2afc_trials(item_num):
         with open(f"../items/item_{item_num}_{counterbalance}_lexicon.json", "r") as f:
             lexicon = json.load(f)
         other_counterbalance = "b" if counterbalance == "a" else "a"
-        with open(f"../items/item_{item_num}_{other_counterbalance}_lexicon.json", "r") as f:
+        with open(
+            f"../items/item_{item_num}_{other_counterbalance}_lexicon.json", "r"
+        ) as f:
             other_lexicon = json.load(f)
 
+        main_trials = generate_main_trials(lexicon)
+
         shared_tangrams, unique_tangrams = separate_tangrams(lexicon)
-        main_trials = generate_main_trials(lexicon, shared_tangrams, unique_tangrams)
         control_trials = generate_control_trials(
             lexicon, other_lexicon, shared_tangrams, unique_tangrams
         )
+
         trials = main_trials + control_trials
-        print(f"Generated {len(trials)} sets of trials for item {item_num} {counterbalance}")
-        with open(f"../2AFC_trials/item_{item_num}_{counterbalance}_2AFC.json", "w") as json_file:
+        print(
+            f"Generated {len(trials)} sets of trials for item {item_num} {counterbalance}"
+        )
+        with open(
+            f"../2AFC_trials/item_{item_num}_{counterbalance}_2AFC.json", "w"
+        ) as json_file:
             json.dump(trials, json_file, indent=2)
             print(f"Saved in ../2AFC_trials/item_{item_num}_{counterbalance}_2AFC.json")
 

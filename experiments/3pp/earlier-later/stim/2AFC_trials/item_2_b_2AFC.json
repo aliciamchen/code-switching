@@ -1,1062 +1,312 @@
 [
   {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "diff",
+    "type": "same",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "A",
-        "shared": "shared",
+        "tangram": "G",
         "group": "red",
-        "label": "zombie"
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 79,
+        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left"
       },
       {
-        "tangram": "C",
-        "shared": "unique",
+        "tangram": "G",
         "group": "red",
-        "label": "falling guy"
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
       }
     ]
   },
   {
-    "type": "diff",
+    "type": "same",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "A",
-        "shared": "shared",
+        "tangram": "G",
         "group": "red",
-        "label": "zombie"
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 79,
+        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left"
       },
       {
-        "tangram": "C",
-        "shared": "unique",
+        "tangram": "G",
         "group": "red",
-        "label": "falling guy"
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
       }
     ]
   },
   {
-    "type": "diff",
+    "type": "same",
     "goal": "refer",
     "audience": "either",
+    "audience_group": "red",
     "options": [
       {
-        "tangram": "A",
+        "tangram": "G",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
         "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
+        "earlier": "earlier",
+        "length": 79,
+        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left"
       },
       {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "Y"
+        "tangram": "G",
+        "group": "red",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
       }
     ]
   },
   {
-    "type": "diff",
+    "type": "same",
     "goal": "refer",
     "audience": "one",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "A",
-        "shared": "shared",
+        "tangram": "G",
         "group": "blue",
-        "label": "zombie"
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
       },
       {
-        "tangram": "C",
-        "shared": "unique",
+        "tangram": "G",
         "group": "blue",
-        "label": "Y"
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
       }
     ]
   },
   {
-    "type": "diff",
+    "type": "same",
     "goal": "social",
     "audience": "one",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "A",
-        "shared": "shared",
+        "tangram": "G",
         "group": "blue",
-        "label": "zombie"
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
       },
       {
-        "tangram": "C",
-        "shared": "unique",
+        "tangram": "G",
         "group": "blue",
-        "label": "Y"
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
       }
     ]
   },
   {
-    "type": "diff",
+    "type": "same",
     "goal": "refer",
     "audience": "either",
+    "audience_group": "blue",
     "options": [
       {
-        "tangram": "A",
+        "tangram": "G",
+        "group": "blue",
+        "game": "BXWWg9XvCErxTpT9k",
         "shared": "shared",
-        "group": "red",
-        "label": "zombie"
+        "earlier": "earlier",
+        "length": 28,
+        "label": "arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
       },
       {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
+        "tangram": "G",
+        "group": "blue",
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg"
       }
     ]
   },
   {
-    "type": "diff",
+    "type": "same",
     "goal": "refer",
     "audience": "one",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "A",
-        "shared": "shared",
+        "tangram": "K",
         "group": "red",
-        "label": "zombie"
-      },
-      {
-        "tangram": "E",
+        "game": "cA2SjWv3CePYZgyzS",
         "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
+        "earlier": "earlier",
+        "length": 87,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
       },
       {
         "tangram": "K",
-        "shared": "unique",
         "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 3,
         "label": "on their knees"
       }
     ]
   },
   {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "diff",
+    "type": "same",
     "goal": "social",
     "audience": "one",
     "audience_group": "red",
     "options": [
       {
-        "tangram": "A",
-        "shared": "shared",
+        "tangram": "K",
         "group": "red",
-        "label": "zombie"
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 87,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
       },
       {
         "tangram": "K",
-        "shared": "unique",
         "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 3,
         "label": "on their knees"
       }
     ]
   },
   {
-    "type": "diff",
+    "type": "same",
     "goal": "refer",
     "audience": "either",
+    "audience_group": "red",
     "options": [
       {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
+        "tangram": "K",
+        "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 87,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
       },
       {
         "tangram": "K",
+        "group": "red",
+        "game": "cA2SjWv3CePYZgyzS",
         "shared": "unique",
+        "earlier": "later",
+        "length": 3,
+        "label": "on their knees"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "K",
         "group": "blue",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top"
+      },
+      {
+        "tangram": "K",
+        "group": "blue",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
         "label": "duck"
       }
     ]
   },
   {
-    "type": "diff",
-    "goal": "refer",
+    "type": "same",
+    "goal": "social",
     "audience": "one",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "A",
-        "shared": "shared",
+        "tangram": "K",
         "group": "blue",
-        "label": "zombie"
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top"
       },
       {
         "tangram": "K",
-        "shared": "unique",
         "group": "blue",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
         "label": "duck"
       }
     ]
   },
   {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    ]
-  },
-  {
-    "type": "diff",
+    "type": "same",
     "goal": "refer",
     "audience": "either",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "Y"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "G",
-        "shared": "shared",
+        "tangram": "K",
         "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "C",
+        "game": "3WzEi9zkHF77vdTw5",
         "shared": "unique",
-        "group": "blue",
-        "label": "Y"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "Y"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
+        "earlier": "earlier",
+        "length": 25,
+        "label": "it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top"
       },
       {
         "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "red",
-        "label": "leg"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
         "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "K",
+        "game": "3WzEi9zkHF77vdTw5",
         "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "G",
-        "shared": "shared",
-        "group": "blue",
-        "label": "leg"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "red",
-        "label": "falling guy"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "Y"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "Y"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "C",
-        "shared": "unique",
-        "group": "blue",
-        "label": "Y"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "red",
-        "label": "bunny ears"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "E",
-        "shared": "unique",
-        "group": "blue",
-        "label": "crazy hat person"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "red",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "red",
-        "label": "on their knees"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "either",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "refer",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
-        "label": "duck"
-      }
-    ]
-  },
-  {
-    "type": "diff",
-    "goal": "social",
-    "audience": "one",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "I",
-        "shared": "shared",
-        "group": "blue",
-        "label": "ice skater"
-      },
-      {
-        "tangram": "K",
-        "shared": "unique",
-        "group": "blue",
+        "earlier": "later",
+        "length": 1,
         "label": "duck"
       }
     ]
@@ -1065,18 +315,648 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "dog",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "red",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "The picture looks like it's carrying a flag over its shoulder"
+      },
+      {
+        "tangram": "A",
+        "group": "red",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "red",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "The picture looks like it's carrying a flag over its shoulder"
+      },
+      {
+        "tangram": "A",
+        "group": "red",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "red",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "The picture looks like it's carrying a flag over its shoulder"
+      },
+      {
+        "tangram": "A",
+        "group": "red",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side"
+      },
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side"
+      },
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side"
+      },
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 40,
+        "label": "it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left"
+      },
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 40,
+        "label": "it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left"
+      },
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 40,
+        "label": "it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left"
+      },
+      {
+        "tangram": "C",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "falling guy"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "JmgdhSKRPPxDKvprr",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 35,
+        "label": "looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y"
+      },
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "JmgdhSKRPPxDKvprr",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "JmgdhSKRPPxDKvprr",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 35,
+        "label": "looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y"
+      },
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "JmgdhSKRPPxDKvprr",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "JmgdhSKRPPxDKvprr",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 35,
+        "label": "looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y"
+      },
+      {
+        "tangram": "C",
+        "group": "blue",
+        "game": "JmgdhSKRPPxDKvprr",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 1,
+        "label": "Y"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "LfuChcnEB54q8Ztys",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 13,
+        "label": "ice skating one, square head balancing, two triangle arms pointing to the left"
+      },
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "LfuChcnEB54q8Ztys",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "LfuChcnEB54q8Ztys",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 13,
+        "label": "ice skating one, square head balancing, two triangle arms pointing to the left"
+      },
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "LfuChcnEB54q8Ztys",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "LfuChcnEB54q8Ztys",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 13,
+        "label": "ice skating one, square head balancing, two triangle arms pointing to the left"
+      },
+      {
+        "tangram": "I",
+        "group": "red",
+        "game": "LfuChcnEB54q8Ztys",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 20,
+        "label": "picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back"
+      },
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 20,
+        "label": "picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back"
+      },
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 20,
+        "label": "picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back"
+      },
+      {
+        "tangram": "I",
+        "group": "blue",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "E",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top"
+      },
+      {
+        "tangram": "E",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "E",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top"
+      },
+      {
+        "tangram": "E",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "E",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top"
+      },
+      {
+        "tangram": "E",
+        "group": "red",
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 2,
+        "label": "bunny ears"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "E",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "sitting down, facing right, with the hat thing on its head"
+      },
+      {
+        "tangram": "E",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 3,
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "social",
+    "audience": "one",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "E",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "sitting down, facing right, with the hat thing on its head"
+      },
+      {
+        "tangram": "E",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 3,
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "E",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "sitting down, facing right, with the hat thing on its head"
+      },
+      {
+        "tangram": "E",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "later",
+        "length": 3,
+        "label": "crazy hat person"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "leg",
     "audience_group": "red",
     "options": [
       {
         "tangram": "G",
-        "shared": "shared",
         "group": "red",
-        "label": "leg"
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 79,
+        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left"
       },
       {
         "tangram": "G",
-        "label": "dog",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "earlier": "later",
+        "length": 1,
+        "label": "leg",
         "group": "unseen"
       }
     ]
@@ -1085,18 +965,24 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "dog",
+    "unseen_label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
     "audience_group": "blue",
     "options": [
       {
         "tangram": "G",
-        "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
       },
       {
         "tangram": "G",
-        "label": "dog",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "earlier": "earlier",
+        "length": 79,
+        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
         "group": "unseen"
       }
     ]
@@ -1105,17 +991,23 @@
     "type": "same",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "dog",
+    "unseen_label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
     "options": [
       {
         "tangram": "G",
-        "shared": "shared",
         "group": "blue",
-        "label": "leg"
+        "game": "BXWWg9XvCErxTpT9k",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 28,
+        "label": "arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
       },
       {
         "tangram": "G",
-        "label": "dog",
+        "game": "pAaZt2Cv9MEFRCAY5",
+        "earlier": "earlier",
+        "length": 79,
+        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
         "group": "unseen"
       }
     ]
@@ -1124,77 +1016,24 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "thriller",
-    "audience_group": "red",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "red",
-        "label": "zombie"
-      },
-      {
-        "tangram": "A",
-        "label": "thriller",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "thriller",
-    "audience_group": "blue",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      {
-        "tangram": "A",
-        "label": "thriller",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "either",
-    "unseen_label": "thriller",
-    "options": [
-      {
-        "tangram": "A",
-        "shared": "shared",
-        "group": "blue",
-        "label": "zombie"
-      },
-      {
-        "tangram": "A",
-        "label": "thriller",
-        "group": "unseen"
-      }
-    ]
-  },
-  {
-    "type": "same",
-    "goal": "refer",
-    "audience": "one",
-    "unseen_label": "yoga guy",
+    "unseen_label": "ice skater",
     "audience_group": "red",
     "options": [
       {
         "tangram": "I",
-        "shared": "shared",
         "group": "red",
-        "label": "ice skater"
+        "game": "LfuChcnEB54q8Ztys",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 13,
+        "label": "ice skating one, square head balancing, two triangle arms pointing to the left"
       },
       {
         "tangram": "I",
-        "label": "yoga guy",
+        "game": "LfuChcnEB54q8Ztys",
+        "earlier": "later",
+        "length": 2,
+        "label": "ice skater",
         "group": "unseen"
       }
     ]
@@ -1203,18 +1042,24 @@
     "type": "same",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "yoga guy",
+    "unseen_label": "ice skating one, square head balancing, two triangle arms pointing to the left",
     "audience_group": "blue",
     "options": [
       {
         "tangram": "I",
-        "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 20,
+        "label": "picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back"
       },
       {
         "tangram": "I",
-        "label": "yoga guy",
+        "game": "LfuChcnEB54q8Ztys",
+        "earlier": "earlier",
+        "length": 13,
+        "label": "ice skating one, square head balancing, two triangle arms pointing to the left",
         "group": "unseen"
       }
     ]
@@ -1223,17 +1068,100 @@
     "type": "same",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "yoga guy",
+    "unseen_label": "ice skating one, square head balancing, two triangle arms pointing to the left",
     "options": [
       {
         "tangram": "I",
-        "shared": "shared",
         "group": "blue",
-        "label": "ice skater"
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 20,
+        "label": "picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back"
       },
       {
         "tangram": "I",
-        "label": "yoga guy",
+        "game": "LfuChcnEB54q8Ztys",
+        "earlier": "earlier",
+        "length": 13,
+        "label": "ice skating one, square head balancing, two triangle arms pointing to the left",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+    "audience_group": "red",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "red",
+        "game": "hYBwiiFBSBi9ySwpJ",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "The picture looks like it's carrying a flag over its shoulder"
+      },
+      {
+        "tangram": "A",
+        "game": "yYtSpzsEi4mnTuPrj",
+        "earlier": "earlier",
+        "length": 33,
+        "label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "one",
+    "unseen_label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+    "audience_group": "blue",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side"
+      },
+      {
+        "tangram": "A",
+        "game": "yYtSpzsEi4mnTuPrj",
+        "earlier": "earlier",
+        "length": 33,
+        "label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+        "group": "unseen"
+      }
+    ]
+  },
+  {
+    "type": "same",
+    "goal": "refer",
+    "audience": "either",
+    "unseen_label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+    "options": [
+      {
+        "tangram": "A",
+        "group": "blue",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "shared",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side"
+      },
+      {
+        "tangram": "A",
+        "game": "yYtSpzsEi4mnTuPrj",
+        "earlier": "earlier",
+        "length": 33,
+        "label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
         "group": "unseen"
       }
     ]
@@ -1245,16 +1173,22 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "C",
-        "shared": "unique",
+        "tangram": "K",
         "group": "red",
-        "label": "falling guy"
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 87,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
       },
       {
-        "tangram": "C",
-        "shared": "unique",
+        "tangram": "K",
         "group": "blue",
-        "label": "Y"
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top"
       }
     ]
   },
@@ -1265,16 +1199,22 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "C",
-        "shared": "unique",
+        "tangram": "K",
         "group": "red",
-        "label": "falling guy"
+        "game": "cA2SjWv3CePYZgyzS",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 87,
+        "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
       },
       {
-        "tangram": "C",
-        "shared": "unique",
+        "tangram": "K",
         "group": "blue",
-        "label": "Y"
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 25,
+        "label": "it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top"
       }
     ]
   },
@@ -1285,16 +1225,22 @@
     "audience_group": "red",
     "options": [
       {
-        "tangram": "K",
-        "shared": "unique",
+        "tangram": "C",
         "group": "red",
-        "label": "on their knees"
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 40,
+        "label": "it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left"
       },
       {
-        "tangram": "K",
-        "shared": "unique",
+        "tangram": "C",
         "group": "blue",
-        "label": "duck"
+        "game": "JmgdhSKRPPxDKvprr",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 35,
+        "label": "looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y"
       }
     ]
   },
@@ -1305,16 +1251,22 @@
     "audience_group": "blue",
     "options": [
       {
-        "tangram": "K",
-        "shared": "unique",
+        "tangram": "C",
         "group": "red",
-        "label": "on their knees"
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 40,
+        "label": "it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left"
       },
       {
-        "tangram": "K",
-        "shared": "unique",
+        "tangram": "C",
         "group": "blue",
-        "label": "duck"
+        "game": "JmgdhSKRPPxDKvprr",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 35,
+        "label": "looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y"
       }
     ]
   },
@@ -1326,15 +1278,21 @@
     "options": [
       {
         "tangram": "E",
-        "shared": "unique",
         "group": "red",
-        "label": "bunny ears"
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top"
       },
       {
         "tangram": "E",
-        "shared": "unique",
         "group": "blue",
-        "label": "crazy hat person"
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "sitting down, facing right, with the hat thing on its head"
       }
     ]
   },
@@ -1346,15 +1304,21 @@
     "options": [
       {
         "tangram": "E",
-        "shared": "unique",
         "group": "red",
-        "label": "bunny ears"
+        "game": "3WzEi9zkHF77vdTw5",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 26,
+        "label": "its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top"
       },
       {
         "tangram": "E",
-        "shared": "unique",
         "group": "blue",
-        "label": "crazy hat person"
+        "game": "hhTtzgf2BMCbDwG5i",
+        "shared": "unique",
+        "earlier": "earlier",
+        "length": 11,
+        "label": "sitting down, facing right, with the hat thing on its head"
       }
     ]
   }
