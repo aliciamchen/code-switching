@@ -63,6 +63,7 @@ def generate_control_trials(
                 for entry in other_lexicon
                 if (entry["tangram"] == shared_tangram)
                 and (entry["label"] != this_option["label"])
+                and (entry["earlier"] == "later")
             ][0]
 
             # drop "shared" and "group" keys from unseen_label_option

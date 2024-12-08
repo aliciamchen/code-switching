@@ -939,7 +939,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",
+    "unseen_label": "princess dance",
     "audience_group": "red",
     "options": [
       {
@@ -953,10 +953,10 @@
       },
       {
         "tangram": "B",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",
+        "game": "BXWWg9XvCErxTpT9k",
+        "earlier": "later",
+        "length": 2,
+        "label": "princess dance",
         "group": "unseen"
       }
     ]
@@ -965,7 +965,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",
+    "unseen_label": "princess dance",
     "audience_group": "blue",
     "options": [
       {
@@ -979,10 +979,10 @@
       },
       {
         "tangram": "B",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",
+        "game": "BXWWg9XvCErxTpT9k",
+        "earlier": "later",
+        "length": 2,
+        "label": "princess dance",
         "group": "unseen"
       }
     ]
@@ -991,7 +991,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",
+    "unseen_label": "princess dance",
     "options": [
       {
         "tangram": "B",
@@ -1004,10 +1004,10 @@
       },
       {
         "tangram": "B",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "earlier": "earlier",
-        "length": 28,
-        "label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",
+        "game": "BXWWg9XvCErxTpT9k",
+        "earlier": "later",
+        "length": 2,
+        "label": "princess dance",
         "group": "unseen"
       }
     ]
@@ -1016,7 +1016,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",
+    "unseen_label": "no legs",
     "audience_group": "red",
     "options": [
       {
@@ -1030,10 +1030,10 @@
       },
       {
         "tangram": "C",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "earlier": "earlier",
-        "length": 22,
-        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "earlier": "later",
+        "length": 2,
+        "label": "no legs",
         "group": "unseen"
       }
     ]
@@ -1042,7 +1042,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",
+    "unseen_label": "no legs",
     "audience_group": "blue",
     "options": [
       {
@@ -1056,10 +1056,10 @@
       },
       {
         "tangram": "C",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "earlier": "earlier",
-        "length": 22,
-        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "earlier": "later",
+        "length": 2,
+        "label": "no legs",
         "group": "unseen"
       }
     ]
@@ -1068,7 +1068,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",
+    "unseen_label": "no legs",
     "options": [
       {
         "tangram": "C",
@@ -1081,10 +1081,10 @@
       },
       {
         "tangram": "C",
-        "game": "hhTtzgf2BMCbDwG5i",
-        "earlier": "earlier",
-        "length": 22,
-        "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",
+        "game": "hHoRuwi7p8k2XhzD3",
+        "earlier": "later",
+        "length": 2,
+        "label": "no legs",
         "group": "unseen"
       }
     ]
@@ -1093,7 +1093,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",
+    "unseen_label": "bent knees",
     "audience_group": "red",
     "options": [
       {
@@ -1107,10 +1107,10 @@
       },
       {
         "tangram": "L",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "later",
+        "length": 2,
+        "label": "bent knees",
         "group": "unseen"
       }
     ]
@@ -1119,7 +1119,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",
+    "unseen_label": "bent knees",
     "audience_group": "blue",
     "options": [
       {
@@ -1133,10 +1133,10 @@
       },
       {
         "tangram": "L",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "later",
+        "length": 2,
+        "label": "bent knees",
         "group": "unseen"
       }
     ]
@@ -1145,7 +1145,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",
+    "unseen_label": "bent knees",
     "options": [
       {
         "tangram": "L",
@@ -1158,10 +1158,10 @@
       },
       {
         "tangram": "L",
-        "game": "hHoRuwi7p8k2XhzD3",
-        "earlier": "earlier",
-        "length": 21,
-        "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "later",
+        "length": 2,
+        "label": "bent knees",
         "group": "unseen"
       }
     ]
