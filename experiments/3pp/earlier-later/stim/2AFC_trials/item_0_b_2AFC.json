@@ -939,7 +939,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+    "unseen_label": "zombie",
     "audience_group": "red",
     "options": [
       {
@@ -953,10 +953,10 @@
       },
       {
         "tangram": "A",
-        "game": "3WzEi9zkHF77vdTw5",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie",
         "group": "unseen"
       }
     ]
@@ -965,7 +965,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+    "unseen_label": "zombie",
     "audience_group": "blue",
     "options": [
       {
@@ -979,10 +979,10 @@
       },
       {
         "tangram": "A",
-        "game": "3WzEi9zkHF77vdTw5",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie",
         "group": "unseen"
       }
     ]
@@ -991,7 +991,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+    "unseen_label": "zombie",
     "options": [
       {
         "tangram": "A",
@@ -1004,10 +1004,10 @@
       },
       {
         "tangram": "A",
-        "game": "3WzEi9zkHF77vdTw5",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
+        "game": "kBQMXHtyqWiM2LxL6",
+        "earlier": "later",
+        "length": 1,
+        "label": "zombie",
         "group": "unseen"
       }
     ]
@@ -1016,7 +1016,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+    "unseen_label": "long sleeved book",
     "audience_group": "red",
     "options": [
       {
@@ -1030,10 +1030,10 @@
       },
       {
         "tangram": "D",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+        "game": "cA2SjWv3CePYZgyzS",
+        "earlier": "later",
+        "length": 3,
+        "label": "long sleeved book",
         "group": "unseen"
       }
     ]
@@ -1042,7 +1042,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+    "unseen_label": "long sleeved book",
     "audience_group": "blue",
     "options": [
       {
@@ -1056,10 +1056,10 @@
       },
       {
         "tangram": "D",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+        "game": "cA2SjWv3CePYZgyzS",
+        "earlier": "later",
+        "length": 3,
+        "label": "long sleeved book",
         "group": "unseen"
       }
     ]
@@ -1068,7 +1068,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+    "unseen_label": "long sleeved book",
     "options": [
       {
         "tangram": "D",
@@ -1081,10 +1081,10 @@
       },
       {
         "tangram": "D",
-        "game": "kBQMXHtyqWiM2LxL6",
-        "earlier": "earlier",
-        "length": 18,
-        "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
+        "game": "cA2SjWv3CePYZgyzS",
+        "earlier": "later",
+        "length": 3,
+        "label": "long sleeved book",
         "group": "unseen"
       }
     ]
@@ -1093,7 +1093,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+    "unseen_label": "no arms",
     "audience_group": "red",
     "options": [
       {
@@ -1107,10 +1107,10 @@
       },
       {
         "tangram": "H",
-        "game": "rSMFkjhskBteiyQMB",
-        "earlier": "earlier",
-        "length": 25,
-        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "earlier": "later",
+        "length": 2,
+        "label": "no arms",
         "group": "unseen"
       }
     ]
@@ -1119,7 +1119,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+    "unseen_label": "no arms",
     "audience_group": "blue",
     "options": [
       {
@@ -1133,10 +1133,10 @@
       },
       {
         "tangram": "H",
-        "game": "rSMFkjhskBteiyQMB",
-        "earlier": "earlier",
-        "length": 25,
-        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "earlier": "later",
+        "length": 2,
+        "label": "no arms",
         "group": "unseen"
       }
     ]
@@ -1145,7 +1145,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+    "unseen_label": "no arms",
     "options": [
       {
         "tangram": "H",
@@ -1158,10 +1158,10 @@
       },
       {
         "tangram": "H",
-        "game": "rSMFkjhskBteiyQMB",
-        "earlier": "earlier",
-        "length": 25,
-        "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
+        "game": "hhTtzgf2BMCbDwG5i",
+        "earlier": "later",
+        "length": 2,
+        "label": "no arms",
         "group": "unseen"
       }
     ]

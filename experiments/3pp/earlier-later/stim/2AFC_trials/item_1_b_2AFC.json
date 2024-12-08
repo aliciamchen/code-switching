@@ -939,7 +939,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",
+    "unseen_label": "windmill",
     "audience_group": "red",
     "options": [
       {
@@ -954,9 +954,9 @@
       {
         "tangram": "E",
         "game": "kBQMXHtyqWiM2LxL6",
-        "earlier": "earlier",
-        "length": 23,
-        "label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",
+        "earlier": "later",
+        "length": 1,
+        "label": "windmill",
         "group": "unseen"
       }
     ]
@@ -965,7 +965,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",
+    "unseen_label": "windmill",
     "audience_group": "blue",
     "options": [
       {
@@ -980,9 +980,9 @@
       {
         "tangram": "E",
         "game": "kBQMXHtyqWiM2LxL6",
-        "earlier": "earlier",
-        "length": 23,
-        "label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",
+        "earlier": "later",
+        "length": 1,
+        "label": "windmill",
         "group": "unseen"
       }
     ]
@@ -991,7 +991,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",
+    "unseen_label": "windmill",
     "options": [
       {
         "tangram": "E",
@@ -1005,9 +1005,9 @@
       {
         "tangram": "E",
         "game": "kBQMXHtyqWiM2LxL6",
-        "earlier": "earlier",
-        "length": 23,
-        "label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",
+        "earlier": "later",
+        "length": 1,
+        "label": "windmill",
         "group": "unseen"
       }
     ]
@@ -1016,7 +1016,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",
+    "unseen_label": "ballerina",
     "audience_group": "red",
     "options": [
       {
@@ -1031,9 +1031,9 @@
       {
         "tangram": "I",
         "game": "pAaZt2Cv9MEFRCAY5",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",
+        "earlier": "later",
+        "length": 1,
+        "label": "ballerina",
         "group": "unseen"
       }
     ]
@@ -1042,7 +1042,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",
+    "unseen_label": "ballerina",
     "audience_group": "blue",
     "options": [
       {
@@ -1057,9 +1057,9 @@
       {
         "tangram": "I",
         "game": "pAaZt2Cv9MEFRCAY5",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",
+        "earlier": "later",
+        "length": 1,
+        "label": "ballerina",
         "group": "unseen"
       }
     ]
@@ -1068,7 +1068,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",
+    "unseen_label": "ballerina",
     "options": [
       {
         "tangram": "I",
@@ -1082,9 +1082,9 @@
       {
         "tangram": "I",
         "game": "pAaZt2Cv9MEFRCAY5",
-        "earlier": "earlier",
-        "length": 41,
-        "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",
+        "earlier": "later",
+        "length": 1,
+        "label": "ballerina",
         "group": "unseen"
       }
     ]
@@ -1093,7 +1093,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",
+    "unseen_label": "large cube",
     "audience_group": "red",
     "options": [
       {
@@ -1107,10 +1107,10 @@
       },
       {
         "tangram": "J",
-        "game": "XpTJWaJYpSojYdngB",
-        "earlier": "earlier",
-        "length": 48,
-        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "earlier": "later",
+        "length": 2,
+        "label": "large cube",
         "group": "unseen"
       }
     ]
@@ -1119,7 +1119,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",
+    "unseen_label": "large cube",
     "audience_group": "blue",
     "options": [
       {
@@ -1133,10 +1133,10 @@
       },
       {
         "tangram": "J",
-        "game": "XpTJWaJYpSojYdngB",
-        "earlier": "earlier",
-        "length": 48,
-        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "earlier": "later",
+        "length": 2,
+        "label": "large cube",
         "group": "unseen"
       }
     ]
@@ -1145,7 +1145,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",
+    "unseen_label": "large cube",
     "options": [
       {
         "tangram": "J",
@@ -1158,10 +1158,10 @@
       },
       {
         "tangram": "J",
-        "game": "XpTJWaJYpSojYdngB",
-        "earlier": "earlier",
-        "length": 48,
-        "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",
+        "game": "3AT9PDD5rDrb5GS4e",
+        "earlier": "later",
+        "length": 2,
+        "label": "large cube",
         "group": "unseen"
       }
     ]

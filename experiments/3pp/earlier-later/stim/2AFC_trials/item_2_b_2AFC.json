@@ -939,7 +939,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+    "unseen_label": "thriller",
     "audience_group": "red",
     "options": [
       {
@@ -954,9 +954,9 @@
       {
         "tangram": "A",
         "game": "yYtSpzsEi4mnTuPrj",
-        "earlier": "earlier",
-        "length": 33,
-        "label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+        "earlier": "later",
+        "length": 1,
+        "label": "thriller",
         "group": "unseen"
       }
     ]
@@ -965,7 +965,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+    "unseen_label": "thriller",
     "audience_group": "blue",
     "options": [
       {
@@ -980,9 +980,9 @@
       {
         "tangram": "A",
         "game": "yYtSpzsEi4mnTuPrj",
-        "earlier": "earlier",
-        "length": 33,
-        "label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+        "earlier": "later",
+        "length": 1,
+        "label": "thriller",
         "group": "unseen"
       }
     ]
@@ -991,7 +991,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+    "unseen_label": "thriller",
     "options": [
       {
         "tangram": "A",
@@ -1005,9 +1005,9 @@
       {
         "tangram": "A",
         "game": "yYtSpzsEi4mnTuPrj",
-        "earlier": "earlier",
-        "length": 33,
-        "label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
+        "earlier": "later",
+        "length": 1,
+        "label": "thriller",
         "group": "unseen"
       }
     ]
@@ -1016,7 +1016,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
+    "unseen_label": "dog",
     "audience_group": "red",
     "options": [
       {
@@ -1030,10 +1030,10 @@
       },
       {
         "tangram": "G",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "earlier": "earlier",
-        "length": 79,
-        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "later",
+        "length": 1,
+        "label": "dog",
         "group": "unseen"
       }
     ]
@@ -1042,7 +1042,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
+    "unseen_label": "dog",
     "audience_group": "blue",
     "options": [
       {
@@ -1056,10 +1056,10 @@
       },
       {
         "tangram": "G",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "earlier": "earlier",
-        "length": 79,
-        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "later",
+        "length": 1,
+        "label": "dog",
         "group": "unseen"
       }
     ]
@@ -1068,7 +1068,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
+    "unseen_label": "dog",
     "options": [
       {
         "tangram": "G",
@@ -1081,10 +1081,10 @@
       },
       {
         "tangram": "G",
-        "game": "pAaZt2Cv9MEFRCAY5",
-        "earlier": "earlier",
-        "length": 79,
-        "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
+        "game": "rSMFkjhskBteiyQMB",
+        "earlier": "later",
+        "length": 1,
+        "label": "dog",
         "group": "unseen"
       }
     ]
@@ -1093,7 +1093,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "ice skating one, square head balancing, two triangle arms pointing to the left",
+    "unseen_label": "yoga guy",
     "audience_group": "red",
     "options": [
       {
@@ -1107,10 +1107,10 @@
       },
       {
         "tangram": "I",
-        "game": "LfuChcnEB54q8Ztys",
-        "earlier": "earlier",
-        "length": 13,
-        "label": "ice skating one, square head balancing, two triangle arms pointing to the left",
+        "game": "cA2SjWv3CePYZgyzS",
+        "earlier": "later",
+        "length": 2,
+        "label": "yoga guy",
         "group": "unseen"
       }
     ]
@@ -1119,7 +1119,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "one",
-    "unseen_label": "ice skating one, square head balancing, two triangle arms pointing to the left",
+    "unseen_label": "yoga guy",
     "audience_group": "blue",
     "options": [
       {
@@ -1133,10 +1133,10 @@
       },
       {
         "tangram": "I",
-        "game": "LfuChcnEB54q8Ztys",
-        "earlier": "earlier",
-        "length": 13,
-        "label": "ice skating one, square head balancing, two triangle arms pointing to the left",
+        "game": "cA2SjWv3CePYZgyzS",
+        "earlier": "later",
+        "length": 2,
+        "label": "yoga guy",
         "group": "unseen"
       }
     ]
@@ -1145,7 +1145,7 @@
     "type": "baseline",
     "goal": "refer",
     "audience": "either",
-    "unseen_label": "ice skating one, square head balancing, two triangle arms pointing to the left",
+    "unseen_label": "yoga guy",
     "options": [
       {
         "tangram": "I",
@@ -1158,10 +1158,10 @@
       },
       {
         "tangram": "I",
-        "game": "LfuChcnEB54q8Ztys",
-        "earlier": "earlier",
-        "length": 13,
-        "label": "ice skating one, square head balancing, two triangle arms pointing to the left",
+        "game": "cA2SjWv3CePYZgyzS",
+        "earlier": "later",
+        "length": 2,
+        "label": "yoga guy",
         "group": "unseen"
       }
     ]
