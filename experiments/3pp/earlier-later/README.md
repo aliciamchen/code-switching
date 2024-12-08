@@ -28,9 +28,9 @@ The files in `items` are used to generate the `.json` files in `2AFC_trials` and
 
 ## scp ing to MIT scripts
 
-`cd experiments`
+`cd experiments/3pp`
 
-`rsync -av --exclude 'stim/boyce_data' --exclude 'stim/convo_vids/videos/480p15/partial_movie_files' --exclude 'stim/convos' --exclude 'stim/convo_vids/texts' exp-1/ aliciach@athena.dialup.mit.edu:~/www/tangrams`
+`rsync -av --exclude 'stim/boyce_data' --exclude 'stim/convo_vids/videos/480p15/partial_movie_files' --exclude 'stim/convos' --exclude 'stim/convo_vids/texts' earlier-later/ aliciach@athena.dialup.mit.edu:~/www/tangrams`
 
 
 website is at
