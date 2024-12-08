@@ -4,6 +4,10 @@
   margin: auto;
 }
 
+.jspsych-html-button-response-stimulus {
+  padding: 10px;
+}
+
 .align-left {
   text-align: left;
   display: block;
