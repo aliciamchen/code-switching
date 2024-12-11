@@ -1,0 +1,432 @@
+---
+title: "earlier-later 3rd party experiment data analysis"
+author: "Alicia Chen"
+date: "2024-12-10"
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(tidyboot)
+library(glue)
+library(lme4)
+library(lmerTest)
+library(emmeans)
+library(simr)
+
+theme_set(theme_classic(base_size = 20))
+options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
+```
+
+# Data, participants, and sanity checks
+
+Load data
+
+```{r}
+selection_trials <- read_csv(here("data/3pp/earlier-later/selection_trials.csv")) %>%
+  group_by(subject_id) %>%
+  mutate(trial_num = row_number()) %>%
+  rename(response.unique = response.shared) %>%
+  select(subject_id, item_id, trial_num, everything()) %>%
+  ungroup()
+
+selection_trials$condition <- with(selection_trials, interaction(audience, goal, sep = " "))
+selection_trials$tangram <- selection_trials$option1.tangram
+selection_trials$shared <- selection_trials$option1.shared
+
+exit_survey <-read_csv(here("data/3pp/earlier-later/exit_survey.csv"))
+```
+How many participants?
+
+```{r}
+n_participants <- n_distinct(selection_trials$subject_id)
+
+n_understood <- exit_survey %>%
+  filter(understood == "yes") %>%
+  nrow()
+
+print(glue("we have {n_participants} total participants, of which {n_understood} said they understood the instructions"))
+
+# Exclude the participants who did not understand the instructions
+selection_trials <- selection_trials %>%
+  filter(understood == "yes")
+```
+
+Demographics
+
+```{r}
+exit_survey %>%
+  filter(understood == "yes") %>%
+  group_by(gender) %>%
+  count()
+
+exit_survey %>%
+  filter(understood == "yes") %>%
+  summarize(mean_age = mean(age), sd_age = sd(age))
+```
+
+## Counterbalancing assignments
+
+How many participants were in each item_id, counterbalancing assignment?
+
+```{r}
+selection_trials %>%
+  group_by(item_id, counterbalance) %>%
+  summarize(n = n_distinct(subject_id))
+```
+
+
+## How many trials per condition?
+
+There should be 12 trials per audience-goal condition
+
+```{r}
+selection_trials %>%
+  filter(type == "main") %>%
+  group_by(subject_id, audience, goal) %>%
+  count()
+```
+
+There should be 9 'refer' goal baseline trials, and 6 'social' goal baseline trials
+
+```{r}
+selection_trials %>%
+  filter(type == "baseline") %>%
+  group_by(subject_id, audience, goal) %>%
+  count()
+```
+
+
+
+# Main trials
+
+Calculate means
+
+```{r}
+main.trials <- selection_trials %>%
+  filter(type == "main") %>%
+  mutate(response.earlier = ifelse(response.earlier == "earlier", 1, 0))
+
+main.trials.means <- main.trials %>%
+  group_by(condition, shared) %>%
+  tidyboot_mean(response.earlier, na.rm = T)
+
+main.trials.means.subj <-
+  main.trials %>%
+  group_by(subject_id, condition, shared) %>%
+  tidyboot_mean(response.earlier, na.rm = T)
+```
+
+Plot
+
+```{r}
+ggplot(main.trials,
+       aes(x = condition, y = response.earlier, color = shared)) +
+  geom_point(
+    position = position_jitterdodge(
+      jitter.width = 0.15,
+      jitter.height = 0.1,
+      dodge.width = 0.3
+    ),
+    size = 3,
+    stroke = 0,
+    alpha = 0.1
+  ) +
+  geom_point(
+    data = main.trials.means,
+    position = position_dodge(width = 0.3),
+    aes(x = condition, y = empirical_stat, color = shared),
+    size = 3,
+    fill = "black",
+    inherit.aes = FALSE
+  ) +
+  geom_errorbar(
+    data = main.trials.means,
+    position = position_dodge(width = 0.3),
+    aes(
+      x = condition,
+      ymin = ci_lower,
+      ymax = ci_upper,
+      color = shared
+    ),
+    size = 1.5,
+    width = 0.05,
+    inherit.aes = FALSE
+  ) +
+  geom_line(
+    data = main.trials.means.subj,
+    aes(x = condition, y = empirical_stat, group = interaction(subject_id, shared), color = shared),
+    position = position_dodge(width = 0.3),
+    inherit.aes = FALSE, 
+    alpha = 0.15
+  ) +
+  geom_hline(yintercept = 0.5,
+             color = "red",
+             linetype = "dashed") +
+  labs(x = "condition", y = "earlier or later label") +
+  scale_y_continuous(breaks = c(0, 1),
+                     labels = c("later", "earlier")) +
+  scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
+```
+
+
+# Baseline trials
+
+## "Refer" goal
+
+For the "refer" goal, people should choose the seen label over the unseen label, both when talking to one group and when talking to either group
+
+```{r}
+baseline.trials.refer <- selection_trials %>%
+  filter(type == "baseline", goal == "refer") %>%
+  mutate(seen = case_when(
+    response.group == "unseen" ~ 0,
+    response.unique == "shared" ~ 1
+  ))
+
+
+baseline.trials.refer.means <- baseline.trials.refer %>%
+  group_by(audience) %>%
+  tidyboot_mean(seen, na.rm = T)
+```
+
+```{r}
+ggplot(baseline.trials.refer, aes(x = audience, y = seen)) +
+  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.1) +
+  geom_point(data = baseline.trials.refer.means, aes(x = audience, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
+  geom_errorbar(data = baseline.trials.refer.means, aes(x = audience, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "audience", y = "seen or unseen label", title = "baseline trials refer goal") +
+  scale_y_continuous(breaks = c(0, 1), labels = c("unseen", "seen")) +
+  theme(legend.position = "none", plot.title = element_text(size = 15))
+```
+
+## "Social" goal
+
+For the "social" goal, people should choose the tangram belonging to the audience group
+
+```{r}
+baseline.trials.social <- selection_trials %>%
+  filter(type == "baseline", goal == "social") %>%
+  mutate(group_label = ifelse(audience_group == response.group, 1, 0))
+
+baseline.trials.social.means <- baseline.trials.social %>%
+  tidyboot_mean(group_label, na.rm = T) %>%
+  mutate(goal = "social")
+```
+
+```{r}
+ggplot(baseline.trials.social, aes(x = goal, y = group_label)) +
+  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.3) +
+  geom_point(data = baseline.trials.social.means, aes(x = goal, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
+  geom_errorbar(data = baseline.trials.social.means, aes(x = goal, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "goal", y = "label belongs to audience grp", title = "baseline.trials") +
+  scale_y_continuous(breaks = c(0, 1), labels = c("no", "yes")) +
+  theme(legend.position = "none", plot.title = element_text(size = 15))
+```
+
+## Put the baseline trials together
+
+Make a bar plot where x axis is participant, and for each participant it shows total baseline trials correct, colored by # trials selected "seen" for the refer goal, and "group label" for the social goal
+
+```{r}
+baseline.trials.refer.total <- baseline.trials.refer %>%
+  group_by(subject_id) %>%
+  summarize(total = sum(seen))
+
+baseline.trials.social.total <- baseline.trials.social %>%
+  group_by(subject_id) %>%
+  summarize(total = sum(group_label))
+
+baseline.trials.total <- baseline.trials.refer.total %>%
+  inner_join(baseline.trials.social.total, by = "subject_id") %>%
+  mutate(refer = total.x, social = total.y) %>%
+  select(subject_id, refer, social) %>%
+  mutate(total_correct = refer + social) %>%
+  arrange(-total_correct, -social) %>%  # First order by total correct, then by social
+  mutate(subject_id = factor(subject_id, levels = unique(subject_id))) %>%  # Preserve the ordering
+  pivot_longer(cols = c(refer, social), names_to = "goal", values_to = "total")
+```
+
+Make bar plot
+
+```{r}
+ggplot(baseline.trials.total, aes(x = subject_id, y = total, fill = goal)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(x = "participant", y = "total correct", fill = "trial type", title = "baseline trials") +
+  theme(axis.text.x = element_blank()) + 
+  scale_fill_brewer(palette = "Set2") 
+```
+
+
+
+# Only look at participants who did above chance on the baselines
+
+Filter for participants who did above chance on BOTH the social and refer baseline
+
+```{r}
+above_chance_same <- baseline.trials.refer %>%
+  group_by(subject_id) %>%
+  summarize(above_chance = mean(seen) > 0.5) %>%
+  inner_join(baseline.trials.social %>%
+               group_by(subject_id) %>%
+               summarize(above_chance = mean(group_label) > 0.5), by = "subject_id") %>%
+  filter(above_chance.x & above_chance.y) %>%
+  select(subject_id)
+
+selection_trials_filtered <- selection_trials %>%
+  filter(subject_id %in% above_chance_same$subject_id)
+```
+
+How many participants? 
+
+```{r}
+n_participants_filtered <- n_distinct(selection_trials_filtered$subject_id)
+print(glue("we have {n_participants_filtered} participants who did above chance on both the social and refer baseline"))
+```
+
+Calculate means
+
+```{r}
+main.trials <- selection_trials_filtered %>%
+  filter(type == "main") %>%
+  mutate(response.earlier = ifelse(response.earlier == "earlier", 1, 0))
+
+main.trials.means <- main.trials %>%
+  group_by(condition, shared) %>%
+  tidyboot_mean(response.earlier, na.rm = T)
+
+main.trials.means.subj <-
+  main.trials %>%
+  group_by(subject_id, condition, shared) %>%
+  tidyboot_mean(response.earlier, na.rm = T)
+```
+
+Plot
+
+```{r}
+ggplot(main.trials,
+       aes(x = condition, y = response.earlier, color = shared)) +
+  geom_point(
+    position = position_jitterdodge(
+      jitter.width = 0.15,
+      jitter.height = 0.1,
+      dodge.width = 0.3
+    ),
+    size = 3,
+    stroke = 0,
+    alpha = 0.1
+  ) +
+  geom_point(
+    data = main.trials.means,
+    position = position_dodge(width = 0.3),
+    aes(x = condition, y = empirical_stat, color = shared),
+    size = 3,
+    fill = "black",
+    inherit.aes = FALSE
+  ) +
+  geom_errorbar(
+    data = main.trials.means,
+    position = position_dodge(width = 0.3),
+    aes(
+      x = condition,
+      ymin = ci_lower,
+      ymax = ci_upper,
+      color = shared
+    ),
+    size = 1.5,
+    width = 0.05,
+    inherit.aes = FALSE
+  ) +
+  geom_line(
+    data = main.trials.means.subj,
+    aes(x = condition, y = empirical_stat, group = interaction(subject_id, shared), color = shared),
+    position = position_dodge(width = 0.3),
+    inherit.aes = FALSE, 
+    alpha = 0.15
+  ) +
+  geom_hline(yintercept = 0.5,
+             color = "red",
+             linetype = "dashed") +
+  labs(x = "condition", y = "earlier or later label", title = "filtered participants") +
+  scale_y_continuous(breaks = c(0, 1),
+                     labels = c("later", "earlier")) +
+  scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
+```
+
+# Data analysis
+
+## main trials
+
+```{r}
+mod <- glmer(response.earlier ~ condition * shared + (condition * shared | subject_id) + (condition | item_id/ tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 20000)))
+summary(mod)
+```
+
+Comparisons between means
+
+```{r}
+emmeans(mod, pairwise ~ condition) %>%
+  summary(infer = T)
+```
+
+```{r}
+# We want to check if "one social" is greater than  "one refer" and "either refer" together
+
+emmeans_results <- emmeans(mod, ~ condition)
+grouped_contrast <- contrast(emmeans_results, 
+                             method = list("one social - grouped refer" = c(-0.5, -0.5, 1)),
+                             adjust = "none") 
+summary(grouped_contrast)
+```
+Broken down by tangram type
+
+```{r}
+emmeans(mod, pairwise ~ condition|shared) %>%
+  summary(infer = T)
+```
+
+```{r}
+emmeans(mod, pairwise ~ condition*shared) %>%
+  summary(infer = T)
+```
+
+## Baseline trials
+
+For the "refer" goal, do participants successfully choose the seen label over the unseen label?
+
+```{r}
+mod.same.refer <- glmer(seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id / tangram), data = baseline.trials.refer, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+summary(mod.same.refer)
+```
+
+For the "social" goal, do participants successfully choose the tangram that belongs to the audience group?
+
+```{r}
+mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id / tangram), data = baseline.trials.social, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+summary(mod.same.social)
+```
+
+Convert intercepts from logit scale
+
+```{r}
+# Inverse logit function
+inv_logit <- function(x) {
+  exp(x) / (1 + exp(x))
+}
+
+inv_logit(fixef(mod.same.refer))
+inv_logit(fixef(mod.same.social))
+```
+
+# Exit survey
+
+What feedback did participants give?
+
+```{r}
+exit_survey$comments
+```
+
