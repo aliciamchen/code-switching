@@ -9,22 +9,13 @@ function createSelectionTrial(trial, jsPsych) {
   function make_stimulus(trial) {
     if (trial.goal === "refer") {
       if (trial.audience === "one") {
-        return `<p>Please select a description.</p>\
-        <p>Imagine that your chosen description will be shown to <strong>a random player in the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group.</strong></p>\
-        <p>The question they will answer: <em>"What picture is this person referring to?"</em> <br><strong>You want them to correctly choose the corresponding picture out of the 6 pictures.</strong></p>
-        <p></p>`;
+        return  `Please select the best description for a player in the <strong><span style="color: ${trial.audience_group}">${trial.audience_group}</span></strong> group to <strong>choose the correct picture.</strong>`;
       } else if (trial.audience === "either") {
-        return `<p>Please select a description.</p>\
-        <p>Imagine that your chosen description will be shown to <strong>a random player in <em>either</em> group.</strong></p>\
-        <p>The question they will answer: <em>"What picture is this person referring to?"</em> <br><strong>You want them to correctly choose the corresponding picture out of the 6 pictures.</strong></p>
-        <p></p>`;
+        return `Please select the best description for a player in <strong><em>either</em></strong> group to <strong>choose the correct picture.</strong>`;
       }
     } else if (trial.goal === "social") {
       if (trial.audience === "one") {
-        return `<p>Please select a description.</p>\
-        <p>Imagine that your chosen description will be shown to <strong>a random player in the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group</strong>.</p>\
-        <p>The question they will answer: <em>"Is this person sending the description also a member of the <span style="color: ${trial.audience_group}">${trial.audience_group}</span> group?"</em> <br><strong>You want them to say yes.</strong></p>
-        <p></p>`;
+        return `Please select the best description for a player in the <strong><span style="color: ${trial.audience_group}">${trial.audience_group}</span></strong> group to <strong>identify you as a member of their group.</strong>`;
       } else if (trial.audience === "both") {
         return `Not implemented`;
       }
@@ -86,12 +77,12 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
         choose words that go with these pictures.
       </p>
       <p>
-        On each screen, you will see two pictures with a word describing each, and
+        On each screen, you will see two pictures with a label describing each, and
         you will have to pick one of them. We will tell you
         <strong>who</strong> will see your choice (a member of the red group, a member of the
         blue group, or a member of either group) and <strong>what question</strong> they will be answering when
         they see it. Your goal is to try to get them to answer the question in a
-        certain way based on the word you select.
+        certain way based on the label you select.
       </p>
       <p>
         Please read carefully, so you know <strong>who</strong> will see the picture
