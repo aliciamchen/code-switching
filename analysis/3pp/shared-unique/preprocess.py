@@ -6,7 +6,7 @@ import uuid
 
 def main():
 
-    in_dir = "../data/"
+    in_dir = "../../../data/3pp/shared-unique/"
     filenames = sorted(glob.glob(in_dir + "raw_data" + "/*.json"))
 
     selection_trial_headers = [
@@ -108,6 +108,8 @@ def main():
                         }
                     )
 
+    print(f"Selection trials saved in {in_dir}selection_trials.csv")
+
     with open(in_dir + "exit_survey.csv", "w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=exit_survey_headers)
         writer.writeheader()
@@ -133,6 +135,7 @@ def main():
                     }
                 )
 
+    print(f"Exit survey responses saved in {in_dir}exit_survey.csv")
 
 if __name__ == "__main__":
     main()
