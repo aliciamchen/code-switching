@@ -38,6 +38,7 @@ selection_trials$shared <- selection_trials$option1.shared
 
 exit_survey <-read_csv(here("data/3pp/earlier-later/exit_survey.csv"))
 ```
+
 How many participants?
 
 ```{r}
@@ -77,7 +78,6 @@ selection_trials %>%
   summarize(n = n_distinct(subject_id))
 ```
 
-
 ## How many trials per condition?
 
 There should be 12 trials per audience-goal condition
@@ -97,8 +97,6 @@ selection_trials %>%
   group_by(subject_id, audience, goal) %>%
   count()
 ```
-
-
 
 # Main trials
 
@@ -121,19 +119,9 @@ main.trials.means.subj <-
 
 Plot
 
-```{r}
+```{r fig.width=8, fig.height=4}
 ggplot(main.trials,
        aes(x = condition, y = response.earlier, color = shared)) +
-  geom_point(
-    position = position_jitterdodge(
-      jitter.width = 0.15,
-      jitter.height = 0.1,
-      dodge.width = 0.3
-    ),
-    size = 3,
-    stroke = 0,
-    alpha = 0.1
-  ) +
   geom_point(
     data = main.trials.means,
     position = position_dodge(width = 0.3),
@@ -170,7 +158,6 @@ ggplot(main.trials,
                      labels = c("later", "earlier")) +
   scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
 ```
-
 
 # Baseline trials
 
@@ -230,7 +217,7 @@ ggplot(baseline.trials.social, aes(x = goal, y = group_label)) +
 
 ## Put the baseline trials together
 
-Make a bar plot where x axis is participant, and for each participant it shows total baseline trials correct, colored by # trials selected "seen" for the refer goal, and "group label" for the social goal
+Make a bar plot where x axis is participant, and for each participant it shows total baseline trials correct, colored by \# trials selected "seen" for the refer goal, and "group label" for the social goal
 
 ```{r}
 baseline.trials.refer.total <- baseline.trials.refer %>%
@@ -261,8 +248,6 @@ ggplot(baseline.trials.total, aes(x = subject_id, y = total, fill = goal)) +
   scale_fill_brewer(palette = "Set2") 
 ```
 
-
-
 # Only look at participants who did above chance on the baselines
 
 Filter for participants who did above chance on BOTH the social and refer baseline
@@ -281,7 +266,7 @@ selection_trials_filtered <- selection_trials %>%
   filter(subject_id %in% above_chance_same$subject_id)
 ```
 
-How many participants? 
+How many participants?
 
 ```{r}
 n_participants_filtered <- n_distinct(selection_trials_filtered$subject_id)
@@ -307,19 +292,9 @@ main.trials.means.subj <-
 
 Plot
 
-```{r}
+```{r fig.width=8, fig.height=4}
 ggplot(main.trials,
        aes(x = condition, y = response.earlier, color = shared)) +
-  geom_point(
-    position = position_jitterdodge(
-      jitter.width = 0.15,
-      jitter.height = 0.1,
-      dodge.width = 0.3
-    ),
-    size = 3,
-    stroke = 0,
-    alpha = 0.1
-  ) +
   geom_point(
     data = main.trials.means,
     position = position_dodge(width = 0.3),
@@ -382,6 +357,7 @@ grouped_contrast <- contrast(emmeans_results,
                              adjust = "none") 
 summary(grouped_contrast)
 ```
+
 Broken down by tangram type
 
 ```{r}
@@ -429,4 +405,3 @@ What feedback did participants give?
 ```{r}
 exit_survey$comments
 ```
-
