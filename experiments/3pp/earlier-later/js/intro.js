@@ -15,7 +15,6 @@ async function createConsent() {
 }
 
 // Instructions and comprehension loop
-
 async function loadInstructionsFromHTML(item_id) {
   try {
     const response = await fetch("html/instructions.html");
