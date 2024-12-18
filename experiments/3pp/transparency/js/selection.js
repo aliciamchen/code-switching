@@ -28,7 +28,7 @@ function createSelectionTrial(utterance, jsPsych) {
         `<div class="tangram">
                  <img src="tangrams/tangram_${
                    choice || "default"
-                 }.png" style="width: 170px;" />
+                 }.png" style="width: 150px;" />
              </div>`,
       data: {
         trialInfo: utterance,
