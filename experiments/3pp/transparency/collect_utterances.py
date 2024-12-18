@@ -3,6 +3,11 @@ import json
 
 tangram_sets = [0, 1, 2]  # earlier I named this "item"
 counterbalances = ["a", "b"]
+contexts = {
+    0: ["A", "B", "C", "D", "H", "L"],
+    1: ["E", "F", "G", "I", "J", "K"],
+    2: ["A", "C", "E", "G", "I", "K"]
+}  # indexed by tangram_set
 
 all_utterances = []
 
@@ -32,6 +37,10 @@ for utterance in all_utterances:
     if dict_tuple not in seen:
         seen.add(dict_tuple)
         unique_utterances.append(utterance)
+
+# add context info
+for utterance in unique_utterances:
+    utterance["context"] = contexts[utterance["tangram_set"]]
 
 with open("all_utterances.json", "w") as f:
     json.dump(unique_utterances, f, indent=2)
