@@ -4,629 +4,1349 @@
     "earlier": "earlier",
     "length": 41,
     "label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "earlier",
     "length": 27,
     "label": "it looks like someone stood up with their feet both pointing left, there's a square and a trapesium at the top, with one leg in the air",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "earlier",
     "length": 43,
     "label": "it looks like a person kicking one foot in front of them. their head looks like it has a beak! they have a box over their right shoulder. It could also in theory looking like a person carrying another person over their shoulder.",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "later",
     "length": 1,
     "label": "thriller",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "later",
     "length": 1,
     "label": "zombie",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "B",
     "earlier": "earlier",
     "length": 28,
     "label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "B",
     "earlier": "earlier",
     "length": 28,
     "label": "two big ears, pointing nose, facing left. A small triangle on the left side could be its foot or tail, its ears are a diamond and a triangle",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "B",
     "earlier": "earlier",
     "length": 27,
     "label": "two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side, you could say it is wearing a dress",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "B",
     "earlier": "later",
     "length": 1,
     "label": "mouse",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "B",
     "earlier": "later",
     "length": 2,
     "label": "princess dance",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "earlier",
     "length": 22,
     "label": "almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "earlier",
     "length": 32,
     "label": "it looks like a person is falling backwards with his arms outstretched, body is slanted to the left, one arm facing up and to the right and the other to the left",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "earlier",
     "length": 30,
     "label": "rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "later",
     "length": 2,
     "label": "falling guy",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "later",
     "length": 2,
     "label": "no legs",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "D",
     "earlier": "earlier",
     "length": 18,
     "label": "Someone facing left, their back is a straight line, sort of looks like they're holding a book open",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "D",
     "earlier": "earlier",
     "length": 36,
     "label": "this looks like a standing person, with a triangle and square put together sticking out of the left sie, and the bottom is flat and there's a small triangle at the bottom sticking out left too",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "D",
     "earlier": "earlier",
     "length": 17,
     "label": "looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "D",
     "earlier": "later",
     "length": 1,
     "label": "priest",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "D",
     "earlier": "later",
     "length": 3,
     "label": "long sleeved book",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "H",
     "earlier": "earlier",
     "length": 25,
     "label": "looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "H",
     "earlier": "earlier",
     "length": 27,
     "label": "this one you can't really see the feet, hard to tell if they're sitting or what, no arms, facing right, and nothing on top of the head",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "H",
     "earlier": "earlier",
     "length": 33,
     "label": "it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "H",
     "earlier": "later",
     "length": 1,
     "label": "baby",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "H",
     "earlier": "later",
     "length": 2,
     "label": "no arms",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "L",
     "earlier": "earlier",
     "length": 21,
     "label": "someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "L",
     "earlier": "earlier",
     "length": 30,
     "label": "diamond head, facing to the right, standing but knees are bent, one arm visible extending to the right, no hands on the left, the legs are like a zig zag",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "L",
     "earlier": "earlier",
     "length": 18,
     "label": "This looks like a person giving a speech from a book again but this time with knees bent",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "L",
     "earlier": "later",
     "length": 1,
     "label": "zigzag",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "L",
     "earlier": "later",
     "length": 2,
     "label": "bent knees",
-    "tangram_set": 0
+    "tangram_set": 0,
+    "context": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "H",
+      "L"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "earlier",
     "length": 23,
     "label": "It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "earlier",
     "length": 27,
     "label": "The gentleman is lunging forward throwing hands in the air, it is difficult to make out, also looks like a rabbit with head down and big ears",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "earlier",
     "length": 2,
     "label": "bunny ears",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "later",
     "length": 1,
     "label": "windmill",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "later",
     "length": 2,
     "label": "bunny ears",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "F",
     "earlier": "earlier",
     "length": 23,
     "label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "F",
     "earlier": "earlier",
     "length": 28,
     "label": "Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "F",
     "earlier": "earlier",
     "length": 1,
     "label": "looks like a person sitting facing the left with their knees bent and feet sticking out, head tilted down slightly, like they're curled up in the fetal position, square on top balancing on corner",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "F",
     "earlier": "later",
     "length": 1,
     "label": "sad",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "F",
     "earlier": "later",
     "length": 1,
     "label": "fetal position",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "earlier",
     "length": 21,
     "label": "arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "earlier",
     "length": 61,
     "label": "a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "earlier",
     "length": 39,
     "label": "this looks like it's striking a pose or something, one foot outstretched behind him and the other close in front, facing right, one hand kind of up in the air by the head, head tilted back to the left",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "later",
     "length": 1,
     "label": "leg",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "later",
     "length": 3,
     "label": "strike a pose",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "earlier",
     "length": 41,
     "label": "It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "earlier",
     "length": 28,
     "label": "standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "earlier",
     "length": 18,
     "label": "man standing on one leg, the other behind him, two arms out but apart, like it's ice skating",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "later",
     "length": 1,
     "label": "ballerina",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "later",
     "length": 2,
     "label": "ice skater",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "J",
     "earlier": "earlier",
     "length": 48,
     "label": "The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "J",
     "earlier": "earlier",
     "length": 26,
     "label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "J",
     "earlier": "earlier",
     "length": 17,
     "label": "it looks like a fat man sticking his arm out for a bus, left side entirely flat",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "J",
     "earlier": "later",
     "length": 2,
     "label": "fat guy",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "J",
     "earlier": "later",
     "length": 2,
     "label": "large cube",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "earlier",
     "length": 85,
     "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "earlier",
     "length": 27,
     "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "earlier",
     "length": 32,
     "label": "it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, like a duck looking right with a diamond on top",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "later",
     "length": 3,
     "label": "on their knees",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "later",
     "length": 1,
     "label": "duck",
-    "tangram_set": 1
+    "tangram_set": 1,
+    "context": [
+      "E",
+      "F",
+      "G",
+      "I",
+      "J",
+      "K"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "earlier",
     "length": 33,
     "label": "Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "earlier",
     "length": 11,
     "label": "The picture looks like it's carrying a flag over its shoulder",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "earlier",
     "length": 26,
     "label": "this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "later",
     "length": 1,
     "label": "thriller",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "A",
     "earlier": "later",
     "length": 1,
     "label": "zombie",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "earlier",
     "length": 40,
     "label": "it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "earlier",
     "length": 33,
     "label": "This guy looks like he is falling backwards, hands in the air, his two arms are obviously flanking both sides of his flailing body, his body looks like a parallelogram here, no legs",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "earlier",
     "length": 35,
     "label": "looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "later",
     "length": 2,
     "label": "falling guy",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "C",
     "earlier": "later",
     "length": 1,
     "label": "Y",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "earlier",
     "length": 26,
     "label": "its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "earlier",
     "length": 19,
     "label": "bunny ears, face leaning forward to the right, sitting with straight back, head tilted down, no gap between legs",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "earlier",
     "length": 11,
     "label": "sitting down, facing right, with the hat thing on its head",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "later",
     "length": 2,
     "label": "bunny ears",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "E",
     "earlier": "later",
     "length": 3,
     "label": "crazy hat person",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "earlier",
     "length": 79,
     "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "earlier",
     "length": 58,
     "label": "This one has a square on the left (ear 1) and a four-sided shape on the right (ear 2) it then has another shape that looks like a rectangle going down, it connects to a bigger four-sided shape at the bottom (trapezium?) with a smaller triangle on the right-hand side, kind of looks like a dog to me",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "earlier",
     "length": 28,
     "label": "arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "later",
     "length": 1,
     "label": "leg",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "G",
     "earlier": "later",
     "length": 1,
     "label": "dog",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "earlier",
     "length": 13,
     "label": "ice skating one, square head balancing, two triangle arms pointing to the left",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "earlier",
     "length": 26,
     "label": "the one that looks like a standing position with one leg on the ground and one sticking out to the right, and two triangles pointing left",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "earlier",
     "length": 20,
     "label": "picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "later",
     "length": 2,
     "label": "ice skater",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "I",
     "earlier": "later",
     "length": 2,
     "label": "yoga guy",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "earlier",
     "length": 87,
     "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "earlier",
     "length": 25,
     "label": "cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "earlier",
     "length": 25,
     "label": "it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "later",
     "length": 3,
     "label": "on their knees",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   },
   {
     "tangram": "K",
     "earlier": "later",
     "length": 1,
     "label": "duck",
-    "tangram_set": 2
+    "tangram_set": 2,
+    "context": [
+      "A",
+      "C",
+      "E",
+      "G",
+      "I",
+      "K"
+    ]
   }
 ]
