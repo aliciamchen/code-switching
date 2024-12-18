@@ -9,6 +9,17 @@ contexts = {
     2: ["A", "C", "E", "G", "I", "K"]
 }  # indexed by tangram_set
 
+trials = []
+for tangram_set, context in contexts.items():
+    for tangram in context:
+        trials.append({
+            "tangram_set": tangram_set,
+            "tangram": tangram
+        })
+
+with open("trials.json", "w") as f:
+    json.dump(trials, f, indent=2)
+
 all_utterances = []
 
 for tangram_set in tangram_sets:
