@@ -28,7 +28,7 @@ How much of each utterance?
 
 ```{r}
 means.by.label = data %>% 
-  group_by(target, tangram_set, label) %>% 
+  group_by(target, tangram_set, length, earlier, label) %>% 
   tidyboot_mean(correct, na.rm = T)
 ```
 
@@ -39,7 +39,7 @@ earlier.later.all.means <- data %>%
   tidyboot_mean(correct, na.rm = T)
 ```
 
-```{r}
+```{r fig.width=4, fig.height=4}
 ggplot(earlier.later.all.means, aes(x = earlier, y = empirical_stat)) +
   geom_point(size = 3) +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 2, width = 0.0) +
@@ -58,6 +58,31 @@ ggplot(data, aes(x = length, y = correct)) +
   labs(x = "utterance length", y = "correct")
 ```
 How much variability is there between labels? 
+
+```{r}
+truncate_label <- function(text, max_words = 6) {
+  words <- unlist(strsplit(text, "\\s+")) # Split text into words
+  if (length(words) > max_words) {
+    paste(paste(words[1:max_words], collapse = " "), "...", sep = "")
+  } else {
+    text
+  }
+}
+
+means.by.label$short_label <- sapply(means.by.label$label, truncate_label)
+
+for (set in c(0, 1, 2)) {
+  p <- ggplot(means.by.label %>% filter(tangram_set == set), aes(x = reorder(short_label, empirical_stat), y = empirical_stat, color = earlier)) +
+    geom_point(size = 3) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 2, width = 0.0) +
+    geom_text(aes(label = target), vjust = 4, show.legend = F) +
+    geom_hline(yintercept = 1/6, color = "red", linetype = "dashed") +
+    labs(x = "Label", y = "Proportion correct", title = glue("tangram set {set}")) +
+    ylim(0, 1) +
+    theme(axis.text.x = element_text(size = 9, angle = 40, hjust = 1))
+  print(p)
+}
+```
 
 How much does this depend on the context? 
 
