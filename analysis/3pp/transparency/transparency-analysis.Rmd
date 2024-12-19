@@ -1,0 +1,66 @@
+---
+title: "transparency pilot / stimulus norming study"
+author: "Alicia Chen"
+date: "2024-12-18"
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(tidyboot)
+library(glue)
+library(lme4)
+library(lmerTest)
+library(emmeans)
+library(simr)
+
+theme_set(theme_classic(base_size = 20))
+options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
+```
+
+```{r}
+data <- read_csv(here("data/3pp/transparency/selection_trials.csv")) %>% 
+  mutate(correct = ifelse(correct == TRUE, 1, 0))
+```
+How much of each utterance? 
+
+```{r}
+means.by.label = data %>% 
+  group_by(target, tangram_set, label) %>% 
+  tidyboot_mean(correct, na.rm = T)
+```
+
+Aggregate and compare informativity of earlier vs. later utterances
+```{r}
+earlier.later.all.means <- data %>% 
+  group_by(earlier) %>% 
+  tidyboot_mean(correct, na.rm = T)
+```
+
+```{r}
+ggplot(earlier.later.all.means, aes(x = earlier, y = empirical_stat)) +
+  geom_point(size = 3) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 2, width = 0.0) +
+  geom_hline(yintercept = 1/6, color = "red", linetype = "dashed") +
+  labs(x = "Earlier vs. later utterance", y = "Proportion correct") +
+  ylim(0, 1)
+```
+
+Correlate utterance length with response
+
+```{r}
+ggplot(data, aes(x = length, y = correct)) +
+  geom_jitter(height = 0.2, alpha = 0.05, stroke = 0, size = 2.5) +
+  geom_smooth(method = "gam") +
+  scale_y_continuous(breaks = c(0, 1), labels = c("incorrect", "correct")) +
+  labs(x = "utterance length", y = "correct")
+```
+How much variability is there between labels? 
+
+How much does this depend on the context? 
+
+
+
+
