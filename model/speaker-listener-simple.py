@@ -1,3 +1,5 @@
+# type: ignore
+
 from memo import memo
 import jax
 import jax.numpy as jnp
