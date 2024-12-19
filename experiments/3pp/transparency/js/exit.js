@@ -34,7 +34,7 @@ async function createExit(jsPsych) {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: function () {
         var totalCorrect = jsPsych.data.get().select("correct").sum();
-        var totalPay = 2 + totalCorrect * 0.1;
+        var totalPay = 1 + totalCorrect * 0.1;
         return `<p>Thanks for participating in the experiment!</p>
         <p>You got <b>${totalCorrect}</b> out of 18 responses correct.</p>
         <p>Your total pay is <b>${totalPay.toFixed(2)}</b>.</p>
