@@ -11,7 +11,6 @@ async function makeTrials(jsPsych) {
 
     const timeline = [];
 
-    // preload all of the videos in stim/convo_vids/videos/480p15 if they correspond to the item_id
     const preload = {
       type: jsPsychPreload,
       auto_preload: true,
