@@ -72,6 +72,24 @@ def main():
 
     print(f"Selection trials saved in {in_dir}selection_trials.csv")
 
+    with open(in_dir + "bonuses.csv", "w", newline="") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["subject_id", "bonus"])
+
+        for filename in filenames:
+
+            with open(filename, "r") as f:
+                raw_json_data = json.load(f)
+                
+                # how many instances of "correct":true?
+                correct_trials = [trial for trial in raw_json_data if trial.get("correct") == True]
+                bonus = len(correct_trials) * 0.01
+                writer.writerow([raw_json_data[0].get("subject_id"), bonus])
+
+    print(f"Bonuses saved in {in_dir}bonuses.csv")
+
+                      
+        
     with open(in_dir + "exit_survey.csv", "w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=exit_survey_headers)
         writer.writeheader()
