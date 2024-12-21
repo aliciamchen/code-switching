@@ -4,8 +4,11 @@
 
 - `experiments/3pp`: third-party experiments
     - `shared-unique`: participants choose between 'shared label' and 'group-specific label' tangrams
+        - Preregistered Oct 17 2024, Collected Dec 10 2024
     - `earlier-later`: participants choose between earlier labels and later labels, for the same tangram
         - Preregistered Dec 7 2024, Collected Dec 8 2024
+    - `transparency`: deliver the above utterances to naive observers 
+        - Collected Dec 18 2024
 - `experiments/1pp-interactive`: first-party interactive experiments
     - `prod-comp`: production then comprehension experiment, where participants first play the reference game then produce labels to in-group or out-group
     -

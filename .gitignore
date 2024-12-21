@@ -16,3 +16,6 @@ raw_data_old
 Quals.pdf
 slides
 bonuses.csv
+experiments/3pp/earlier-later/stim/scripts/get_stimuli.ipynb
+experiments/3pp/shared-unique/stim/scripts/get_stimuli.ipynb
+model/model.ipynb

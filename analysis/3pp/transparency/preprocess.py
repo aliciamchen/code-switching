@@ -83,7 +83,7 @@ def main():
                 
                 # how many instances of "correct":true?
                 correct_trials = [trial for trial in raw_json_data if trial.get("correct") == True]
-                bonus = len(correct_trials) * 0.01
+                bonus = len(correct_trials) * 0.1
                 writer.writerow([raw_json_data[0].get("subject_id"), bonus])
 
     print(f"Bonuses saved in {in_dir}bonuses.csv")
