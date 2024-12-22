@@ -24,15 +24,20 @@ options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 data <- read_csv(here("data/3pp/transparency/selection_trials.csv")) %>% 
   mutate(correct = ifelse(correct == TRUE, 1, 0))
 ```
-How much of each utterance? 
+How much of each utterance? There should be ~40
 
 ```{r}
 means.by.label = data %>% 
-  group_by(target, tangram_set, length, earlier, label) %>% 
+  group_by(tangram_set, target, earlier, length, label) %>% 
   tidyboot_mean(correct, na.rm = T)
+
+means.by.label
+# save to csv
+write_csv(means.by.label, here("data/3pp/transparency/means_by_label.csv"))
 ```
 
 Aggregate and compare informativity of earlier vs. later utterances
+
 ```{r}
 earlier.later.all.means <- data %>% 
   group_by(earlier) %>% 
@@ -84,7 +89,6 @@ for (set in c(0, 1, 2)) {
 }
 ```
 
-How much does this depend on the context? 
 
 
 

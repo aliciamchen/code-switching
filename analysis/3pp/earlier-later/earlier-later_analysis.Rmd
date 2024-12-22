@@ -100,6 +100,20 @@ selection_trials %>%
 
 # Main trials
 
+Check how many observations per 2AFC pair (for model fitting)
+
+```{r}
+observation.count <- selection_trials %>%
+    filter(type == "main") %>%
+    group_by(item_id, counterbalance, tangram, shared, audience_group, option1.label, option2.label) %>%
+    rename(earlier_label = option1.label, later_label = option2.label) %>%
+    count()
+
+# to csv
+write_csv(observation.count, here("data/3pp/earlier-later/labels.csv"))
+```
+
+
 Calculate means
 
 ```{r}
