@@ -1,0 +1,73 @@
+item_id,counterbalance,tangram,shared,audience_group,earlier_label,later_label,n
+0,a,A,unique,blue,"it looks like someone stood up with their feet both pointing left, there's a square and a trapesium at the top, with one leg in the air",zombie,24
+0,a,A,unique,red,"a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",thriller,24
+0,a,B,shared,blue,"two big ears, pointing nose, facing left. A small triangle on the left side could be its foot or tail, its ears are a diamond and a triangle",mouse,24
+0,a,B,shared,red,"the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",mouse,24
+0,a,C,shared,blue,"it looks like a person is falling backwards with his arms outstretched, body is slanted to the left, one arm facing up and to the right and the other to the left",falling guy,24
+0,a,C,shared,red,"almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",falling guy,24
+0,a,D,unique,blue,"this looks like a standing person, with a triangle and square put together sticking out of the left sie, and the bottom is flat and there's a small triangle at the bottom sticking out left too",long sleeved book,24
+0,a,D,unique,red,"Someone facing left, their back is a straight line, sort of looks like they're holding a book open",priest,24
+0,a,H,unique,blue,"this one you can't really see the feet, hard to tell if they're sitting or what, no arms, facing right, and nothing on top of the head",no arms,24
+0,a,H,unique,red,"looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",baby,24
+0,a,L,shared,blue,"diamond head, facing to the right, standing but knees are bent, one arm visible extending to the right, no hands on the left, the legs are like a zig zag",zigzag,24
+0,a,L,shared,red,"someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",zigzag,24
+0,b,A,shared,blue,it looks like a person kicking one foot in front of them. their head looks like it has a beak! they have a box over their right shoulder. It could also in theory looking like a person carrying another person over their shoulder.,thriller,27
+0,b,A,shared,red,"a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",thriller,27
+0,b,B,unique,blue,"two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side, you could say it is wearing a dress",princess dance,27
+0,b,B,unique,red,"the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",mouse,27
+0,b,C,unique,blue,"rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs",no legs,27
+0,b,C,unique,red,"almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",falling guy,27
+0,b,D,shared,blue,looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up,priest,27
+0,b,D,shared,red,"Someone facing left, their back is a straight line, sort of looks like they're holding a book open",priest,27
+0,b,H,shared,blue,"it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon",baby,27
+0,b,H,shared,red,"looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",baby,27
+0,b,L,unique,blue,This looks like a person giving a speech from a book again but this time with knees bent,bent knees,27
+0,b,L,unique,red,"someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",zigzag,27
+1,a,E,unique,blue,"The gentleman is lunging forward throwing hands in the air, it is difficult to make out, also looks like a rabbit with head down and big ears",bunny ears,33
+1,a,E,unique,red,"It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",windmill,33
+1,a,F,shared,blue,"Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears",sad,33
+1,a,F,shared,red,"Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",sad,33
+1,a,G,shared,blue,"a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left",leg,33
+1,a,G,shared,red,"arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",leg,33
+1,a,I,unique,blue,"standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right",ice skater,33
+1,a,I,unique,red,"It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",ballerina,33
+1,a,J,unique,blue,the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right,large cube,33
+1,a,J,unique,red,"The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",fat guy,33
+1,a,K,shared,blue,"cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right",on their knees,33
+1,a,K,shared,red,"this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",on their knees,33
+1,b,E,shared,blue,"The gentleman is lunging forward throwing hands in the air, it is difficult to make out, also looks like a rabbit with head down and big ears",bunny ears,39
+1,b,E,shared,red,bunny ears,bunny ears,39
+1,b,F,unique,blue,"looks like a person sitting facing the left with their knees bent and feet sticking out, head tilted down slightly, like they're curled up in the fetal position, square on top balancing on corner",fetal position,39
+1,b,F,unique,red,"Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",sad,39
+1,b,G,unique,blue,"this looks like it's striking a pose or something, one foot outstretched behind him and the other close in front, facing right, one hand kind of up in the air by the head, head tilted back to the left",strike a pose,39
+1,b,G,unique,red,"arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",leg,39
+1,b,I,shared,blue,"standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right",ice skater,39
+1,b,I,shared,red,"man standing on one leg, the other behind him, two arms out but apart, like it's ice skating",ice skater,39
+1,b,J,shared,blue,"it looks like a fat man sticking his arm out for a bus, left side entirely flat",fat guy,39
+1,b,J,shared,red,"The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",fat guy,39
+1,b,K,unique,blue,"it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, like a duck looking right with a diamond on top",duck,39
+1,b,K,unique,red,"this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",on their knees,39
+2,a,A,unique,blue,The picture looks like it's carrying a flag over its shoulder,zombie,33
+2,a,A,unique,red,"Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",thriller,33
+2,a,C,shared,blue,"This guy looks like he is falling backwards, hands in the air, his two arms are obviously flanking both sides of his flailing body, his body looks like a parallelogram here, no legs",falling guy,33
+2,a,C,shared,red,"it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left",falling guy,33
+2,a,E,shared,blue,"bunny ears, face leaning forward to the right, sitting with straight back, head tilted down, no gap between legs",bunny ears,33
+2,a,E,shared,red,"its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top",bunny ears,33
+2,a,G,unique,blue,"This one has a square on the left (ear 1) and a four-sided shape on the right (ear 2) it then has another shape that looks like a rectangle going down, it connects to a bigger four-sided shape at the bottom (trapezium?) with a smaller triangle on the right-hand side, kind of looks like a dog to me",dog,33
+2,a,G,unique,red,"It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",leg,33
+2,a,I,unique,blue,"the one that looks like a standing position with one leg on the ground and one sticking out to the right, and two triangles pointing left",yoga guy,33
+2,a,I,unique,red,"ice skating one, square head balancing, two triangle arms pointing to the left",ice skater,33
+2,a,K,shared,blue,"cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting",on their knees,33
+2,a,K,shared,red,"this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",on their knees,33
+2,b,A,shared,blue,"this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side",zombie,27
+2,b,A,shared,red,The picture looks like it's carrying a flag over its shoulder,zombie,27
+2,b,C,unique,blue,"looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y",Y,27
+2,b,C,unique,red,"it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left",falling guy,27
+2,b,E,unique,blue,"sitting down, facing right, with the hat thing on its head",crazy hat person,27
+2,b,E,unique,red,"its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top",bunny ears,27
+2,b,G,shared,blue,"arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",leg,27
+2,b,G,shared,red,"It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",leg,27
+2,b,I,shared,blue,"picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back",ice skater,27
+2,b,I,shared,red,"ice skating one, square head balancing, two triangle arms pointing to the left",ice skater,27
+2,b,K,unique,blue,"it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top",duck,27
+2,b,K,unique,red,"this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",on their knees,27
