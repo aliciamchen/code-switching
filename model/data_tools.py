@@ -1,4 +1,8 @@
-"""Tools for loading and processing data"""
+"""Tools for loading and processing data
+Data array, for each participant: tangram (A through L) x audience group (red vs. blue) x condition ('refer either' vs. 'refer one' vs. 'social one'). 
+
+For each participant, only half of the tangrams have values because each participant only sees 6 tangrams. There are 6 * 2 * 3 = 36 critical trials per participant. 
+"""
 
 import numpy as np
 import pandas as pd
@@ -30,7 +34,9 @@ def get_data():
 
 def get_tangram_info(data):
     """For each tangram_set and counterbalance, what tangrams are available and are they group-specific or shared?"""
-    tangram_info = data.groupby(["tangram_set", "counterbalance", "tangram_type", "tangram"]).size()
+    tangram_info = data.groupby(
+        ["tangram_set", "counterbalance", "tangram_type", "tangram"]
+    ).size()
     tangram_info = tangram_info.reset_index(name="count")
     return tangram_info
 
@@ -85,5 +91,3 @@ def make_data_matrices(data):
             data_organized[(tangram_set, counterbalance)] = this_set_mtx
 
     return data_organized
-
-

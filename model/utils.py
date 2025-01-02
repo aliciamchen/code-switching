@@ -1,4 +1,5 @@
 """General tools"""
+
 import numpy as np
 import jax
 import jax.numpy as jnp
@@ -15,6 +16,7 @@ def squeeze_unused_tangrams(organized_dict):
         squeezed_dict[key] = squeezed_mtx
     return squeezed_dict
 
+
 def get_surviving_slices(organized_dict):
     """
     Input: dict (either for data or model) with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
@@ -27,7 +29,8 @@ def get_surviving_slices(organized_dict):
         surviving_slices.append((key, surviving_indices))
     return surviving_slices
 
-def make_stacked_mtx(organized_dict, surviving_slices): 
+
+def make_stacked_mtx(organized_dict, surviving_slices):
     """
     Filter unused tangrams and stack remaining matrices
     TODO: vectorize this
@@ -39,5 +42,16 @@ def make_stacked_mtx(organized_dict, surviving_slices):
     return jnp.concatenate(masked_arrays, axis=-1)
 
 
+def get_params_list(alphas, w_rs, w_ss, w_cs):
 
+    # make grid of all values
+    param_grid = jnp.meshgrid(alphas, w_rs, w_ss, w_cs)
 
+    # Flatten the parameter grid
+    all_alphas = param_grid[0].ravel()
+    all_wrs = param_grid[1].ravel()
+    all_wss = param_grid[2].ravel()
+    all_wcs = param_grid[3].ravel()
+
+    params_list = jnp.stack([all_alphas, all_wrs, all_wss, all_wcs], axis=1)
+    return params_list
