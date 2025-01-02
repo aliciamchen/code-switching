@@ -17,7 +17,11 @@
 
 ### Earlier-later experiment
 
-- Referential informativity: 1 for all earlier utterances regardless of group, 1 for later utterances to in-group, 0 for later utterances to out-group (so that means 0.5 for later utterances to 'either' group for the 'group-specific' labels but 1 for the later utterances to 'either' group for the 'shared' labels)
+see `model_3pp_earlier_later.py`
+
+- Referential informativity
+    - 1 for all earlier utterances regardless of group; 1 for later utterances to in-group; 0 for later utterances to out-group if 'group-specific label' tangram, 1 if 'shared label' tangram
+    - so that means, for later utterances, 0.5 to 'either' group for the 'group-specific' labels but 1 to 'either' group for the 'shared' labels
 - Social informativity: 0 for all earlier utterances, 1 for all later utterances
 - Utterance cost: 1 for all earlier utterances, 0 for all later utterances
 
