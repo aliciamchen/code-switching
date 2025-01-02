@@ -72,15 +72,11 @@ def format_model_preds(model_preds, data_organized, tangram_info):
     return model_organized
 
 
-def grid_search_nll(data_organized, tangram_info, model_type="social"):
+def grid_search_nll(data_organized, tangram_info, 
+                    params_list):
     """Data organized is a dict with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
     Model type is either "social" or "no_social", where for the latter w_s is fixed to 0
     """
-    alphas = jnp.arange(0, 5, 0.1)
-    w_rs = jnp.arange(0, 5, 0.1)
-    w_ss = jnp.arange(0, 5, 0.1) if model_type == "social" else jnp.array([0])
-    w_cs = jnp.arange(0, 5, 0.1)
-    params_list = utils.get_params_list(alphas, w_rs, w_ss, w_cs)
 
     model_slices = utils.get_surviving_slices(
         data_organized
