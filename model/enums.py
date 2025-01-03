@@ -1,5 +1,6 @@
 from enum import IntEnum
 
+
 class AudienceConditions(IntEnum):
     EitherGroup = 0
     OneGroup = 1
@@ -15,14 +16,21 @@ class TangramTypes(IntEnum):
     GroupSpecific = 1
 
 
-class Utterances(IntEnum):
+class EarlierLaterChoices(IntEnum):
     Earlier = 0
     Later = 1
+
+
+class SharedUniqueChoices(IntEnum):
+    Shared = 0
+    GroupSpecific = 1
+
 
 class Conditions(IntEnum):
     ReferEither = 0
     ReferOne = 1
     SocialOne = 2
+
 
 class Tangram(IntEnum):
     A = 0
@@ -38,9 +46,11 @@ class Tangram(IntEnum):
     K = 10
     L = 11
 
+
 class AudienceGroup(IntEnum):
     Red = 0
     Blue = 1
+
 
 class Counterbalance(IntEnum):
     a = 0

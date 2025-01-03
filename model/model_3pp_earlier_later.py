@@ -48,7 +48,7 @@ def cost(utterance):
 
 @memo
 def speaker[
-    utterance: Utterances, audience: Audiences
+    utterance: EarlierLaterChoices, audience: Audiences
 ](
     audience_condition: AudienceConditions,
     tangram_type: TangramTypes,
@@ -62,7 +62,7 @@ def speaker[
         audience in Audiences, wpp=audience_wpp(audience_condition, audience)
     )
     speaker: chooses(
-        utterance in Utterances,
+        utterance in EarlierLaterChoices,
         wpp=exp(
             alpha
             * (

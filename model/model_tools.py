@@ -35,7 +35,7 @@ def get_model_preds(alpha, w_r, w_s, w_c):
                 operand=None,
             ),
             operand=None,
-        )[Utterances.Later, 0]
+        )[EarlierLaterChoices.Later, 0]
 
     # Vectorize over tangrams first, then over conditions
     vmap_tangrams = jax.vmap(
