@@ -20,8 +20,18 @@ def audience_wpp(audience_condition, audience):
 
 
 @jax.jit
-def ref_info(utterance):
-    return jnp.array([1, 1])[utterance]
+def ref_info(audience, utterance):
+    ingroup_info = jnp.array([1, 1])  # [shared, group-specific]
+    outgroup_info = jnp.array([1, 0]) 
+
+    info = lax.cond(
+        audience == Audiences.Ingroup,
+        lambda _: ingroup_info,
+        lambda _: outgroup_info,
+        operand=None,
+    )
+
+    return info[utterance]
 
 
 @jax.jit
@@ -39,7 +49,7 @@ def speaker[
     utterance: Choices, audience: Audiences
 ](
     audience_condition: AudienceConditions,
-    ttype,  # tangram type: not used here
+    ttype,
     alpha,
     w_r,
     w_s,
@@ -54,7 +64,7 @@ def speaker[
         wpp=exp(
             alpha
             * (
-                w_r * ref_info(utterance)
+                w_r * ref_info(audience, utterance)
                 + w_s * social_info(utterance)
                 - w_c * cost(utterance)
             )
