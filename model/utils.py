@@ -12,7 +12,7 @@ def squeeze_unused_tangrams(organized_dict):
     """
     squeezed_dict = {}
     for key, mtx in organized_dict.items():
-        squeezed_mtx = mtx[~np.all(mtx == 0, axis=(1, 2, 3))]
+        squeezed_mtx = mtx[~np.all(mtx == 0, axis=tuple(range(1, mtx.ndim)))]
         squeezed_dict[key] = squeezed_mtx
     return squeezed_dict
 
@@ -24,7 +24,7 @@ def get_surviving_slices(organized_dict):
     """
     surviving_slices = []
     for key, mtx in organized_dict.items():
-        mask = ~jnp.all(mtx == 0, axis=(1, 2, 3))
+        mask = ~jnp.all(mtx == 0, axis=tuple(range(1, mtx.ndim)))
         surviving_indices = jnp.where(mask)[0]
         surviving_slices.append((key, surviving_indices))
     return surviving_slices
