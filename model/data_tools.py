@@ -46,15 +46,23 @@ def get_data(expt_type):
     return data
 
 
-def get_tangram_info():
+def get_tangram_info(expt_type):
     """
     For each tangram_set and counterbalance, what tangrams are available and are they group-specific or shared?
     This uses the EarlierLater experiment data, but it's the same for both experiments
     """
-    data = get_data(expt_type=ExptTypes.EarlierLater)
-    tangram_info = data.groupby(
-        ["tangram_set", "counterbalance", "tangram_type", "tangram"]
-    ).size().reset_index().drop(columns=[0])
+    # TODO: fix the size thing
+    if expt_type == ExptTypes.EarlierLater: 
+        data = get_data(expt_type=ExptTypes.EarlierLater)
+        tangram_info = data.groupby(
+            ["tangram_set", "counterbalance", "tangram_type", "tangram"]
+        ).size().reset_index().drop(columns=[0])
+    elif expt_type == ExptTypes.SharedUnique: 
+        data = get_data(expt_type=ExptTypes.SharedUnique)
+        tangram_info = data.groupby(
+            ["tangram_set", "counterbalance", "audience_group", "shared.tangram", "unique.tangram"]
+        ).size().reset_index().drop(columns=[0])
+
     return tangram_info
 
 

@@ -106,7 +106,6 @@ def grid_search_nll(data_organized, tangram_info,
     """Data organized is a dict with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
     Model type is either "social" or "no_social", where for the latter w_s is fixed to 0
     """
-
     model_slices = utils.get_surviving_slices(
         data_organized
     )  # precompute slices of unused tangrams, to avoid jax issues
