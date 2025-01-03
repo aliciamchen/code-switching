@@ -17,7 +17,7 @@ def get_model_preds(alpha, w_r, w_s, w_c, expt_type):
     Get the model predictions for all conditions and tangram types
     Output: 
     expt_type = ExptType.EarlierLater -> 3x2 (condition, tangram type) array of probability of choosing the later utterance
-    expt_type = ExptType.SharedUnique -> 3x1 (condition, ) array of probability of choosing the group-specific label
+    expt_type = ExptType.SharedUnique ->  3x2 (condition, tangram type) array array of probability of choosing the group-specific label (note that its the same across tangram types here)
     """
     def speaker_func(aud_cond, ttype, alpha, w_r, w_s, w_c, expt_type):
         return lax.cond(
@@ -52,30 +52,52 @@ def get_model_preds(alpha, w_r, w_s, w_c, expt_type):
 
 
 # @jax.jit
-def format_model_preds(model_preds, data_organized, tangram_info):
+def format_model_preds(model_preds, data_organized, tangram_info, expt_type):
     """format model predictions to match the data_organized format, which is a dict with keys (tangram_set, counterbalance)
     also duplicates the predictions by the number of participants
     needs tangram_info, which is information about what tangrams belong to which set and counterbalance etc.
     also needs data_organized (output of functions in data_tools)
     """
     model_organized = {}
-    for key, mtx in data_organized.items():
-        tangram_set, counterbalance = key
-        preds = jnp.zeros((12, 2, len(Conditions)))
-        available = tangram_info[
-            (tangram_info["tangram_set"] == tangram_set)
-            & (tangram_info["counterbalance"] == counterbalance)
-        ]
-        for _, row in available.iterrows():
-            for condition in Conditions:
-                preds = preds.at[Tangram[row["tangram"]], :, condition].set(
-                    model_preds[condition, TangramTypes[row["tangram_type"]]]
-                )
 
-        # repeat by number of participants
-        model_organized[key] = jnp.repeat(
-            preds[:, :, :, jnp.newaxis], mtx.shape[-1], axis=-1
-        )
+    if expt_type == ExptTypes.EarlierLater:
+        for key, mtx in data_organized.items():
+            tangram_set, counterbalance = key
+            preds = jnp.zeros((12, 2, len(Conditions)))
+            available = tangram_info[
+                (tangram_info["tangram_set"] == tangram_set)
+                & (tangram_info["counterbalance"] == counterbalance)
+            ]
+            for _, row in available.iterrows():
+                for condition in Conditions:
+                    preds = preds.at[Tangram[row["tangram"]], :, condition].set(
+                        model_preds[condition, TangramTypes[row["tangram_type"]]]
+                    )
+
+            # repeat by number of participants
+            model_organized[key] = jnp.repeat(
+                preds[:, :, :, jnp.newaxis], mtx.shape[-1], axis=-1
+            )
+    elif expt_type == ExptTypes.SharedUnique: 
+        for key, mtx in data_organized.items(): 
+            tangram_set, counterbalance = key
+            preds = jnp.zeros((12, 12, 2, len(Conditions)))
+            available = tangram_info[
+                (tangram_info["tangram_set"] == tangram_set)
+                & (tangram_info["counterbalance"] == counterbalance)
+            ]
+            for _, row in available.iterrows():
+                for condition in Conditions:
+                    preds = preds.at[Tangram[row["shared.tangram"]], Tangram[row["unique.tangram"]], :, condition].set(
+                        model_preds[condition, 0] # both columns are the same because tangram type here doesn't matter
+                    )
+
+            # repeat by number of participants
+            model_organized[key] = jnp.repeat(
+                preds[:, :, :, :, jnp.newaxis], mtx.shape[-1], axis=-1
+            )
+
+
     return model_organized
 
 
@@ -94,7 +116,7 @@ def grid_search_nll(data_organized, tangram_info,
     def single_nll(params):
         alpha, w_r, w_s, w_c = params
         preds = get_model_preds(alpha, w_r, w_s, w_c, expt_type)
-        model_organized = format_model_preds(preds, data_organized, tangram_info)
+        model_organized = format_model_preds(preds, data_organized, tangram_info, expt_type)
         model_all = utils.make_stacked_mtx(model_organized, model_slices)
 
         return compute_nll(data_all, model_all)
