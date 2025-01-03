@@ -30,6 +30,8 @@ selection_trials <- read_csv(here("data/3pp/shared-unique/selection_trials.csv")
   mutate(trial_num = row_number()) %>%
   rename(response.unique = response.shared) %>%
   mutate(type = ifelse(type == "diff", "main", "baseline")) %>% 
+  # fill missing audience_group values with option1.group
+  mutate(audience_group = ifelse(is.na(audience_group), option1.group, audience_group)) %>%
   select(subject_id, item_id, trial_num, everything()) %>%
   ungroup()
 

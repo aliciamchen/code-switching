@@ -46,16 +46,15 @@ def get_data(expt_type):
     return data
 
 
-def get_tangram_info(data, expt_type):
+def get_tangram_info():
     """
-    NOTE: only for earlier-later experiment
     For each tangram_set and counterbalance, what tangrams are available and are they group-specific or shared?
+    This uses the EarlierLater experiment data, but it's the same for both experiments
     """
-    if expt_type == ExptTypes.EarlierLater:
-        tangram_info = data.groupby(
-            ["tangram_set", "counterbalance", "tangram_type", "tangram"]
-        ).size()
-        tangram_info = tangram_info.reset_index(name="count")
+    data = get_data(expt_type=ExptTypes.EarlierLater)
+    tangram_info = data.groupby(
+        ["tangram_set", "counterbalance", "tangram_type", "tangram"]
+    ).size().reset_index().drop(columns=[0])
     return tangram_info
 
 
