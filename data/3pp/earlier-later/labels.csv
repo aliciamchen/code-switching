@@ -11,18 +11,18 @@ item_id,counterbalance,tangram,shared,audience_group,earlier_label,later_label,n
 0,a,H,unique,red,"looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",baby,24
 0,a,L,shared,blue,"diamond head, facing to the right, standing but knees are bent, one arm visible extending to the right, no hands on the left, the legs are like a zig zag",zigzag,24
 0,a,L,shared,red,"someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",zigzag,24
-0,b,A,shared,blue,it looks like a person kicking one foot in front of them. their head looks like it has a beak! they have a box over their right shoulder. It could also in theory looking like a person carrying another person over their shoulder.,thriller,27
-0,b,A,shared,red,"a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",thriller,27
-0,b,B,unique,blue,"two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side, you could say it is wearing a dress",princess dance,27
-0,b,B,unique,red,"the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",mouse,27
-0,b,C,unique,blue,"rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs",no legs,27
-0,b,C,unique,red,"almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",falling guy,27
-0,b,D,shared,blue,looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up,priest,27
-0,b,D,shared,red,"Someone facing left, their back is a straight line, sort of looks like they're holding a book open",priest,27
-0,b,H,shared,blue,"it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon",baby,27
-0,b,H,shared,red,"looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",baby,27
-0,b,L,unique,blue,This looks like a person giving a speech from a book again but this time with knees bent,bent knees,27
-0,b,L,unique,red,"someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",zigzag,27
+0,b,A,shared,blue,it looks like a person kicking one foot in front of them. their head looks like it has a beak! they have a box over their right shoulder. It could also in theory looking like a person carrying another person over their shoulder.,thriller,24
+0,b,A,shared,red,"a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",thriller,24
+0,b,B,unique,blue,"two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side, you could say it is wearing a dress",princess dance,24
+0,b,B,unique,red,"the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",mouse,24
+0,b,C,unique,blue,"rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs",no legs,24
+0,b,C,unique,red,"almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",falling guy,24
+0,b,D,shared,blue,looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up,priest,24
+0,b,D,shared,red,"Someone facing left, their back is a straight line, sort of looks like they're holding a book open",priest,24
+0,b,H,shared,blue,"it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon",baby,24
+0,b,H,shared,red,"looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",baby,24
+0,b,L,unique,blue,This looks like a person giving a speech from a book again but this time with knees bent,bent knees,24
+0,b,L,unique,red,"someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",zigzag,24
 1,a,E,unique,blue,"The gentleman is lunging forward throwing hands in the air, it is difficult to make out, also looks like a rabbit with head down and big ears",bunny ears,33
 1,a,E,unique,red,"It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",windmill,33
 1,a,F,shared,blue,"Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears",sad,33
