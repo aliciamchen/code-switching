@@ -8,8 +8,8 @@ from enums import *
 
 
 class Choices(IntEnum):
-    Earlier = 0
-    Later = 1
+    Shared = 0
+    GroupSpecific = 1
 
 
 @jax.jit
@@ -20,25 +20,8 @@ def audience_wpp(audience_condition, audience):
 
 
 @jax.jit
-def ref_info(audience, tangram_type, utterance):
-    ingroup_info = jnp.array([1, 1])  # [earlier, later]
-    outgroup_info = lax.cond(
-        tangram_type == TangramTypes.Shared,
-        lambda _: jnp.array(
-            [1, 1]
-        ),  # if it's a shared-label tangram, the later utterance is informative regardless of group
-        lambda _: jnp.array([1, 0]),
-        operand=None,
-    )
-
-    info = lax.cond(
-        audience == Audiences.Ingroup,
-        lambda _: ingroup_info,
-        lambda _: outgroup_info,
-        operand=None,
-    )
-
-    return info[utterance]
+def ref_info(utterance):
+    return jnp.array([1, 1])[utterance]
 
 
 @jax.jit
@@ -48,7 +31,7 @@ def social_info(utterance):
 
 @jax.jit
 def cost(utterance):
-    return jnp.array([1, 0])[utterance]
+    return jnp.array([1, 1])[utterance]
 
 
 @memo
@@ -56,7 +39,7 @@ def speaker[
     utterance: Choices, audience: Audiences
 ](
     audience_condition: AudienceConditions,
-    tangram_type: TangramTypes,
+    ttype,  # tangram type: not used here
     alpha,
     w_r,
     w_s,
@@ -71,7 +54,7 @@ def speaker[
         wpp=exp(
             alpha
             * (
-                w_r * ref_info(audience, tangram_type, utterance)
+                w_r * ref_info(utterance)
                 + w_s * social_info(utterance)
                 - w_c * cost(utterance)
             )
