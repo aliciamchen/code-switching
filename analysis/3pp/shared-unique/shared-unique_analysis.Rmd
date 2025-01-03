@@ -161,7 +161,16 @@ ggplot(main.trials,
                      labels = c("shared", "group-specific")) +
   scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
 ```
+Clean for model fitting
 
+```{r}
+selection_trials_clean <- selection_trials %>%
+  filter(type == "main") %>%
+  rename(shared.tangram = option1.tangram, unique.tangram = option2.tangram) %>% 
+  select(subject_id, item_id, counterbalance, condition, audience_group, shared.tangram, unique.tangram, response.unique) 
+
+write_csv(selection_trials_clean, here("data/3pp/shared-unique/selection_trials_clean.csv"))
+```
 
 # baseline trials
 
