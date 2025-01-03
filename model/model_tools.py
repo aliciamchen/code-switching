@@ -15,8 +15,9 @@ def get_model_preds(alpha, w_r, w_s, w_c, expt_type):
     expt_type = 1 -> model_3pp_shared_unique
 
     Get the model predictions for all conditions and tangram types
-    Output: 3x2 (condition, tangram type) array of probability of choosing the later utterance
-    model_module is either model_3pp_earlier_later or model_3pp_shared_unique (corresponds to expt type)
+    Output: 
+    expt_type = ExptType.EarlierLater -> 3x2 (condition, tangram type) array of probability of choosing the later utterance
+    expt_type = ExptType.SharedUnique -> 3x1 (condition, ) array of probability of choosing the group-specific label
     """
     def speaker_func(aud_cond, ttype, alpha, w_r, w_s, w_c, expt_type):
         return lax.cond(
