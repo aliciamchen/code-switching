@@ -7,6 +7,11 @@ import jax.numpy as jnp
 from enums import *
 
 
+class Choices(IntEnum):
+    Earlier = 0
+    Later = 1
+
+
 @jax.jit
 def audience_wpp(audience_condition, audience):
     # for the "either group" condition, return 1 regardless of audience
@@ -48,7 +53,7 @@ def cost(utterance):
 
 @memo
 def speaker[
-    utterance: EarlierLaterChoices, audience: Audiences
+    utterance: Choices, audience: Audiences
 ](
     audience_condition: AudienceConditions,
     tangram_type: TangramTypes,
@@ -62,7 +67,7 @@ def speaker[
         audience in Audiences, wpp=audience_wpp(audience_condition, audience)
     )
     speaker: chooses(
-        utterance in EarlierLaterChoices,
+        utterance in Choices,
         wpp=exp(
             alpha
             * (

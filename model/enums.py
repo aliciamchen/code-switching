@@ -1,6 +1,11 @@
 from enum import IntEnum
 
 
+class ExptTypes(IntEnum):
+    EarlierLater = 0
+    SharedUnique = 1
+
+
 class AudienceConditions(IntEnum):
     EitherGroup = 0
     OneGroup = 1
@@ -12,16 +17,6 @@ class Audiences(IntEnum):
 
 
 class TangramTypes(IntEnum):
-    Shared = 0
-    GroupSpecific = 1
-
-
-class EarlierLaterChoices(IntEnum):
-    Earlier = 0
-    Later = 1
-
-
-class SharedUniqueChoices(IntEnum):
     Shared = 0
     GroupSpecific = 1
 

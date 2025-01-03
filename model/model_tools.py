@@ -5,14 +5,26 @@ from jax import lax
 from enums import *
 import utils
 import model_3pp_earlier_later
+import model_3pp_shared_unique
 
 
 @jax.jit
-def get_model_preds(alpha, w_r, w_s, w_c):
+def get_model_preds(alpha, w_r, w_s, w_c, expt_type):
     """
+    expt_type = 0 -> model_3pp_earlier_later
+    expt_type = 1 -> model_3pp_shared_unique
+
     Get the model predictions for all conditions and tangram types
     Output: 3x2 (condition, tangram type) array of probability of choosing the later utterance
+    model_module is either model_3pp_earlier_later or model_3pp_shared_unique (corresponds to expt type)
     """
+    def speaker_func(aud_cond, ttype, alpha, w_r, w_s, w_c, expt_type):
+        return lax.cond(
+            expt_type == ExptTypes.EarlierLater,
+            lambda: model_3pp_earlier_later.speaker(aud_cond, ttype, alpha, w_r, w_s, w_c),
+            lambda: model_3pp_shared_unique.speaker(aud_cond, ttype, alpha, w_r, w_s, w_c)
+        )
+
     conditions_vals = jnp.array(
         [Conditions.ReferEither, Conditions.ReferOne, Conditions.SocialOne]
     )
@@ -21,21 +33,15 @@ def get_model_preds(alpha, w_r, w_s, w_c):
     def single_pred(cond, ttype):
         return lax.cond(
             cond == Conditions.ReferEither,
-            lambda _: model_3pp_earlier_later.speaker(
-                AudienceConditions.EitherGroup, ttype, alpha, w_r, 0, w_c
-            ),
+            lambda _: speaker_func(AudienceConditions.EitherGroup, ttype, alpha, w_r, 0, w_c, expt_type),
             lambda _: lax.cond(
                 cond == Conditions.ReferOne,
-                lambda __: model_3pp_earlier_later.speaker(
-                    AudienceConditions.OneGroup, ttype, alpha, w_r, 0, w_c
-                ),
-                lambda __: model_3pp_earlier_later.speaker(
-                    AudienceConditions.OneGroup, ttype, alpha, w_r, w_s, w_c
-                ),
+                lambda __: speaker_func(AudienceConditions.OneGroup, ttype, alpha, w_r, 0, w_c, expt_type),
+                lambda __: speaker_func(AudienceConditions.OneGroup, ttype, alpha, w_r, w_s, w_c, expt_type),
                 operand=None,
             ),
             operand=None,
-        )[EarlierLaterChoices.Later, 0]
+        )[1, 0]  # probability of choosing the later utterance or the group-specific label
 
     # Vectorize over tangrams first, then over conditions
     vmap_tangrams = jax.vmap(
@@ -73,7 +79,7 @@ def format_model_preds(model_preds, data_organized, tangram_info):
 
 
 def grid_search_nll(data_organized, tangram_info, 
-                    params_list):
+                    params_list, expt_type):
     """Data organized is a dict with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
     Model type is either "social" or "no_social", where for the latter w_s is fixed to 0
     """
@@ -86,7 +92,7 @@ def grid_search_nll(data_organized, tangram_info,
 
     def single_nll(params):
         alpha, w_r, w_s, w_c = params
-        preds = get_model_preds(alpha, w_r, w_s, w_c)
+        preds = get_model_preds(alpha, w_r, w_s, w_c, expt_type)
         model_organized = format_model_preds(preds, data_organized, tangram_info)
         model_all = utils.make_stacked_mtx(model_organized, model_slices)
 
