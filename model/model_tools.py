@@ -101,7 +101,7 @@ def format_model_preds(model_preds, data_organized, tangram_info, expt_type):
     return model_organized
 
 
-def grid_search_nll(data_organized, tangram_info, 
+def fit_params_overall(data_organized, tangram_info, 
                     params_list, expt_type):
     """Data organized is a dict with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
     Model type is either "social" or "no_social", where for the latter w_s is fixed to 0
