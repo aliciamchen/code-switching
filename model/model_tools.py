@@ -104,7 +104,6 @@ def format_model_preds(model_preds, data_organized, tangram_info, expt_type):
 def fit_params_overall(data_organized, tangram_info, 
                     params_list, expt_type):
     """Data organized is a dict with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
-    Model type is either "social" or "no_social", where for the latter w_s is fixed to 0
     """
     model_slices = utils.get_surviving_slices(
         data_organized
@@ -128,6 +127,42 @@ def fit_params_overall(data_organized, tangram_info,
     best_nll = nll_values[best_idx]
     best_params = params_list[best_idx]
     return best_params, best_nll, nll_values
+
+def fit_params_participant(data_organized, tangram_info, params_list, expt_type): 
+    """
+    Fit parameters for each participant separately
+    """
+    model_slices = utils.get_surviving_slices(
+        data_organized
+    )  # precompute slices of unused tangrams, to avoid jax issues
+    data_slices = utils.get_surviving_slices(data_organized)
+    data_all = utils.make_stacked_mtx(data_organized, data_slices)
+
+    def single_nlls(params):
+        """Returns NLL for each participant
+        Output: n_participants array of NLLs
+        """
+        alpha, w_r, w_s, w_c = params
+        preds = get_model_preds(alpha, w_r, w_s, w_c, expt_type)
+        model_organized = format_model_preds(preds, data_organized, tangram_info, expt_type)
+        model_all = utils.make_stacked_mtx(model_organized, model_slices)
+
+        # the last dimension of data_all and model_all is the participant dimension
+        assert data_all.shape[-1] == model_all.shape[-1]
+        total_participants = data_all.shape[-1]
+        nlls = jax.vmap(lambda i: compute_nll(data_all[..., i], model_all[..., i]))(jnp.arange(total_participants))
+        return nlls
+
+    nll_values = jax.vmap(single_nlls)(params_list)
+    # for each participant, find the best NLL and parameters
+    best_params = []
+    best_nlls = []
+    for i in range(nll_values.shape[-1]): 
+        best_idx = jnp.argmin(nll_values[..., i])
+        best_nll = nll_values[best_idx, i]
+        best_params.append(params_list[best_idx])
+        best_nlls.append(best_nll)
+    return best_params, best_nlls, nll_values
 
 
 @jax.jit
