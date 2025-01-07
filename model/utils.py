@@ -4,6 +4,8 @@ import numpy as np
 import jax
 import jax.numpy as jnp
 
+from enums import *
+
 
 def squeeze_unused_tangrams(organized_dict):
     """
@@ -17,7 +19,7 @@ def squeeze_unused_tangrams(organized_dict):
     return squeezed_dict
 
 
-def get_surviving_slices(organized_dict):
+def get_surviving_slices(organized_dict, expt_type):
     """
     Input: dict (either for data or model) with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
     Output: list of tuples with (tangram_set, counterbalance) keys and surviving indices values
@@ -25,7 +27,7 @@ def get_surviving_slices(organized_dict):
     surviving_slices = []
     for key, mtx in organized_dict.items():
         mask = ~jnp.all(mtx == 0, axis=tuple(range(1, mtx.ndim)))
-        surviving_indices = jnp.where(mask)[0]
+        surviving_indices = jnp.where(mask)[0] 
         surviving_slices.append((key, surviving_indices))
     return surviving_slices
 

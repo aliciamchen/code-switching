@@ -63,20 +63,20 @@ def format_model_preds(model_preds, data_organized, tangram_info, expt_type):
     if expt_type == ExptTypes.EarlierLater:
         for key, mtx in data_organized.items():
             tangram_set, counterbalance = key
-            preds = jnp.zeros((12, 2, len(Conditions)))
+            preds = jnp.zeros((12, 2, 2, len(Conditions)))
             available = tangram_info[
                 (tangram_info["tangram_set"] == tangram_set)
                 & (tangram_info["counterbalance"] == counterbalance)
             ]
             for _, row in available.iterrows():
                 for condition in Conditions:
-                    preds = preds.at[Tangram[row["tangram"]], :, condition].set(
+                    preds = preds.at[Tangram[row["tangram"]], TangramTypes[row["tangram_type"]], :, condition].set(
                         model_preds[condition, TangramTypes[row["tangram_type"]]]
                     )
 
             # repeat by number of participants
             model_organized[key] = jnp.repeat(
-                preds[:, :, :, jnp.newaxis], mtx.shape[-1], axis=-1
+                preds[:, :, :, :, jnp.newaxis], mtx.shape[-1], axis=-1
             )
     elif expt_type == ExptTypes.SharedUnique: 
         for key, mtx in data_organized.items(): 
@@ -106,9 +106,9 @@ def fit_params_overall(data_organized, tangram_info,
     """Data organized is a dict with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
     """
     model_slices = utils.get_surviving_slices(
-        data_organized
+        data_organized, expt_type
     )  # precompute slices of unused tangrams, to avoid jax issues
-    data_slices = utils.get_surviving_slices(data_organized)
+    data_slices = utils.get_surviving_slices(data_organized, expt_type)
     data_all = utils.make_stacked_mtx(data_organized, data_slices)
 
     def single_nll(params):
@@ -133,9 +133,9 @@ def fit_params_participant(data_organized, tangram_info, params_list, expt_type)
     Fit parameters for each participant separately
     """
     model_slices = utils.get_surviving_slices(
-        data_organized
+        data_organized, expt_type
     )  # precompute slices of unused tangrams, to avoid jax issues
-    data_slices = utils.get_surviving_slices(data_organized)
+    data_slices = utils.get_surviving_slices(data_organized, expt_type)
     data_all = utils.make_stacked_mtx(data_organized, data_slices)
 
     def single_nlls(params):

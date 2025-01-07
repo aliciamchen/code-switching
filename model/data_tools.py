@@ -89,7 +89,7 @@ def make_data_matrices(data, expt_type):
     """
     For each tangram_set and counterbalance, create a matrix of responses
     Returns a dict with keys (tangram_set, counterbalance)
-    For expt_type = ExptTypes.EarlierLater: values 12 x 2 x 3 x n_participants (tangram x audience_group x condition x participant)
+    For expt_type = ExptTypes.EarlierLater: values 12 x 2 x 2 x 3 x n_participants (tangram x tangram_type x audience_group x condition x participant)
     For expt_type = ExptTypes.SharedUnique: values 12 x 12 x 2 x 3 x n_participants (shared_tangram x unique_tangram x audience_group x condition x participant)
     """
     data_organized = {}
@@ -103,18 +103,19 @@ def make_data_matrices(data, expt_type):
 
             if expt_type == ExptTypes.EarlierLater:
                 this_set_mtx = np.zeros(
-                    (12, 2, len(Conditions), len(filtered_data_participants))
+                    (12, 2, 2, len(Conditions), len(filtered_data_participants))
                 )
                 for i, participant in enumerate(filtered_data_participants):
                     this_data = filtered_data[filtered_data["subject_id"] == participant]
-                    this_participant_mtx = np.zeros((12, 2, len(Conditions)))
+                    this_participant_mtx = np.zeros((12, 2, 2, len(Conditions)))
                     for _, row in this_data.iterrows():
                         this_participant_mtx[
                             Tangram[row["tangram"]],
+                            TangramTypes[row["tangram_type"]],
                             AudienceGroup[row["audience_group"]],
                             Conditions[row["condition"]],
                         ] = row["response.later"]
-                        this_set_mtx[:, :, :, i] = this_participant_mtx
+                        this_set_mtx[:, :, :, :, i] = this_participant_mtx
 
             elif expt_type == ExptTypes.SharedUnique:
                 this_set_mtx = np.zeros(
