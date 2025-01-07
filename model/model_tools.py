@@ -153,7 +153,9 @@ def fit_params_participant(data_organized, tangram_info, params_list, expt_type)
         nlls = jax.vmap(lambda i: compute_nll(data_all[..., i], model_all[..., i]))(jnp.arange(total_participants))
         return nlls
 
-    nll_values = jax.vmap(single_nlls)(params_list)
+    nll_values = jax.vmap(single_nlls)(params_list)  # shape: (n_params, n_participants)
+    # TODO: verify the shape of nll_values
+
     # for each participant, find the best NLL and parameters
     best_params = []
     best_nlls = []
