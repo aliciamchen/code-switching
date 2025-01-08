@@ -21,14 +21,14 @@ def squeeze_unused_tangrams(organized_dict):
 
 def get_surviving_slices(organized_dict, expt_type):
     """
-    Input: dict (either for data or model) with keys (tangram_set, counterbalance) and values 12 x 2 x 3 x n_participants
+    Input: dict (either for data or model) with keys (tangram_set, counterbalance) and values mtx
     Output: list of tuples with (tangram_set, counterbalance) keys and surviving indices values
     """
     # TODO: figure out a way to slice out first TWO dimensions, for both experiments
     surviving_slices = []
     for key, mtx in organized_dict.items():
         mask = ~jnp.all(mtx == 0, axis=tuple(range(1, mtx.ndim)))
-        surviving_indices = jnp.where(mask)[0] 
+        surviving_indices = jnp.where(mask)[0]
         surviving_slices.append((key, surviving_indices))
         # TODO: be able to take in first AND second indices/ dims
     return surviving_slices
@@ -51,7 +51,7 @@ def make_stacked_mtx(organized_dict, surviving_slices=None):
 
 
 def get_params_list(alphas, w_rs, w_ss, w_cs):
-    param_grid = jnp.meshgrid(alphas, w_rs, w_ss, w_cs, indexing='ij')
+    param_grid = jnp.meshgrid(alphas, w_rs, w_ss, w_cs, indexing="ij")
 
     # Flatten the parameter grid
     all_alphas = param_grid[0].ravel()

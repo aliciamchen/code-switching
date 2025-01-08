@@ -22,7 +22,7 @@ def audience_wpp(audience_condition, audience):
 @jax.jit
 def ref_info(audience, utterance):
     ingroup_info = jnp.array([1, 1])  # [shared, group-specific]
-    outgroup_info = jnp.array([1, 0]) 
+    outgroup_info = jnp.array([1, 0])
 
     info = lax.cond(
         audience == Audiences.Ingroup,
@@ -47,14 +47,7 @@ def cost(utterance):
 @memo
 def speaker[
     utterance: Choices, audience: Audiences
-](
-    audience_condition: AudienceConditions,
-    ttype,
-    alpha,
-    w_r,
-    w_s,
-    w_c,
-):
+](audience_condition: AudienceConditions, ttype, alpha, w_r, w_s, w_c,):
     cast: [speaker]
     speaker: chooses(
         audience in Audiences, wpp=audience_wpp(audience_condition, audience)
