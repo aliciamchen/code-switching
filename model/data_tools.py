@@ -16,7 +16,6 @@ def get_data(expt_type):
             "../data/3pp/earlier-later/selection_trials_clean.csv"
         ).rename(columns={"item_id": "tangram_set", "shared": "tangram_type"})
 
-
         data.loc[data["response.earlier"] == "earlier", "response.earlier"] = 1
         data.loc[data["response.earlier"] == "later", "response.earlier"] = 0
 
@@ -24,7 +23,6 @@ def get_data(expt_type):
 
         data.loc[data["tangram_type"] == "shared", "tangram_type"] = "Shared"
         data.loc[data["tangram_type"] == "unique", "tangram_type"] = "GroupSpecific"
-
 
     elif expt_type == ExptTypes.SharedUnique:
         data = pd.read_csv(
@@ -52,16 +50,30 @@ def get_tangram_info(expt_type):
     This uses the EarlierLater experiment data, but it's the same for both experiments
     """
     # TODO: fix the size thing
-    if expt_type == ExptTypes.EarlierLater: 
+    if expt_type == ExptTypes.EarlierLater:
         data = get_data(expt_type=ExptTypes.EarlierLater)
-        tangram_info = data.groupby(
-            ["tangram_set", "counterbalance", "tangram_type", "tangram"]
-        ).size().reset_index().drop(columns=[0])
-    elif expt_type == ExptTypes.SharedUnique: 
+        tangram_info = (
+            data.groupby(["tangram_set", "counterbalance", "tangram_type", "tangram"])
+            .size()
+            .reset_index()
+            .drop(columns=[0])
+        )
+    elif expt_type == ExptTypes.SharedUnique:
         data = get_data(expt_type=ExptTypes.SharedUnique)
-        tangram_info = data.groupby(
-            ["tangram_set", "counterbalance", "audience_group", "shared.tangram", "unique.tangram"]
-        ).size().reset_index().drop(columns=[0])
+        tangram_info = (
+            data.groupby(
+                [
+                    "tangram_set",
+                    "counterbalance",
+                    "audience_group",
+                    "shared.tangram",
+                    "unique.tangram",
+                ]
+            )
+            .size()
+            .reset_index()
+            .drop(columns=[0])
+        )
 
     return tangram_info
 
@@ -106,7 +118,9 @@ def make_data_matrices(data, expt_type):
                     (12, 2, 2, len(Conditions), len(filtered_data_participants))
                 )
                 for i, participant in enumerate(filtered_data_participants):
-                    this_data = filtered_data[filtered_data["subject_id"] == participant]
+                    this_data = filtered_data[
+                        filtered_data["subject_id"] == participant
+                    ]
                     this_participant_mtx = np.zeros((12, 2, 2, len(Conditions)))
                     for _, row in this_data.iterrows():
                         this_participant_mtx[
@@ -122,7 +136,9 @@ def make_data_matrices(data, expt_type):
                     (12, 12, 2, len(Conditions), len(filtered_data_participants))
                 )
                 for i, participant in enumerate(filtered_data_participants):
-                    this_data = filtered_data[filtered_data["subject_id"] == participant]
+                    this_data = filtered_data[
+                        filtered_data["subject_id"] == participant
+                    ]
                     this_participant_mtx = np.zeros((12, 12, 2, len(Conditions)))
                     for _, row in this_data.iterrows():
                         this_participant_mtx[
