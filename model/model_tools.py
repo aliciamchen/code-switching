@@ -136,7 +136,8 @@ def fit_params_participant(data_organized, tangram_info, params_list, expt_type)
         data_organized, expt_type
     )  # precompute slices of unused tangrams, to avoid jax issues
     data_slices = utils.get_surviving_slices(data_organized, expt_type)
-    data_all = utils.make_stacked_mtx(data_organized, data_slices)
+    # data_all = utils.make_stacked_mtx(data_organized, data_slices)
+    data_all = utils.make_stacked_mtx(data_organized)
 
     def single_nlls(params):
         """Returns NLL for each participant
@@ -145,7 +146,8 @@ def fit_params_participant(data_organized, tangram_info, params_list, expt_type)
         alpha, w_r, w_s, w_c = params
         preds = get_model_preds(alpha, w_r, w_s, w_c, expt_type)
         model_organized = format_model_preds(preds, data_organized, tangram_info, expt_type)
-        model_all = utils.make_stacked_mtx(model_organized, model_slices)
+        # model_all = utils.make_stacked_mtx(model_organized, model_slices)
+        model_all = utils.make_stacked_mtx(model_organized)
 
         # the last dimension of data_all and model_all is the participant dimension
         assert data_all.shape[-1] == model_all.shape[-1]
