@@ -29,18 +29,23 @@ def get_surviving_slices(organized_dict, expt_type):
         mask = ~jnp.all(mtx == 0, axis=tuple(range(1, mtx.ndim)))
         surviving_indices = jnp.where(mask)[0] 
         surviving_slices.append((key, surviving_indices))
+        # TODO: be able to take in first AND second indices/ dims
     return surviving_slices
 
 
-def make_stacked_mtx(organized_dict, surviving_slices):
+def make_stacked_mtx(organized_dict, surviving_slices=None):
     """
     Filter unused tangrams and stack remaining matrices
     TODO: vectorize this
     """
     masked_arrays = []
-    for key, surviving_indices in surviving_slices:
-        mtx = organized_dict[key]
-        masked_arrays.append(mtx[surviving_indices])  # (k, 2, 3, Nx)
+    if surviving_slices:
+        for key, surviving_indices in surviving_slices:
+            mtx = organized_dict[key]
+            masked_arrays.append(mtx[surviving_indices])  # (k, 2, 3, Nx)
+    else:
+        for mtx in organized_dict.values():
+            masked_arrays.append(mtx)
     return jnp.concatenate(masked_arrays, axis=-1)
 
 
