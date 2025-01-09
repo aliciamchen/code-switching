@@ -24,7 +24,9 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
       <p>
         On each screen, you will see two labels describing a picture, and
         you will have to pick one of them. We will tell you
-        <strong>what audience</strong> will see your choice (a number of blue-group members, and participants who played this game in a separate, unspecified group) and <strong>what question</strong> they will be answering when
+        <strong>what audience</strong> will see your choice (a number of blue-group members, 
+        and participants who played this game in a separate, unspecified group) 
+        and <strong>what question</strong> they will be answering when
         they see it. Your goal is to try to get them to answer the question in a
         certain way based on the label you select.
       </p>
