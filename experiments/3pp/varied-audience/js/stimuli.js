@@ -96,10 +96,10 @@ function generateAudienceSVG(nIngroup, nOutgroup) {
   return svgContent;
 }
 
-function generateStimulusText(trial) {
-  if (trial.goal === "refer") {
+function generateStimulusText(goal) {
+  if (goal === "refer") {
     return `<p>Please select the best description for the players in the audience to <strong>choose the correct picture.</strong></p>`;
-  } else if (trial.goal === "social") {
+  } else if (goal === "social") {
     return `<p>Please select the best description for the <strong style="color: blue;">blue group</strong> players in the audience to <strong>identify you as a member of their group.</strong></p>`;
   }
 }
@@ -116,7 +116,7 @@ function generateStimulusCount(nIngroup, nOutgroup) {
 
 function generateStimulus(trial) {
   const svg = generateAudienceSVG(trial.nIngroup, trial.nOutgroup);
-  const text = generateStimulusText(trial);
+  const text = generateStimulusText(trial.goal);
   const count = generateStimulusCount(trial.nIngroup, trial.nOutgroup);
   return `${text}${svg}${count}`;
 }
