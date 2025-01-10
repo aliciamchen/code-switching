@@ -48,7 +48,7 @@ def get_model_preds(alpha, w_r, w_s, w_c, expt_type):
                     AudienceConditions.OneGroup, ttype, alpha, w_r, 0, w_c, expt_type
                 ),
                 lambda __: speaker_func(
-                    AudienceConditions.OneGroup, ttype, alpha, w_r, w_s, w_c, expt_type
+                    AudienceConditions.OneGroup, ttype, alpha, 0, w_s, w_c, expt_type
                 ),
                 operand=None,
             ),
