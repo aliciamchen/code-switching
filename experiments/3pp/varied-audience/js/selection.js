@@ -1,14 +1,61 @@
 // Selection phase
-async function loadTrialInfo(item_id, counterbalance) {
-  const response = await fetch(`stim/2AFC_trials/item_${item_id}_${counterbalance}_2AFC.json`);
-  const data = await response.json();
-  return data;
-}
+async function loadTrialInfo(item_id, counterbalance, jsPsych) {
+  const response = await fetch(
+    `stim/2AFC_trials/item_${item_id}_${counterbalance}_2AFC.json`
+  );
+  const trials = await response.json();
+  const baseline_trials = trials.filter((trial) => trial.type === "baseline");
+  const main_trials_all = trials.filter((trial) => trial.type === "main");
 
+  // Step 1: Extract unique values for audience, tangrams, and goals
+  const audienceConditions = [];
+  const tangrams = new Set();
+  const goals = ["refer", "social"];
+
+  main_trials_all.forEach((trial) => {
+    const audienceKey = `${trial.n_ingroup}-${trial.n_outgroup}`;
+    if (!audienceConditions.includes(audienceKey)) {
+      audienceConditions.push(audienceKey);
+    }
+    tangrams.add(trial.tangram);
+  });
+
+  audienceConditions.push("4-0"); // Duplicate this condition to balance the number of trials
+
+  // Step 2: Create lists with appropriate counts
+  const audienceList = jsPsych.randomization.shuffle(
+    audienceConditions.flatMap((audience) => [audience, audience])
+  ); // 2 of each
+  const tangramList = jsPsych.randomization.shuffle(
+    Array.from(tangrams).flatMap((tangram) => Array(10).fill(tangram))
+  ); // 10 of each
+  const goalList = jsPsych.randomization.shuffle(
+    goals.flatMap((goal) => Array(30).fill(goal))
+  ); // 30 of each
+
+  // Step 3: Zip the lists together to create the trials
+  const trialsList = [];
+  for (let i = 0; i < audienceList.length; i++) {
+    // filter the main trials to match the current specifications
+    this_trial = main_trials_all.filter(
+      (trial) =>
+        trial.goal === goalList[i] &&
+        trial.tangram === tangramList[i] &&
+        trial.n_ingroup === parseInt(audienceList[i].split("-")[0]) &&
+        trial.n_outgroup === parseInt(audienceList[i].split("-")[1])
+    )
+    trialsList.push(this_trial[0]);
+  }
+
+  console.log(trialsList.length, baseline_trials.length);
+
+  all_trials = trialsList.concat(baseline_trials);
+  return all_trials;
+}
 
 async function createSelectionTrials(item_id, counterbalance, jsPsych) {
   try {
-    const trialInfo = await loadTrialInfo(item_id, counterbalance);
+    const trialInfo = await loadTrialInfo(item_id, counterbalance, jsPsych);
     const selection_phase_timeline = [];
 
     const instructions_reminder = {
@@ -60,8 +107,8 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
 }
 
 function createSelectionTrial(trial, jsPsych) {
-  trial.nIngroup = 4;
-  trial.nOutgroup = 0;
+  // trial.nIngroup = 4;
+  // trial.nOutgroup = 0;
   // TODO: make sure this info is in trial param
 
   var shuffled_options = jsPsych.randomization.repeat(trial.options, 1);
@@ -99,5 +146,5 @@ function createSelectionTrial(trial, jsPsych) {
         )[0];
       },
     },
-  ]; 
+  ];
 }
