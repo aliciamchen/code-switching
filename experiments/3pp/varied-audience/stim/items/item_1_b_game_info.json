@@ -1,0 +1,66 @@
+{
+    "red": {
+      "E": {
+        "label": "bunny ears",
+        "shared": "shared",
+        "game": "yYtSpzsEi4mnTuPrj"
+      },
+      "F": {
+        "label": "sad",
+        "shared": "unique",
+        "game": "pAaZt2Cv9MEFRCAY5"
+      },
+      "G": {
+        "label": "leg",
+        "shared": "unique",
+        "game": "BXWWg9XvCErxTpT9k"
+      },
+      "I": {
+        "label": "ice skater",
+        "shared": "shared",
+        "game": "yYtSpzsEi4mnTuPrj"
+      },
+      "J": {
+        "label": "fat guy",
+        "shared": "shared",
+        "game": "XpTJWaJYpSojYdngB"
+      },
+      "K": {
+        "label": "on their knees",
+        "shared": "unique",
+        "game": "cA2SjWv3CePYZgyzS"
+      }
+    },
+    "blue": {
+      "E": {
+        "label": "bunny ears",
+        "shared": "shared",
+        "game": "Sjf5nadz9keqBvs24"
+      },
+      "F": {
+        "label": "fetal position",
+        "shared": "unique",
+        "game": "LfuChcnEB54q8Ztys"
+      },
+      "G": {
+        "label": "strike a pose",
+        "shared": "unique",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "I": {
+        "label": "ice skater",
+        "shared": "shared",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "J": {
+        "label": "fat guy",
+        "shared": "shared",
+        "game": "hHoRuwi7p8k2XhzD3"
+      },
+      "K": {
+        "label": "duck",
+        "shared": "unique",
+        "game": "3WzEi9zkHF77vdTw5"
+      }
+    }
+  }

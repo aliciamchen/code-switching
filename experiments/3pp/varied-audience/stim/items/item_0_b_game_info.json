@@ -1,0 +1,66 @@
+{
+    "red": {
+      "A": {
+        "label": "thriller",
+        "shared": "shared",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "B": {
+        "label": "mouse",
+        "shared": "unique",
+        "game": "hHoRuwi7p8k2XhzD3"
+      },
+      "C": {
+        "label": "falling guy",
+        "shared": "unique",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "D": {
+        "label": "priest",
+        "shared": "shared",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "H": {
+        "label": "baby",
+        "shared": "shared",
+        "game": "rSMFkjhskBteiyQMB"
+      },
+      "L": {
+        "label": "zigzag",
+        "shared": "unique",
+        "game": "hHoRuwi7p8k2XhzD3"
+      }
+    },
+    "blue": {
+      "A": {
+        "label": "thriller",
+        "shared": "shared",
+        "game": "P8wDF8HAYYAcwBYsm"
+      },
+      "B": {
+        "label": "princess dance",
+        "shared": "unique",
+        "game": "BXWWg9XvCErxTpT9k"
+      },
+      "C": {
+        "label": "no legs",
+        "shared": "unique",
+        "game": "hHoRuwi7p8k2XhzD3"
+      },
+      "D": {
+        "label": "priest",
+        "shared": "shared",
+        "game": "ogPZPPCKpGn4votMa"
+      },
+      "H": {
+        "label": "baby",
+        "shared": "shared",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "L": {
+        "label": "bent knees",
+        "shared": "unique",
+        "game": "rSMFkjhskBteiyQMB"
+      }
+    }
+  }
