@@ -26,26 +26,26 @@ async function makeTrials(jsPsych) {
     };
     timeline.push(preload);
 
-    // // consent
-    // const consent = await createConsent();
-    // timeline.push(consent);
+    // consent
+    const consent = await createConsent();
+    timeline.push(consent);
 
-    // // instructions + comprehension check loop
-    // const comprehensionLoop = await createComprehensionLoop(item_id, jsPsych);
-    // timeline.push(comprehensionLoop);
+    // instructions + comprehension check loop
+    const comprehensionLoop = await createComprehensionLoop(item_id, jsPsych);
+    timeline.push(comprehensionLoop);
 
-    // // observation phase
-    // const videoTrials = await createVideoTrials(item_id, counterbalance, jsPsych);
-    // timeline.push(videoTrials);
+    // observation phase
+    const videoTrials = await createVideoTrials(item_id, counterbalance, jsPsych);
+    timeline.push(videoTrials);
 
     // selection phase
     const selectionTrials = await createSelectionTrials(item_id, counterbalance, jsPsych);
     console.log(selectionTrials);
     timeline.push(selectionTrials);
 
-    // // exit survey
-    // const exit = await createExit(item_id, jsPsych);
-    // timeline.push(exit);
+    // exit survey
+    const exit = await createExit(item_id, jsPsych);
+    timeline.push(exit);
 
     return timeline.flat();
   } catch (error) {
