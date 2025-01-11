@@ -1,0 +1,223 @@
+[
+    {
+      "tangram": "A",
+      "group": "red",
+      "game": "hYBwiiFBSBi9ySwpJ",
+      "shared": "shared",
+      "earlier": "earlier",
+      "length": 11,
+      "label": "The picture looks like it's carrying a flag over its shoulder"
+    },
+    {
+      "tangram": "A",
+      "group": "red",
+      "game": "hYBwiiFBSBi9ySwpJ",
+      "shared": "shared",
+      "earlier": "later",
+      "length": 1,
+      "label": "zombie"
+    },
+    {
+      "tangram": "A",
+      "group": "blue",
+      "game": "hhTtzgf2BMCbDwG5i",
+      "shared": "shared",
+      "earlier": "earlier",
+      "length": 26,
+      "label": "this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side"
+    },
+    {
+      "tangram": "A",
+      "group": "blue",
+      "game": "hhTtzgf2BMCbDwG5i",
+      "shared": "shared",
+      "earlier": "later",
+      "length": 1,
+      "label": "zombie"
+    },
+
+    {
+      "tangram": "C",
+      "group": "red",
+      "game": "3WzEi9zkHF77vdTw5",
+      "shared": "unique",
+      "earlier": "earlier",
+      "length": 40,
+      "label": "it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left"
+    },
+    {
+      "tangram": "C",
+      "group": "red",
+      "game": "3WzEi9zkHF77vdTw5",
+      "shared": "unique",
+      "earlier": "later",
+      "length": 2,
+      "label": "falling guy"
+    },
+    {
+      "tangram": "C",
+      "group": "blue",
+      "game": "JmgdhSKRPPxDKvprr",
+      "shared": "unique",
+      "earlier": "earlier",
+      "length": 35,
+      "label": "looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y"
+    },
+    {
+      "tangram": "C",
+      "group": "blue",
+      "game": "JmgdhSKRPPxDKvprr",
+      "shared": "unique",
+      "earlier": "later",
+      "length": 1,
+      "label": "Y"
+    },
+
+    {
+      "tangram": "E",
+      "group": "red",
+      "game": "3WzEi9zkHF77vdTw5",
+      "shared": "unique",
+      "earlier": "earlier",
+      "length": 26,
+      "label": "its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top"
+    },
+    {
+      "tangram": "E",
+      "group": "red",
+      "game": "3WzEi9zkHF77vdTw5",
+      "shared": "unique",
+      "earlier": "later",
+      "length": 2,
+      "label": "bunny ears"
+    },
+    {
+      "tangram": "E",
+      "group": "blue",
+      "game": "hhTtzgf2BMCbDwG5i",
+      "shared": "unique",
+      "earlier": "earlier",
+      "length": 11,
+      "label": "sitting down, facing right, with the hat thing on its head"
+    },
+    {
+      "tangram": "E",
+      "group": "blue",
+      "game": "hhTtzgf2BMCbDwG5i",
+      "shared": "unique",
+      "earlier": "later",
+      "length": 3,
+      "label": "crazy hat person"
+    },
+
+    {
+      "tangram": "G",
+      "group": "red",
+      "game": "pAaZt2Cv9MEFRCAY5",
+      "shared": "shared",
+      "earlier": "earlier",
+      "length": 79,
+      "label": "It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left"
+    },
+    {
+      "tangram": "G",
+      "group": "red",
+      "game": "pAaZt2Cv9MEFRCAY5",
+      "shared": "shared",
+      "earlier": "later",
+      "length": 1,
+      "label": "leg"
+    },
+    {
+      "tangram": "G",
+      "group": "blue",
+      "game": "BXWWg9XvCErxTpT9k",
+      "shared": "shared",
+      "earlier": "earlier",
+      "length": 28,
+      "label": "arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind"
+    },
+    {
+      "tangram": "G",
+      "group": "blue",
+      "game": "BXWWg9XvCErxTpT9k",
+      "shared": "shared",
+      "earlier": "later",
+      "length": 1,
+      "label": "leg"
+    },
+
+    {
+      "tangram": "I",
+      "group": "red",
+      "game": "LfuChcnEB54q8Ztys",
+      "shared": "shared",
+      "earlier": "earlier",
+      "length": 13,
+      "label": "ice skating one, square head balancing, two triangle arms pointing to the left"
+    },
+    {
+      "tangram": "I",
+      "group": "red",
+      "game": "LfuChcnEB54q8Ztys",
+      "shared": "shared",
+      "earlier": "later",
+      "length": 2,
+      "label": "ice skater"
+    },
+    {
+      "tangram": "I",
+      "group": "blue",
+      "game": "hYBwiiFBSBi9ySwpJ",
+      "shared": "shared",
+      "earlier": "earlier",
+      "length": 20,
+      "label": "picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back"
+    },
+    {
+      "tangram": "I",
+      "group": "blue",
+      "game": "hYBwiiFBSBi9ySwpJ",
+      "shared": "shared",
+      "earlier": "later",
+      "length": 2,
+      "label": "ice skater"
+    },
+
+    {
+      "tangram": "K",
+      "group": "red",
+      "game": "cA2SjWv3CePYZgyzS",
+      "shared": "unique",
+      "earlier": "earlier",
+      "length": 87,
+      "label": "this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle"
+    },
+    {
+      "tangram": "K",
+      "group": "red",
+      "game": "cA2SjWv3CePYZgyzS",
+      "shared": "unique",
+      "earlier": "later",
+      "length": 3,
+      "label": "on their knees"
+    },
+    {
+      "tangram": "K",
+      "group": "blue",
+      "game": "3WzEi9zkHF77vdTw5",
+      "shared": "unique",
+      "earlier": "earlier",
+      "length": 25,
+      "label": "it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top"
+    },
+    {
+      "tangram": "K",
+      "group": "blue",
+      "game": "3WzEi9zkHF77vdTw5",
+      "shared": "unique",
+      "earlier": "later",
+      "length": 1,
+      "label": "duck"
+    }
+  ]
