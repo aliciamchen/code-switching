@@ -107,9 +107,6 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
 }
 
 function createSelectionTrial(trial, jsPsych) {
-  // trial.nIngroup = 4;
-  // trial.nOutgroup = 0;
-  // TODO: make sure this info is in trial param
 
   var shuffled_options = jsPsych.randomization.repeat(trial.options, 1);
   return [
