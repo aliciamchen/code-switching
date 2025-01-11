@@ -110,13 +110,13 @@ function generateStimulusCount(nIngroup, nOutgroup) {
   return `
     <div style="font-size: 12px; line-height: 1.5;">
         ${nIngroup} ${ingroupText} in the <strong style="color: blue;">blue group</strong>
-        <br>${nOutgroup} ${outgroupText} in <strong style="color: gray;">other groups</strong>
+        <br>${nOutgroup} <strong style="color: gray;">naive ${outgroupText}</strong>
     </div>`;
 }
 
 function generateStimulus(trial) {
-  const svg = generateAudienceSVG(trial.nIngroup, trial.nOutgroup);
+  const svg = generateAudienceSVG(trial.n_ingroup, trial.n_outgroup);
   const text = generateStimulusText(trial.goal);
-  const count = generateStimulusCount(trial.nIngroup, trial.nOutgroup);
+  const count = generateStimulusCount(trial.n_ingroup, trial.n_outgroup);
   return `${text}${svg}${count}`;
 }

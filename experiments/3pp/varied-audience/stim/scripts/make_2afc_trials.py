@@ -34,6 +34,7 @@ def generate_main_trials(lexicon):
                     trial = {
                         "type": "main",  # main or control/baseline
                         "goal": goal,
+                        "tangram": tangram,
                         "n_ingroup": n[0],
                         "n_outgroup": n[1],
                         "options": options,
@@ -82,6 +83,7 @@ def generate_control_trials(this_lexicon, other_lexicon):
         trial = {
             "type": "baseline",
             "goal": "refer",
+            "tangram": tangram,
             "n_ingroup": 4,
             "n_outgroup": 0,
             "unseen_label": unseen_label_option["label"],
