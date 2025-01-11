@@ -17,12 +17,6 @@ async function createVideoTrials(item_id, counterbalance, jsPsych) {
       counterbalance
     );
 
-    // show all targets for repNum 0 in randomized order, for one color and then for the other color
-    // more specifically, e.g. for repNum 0 first show all the red, target A, in randomized order
-    // then show all the blue, target A, in randomized order
-    // then show all the red, target B, in randomized order
-    // then move on to repNum 1
-
     const video_trials = [];
     const pass_intro = {
       type: jsPsychHtmlButtonResponse,
