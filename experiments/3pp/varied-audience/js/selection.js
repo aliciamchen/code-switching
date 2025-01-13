@@ -47,8 +47,6 @@ async function loadTrialInfo(item_id, counterbalance, jsPsych) {
     trialsList.push(this_trial[0]);
   }
 
-  console.log(trialsList.length, baseline_trials.length);
-
   all_trials = trialsList.concat(baseline_trials);
   return all_trials;
 }
