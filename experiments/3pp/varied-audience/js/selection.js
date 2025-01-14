@@ -67,11 +67,12 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
         choose words that go with these pictures.
       </p>
       <p>
-        On each screen, you will see two pictures with a word describing each, and
+        On each screen, you will see two labels describing a picture, and
         you will have to pick one of them. We will tell you
         <strong>who</strong> will see your choice (a number of players from the game
-        you observed, and a number of players who did not play this game) and <strong>what question</strong> they will be answering when they
-        see it. In addition to helping your audience identify the correct picture, your goal is to try to get them to answer the question in a certain
+        you observed, and a number of players from other games) and 
+        <strong>what question</strong> they will be answering when they
+        see it. Your goal is to try to get them to answer the question in a certain
         way based on the label you select.
       </p>
       <p>
