@@ -110,7 +110,7 @@ function generateStimulusCount(nIngroup, nOutgroup) {
   return `
     <div style="font-size: 12px; line-height: 1.5;">
         ${nIngroup} ${ingroupText} in the <strong style="color: blue;">blue group</strong>
-        <br>${nOutgroup} ${outgroupText} in <strong style="color: gray;">unspecified groups</strong>
+        <br>${nOutgroup} ${outgroupText} in <strong style="color: gray;">other groups</strong>
     </div>`;
 }
 
