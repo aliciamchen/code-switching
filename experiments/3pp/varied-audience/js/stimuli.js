@@ -98,9 +98,9 @@ function generateAudienceSVG(nIngroup, nOutgroup) {
 
 function generateStimulusText(goal) {
   if (goal === "refer") {
-    return `<p>Please select the best description for the players in the audience to <strong>choose the correct picture.</strong></p>`;
+    return `<p>Please select the best description for <strong>everyone</strong> in the audience to <strong>choose the correct picture.</strong></p>`;
   } else if (goal === "social") {
-    return `<p>Please select the best description for the players in the audience to <strong>identify you as a member of their group.</strong></p>`;
+    return `<p>Please select the best description for the <strong style="color: blue;">blue group</strong> players in the audience to <strong>identify you as a member of their group.</strong></p>`;
   }
 }
 
@@ -110,7 +110,7 @@ function generateStimulusCount(nIngroup, nOutgroup) {
   return `
     <div style="font-size: 12px; line-height: 1.5;">
         ${nIngroup} ${ingroupText} in the <strong style="color: blue;">blue group</strong>
-        <br>${nOutgroup} ${outgroupText} in <strong style="color: gray;">other groups</strong>
+        <br>${nOutgroup} <strong style="color: gray;">naive ${outgroupText}</strong>
     </div>`;
 }
 
