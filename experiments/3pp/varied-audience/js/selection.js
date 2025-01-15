@@ -43,7 +43,7 @@ async function loadTrialInfo(item_id, counterbalance, jsPsych) {
         trial.tangram === tangramList[i] &&
         trial.n_ingroup === parseInt(audienceList[i].split("-")[0]) &&
         trial.n_outgroup === parseInt(audienceList[i].split("-")[1])
-    )
+    );
     trialsList.push(this_trial[0]);
   }
 
@@ -71,7 +71,7 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
         you will have to pick one of them. We will tell you
         <strong>who</strong> will see your choice (a number of players from the game
         you observed, and a number of players who did not play this game) and <strong>what question</strong> they will be answering when they
-        see it. In addition to helping your audience identify the correct picture, your goal is to try to get them to answer the question in a certain
+        see it. Your goal is to try to get them to answer the question in a certain
         way based on the label you select.
       </p>
       <p>
@@ -105,7 +105,6 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
 }
 
 function createSelectionTrial(trial, jsPsych) {
-
   var shuffled_options = jsPsych.randomization.repeat(trial.options, 1);
   return [
     {
