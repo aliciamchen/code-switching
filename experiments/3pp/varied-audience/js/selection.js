@@ -12,7 +12,6 @@ async function loadTrialInfo(item_id, counterbalance, jsPsych) {
   const ingroupLevels = [0, 1, 2, 3, 4];
   const outgroupLevels = [0, 1, 2, 4, 8, 16];
   const allAudienceConditions = [];
-
   // create all possible audience conditions
   ingroupLevels.forEach((ingroup) => {
     outgroupLevels.forEach((outgroup) => {
@@ -44,15 +43,15 @@ async function loadTrialInfo(item_id, counterbalance, jsPsych) {
 
   // create refer and social conditions
   const referConditions = allAudienceConditions.map((audience) => {
-    audience.goal = "refer";
-    return audience;
+    return { ...audience, goal: "refer" }; // Create a shallow copy and modify the `goal`
   });
+
   const socialConditions = allAudienceConditions
     .filter((audience) => audience.n_ingroup > 0)
     .map((audience) => {
-      audience.goal = "social";
-      return audience;
+      return { ...audience, goal: "social" }; // Create a shallow copy and modify the `goal`
     });
+  console.log(referConditions, socialConditions);
 
   const allConditions = referConditions.concat(socialConditions);
   // how many conditions in total? should be 53
