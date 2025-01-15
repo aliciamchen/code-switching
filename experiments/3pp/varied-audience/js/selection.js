@@ -109,7 +109,7 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
         and words you chose, <strong>what question</strong> they will be answering,
         and <strong>how</strong> you want them to answer it.
       </p>
-      <p>You will do this 66 times. You will receive a bonus of $0.10 for each correct choice.</p>
+      <p>You will do this 59 times. You will receive a bonus of $0.10 for each correct choice.</p>
       </div>
       `,
       choices: ["Continue"],
