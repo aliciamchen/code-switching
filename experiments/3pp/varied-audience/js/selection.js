@@ -1,4 +1,6 @@
 // Selection phase
+
+// Filter the relevant trials from the JSON file
 async function loadTrialInfo(item_id, counterbalance, jsPsych) {
   const response = await fetch(
     `stim/2AFC_trials/item_${item_id}_${counterbalance}_2AFC.json`
@@ -7,47 +9,75 @@ async function loadTrialInfo(item_id, counterbalance, jsPsych) {
   const baseline_trials = trials.filter((trial) => trial.type === "baseline");
   const main_trials_all = trials.filter((trial) => trial.type === "main");
 
-  // Step 1: Extract unique values for audience, tangrams, and goals
-  const audienceConditions = [];
-  const tangrams = new Set();
-  const goals = ["refer", "social"];
+  const ingroupLevels = [0, 1, 2, 3, 4];
+  const outgroupLevels = [0, 1, 2, 4, 8, 16];
+  const allAudienceConditions = [];
 
-  main_trials_all.forEach((trial) => {
-    const audienceKey = `${trial.n_ingroup}-${trial.n_outgroup}`;
-    if (!audienceConditions.includes(audienceKey)) {
-      audienceConditions.push(audienceKey);
-    }
-    tangrams.add(trial.tangram);
+  // create all possible audience conditions
+  ingroupLevels.forEach((ingroup) => {
+    outgroupLevels.forEach((outgroup) => {
+      if (ingroup === 0 && outgroup === 0) return;
+      allAudienceConditions.push({ n_ingroup: ingroup, n_outgroup: outgroup });
+    });
   });
 
-  audienceConditions.push("4-0"); // Duplicate this condition to balance the number of trials
+  // assign a tangram to each condition, with the constraint that 5 tangrams appear 5x, 1 tangram appears 4x
+  const tangrams = new Set();
+  main_trials_all.forEach((trial) => {
+    tangrams.add(trial.tangram);
+  }); // this is probably slow...
+  const tangramArray = Array.from(tangrams);
+  // duplicate the tangrams array 5 times and get rid of a random value
+  const tangramAssignments = Array.from(
+    { length: 5 },
+    () => tangramArray
+  ).flat();
+  const randomIndex = Math.floor(Math.random() * tangramAssignments.length);
+  tangramAssignments.splice(randomIndex, 1);
+  // shuffle
+  const shuffledAssignments = jsPsych.randomization.shuffle(tangramAssignments);
 
-  // Step 2: Create lists with appropriate counts
-  const audienceList = jsPsych.randomization.shuffle(
-    audienceConditions.flatMap((audience) => [audience, audience])
-  ); // 2 of each
-  const tangramList = jsPsych.randomization.shuffle(
-    Array.from(tangrams).flatMap((tangram) => Array(10).fill(tangram))
-  ); // 10 of each
-  const goalList = jsPsych.randomization.shuffle(
-    goals.flatMap((goal) => Array(30).fill(goal))
-  ); // 30 of each
+  // assign tangrams to audience conditions
+  allAudienceConditions.forEach((audience, i) => {
+    audience.tangram = shuffledAssignments[i];
+  });
 
-  // Step 3: Zip the lists together to create the trials
-  const trialsList = [];
-  for (let i = 0; i < audienceList.length; i++) {
-    // filter the main trials to match the current specifications
-    this_trial = main_trials_all.filter(
+  // create refer and social conditions
+  const referConditions = allAudienceConditions.map((audience) => {
+    audience.goal = "refer";
+    return audience;
+  });
+  const socialConditions = allAudienceConditions
+    .filter((audience) => audience.n_ingroup > 0)
+    .map((audience) => {
+      audience.goal = "social";
+      return audience;
+    });
+
+  const allConditions = referConditions.concat(socialConditions);
+  // how many conditions in total? should be 53
+  console.assert(
+    allConditions.length === 53,
+    `Expected 53 but got ${allConditions.length}`
+  );
+
+  // create the trials
+  const main_trials = [];
+  allConditions.forEach((condition) => {
+    const matchingMainTrial = main_trials_all.find(
       (trial) =>
-        trial.goal === goalList[i] &&
-        trial.tangram === tangramList[i] &&
-        trial.n_ingroup === parseInt(audienceList[i].split("-")[0]) &&
-        trial.n_outgroup === parseInt(audienceList[i].split("-")[1])
+        trial.n_ingroup === condition.n_ingroup &&
+        trial.n_outgroup === condition.n_outgroup &&
+        trial.goal === condition.goal &&
+        trial.tangram === condition.tangram
     );
-    trialsList.push(this_trial[0]);
-  }
-
-  all_trials = trialsList.concat(baseline_trials);
+    if (matchingMainTrial) {
+      main_trials.push(matchingMainTrial);
+    } else {
+      console.error("No matching trial for condition:", condition);
+    }
+  });
+  const all_trials = main_trials.concat(baseline_trials);
   return all_trials;
 }
 
