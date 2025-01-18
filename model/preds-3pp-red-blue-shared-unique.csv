@@ -1,0 +1,7 @@
+condition,p_unique,model
+refer either,0.25369576,base
+refer one,0.5,base
+social one,0.5,base
+refer either,0.25369576,social
+refer one,0.5,social
+social one,0.59868765,social
