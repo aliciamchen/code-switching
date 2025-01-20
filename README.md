@@ -9,6 +9,8 @@
         - Preregistered Dec 7 2024, Collected Dec 8 2024
     - `transparency`: deliver the above utterances to naive observers 
         - Collected Dec 18 2024
+    - `varied_audience`: participants choose between earlier and later labels, to an audience of varied audience composition
+        - Preregistered and collected Jan 14 2025
 - `experiments/1pp-interactive`: first-party interactive experiments
     - `prod-comp`: production then comprehension experiment, where participants first play the reference game then produce labels to in-group or out-group
     -

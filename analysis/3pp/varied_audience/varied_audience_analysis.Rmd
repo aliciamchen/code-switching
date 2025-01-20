@@ -1,7 +1,7 @@
 ---
-title: "earlier-later 3rd party experiment data analysis"
+title: "varied audience data analysis"
 author: "Alicia Chen"
-date: "2024-12-10"
+date: "2025-01-11"
 output:
   html_document: default
 ---
@@ -25,18 +25,18 @@ options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 Load data
 
 ```{r}
-selection_trials <- read_csv(here("data/3pp/earlier-later/selection_trials.csv")) %>%
+selection_trials <- read_csv(here("data/3pp/varied_audience/selection_trials.csv")) %>%
   group_by(subject_id) %>%
-  mutate(trial_num = row_number()) %>%
-  rename(response.unique = response.shared) %>%
+  mutate(trial_num = row_number(), 
+         n_total = n_ingroup + n_outgroup, 
+         prop_outgroup = n_outgroup / n_total) %>%
   select(subject_id, item_id, trial_num, everything()) %>%
   ungroup()
 
-selection_trials$condition <- with(selection_trials, interaction(audience, goal, sep = " "))
+# selection_trials$condition <- with(selection_trials, interaction(audience, goal, sep = " "))
 selection_trials$tangram <- selection_trials$option1.tangram
-selection_trials$shared <- selection_trials$option1.shared
 
-exit_survey <-read_csv(here("data/3pp/earlier-later/exit_survey.csv"))
+exit_survey <-read_csv(here("data/3pp/varied_audience/exit_survey.csv"))
 ```
 
 How many participants?
@@ -54,6 +54,7 @@ print(glue("we have {n_participants} total participants, of which {n_understood}
 selection_trials <- selection_trials %>%
   filter(understood == "yes")
 ```
+
 
 Demographics
 
@@ -80,48 +81,33 @@ selection_trials %>%
 
 ## How many trials per condition?
 
-There should be 12 trials per audience-goal condition
 
 ```{r}
 selection_trials %>%
   filter(type == "main") %>%
-  group_by(subject_id, audience, goal) %>%
+  group_by(n_ingroup, n_outgroup, goal) %>%
   count()
 ```
-
-There should be 9 'refer' goal baseline trials, and 6 'social' goal baseline trials
 
 ```{r}
 selection_trials %>%
-  filter(type == "baseline") %>%
-  group_by(subject_id, audience, goal) %>%
+  filter(type == "main") %>%
+  group_by(subject_id, n_ingroup, n_outgroup) %>%
   count()
 ```
 
-# Main trials
-
-Check how many observations per 2AFC pair (for model fitting)
-
-```{r}
-observation.count <- selection_trials %>%
-    filter(type == "main") %>%
-    group_by(item_id, counterbalance, tangram, shared, audience_group, option1.label, option2.label) %>%
-    rename(earlier_label = option1.label, later_label = option2.label) %>%
-    count()
-
-# to csv
-write_csv(observation.count, here("data/3pp/earlier-later/labels.csv"))
-```
 
 Clean selection trials and output for model fitting
 
 ```{r}
 selection_trials_clean <- selection_trials %>%
   filter(type == "main") %>%
-  select(subject_id, item_id, counterbalance, condition, goal, audience, audience_group, tangram, shared, response.earlier) 
+  select(subject_id, item_id, counterbalance, n_ingroup, n_outgroup, goal, tangram, response.earlier) 
 
-write_csv(selection_trials_clean, here("data/3pp/earlier-later/selection_trials_clean.csv"))
+write_csv(selection_trials_clean, here("data/3pp/varied_audience/selection_trials_clean.csv"))
 ```
+
+# Main trials
 
 
 Calculate means
@@ -132,58 +118,91 @@ main.trials <- selection_trials %>%
   mutate(response.earlier = ifelse(response.earlier == "earlier", 1, 0))
 
 main.trials.means <- main.trials %>%
-  group_by(condition, shared) %>%
+  group_by(n_ingroup, n_outgroup, goal) %>%
   tidyboot_mean(response.earlier, na.rm = T)
 
 main.trials.means.subj <-
   main.trials %>%
-  group_by(subject_id, condition, shared) %>%
+  group_by(subject_id, n_ingroup, n_outgroup, goal) %>%
   tidyboot_mean(response.earlier, na.rm = T)
 ```
 
 Plot
 
-```{r fig.width=8, fig.height=4}
-ggplot(main.trials,
-       aes(x = condition, y = response.earlier, color = shared)) +
-  geom_point(
-    data = main.trials.means,
-    position = position_dodge(width = 0.3),
-    aes(x = condition, y = empirical_stat, color = shared),
-    size = 3,
-    fill = "black",
-    inherit.aes = FALSE
-  ) +
-  geom_errorbar(
-    data = main.trials.means,
-    position = position_dodge(width = 0.3),
-    aes(
-      x = condition,
-      ymin = ci_lower,
-      ymax = ci_upper,
-      color = shared
-    ),
-    size = 1.5,
-    width = 0.05,
-    inherit.aes = FALSE
-  ) +
-  geom_line(
-    data = main.trials.means.subj,
-    aes(x = condition, y = empirical_stat, group = interaction(subject_id, shared), color = shared),
-    position = position_dodge(width = 0.3),
-    inherit.aes = FALSE, 
-    alpha = 0.15
-  ) +
-  geom_hline(yintercept = 0.5,
-             color = "red",
-             linetype = "dashed") +
-  labs(x = "condition", y = "earlier or later label") +
-  scale_y_continuous(breaks = c(0, 1),
-                     labels = c("later", "earlier")) +
-  scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
+```{r fig.width=16, fig.height=4}
+ggplot(main.trials.means, aes(x = n_outgroup, y = empirical_stat, color = goal)) +
+  geom_point(size = 3, fill = "black") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.8) +
+  geom_line(size = 1.2) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "n outgroup", y = "earlier or later label", title = "main trials") +
+  scale_y_continuous(limits = c(-0.05, 1.05), breaks = c(0, 1), labels = c("later", "earlier")) +
+  scale_color_discrete(name = "goal") +
+  facet_wrap(~n_ingroup, labeller = label_both, nrow = 1)
 ```
 
+```{r fig.width=16, fig.height=4}
+ggplot(main.trials.means, aes(x = ifelse(n_outgroup == 0, -0.5, log(n_outgroup)), y = empirical_stat, color = goal)) +
+  geom_point(size = 3, fill = "black") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.2) +
+  geom_line(size = 1.2) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "log n outgroup", y = "earlier or later label", title = "main trials") +
+  scale_y_continuous(limits = c(-0.05, 1.05), breaks = c(0, 1), labels = c("later", "earlier")) +
+  scale_x_continuous(limits = c(-0.7, max(log(main.trials$n_outgroup) + 0.1))) +
+  scale_color_discrete(name = "goal") +
+  facet_wrap(~n_ingroup, labeller = label_both, nrow = 1)
+```
+
+Plot proportion ingroup
+
+```{r}
+means.prop_outgroup <- main.trials %>%
+  group_by(prop_outgroup,goal) %>% 
+  tidyboot_mean(response.earlier, na.rm = T)
+```
+
+
+```{r}
+ggplot(means.prop_outgroup, aes(x = prop_outgroup, y = empirical_stat, color = goal)) +
+  geom_point(size = 3, fill = "black") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.03) +
+  geom_line(size = 1.2) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "proportion outgroup", y = "earlier or later label", title = "main trials") +
+  scale_y_continuous(limits=c(-0.1, 1.1), breaks = c(0, 1), labels = c("later", "earlier")) +
+  scale_color_discrete(name = "goal")
+```
+
+
+TODO: Correlate per-tangram effects with measured transparency differences between the tangrams
+
+OLD STUFF BELOW
+
 # Baseline trials
+
+Filter participants for above-chance performance on the baselines
+
+```{r}
+baseline.trials <- selection_trials %>%
+  filter(type == "baseline")
+
+above_chance_ppl <- baseline.trials %>%
+  group_by(subject_id) %>%
+  summarize(above_chance = sum(response.group == "unseen") < 3) %>%
+  filter(above_chance) %>%
+  select(subject_id)
+
+selection_trials <- selection_trials %>%
+  filter(subject_id %in% above_chance_ppl$subject_id)
+```
+
+how many participants are left? 
+
+```{r}
+n_participants <- n_distinct(selection_trials$subject_id)
+n_participants
+```
 
 ## "Refer" goal
 
@@ -214,30 +233,6 @@ ggplot(baseline.trials.refer, aes(x = audience, y = seen)) +
   theme(legend.position = "none", plot.title = element_text(size = 15))
 ```
 
-## "Social" goal
-
-For the "social" goal, people should choose the tangram belonging to the audience group
-
-```{r}
-baseline.trials.social <- selection_trials %>%
-  filter(type == "baseline", goal == "social") %>%
-  mutate(group_label = ifelse(audience_group == response.group, 1, 0))
-
-baseline.trials.social.means <- baseline.trials.social %>%
-  tidyboot_mean(group_label, na.rm = T) %>%
-  mutate(goal = "social")
-```
-
-```{r}
-ggplot(baseline.trials.social, aes(x = goal, y = group_label)) +
-  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.3) +
-  geom_point(data = baseline.trials.social.means, aes(x = goal, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
-  geom_errorbar(data = baseline.trials.social.means, aes(x = goal, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
-  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
-  labs(x = "goal", y = "label belongs to audience grp", title = "baseline.trials") +
-  scale_y_continuous(breaks = c(0, 1), labels = c("no", "yes")) +
-  theme(legend.position = "none", plot.title = element_text(size = 15))
-```
 
 ## Put the baseline trials together
 
@@ -361,7 +356,7 @@ ggplot(main.trials,
 ## main trials
 
 ```{r}
-mod <- glmer(response.earlier ~ condition * shared + (condition * shared | subject_id) + (condition | item_id/ tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 20000)))
+mod <- glmer(response.earlier ~ prop_outgroup * goal + n_total + (1 | subject_id) + (1 | item_id/ tangram), data = main.trials, family = "binomial")
 summary(mod)
 ```
 
@@ -427,5 +422,7 @@ inv_logit(fixef(mod.same.social))
 What feedback did participants give?
 
 ```{r}
-exit_survey$comments
+exit_filtered <- exit_survey %>%
+  filter(!is.na(comments))
+exit_filtered$comments
 ```

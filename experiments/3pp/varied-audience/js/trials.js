@@ -40,7 +40,6 @@ async function makeTrials(jsPsych) {
 
     // selection phase
     const selectionTrials = await createSelectionTrials(item_id, counterbalance, jsPsych);
-    console.log(selectionTrials);
     timeline.push(selectionTrials);
 
     // exit survey

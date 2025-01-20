@@ -6,8 +6,8 @@ The "unseen" tangrams are taken from the other group color for the "shared-label
 
 `cd experiments/3pp`
 
-`rsync -av --exclude 'stim/convo_vids/videos/480p15/partial_movie_files' varied-audience/ aliciach@athena.dialup.mit.edu:~/www/tangrams/v-a`
+`rsync -av --exclude 'stim/convo_vids/videos/480p15/partial_movie_files' varied-audience/ aliciach@athena.dialup.mit.edu:~/www/tangrams/v-a-final`
 
 
 website is at
-https://web.mit.edu/aliciach/www/tangrams/v-a
+https://web.mit.edu/aliciach/www/tangrams/v-a-final
