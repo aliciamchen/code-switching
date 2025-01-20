@@ -35,7 +35,7 @@ selection_trials <- read_csv(here("data/3pp/shared-unique/selection_trials.csv")
   select(subject_id, item_id, trial_num, everything()) %>%
   ungroup()
 
-selection_trials$condition <- with(selection_trials, interaction(audience, goal, sep = " "))
+selection_trials$condition <- with(selection_trials, interaction(goal, audience, sep = " "))
 
 exit_survey <- read_csv(here("data/3pp/shared-unique/exit_survey.csv"))
 ```

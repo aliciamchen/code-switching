@@ -118,7 +118,7 @@ Clean selection trials and output for model fitting
 ```{r}
 selection_trials_clean <- selection_trials %>%
   filter(type == "main") %>%
-  select(subject_id, item_id, counterbalance, condition, audience_group, tangram, shared, response.earlier) 
+  select(subject_id, item_id, counterbalance, condition, goal, audience, audience_group, tangram, shared, response.earlier) 
 
 write_csv(selection_trials_clean, here("data/3pp/earlier-later/selection_trials_clean.csv"))
 ```
