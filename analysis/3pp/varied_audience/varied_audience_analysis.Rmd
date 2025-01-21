@@ -336,7 +336,7 @@ inv_logit <- function(x) {
   exp(x) / (1 + exp(x))
 }
 
-inv_logit(fixef(mod))
+inv_logit(fixef(mod.baseline))
 ```
 
 
