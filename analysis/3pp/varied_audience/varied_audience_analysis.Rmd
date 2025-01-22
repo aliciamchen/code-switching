@@ -220,6 +220,30 @@ ggplot(transparency_vals, aes(x = later.transparency, y = empirical_stat, color 
   scale_x_continuous(limits = c(-0.1, 1.1), breaks = c(0, 0.5, 1))
 ```
 
+what about cost diff? 
+
+```{r}
+main_trials <- main_trials %>%
+  mutate(length.diff = option1.length - option2.length)
+```
+
+
+```{r}
+length.means <- main_trials %>%
+  group_by(goal, option1.label, option2.label, option1.length, option2.length, length.diff) %>%
+  tidyboot_mean(response.earlier, na.rm = T)
+```
+
+```{r}
+ggplot(length.means, aes(x = length.diff, y = empirical_stat, color = goal)) +
+  geom_point(size = 3, fill = "black") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.03) +
+  geom_smooth(method = "lm", se = T) +
+  geom_hline(yintercept = 0.5, color = "black", linetype = "dashed") +
+  labs(x = "earlier length minus later length", y = "P(earlier label)", title = "varied audience") + 
+  scale_y_continuous(limits = c(-0.1, 1.1), breaks = c(0, 0.5, 1))
+```
+
 
 ## Filter participants for above-chance performance on the baselines
 
