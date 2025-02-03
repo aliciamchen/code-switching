@@ -277,83 +277,83 @@ ggplot(baseline.trials.total, aes(x = subject_id, y = total, fill = goal)) +
 Filter for participants who did above chance on BOTH the social and refer baseline
 
 ```{r}
-above_chance_same <- baseline.trials.refer %>%
-  group_by(subject_id) %>%
-  summarize(above_chance = mean(seen) > 0.5) %>%
-  inner_join(baseline.trials.social %>%
-               group_by(subject_id) %>%
-               summarize(above_chance = mean(group_label) > 0.5), by = "subject_id") %>%
-  filter(above_chance.x & above_chance.y) %>%
-  select(subject_id)
-
-selection_trials_filtered <- selection_trials %>%
-  filter(subject_id %in% above_chance_same$subject_id)
+# above_chance_same <- baseline.trials.refer %>%
+#   group_by(subject_id) %>%
+#   summarize(above_chance = mean(seen) > 0.5) %>%
+#   inner_join(baseline.trials.social %>%
+#                group_by(subject_id) %>%
+#                summarize(above_chance = mean(group_label) > 0.5), by = "subject_id") %>%
+#   filter(above_chance.x & above_chance.y) %>%
+#   select(subject_id)
+# 
+# selection_trials_filtered <- selection_trials %>%
+#   filter(subject_id %in% above_chance_same$subject_id)
 ```
 
 How many participants?
 
 ```{r}
-n_participants_filtered <- n_distinct(selection_trials_filtered$subject_id)
-print(glue("we have {n_participants_filtered} participants who did above chance on both the social and refer baseline"))
+# n_participants_filtered <- n_distinct(selection_trials_filtered$subject_id)
+# print(glue("we have {n_participants_filtered} participants who did above chance on both the social and refer baseline"))
 ```
 
 Calculate means
 
 ```{r}
-main.trials <- selection_trials_filtered %>%
-  filter(type == "main") %>%
-  mutate(response.earlier = ifelse(response.earlier == "earlier", 1, 0))
-
-main.trials.means <- main.trials %>%
-  group_by(condition, shared) %>%
-  tidyboot_mean(response.earlier, na.rm = T)
-
-main.trials.means.subj <-
-  main.trials %>%
-  group_by(subject_id, condition, shared) %>%
-  tidyboot_mean(response.earlier, na.rm = T)
+# main.trials <- selection_trials_filtered %>%
+#   filter(type == "main") %>%
+#   mutate(response.earlier = ifelse(response.earlier == "earlier", 1, 0))
+# 
+# main.trials.means <- main.trials %>%
+#   group_by(condition, shared) %>%
+#   tidyboot_mean(response.earlier, na.rm = T)
+# 
+# main.trials.means.subj <-
+#   main.trials %>%
+#   group_by(subject_id, condition, shared) %>%
+#   tidyboot_mean(response.earlier, na.rm = T)
 ```
 
 Plot
 
 ```{r fig.width=8, fig.height=4}
-ggplot(main.trials,
-       aes(x = condition, y = response.earlier, color = shared)) +
-  geom_point(
-    data = main.trials.means,
-    position = position_dodge(width = 0.3),
-    aes(x = condition, y = empirical_stat, color = shared),
-    size = 3,
-    fill = "black",
-    inherit.aes = FALSE
-  ) +
-  geom_errorbar(
-    data = main.trials.means,
-    position = position_dodge(width = 0.3),
-    aes(
-      x = condition,
-      ymin = ci_lower,
-      ymax = ci_upper,
-      color = shared
-    ),
-    size = 1.5,
-    width = 0.05,
-    inherit.aes = FALSE
-  ) +
-  geom_line(
-    data = main.trials.means.subj,
-    aes(x = condition, y = empirical_stat, group = interaction(subject_id, shared), color = shared),
-    position = position_dodge(width = 0.3),
-    inherit.aes = FALSE, 
-    alpha = 0.15
-  ) +
-  geom_hline(yintercept = 0.5,
-             color = "red",
-             linetype = "dashed") +
-  labs(x = "condition", y = "earlier or later label", title = "filtered participants") +
-  scale_y_continuous(breaks = c(0, 1),
-                     labels = c("later", "earlier")) +
-  scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
+# ggplot(main.trials,
+#        aes(x = condition, y = response.earlier, color = shared)) +
+#   geom_point(
+#     data = main.trials.means,
+#     position = position_dodge(width = 0.3),
+#     aes(x = condition, y = empirical_stat, color = shared),
+#     size = 3,
+#     fill = "black",
+#     inherit.aes = FALSE
+#   ) +
+#   geom_errorbar(
+#     data = main.trials.means,
+#     position = position_dodge(width = 0.3),
+#     aes(
+#       x = condition,
+#       ymin = ci_lower,
+#       ymax = ci_upper,
+#       color = shared
+#     ),
+#     size = 1.5,
+#     width = 0.05,
+#     inherit.aes = FALSE
+#   ) +
+#   geom_line(
+#     data = main.trials.means.subj,
+#     aes(x = condition, y = empirical_stat, group = interaction(subject_id, shared), color = shared),
+#     position = position_dodge(width = 0.3),
+#     inherit.aes = FALSE, 
+#     alpha = 0.15
+#   ) +
+#   geom_hline(yintercept = 0.5,
+#              color = "red",
+#              linetype = "dashed") +
+#   labs(x = "condition", y = "earlier or later label", title = "filtered participants") +
+#   scale_y_continuous(breaks = c(0, 1),
+#                      labels = c("later", "earlier")) +
+#   scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
 ```
 
 # Data analysis
@@ -377,9 +377,9 @@ emmeans(mod, pairwise ~ condition) %>%
 
 emmeans_results <- emmeans(mod, ~ condition)
 grouped_contrast <- contrast(emmeans_results, 
-                             method = list("one social - grouped refer" = c(-0.5, -0.5, 1)),
+                             method = list("one social - grouped refer" = c(0.5, 0.5, -1)),
                              adjust = "none") 
-summary(grouped_contrast)
+summary(grouped_contrast, infer = T)
 ```
 
 Broken down by tangram type

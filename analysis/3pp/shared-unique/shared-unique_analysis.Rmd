@@ -241,7 +241,7 @@ pct.seen.both.refer <- baseline.refer %>%
   tidyboot_mean(seen, na.rm = T)
 
 pct.unique.diff <- main.trials.means.subj %>%
-  filter(condition == "either refer")
+  filter(condition == "refer either")
 ```
 
 ```{r}
@@ -261,7 +261,7 @@ pct.correct.social <- baseline.social %>%
   tidyboot_mean(group_label, na.rm = T)
 
 pct.unique.diff <- main.trials.means.subj %>%
-  filter(condition == "one social")
+  filter(condition == "social one")
 ```
 
 ```{r}
@@ -271,6 +271,14 @@ ggplot(pct.correct.social, aes(x = empirical_stat, y = pct.unique.diff$empirical
   lims(x = c(0, 1), y = c(0, 1)) +
   labs(x = "prop Correct group, baseline", y = "prop Group-specific, main.trials", title = "social goal")
 ```
+
+Compute correlation
+
+```{r}
+cor.test(pct.seen.both.refer$empirical_stat, pct.unique.diff$empirical_stat)
+cor.test(pct.correct.social$empirical_stat, pct.unique.diff$empirical_stat)
+```
+
 
 ## Put the baseline trials together
 
@@ -330,60 +338,66 @@ print(glue("we have {n_participants_filtered} participants who did above chance 
 ```
 
 ```{r}
-main.trials <- selection_trials_filtered %>%
-  filter(type == "main") %>%
-  mutate(response.unique = ifelse(response.unique == "unique", 1, 0))
-
-main.trials.means <- main.trials %>%
-  group_by(condition) %>%
-  tidyboot_mean(response.unique, na.rm = T)
-
-main.trials.means.subj <-
-  main.trials %>%
-  group_by(subject_id, condition) %>%
-  tidyboot_mean(response.unique, na.rm = T)
+# main.trials <- selection_trials_filtered %>%
+#   filter(type == "main") %>%
+#   mutate(response.unique = ifelse(response.unique == "unique", 1, 0))
+# 
+# main.trials.means <- main.trials %>%
+#   group_by(condition) %>%
+#   tidyboot_mean(response.unique, na.rm = T)
+# 
+# main.trials.means.subj <-
+#   main.trials %>%
+#   group_by(subject_id, condition) %>%
+#   tidyboot_mean(response.unique, na.rm = T)
 ```
 
 ```{r}
-ggplot(main.trials,
-       aes(x = condition, y = response.unique)) +
-  geom_point(
-    data = main.trials.means,
-    position = position_dodge(width = 0.3),
-    aes(x = condition, y = empirical_stat),
-    size = 3,
-    fill = "black",
-    inherit.aes = FALSE
-  ) +
-  geom_errorbar(
-    data = main.trials.means,
-    position = position_dodge(width = 0.3),
-    aes(
-      x = condition,
-      ymin = ci_lower,
-      ymax = ci_upper
-    ),
-    size = 1.5,
-    width = 0.05,
-    inherit.aes = FALSE
-  ) +
-  geom_line(
-    data = main.trials.means.subj,
-    aes(x = condition, y = empirical_stat, group = subject_id),
-    position = position_dodge(width = 0.1),
-    inherit.aes = FALSE, 
-    alpha = 0.15
-  ) +
-  geom_hline(yintercept = 0.5,
-             color = "red",
-             linetype = "dashed") +
-  labs(x = "condition", y = "label type", title = "filtered by baselines") +
-  scale_y_continuous(breaks = c(0, 1),
-                     labels = c("shared", "group-specific")) +
-  scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
+# ggplot(main.trials,
+#        aes(x = condition, y = response.unique)) +
+#   geom_point(
+#     data = main.trials.means,
+#     position = position_dodge(width = 0.3),
+#     aes(x = condition, y = empirical_stat),
+#     size = 3,
+#     fill = "black",
+#     inherit.aes = FALSE
+#   ) +
+#   geom_errorbar(
+#     data = main.trials.means,
+#     position = position_dodge(width = 0.3),
+#     aes(
+#       x = condition,
+#       ymin = ci_lower,
+#       ymax = ci_upper
+#     ),
+#     size = 1.5,
+#     width = 0.05,
+#     inherit.aes = FALSE
+#   ) +
+#   geom_line(
+#     data = main.trials.means.subj,
+#     aes(x = condition, y = empirical_stat, group = subject_id),
+#     position = position_dodge(width = 0.1),
+#     inherit.aes = FALSE, 
+#     alpha = 0.15
+#   ) +
+#   geom_hline(yintercept = 0.5,
+#              color = "red",
+#              linetype = "dashed") +
+#   labs(x = "condition", y = "label type", title = "filtered by baselines") +
+#   scale_y_continuous(breaks = c(0, 1),
+#                      labels = c("shared", "group-specific")) +
+#   scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
 ```
 
 # Data analysis
+
+```{r}
+main.trials <- main.trials %>% 
+  mutate(response.shared = ifelse(response.unique == 0, 1, 0))
+```
+
 
 ## "Different tangram" main trials
 
@@ -391,14 +405,14 @@ Preregistered model
 
 ```{r}
 # Note that option2.tangram always corresponds to the shared tangram
-mod <- glmer(response.unique ~ audience * goal + (1 | subject_id) + (1 | item_id/ option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+mod <- glmer(response.shared ~ audience * goal + (1 | subject_id) + (1 | item_id/ option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
 summary(mod)
 ```
 
 Make model specification simpler: Combine audience and goal into `condition` variable
 
 ```{r}
-mod <- glmer(response.unique ~ condition + (condition | subject_id) + (condition | item_id/ option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+mod <- glmer(response.shared ~ condition + (condition | subject_id) + (condition | item_id/ option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
 
 summary(mod)
 ```
@@ -420,10 +434,10 @@ We predict that participants will choose the group-specific label more often whe
 emmeans_results <- emmeans(mod, ~ condition)
 
 grouped_contrast <- contrast(emmeans_results, 
-                             method = list("one social - grouped refer" = c(-0.5, -0.5, 1)),
+                             method = list("grouped refer - one social" = c(0.5, 0.5, -1)),
                              adjust = "none")  # Adjust as needed
 
-summary(grouped_contrast)
+summary(grouped_contrast, infer = T)
 ```
 
 ## "baseline" trials

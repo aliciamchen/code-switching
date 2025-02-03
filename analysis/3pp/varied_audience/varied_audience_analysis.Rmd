@@ -187,17 +187,18 @@ main_trials <- main.trials %>%
   left_join(transparency.data, by = c("option2.tangram" = "target", "item_id" = "tangram_set", "option2.earlier" = "earlier", "option2.length" = "length", "option2.label" = "label")) %>%
   select(-c(n, ci_lower, mean, ci_upper)) %>%
   rename(later.transparency = empirical_stat) %>% 
-  mutate(transparency_diff = earlier.transparency - later.transparency)
+  mutate(transparency_diff = earlier.transparency - later.transparency) %>% # add length
+  mutate(length.diff = option1.length - option2.length)
 ```
 
 ```{r}
-transparency_vals <- main_trials %>%
-  group_by(goal, option1.label, option2.label, earlier.transparency, later.transparency, transparency_diff) %>%
+means.by.item <- main_trials %>%
+  group_by(goal, option1.label, option2.label, earlier.transparency, later.transparency, transparency_diff, option1.length, option2.length, length.diff) %>%
   tidyboot_mean(response.earlier, na.rm = T)
 ```
 
 ```{r}
-ggplot(transparency_vals, aes(x = transparency_diff, y = empirical_stat, color = goal)) +
+ggplot(means.by.item, aes(x = transparency_diff, y = empirical_stat, color = goal)) +
   geom_point(size = 3, fill = "black") +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.03) +
   geom_smooth(method = "lm", se = T) +
@@ -210,7 +211,7 @@ ggplot(transparency_vals, aes(x = transparency_diff, y = empirical_stat, color =
 What about just later transparency value 
 
 ```{r}
-ggplot(transparency_vals, aes(x = later.transparency, y = empirical_stat, color = goal)) +
+ggplot(means.by.item, aes(x = later.transparency, y = empirical_stat, color = goal)) +
   geom_point(size = 3, fill = "black") +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.03) +
   geom_smooth(method = "lm", se = T) +
@@ -222,26 +223,20 @@ ggplot(transparency_vals, aes(x = later.transparency, y = empirical_stat, color 
 
 what about cost diff? 
 
-```{r}
-main_trials <- main_trials %>%
-  mutate(length.diff = option1.length - option2.length)
-```
-
 
 ```{r}
-length.means <- main_trials %>%
-  group_by(goal, option1.label, option2.label, option1.length, option2.length, length.diff) %>%
-  tidyboot_mean(response.earlier, na.rm = T)
-```
-
-```{r}
-ggplot(length.means, aes(x = length.diff, y = empirical_stat, color = goal)) +
+ggplot(means.by.item, aes(x = length.diff, y = empirical_stat, color = goal)) +
   geom_point(size = 3, fill = "black") +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.03) +
   geom_smooth(method = "lm", se = T) +
   geom_hline(yintercept = 0.5, color = "black", linetype = "dashed") +
   labs(x = "earlier length minus later length", y = "P(earlier label)", title = "varied audience") + 
   scale_y_continuous(limits = c(-0.1, 1.1), breaks = c(0, 0.5, 1))
+```
+
+```{r}
+mod.item <- lm(empirical_stat ~ transparency_diff + length.diff, data = means.by.item %>% filter(goal == 'refer'))
+summary(mod.item)
 ```
 
 
@@ -369,7 +364,7 @@ inv_logit(fixef(mod.baseline))
 ## main preregistered model
 
 ```{r}
-mod.without.transparency <- glmer(response.earlier ~ prop_outgroup * goal + n_total + (1 | subject_id) + (1 | item_id/ tangram), data = main_trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+mod.without.transparency <- glmer(response.earlier ~ prop_outgroup * goal + n_total +  (1 | subject_id) + (1 | item_id/ tangram), data = main_trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
 summary(mod.without.transparency)
 ```
 
@@ -421,6 +416,7 @@ emmeans(mod.with.transparency.poly, pairwise ~ goal | prop_outgroup,
         at = list(prop_outgroup = unique(main_trials$prop_outgroup))) %>%
   summary(infer = TRUE)
 ```
+
 Let's just compare the 'refer' and 'social' conditions for the 0% naive condition (do we replicate the effect in the other experiment?)
 
 ```{r}
