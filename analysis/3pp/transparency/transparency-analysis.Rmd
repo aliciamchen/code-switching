@@ -22,8 +22,16 @@ options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 
 ```{r}
 data <- read_csv(here("data/3pp/transparency/selection_trials.csv")) %>% 
-  mutate(correct = ifelse(correct == TRUE, 1, 0))
+  mutate(correct = ifelse(correct == TRUE, 1, 0)) %>% 
+  filter(understood == "yes")
 ```
+How many participants? M(SD) age? 
+
+```{r}
+nrow(data %>% distinct(subject_id))
+```
+
+
 How much of each utterance? There should be ~40
 
 ```{r}
