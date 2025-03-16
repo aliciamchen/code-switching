@@ -1,9 +1,9 @@
 name = "prod-comp"
 
 [tajriba.auth]
-srtoken = "zrRzSZJYAHuHSYRk"
+srtoken = "sbHncYyXDoVnxpSz"
 
 [[tajriba.auth.users]]
 name = "Admin"
 username = "admin"
-password = "kgJxQjuL"
+password = "BHwjsRxR"
