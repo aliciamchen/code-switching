@@ -10,6 +10,7 @@ import {
 } from "./constants";
 
 Empirica.onGameStart(({ game }) => {
+  console.log("Game started");
   // Assign tangram set
   const tangram_set = _.random(0, 2);
   const context = tangram_sets[tangram_set];
@@ -20,26 +21,33 @@ Empirica.onGameStart(({ game }) => {
     player.set("name", names[i]);
     player.set("tangram_set", tangram_set);
     player.set("context", context);
-    player.set("score", 0);
+    player.set("bonus", 0);
   });
 
   // Randomly assign 4 of the players to the red group and the other 4 to the blue group
-  red_players = _.sampleSize(game.players, 4);
+  red_players = _.sampleSize(game.players, game.players.length / 2);
   blue_players = _.difference(game.players, red_players);
-  red_players.forEach((player) => {
+  red_players.forEach((player, i) => {
     player.set("group", "red");
-    player.set("player_index", red_players.indexOf(player));
-    player.set("avatar_name", avatar_names["red"][red_players.indexOf(player)]);
-    player.set("name_color", name_colors["red"][red_players.indexOf(player)]);
-  });
-  blue_players.forEach((player) => {
-    player.set("group", "blue");
-    player.set("player_index", blue_players.indexOf(player));
+    player.set("player_index", i);
+    player.set("avatar_name", avatar_names["red"][i]);
+    player.set("avatar", `/${avatar_names["red"][i]}.png`)
+    player.set("name_color", name_colors["red"][i]);
     player.set(
-      "avatar_name",
-      avatar_names["blue"][blue_players.indexOf(player)]
+      "tangramURLs",
+      _.shuffle(context.map((tangram) => `/tangram_${tangram}.png`))
     );
-    player.set("name_color", name_colors["blue"][blue_players.indexOf(player)]);
+  });
+  blue_players.forEach((player, i) => {
+    player.set("group", "blue");
+    player.set("player_index", i);
+    player.set("avatar_name", avatar_names["blue"][i]);
+    player.set("avatar", `/${avatar_names["blue"][i]}.png`)
+    player.set("name_color", name_colors["blue"][i]);
+    player.set(
+      "tangramURLs",
+      _.shuffle(context.map((tangram) => `/tangram_${tangram}.png`))
+    );
   });
 
   // PHASE 1: REFERENCE GAME
@@ -50,15 +58,15 @@ Empirica.onGameStart(({ game }) => {
     _.times(4, (player_index) => {
       const shuffled_context = _.shuffle(context);
       const round = game.addRound({
-        name: `Reference Game - Round ${(i - 1) * 4 + player_index + 1}`,
+        name: `Reference Game - Round ${i * 4 + player_index + 1}`,
         phase: "refgame",
         speaker: player_index,
         target_order: shuffled_context,
       });
-      _.times(length(context), (target_num) => {
+      _.times(context.length, (target_num) => {
         round.addStage({
           name: "Selection",
-          duration: 60,
+          duration: 6000,
           target: shuffled_context[target_num],
           target_num: target_num,
         });
@@ -70,7 +78,7 @@ Empirica.onGameStart(({ game }) => {
     });
   });
 
-  round.addStage({
+  game.addRound({
     name: "End of Phase 1",
     duration: 30,
   });
@@ -90,7 +98,7 @@ Empirica.onGameStart(({ game }) => {
   game.players.forEach((player) => {
     player.set("phase_2_trial_order", _.shuffle(tangram_combos));
   });
-  _.times(length(tangram_combos), (i) => {
+  _.times(tangram_combos.length, (i) => {
     phase_2.addStage({
       name: "Production",
       duration: 60,
