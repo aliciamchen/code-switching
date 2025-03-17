@@ -18,8 +18,8 @@ export const names = [
 export const conditions = ["social own", "refer own", "refer other"]; 
 
 export const avatar_names = {
-  "blue": ["Aria", "Katherine", "Kayla", "Oliver"],
-  "red": ["Kaylee", "Alexandra", "Cole", "Noah"],
+  "blue": ["aria", "katherine", "kayla", "oliver"],
+  "red": ["kaylee", "alexandra", "cole", "noah"],
 }; // to do more go to https://jdenticon.com/#icon-D3
 
 export const name_colors = {
