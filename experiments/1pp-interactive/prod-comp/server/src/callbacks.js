@@ -21,6 +21,7 @@ Empirica.onGameStart(({ game }) => {
     player.set("name", names[i]);
     player.set("tangram_set", tangram_set);
     player.set("context", context);
+    player.set("score", 0);
     player.set("bonus", 0);
   });
 
@@ -66,8 +67,8 @@ Empirica.onGameStart(({ game }) => {
         phase: "refgame",
         speaker: player_index,
         target_order: shuffled_context,
-      });
-      _.times(context.length, (target_num) => {
+      }); // TODO: maybe move this into the next loop? so stuff can be saved in the round
+      _.times(shuffled_context.length, (target_num) => {
         round.addStage({
           name: "Selection",
           duration: 6000,
@@ -128,14 +129,20 @@ Empirica.onRoundStart(({ round }) => {
   // On refgame round starts, set player roles
   if (round.get("phase") == "refgame") {
     const players = round.currentGame.players;
-    const red_players = players.filter((player) => player.get("group") == "red");
-    const blue_players = players.filter((player) => player.get("group") == "blue");
+    const red_players = players.filter(
+      (player) => player.get("group") == "red"
+    );
+    const blue_players = players.filter(
+      (player) => player.get("group") == "blue"
+    );
     const speaker = round.get("speaker");
     red_players.forEach((player, i) => {
-      player.set("role", i == speaker ? "speaker" : "listener");
+      // player.set("clicked", ""); // refresh clicked state
+      player.round.set("role", i == speaker ? "speaker" : "listener");
     });
     blue_players.forEach((player, i) => {
-      player.set("role", i == speaker ? "speaker" : "listener");
+      // player.set("clicked", "");
+      player.round.set("role", i == speaker ? "speaker" : "listener");
     });
   }
 });
@@ -148,6 +155,64 @@ Empirica.onStageStart(({ stage }) => {
 });
 
 Empirica.onStageEnded(({ stage }) => {
+  if (stage.name === "Selection") {
+    // Calculate score for the current stage
+    // Listeners get 1 point when they correctly identify the target
+    // The speaker gets the average of the listeners' scores, in that group.
+
+    const game = stage.currentGame;
+    const target = stage.get("target");
+    const players = game.players;
+    const red_players = players.filter(
+      (player) => player.get("group") == "red"
+    );
+    const blue_players = players.filter(
+      (player) => player.get("group") == "blue"
+    );
+
+    const red_listeners = red_players.filter(
+      (player) => player.round.get("role") == "listener"
+    );
+    const blue_listeners = blue_players.filter(
+      (player) => player.round.get("role") == "listener"
+    );
+
+    const red_speaker = red_players.find(
+      (player) => player.round.get("role") == "speaker"
+    );
+    const blue_speaker = blue_players.find(
+      (player) => player.round.get("role") == "speaker"
+    );
+
+    const red_correct = red_listeners.filter(
+      (player) => player.stage.get("clicked") == target
+    );
+    const blue_correct = blue_listeners.filter(
+      (player) => player.stage.get("clicked") == target
+    );
+
+    red_correct.forEach((player) => {
+      player.set("score", player.get("score") + 1);
+    });
+    blue_correct.forEach((player) => {
+      player.set("score", player.get("score") + 1);
+    });
+
+    // red_avg_score is number of correct guesses by red listeners divided by number of red listeners
+    const red_avg_score = red_listeners.length
+      ? red_correct.length / red_listeners.length
+      : 0;
+    const blue_avg_score = blue_listeners.length
+      ? blue_correct.length / blue_listeners.length
+      : 0;
+
+    red_speaker.set("score", red_speaker.get("score") + red_avg_score);
+    red_speaker.stage.set("stage_score", red_avg_score);
+    red_speaker.round.set("last_stage_score", red_avg_score);
+    blue_speaker.set("score", blue_speaker.get("score") + blue_avg_score);
+    blue_speaker.stage.set("stage_score", blue_avg_score);
+    blue_speaker.round.set("last_stage_score", blue_avg_score);
+  }
   if (stage.name === "Production") {
     const game = stage.currentGame;
     const players = game.players;

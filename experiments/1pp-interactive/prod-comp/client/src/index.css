@@ -11,3 +11,408 @@
     -moz-appearance: textfield;
   }
 }
+
+/* .grid {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+.grid main .game {
+  height: 100%;
+}
+
+.transition {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.transition h3 {
+  font-weight: 100;
+}
+
+.round {
+  display: flex;
+  height: 100%;
+  align-items: stretch;
+}
+
+.task {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.task .left {
+  margin: 0 2rem 0 0;
+  height: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  width: 38rem;
+}
+
+.task .left > div {
+  margin: 3rem 0 0;
+}
+
+.task .board {
+  flex-grow: 3;
+  flex-shrink: 1;
+} */
+
+/* .task .board .roleIndicator {
+  text-align: center;
+} */
+
+/* .task .board .all-tangrams {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.task .board .all-tangrams .tangram {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task .board .all-tangrams .tangrams {
+  display: grid;
+  flex-wrap: nowrap;
+  width: 100%;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.task .board .all-tangrams .tangrams .tangram {
+  width: 15vw;
+  height: 15vw;
+  max-width: 20vh;
+  max-height: 20vh;
+  flex-grow: 0;
+  flex-shrink: 5;
+  margin: 1rem;
+  justify-content: start;
+  cursor: pointer;
+} */
+
+.task .board .all-tangrams .tangrams .tangram .feedback {
+  align-self: start;
+  padding: 0rem;
+  text-align: left;
+}
+
+.task .board .all-tangrams .tangrams .tangram .feedback img {
+  height: 3vw;
+  width: 3vw;
+  max-width: 4vh;
+  max-height: vh;
+  background-color: white;
+}
+
+.task .board .feedbackIndicator {
+  text-align: center;
+  font-weight: 100;
+}
+
+.task .board .response {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.task .board .response .bp3-button {
+  margin: 2rem;
+}
+/* 
+.social-interactions {
+  margin-left: 2rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 25%;
+  max-height: 100%;
+  height: 100%;
+}
+
+.social-interactions .status {
+  display: flex;
+  flex-shrink: 0;
+  padding: 0 0.5rem;
+  height: 11rem;
+  margin-bottom: 1rem;
+}
+
+.social-interactions .status .players {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+.social-interactions .status .players .player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.social-interactions .status .players .player .image {
+  position: relative;
+}
+
+.social-interactions .status .players .player .image .satisfied {
+  position: absolute;
+  top: -0.6rem;
+  right: -0.8rem;
+}
+
+.social-interactions .status .players .player .image .satisfied .bp3-icon-standard {
+  font-size: 1.2rem;
+}
+
+.social-interactions .status .players .player:first-child .name {
+  padding-right: 2rem;
+  white-space: nowrap;
+}
+
+.social-interactions .status .players .player:first-child .image {
+  padding-right: 2rem;
+  border-right: 1px solid lightgrey;
+}
+
+.social-interactions .status .players .player:first-child .image .satisfied {
+  right: 1.2rem;
+}
+
+.social-interactions .status .players .player img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.social-interactions .status .timer {
+  padding-top: 1.5rem;
+  text-align: center;
+  width: 50%;
+}
+
+.social-interactions .status .timer .seconds {
+  color: green;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.social-interactions .status .timer.lessThan10 .seconds {
+  color: orange;
+}
+
+.social-interactions .status .timer.lessThan5 .seconds {
+  color: red;
+}
+
+.social-interactions .status .total-score {
+  padding-top: 1.5rem;
+  text-align: center;
+  width: 50%;
+}
+
+.social-interactions .eventlog {
+  height: calc(35% - 3.5rem);
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+.social-interactions .eventlog .events {
+  padding: 2rem 0 0;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.social-interactions .eventlog .events .event {
+  margin: 0 0 1rem;
+}
+
+.social-interactions .eventlog .events .event .timestamp {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.social-interactions .eventlog .events .event .content {
+  display: inline-block;
+}
+
+.social-interactions .eventlog .events .event .content > div {
+  display: inline-block;
+  font-weight: 800;
+}
+
+.social-interactions .eventlog .events .event .content .author {
+  font-weight: 700;
+  margin: 0 0.3em 0.4em 0;
+}
+
+.social-interactions .eventlog .events .event .content .author img {
+  position: relative;
+  top: 0.2em;
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.3em;
+}
+
+.social-interactions .chat {
+  height: calc(65% - 6.5rem);
+  position: relative;
+  padding-top: 0rem;
+  padding-bottom: 4rem;
+}
+
+.social-interactions .chat .messages {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.social-interactions .chat .messages .empty {
+  color: grey;
+  text-align: center;
+}
+
+.social-interactions .chat .messages .message {
+  font-size: 1.7rem;
+  margin: 0 0 1rem;
+}
+
+.social-interactions .chat .messages .message .author {
+  font-weight: 700;
+  margin: 0 0.3em 0 0;
+  display: inline-block;
+}
+
+.social-interactions .chat .messages .message .author img {
+  position: relative;
+  top: 0.2em;
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.3em;
+}
+
+.social-interactions .chat form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  padding: 1rem 1rem 0;
+}
+
+.consent button {
+  width: 16rem;
+}
+
+.instructions p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+.instructions .image {
+  max-width: 80%;
+}
+
+.instructions .image img {
+  width: 100%;
+}
+
+.instructions .smallimage {
+  max-width: 80%;
+}
+
+.instructions .players {
+  padding: 0;
+  display: flex;
+  margin: 0 auto;
+  width: 35%;
+}
+
+.instructions .players .player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.instructions .players .player .image {
+  position: relative;
+}
+
+.instructions .players .player .image .satisfied {
+  position: absolute;
+  top: -0.6rem;
+  right: -0.8rem;
+}
+
+.instructions .players .player .image .satisfied .bp3-icon-standard {
+  font-size: 1.2rem;
+}
+
+.instructions .players .player:first-child .name {
+  padding-right: 2rem;
+  white-space: nowrap;
+}
+
+.instructions .players .player:first-child .image {
+  padding-right: 2rem;
+  border-right: 1px solid lightgrey;
+}
+
+.instructions .players .player:first-child .image .satisfied {
+  right: 1.2rem;
+}
+
+.instructions .players .player img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.exit-survey em {
+  color: blue;
+}
+
+.exit-survey .bold {
+  font-weight: bold;
+}
+
+.exit-survey .form-line {
+  display: flex;
+}
+
+.exit-survey .form-line .bp3-form-group {
+  margin-right: 30px;
+}
+
+.exit-survey .form-line .bp3-form-group textarea {
+  min-height: 90px;
+}
+
+.exit-survey .form-line.thirds .bp3-form-group {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+}
+
+.exit-survey .form-line.thirds .bp3-form-group .bp3-label {
+  min-height: 36px;
+} */
