@@ -4,6 +4,7 @@ factors:
       values:
         - value: 2
         - value: 8
+        - value: 4
 treatments:
     - name: Eight Players
       desc: Eight-player Game
@@ -13,3 +14,7 @@ treatments:
       desc: Two-player Game (for testing)
       factors:
         playerCount: 2
+    - name: Four Players
+      desc: Four-player game (for testing)
+      factors:
+        playerCount: 4

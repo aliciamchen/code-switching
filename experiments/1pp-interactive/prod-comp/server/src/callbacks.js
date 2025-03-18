@@ -31,22 +31,26 @@ Empirica.onGameStart(({ game }) => {
     player.set("group", "red");
     player.set("player_index", i);
     player.set("avatar_name", avatar_names["red"][i]);
-    player.set("avatar", `/${avatar_names["red"][i]}.png`)
+    player.set("avatar", `/${avatar_names["red"][i]}.png`);
     player.set("name_color", name_colors["red"][i]);
+    const shuffled_tangrams = _.shuffle(context);
+    player.set("shuffled_tangrams", shuffled_tangrams);
     player.set(
       "tangramURLs",
-      _.shuffle(context.map((tangram) => `/tangram_${tangram}.png`))
+      shuffled_tangrams.map((tangram) => `/tangram_${tangram}.png`)
     );
   });
   blue_players.forEach((player, i) => {
     player.set("group", "blue");
     player.set("player_index", i);
     player.set("avatar_name", avatar_names["blue"][i]);
-    player.set("avatar", `/${avatar_names["blue"][i]}.png`)
+    player.set("avatar", `/${avatar_names["blue"][i]}.png`);
     player.set("name_color", name_colors["blue"][i]);
+    const shuffled_tangrams = _.shuffle(context);
+    player.set("shuffled_tangrams", shuffled_tangrams);
     player.set(
       "tangramURLs",
-      _.shuffle(context.map((tangram) => `/tangram_${tangram}.png`))
+      shuffled_tangrams.map((tangram) => `/tangram_${tangram}.png`)
     );
   });
 
@@ -120,9 +124,28 @@ Empirica.onGameStart(({ game }) => {
   // the phase 3 utterances should be collected in the player variable?
 });
 
-Empirica.onRoundStart(({ round }) => {});
+Empirica.onRoundStart(({ round }) => {
+  // On refgame round starts, set player roles
+  if (round.get("phase") == "refgame") {
+    const players = round.currentGame.players;
+    const red_players = players.filter((player) => player.get("group") == "red");
+    const blue_players = players.filter((player) => player.get("group") == "blue");
+    const speaker = round.get("speaker");
+    red_players.forEach((player, i) => {
+      player.set("role", i == speaker ? "speaker" : "listener");
+    });
+    blue_players.forEach((player, i) => {
+      player.set("role", i == speaker ? "speaker" : "listener");
+    });
+  }
+});
 
-Empirica.onStageStart(({ stage }) => {});
+Empirica.onStageStart(({ stage }) => {
+  if (stage.name === "Selection") {
+    stage.set("red_chat", []);
+    stage.set("blue_chat", []);
+  }
+});
 
 Empirica.onStageEnded(({ stage }) => {
   if (stage.name === "Production") {
@@ -161,7 +184,7 @@ Empirica.onStageEnded(({ stage }) => {
 });
 
 Empirica.onRoundEnded(({ round }) => {
-  // If we are at the end of phase 2, collect the utterances based on condition and group
+  // TODO: If we are at the end of phase 2, collect the utterances based on condition and group
 });
 
 Empirica.onGameEnded(({ game }) => {});

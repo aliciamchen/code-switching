@@ -15,12 +15,12 @@ import {
     const players = usePlayers();
     const round = useRound();
     const stage = useStage();
-    const target = round.get("target")
-    const tangramURLs = player.get('tangramURLs');
+    const target = stage.get("target")
+    const shuffled_tangrams = player.get('shuffled_tangrams');
     const correct = player.get('clicked') == target;
     let tangramsToRender;
-    if (tangramURLs) {
-      tangramsToRender = tangramURLs.map((tangram, i) => (
+    if (shuffled_tangrams) {
+      tangramsToRender = shuffled_tangrams.map((tangram, i) => (
         <Tangram
           key={tangram}
           tangram={tangram}
