@@ -22,7 +22,7 @@ export function Tangram(props) {
   const playerGroup = player.get("group");
   const playersInGroup = players.filter((p) => p.get("group") == playerGroup);
   const playerGroupSpeaker = playersInGroup.filter(
-    (p) => p.get("role") == "speaker"
+    (p) => p.round.get("role") == "speaker"
   )[0];
 
   const handleClick = (e) => {
@@ -37,14 +37,29 @@ export function Tangram(props) {
     if (
       (stage.get("name") == "Selection") &
       (speakerMsgs.length > 0) &
-      !player.get("clicked") &
-      (player.get("role") == "listener")
+      !player.stage.get("clicked") &
+      (player.round.get("role") == "listener")
     ) {
-      // for each player in the group
+      player.stage.set("clicked", tangram);
+      player.round.set("lastClicked", tangram);
+      setTimeout(() => player.stage.set("submit", true), 3000); // FIX?? this does not submit
+    }
+    // end stage if all listeners have clicked
+    const listeners = playersInGroup.filter(
+      (p) => p.round.get("role") == "listener"
+    );
+    const allClicked = _.every(listeners, (p) => p.stage.get("clicked"));
+    console.log(player.stage.get("clicked"));
+    console.log(allClicked);
+    if (allClicked) {
+        console.log(playersInGroup)
+      // end stage
       playersInGroup.forEach((p) => {
-        p.set("clicked", tangram);
-        setTimeout(() => p.stage.set("submit", true), 3000);
+        console.log("xxx")
+        p.stage.set("submit", true);
       });
+
+      // TODO: when all in-group listeners have clicked, display something about waiting for everyone to respond... figure out how to do this in a way that makes sense
     }
   };
 
@@ -53,14 +68,14 @@ export function Tangram(props) {
   const mystyle = {
     background: "url(tangram_" + tangram + ".png)",
     backgroundSize: "cover",
-    width: "25vh",
-    height: "25vh",
+    width: "20vh",
+    height: "20vh",
     gridRow: row,
     gridColumn: column,
   };
 
   // Highlight target object for speaker
-  if ((target == tangram) & (player.get("role") == "speaker")) {
+  if ((target == tangram) & (player.round.get("role") == "speaker")) {
     _.extend(mystyle, {
       outline: "10px solid #000",
       zIndex: "9",
@@ -68,7 +83,10 @@ export function Tangram(props) {
   }
 
   // Show listeners what they've clicked
-  if ((stage.get("name") == "Selection") & (tangram == player.get("clicked"))) {
+  if (
+    (stage.get("name") == "Selection") &
+    (tangram == player.stage.get("clicked"))
+  ) {
     _.extend(mystyle, {
       outline: `10px solid #A9A9A9`,
       zIndex: "9",
@@ -76,18 +94,18 @@ export function Tangram(props) {
   }
 
   // Feedback
-  // TODO: right now, listeners can't select different tangrams
+  // TODO: change this to be based on round.... not stage. Right now it doesn't work because the stage is over by the time the feedback is displayed
   let feedback = [];
   if (stage.get("name") == "Feedback") {
     playersInGroup.forEach((p) => {
-      if (p.get("clicked") == tangram) {
+      if (p.round.get("lastClicked") == tangram) {
         feedback.push(<img src={player.get("avatar")} key="player" />);
       }
     });
   }
   if (
-    (stage.get("name") == "feedback") &
-    _.some(playersInGroup, (p) => p.get("clicked") == tangram)
+    (stage.get("name") == "Feedback") &
+    _.some(playersInGroup, (p) => p.round.get("lastClicked") == tangram)
   ) {
     const color = tangram == target ? "green" : "red";
     _.extend(mystyle, {
@@ -95,23 +113,6 @@ export function Tangram(props) {
       zIndex: "9",
     });
   }
-
-  // Highlight target object for speaker at selection stage
-  // Show it to both players at feedback stage if 'showNegativeFeedback' enabled.
-  //   if (tangram == target) {
-  //     if (player.get("role") == "speaker" || player.get("clicked")) {
-  //       _.extend(mystyle, {
-  //         outline: "10px solid #000",
-  //         zIndex: "9",
-  //       });
-  //     }
-  //     if (player.get("role") == "speaker" && player.get("clicked")) {
-  //       _.extend(mystyle, {
-  //         outline: "10px solid red",
-  //         zIndex: "9",
-  //       });
-  //     }
-  //   }
 
   return (
     <div onClick={handleClick} style={mystyle}>
