@@ -34,11 +34,9 @@ export function Task() {
       />
     ));
   }
-  // let feedback = (
-  //   player.get('clicked') == '' ? '' :
-  //     correct ? "Correct! You earned 3 points!" :
-  //     "Ooops, that wasn't the target! You earned no bonus this round."
-  // )
+
+  console.log(player.get("score"))
+
   let feedback = "";
   if (stage.get("name") == "Feedback") {
     if (player.round.get("role") == "listener") {
@@ -48,16 +46,16 @@ export function Task() {
         feedback =
           "You did not respond in time. You earned no bonus this round.";
       } else if (correct) {
-        feedback = "Correct! You earned one point";
+        feedback = "Correct! You earned three points.";
       } else {
         feedback =
-          "Ooops, that wasn't the target! You earned no bonus this round."; // TODO: this shows up even if its correct
+          "Ooops, that wasn't the target! You earned no bonus this round."; 
       }
     }
     if (player.round.get("role") == "speaker") {
       feedback = `You earned ${player.round.get(
         "round_score"
-      )} points this round.`; // stsage score should be based on PREVIOUS stage.. switch to round score?
+      )} points this round.`;
     }
   }
   return (
