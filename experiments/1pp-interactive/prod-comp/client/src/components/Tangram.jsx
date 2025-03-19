@@ -3,8 +3,6 @@ import React from "react";
 import _ from "lodash";
 import { useGame } from "@empirica/core/player/classic/react";
 
-//TODO: click didnt register because speaker didnt say anythingth
-
 export function Tangram(props) {
   const {
     tangram,
@@ -18,53 +16,10 @@ export function Tangram(props) {
     ...rest
   } = props;
 
-  // Red group and blue groups play games separately
-  const playerGroup = player.get("group");
-  const playersInGroup = players.filter((p) => p.get("group") == playerGroup);
-  const playerGroupSpeaker = playersInGroup.filter(
-    (p) => p.round.get("role") == "speaker"
-  )[0];
-
-  const handleClick = (e) => {
-    console.log("click2");
-
-    const playerGroupChat = stage.get(`${playerGroup}_chat`);
-    const speakerMsgs = _.filter(playerGroupChat, (msg) => {
-      return msg.sender.id == playerGroupSpeaker.id;
-    });
-
-    // only register click for listener and only after the speaker has sent a message
-    if (
-      (stage.get("name") == "Selection") &
-      (speakerMsgs.length > 0) &
-      !player.round.get("clicked") &
-      (player.round.get("role") == "listener")
-    ) {
-      player.round.set("clicked", tangram);
-      setTimeout(() => player.stage.set("submit", true), 3000); // FIX?? this does not submit
-    }
-    // end stage if all listeners have clicked
-    const listeners = playersInGroup.filter(
-      (p) => p.round.get("role") == "listener"
-    );
-    const allClicked = _.every(listeners, (p) => p.round.get("clicked"));
-    console.log(player.round.get("clicked"));
-    console.log(allClicked);
-    if (allClicked) {
-        console.log(playersInGroup)
-      // end stage
-      playersInGroup.forEach((p) => {
-        console.log("xxx")
-        p.stage.set("submit", true);
-      });
-
-      // TODO: when all in-group listeners have clicked, display something about waiting for everyone to respond... figure out how to do this in a way that makes sense
-    }
-  };
-
+  // Make tangram grid
   const row = 1 + Math.floor(tangram_num / 3);
   const column = 1 + (tangram_num % 3);
-const mystyle = {
+  const mystyle = {
     background: "url(tangram_" + tangram + ".png)",
     backgroundSize: "cover",
     width: "20vh",
@@ -72,50 +27,119 @@ const mystyle = {
     gridRow: row,
     gridColumn: column,
     margin: "0.8rem",
-};
+  };
 
-  // Highlight target object for speaker
-  if ((target == tangram) & (player.round.get("role") == "speaker")) {
-    _.extend(mystyle, {
-      outline: "10px solid #000",
-      zIndex: "9",
-    });
-  }
+  // Phase 1: Refgame
+  if (round.get("phase") == "refgame") {
+    // Red group and blue groups play games separately
+    const playerGroup = player.get("group");
+    const playersInGroup = players.filter((p) => p.get("group") == playerGroup);
+    const playerGroupSpeaker = playersInGroup.filter(
+      (p) => p.round.get("role") == "speaker"
+    )[0];
 
-  // Show listeners what they've clicked
-  if (
-    (stage.get("name") == "Selection") &
-    (tangram == player.round.get("clicked"))
-  ) {
-    _.extend(mystyle, {
-      outline: `10px solid #A9A9A9`,
-      zIndex: "9",
-    });
-  }
+    const handleClick = (e) => {
+      console.log("click2");
 
-  // Feedback
-  let feedback = [];
-  if (stage.get("name") == "Feedback") {
-    playersInGroup.forEach((p) => {
-      if (p.round.get("clicked") == tangram) {
-        feedback.push(<img src={p.get("avatar")} key="player" />);
+      const playerGroupChat = stage.get(`${playerGroup}_chat`);
+      const speakerMsgs = _.filter(playerGroupChat, (msg) => {
+        return msg.sender.id == playerGroupSpeaker.id;
+      });
+
+      // only register click for listener and only after the speaker has sent a message
+      if (
+        (stage.get("name") == "Selection") &
+        (speakerMsgs.length > 0) &
+        !player.round.get("clicked") &
+        (player.round.get("role") == "listener")
+      ) {
+        player.round.set("clicked", tangram);
+        setTimeout(() => player.stage.set("submit", true), 3000); // FIX?? this does not submit
       }
-    });
-  }
-  if (
-    (stage.get("name") == "Feedback") &
-    _.some(playersInGroup, (p) => p.round.get("clicked") == tangram)
-  ) {
-    const color = tangram == target ? "green" : "red";
-    _.extend(mystyle, {
-      outline: `10px solid ${color}`,
-      zIndex: "9",
-    });
+      // end stage if all listeners have clicked
+      const listeners = playersInGroup.filter(
+        (p) => p.round.get("role") == "listener"
+      );
+      const allClicked = _.every(listeners, (p) => p.round.get("clicked"));
+
+      if (allClicked) {
+        console.log(playersInGroup);
+        // end stage
+        playersInGroup.forEach((p) => {
+          p.stage.set("submit", true);
+        });
+
+        // TODO: when all in-group listeners have clicked, display something about waiting for everyone to respond... figure out how to do this in a way that makes sense
+      }
+    };
+
+    // Highlight target object for speaker
+    if ((target == tangram) & (player.round.get("role") == "speaker")) {
+      _.extend(mystyle, {
+        outline: "10px solid #000",
+        zIndex: "9",
+      });
+    }
+
+    // Show listeners what they've clicked
+    if (
+      (stage.get("name") == "Selection") &
+      (tangram == player.round.get("clicked"))
+    ) {
+      _.extend(mystyle, {
+        outline: `10px solid #A9A9A9`,
+        zIndex: "9",
+      });
+    }
+
+    // Feedback
+    let feedback = [];
+    if (stage.get("name") == "Feedback") {
+      playersInGroup.forEach((p) => {
+        if (p.round.get("clicked") == tangram) {
+          feedback.push(<img src={p.get("avatar")} key="player" />);
+        }
+      });
+    }
+    if (
+      (stage.get("name") == "Feedback") &
+      _.some(playersInGroup, (p) => p.round.get("clicked") == tangram)
+    ) {
+      const color = tangram == target ? "green" : "red";
+      _.extend(mystyle, {
+        outline: `10px solid ${color}`,
+        zIndex: "9",
+      });
+    }
+
+    return (
+      <div onClick={handleClick} style={mystyle}>
+        <div className="feedback"> {feedback}</div>
+      </div>
+    );
   }
 
-  return (
-    <div onClick={handleClick} style={mystyle}>
-      <div className="feedback"> {feedback}</div>
-    </div>
-  );
+  // Phase 2: Production
+  // just show the tangram grid with target highlighted; no interaction
+  if (round.get("phase") == "speaker_prod") {
+    if (tangram == target) {
+      _.extend(mystyle, {
+        outline: `10px solid #A9A9A9`,
+        zIndex: "9",
+      });
+    }
+    return <div style={mystyle}></div>;
+  }
+
+  // Phase 3: Comprehension
+  // participants click on the tangram they think the speaker is describing
+  if (round.get("phase") == "comprehension") {
+    const handleClick = (e) => {
+      console.log("click2");
+      if (!player.stage.get("clicked")) {
+        player.stage.set("clicked", tangram);
+      }
+    };
+    return <div onClick={handleClick} style={mystyle}></div>;
+  }
 }
