@@ -35,8 +35,6 @@ export function Task() {
     ));
   }
 
-  console.log(player.get("score"))
-
   let feedback = "";
   if (stage.get("name") == "Feedback") {
     if (player.round.get("role") == "listener") {
@@ -49,7 +47,7 @@ export function Task() {
         feedback = "Correct! You earned three points.";
       } else {
         feedback =
-          "Ooops, that wasn't the target! You earned no bonus this round."; 
+          "Ooops, that wasn't the target! You earned no bonus this round.";
       }
     }
     if (player.round.get("role") == "speaker") {
@@ -61,29 +59,28 @@ export function Task() {
   return (
     <div className="task">
       <div className="board">
-        <div className="header" style={{ display: "flex" }}>
-          <h1
-            className="roleIndicator"
-            style={{ float: "left", marginLeft: "50px" }}
-          >
-            {" "}
-            You are the {player.round.get("role")}.
-          </h1>
-          <h3
-            className="feedbackIndicator"
-            style={{
-              float: "left",
-              marginLeft: "50px",
-              marginTop: "auto",
-              marginBottom: "auto",
-            }}
-          >
-            <>{feedback}</>
-          </h3>
-        </div>
+        <h1 className="roleIndicator" style={{ textAlign: "center" }}>
+          {" "}
+          {player.round.get("role") == "speaker"
+            ? "You are the speaker. Please describe the picture in the box to the other players."
+            : "You are a listener. Please click on the image that the speaker describes."}
+        </h1>
+
         <div className="all-tangrams">
           <div className="tangrams grid">{tangramsToRender}</div>
         </div>
+        <h3
+          className="feedbackIndicator"
+          style={{
+            marginTop: 5,
+            marginBottom: "auto",
+            textAlign: "center",
+            fontWeight: "bold",
+            width: "100%",
+          }}
+        >
+          <>{feedback}</>
+        </h3>
       </div>
     </div>
   );

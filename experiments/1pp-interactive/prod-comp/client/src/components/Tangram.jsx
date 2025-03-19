@@ -64,14 +64,15 @@ export function Tangram(props) {
 
   const row = 1 + Math.floor(tangram_num / 3);
   const column = 1 + (tangram_num % 3);
-  const mystyle = {
+const mystyle = {
     background: "url(tangram_" + tangram + ".png)",
     backgroundSize: "cover",
     width: "20vh",
     height: "20vh",
     gridRow: row,
     gridColumn: column,
-  };
+    margin: "0.8rem",
+};
 
   // Highlight target object for speaker
   if ((target == tangram) & (player.round.get("role") == "speaker")) {
