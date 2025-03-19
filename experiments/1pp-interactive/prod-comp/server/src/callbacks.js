@@ -60,20 +60,24 @@ Empirica.onGameStart(({ game }) => {
   // The speaker has to refer to each tangram in the context before the speaker role moves to the next player for the next block of trials.
   // There are 8 blocks total (so each player will be in the speaker role twice, and each tangram will appear as the target exactly 8 times)
   _.times(2, (i) => {
+    // loop through each speaker twice
     _.times(4, (player_index) => {
+      // loop through each player in the group
       const shuffled_context = _.shuffle(context);
-      const round = game.addRound({
-        name: `Reference Game - Round ${i * 4 + player_index + 1}`,
-        phase: "refgame",
-        speaker: player_index,
-        target_order: shuffled_context,
-      }); // TODO: maybe move this into the next loop? so stuff can be saved in the round
       _.times(shuffled_context.length, (target_num) => {
+        // in each round (repetition block), loop through each tangram in the context
+        const round = game.addRound({
+          name: `Reference Game`,
+          phase: "refgame",
+          speaker: player_index,
+          target_order: shuffled_context,
+          target: shuffled_context[target_num],
+          target_num: target_num,
+          rep_num: i * 4 + player_index,
+        });
         round.addStage({
           name: "Selection",
           duration: 6000,
-          target: shuffled_context[target_num],
-          target_num: target_num,
         });
         round.addStage({
           name: "Feedback",
@@ -161,8 +165,10 @@ Empirica.onStageEnded(({ stage }) => {
     // The speaker gets the average of the listeners' scores, in that group.
 
     const game = stage.currentGame;
-    const target = stage.get("target");
     const players = game.players;
+    const round = stage.currentRound;
+
+    const target = round.get("target");
     const red_players = players.filter(
       (player) => player.get("group") == "red"
     );
@@ -185,10 +191,10 @@ Empirica.onStageEnded(({ stage }) => {
     );
 
     const red_correct = red_listeners.filter(
-      (player) => player.stage.get("clicked") == target
+      (player) => player.round.get("clicked") == target
     );
     const blue_correct = blue_listeners.filter(
-      (player) => player.stage.get("clicked") == target
+      (player) => player.round.get("clicked") == target
     );
 
     red_correct.forEach((player) => {
@@ -207,11 +213,9 @@ Empirica.onStageEnded(({ stage }) => {
       : 0;
 
     red_speaker.set("score", red_speaker.get("score") + red_avg_score);
-    red_speaker.stage.set("stage_score", red_avg_score);
-    red_speaker.round.set("last_stage_score", red_avg_score);
+    red_speaker.round.set("round_score", red_avg_score);
     blue_speaker.set("score", blue_speaker.get("score") + blue_avg_score);
-    blue_speaker.stage.set("stage_score", blue_avg_score);
-    blue_speaker.round.set("last_stage_score", blue_avg_score);
+    blue_speaker.round.set("round_score", blue_avg_score);
   }
   if (stage.name === "Production") {
     const game = stage.currentGame;

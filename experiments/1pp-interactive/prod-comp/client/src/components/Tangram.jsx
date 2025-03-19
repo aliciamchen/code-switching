@@ -37,19 +37,18 @@ export function Tangram(props) {
     if (
       (stage.get("name") == "Selection") &
       (speakerMsgs.length > 0) &
-      !player.stage.get("clicked") &
+      !player.round.get("clicked") &
       (player.round.get("role") == "listener")
     ) {
-      player.stage.set("clicked", tangram);
-      player.round.set("lastClicked", tangram);
+      player.round.set("clicked", tangram);
       setTimeout(() => player.stage.set("submit", true), 3000); // FIX?? this does not submit
     }
     // end stage if all listeners have clicked
     const listeners = playersInGroup.filter(
       (p) => p.round.get("role") == "listener"
     );
-    const allClicked = _.every(listeners, (p) => p.stage.get("clicked"));
-    console.log(player.stage.get("clicked"));
+    const allClicked = _.every(listeners, (p) => p.round.get("clicked"));
+    console.log(player.round.get("clicked"));
     console.log(allClicked);
     if (allClicked) {
         console.log(playersInGroup)
@@ -85,7 +84,7 @@ export function Tangram(props) {
   // Show listeners what they've clicked
   if (
     (stage.get("name") == "Selection") &
-    (tangram == player.stage.get("clicked"))
+    (tangram == player.round.get("clicked"))
   ) {
     _.extend(mystyle, {
       outline: `10px solid #A9A9A9`,
@@ -98,14 +97,14 @@ export function Tangram(props) {
   let feedback = [];
   if (stage.get("name") == "Feedback") {
     playersInGroup.forEach((p) => {
-      if (p.round.get("lastClicked") == tangram) {
+      if (p.round.get("clicked") == tangram) {
         feedback.push(<img src={player.get("avatar")} key="player" />);
       }
     });
   }
   if (
     (stage.get("name") == "Feedback") &
-    _.some(playersInGroup, (p) => p.round.get("lastClicked") == tangram)
+    _.some(playersInGroup, (p) => p.round.get("clicked") == tangram)
   ) {
     const color = tangram == target ? "green" : "red";
     _.extend(mystyle, {
