@@ -12,6 +12,21 @@
   }
 }
 
+.feedback {
+  align-self: start;
+  padding: 0rem;
+  text-align: right;
+}
+
+.feedback img {
+  width: 3vw;
+  height: 3vw;
+  max-width: 4vh;
+  max-height: 4vh;
+  /* object-fit: cover; */
+  background-color: white;
+}
+
 /* .grid {
   font-family: sans-serif;
   display: flex;
@@ -105,11 +120,13 @@
   cursor: pointer;
 } */
 
-.task .board .all-tangrams .tangrams .tangram .feedback {
+/* .task .board .all-tangrams .tangrams .tangram .feedback {
   align-self: start;
   padding: 0rem;
   text-align: left;
 }
+
+
 
 .task .board .all-tangrams .tangrams .tangram .feedback img {
   height: 3vw;
@@ -131,7 +148,7 @@
 
 .task .board .response .bp3-button {
   margin: 2rem;
-}
+} */
 /* 
 .social-interactions {
   margin-left: 2rem;

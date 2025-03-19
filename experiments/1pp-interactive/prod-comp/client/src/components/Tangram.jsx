@@ -93,12 +93,11 @@ export function Tangram(props) {
   }
 
   // Feedback
-  // TODO: change this to be based on round.... not stage. Right now it doesn't work because the stage is over by the time the feedback is displayed
   let feedback = [];
   if (stage.get("name") == "Feedback") {
     playersInGroup.forEach((p) => {
       if (p.round.get("clicked") == tangram) {
-        feedback.push(<img src={player.get("avatar")} key="player" />);
+        feedback.push(<img src={p.get("avatar")} key="player" />);
       }
     });
   }
