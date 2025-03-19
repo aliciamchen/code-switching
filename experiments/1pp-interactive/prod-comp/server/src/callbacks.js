@@ -59,38 +59,38 @@ Empirica.onGameStart(({ game }) => {
   // Players play a reference game within their group
   // The speaker has to refer to each tangram in the context before the speaker role moves to the next player for the next block of trials.
   // There are 8 blocks total (so each player will be in the speaker role twice, and each tangram will appear as the target exactly 8 times)
-  _.times(2, (i) => {
-    // loop through each speaker twice
-    _.times(4, (player_index) => {
-      // loop through each player in the group
-      const shuffled_context = _.shuffle(context);
-      _.times(shuffled_context.length, (target_num) => {
-        // in each round (repetition block), loop through each tangram in the context
-        const round = game.addRound({
-          name: `Reference Game`,
-          phase: "refgame",
-          speaker: player_index,
-          target_order: shuffled_context,
-          target: shuffled_context[target_num],
-          target_num: target_num,
-          rep_num: i * 4 + player_index,
-        });
-        round.addStage({
-          name: "Selection",
-          duration: 6000,
-        });
-        round.addStage({
-          name: "Feedback",
-          duration: 6000,
-        });
-      });
-    });
-  });
+  // _.times(2, (i) => {
+  //   // loop through each speaker twice
+  //   _.times(4, (player_index) => {
+  //     // loop through each player in the group
+  //     const shuffled_context = _.shuffle(context);
+  //     _.times(shuffled_context.length, (target_num) => {
+  //       // in each round (repetition block), loop through each tangram in the context
+  //       const round = game.addRound({
+  //         name: `Reference Game`,
+  //         phase: "refgame",
+  //         speaker: player_index,
+  //         target_order: shuffled_context,
+  //         target: shuffled_context[target_num],
+  //         target_num: target_num,
+  //         rep_num: i * 4 + player_index,
+  //       });
+  //       round.addStage({
+  //         name: "Selection",
+  //         duration: 6000,
+  //       });
+  //       round.addStage({
+  //         name: "Feedback",
+  //         duration: 6000,
+  //       });
+  //     });
+  //   });
+  // });
 
-  game.addRound({
-    name: "End of Phase 1",
-    duration: 30,
-  });
+  // game.addRound({
+  //   name: "End of Phase 1",
+  //   duration: 30,
+  // });
 
   // PHASE 2: SPEAKER PRODUCTION
 
@@ -106,17 +106,14 @@ Empirica.onGameStart(({ game }) => {
   // for each player, add the randomized order of tangram-condition pairs
   game.players.forEach((player) => {
     player.set("phase_2_trial_order", _.shuffle(tangram_combos));
+    // console.log(player.get("phase_2_trial_order"));
   });
   _.times(tangram_combos.length, (i) => {
     phase_2.addStage({
       name: "Production",
-      duration: 60,
+      duration: 6000,
       trial_num: i,
     }); // each player sees a different order of tangram-condition pairs, so the trial number is used to index into the player's order in Stage.jsx
-    phase_2.addStage({
-      name: "Feedback",
-      duration: 30,
-    }); // the appearance of this stage should be different based on the round
   });
 
   // PHASE 3: LISTENER INTERPRETATION
@@ -152,9 +149,23 @@ Empirica.onRoundStart(({ round }) => {
 });
 
 Empirica.onStageStart(({ stage }) => {
-  if (stage.name === "Selection") {
+  if (stage.get("name") === "Selection") {
     stage.set("red_chat", []);
     stage.set("blue_chat", []);
+  }
+
+  // Each participant sees the trials in a different order, so we want to add that information to player stages
+  if (stage.get("name") === "Production") {
+    const game = stage.currentGame;
+    const players = game.players;
+
+    players.forEach((player) => {
+      const trial_num = stage.get("trial_num");
+      const trial = player.get("phase_2_trial_order")[trial_num];
+
+      player.stage.set("target", trial[0]);
+      player.stage.set("condition", trial[1]);
+    });
   }
 });
 
@@ -197,8 +208,6 @@ Empirica.onStageEnded(({ stage }) => {
       (player) => player.round.get("clicked") == target
     );
 
-    console.log(red_correct);
-
     red_correct.forEach((player) => {
       player.set("score", player.get("score") + 3);
     });
@@ -206,40 +215,38 @@ Empirica.onStageEnded(({ stage }) => {
       player.set("score", player.get("score") + 3);
     });
 
-    // red_avg_score is number of correct guesses by red listeners divided by number of red listeners
     const red_avg_score = red_listeners.length
-      ? red_correct.length / red_listeners.length
+      ? (red_correct.length * 3) / red_listeners.length
       : 0;
     const blue_avg_score = blue_listeners.length
-      ? blue_correct.length / blue_listeners.length
+      ? (blue_correct.length * 3) / blue_listeners.length
       : 0;
-
-    console.log(red_avg_score); 
 
     red_speaker.set("score", red_speaker.get("score") + red_avg_score);
     red_speaker.round.set("round_score", red_avg_score);
     blue_speaker.set("score", blue_speaker.get("score") + blue_avg_score);
     blue_speaker.round.set("round_score", blue_avg_score);
   }
+
+  // Add Phase 2 speaker utterances to player's round data (for collecting later)
   if (stage.get("name") === "Production") {
     const game = stage.currentGame;
     const players = game.players;
 
     players.forEach((player) => {
-      const trial_num = stage.get("trial_num");
-      const trial = player.get("phase_2_trial_order")[trial_num];
       const utterance = player.stage.get("utterance");
 
-      if (!player.get("phase_2_utterances")) {
-        player.set("phase_2_utterances", {});
+      if (!player.round.get("utterances")) {
+        player.round.set("utterances", {});
       }
 
-      const player_utterances = player.get("phase_2_utterances");
+      const player_utterances = player.round.get("utterances");
+      console.log(player_utterances);
 
-      if (utterance && trial) {
-        const tangram = trial[0];
-        const condition = trial[1];
+      const condition = player.stage.get("condition");
+      const tangram = player.stage.get("target");
 
+      if (utterance) {
         // create condition, tangram keys if they don't exist
         if (!player_utterances[condition]) {
           player_utterances[condition] = {};
@@ -250,7 +257,7 @@ Empirica.onStageEnded(({ stage }) => {
 
         // add utterance to player's utterances
         player_utterances[condition][tangram] = utterance;
-        player.set("phase_2_utterances", player_utterances);
+        player.round.set("utterances", player_utterances);
       }
     });
   }

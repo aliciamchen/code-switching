@@ -27,6 +27,25 @@
   background-color: white;
 }
 
+.tangrams.grid {
+  display: grid;
+  width: 80%; 
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.prompt-container {
+  max-width: 40vw;
+  margin: 0 auto 3rem auto; /* Bottom margin of 3rem adds space between prompt and tangrams */
+  text-align: center;
+}
+
+.instruction-prompt {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
 /* .grid {
   font-family: sans-serif;
   display: flex;
