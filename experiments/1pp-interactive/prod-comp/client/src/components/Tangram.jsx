@@ -22,8 +22,8 @@ export function Tangram(props) {
   const mystyle = {
     background: "url(tangram_" + tangram + ".png)",
     backgroundSize: "cover",
-    width: "20vh",
-    height: "20vh",
+    width: "17vh",
+    height: "17vh",
     gridRow: row,
     gridColumn: column,
     margin: "0.8rem",
@@ -41,7 +41,7 @@ export function Tangram(props) {
     const handleClick = (e) => {
       console.log("click2");
 
-      const playerGroupChat = stage.get(`${playerGroup}_chat`);
+      const playerGroupChat = stage.get(`${playerGroup}_chat`) || [];
       const speakerMsgs = _.filter(playerGroupChat, (msg) => {
         return msg.sender.id == playerGroupSpeaker.id;
       });
@@ -97,7 +97,7 @@ export function Tangram(props) {
     if (stage.get("name") == "Feedback") {
       playersInGroup.forEach((p) => {
         if (p.round.get("clicked") == tangram) {
-          feedback.push(<img src={p.get("avatar")} key="player" />);
+          feedback.push(<img src={p.get("avatar")} alt="Player avatar" />);
         }
       });
     }
