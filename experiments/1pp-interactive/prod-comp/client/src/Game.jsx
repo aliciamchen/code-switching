@@ -13,7 +13,6 @@ export function Game() {
   const game = useGame();
   const stage = useStage();
   const player = usePlayer();
-  const { playerCount } = game.get("treatment");
 
   return (
     <div className="h-full w-full flex">
@@ -24,13 +23,13 @@ export function Game() {
         </div>
       </div>
 
-      {player.get("group") == "red" && (
+      {player.get("group") == "red" && stage.get("name") == "Selection" && (
         <div className="h-full w-128 border-l flex justify-center items-center">
           <Chat player={player} scope={stage} attribute="red_chat" />
         </div>
       )}
 
-      {player.get("group") == "blue" && (
+      {player.get("group") == "blue" && stage.get("name") == "Selection" && (
         <div className="h-full w-128 border-l flex justify-center items-center">
           <Chat player={player} scope={stage} attribute="blue_chat" />
         </div>
