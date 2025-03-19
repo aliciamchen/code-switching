@@ -81,7 +81,7 @@ Empirica.onGameStart(({ game }) => {
         });
         round.addStage({
           name: "Feedback",
-          duration: 30,
+          duration: 6000,
         });
       });
     });
@@ -159,14 +159,14 @@ Empirica.onStageStart(({ stage }) => {
 });
 
 Empirica.onStageEnded(({ stage }) => {
-  if (stage.name === "Selection") {
+  if (stage.get("name") === "Selection") {
     // Calculate score for the current stage
     // Listeners get 1 point when they correctly identify the target
     // The speaker gets the average of the listeners' scores, in that group.
 
     const game = stage.currentGame;
     const players = game.players;
-    const round = stage.currentRound;
+    const round = stage.round;
 
     const target = round.get("target");
     const red_players = players.filter(
@@ -197,11 +197,13 @@ Empirica.onStageEnded(({ stage }) => {
       (player) => player.round.get("clicked") == target
     );
 
+    console.log(red_correct);
+
     red_correct.forEach((player) => {
-      player.set("score", player.get("score") + 1);
+      player.set("score", player.get("score") + 3);
     });
     blue_correct.forEach((player) => {
-      player.set("score", player.get("score") + 1);
+      player.set("score", player.get("score") + 3);
     });
 
     // red_avg_score is number of correct guesses by red listeners divided by number of red listeners
@@ -212,12 +214,14 @@ Empirica.onStageEnded(({ stage }) => {
       ? blue_correct.length / blue_listeners.length
       : 0;
 
+    console.log(red_avg_score); 
+
     red_speaker.set("score", red_speaker.get("score") + red_avg_score);
     red_speaker.round.set("round_score", red_avg_score);
     blue_speaker.set("score", blue_speaker.get("score") + blue_avg_score);
     blue_speaker.round.set("round_score", blue_avg_score);
   }
-  if (stage.name === "Production") {
+  if (stage.get("name") === "Production") {
     const game = stage.currentGame;
     const players = game.players;
 
