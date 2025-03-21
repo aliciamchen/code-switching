@@ -95,9 +95,9 @@ export function Tangram(props) {
     // Feedback
     let feedback = [];
     if (stage.get("name") == "Feedback") {
-      playersInGroup.forEach((p) => {
+      playersInGroup.forEach((p, index) => {
         if (p.round.get("clicked") == tangram) {
-          feedback.push(<img src={p.get("avatar")} alt="Player avatar" />);
+          feedback.push(<img key={`avatar-${index}`} src={p.get("avatar")} alt="Player avatar" />);
         }
       });
     }
