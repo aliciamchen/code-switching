@@ -59,38 +59,38 @@ Empirica.onGameStart(({ game }) => {
   // Players play a reference game within their group
   // The speaker has to refer to each tangram in the context before the speaker role moves to the next player for the next block of trials.
   // There are 8 blocks total (so each player will be in the speaker role twice, and each tangram will appear as the target exactly 8 times)
-  _.times(2, (i) => {
-    // loop through each speaker twice
-    _.times(4, (player_index) => {
-      // loop through each player in the group
-      const shuffled_context = _.shuffle(context);
-      _.times(shuffled_context.length, (target_num) => {
-        // in each round (repetition block), loop through each tangram in the context
-        const round = game.addRound({
-          name: `Reference Game`,
-          phase: "refgame",
-          speaker: player_index,
-          target_order: shuffled_context,
-          target: shuffled_context[target_num],
-          target_num: target_num,
-          rep_num: i * 4 + player_index,
-        });
-        round.addStage({
-          name: "Selection",
-          duration: 180,
-        });
-        round.addStage({
-          name: "Feedback",
-          duration: 30,
-        });
-      });
-    });
-  });
+  // _.times(2, (i) => {
+  //   // loop through each speaker twice
+  //   _.times(4, (player_index) => {
+  //     // loop through each player in the group
+  //     const shuffled_context = _.shuffle(context);
+  //     _.times(shuffled_context.length, (target_num) => {
+  //       // in each round (repetition block), loop through each tangram in the context
+  //       const round = game.addRound({
+  //         name: `Reference Game`,
+  //         phase: "refgame",
+  //         speaker: player_index,
+  //         target_order: shuffled_context,
+  //         target: shuffled_context[target_num],
+  //         target_num: target_num,
+  //         rep_num: i * 4 + player_index,
+  //       });
+  //       round.addStage({
+  //         name: "Selection",
+  //         duration: 180,
+  //       });
+  //       round.addStage({
+  //         name: "Feedback",
+  //         duration: 30,
+  //       });
+  //     });
+  //   });
+  // });
 
-  game.addRound({
-    name: "End of Phase 1",
-    duration: 30,
-  });
+  // game.addRound({
+  //   name: "End of Phase 1",
+  //   duration: 30,
+  // });
 
   // PHASE 2: SPEAKER PRODUCTION
 
@@ -111,15 +111,15 @@ Empirica.onGameStart(({ game }) => {
   _.times(tangram_combos.length, (i) => {
     phase_2.addStage({
       name: "Production",
-      duration: 6000,
+      duration: 30,
       trial_num: i,
     }); // each player sees a different order of tangram-condition pairs, so the trial number is used to index into the player's order in Stage.jsx
   });
 
-  phase_2.addStage({
-    name: "End of Phase 2",
-    duration: 30,
-  });
+  // phase_2.addStage({
+  //   name: "End of Phase 2",
+  //   duration: 30,
+  // });
   // PHASE 3: LISTENER INTERPRETATION
 
   // Create phase 3 trials
@@ -177,7 +177,8 @@ Empirica.onStageStart(({ stage }) => {
 
     players.forEach((player) => {
       const trial_num = stage.get("trial_num");
-      const trial = player.get("phase_3_trials")[trial_num];
+      console.log(player.get("phase_3_trials")); // undefined
+      const trial = player.get("phase_3_trials")[trial_num]; // undefied
 
       player.stage.set("target", trial.target);
       player.stage.set("condition", trial.condition);
@@ -256,12 +257,14 @@ Empirica.onStageEnded(({ stage }) => {
 
     players.forEach((player) => {
       const utterance = player.stage.get("utterance");
+      console.log(utterance);
 
       if (!player.round.get("utterances")) {
         player.round.set("utterances", {});
       }
 
       const player_utterances = player.round.get("utterances");
+      // PROBLEM - no utterances available, set to player...
 
       const condition = player.stage.get("condition");
       const tangram = player.stage.get("target");
@@ -278,6 +281,7 @@ Empirica.onStageEnded(({ stage }) => {
         // add utterance to player's utterances
         player_utterances[condition][tangram] = utterance;
         player.round.set("utterances", player_utterances);
+        console.log(player_utterances); // TODO: test
       }
     });
   }
@@ -322,14 +326,21 @@ Empirica.onRoundEnded(({ round }) => {
     const context = game.get("context");
 
     // Collect the utterances from phase 2
-    const all_utterances = {};
+    let all_utterances = { red: {}, blue: {} };
     players.forEach((player) => {
       const utterances = player.round.get("utterances");
       const player_group = player.get("group");
-      all_utterances[player_group][player.id] = utterances;
+      console.log(utterances); // currently undefined?
+      if (utterances) {
+        if (!all_utterances[player_group]) {
+          all_utterances[player_group] = {};
+        }
+        all_utterances[player_group][player.id] = utterances;
+      }
+      player.set("all_utterances", all_utterances);
     });
+    console.log(all_utterances);
 
-    const matched_conditions = ["matched", "unmatched"];
     players.forEach((player) => {
       const player_group = player.get("group");
       const other_group = player_group == "red" ? "blue" : "red";
@@ -345,92 +356,153 @@ Empirica.onRoundEnded(({ round }) => {
       context.forEach((tangram, tangramIndex) => {
         const shuffled_other_group_players = _.shuffle(other_group_players);
         const shuffled_own_group_players = _.shuffle(own_group_players);
-        shuffled_other_group_players.pop(); // exclƒude one player from the other group
+        shuffled_other_group_players.pop(); // exclude one player from the other group
+        // console.log(all_utterances);
+        // console.log(all_utterances[player_group][shuffled_own_group_players[0].id][
+        // "social own"
+        // ][tangram])
+
+        // Helper function to safely get utterance or provide fallback
+        const safeGetUtterance = (
+          groupId,
+          playerId,
+          condition,
+          targetTangram
+        ) => {
+          try {
+            if (
+              all_utterances[groupId] &&
+              all_utterances[groupId][playerId] &&
+              all_utterances[groupId][playerId][condition] &&
+              all_utterances[groupId][playerId][condition][targetTangram]
+            ) {
+              return all_utterances[groupId][playerId][condition][
+                targetTangram
+              ];
+            }
+            return `[No description provided for ${condition}]`;
+          } catch (e) {
+            console.error(`Error getting utterance: ${e.message}`);
+            return `[Error retrieving description]`;
+          }
+        };
 
         // social + own, from own group
-        phase_3_trials.push({
-          condition: "social own",
-          matched: "matched",
-          speaker: shuffled_own_group_players[0].id,
-          speaker_group: player_group,
-          speaker_name: shuffled_own_group_players[0].get("name"),
-          description:
-            all_utterances[player_group][shuffled_own_group_players[0].id][
-              "social own"
-            ][tangram],
-          target: tangram,
-        });
+        if (shuffled_own_group_players.length > 0) {
+          const speaker = shuffled_own_group_players[0];
+          phase_3_trials.push({
+            condition: "social own",
+            matched: "matched",
+            speaker: speaker.id,
+            speaker_group: player_group,
+            speaker_name: speaker.get("name"),
+            description: safeGetUtterance(
+              player_group,
+              speaker.id,
+              "social own",
+              tangram
+            ),
+            target: tangram,
+          });
+        }
+        console.log(phase_3_trials);
 
         // refer + own, from own group
-        phase_3_trials.push({
-          condition: "refer own",
-          matched: "matched",
-          speaker: shuffled_own_group_players[1].id,
-          speaker_group: player_group,
-          speaker_name: shuffled_own_group_players[1].get("name"),
-          description:
-            all_utterances[player_group][shuffled_own_group_players[1].id][
-              "refer own"
-            ][tangram],
-          target: tangram,
-        });
+        if (shuffled_own_group_players.length > 0) {
+          const speaker = shuffled_own_group_players[1];
+          phase_3_trials.push({
+            condition: "refer own",
+            matched: "matched",
+            speaker: speaker.id,
+            speaker_group: player_group,
+            speaker_name: speaker.get("name"),
+            description: safeGetUtterance(
+              player_group,
+              speaker.id,
+              "refer own",
+              tangram
+            ),
+            target: tangram,
+          });
+        }
 
         // refer + other, from other group
-        phase_3_trials.push({
-          condition: "refer other",
-          matched: "matched",
-          speaker: shuffled_other_group_players[0].id,
-          speaker_group: other_group,
-          speaker_name: shuffled_other_group_players[0].get("name"),
-          description:
-            all_utterances[other_group][shuffled_other_group_players[0].id][
-              "refer other"
-            ][tangram],
-          target: tangram,
-        });
+        if (shuffled_other_group_players.length > 0) {
+          const speaker = shuffled_other_group_players[0];
+          phase_3_trials.push({
+            condition: "refer other",
+            matched: "matched",
+            speaker: speaker.id,
+            speaker_group: other_group,
+            speaker_name: speaker.get("name"),
+            description: safeGetUtterance(
+              other_group,
+              speaker.id,
+              "refer other",
+              tangram
+            ),
+            target: tangram,
+          });
+        }
 
         // social + own, from other group
-        phase_3_trials.push({
-          condition: "social own",
-          matched: "unmatched",
-          speaker: shuffled_other_group_players[1].id,
-          speaker_group: other_group,
-          speaker_name: shuffled_other_group_players[1].get("name"),
-          description:
-            all_utterances[other_group][shuffled_other_group_players[1].id][
-              "social own"
-            ][tangram],
-          target: tangram,
-        });
+        if (shuffled_other_group_players.length > 0) {
+          const speaker = shuffled_other_group_players[1];
+          phase_3_trials.push({
+            condition: "social own",
+            matched: "unmatched",
+            speaker: speaker.id,
+            speaker_group: other_group,
+            speaker_name: speaker.get("name"),
+            description: safeGetUtterance(
+              other_group,
+              speaker.id,
+              "social own",
+              tangram
+            ),
+            target: tangram,
+          });
+        }
 
         // refer + own, from other group
-        phase_3_trials.push({
-          condition: "refer own",
-          matched: "unmatched",
-          speaker: shuffled_other_group_players[2].id,
-          speaker_group: other_group,
-          speaker_name: shuffled_other_group_players[2].get("name"),
-          description:
-            all_utterances[other_group][shuffled_other_group_players[2].id][
-              "refer own"
-            ][tangram],
-          target: tangram,
-        });
+        if (shuffled_other_group_players.length > 0) {
+          const speaker = shuffled_other_group_players[2];
+          phase_3_trials.push({
+            condition: "refer own",
+            matched: "unmatched",
+            speaker: speaker.id,
+            speaker_group: other_group,
+            speaker_name: speaker.get("name"),
+            description: safeGetUtterance(
+              other_group,
+              speaker.id,
+              "refer own",
+              tangram
+            ),
+            target: tangram,
+          });
+        }
 
         // refer + other, from own group
-        phase_3_trials.push({
-          condition: "refer other",
-          matched: "unmatched",
-          speaker: shuffled_own_group_players[2].id,
-          speaker_group: player_group,
-          speaker_name: shuffled_own_group_players[2].get("name"),
-          description:
-            all_utterances[player_group][shuffled_own_group_players[2].id][
-              "refer other"
-            ][tangram],
-          target: tangram,
-        });
+        if (shuffled_own_group_players.length > 0) {
+          const speaker = shuffled_own_group_players[2];
+          phase_3_trials.push({
+            condition: "refer other",
+            matched: "unmatched",
+            speaker: speaker.id,
+            speaker_group: player_group,
+            speaker_name: speaker.get("name"),
+            description: safeGetUtterance(
+              player_group,
+              speaker.id,
+              "refer other",
+              tangram
+            ),
+            target: tangram,
+          });
+        }
       });
+      console.log(phase_3_trials);
       const shuffled_phase_3_trials = _.shuffle(phase_3_trials);
       player.set("phase_3_trials", shuffled_phase_3_trials);
     });

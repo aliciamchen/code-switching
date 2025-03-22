@@ -129,6 +129,14 @@
   margin-right: 8px;
 }
 
+.trial-info {
+  display: flex;
+  justify-content: center;
+  color: #617186;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
 /* .grid {
   font-family: sans-serif;
   display: flex;

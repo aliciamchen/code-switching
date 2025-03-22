@@ -19,7 +19,7 @@ export function Tangram(props) {
   // Make tangram grid
   const row = 1 + Math.floor(tangram_num / 3);
   const column = 1 + (tangram_num % 3);
-  const mystyle = {
+  let mystyle = {
     background: "url(tangram_" + tangram + ".png)",
     backgroundSize: "cover",
     width: "17vh",
@@ -98,7 +98,13 @@ export function Tangram(props) {
     if (stage.get("name") == "Feedback") {
       playersInGroup.forEach((p, index) => {
         if (p.round.get("clicked") == tangram) {
-          feedback.push(<img key={`avatar-${index}`} src={p.get("avatar")} alt="Player avatar" />);
+          feedback.push(
+            <img
+              key={`avatar-${index}`}
+              src={p.get("avatar")}
+              alt="Player avatar"
+            />
+          );
         }
       });
     }
@@ -141,6 +147,15 @@ export function Tangram(props) {
         player.stage.set("clicked", tangram);
       }
     };
+    if (tangram == player.stage.get("clicked")) {
+      console.log("here");
+      mystyle = {
+        ...mystyle,
+        outline: `10px solid #A9A9A9`,
+        zIndex: "9",
+      };
+    }
     return <div onClick={handleClick} style={mystyle}></div>;
+    // return <div onClick={handleClick} style={mystyle}></div>;
   }
 }
