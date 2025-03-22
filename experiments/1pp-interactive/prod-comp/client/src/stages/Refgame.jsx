@@ -25,14 +25,34 @@ export function Refgame(props) {
     ));
   }
 
+  // Render player status indicator
+  const renderPlayer = (p, self = false) => {
+    return (
+      <div className="player" key={p._id}>
+        <span className="image">
+          {p.get("avatar") && <img src={p.get("avatar")} alt="Player avatar" />}
+        </span>
+        <span className="name" style={{ color: p.get("nameColor") || "#000" }}>
+          {p.get("name") || `Player ${p.index}`}
+          {self
+            ? " (You)"
+            : p.round.get("role") === "listener"
+            ? " (Listener)"
+            : " (Speaker)"}
+        </span>
+      </div>
+    );
+  };
+
+  const playerGroup = player.get("group");
+  const playersInGroup = players.filter((p) => p.get("group") === playerGroup);
+  const otherPlayers = playersInGroup.filter((p) => p.id !== player.id);
+
   let waitingMessage = "";
   if (stage.get("name") == "Selection") {
     if (player.round.get("clicked") || player.round.get("role") === "speaker") {
       // Check if all players in the same group have responded
-      const playerGroup = player.get("group");
-      const playersInGroup = players.filter(
-        (p) => p.get("group") === playerGroup
-      );
+
       const allGroupResponded = playersInGroup.every(
         (p) => p.round.get("role") === "speaker" || p.round.get("clicked")
       );
@@ -61,9 +81,9 @@ export function Refgame(props) {
       }
     }
     if (player.round.get("role") == "speaker") {
-      feedback = `You earned ${player.round.get(
-        "round_score"
-      )} ${player.round.get("round_score") == 1 ? `point` : `points`} this round.`;
+      feedback = `You earned ${player.round.get("round_score")} ${
+        player.round.get("round_score") == 1 ? `point` : `points`
+      } this round.`;
     }
 
     if (player.stage.get("submit")) {
@@ -76,6 +96,15 @@ export function Refgame(props) {
   }
   return (
     <div className="task">
+      <div className="status">
+          <div className="players card">
+            <h3 style={{ textAlign: "center", marginBottom: "10px" }}>Your Group</h3>
+            <div className="player-group" style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
+              {renderPlayer(player, true)}
+              {otherPlayers.map((p) => renderPlayer(p))}
+            </div>
+          </div>
+      </div>
       <div className="board">
         <div className="prompt-container">
           <p className="instruction-prompt">
