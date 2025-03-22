@@ -40,6 +40,9 @@ export function Tangram(props) {
 
     const handleClick = (e) => {
       console.log("click2");
+      if (stage.get("name") == "Feedback") {
+        return;
+      }
 
       const playerGroupChat = stage.get(`${playerGroup}_chat`) || [];
       const speakerMsgs = _.filter(playerGroupChat, (msg) => {
@@ -68,8 +71,6 @@ export function Tangram(props) {
         playersInGroup.forEach((p) => {
           p.stage.set("submit", true);
         });
-
-        // TODO: when all in-group listeners have clicked, display something about waiting for everyone to respond... figure out how to do this in a way that makes sense
       }
     };
 
