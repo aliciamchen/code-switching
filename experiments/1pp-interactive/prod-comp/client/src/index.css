@@ -5,11 +5,20 @@
     -webkit-appearance: none;
     margin: 0;
   }
-  
+
   /* Firefox */
   input.number-arrows-none[type="number"] {
     -moz-appearance: textfield;
   }
+}
+.players .player-group .player {
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.players .player-group .player .name {
+  text-align: center;
+  margin-top: 5px;
 }
 
 .feedback {
@@ -29,7 +38,7 @@
 
 .tangrams.grid {
   display: grid;
-  width: 80%; 
+  width: 80%;
   margin: 0 auto;
   justify-content: center;
 }
@@ -97,6 +106,29 @@
   background-color: #a0aec0;
   cursor: not-allowed;
 }
+
+.players {
+  padding: 10px;
+  background-color: #f5f8fa;
+  border-radius: 3px;
+  /* box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 1px 1px rgba(16, 22, 26, 0.2); */
+  width: 80%;
+  margin: 0 auto 4rem auto;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.player img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
 /* .grid {
   font-family: sans-serif;
   display: flex;
