@@ -1,20 +1,9 @@
-import {
-  useGame,
-  usePlayer,
-  usePlayers,
-  useRound,
-  useStage,
-} from "@empirica/core/player/classic/react";
 import React from "react";
 import { Tangram } from "../components/Tangram.jsx";
 import { Button } from "../components/Button.jsx";
 
-export function Refgame() {
-  const game = useGame();
-  const player = usePlayer();
-  const players = usePlayers();
-  const round = useRound();
-  const stage = useStage();
+export function Refgame(props) {
+  const { round, stage, game, player, players } = props;
 
   const target = round.get("target");
   const shuffled_tangrams = player.get("shuffled_tangrams");
@@ -74,7 +63,7 @@ export function Refgame() {
     if (player.round.get("role") == "speaker") {
       feedback = `You earned ${player.round.get(
         "round_score"
-      )} points this round.`;
+      )} ${player.round.get("round_score") == 1 ? `point` : `points`} this round.`;
     }
 
     if (player.stage.get("submit")) {
