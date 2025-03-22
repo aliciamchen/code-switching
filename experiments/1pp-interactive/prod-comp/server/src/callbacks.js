@@ -26,8 +26,8 @@ Empirica.onGameStart(({ game }) => {
   });
 
   // Randomly assign 4 of the players to the red group and the other 4 to the blue group
-  red_players = _.sampleSize(game.players, game.players.length / 2);
-  blue_players = _.difference(game.players, red_players);
+  const red_players = _.sampleSize(game.players, game.players.length / 2);
+  const blue_players = _.difference(game.players, red_players);
   red_players.forEach((player, i) => {
     player.set("group", "red");
     player.set("player_index", i);
@@ -59,38 +59,38 @@ Empirica.onGameStart(({ game }) => {
   // Players play a reference game within their group
   // The speaker has to refer to each tangram in the context before the speaker role moves to the next player for the next block of trials.
   // There are 8 blocks total (so each player will be in the speaker role twice, and each tangram will appear as the target exactly 8 times)
-  // _.times(2, (i) => {
-  //   // loop through each speaker twice
-  //   _.times(4, (player_index) => {
-  //     // loop through each player in the group
-  //     const shuffled_context = _.shuffle(context);
-  //     _.times(shuffled_context.length, (target_num) => {
-  //       // in each round (repetition block), loop through each tangram in the context
-  //       const round = game.addRound({
-  //         name: `Reference Game`,
-  //         phase: "refgame",
-  //         speaker: player_index,
-  //         target_order: shuffled_context,
-  //         target: shuffled_context[target_num],
-  //         target_num: target_num,
-  //         rep_num: i * 4 + player_index,
-  //       });
-  //       round.addStage({
-  //         name: "Selection",
-  //         duration: 6000,
-  //       });
-  //       round.addStage({
-  //         name: "Feedback",
-  //         duration: 6000,
-  //       });
-  //     });
-  //   });
-  // });
+  _.times(2, (i) => {
+    // loop through each speaker twice
+    _.times(4, (player_index) => {
+      // loop through each player in the group
+      const shuffled_context = _.shuffle(context);
+      _.times(shuffled_context.length, (target_num) => {
+        // in each round (repetition block), loop through each tangram in the context
+        const round = game.addRound({
+          name: `Reference Game`,
+          phase: "refgame",
+          speaker: player_index,
+          target_order: shuffled_context,
+          target: shuffled_context[target_num],
+          target_num: target_num,
+          rep_num: i * 4 + player_index,
+        });
+        round.addStage({
+          name: "Selection",
+          duration: 6000,
+        });
+        round.addStage({
+          name: "Feedback",
+          duration: 6000,
+        });
+      });
+    });
+  });
 
-  // game.addRound({
-  //   name: "End of Phase 1",
-  //   duration: 30,
-  // });
+  game.addRound({
+    name: "End of Phase 1",
+    duration: 30,
+  });
 
   // PHASE 2: SPEAKER PRODUCTION
 
@@ -138,22 +138,15 @@ Empirica.onRoundStart(({ round }) => {
     );
     const speaker = round.get("speaker");
     red_players.forEach((player, i) => {
-      // player.set("clicked", ""); // refresh clicked state
       player.round.set("role", i == speaker ? "speaker" : "listener");
     });
     blue_players.forEach((player, i) => {
-      // player.set("clicked", "");
       player.round.set("role", i == speaker ? "speaker" : "listener");
     });
   }
 });
 
 Empirica.onStageStart(({ stage }) => {
-  if (stage.get("name") === "Selection") {
-    stage.set("red_chat", []);
-    stage.set("blue_chat", []);
-  }
-
   // Each participant sees the trials in a different order, so we want to add that information to player stages
   if (stage.get("name") === "Production") {
     const game = stage.currentGame;
@@ -241,7 +234,6 @@ Empirica.onStageEnded(({ stage }) => {
       }
 
       const player_utterances = player.round.get("utterances");
-      console.log(player_utterances);
 
       const condition = player.stage.get("condition");
       const tangram = player.stage.get("target");
