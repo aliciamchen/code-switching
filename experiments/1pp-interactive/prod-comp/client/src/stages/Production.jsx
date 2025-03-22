@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Tangram } from "../components/Tangram.jsx";
 
 // Participants are asked to
 // generate the best labels for inducing a particular audience (a member of their ‘own’ group or a member of the
 //     ‘other’ group) to make one of two inferences (the ‘referential’ goal of choosing which tangram is being referred
 //     to, or the ‘social’ goal of being identified as a member of the audience group).
-export function Production() {
+export function Production(props) {
   const { round, stage, game, player, players } = props;
   const [description, setDescription] = React.useState("");
+
+  // Make sure to reset the description when the stage changes
+  useEffect(() => {
+    setDescription("");
+  }, [stage]);
 
   const target = player.stage.get("target");
   const condition = player.stage.get("condition");
@@ -81,6 +86,7 @@ export function Production() {
   return (
     <div className="task">
       <div className="board">
+        <div className="trial-info">Trial {stage.get("trial_num") + 1} out of 18</div>
         <div className="prompt-container">
           <p className="instruction-prompt">{prompt}</p>
         </div>
