@@ -4,15 +4,16 @@ import { Refgame } from "./stages/Refgame.jsx";
 import { Production } from "./stages/Production.jsx";
 import { Comprehension } from "./stages/Comprehension.jsx";
 
+// TODO: Add the transitions between the phases
 export function Task(props) {
   const {round, stage, game, player, players} = props;
   switch (round.get("phase")) {
     case "refgame":
       return <Refgame round={round} stage={stage} game={game} player={player} players={players}/>;
     case "speaker_prod": 
-        return <Production />;
+        return <Production round={round} stage={stage} game={game} player={player} players={players}/>;
     case "comprehension": 
-        return <Comprehension />;
+        return <Comprehension round={round} stage={stage} game={game} player={player} players={players}/>;
     default:
       return <Loading />;
   }
