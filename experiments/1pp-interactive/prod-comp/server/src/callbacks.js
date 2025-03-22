@@ -77,11 +77,11 @@ Empirica.onGameStart(({ game }) => {
         });
         round.addStage({
           name: "Selection",
-          duration: 6000,
+          duration: 180,
         });
         round.addStage({
           name: "Feedback",
-          duration: 6000,
+          duration: 30,
         });
       });
     });
@@ -105,7 +105,7 @@ Empirica.onGameStart(({ game }) => {
   ); // all combos of tangrams and conditions
   // for each player, add the randomized order of tangram-condition pairs
   game.players.forEach((player) => {
-    player.set("phase_2_trial_order", _.shuffle(tangram_combos));
+    player.set("phase_2_trial_order", _.shuffle(tangram_combos)); // TODO: change to object rather than indexing into list
     // console.log(player.get("phase_2_trial_order"));
   });
   _.times(tangram_combos.length, (i) => {
@@ -116,14 +116,25 @@ Empirica.onGameStart(({ game }) => {
     }); // each player sees a different order of tangram-condition pairs, so the trial number is used to index into the player's order in Stage.jsx
   });
 
+  phase_2.addStage({
+    name: "End of Phase 2",
+    duration: 30,
+  });
   // PHASE 3: LISTENER INTERPRETATION
 
+  // Create phase 3 trials
   const phase_3 = game.addRound({
-    name: "Phase 3", // change later
+    name: "Phase 3",
     phase: "comprehension",
   });
-  // TODO: write function to take the phase 2 utterances, and assign them to players in phase 3
-  // the phase 3 utterances should be collected in the player variable?
+  // add placeholder stages
+  _.times(36, (i) => {
+    phase_3.addStage({
+      name: "Comprehension",
+      duration: 6000,
+      trial_num: i,
+    });
+  });
 });
 
 Empirica.onRoundStart(({ round }) => {
@@ -158,6 +169,23 @@ Empirica.onStageStart(({ stage }) => {
 
       player.stage.set("target", trial[0]);
       player.stage.set("condition", trial[1]);
+    });
+  }
+  if (stage.get("name") === "Comprehension") {
+    const game = stage.currentGame;
+    const players = game.players;
+
+    players.forEach((player) => {
+      const trial_num = stage.get("trial_num");
+      const trial = player.get("phase_3_trials")[trial_num];
+
+      player.stage.set("target", trial.target);
+      player.stage.set("condition", trial.condition);
+      player.stage.set("matched", trial.matched);
+      player.stage.set("speaker", trial.speaker);
+      player.stage.set("speaker_group", trial.speaker_group);
+      player.stage.set("speaker_name", trial.speaker_name);
+      player.stage.set("description", trial.description);
     });
   }
 });
@@ -256,7 +284,157 @@ Empirica.onStageEnded(({ stage }) => {
 });
 
 Empirica.onRoundEnded(({ round }) => {
-  // TODO: If we are at the end of phase 2, collect the utterances based on condition and group
+  // TODO: If we are at the end of phase 2, collect the utterances based on condition and group, and make the phase 3 trials.
+
+  // In Phase 3, all participants will now be in the listener role, shown expressions from Phase 2 of the task, and,
+  // for each expression, asked to submit two responses: choose the corresponding tangram, and guess the
+  // correct speaker group. Listeners will be equally rewarded for all correct answers on all trials. In order to test the
+  // extent to which expressions are more informative for the intended audience (e.g. the in-group) relative to an
+  // unintended audience (e.g. the out-group), participants will be delivered expressions that were produced for
+  // both their own group and for the opposite group.
+
+  // Thus, participants will see 6 expressions per tangram — one expression for each of the 3 conditions
+  // (social+own, refer+own, refer+other) x 2 speaker-recipient mappings (‘matched’ vs. ‘unmatched’). There are 6
+  // tangrams, so this results in a total of 36 trials in Phase 3. We will balance the assignment of players to
+  // condition so that each of the six expressions for each tangram will originate from a different player. There are 3
+  // other players from the participant's own group and 4 other players from the other group, so for the expressions
+  // that originate from the other group, one of the players will be excluded for each tangram. This exclusion will be
+  // balanced across tangrams to ensure even representation of other-group players. The order of the 36 trials will
+  // be randomized.
+
+  // Trial count:
+
+  // ‘Matched’ speaker-recipient (delivered to intended audience):
+  // 6 trials social+own (from own group)
+  // +  6 trials refer+own (from own group)
+  // +  6 trials refer+other (from other group)
+  // = 18 phase 3 ‘matched’ trials
+
+  // ‘Unmatched’ speaker-recipient (delivered to unintended audience):
+  // 6 trials social+own (from other group)
+  // +  6 trials refer+own (from other group)
+  // +  6 trials refer+other (from own group)
+  // = 18 phase 3 ‘unmatched’ trials
+
+  if (round.get("phase") == "speaker_prod") {
+    const game = round.currentGame;
+    const players = game.players;
+    const context = game.get("context");
+
+    // Collect the utterances from phase 2
+    const all_utterances = {};
+    players.forEach((player) => {
+      const utterances = player.round.get("utterances");
+      const player_group = player.get("group");
+      all_utterances[player_group][player.id] = utterances;
+    });
+
+    const matched_conditions = ["matched", "unmatched"];
+    players.forEach((player) => {
+      const player_group = player.get("group");
+      const other_group = player_group == "red" ? "blue" : "red";
+      const own_group_players = players.filter(
+        (p) => p.get("group") == player_group && p.id !== player.id
+      );
+      const other_group_players = players.filter(
+        (p) => p.get("group") == other_group
+      );
+
+      // Create the 36 trials (6 tangrams x 3 conditions x 2 speaker-recipient mappings)
+      const phase_3_trials = [];
+      context.forEach((tangram, tangramIndex) => {
+        const shuffled_other_group_players = _.shuffle(other_group_players);
+        const shuffled_own_group_players = _.shuffle(own_group_players);
+        shuffled_other_group_players.pop(); // exclƒude one player from the other group
+
+        // social + own, from own group
+        phase_3_trials.push({
+          condition: "social own",
+          matched: "matched",
+          speaker: shuffled_own_group_players[0].id,
+          speaker_group: player_group,
+          speaker_name: shuffled_own_group_players[0].get("name"),
+          description:
+            all_utterances[player_group][shuffled_own_group_players[0].id][
+              "social own"
+            ][tangram],
+          target: tangram,
+        });
+
+        // refer + own, from own group
+        phase_3_trials.push({
+          condition: "refer own",
+          matched: "matched",
+          speaker: shuffled_own_group_players[1].id,
+          speaker_group: player_group,
+          speaker_name: shuffled_own_group_players[1].get("name"),
+          description:
+            all_utterances[player_group][shuffled_own_group_players[1].id][
+              "refer own"
+            ][tangram],
+          target: tangram,
+        });
+
+        // refer + other, from other group
+        phase_3_trials.push({
+          condition: "refer other",
+          matched: "matched",
+          speaker: shuffled_other_group_players[0].id,
+          speaker_group: other_group,
+          speaker_name: shuffled_other_group_players[0].get("name"),
+          description:
+            all_utterances[other_group][shuffled_other_group_players[0].id][
+              "refer other"
+            ][tangram],
+          target: tangram,
+        });
+
+        // social + own, from other group
+        phase_3_trials.push({
+          condition: "social own",
+          matched: "unmatched",
+          speaker: shuffled_other_group_players[1].id,
+          speaker_group: other_group,
+          speaker_name: shuffled_other_group_players[1].get("name"),
+          description:
+            all_utterances[other_group][shuffled_other_group_players[1].id][
+              "social own"
+            ][tangram],
+          target: tangram,
+        });
+
+        // refer + own, from other group
+        phase_3_trials.push({
+          condition: "refer own",
+          matched: "unmatched",
+          speaker: shuffled_other_group_players[2].id,
+          speaker_group: other_group,
+          speaker_name: shuffled_other_group_players[2].get("name"),
+          description:
+            all_utterances[other_group][shuffled_other_group_players[2].id][
+              "refer own"
+            ][tangram],
+          target: tangram,
+        });
+
+        // refer + other, from own group
+        phase_3_trials.push({
+          condition: "refer other",
+          matched: "unmatched",
+          speaker: shuffled_own_group_players[2].id,
+          speaker_group: player_group,
+          speaker_name: shuffled_own_group_players[2].get("name"),
+          description:
+            all_utterances[player_group][shuffled_own_group_players[2].id][
+              "refer other"
+            ][tangram],
+          target: tangram,
+        });
+      });
+      const shuffled_phase_3_trials = _.shuffle(phase_3_trials);
+      player.set("phase_3_trials", shuffled_phase_3_trials);
+    });
+  }
 });
 
 Empirica.onGameEnded(({ game }) => {});

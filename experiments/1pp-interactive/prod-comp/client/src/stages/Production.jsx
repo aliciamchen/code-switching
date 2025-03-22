@@ -1,10 +1,3 @@
-import {
-  useGame,
-  usePlayer,
-  usePlayers,
-  useRound,
-  useStage,
-} from "@empirica/core/player/classic/react";
 import React from "react";
 import { Tangram } from "../components/Tangram.jsx";
 
@@ -13,11 +6,7 @@ import { Tangram } from "../components/Tangram.jsx";
 //     ‘other’ group) to make one of two inferences (the ‘referential’ goal of choosing which tangram is being referred
 //     to, or the ‘social’ goal of being identified as a member of the audience group).
 export function Production() {
-  const game = useGame();
-  const player = usePlayer();
-  const players = usePlayers();
-  const round = useRound();
-  const stage = useStage();
+  const { round, stage, game, player, players } = props;
   const [description, setDescription] = React.useState("");
 
   const target = player.stage.get("target");
@@ -45,7 +34,10 @@ export function Production() {
       <>
         Please write a description of the target picture, to help a member of{" "}
         <span style={{ fontWeight: "bold" }}>your own</span> group{" "}
-        <span style={{ fontWeight: "bold" }}>identify you as a member of their group</span>.
+        <span style={{ fontWeight: "bold" }}>
+          identify you as a member of their group
+        </span>
+        .
       </>
     );
   }
@@ -80,9 +72,7 @@ export function Production() {
       <div className="task">
         <div className="board">
           <div className="prompt-container">
-            <p className="instruction-prompt">
-              Waiting for other players...
-            </p>
+            <p className="instruction-prompt">Waiting for other players...</p>
           </div>
         </div>
       </div>
