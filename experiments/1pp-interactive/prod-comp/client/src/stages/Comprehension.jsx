@@ -28,7 +28,8 @@ export function Comprehension(props) {
   const handleSubmit = () => {
     if (clickedTangram && clickedGroup) {
       player.stage.set("clicked_tangram", clickedTangram);
-      player.stage.set("clicked_group", clickedGroup);
+      const selected_group = clickedGroup === "yes" ? "ingroup" : "outgroup";
+      player.stage.set("clicked_group", selected_group);
       player.stage.set("submit", true);
     }
   };
@@ -97,6 +98,61 @@ export function Comprehension(props) {
       </div>
       <div className="all-tangrams">
         <div className="tangrams grid">{tangramsToRender}</div>
+      </div>
+      
+      <div className="group-question" style={{ marginTop: "20px", textAlign: "center" }}>
+        <p className="instruction-prompt">Please select which group you think the speaker was in.</p>
+        <div className="group-options" style={{ margin: "15px 0" }}>
+          <button 
+            className={`group-option ${clickedGroup === "yes" ? "selected" : ""}`}
+            onClick={() => handleGroupClick("yes")}
+            style={{ 
+              margin: "0 10px", 
+              padding: "8px 16px", 
+              backgroundColor: clickedGroup === "yes" ? "#4CAF50" : "#f5f5f5",
+              color: clickedGroup === "yes" ? "white" : "black",
+              border: "1px solid #ddd",
+              borderRadius: "4px",
+              cursor: "pointer"
+            }}
+          >
+            The speaker was a member of my group
+          </button>
+          <button 
+            className={`group-option ${clickedGroup === "no" ? "selected" : ""}`}
+            onClick={() => handleGroupClick("no")}
+            style={{ 
+              margin: "0 10px", 
+              padding: "8px 16px", 
+              backgroundColor: clickedGroup === "no" ? "#4CAF50" : "#f5f5f5",
+              color: clickedGroup === "no" ? "white" : "black",
+              border: "1px solid #ddd",
+              borderRadius: "4px",
+              cursor: "pointer"
+            }}
+          >
+            The speaker was a member of another group
+          </button>
+        </div>
+      </div>
+      
+      <div className="submit-container" style={{ marginTop: "20px", textAlign: "center" }}>
+        <button 
+          onClick={handleSubmit}
+          disabled={!clickedTangram || !clickedGroup}
+          style={{
+            padding: "10px 20px",
+            fontSize: "16px",
+            backgroundColor: clickedTangram && clickedGroup ? "#2196F3" : "#cccccc",
+            color: "white",
+            border: "none",
+            borderRadius: "4px",
+            cursor: clickedTangram && clickedGroup ? "pointer" : "not-allowed",
+            opacity: clickedTangram && clickedGroup ? 1 : 0.7,
+          }}
+        >
+          Submit
+        </button>
       </div>
     </div>
   );

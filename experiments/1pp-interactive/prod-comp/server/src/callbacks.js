@@ -108,7 +108,8 @@ Empirica.onGameStart(({ game }) => {
     player.set("phase_2_trial_order", _.shuffle(tangram_combos)); // TODO: change to object rather than indexing into list
     // console.log(player.get("phase_2_trial_order"));
   });
-  _.times(tangram_combos.length, (i) => {
+  // _.times(tangram_combos.length, (i) => {
+  _.times(2, (i) => { // for testing
     phase_2.addStage({
       name: "Production",
       duration: 30,
