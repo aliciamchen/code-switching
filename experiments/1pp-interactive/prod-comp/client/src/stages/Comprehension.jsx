@@ -28,8 +28,13 @@ export function Comprehension(props) {
   const handleSubmit = () => {
     if (clickedTangram && clickedGroup) {
       player.stage.set("clicked_tangram", clickedTangram);
-      const selected_group = clickedGroup === "yes" ? "ingroup" : "outgroup";
+      const selected_group = clickedGroup === "yes" ? player.get("group") : player.get("other_group");
+      const ingroup = clickedGroup === "yes" ? "ingroup" : "outgroup";
       player.stage.set("clicked_group", selected_group);
+      player.stage.set("clicked_ingroup", ingroup);
+
+      player.stage.set("correctTangram", clickedTangram === target);
+      player.stage.set("correctGroup", selected_group === player.stage.get("speaker_group"));
       player.stage.set("submit", true);
     }
   };
@@ -156,5 +161,4 @@ export function Comprehension(props) {
       </div>
     </div>
   );
-  // if player.stage.get(clicked), and group is selected, then submit
 }
