@@ -22,15 +22,28 @@ export function Comprehension(props) {
     ));
   }
 
-   // Define the prompt
-   const prompt = (
-    <>
-      <p>
-        The speaker described this picture as:
+  // Define the prompt
+  const prompt = (
+    <div>
+      <p className="instruction-prompt">
+        Speaker's description:{" "}
+        <span
+          style={{
+            fontStyle: "italic",
+            backgroundColor: "#f5f5f5",
+            padding: "4px 8px",
+            borderRadius: "4px",
+            marginLeft: "8px",
+            display: "inline-block",
+          }}
+        >
+          {player.stage.get("description")}
+        </span>
       </p>
-      <p className="description">{player.stage.get("description")}</p>
-      <p>Please select which picture you think they were describing.</p>
-    </>
+      <p className="instruction-prompt" style={{ marginTop: "15px" }}>
+        Please select which picture you think they were describing.
+      </p>
+    </div>
   );
 
   if (player.stage.get("submit")) {
@@ -50,9 +63,7 @@ export function Comprehension(props) {
         <div className="trial-info">
           Trial {stage.get("trial_num") + 1} out of 36
         </div>
-        <div className="prompt-container">
-          {prompt}
-        </div>
+        <div className="prompt-container">{prompt}</div>
       </div>
       <div className="all-tangrams">
         <div className="tangrams grid">{tangramsToRender}</div>
