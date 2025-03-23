@@ -30,6 +30,7 @@ Empirica.onGameStart(({ game }) => {
   const blue_players = _.difference(game.players, red_players);
   red_players.forEach((player, i) => {
     player.set("group", "red");
+    player.set("other_group", "blue");
     player.set("player_index", i);
     player.set("avatar_name", avatar_names["red"][i]);
     player.set("avatar", `/${avatar_names["red"][i]}.png`);
@@ -43,6 +44,7 @@ Empirica.onGameStart(({ game }) => {
   });
   blue_players.forEach((player, i) => {
     player.set("group", "blue");
+    player.set("other_group", "red");
     player.set("player_index", i);
     player.set("avatar_name", avatar_names["blue"][i]);
     player.set("avatar", `/${avatar_names["blue"][i]}.png`);
@@ -59,33 +61,33 @@ Empirica.onGameStart(({ game }) => {
   // Players play a reference game within their group
   // The speaker has to refer to each tangram in the context before the speaker role moves to the next player for the next block of trials.
   // There are 8 blocks total (so each player will be in the speaker role twice, and each tangram will appear as the target exactly 8 times)
-  // _.times(2, (i) => {
-  //   // loop through each speaker twice
-  //   _.times(4, (player_index) => {
-  //     // loop through each player in the group
-  //     const shuffled_context = _.shuffle(context);
-  //     _.times(shuffled_context.length, (target_num) => {
-  //       // in each round (repetition block), loop through each tangram in the context
-  //       const round = game.addRound({
-  //         name: `Reference Game`,
-  //         phase: "refgame",
-  //         speaker: player_index,
-  //         target_order: shuffled_context,
-  //         target: shuffled_context[target_num],
-  //         target_num: target_num,
-  //         rep_num: i * 4 + player_index,
-  //       });
-  //       round.addStage({
-  //         name: "Selection",
-  //         duration: 180,
-  //       });
-  //       round.addStage({
-  //         name: "Feedback",
-  //         duration: 30,
-  //       });
-  //     });
-  //   });
-  // });
+  _.times(2, (i) => {
+    // loop through each speaker twice
+    _.times(4, (player_index) => {
+      // loop through each player in the group
+      const shuffled_context = _.shuffle(context);
+      _.times(shuffled_context.length, (target_num) => {
+        // in each round (repetition block), loop through each tangram in the context
+        const round = game.addRound({
+          name: `Reference Game`,
+          phase: "refgame",
+          speaker: player_index,
+          target_order: shuffled_context,
+          target: shuffled_context[target_num],
+          target_num: target_num,
+          rep_num: i * 4 + player_index,
+        });
+        round.addStage({
+          name: "Selection",
+          duration: 180,
+        });
+        round.addStage({
+          name: "Feedback",
+          duration: 30,
+        });
+      });
+    });
+  });
 
   // game.addRound({
   //   name: "End of Phase 1",
@@ -109,7 +111,8 @@ Empirica.onGameStart(({ game }) => {
     // console.log(player.get("phase_2_trial_order"));
   });
   // _.times(tangram_combos.length, (i) => {
-  _.times(2, (i) => { // for testing
+  _.times(2, (i) => {
+    // for testing
     phase_2.addStage({
       name: "Production",
       duration: 30,
@@ -132,7 +135,7 @@ Empirica.onGameStart(({ game }) => {
   _.times(36, (i) => {
     phase_3.addStage({
       name: "Comprehension",
-      duration: 6000,
+      duration: 30,
       trial_num: i,
     });
   });
@@ -285,6 +288,23 @@ Empirica.onStageEnded(({ stage }) => {
         console.log(player_utterances); // TODO: test
       }
     });
+  }
+
+      // TODO: for the comprehnsion phase, assess accuracy (one point for each correct answer)
+    // Assign score to both the listener and the speaker that had produced the utterance
+
+  if (stage.get("name") === "Comprehension") {
+    const game = stage.currentGame;
+    const players = game.players;
+    const player = game.player;
+
+    const phase3score = player.get("phase3score") || 0;
+    const thisTrialScore = (player.stage.get("correctTangram") ? 1 : 0) + (player.stage.get("correctGroup") ? 1 : 0);
+    player.set("phase3score", phase3score + thisTrialScore);
+
+    const speaker = players.find((p) => p.id === player.stage.get("speaker"));
+    const speaker_phase3score = speaker.get("phase3score") || 0;
+    speaker.set("phase3score", speaker_phase3score + thisTrialScore);
   }
 });
 
@@ -506,6 +526,16 @@ Empirica.onRoundEnded(({ round }) => {
       console.log(phase_3_trials);
       const shuffled_phase_3_trials = _.shuffle(phase_3_trials);
       player.set("phase_3_trials", shuffled_phase_3_trials);
+    });
+  }
+
+  // Collect the phase 3 scores and add them to total score
+  if (round.get("phase") == "comprehension") {
+    const game = round.currentGame;
+    const players = game.players;
+    players.forEach((player) => {
+      const phase3score = player.get("phase3score") || 0;
+      player.set("score", player.get("score") + phase3score);
     });
   }
 });
