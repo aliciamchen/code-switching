@@ -13,6 +13,7 @@ export function Tangram(props) {
     round,
     game,
     target,
+    onSelect,
     ...rest
   } = props;
 
@@ -143,19 +144,26 @@ export function Tangram(props) {
   if (round.get("phase") == "comprehension") {
     const handleClick = (e) => {
       console.log("click2");
-      if (!player.stage.get("clicked")) {
-        player.stage.set("clicked", tangram);
+
+      const clickedTangram = player.stage.get("clicked_tangram");
+      if (clickedTangram === tangram) { // if this is the same tangram that was clicked before, do nothing
+        return;
+      }
+
+      if (typeof onSelect === "function") {
+        onSelect(tangram);
       }
     };
-    if (tangram == player.stage.get("clicked")) {
-      console.log("here");
+    if (tangram == player.stage.get("clicked_tangram")) {
       mystyle = {
         ...mystyle,
         outline: `10px solid #A9A9A9`,
         zIndex: "9",
       };
     }
-    return <div onClick={handleClick} style={mystyle}></div>;
-    // return <div onClick={handleClick} style={mystyle}></div>;
+    return (
+      <div onClick={handleClick} style={mystyle}>
+      </div>
+    );
   }
 }

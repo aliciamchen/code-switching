@@ -18,6 +18,7 @@ export function Game() {
   const players = usePlayers();
   const round = useRound();
 
+
   // right now this is repeating code - fix later
   const playerGroup = player.get("group");
   const playersInGroup = players.filter(
