@@ -22,6 +22,7 @@ Empirica.onGameStart(({ game }) => {
     player.set("tangram_set", tangram_set);
     player.set("context", context);
     player.set("score", 0);
+    player.set("phase3score", 0);
     player.set("bonus", 0);
   });
 
@@ -89,10 +90,14 @@ Empirica.onGameStart(({ game }) => {
     });
   });
 
-  // game.addRound({
-  //   name: "End of Phase 1",
-  //   duration: 30,
-  // });
+  const transition_1 = game.addRound({
+    phase: "transition",
+  });
+
+  transition_1.addStage({
+    name: "phase_2_transition",
+    duration: 3000,
+  });
 
   // PHASE 2: SPEAKER PRODUCTION
 
@@ -120,10 +125,14 @@ Empirica.onGameStart(({ game }) => {
     }); // each player sees a different order of tangram-condition pairs, so the trial number is used to index into the player's order in Stage.jsx
   });
 
-  // phase_2.addStage({
-  //   name: "End of Phase 2",
-  //   duration: 30,
-  // });
+  const transition_2 = game.addRound({
+    phase: "transition",
+  });
+
+  transition_2.addStage({
+    name: "phase_3_transition",
+    duration: 3000,
+  });
   // PHASE 3: LISTENER INTERPRETATION
 
   // Create phase 3 trials
@@ -138,6 +147,15 @@ Empirica.onGameStart(({ game }) => {
       duration: 30,
       trial_num: i,
     });
+  });
+
+  const transition_3 = game.addRound({
+    phase: "transition",
+  });
+
+  transition_3.addStage({
+    name: "bonus_info",
+    duration: 3000,
   });
 });
 
@@ -290,8 +308,8 @@ Empirica.onStageEnded(({ stage }) => {
     });
   }
 
-      // TODO: for the comprehnsion phase, assess accuracy (one point for each correct answer)
-    // Assign score to both the listener and the speaker that had produced the utterance
+  // TODO: for the comprehnsion phase, assess accuracy (one point for each correct answer)
+  // Assign score to both the listener and the speaker that had produced the utterance
 
   if (stage.get("name") === "Comprehension") {
     const game = stage.currentGame;
@@ -299,11 +317,21 @@ Empirica.onStageEnded(({ stage }) => {
     const player = game.player;
 
     const phase3score = player.get("phase3score") || 0;
-    const thisTrialScore = (player.stage.get("correctTangram") ? 1 : 0) + (player.stage.get("correctGroup") ? 1 : 0);
+    const thisTrialScore =
+      (player.stage.get("correctTangram") ? 1 : 0) +
+      (player.stage.get("correctGroup") ? 1 : 0);
     player.set("phase3score", phase3score + thisTrialScore);
 
     const speaker = players.find((p) => p.id === player.stage.get("speaker"));
-    const speaker_phase3score = speaker.get("phase3score") || 0;
+
+    // If condition is 'refer own' or 'refer other', reward speaker for correct tangram guess
+    // If condition is 'social own', reward speaker for correct group guess
+    let speaker_phase3score = speaker.get("phase3score") || 0;
+    if (player.stage.get("condition").includes("refer")) {
+      speaker_phase3score += player.stage.get("correctTangram") ? 1 : 0;
+    } else {
+      speaker_phase3score += player.stage.get("correctGroup") ? 1 : 0;
+    }
     speaker.set("phase3score", speaker_phase3score + thisTrialScore);
   }
 });
@@ -536,6 +564,7 @@ Empirica.onRoundEnded(({ round }) => {
     players.forEach((player) => {
       const phase3score = player.get("phase3score") || 0;
       player.set("score", player.get("score") + phase3score);
+      player.set("bonus", player.get("bonus") + phase3score * bonus_per_point);
     });
   }
 });

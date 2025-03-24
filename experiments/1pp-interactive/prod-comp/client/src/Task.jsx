@@ -3,6 +3,7 @@ import React from "react";
 import { Refgame } from "./stages/Refgame.jsx";
 import { Production } from "./stages/Production.jsx";
 import { Comprehension } from "./stages/Comprehension.jsx";
+import { Transition } from "./stages/Transition.jsx";
 
 // TODO: Add the transitions between the phases
 export function Task(props) {
@@ -14,6 +15,8 @@ export function Task(props) {
         return <Production round={round} stage={stage} game={game} player={player} players={players}/>;
     case "comprehension": 
         return <Comprehension round={round} stage={stage} game={game} player={player} players={players}/>;
+    case "transition": 
+        return <Transition round={round} stage={stage} game={game} player={player} players={players}/>;
     default:
       return <Loading />;
   }
