@@ -36,3 +36,6 @@ export const name_colors = {
     "#A93849", // Noah
   ],
 };
+
+// Bonus multiplier
+export const bonus_per_point = 0.01;
