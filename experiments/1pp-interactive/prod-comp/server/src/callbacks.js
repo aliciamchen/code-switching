@@ -11,6 +11,7 @@ import {
 
 Empirica.onGameStart(({ game }) => {
   console.log("Game started");
+  game.set("justStarted", true);
   // Assign tangram set
   const tangram_set = _.random(0, 2);
   const context = tangram_sets[tangram_set];
@@ -160,6 +161,7 @@ Empirica.onGameStart(({ game }) => {
 });
 
 Empirica.onRoundStart(({ round }) => {
+  round.set("justStarted", true);
   // On refgame round starts, set player roles
   if (round.get("phase") == "refgame") {
     const players = round.currentGame.players;
