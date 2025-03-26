@@ -14,17 +14,18 @@ export function Transition(props) {
   if (stage.get("name") === "phase_2_transition") {
     return (
       <div className="prompt-container" style={{ textAlign: "left" }}>
-        <div className="text-2xl"><em>End of Phase 1</em></div>
-        <p
-          className="instruction-prompt" style={{ marginTop: 8 }}
-        >
-          In Phase 2, you will be shown a target picture on each trial,
-          and asked to generate a description for the picture. We will tell you{" "}
+        <div className="text-2xl">
+          <em>End of Phase 1</em>
+        </div>
+        <p className="instruction-prompt" style={{ marginTop: 8 }}>
+          In Phase 2, you will be shown a target picture on each trial, and
+          asked to generate a description for the picture. We will tell you{" "}
           <strong>who</strong> will see your description (a member of your
           group, or a member of another group) and{" "}
-          <strong>what question</strong> they will be answering when they see
-          it. Your goal is to try to get them to answer the question in a
-          certain way based on your description of the picture.
+          <strong>what question</strong> they will be answering when they see it
+          (select the correct picture, or identify whether you are a member of
+          their group). Your goal is to try to get them to answer the question
+          in a certain way based on your description of the picture.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           Then, in Phase 3, we will deliver your descriptions to the other
@@ -32,10 +33,12 @@ export function Transition(props) {
           descriptions. You will receive three points for each correct guess.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
-          ⚠️ Please ensure that your description is of the highlighted picture. Any
-          other kinds of messages (e.g. identifying information about your
+          ⚠️ Please ensure that your description is of the highlighted picture.
+          Any other kinds of messages (e.g. identifying information about your
           group, such as the names of the players in your group) will be
-          considered invalid and you will not receive any points for that trial. ⚠️       </p>
+          considered invalid and you will not receive any points for that trial.
+          ⚠️{" "}
+        </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           There will be 18 trials in this phase. We will tell you how many
           points you have earned at the end of the game.
@@ -56,19 +59,24 @@ export function Transition(props) {
   if (stage.get("name") === "phase_3_transition") {
     return (
       <div className="prompt-container" style={{ textAlign: "left" }}>
-        <div className="text-2xl"><em>End of Phase 2</em></div>
-        <p
-          className="instruction-prompt" style={{ marginTop: 8 }}
-        >
+        <div className="text-2xl">
+          <em>End of Phase 2</em>
+        </div>
+        <p className="instruction-prompt" style={{ marginTop: 8 }}>
           In the next phase, you will be shown descriptions that other players
           produced in the previous phase. You will be asked to guess (1) which
-          tangram they were describing, and (2) whether they were a member of
+          picture they were describing, and (2) whether they were a member of
           your group. You will receive three points for each correct guess, for
           a total of six possible points per trial.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
-          There will be 36 trials in this phase. We will tell you how many
-          points you have earned at the end of the phase.
+          There will be 36 trials in this phase. Unlike in the first phase, you
+          will not receive feedback at the end of each trial. We will tell you
+          how many points you have earned at the end of the phase.
+        </p>
+        <p className="instruction-prompt" style={{ marginTop: 8 }}>
+          This is the last phase of the game. Stay focused; you're almost at the
+          end! 😁
         </p>
         <div
           style={{
@@ -86,15 +94,15 @@ export function Transition(props) {
   if (stage.get("name") === "bonus_info") {
     return (
       <div className="prompt-container" style={{ textAlign: "left" }}>
-        <div className="text-2xl"><em>End of Phase 3</em></div>
-        <p
-          className="instruction-prompt" style={{ marginTop: 8 }}
-        >
+        <div className="text-2xl">
+          <em>End of Phase 3</em>
+        </div>
+        <p className="instruction-prompt" style={{ marginTop: 8 }}>
           You have completed the game. Congrats!
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
-          You earned <strong>{player.get("phase3score")} points</strong> in the last two
-          phases of the task.
+          You earned <strong>{player.get("phase3score")} points</strong> in the
+          last two phases of the task.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           You earned <strong>{player.get("score")} points</strong> in total, for

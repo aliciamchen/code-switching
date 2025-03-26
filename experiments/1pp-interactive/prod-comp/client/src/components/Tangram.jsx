@@ -132,7 +132,7 @@ export function Tangram(props) {
   if (round.get("phase") == "speaker_prod") {
     if (tangram == target) {
       _.extend(mystyle, {
-        outline: `10px solid #A9A9A9`,
+        outline: `10px solid #000`,
         zIndex: "9",
       });
     }
@@ -146,7 +146,8 @@ export function Tangram(props) {
       console.log("click2");
 
       const clickedTangram = player.stage.get("clicked_tangram");
-      if (clickedTangram === tangram) { // if this is the same tangram that was clicked before, do nothing
+      if (clickedTangram === tangram) {
+        // if this is the same tangram that was clicked before, do nothing
         return;
       }
 
@@ -161,9 +162,9 @@ export function Tangram(props) {
         zIndex: "9",
       };
     }
-    return (
-      <div onClick={handleClick} style={mystyle}>
-      </div>
-    );
+    return <div onClick={handleClick} style={mystyle}></div>;
   }
+  
+  // default case
+  return <div style={mystyle}></div>;
 }

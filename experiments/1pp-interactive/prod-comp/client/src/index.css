@@ -11,6 +11,70 @@
     -moz-appearance: textfield;
   }
 }
+
+h1, h2, h3, h4 {
+  /* text-align: center; */
+  font-weight: bold;
+}
+
+/* make headings in instructions left aligned
+.instructions h2, .instructions h3, .instructions h4 {
+  text-align: left;
+} */
+
+/* Make h1 bold and bigger */
+.instructions h1 {
+  font-size: 1.8em;
+  padding-top: 0.7em;
+}
+
+.instructions h2 {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.standalone {
+  padding: 25vh 0;
+}
+
+.consent {
+  text-align: justify;
+  width: 70vw;
+  display: block;
+  background-color: #fff;
+  padding: 2.5%;
+  margin: 0 auto;
+}
+
+.consent p {
+  /* align text to left */
+  text-align: left;
+  /* add space between paragraphs */
+  margin: 0.7em 0;
+  /* increase text size */
+  font-size: 1.2em;
+}
+
+.consent h1 {
+  font-size: 1.8em;
+  padding-top: 0.7em;
+}
+
+.instructions {
+  text-align: justify;
+  width: 75vw;
+  display: block;
+  background-color: #fff;
+  padding: 2.5%;
+  margin: 0 auto;
+}
+
+.instructions p {
+   text-align: left;
+   margin: 0.7em 0;
+   font-size: 1.2em;
+}
+
 .players .player-group .player {
   flex-direction: column;
   margin: 0 10px;

@@ -38,4 +38,4 @@ export const name_colors = {
 };
 
 // Bonus multiplier
-export const bonus_per_point = 0.01;
+export const bonus_per_point = 0.02;
