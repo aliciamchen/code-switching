@@ -15,6 +15,7 @@ export function ExitSurvey({ next }) {
   const [fair, setFair] = useState("");
   const [feedback, setFeedback] = useState("");
   const [education, setEducation] = useState("");
+  const [understood, setUnderstood] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -25,6 +26,7 @@ export function ExitSurvey({ next }) {
       fair,
       feedback,
       education,
+      understood,
     });
     next();
   }
@@ -33,16 +35,16 @@ export function ExitSurvey({ next }) {
     setEducation(e.target.value);
   }
 
+  function handleUnderstoodChange(e) {
+    setUnderstood(e.target.value);
+  }
+
   return (
     <div className="py-8 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <Alert title="Bonus">
         <p>
           Please submit the following code to receive your bonus:{" "}
-          <strong>{player.id}</strong>.
-        </p>
-        <p className="pt-1">
-          Your final <strong>bonus</strong> is in addition of the{" "}
-          <strong>1 base reward</strong> for completing the HIT.
+          <strong>C3OIIB3N</strong>.
         </p>
       </Alert>
 
@@ -57,8 +59,10 @@ export function ExitSurvey({ next }) {
                 Exit Survey
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                Please answer the following short survey. You do not have to
-                provide any information you feel uncomfortable with.
+                Thank you for participating in the study! Please answer the
+                following short survey. Please be honest, your responses will
+                not affect your pay in any way. You do not have to provide any
+                information you feel uncomfortable with.
               </p>
             </div>
 
@@ -133,9 +137,31 @@ export function ExitSurvey({ next }) {
                 </div>
               </div>
 
+              <div>
+                <label className={labelClassName}>
+                  Did you understand the instructions?
+                </label>
+                <div className="grid gap-2">
+                  <Radio
+                    selected={understood}
+                    name="understood"
+                    value="yes"
+                    label="Yes"
+                    onChange={handleUnderstoodChange}
+                  />
+                  <Radio
+                    selected={understood}
+                    name="understood"
+                    value="no"
+                    label="No"
+                    onChange={handleUnderstoodChange}
+                  />
+                </div>
+              </div>
+
               <div className="grid grid-cols-3 gap-x-6 gap-y-3">
                 <label className={labelClassName}>
-                  How would you describe your strength in the game?
+                  How would you describe your strategy in the game?
                 </label>
 
                 <label className={labelClassName}>
