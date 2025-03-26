@@ -71,6 +71,9 @@ export function Comprehension(props) {
             borderRadius: "4px",
             marginLeft: "8px",
             display: "inline-block",
+            wordBreak: "break-word",
+            maxWidth: "100%",
+            overflowWrap: "break-word"
           }}
         >
           {player.stage.get("description")}

@@ -30,7 +30,7 @@ export function Transition(props) {
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           Then, in Phase 3, we will deliver your descriptions to the other
           players, and ask them to answer the questions based on your
-          descriptions. You will receive three points for each correct guess.
+          descriptions. You will receive <strong>three points</strong> for each correct guess.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           ⚠️ Please ensure that your description is of the highlighted picture.
@@ -38,6 +38,11 @@ export function Transition(props) {
           group, such as the names of the players in your group) will be
           considered invalid and you will not receive any points for that trial.
           ⚠️{" "}
+        </p>
+        <p className="instruction-prompt" style={{ marginTop: 8 }}>
+          You have 30 seconds to submit your description on each trial. If you
+          do not submit a description within 30 seconds, neither you nor the
+          listener will receive any points for that trial.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           There will be 18 trials in this phase. We will tell you how many
@@ -66,13 +71,19 @@ export function Transition(props) {
           In the next phase, you will be shown descriptions that other players
           produced in the previous phase. You will be asked to guess (1) which
           picture they were describing, and (2) whether they were a member of
-          your group. You will receive three points for each correct guess, for
-          a total of six possible points per trial.
+          your group. You will receive <strong>three points</strong> for each
+          correct guess, for a total of <strong>six possible points</strong> per
+          trial.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           There will be 36 trials in this phase. Unlike in the first phase, you
           will not receive feedback at the end of each trial. We will tell you
           how many points you have earned at the end of the phase.
+        </p>
+        <p className="instruction-prompt" style={{ marginTop: 8 }}>
+          You have 30 seconds to make your guess for each trial. If you do not
+          submit a guess within 30 seconds, you will not receive any points for
+          that trial.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           This is the last phase of the game. Stay focused; you're almost at the
@@ -106,7 +117,7 @@ export function Transition(props) {
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           You earned <strong>{player.get("score")} points</strong> in total, for
-          a bonus of <strong>${player.get("bonus")}</strong>.
+          a bonus of <strong>${player.get("bonus").toFixed(2)}</strong>.
         </p>
         <p className="instruction-prompt" style={{ marginTop: 8 }}>
           Please press "continue" to proceed to the post-game survey.
