@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Tangram } from "../components/Tangram.jsx";
 import { Button } from "../components/Button.jsx";
 
 export function Refgame(props) {
   const { round, stage, game, player, players } = props;
+  const [hasSubmitted, setHasSubmitted] = useState(false);
+
+  // Reset the local submission state when stage changes
+  useEffect(() => {
+    if (stage.get("name") === "Feedback") {
+      setHasSubmitted(false);
+    }
+  }, [stage.get("name")]);
 
   const target = round.get("target");
   const shuffled_tangrams = player.get("shuffled_tangrams");
@@ -85,25 +93,36 @@ export function Refgame(props) {
         player.round.get("round_score") == 1 ? `point` : `points`
       } this round.`;
     }
-
-    if (player.stage.get("submit")) {
-      return (
-        <div className="text-center text-gray-400 pointer-events-none">
-          Please wait for other player(s).
-        </div>
-      );
-    }
   }
+
+  if (hasSubmitted && stage.get("name") == "Feedback") {
+    return (
+      <div className="text-center text-gray-400 pointer-events-none">
+        Please wait for other player(s).
+      </div>
+    );
+  }
+
   return (
     <div className="task">
       <div className="status">
-          <div className="players card">
-            <h3 style={{ textAlign: "center", marginBottom: "10px" }}>Your Group | Round {round.get("rep_num") + 1} of 12</h3>
-            <div className="player-group" style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
-              {renderPlayer(player, true)}
-              {otherPlayers.map((p) => renderPlayer(p))}
-            </div>
+        <div className="players card">
+          <h3 style={{ textAlign: "center", marginBottom: "10px" }}>
+            Your Group | Round {round.get("rep_num") + 1} of 12
+          </h3>
+          <div
+            className="player-group"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexWrap: "wrap",
+            }}
+          >
+            {renderPlayer(player, true)}
+            {otherPlayers.map((p) => renderPlayer(p))}
           </div>
+        </div>
       </div>
       <div className="board">
         <div className="prompt-container">
@@ -156,7 +175,12 @@ export function Refgame(props) {
               marginTop: "1rem",
             }}
           >
-            <Button handleClick={() => player.stage.set("submit", true)}>
+            <Button
+              handleClick={() => {
+                player.stage.set("submit", true);
+                setHasSubmitted(true);
+              }}
+            >
               Continue
             </Button>
           </div>
