@@ -7,10 +7,11 @@ import {
   name_colors,
   conditions,
   avatar_names,
+  bonus_per_point
 } from "./constants";
 
 Empirica.onGameStart(({ game }) => {
-  console.log("Game started");
+  console.log(`Game ${game.id} started`);
   game.set("justStarted", true);
   // Assign tangram set
   const tangram_set = _.random(0, 2);
@@ -71,7 +72,7 @@ Empirica.onGameStart(({ game }) => {
       _.times(shuffled_context.length, (target_num) => {
         // in each round (repetition block), loop through each tangram in the context
         const round = game.addRound({
-          name: `Reference Game`,
+          name: `Phase 1: Reference Game`,
           phase: "refgame",
           speaker: player_index,
           target_order: shuffled_context,
@@ -97,7 +98,7 @@ Empirica.onGameStart(({ game }) => {
 
   transition_1.addStage({
     name: "phase_2_transition",
-    duration: 3000,
+    duration: 60,
   });
 
   // PHASE 2: SPEAKER PRODUCTION
@@ -114,7 +115,6 @@ Empirica.onGameStart(({ game }) => {
   // for each player, add the randomized order of tangram-condition pairs
   game.players.forEach((player) => {
     player.set("phase_2_trial_order", _.shuffle(tangram_combos)); // TODO: change to object rather than indexing into list
-    // console.log(player.get("phase_2_trial_order"));
   });
   // _.times(tangram_combos.length, (i) => {
   _.times(2, (i) => {
@@ -132,7 +132,7 @@ Empirica.onGameStart(({ game }) => {
 
   transition_2.addStage({
     name: "phase_3_transition",
-    duration: 3000,
+    duration: 60,
   });
   // PHASE 3: LISTENER INTERPRETATION
 
@@ -156,7 +156,7 @@ Empirica.onGameStart(({ game }) => {
 
   transition_3.addStage({
     name: "bonus_info",
-    duration: 3000,
+    duration: 60,
   });
 });
 
@@ -201,7 +201,7 @@ Empirica.onStageStart(({ stage }) => {
 
     players.forEach((player) => {
       const trial_num = stage.get("trial_num");
-      console.log(player.get("phase_3_trials")); // undefined
+      // console.log(player.get("phase_3_trials")); // undefined
       const trial = player.get("phase_3_trials")[trial_num]; // undefied
 
       player.stage.set("target", trial.target);
@@ -314,27 +314,41 @@ Empirica.onStageEnded(({ stage }) => {
   // Assign score to both the listener and the speaker that had produced the utterance
 
   if (stage.get("name") === "Comprehension") {
-    const game = stage.currentGame;
-    const players = game.players;
-    const player = game.player;
+    const players = stage.currentGame.players;
+    players.forEach((player) => {
+      const phase3score = player.get("phase3score") || 0;
 
-    const phase3score = player.get("phase3score") || 0;
-    const thisTrialScore =
-      (player.stage.get("correctTangram") ? 1 : 0) +
-      (player.stage.get("correctGroup") ? 1 : 0);
-    player.set("phase3score", phase3score + thisTrialScore);
+      
+      const thisTrialScore =
+        (player.stage.get("correctTangram") ? 3 : 0) +
+        (player.stage.get("correctGroup") ? 3 : 0);
 
-    const speaker = players.find((p) => p.id === player.stage.get("speaker"));
+      player.set("phase3score", phase3score + thisTrialScore);
+  
+      // Find the speaker by ID 
+      const speakerId = player.stage.get("speaker");
+      const speaker = players.find(p => p.id === speakerId);
+      
+      if (speaker) {
+        let speaker_phase3score = speaker.get("phase3score") || 0;
+        let speakerReward = 0;
+        
+        // If condition is 'refer own' or 'refer other', reward speaker for correct tangram guess
+        // If condition is 'social own', reward speaker for correct group guess
+        const condition = player.stage.get("condition");
 
-    // If condition is 'refer own' or 'refer other', reward speaker for correct tangram guess
-    // If condition is 'social own', reward speaker for correct group guess
-    let speaker_phase3score = speaker.get("phase3score") || 0;
-    if (player.stage.get("condition").includes("refer")) {
-      speaker_phase3score += player.stage.get("correctTangram") ? 1 : 0;
-    } else {
-      speaker_phase3score += player.stage.get("correctGroup") ? 1 : 0;
-    }
-    speaker.set("phase3score", speaker_phase3score + thisTrialScore);
+        if (condition && condition.includes("refer")) {
+          speakerReward = player.stage.get("correctTangram") ? 3 : 0;
+        } else {
+          speakerReward = player.stage.get("correctGroup") ? 3 : 0;
+        }
+        
+        // Update speaker's phase3score
+        speaker.set("phase3score", speaker_phase3score + speakerReward);
+      } else {
+        console.error(`Speaker with ID ${speakerId} not found`);
+      }
+    });
   }
 });
 
@@ -408,10 +422,6 @@ Empirica.onRoundEnded(({ round }) => {
         const shuffled_other_group_players = _.shuffle(other_group_players);
         const shuffled_own_group_players = _.shuffle(own_group_players);
         shuffled_other_group_players.pop(); // exclude one player from the other group
-        // console.log(all_utterances);
-        // console.log(all_utterances[player_group][shuffled_own_group_players[0].id][
-        // "social own"
-        // ][tangram])
 
         // Helper function to safely get utterance or provide fallback
         const safeGetUtterance = (
@@ -431,7 +441,7 @@ Empirica.onRoundEnded(({ round }) => {
                 targetTangram
               ];
             }
-            return `[No description provided for ${condition}]`;
+            return `[No description provided]`;
           } catch (e) {
             console.error(`Error getting utterance: ${e.message}`);
             return `[Error retrieving description]`;
@@ -553,7 +563,7 @@ Empirica.onRoundEnded(({ round }) => {
           });
         }
       });
-      console.log(phase_3_trials);
+      // console.log(phase_3_trials);
       const shuffled_phase_3_trials = _.shuffle(phase_3_trials);
       player.set("phase_3_trials", shuffled_phase_3_trials);
     });
@@ -566,7 +576,7 @@ Empirica.onRoundEnded(({ round }) => {
     players.forEach((player) => {
       const phase3score = player.get("phase3score") || 0;
       player.set("score", player.get("score") + phase3score);
-      player.set("bonus", player.get("bonus") + phase3score * bonus_per_point);
+      player.set("bonus", player.get("score") * bonus_per_point);
     });
   }
 });
