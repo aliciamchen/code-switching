@@ -8,7 +8,6 @@ export function Introduction({ next }) {
 
   const instructionComponents = [
     <Introduction1 />,
-
     <Introduction2 />,
     <Introduction3 />,
     <Introduction4 />,
