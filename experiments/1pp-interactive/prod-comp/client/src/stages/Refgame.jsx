@@ -32,7 +32,7 @@ export function Refgame(props) {
         <span className="image">
           {p.get("avatar") && <img src={p.get("avatar")} alt="Player avatar" />}
         </span>
-        <span className="name" style={{ color: p.get("nameColor") || "#000" }}>
+        <span className="name" style={{ color: p.get("name_color") || "#000" }}>
           {p.get("name") || `Player ${p.index}`}
           {self
             ? " (You)"

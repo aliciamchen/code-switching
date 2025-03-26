@@ -21,7 +21,7 @@ Empirica.onGameStart(({ game }) => {
     player.set("name", names[i]);
     player.set("tangram_set", tangram_set);
     player.set("context", context);
-    player.set("score", 0);
+    player.set("score", 0); // Max score: 12 * 6 * 3 + 18 * 3 + 36 * 6 = 216 + 54 + 216 = 486
     player.set("phase3score", 0);
     player.set("bonus", 0);
   });
