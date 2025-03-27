@@ -6,6 +6,8 @@ import { Game } from "./Game";
 import { ExitSurvey } from "./intro-exit/ExitSurvey";
 import { Introduction } from "./intro-exit/Introduction";
 import { ConsentPage } from "./intro-exit/Consent.jsx";
+import { Sorry } from "./intro-exit/Sorry.jsx";
+import { Inactive } from "./intro-exit/Inactive.jsx";
 
 export default function App() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -15,11 +17,18 @@ export default function App() {
   const url = `${protocol}//${host}/query`;
 
   function introSteps({ game, player }) {
-    return [ConsentPage, Introduction];
+    return []; // for testing
+    // return [ConsentPage, Introduction];
   }
 
   function exitSteps({ game, player }) {
-    return [ExitSurvey];
+    if (player.get("ended") == "game ended") {
+      return [ExitSurvey];
+    } else if (game.get("endedReason") == "player timeout") {
+      return [Inactive]; // TODO: impelmet Inactive component
+    } else {
+      return [Sorry];
+    }
   }
 
   return (

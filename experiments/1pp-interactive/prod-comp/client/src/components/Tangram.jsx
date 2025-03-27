@@ -58,7 +58,7 @@ export function Tangram(props) {
         (player.round.get("role") == "listener")
       ) {
         player.round.set("clicked", tangram);
-        setTimeout(() => player.stage.set("submit", true), 3000); // FIX?? this does not submit
+        setTimeout(() => player.stage.set("submit", true), 3000); 
       }
       // end stage if all listeners have clicked
       const listeners = playersInGroup.filter(
