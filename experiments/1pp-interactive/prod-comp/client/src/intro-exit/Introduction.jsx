@@ -296,7 +296,10 @@ export function Introduction5({ next }) {
         Each time a <strong>Listener</strong> makes a correct selection, they
         get <strong>3 points</strong>.{" "}
       </p>
-      <p>Both an incorrect selection and no selection (timing out) earn no points.</p>
+      <p>
+        Both an incorrect selection and no selection (timing out) earn no
+        points.
+      </p>
       <p>
         The <strong>Speaker</strong> gets a bonus equal to{" "}
         <strong>the average</strong> of the Listeners's scores. For example, if
@@ -319,6 +322,12 @@ export function Introduction5({ next }) {
           Remember, free riding is not permitted. If we detect that you are
           inactive during a task, you will not receive a bonus for that task.
         </strong>
+      </p>
+      <p>
+        After you pass the comprehension quiz, you will be put into a waiting
+        lobby. When there are enough players to start the game, the game will
+        begin. Please note that it might take up to 5 minutes to find enough
+        players.
       </p>
       <p>If you experience issues, please contact us on Prolific.</p>
     </div>

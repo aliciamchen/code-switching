@@ -36,7 +36,7 @@ export function Refgame(props) {
   // Render player status indicator
   const renderPlayer = (p, self = false) => {
     return (
-      <div className="player" key={p._id}>
+      <div className="player" key={p.id}>
         <span className="image">
           {p.get("avatar") && <img src={p.get("avatar")} alt="Player avatar" />}
         </span>
