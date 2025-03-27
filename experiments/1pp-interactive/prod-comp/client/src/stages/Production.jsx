@@ -9,10 +9,34 @@ export function Production(props) {
   const { round, stage, game, player, players } = props;
   const [description, setDescription] = React.useState("");
 
+  const playerGroup = player.get("group");
+  const playersInGroup = players.filter((p) => p.get("group") === playerGroup);
+  const otherPlayersInGroup = playersInGroup.filter((p) => p.id !== player.id);
+  const playersInOtherGroup = players.filter(
+    (p) => p.get("group") !== playerGroup
+  );
+
   // Make sure to reset the description when the stage changes
   useEffect(() => {
     setDescription("");
   }, [stage]);
+
+  // Render player status indicator
+  const renderPlayer = (p, self = false) => {
+    return (
+      <div className="player" key={p.id}>
+        <span className="image">
+          {p.get("avatar") && <img src={p.get("avatar")} alt="Player avatar" />}
+        </span>
+        <span className="name" style={{ color: p.get("name_color") || "#000" }}>
+          {p.get("name") || `Player ${p.index}`}
+          {self
+            ? " (You)"
+            : ""}
+        </span>
+      </div>
+    );
+  };
 
   const target = player.stage.get("target");
   const condition = player.stage.get("condition");
@@ -29,8 +53,8 @@ export function Production(props) {
   } else if (condition == "refer other") {
     prompt = (
       <>
-        Please write a description to help a member of{" "}
-        <span style={{ fontWeight: "bold" }}>another</span> group{" "}
+        Please write a description to help a player{" "}
+        <span style={{ fontWeight: "bold" }}>not in your</span> group{" "}
         <span style={{ fontWeight: "bold" }}>pick the correct picture</span>.
       </>
     );
@@ -86,9 +110,33 @@ export function Production(props) {
   return (
     <div className="task">
       <div className="board">
-        <div className="trial-info">Trial {stage.get("trial_num") + 1} out of 18</div>
+        <div className="trial-info">
+          Trial {stage.get("trial_num") + 1} out of 18
+        </div>
+
         <div className="prompt-container">
           <p className="instruction-prompt">{prompt}</p>
+        </div>
+        <div className="status">
+          <div className="players card" style={{width: "60%"}}>
+            <h3 style={{ textAlign: "center", marginBottom: "10px" }}>
+              {condition.includes("own") ? "Your Group" : "Other Players"}
+            </h3>
+            <div
+              className="player-group"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                flexWrap: "wrap",
+              }}
+            >
+              {condition.includes("own") ? renderPlayer(player, true) : ""}
+              {condition.includes("own")
+                ? otherPlayersInGroup.map((p) => renderPlayer(p))
+                : playersInOtherGroup.map((p) => renderPlayer(p))}
+            </div>
+          </div>
         </div>
       </div>
       <div className="all-tangrams">
