@@ -7,7 +7,7 @@ import {
   name_colors,
   conditions,
   avatar_names,
-  bonus_per_point
+  bonus_per_point,
 } from "./constants";
 
 Empirica.onGameStart(({ game }) => {
@@ -26,6 +26,7 @@ Empirica.onGameStart(({ game }) => {
     player.set("score", 0); // Max score: 12 * 6 * 3 + 18 * 3 + 36 * 6 = 216 + 54 + 216 = 486
     player.set("phase3score", 0);
     player.set("bonus", 0);
+    player.set("num_stages_inactive", 0);
   });
 
   // Randomly assign 4 of the players to the red group and the other 4 to the blue group
@@ -178,6 +179,15 @@ Empirica.onRoundStart(({ round }) => {
     blue_players.forEach((player, i) => {
       player.round.set("role", i == speaker ? "speaker" : "listener");
     });
+
+    // save group, target in player round
+    players.forEach((player) => {
+      player.round.set("name", player.get("name"));
+      player.round.set("phase", "refgame");
+      player.round.set("group", player.get("group"));
+      player.round.set("rep_num", round.get("rep_num"));
+      player.round.set("target", round.get("target"));
+    });
   }
 });
 
@@ -190,7 +200,7 @@ Empirica.onStageStart(({ stage }) => {
     players.forEach((player) => {
       const trial_num = stage.get("trial_num");
       const trial = player.get("phase_2_trial_order")[trial_num];
-
+      player.stage.set("name", "production");
       player.stage.set("target", trial[0]);
       player.stage.set("condition", trial[1]);
     });
@@ -204,6 +214,7 @@ Empirica.onStageStart(({ stage }) => {
       // console.log(player.get("phase_3_trials")); // undefined
       const trial = player.get("phase_3_trials")[trial_num]; // undefied
 
+      player.stage.set("name", "comprehension");
       player.stage.set("target", trial.target);
       player.stage.set("condition", trial.condition);
       player.stage.set("matched", trial.matched);
@@ -216,13 +227,34 @@ Empirica.onStageStart(({ stage }) => {
 });
 
 Empirica.onStageEnded(({ stage }) => {
+  const game = stage.currentGame;
+  const players = game.players;
+
+  // handle inactive players
+  players.forEach((player) => {
+    const isActive = player.stage.get("submit");
+    if (!isActive) {
+      const consecutive_inactive = player.get("num_consecutive_inactive") || 0;
+      player.set("num_consecutive_inactive", consecutive_inactive + 1);
+      player.set("num_stages_inactive", player.get("num_stages_inactive") + 1);
+      if (consecutive_inactive >= 7) {
+        console.log(
+          `Game ${game.id} ended: Player ${player.id} was inactive for 7 consecutive stages`
+        );
+        game.set("endedReason", "player timeout");
+        player.set("ended", "game terminated");
+      }
+    } else {
+      player.set("num_consecutive_inactive", 0); // reset consecutive inactive count
+    }
+  });
+
   if (stage.get("name") === "Selection") {
+    // during refgame phase
     // Calculate score for the current stage
     // Listeners get 1 point when they correctly identify the target
     // The speaker gets the average of the listeners' scores, in that group.
 
-    const game = stage.currentGame;
-    const players = game.players;
     const round = stage.round;
 
     const target = round.get("target");
@@ -272,6 +304,16 @@ Empirica.onStageEnded(({ stage }) => {
     red_speaker.round.set("round_score", red_avg_score);
     blue_speaker.set("score", blue_speaker.get("score") + blue_avg_score);
     blue_speaker.round.set("round_score", blue_avg_score);
+
+    // save chat in round
+    red_players.forEach((player) => {
+      const chat = stage.get("red_chat");
+      player.round.set("chat", chat);
+    });
+    blue_players.forEach((player) => {
+      const chat = stage.get("blue_chat");
+      player.round.set("chat", chat);
+    });
   }
 
   // Add Phase 2 speaker utterances to player's round data (for collecting later)
@@ -318,21 +360,20 @@ Empirica.onStageEnded(({ stage }) => {
     players.forEach((player) => {
       const phase3score = player.get("phase3score") || 0;
 
-      
       const thisTrialScore =
         (player.stage.get("correctTangram") ? 3 : 0) +
         (player.stage.get("correctGroup") ? 3 : 0);
 
       player.set("phase3score", phase3score + thisTrialScore);
-  
-      // Find the speaker by ID 
+
+      // Find the speaker by ID
       const speakerId = player.stage.get("speaker");
-      const speaker = players.find(p => p.id === speakerId);
-      
+      const speaker = players.find((p) => p.id === speakerId);
+
       if (speaker) {
         let speaker_phase3score = speaker.get("phase3score") || 0;
         let speakerReward = 0;
-        
+
         // If condition is 'refer own' or 'refer other', reward speaker for correct tangram guess
         // If condition is 'social own', reward speaker for correct group guess
         const condition = player.stage.get("condition");
@@ -342,7 +383,7 @@ Empirica.onStageEnded(({ stage }) => {
         } else {
           speakerReward = player.stage.get("correctGroup") ? 3 : 0;
         }
-        
+
         // Update speaker's phase3score
         speaker.set("phase3score", speaker_phase3score + speakerReward);
       } else {
@@ -402,7 +443,7 @@ Empirica.onRoundEnded(({ round }) => {
         }
         all_utterances[player_group][player.id] = utterances;
       }
-      player.set("all_utterances", all_utterances);
+      player.set("all_utterances", all_utterances); // save utterances in the player's group, to the player
     });
     console.log(all_utterances);
 
@@ -466,7 +507,7 @@ Empirica.onRoundEnded(({ round }) => {
             target: tangram,
           });
         }
-        console.log(phase_3_trials);
+        // console.log(phase_3_trials);
 
         // refer + own, from own group
         if (shuffled_own_group_players.length > 0) {
@@ -581,4 +622,6 @@ Empirica.onRoundEnded(({ round }) => {
   }
 });
 
-Empirica.onGameEnded(({ game }) => {});
+Empirica.onGameEnded(({ game }) => {
+  console.log(`Game ${game.id} ended`);
+});
