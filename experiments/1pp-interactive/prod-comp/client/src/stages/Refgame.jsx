@@ -108,7 +108,7 @@ export function Refgame(props) {
       <div className="status">
         <div className="players card">
           <h3 style={{ textAlign: "center", marginBottom: "10px" }}>
-            Your Group | Round {round.get("rep_num") + 1} of 12
+            Your Group | Round {round.get("rep_num") + 1} of 8
           </h3>
           <div
             className="player-group"
