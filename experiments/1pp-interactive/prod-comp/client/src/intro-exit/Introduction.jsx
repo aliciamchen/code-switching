@@ -28,7 +28,6 @@ export function Introduction({ next }) {
   };
 
   if (currentIndex === instructionComponents.length - 1) {
-    // get rid of next button on last page
     return (
       <div className="instructions">
         {instructionComponents[currentIndex]}

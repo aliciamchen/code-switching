@@ -117,8 +117,8 @@ Empirica.onGameStart(({ game }) => {
   game.players.forEach((player) => {
     player.set("phase_2_trial_order", _.shuffle(tangram_combos)); // TODO: change to object rather than indexing into list
   });
-  // _.times(tangram_combos.length, (i) => {
-  _.times(2, (i) => {
+  _.times(tangram_combos.length, (i) => {
+    // _.times(2, (i) => {
     // for testing
     phase_2.addStage({
       name: "Production",
@@ -135,6 +135,7 @@ Empirica.onGameStart(({ game }) => {
     name: "phase_3_transition",
     duration: 60,
   });
+
   // PHASE 3: LISTENER INTERPRETATION
 
   // Create phase 3 trials
@@ -185,9 +186,19 @@ Empirica.onRoundStart(({ round }) => {
       player.round.set("name", player.get("name"));
       player.round.set("phase", "refgame");
       player.round.set("group", player.get("group"));
-      player.round.set("rep_num", round.get("rep_num"));
+      player.round.set("rep_num", round.get("rep_num")); // TODO: change.. what is this doing
       player.round.set("target", round.get("target"));
     });
+  }
+
+  if (round.get("phase") == "speaker_prod") {
+    console.log(
+      `Speaker production round started for game ${round.currentGame.id}`
+    );
+  }
+
+  if (round.get("phase") == "comprehension") {
+    console.log(`Comprehension round started for game ${round.currentGame.id}`);
   }
 });
 
@@ -211,8 +222,7 @@ Empirica.onStageStart(({ stage }) => {
 
     players.forEach((player) => {
       const trial_num = stage.get("trial_num");
-      // console.log(player.get("phase_3_trials")); // undefined
-      const trial = player.get("phase_3_trials")[trial_num]; // undefied
+      const trial = player.get("phase_3_trials")[trial_num];
 
       player.stage.set("name", "comprehension");
       player.stage.set("target", trial.target);
@@ -323,7 +333,7 @@ Empirica.onStageEnded(({ stage }) => {
 
     players.forEach((player) => {
       const utterance = player.stage.get("utterance");
-      console.log(utterance);
+      // console.log(utterance);
 
       if (!player.round.get("utterances")) {
         player.round.set("utterances", {});
@@ -347,7 +357,7 @@ Empirica.onStageEnded(({ stage }) => {
         // add utterance to player's utterances
         player_utterances[condition][tangram] = utterance;
         player.round.set("utterances", player_utterances);
-        console.log(player_utterances); // TODO: test
+        // console.log(player_utterances); // TODO: test
       }
     });
   }
@@ -436,15 +446,16 @@ Empirica.onRoundEnded(({ round }) => {
     players.forEach((player) => {
       const utterances = player.round.get("utterances");
       const player_group = player.get("group");
-      console.log(utterances); // currently undefined?
+      console.log(utterances);
       if (utterances) {
         if (!all_utterances[player_group]) {
           all_utterances[player_group] = {};
         }
         all_utterances[player_group][player.id] = utterances;
       }
-      player.set("all_utterances", all_utterances); // save utterances in the player's group, to the player
+      player.set("all_utterances", all_utterances);
     });
+    console.log(`Utterances collected for game ${game.id}:`);
     console.log(all_utterances);
 
     players.forEach((player) => {
