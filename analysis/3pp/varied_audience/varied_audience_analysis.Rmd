@@ -218,7 +218,8 @@ ggplot(means.by.item, aes(x = later.transparency, y = empirical_stat, color = go
   geom_hline(yintercept = 0.5, color = "black", linetype = "dashed") +
   labs(x = "later label transparency", y = "P(earlier label)", title = "varied audience") + 
   scale_y_continuous(limits = c(-0.1, 1.1), breaks = c(0, 0.5, 1)) +
-  scale_x_continuous(limits = c(-0.1, 1.1), breaks = c(0, 0.5, 1))
+  scale_x_continuous(limits = c(-0.1, 1.1), breaks = c(0, 0.5, 1)) + 
+  scale_color_manual(values = c("refer" = "#018794", "social" = "#DE8F05"))
 ```
 
 what about cost diff? 

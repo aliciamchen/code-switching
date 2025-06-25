@@ -197,21 +197,37 @@ baseline.trials.refer <- selection_trials %>%
     response.unique == "shared" ~ 1
   ))
 
-
 baseline.trials.refer.means <- baseline.trials.refer %>%
-  group_by(audience) %>%
-  tidyboot_mean(seen, na.rm = T)
+  group_by(option1.label, option2.label) %>%
+  tidyboot_mean(seen, na.rm = TRUE) %>%
+  mutate(`seen - unseen` = paste(option1.label, option2.label, sep = " - ")) %>%
+  arrange(empirical_stat)
+
+# Relevel AFTER arrange
+baseline.trials.refer.means$`seen - unseen` <- factor(
+  baseline.trials.refer.means$`seen - unseen`,
+  levels = baseline.trials.refer.means$`seen - unseen`
+)
+```
+
+
+Plot
+
+```{r}
+ggplot(baseline.trials.refer.means, aes(x = `seen - unseen`, y = empirical_stat)) +
+  geom_point(size = 3, fill = "black") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.2) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "seen label - unseen label", y = "P(seen label)", title = "Study 1b manipulation checks, refer goal") +
+  scale_y_continuous(limits = c(0, 1)) +
+  theme(text = element_text(size = 15), axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 ```{r}
-ggplot(baseline.trials.refer, aes(x = audience, y = seen)) +
-  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.1) +
-  geom_point(data = baseline.trials.refer.means, aes(x = audience, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
-  geom_errorbar(data = baseline.trials.refer.means, aes(x = audience, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
-  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
-  labs(x = "audience", y = "seen or unseen label", title = "baseline trials refer goal") +
-  scale_y_continuous(breaks = c(0, 1), labels = c("unseen", "seen")) +
-  theme(legend.position = "none", plot.title = element_text(size = 15))
+baseline.refer.means <- baseline.trials.refer %>%
+  tidyboot_mean(seen, na.rm = T)
+
+baseline.refer.means
 ```
 
 ## "Social" goal
@@ -224,20 +240,41 @@ baseline.trials.social <- selection_trials %>%
   mutate(group_label = ifelse(audience_group == response.group, 1, 0))
 
 baseline.trials.social.means <- baseline.trials.social %>%
+  group_by(option1.label, option2.label) %>% 
   tidyboot_mean(group_label, na.rm = T) %>%
-  mutate(goal = "social")
+  mutate(goal = "social", 
+         `red - blue` = paste(option1.label, option2.label, sep = " - ")) %>%
+  arrange(empirical_stat)
+
+# Relevel AFTER arrange
+baseline.trials.social.means$`red - blue` <- factor(
+  baseline.trials.social.means$`red - blue`,
+  levels = baseline.trials.social.means$`red - blue`
+)
 ```
 
+Plot
+
 ```{r}
-ggplot(baseline.trials.social, aes(x = goal, y = group_label)) +
-  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.3) +
-  geom_point(data = baseline.trials.social.means, aes(x = goal, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
-  geom_errorbar(data = baseline.trials.social.means, aes(x = goal, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
+ggplot(baseline.trials.social.means, aes(x = `red - blue`, y = empirical_stat)) +
+  geom_point(size = 3, fill = "black") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.2) +
   geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
-  labs(x = "goal", y = "label belongs to audience grp", title = "baseline.trials") +
-  scale_y_continuous(breaks = c(0, 1), labels = c("no", "yes")) +
-  theme(legend.position = "none", plot.title = element_text(size = 15))
+  labs(x = "red label - blue label", y = "P(correct group)", title = "Study 1b manipulation checks, social goal") +
+  scale_y_continuous(limits = c(0, 1)) +
+  theme(text = element_text(size = 15), axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+
+
+```{r}
+baseline.social.means <- baseline.trials.social %>%
+  tidyboot_mean(group_label, na.rm = T) %>%
+  mutate(goal = "social")
+
+baseline.social.means
+```
+
+
 
 ## Put the baseline trials together
 
