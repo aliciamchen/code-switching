@@ -1,0 +1,86 @@
+{
+    "blue": {
+      "A": {
+        "label": "thriller",
+        "group": "A",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "B": {
+        "label": "mouse",
+        "group": "A",
+        "game": "hHoRuwi7p8k2XhzD3"
+      },
+      "C": {
+        "label": "shrug",
+        "group": "A",
+        "game": "P8wDF8HAYYAcwBYsm"
+      },
+      "D": {
+        "label": "priest",
+        "group": "A",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "E": {
+        "label": "crazy hat person",
+        "group": "B",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
+      "F": {
+        "label": "sad",
+        "group": "B",
+        "game": "pAaZt2Cv9MEFRCAY5"
+      },
+      "G": {
+        "label": "horse",
+        "group": "B",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "H": {
+        "label": "the innocent one",
+        "group": "B",
+        "game": "XpTJWaJYpSojYdngB"
+      }
+    },
+    "red": {
+      "E": {
+        "label": "windmill",
+        "group": "B",
+        "game": "kBQMXHtyqWiM2LxL6"
+      },
+      "F": {
+        "label": "arms under knees",
+        "group": "B",
+        "game": "BXWWg9XvCErxTpT9k"
+      },
+      "G": {
+        "label": "dog",
+        "group": "B",
+        "game": "rSMFkjhskBteiyQMB"
+      },
+      "H": {
+        "label": "blob",
+        "group": "B",
+        "game": "yYtSpzsEi4mnTuPrj"
+      },
+      "I": {
+        "label": "yoga guy",
+        "group": "C",
+        "game": "cA2SjWv3CePYZgyzS"
+      },
+      "J": {
+        "label": "large cube",
+        "group": "C",
+        "game": "3AT9PDD5rDrb5GS4e"
+      },
+      "K": {
+        "label": "duck",
+        "group": "C",
+        "game": "3WzEi9zkHF77vdTw5"
+      },
+      "L": {
+        "label": "squats",
+        "group": "C",
+        "game": "yYtSpzsEi4mnTuPrj"
+      }
+    }
+  }
