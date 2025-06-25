@@ -1,0 +1,146 @@
+[
+  {
+    "target": "C",
+    "convention": "hug",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "This looks like a person with their arms raised up",
+        "time": 0.9732803672711761,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "like its going in for a hug?",
+        "time": 0.8341001130721142,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.9958000142354843,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "hug",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "flailing arm, hugging",
+        "time": 0.6789323149857333,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "2 arms up",
+        "time": 0.7450726800611318,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "carol": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "hug",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the one that wants a hug",
+        "time": 0.9673006432866452,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "hug",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "man going in for hug",
+        "time": 0.7367119650080194,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "both arms open wide",
+        "time": 0.7058012223147453,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "carol": "C",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "hug",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "person trying to hug",
+        "time": 0.7004726738461114,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "hug",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "hug",
+        "time": 0.918880501953456,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "carol": "C",
+      "dave": "C"
+    }
+  }
+]

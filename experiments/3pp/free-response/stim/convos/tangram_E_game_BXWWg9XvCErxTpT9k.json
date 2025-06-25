@@ -1,0 +1,146 @@
+[
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "sitting down and its looking downwards with two triangles on top",
+        "time": 0.6780283447893172,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Like a arabbit?",
+        "time": 0.6796452920444428,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Like bunny ears?",
+        "time": 0.7744353018096846,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.729333472952929,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Nice haha",
+        "time": 0.9290667093247991,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "E",
+      "carol": "E",
+      "bob": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Bunny rabbit ears looking down",
+        "time": 0.8739218009016827,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "E",
+      "dave": "E",
+      "carol": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Sitting down with bunny ears",
+        "time": 0.654360133890827,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "E",
+      "dave": "E",
+      "bob": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "bunny ears!",
+        "time": 0.7964358505328015,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "E",
+      "carol": "E",
+      "bob": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Rabbit ears",
+        "time": 0.8289217144056173,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "E",
+      "carol": "E",
+      "bob": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "bunny ears",
+        "time": 0.7896774409784882,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "E",
+      "dave": "E",
+      "carol": "E"
+    }
+  }
+]

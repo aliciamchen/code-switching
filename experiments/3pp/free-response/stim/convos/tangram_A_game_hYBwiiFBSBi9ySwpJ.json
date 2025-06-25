@@ -1,0 +1,164 @@
+[
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "hi",
+        "time": 0.7768138856487873,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "Hi",
+        "time": 0.8810382094426414,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "hi",
+        "time": 0.7178751405334343,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "The picture looks like it's carrying a flag over it's shoulder",
+        "time": 0.8576795684124447,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "carol": "B",
+      "bob": "B"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "zomibie walk, standing on one foot",
+        "time": 0.7731552346725138,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "I",
+      "carol": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "zombie",
+        "time": 0.8816727650441496,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "bob": "A",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "bear with a flag, facing left, marching",
+        "time": 0.8338108527009283,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "what do you mean by bear?",
+        "time": 0.8569992600068815,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "zombie",
+        "time": 0.7910327603012541,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "figure then. one leg up",
+        "time": 0.9978386199046967,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "oh",
+        "time": 0.9200622689015572,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "A",
+      "bob": "B",
+      "alice": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "zombie with flag",
+        "time": 0.7413933670456077,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "carol": "A",
+      "bob": "A"
+    }
+  },
+  {
+    "target": "A",
+    "convention": "zombie",
+    "game": "hYBwiiFBSBi9ySwpJ",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "zombie",
+        "time": 0.7707626885686577,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "A",
+      "carol": "A",
+      "alice": "A"
+    }
+  }
+]

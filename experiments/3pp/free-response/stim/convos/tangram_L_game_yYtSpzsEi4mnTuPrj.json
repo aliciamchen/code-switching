@@ -1,0 +1,188 @@
+[
+  {
+    "target": "L",
+    "convention": "squats",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Mand Kneeling, praying. Not all the way to the ground though",
+        "time": 0.8198152282206723,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "*Man",
+        "time": 0.754017430949405,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Also looks like someone doing a squat",
+        "time": 0.7637874849461149,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Are his \"knees\" bent? Like \">\"?",
+        "time": 0.8612932457551892,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Yes",
+        "time": 0.8267775103359434,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Thanks!",
+        "time": 0.9299493057000618,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "K"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "squats",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "The prayer one head and arms to the right and looks like a squat",
+        "time": 0.6159406916643415,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Knees bent to the left like >",
+        "time": 0.6715383594214559,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Knees are perfectly bent? (>)",
+        "time": 0.9414060738075282,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Sorry to the right",
+        "time": 0.600573407367278,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Got it.",
+        "time": 0.8568478212282267,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "squats",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Man kneeling/squatting like to pray. Legs are perfectly bent in this position: >",
+        "time": 0.7125002184501681,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Facing the right.",
+        "time": 0.7594384050300013,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Hands outstretched to the right.",
+        "time": 0.8718058474773522,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "L",
+      "dave": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "squats",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "squats",
+        "time": 0.7730215357251649,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "alice": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "squats",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Squats",
+        "time": 0.814829090269519,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "squats",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Squats",
+        "time": 0.9044923765056175,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "L",
+      "alice": "L"
+    }
+  }
+]

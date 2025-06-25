@@ -1,0 +1,248 @@
+[
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "diamond head",
+        "time": 0.9779667309645637,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "block body",
+        "time": 0.7622932906856194,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "no arms",
+        "time": 0.9918560464062903,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "facing which way?",
+        "time": 0.7815472989980402,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "slanted shoulders?",
+        "time": 0.7851091994406714,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.9899799922539027,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "face left or right?",
+        "time": 0.7619745578614148,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "bottom part of block body more towards the right",
+        "time": 0.8726720192637838,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "upright diamond for head, hard to tell which way it's facing. body, legs and arms all one piece but looks like knees face right",
+        "time": 0.6180946043118898,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "legs could be tucked under",
+        "time": 0.6055198280037078,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "shoulders slanting down?",
+        "time": 0.964379547414255,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.7900874529237959,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "alice": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "diamond head, slanting down shoulders, no arms, block body",
+        "time": 0.8622398332197401,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "knees to front, facing right, legs tucked under?",
+        "time": 0.865426620653863,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes",
+        "time": 0.7040004553357281,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "H",
+      "alice": "F",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "head straight up. slanted shoulders",
+        "time": 0.8503019516638044,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "small triangle bottom right",
+        "time": 0.9814160835877084,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "looks like kneeling? can't see arms or legs?",
+        "time": 0.9094715322917772,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "yh",
+        "time": 0.9094491409785951,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "body is a kind of weird block",
+        "time": 0.9945696743104557,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "with right triangle on the right",
+        "time": 0.8451815553401659,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "slanting shoulders and no arms?",
+        "time": 0.8839838103028554,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.6251231244325032,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "no feet?",
+        "time": 0.7753233105706433,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "no feet",
+        "time": 0.7680207663709532,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "no arms",
+    "game": "JmgdhSKRPPxDKvprr",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "blob shaped body, knees face right, calves tucked under thighs",
+        "time": 0.7259243440679907,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "no arms",
+        "time": 0.8096822569926867,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "alice": "H",
+      "dave": "H"
+    }
+  }
+]

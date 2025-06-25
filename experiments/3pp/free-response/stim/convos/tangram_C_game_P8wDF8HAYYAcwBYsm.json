@@ -1,0 +1,134 @@
+[
+  {
+    "target": "C",
+    "convention": "shrug",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Looks like a man raising both hands into the air.",
+        "time": 0.6918609634121043,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "It looks a bit like they are shrugging.",
+        "time": 0.8358832661057412,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "shrug",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "i believe the very first one we had. someone with their arms up in a kind of shrug",
+        "time": 0.735766980732907,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "alice": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "shrug",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "man shrugging two hands up leaning to the left",
+        "time": 0.891326394671615,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "shrug",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "\ufffd\ufffd\\_(\ufffd\ufffd\ufffd)_/\ufffd\ufffd",
+        "time": 0.8081775718542323,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "shrug emoji",
+        "time": 0.7404614006937331,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "alice": "C",
+      "bob": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "shrug",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "shrug",
+        "time": 0.8325552152795503,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "shrug",
+    "game": "P8wDF8HAYYAcwBYsm",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "shrug",
+        "time": 0.9975019623020313,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "C",
+      "alice": "C",
+      "dave": "C"
+    }
+  }
+]
