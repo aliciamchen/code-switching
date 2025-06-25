@@ -1,0 +1,128 @@
+[
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "person has arms raised up in the air",
+        "time": 0.7676124469269681,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "like the \"y\" in the ymca song",
+        "time": 0.7827391769834329,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "C",
+      "carol": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "the Y in YMCA",
+        "time": 0.6527087133583037,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "carol": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "y in ymca",
+        "time": 0.9386928238153718,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "bob": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Y in ymca",
+        "time": 0.8521376867493504,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "bob": "C",
+      "carol": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "y in ymca",
+        "time": 0.7911121684985931,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "C",
+      "carol": "C",
+      "dave": "C"
+    }
+  },
+  {
+    "target": "C",
+    "convention": "Y",
+    "game": "ogPZPPCKpGn4votMa",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "y in ymca",
+        "time": 0.7261287953365981,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "C",
+      "carol": "C",
+      "dave": "C"
+    }
+  }
+]

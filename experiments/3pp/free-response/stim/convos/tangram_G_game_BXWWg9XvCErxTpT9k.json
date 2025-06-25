@@ -1,0 +1,212 @@
+[
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "arms streched out facing above",
+        "time": 0.7417239751182505,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Like it's holding something above its head?",
+        "time": 0.8644003302161563,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "sort of kneeling",
+        "time": 0.9242655102446197,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "does its body look like a parrallellogram?",
+        "time": 0.724683412759012,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes",
+        "time": 0.6857999158598194,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "With one leg in front and one behind?",
+        "time": 0.6243787806935585,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes that one",
+        "time": 0.6864676907320764,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "C",
+      "carol": "G",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Head facing upwards, one leg in front and one thick leg behind, arms up too",
+        "time": 0.6676911232437611,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Like it is showing a book to the sky",
+        "time": 0.6861776725744284,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Like interpretive dance move?",
+        "time": 0.9011597929121817,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "yes",
+        "time": 0.8223065937934598,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "dave": "G",
+      "carol": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "One leg in front and one behind, arms raised",
+        "time": 0.9310135480512631,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Looks like wearing dress?",
+        "time": 0.8807503622125075,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "Not really?",
+        "time": 0.9803726938586221,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Is the front leg a small triangle and the back one is very thick?",
+        "time": 0.7134216013855683,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes",
+        "time": 0.7136743475079917,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Ah!",
+        "time": 0.7436372564314659,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "dave": "G",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "kneeling - thick back leg and thin one in front.  Arms up, head back",
+        "time": 0.6141247747382421,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "thick leg",
+        "time": 0.6840865835466444,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "carol": "G",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Thick leg at the back and a small leg at the front",
+        "time": 0.7847987345318884,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "G",
+      "carol": "G",
+      "bob": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "thick leg",
+        "time": 0.739713312790827,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "G",
+      "dave": "G",
+      "carol": "G"
+    }
+  }
+]

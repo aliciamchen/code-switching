@@ -1,0 +1,380 @@
+[
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Hera?",
+        "time": 0.9002311498006695,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "It looks like a person looking up and to the right",
+        "time": 0.6716548554202484,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "With one leg on the ground",
+        "time": 0.7553480064937013,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "hands out?",
+        "time": 0.6211794601405736,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "other legs position?",
+        "time": 0.8515016014120885,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "One leg is on the bottom right, the one on the left is flat on the groun",
+        "time": 0.834287317847808,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Only one hand is visible, pointing to the top right",
+        "time": 0.8707868648166854,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "have hair / ears?",
+        "time": 0.8539778331706955,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "No hair or ears",
+        "time": 0.6506286570448877,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "so is the square on the right?",
+        "time": 0.8506174129243176,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "standing?",
+        "time": 0.8317459741665475,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "like the head?",
+        "time": 0.6952309876084585,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Square/head is on the left side",
+        "time": 0.8556179621183118,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Not standing",
+        "time": 0.9112527727271464,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "hands position?",
+        "time": 0.7032814138525781,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Kind of like kneeling, the left side of the leg is on the ground",
+        "time": 0.6398713745760463,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "left?",
+        "time": 0.6704495878473985,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Hand is on the top right",
+        "time": 0.912268034151772,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Only 1 hand visible",
+        "time": 0.7112575432967012,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Bottom right leg is a triangle",
+        "time": 0.9832722363126317,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Triangle with the right angle on the bottom left",
+        "time": 0.8040644728456507,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": null,
+      "bob": "A",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "uhhh this one has two triangles dangling on the right side",
+        "time": 0.6408898942905646,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "and a square head",
+        "time": 0.9042087327346986,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "ANGRY looking?",
+        "time": 0.9532625402479973,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Looks like a person with one leg on the ground",
+        "time": 0.6773778561270327,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "lets code this ANGRY",
+        "time": 0.8410305951958837,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "And facing up right?",
+        "time": 0.6555346199768223,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "B",
+      "dave": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "what the hell is this shit?",
+        "time": 0.6671272302027734,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "lmfao",
+        "time": 0.777910701822589,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "lol",
+        "time": 0.6900125682354095,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "a fat long leg on the left",
+        "time": 0.9314867851441939,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Right angle on bottom left?",
+        "time": 0.8189102222977553,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "tiny triangular leg on right",
+        "time": 0.8581634822603533,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "facing left",
+        "time": 0.6378510942831092,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "leaning back to left a bit?",
+        "time": 0.8113095046350205,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yeah",
+        "time": 0.6760449531961397,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "is there another mini triangle on the top right?",
+        "time": 0.763650613595747,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "what was the code name?",
+        "time": 0.6306472474068044,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "yeah minu",
+        "time": 0.9581993175299026,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "G",
+      "dave": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "the dancer kinda person that has the fat leg to the left",
+        "time": 0.7157230727191299,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "looking skyward to right",
+        "time": 0.6105603036123044,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "small foot on right",
+        "time": 0.9776958122515252,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "two mini triangles on the right?",
+        "time": 0.9611150405736739,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "one at the bottom one on top?",
+        "time": 0.9072640876732774,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "yes one for hand and one for foot",
+        "time": 0.7053095754655633,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "bob": "G",
+      "alice": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "fat leg, facing skywards and to the right",
+        "time": 0.7191891645685203,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "right arm and right leg are small triangles",
+        "time": 0.838286429570313,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "bob": "G",
+      "dave": "G"
+    }
+  },
+  {
+    "target": "G",
+    "convention": "leg",
+    "game": "pAaZt2Cv9MEFRCAY5",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "two mini triangles on the right",
+        "time": 0.7459139640618135,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "fat leg",
+        "time": 0.8166597470736677,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "G",
+      "dave": "G",
+      "alice": "G"
+    }
+  }
+]

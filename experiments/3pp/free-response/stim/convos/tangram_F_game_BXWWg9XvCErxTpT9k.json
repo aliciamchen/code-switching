@@ -1,0 +1,176 @@
+[
+  {
+    "target": "F",
+    "convention": "arms under knees",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "good question",
+        "time": 0.7751005208424853,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "sitting down looking upwards",
+        "time": 0.8702655702577398,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "does it have legs in front with arms under its knees?",
+        "time": 0.7077675567973494,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "one arm up and one down?",
+        "time": 0.6261138783586406,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "yes @Hera",
+        "time": 0.7877047179366957,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "no @Minu",
+        "time": 0.813995657392913,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "You could say it is looking down",
+        "time": 0.7293187569146997,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "Thanks both",
+        "time": 0.6686419850560493,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "F",
+      "carol": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "arms under knees",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "Excellent!",
+        "time": 0.76068284270963,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Arms tucked under its knees looking down and sitting down",
+        "time": 0.8466016002559347,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "dave": "F",
+      "carol": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "arms under knees",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Sitting down with hands under legs",
+        "time": 0.6761959318557262,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "ok",
+        "time": 0.9592830799440835,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "dave": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "arms under knees",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "sitting with knees up and hands under knees",
+        "time": 0.8307753053223238,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "arms under knees",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "sitting down with knees up",
+        "time": 0.9101250286349256,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "dave": "F",
+      "carol": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "arms under knees",
+    "game": "BXWWg9XvCErxTpT9k",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "arms under knees",
+        "time": 0.782622421517613,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "dave": "F",
+      "carol": "F"
+    }
+  }
+]

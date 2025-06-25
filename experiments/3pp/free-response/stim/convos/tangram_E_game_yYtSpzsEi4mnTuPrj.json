@@ -1,0 +1,122 @@
+[
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "BUNNY EARS",
+        "time": 0.9981675375507322,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "bob": "E",
+      "dave": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Bunny ears",
+        "time": 0.9705945431203323,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "dave": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "Bunny ears",
+        "time": 0.9315853029066841,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "E",
+      "dave": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "bunny ears",
+        "time": 0.8240488850958307,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "bob": "E",
+      "alice": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Bunny ears",
+        "time": 0.6746077612538208,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "bob": "E",
+      "dave": "E"
+    }
+  },
+  {
+    "target": "E",
+    "convention": "bunny ears",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Bunny ears",
+        "time": 0.8809243214942315,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "E",
+      "dave": "E",
+      "alice": "E"
+    }
+  }
+]

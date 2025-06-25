@@ -1,0 +1,410 @@
+[
+  {
+    "target": "D",
+    "convention": "the man with a box",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "That went smoothly",
+        "time": 0.6260372297256435,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Yup.",
+        "time": 0.8014588593742722,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "This guy looks like he is soliciting money for donation. He has one hand somewhat out.",
+        "time": 0.6375417006588928,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "His head is in a classic diamond shape.",
+        "time": 0.9726423238525597,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Like a baseball diamond.",
+        "time": 0.7272774134893628,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Does it look like he's fully standing or possibly kneeling?",
+        "time": 0.6201154441385838,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "His one foot that is visible is pointing to the LEFT.",
+        "time": 0.9390726131870957,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "legs are at left side somewhat upwords?",
+        "time": 0.8802782584905755,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "He looks like he is completely standing to me.",
+        "time": 0.6059238439202075,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Yes, Repi.",
+        "time": 0.8210979426487319,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "K",
+      "dave": "D",
+      "bob": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "the man with a box",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Easy clues, please.",
+        "time": 0.8823076689817186,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Ok he is standing with his one hands on the left like he is waiting for money",
+        "time": 0.9876305321364007,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "hand*",
+        "time": 0.7985187955543835,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "leg position?",
+        "time": 0.8022442664108258,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "straight",
+        "time": 0.6837404284539897,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "I don't know about \"hands\"...can you describe his head as the square?",
+        "time": 0.8690144974085434,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Does he have a triangle behind his head?",
+        "time": 0.6434493083765276,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "No",
+        "time": 0.6924849636598942,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "legs on the left upwards?",
+        "time": 0.9825345286059572,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Is the foot flat on the ground?",
+        "time": 0.7575169087886482,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "And pointing directly left?",
+        "time": 0.9655796705592833,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Yes, and feet are pointed to the left",
+        "time": 0.9195195399749861,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "does it look like he could be holding a box or something square?",
+        "time": 0.8732010607602461,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "FEET?",
+        "time": 0.6093566215340587,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "I think I see.",
+        "time": 0.6026326757180294,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "dave": "D",
+      "alice": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "the man with a box",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "straight 90 degree on the right, asking for money head, leg, hands on the left",
+        "time": 0.8485786002882401,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "holding the box again?",
+        "time": 0.6456004003223251,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yeah",
+        "time": 0.7857701722066797,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "thats the one",
+        "time": 0.8497000312991536,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Thank you for your good descriptions, Repi :)",
+        "time": 0.797663407868784,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "Trying my best. Thanks for the compliment",
+        "time": 0.7673004802976339,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "someone is missing an answer.. ask if you have any questions",
+        "time": 0.7595883245322608,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "i don't see it",
+        "time": 0.8201864766746425,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "nothing on the right",
+        "time": 0.7760498863712593,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "straight back?",
+        "time": 0.850742849536648,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "hands looks like holding something",
+        "time": 0.6030811341362166,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "we had it before Hera, just the box on the top.",
+        "time": 0.7162946583252525,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "yes",
+        "time": 0.6240179618368998,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "ok",
+        "time": 0.8082903406237769,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "dave": "D",
+      "bob": "D",
+      "alice": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "the man with a box",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "guy holding the box",
+        "time": 0.8811402398882555,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "straight back on the right",
+        "time": 0.8177436072139466,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "got it",
+        "time": 0.7801964003610184,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "bob": "D",
+      "alice": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "the man with a box",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Diamond head",
+        "time": 0.6064160155190575,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "dancer it was",
+        "time": 0.6920603715773566,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Straight back on the right side.",
+        "time": 0.8798417832904317,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Beneath his hand looks like a solid colored black box.",
+        "time": 0.9372086401042621,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "sitting?",
+        "time": 0.9102541008640832,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Foot pointing to the left.",
+        "time": 0.6437521293183169,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "No, he is standing.",
+        "time": 0.715509851638056,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "The back is straight.",
+        "time": 0.8646290929475873,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "the box holder",
+        "time": 0.7386691783177828,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "got it",
+        "time": 0.9337253849822048,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "He looks like he is looking to the left side.",
+        "time": 0.7468192589160663,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "dave": "D",
+      "bob": "D"
+    }
+  },
+  {
+    "target": "D",
+    "convention": "the man with a box",
+    "game": "XpTJWaJYpSojYdngB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "The man with a box",
+        "time": 0.6993579164541319,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "D",
+      "dave": "D",
+      "alice": "D"
+    }
+  }
+]

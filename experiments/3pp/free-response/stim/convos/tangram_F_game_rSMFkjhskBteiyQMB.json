@@ -1,0 +1,182 @@
+[
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "This one looks like a person sat down. Their head is a rotated square.",
+        "time": 0.7190178742355587,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "do they have bunny ears?",
+        "time": 0.7757519553023009,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "or knee up",
+        "time": 0.6318387383777834,
+        "role": "listener"
+      },
+      {
+        "player": "carol",
+        "text": "sat down with legs out?",
+        "time": 0.7683319810795037,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "They look as if they are sad so the head is tilted down.",
+        "time": 0.9466263472414786,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "1 knee up no bunny ears.",
+        "time": 0.8242629001534142,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "perfect",
+        "time": 0.8414469171913954,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "does the timer run out if everyone answers?",
+        "time": 0.8373123703780102,
+        "role": "listener"
+      },
+      {
+        "player": "dave",
+        "text": "don't think so... i think we've all answered by now, right?",
+        "time": 0.6872828862865502,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "ah so it runs all 60 minutes",
+        "time": 0.7352245166512221,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "man sat down with 1 knee up",
+        "time": 0.7412289047535802,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "the sad guy sitting down with knees bent ups head slightly  tilted up",
+        "time": 0.978988559370349,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "bent up*",
+        "time": 0.8559235953375599,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "depressed man, sitting down, one knee bent up, head tilted forward",
+        "time": 0.8142466876688714,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "F",
+      "bob": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "depressed man bent knee",
+        "time": 0.7217905891287879,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "F",
+      "bob": "F",
+      "dave": "F"
+    }
+  },
+  {
+    "target": "F",
+    "convention": "sad",
+    "game": "rSMFkjhskBteiyQMB",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "sad man knee up",
+        "time": 0.8242275409319603,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "F",
+      "carol": "F",
+      "dave": "F"
+    }
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "this one makes an s shape",
+        "time": 0.8811804552846081,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Triangle out to the right like arms?",
+        "time": 0.6490520505566673,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "and has a pointy black triangle pointing out mid way on the right side",
+        "time": 0.9018073777828107,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "yh triangle out only on the right side",
+        "time": 0.8873468806277192,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "Got ya",
+        "time": 0.7599908703485578,
+        "role": "listener"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "this si the one that looks like an s shape",
+        "time": 0.7570359274159312,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "with a head",
+        "time": 0.7809841076221197,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "triangles pointing to the right that look like hands",
+        "time": 0.8207560806811204,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "is the head tilted ?",
+        "time": 0.8971577217820549,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "Nno",
+        "time": 0.6615557805487172,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "carol": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "praying but knees aren't on ground",
+        "time": 0.6783725624700915,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "s shape",
+        "time": 0.9064097946829113,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "s shape praying guy standing",
+        "time": 0.769859582169373,
+        "role": "speaker"
+      },
+      {
+        "player": "dave",
+        "text": "hands to right",
+        "time": 0.7843008017486843,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "carol": "L",
+      "bob": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "s shape",
+        "time": 0.6778264774314533,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "L",
+      "bob": "L",
+      "dave": "L"
+    }
+  },
+  {
+    "target": "L",
+    "convention": "s shaped",
+    "game": "cA2SjWv3CePYZgyzS",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "s shaped",
+        "time": 0.767627465910963,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "alice": "L",
+      "carol": "L",
+      "dave": "L"
+    }
+  }
+]

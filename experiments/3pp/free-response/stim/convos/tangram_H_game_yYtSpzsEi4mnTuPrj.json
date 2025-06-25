@@ -1,0 +1,176 @@
+[
+  {
+    "target": "H",
+    "convention": "blob",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 0,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Monk blob?",
+        "time": 0.6397690720721195,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "No visible arms or legs",
+        "time": 0.6012448167358796,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "Maybe sitting cross legged with one knee bent outwards",
+        "time": 0.637695505743949,
+        "role": "speaker"
+      },
+      {
+        "player": "carol",
+        "text": "Is it kind of like the kneeling one? Left side has an angle (\\) where the right side is a triangle at the bottom (>)?",
+        "time": 0.6629306605864058,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Knee bend to the right",
+        "time": 0.8957683846449601,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Does it look like its looking up",
+        "time": 0.7054315612403699,
+        "role": "listener"
+      },
+      {
+        "player": "bob",
+        "text": "And to the right",
+        "time": 0.7388819427008201,
+        "role": "listener"
+      },
+      {
+        "player": "alice",
+        "text": "Yes looks like looking up",
+        "time": 0.9882384599255309,
+        "role": "speaker"
+      },
+      {
+        "player": "alice",
+        "text": "> on right side",
+        "time": 0.8099667147030435,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "blob",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 1,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Looks like a blob no legs or arms",
+        "time": 0.6261705108326763,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "blob",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 2,
+    "speakerThisRep": "carol",
+    "convo": [
+      {
+        "player": "carol",
+        "text": "The Blob. No legs/arms.",
+        "time": 0.8776475726198323,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "bob": "H",
+      "dave": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "blob",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 3,
+    "speakerThisRep": "dave",
+    "convo": [
+      {
+        "player": "dave",
+        "text": "blob",
+        "time": 0.8305398434770858,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "alice": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "blob",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 4,
+    "speakerThisRep": "alice",
+    "convo": [
+      {
+        "player": "alice",
+        "text": "Blob",
+        "time": 0.8746207052296775,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "bob": "H",
+      "dave": "H"
+    }
+  },
+  {
+    "target": "H",
+    "convention": "blob",
+    "game": "yYtSpzsEi4mnTuPrj",
+    "repNum": 5,
+    "speakerThisRep": "bob",
+    "convo": [
+      {
+        "player": "bob",
+        "text": "Blov",
+        "time": 0.7520833800985804,
+        "role": "speaker"
+      },
+      {
+        "player": "bob",
+        "text": "Blob",
+        "time": 0.6878598597843404,
+        "role": "speaker"
+      }
+    ],
+    "choices": {
+      "carol": "H",
+      "dave": "H",
+      "alice": "H"
+    }
+  }
+]
