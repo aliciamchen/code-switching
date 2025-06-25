@@ -133,7 +133,7 @@ class ChatAnimation(Scene):
 
     def create_image_grid(self, rows: int, cols: int) -> Group:
         image_paths = [f"../tangrams/tangram_{tangram}.png" for tangram in self.available_tangrams]
-        images = [ImageMobject(img).scale(0.55) for img in image_paths]
+        images = [ImageMobject(img).scale(0.4) for img in image_paths]
         return Group(*images).arrange_in_grid(rows=rows, cols=cols, buff=0.1)
 
     def create_chat_background(self) -> Rectangle:
