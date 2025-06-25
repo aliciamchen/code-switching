@@ -181,54 +181,92 @@ write_csv(selection_trials_clean, here("data/3pp/shared-unique/selection_trials_
 For the "refer" goal, people should choose the seen label over the unseen label, both when talking to one group and when talking to either group
 
 ```{r}
-baseline.refer <- selection_trials %>%
+baseline.trials.refer <- selection_trials %>%
   filter(type == "baseline", goal == "refer") %>%
   mutate(seen = case_when(
     response.group == "unseen" ~ 0,
     response.unique == "shared" ~ 1
   ))
 
+baseline.trials.refer.means <- baseline.trials.refer %>%
+  group_by(option1.label, option2.label) %>%
+  tidyboot_mean(seen, na.rm = TRUE) %>%
+  mutate(`seen - unseen` = paste(option1.label, option2.label, sep = " - ")) %>%
+  arrange(empirical_stat)
 
-baseline.refer.means <- baseline.refer %>%
-  group_by(audience) %>%
-  tidyboot_mean(seen, na.rm = T)
+# Relevel AFTER arrange
+baseline.trials.refer.means$`seen - unseen` <- factor(
+  baseline.trials.refer.means$`seen - unseen`,
+  levels = baseline.trials.refer.means$`seen - unseen`
+)
+```
+
+
+Plot
+
+```{r}
+ggplot(baseline.trials.refer.means, aes(x = `seen - unseen`, y = empirical_stat)) +
+  geom_point(size = 3, fill = "black") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.2) +
+  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
+  labs(x = "seen label - unseen label", y = "P(seen label)", title = "Study 1a manipulation checks, refer goal") +
+  scale_y_continuous(limits = c(0, 1)) +
+  theme(text = element_text(size = 15), axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 ```{r}
-ggplot(baseline.refer, aes(x = audience, y = seen)) +
-  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.1) +
-  geom_point(data = baseline.refer.means, aes(x = audience, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
-  geom_errorbar(data = baseline.refer.means, aes(x = audience, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
-  geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
-  labs(x = "audience", y = "seen or unseen label", title = "baselines") +
-  scale_y_continuous(breaks = c(0, 1), labels = c("unseen", "seen")) +
-  theme(legend.position = "none", plot.title = element_text(size = 15))
+baseline.refer.means <- baseline.trials.refer %>%
+  tidyboot_mean(seen, na.rm = T)
+
+baseline.refer.means
 ```
+
 
 ## "Social" goal
 
 For the "social" goal, people should choose the tangram belonging to the audience group
 
 ```{r}
-baseline.social <- selection_trials %>%
+baseline.trials.social <- selection_trials %>%
   filter(type == "baseline", goal == "social") %>%
   mutate(group_label = ifelse(audience_group == response.group, 1, 0))
 
-baseline.social.means <- baseline.social %>%
+baseline.trials.social.means <- baseline.trials.social %>%
+  group_by(option1.label, option2.label) %>% 
   tidyboot_mean(group_label, na.rm = T) %>%
-  mutate(goal = "social")
+  mutate(goal = "social", 
+         `red - blue` = paste(option1.label, option2.label, sep = " - ")) %>%
+  arrange(empirical_stat)
+
+# Relevel AFTER arrange
+baseline.trials.social.means$`red - blue` <- factor(
+  baseline.trials.social.means$`red - blue`,
+  levels = baseline.trials.social.means$`red - blue`
+)
 ```
 
+Plot
+
 ```{r}
-ggplot(baseline.social, aes(x = goal, y = group_label)) +
-  geom_jitter(size = 3, stroke = 0, width = 0.15, height = 0.1, alpha = 0.3) +
-  geom_point(data = baseline.social.means, aes(x = goal, y = empirical_stat), size = 3, fill = "black", inherit.aes = FALSE) +
-  geom_errorbar(data = baseline.social.means, aes(x = goal, ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.05, inherit.aes = FALSE) +
+ggplot(baseline.trials.social.means, aes(x = `red - blue`, y = empirical_stat)) +
+  geom_point(size = 3, fill = "black") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.2) +
   geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
-  labs(x = "goal", y = "label belongs to audience grp", title = "baselines") +
-  scale_y_continuous(breaks = c(0, 1), labels = c("no", "yes")) +
-  theme(legend.position = "none", plot.title = element_text(size = 15))
+  labs(x = "red label - blue label", y = "P(correct group)", title = "Study 1a manipulation checks, social goal") +
+  scale_y_continuous(limits = c(0, 1)) +
+  theme(text = element_text(size = 15), axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+
+
+
+```{r}
+baseline.social.means <- baseline.trials.social %>%
+  tidyboot_mean(group_label, na.rm = T) %>%
+  mutate(goal = "social")
+
+baseline.social.means
+```
+
 
 ### Correlate results for same and different tangram trials
 
