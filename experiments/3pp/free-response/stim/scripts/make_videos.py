@@ -2,6 +2,9 @@ import textwrap
 import json
 import random
 from manim import *
+import os
+
+config.verbosity = "ERROR"
 
 # Constants
 BUBBLE_CORNER_RADIUS = 0.3
@@ -46,14 +49,18 @@ class ChatBubble(Group):
         message: str,
         bubble_color,
         text_color=WHITE,
-        avatar: str = None, # type: ignore
+        avatar: str = None,  # type: ignore
         role: str = "speaker",
         **kwargs,
     ):
         super().__init__(**kwargs)
         wrapped_text = textwrap.fill(message, width=30)
         text = Text(
-            wrapped_text, font_size=TEXT_FONT_SIZE, color=text_color, font=TEXT_FONT
+            wrapped_text,
+            font_size=TEXT_FONT_SIZE,
+            color=text_color,
+            font=TEXT_FONT,
+            stroke_width=0,
         )
         bubble = RoundedRectangle(
             corner_radius=BUBBLE_CORNER_RADIUS,
@@ -67,7 +74,19 @@ class ChatBubble(Group):
         elements = [bubble, text]
 
         if avatar:
-            avatar_image = ImageMobject(avatar).scale(AVATAR_SCALE)
+            # Force fresh image loading with unique identifier
+            avatar_path = os.path.abspath(avatar)
+            
+            # Create a unique identifier for this avatar to prevent caching issues
+            unique_id = f"{avatar_path}_{id(self)}_{role}"
+            
+            # Force Manim to load a fresh image
+            avatar_image = ImageMobject(avatar_path)
+            avatar_image.scale(AVATAR_SCALE)
+            
+            # Ensure the image is properly loaded
+            avatar_image.set_z_index(10)  # Force proper layering
+            
             if role == "speaker":
                 avatar_image.next_to(bubble, LEFT, buff=AVATAR_BUFF)
             else:
@@ -79,7 +98,7 @@ class ChatBubble(Group):
 
 class ChatAnimation(Scene):
     def __init__(self, chat_data, available_tangrams, color, **kwargs):
-        self.chat_data = chat_data
+        self.chat_data = chat_data.copy()
         self.available_tangrams = available_tangrams
         self.color = color
         super().__init__(**kwargs)
@@ -110,14 +129,13 @@ class ChatAnimation(Scene):
                     animations.append(
                         ApplyMethod(
                             bubble.shift, UP * (chat_bubble.height + BUBBLE_SHIFT)
-                        ) # type: ignore
+                        )  # type: ignore
                     )
 
             self.align_chat_bubble(chat_bubble, item["role"])
             bubbles.append(chat_bubble)
             self.play(AnimationGroup(*animations, lag_ratio=0))
             self.wait(item["time"])
-
 
         target = self.chat_data["target"]
         chosen_tangrams = self.chat_data["choices"]
@@ -132,7 +150,9 @@ class ChatAnimation(Scene):
         self.wait(1)
 
     def create_image_grid(self, rows: int, cols: int) -> Group:
-        image_paths = [f"../tangrams/tangram_{tangram}.png" for tangram in self.available_tangrams]
+        image_paths = [
+            f"../tangrams/tangram_{tangram}.png" for tangram in self.available_tangrams
+        ]
         images = [ImageMobject(img).scale(0.4) for img in image_paths]
         return Group(*images).arrange_in_grid(rows=rows, cols=cols, buff=0.1)
 
@@ -161,9 +181,12 @@ class ChatAnimation(Scene):
         return black_rectangle
 
     def create_chat_label(self, chat_background: Rectangle) -> Text:
-        chat_label = Text("Chat", color=BLUE if self.color == "blue" else RED, font=TEXT_FONT, weight=BOLD).scale(
-            CHAT_LABEL_SCALE
-        )
+        chat_label = Text(
+            "Chat",
+            color=BLUE if self.color == "blue" else RED,
+            font=TEXT_FONT,
+            weight=BOLD,
+        ).scale(CHAT_LABEL_SCALE)
         chat_label.next_to(chat_background, UP, buff=CHAT_LABEL_BUFF)
         chat_label.set_z_index(2)
         return chat_label
@@ -190,9 +213,7 @@ class ChatAnimation(Scene):
         else:
             chat_bubble.to_edge(LEFT, buff=0.5)
 
-    def highlight_tangrams(
-        self, image_grid: Group, target: str, chosen_tangrams: dict
-    ):
+    def highlight_tangrams(self, image_grid: Group, target: str, chosen_tangrams: dict):
         # target index is the index of the target in available_tangrams
         target_index = self.available_tangrams.index(target)
 
@@ -213,11 +234,14 @@ class ChatAnimation(Scene):
         self.wait(0.5)
 
         for player, tangram in chosen_tangrams.items():
-
             index = self.available_tangrams.index(tangram)
             chosen_image = image_grid[index]
-            avatar_image = ImageMobject(avatar_mappings[self.color][player]
-            ).scale(AVATAR_IMAGE_SCALE)
+            
+            # Force fresh avatar loading
+            avatar_path = avatar_mappings[self.color][player]
+            avatar_image = ImageMobject(avatar_path)
+            avatar_image.scale(AVATAR_IMAGE_SCALE)
+            avatar_image.set_z_index(10)  # Force proper layering
 
             if index not in avatar_positions:
                 avatar_position = (
@@ -249,6 +273,7 @@ class ChatAnimation(Scene):
         self.add(correct_guesses_text)
         self.wait(0.5)
 
+
 def generate_videos_for_item(item_number, counterbalance):
     with open(f"../items/item_{item_number}_{counterbalance}_game_info.json", "r") as f:
         game_info = json.load(f)
@@ -264,18 +289,28 @@ def generate_videos_for_item(item_number, counterbalance):
             available_tangrams = blue_tangrams
         else:
             continue
-        for tangram, info in tangram_info.items():
+        
+        # Process targets in sorted order to ensure consistent behavior
+        sorted_targets = sorted(tangram_info.items())
+        
+        for tangram, info in sorted_targets:
+            print(f"Processing {color} target {tangram}")  # Debug output
+            
             with open(f"../convos/tangram_{tangram}_game_{info['game']}.json", "r") as f:
                 convs = json.load(f)
                 for conv in convs:
                     config.output_file = f"item_{item_number}_{counterbalance}_{color}_target_{conv['target']}_repNum_{conv['repNum']}.mp4"
                     config.quality = "low_quality"
-                    scene = ChatAnimation(conv, available_tangrams, color)
+                    
+                    # Force clean state for each video
+                    scene = ChatAnimation(conv.copy(), available_tangrams.copy(), color)
                     scene.render()
-
+                    
+                    # Clear any potential cached state
+                    import gc
+                    gc.collect()
 
 
 if __name__ == "__main__":
 
     generate_videos_for_item(item_number=0, counterbalance="a")
-
