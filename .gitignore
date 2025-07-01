@@ -4,9 +4,6 @@
 *.mp4
 .Rhistory
 __pycache__
-experiments/exp-1/stim/scripts/media/texts
-experiments/exp-1/stim/convo_vids/images
-experiments/exp-1/stim/convo_vids/texts
 partial_movie_files
 old
 .vscode
@@ -20,3 +17,6 @@ experiments/3pp/earlier-later/stim/scripts/get_stimuli.ipynb
 experiments/3pp/shared-unique/stim/scripts/get_stimuli.ipynb
 old_model_stuff
 sandbox
+**/stim/convo_vids/images
+**/stim/convo_vids/texts
+**/stim/scripts/media/texts
