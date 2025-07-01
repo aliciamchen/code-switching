@@ -294,7 +294,7 @@ def generate_videos_for_item(item_number, counterbalance):
         sorted_targets = sorted(tangram_info.items())
         
         for tangram, info in sorted_targets:
-            print(f"Processing {color} target {tangram}")  # Debug output
+            print(f"Processing {color} target {tangram}") 
             
             with open(f"../convos/tangram_{tangram}_game_{info['game']}.json", "r") as f:
                 convs = json.load(f)
