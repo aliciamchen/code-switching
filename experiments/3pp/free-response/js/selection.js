@@ -239,6 +239,17 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
   for (let i = 0; i < randomizedTrials.length; i++) {
     const trial = randomizedTrials[i];
     selection_phase_timeline.push(makeFreeResponseSelectionTrial(trial));
+    selection_phase_timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "Recording selection...",
+      choices: "NO_KEYS",
+      trial_duration: function () {
+        return jsPsych.randomization.sampleWithoutReplacement(
+          [1500, 1750],
+          1
+        )[0];
+      },
+    });
   }
 
   return selection_phase_timeline;
