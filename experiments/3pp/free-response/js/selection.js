@@ -181,11 +181,11 @@ function makeFreeResponseSelectionTrial(trial) {
 
       continueBtn.addEventListener("click", function () {
         previous_selection = selectedTangram; // Update global variable
+        
         jsPsych.finishTrial({
           selected_tangram: selectedTangram,
+          previous_selection: previous_selection,
           written_label: labelInput.value.trim(),
-          trial_index: jsPsych.getCurrentTrial().trial_index,
-          goal: jsPsych.getCurrentTrial().goal,
         });
       });
     },
