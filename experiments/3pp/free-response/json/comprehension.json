@@ -1,0 +1,57 @@
+[
+  {
+    "prompt": "What is the difference between the blue and gray avatars?",
+    "options": [
+      "(A) The blue avatars are the Speakers, and the gray avatars are the Listeners.",
+      "(B) The blue avatars are members of the blue group you observed, and the gray avatars are naive participants who have not played the game.",
+      "(C) There is no difference between the blue and gray avatars."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "What kind of feedback did the Speakers and the Listeners see during the gameplay?",
+    "options": [
+      "(A) The Speakers saw each of the Listeners' guesses, and each of the Listeners saw what the correct picture was.",
+      "(B) The Speakers saw each of the Listeners' guesses, but the Listeners didn't see what the correct picture was.",
+      "(C) The Listeners saw what the correct picture was, but the speakers didn't see each of the Listeners' guesses."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "What did the Speaker do in each of the rounds?",
+    "options": [
+      "(A) The Speaker generated the most creative description of each of the 8 pictures, that they could think of.",
+      "(B) The Speaker described each of the 8 pictures to the Listeners. Then, the Speaker role rotated to the next player.",
+      "(C) The Speaker described a random picture to the Listeners. Then, the Speaker role rotated to the next player."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "What will you be asked to do in the second part of the experiment?",
+    "options": [
+      "(A) Choose between two labels for each tangram",
+      "(B) Choose a tangram and write your own label for it",
+      "(C) Rate how well different labels describe each tangram",
+      "(D) Memorize the labels used by the groups"
+    ],
+    "required": true
+  },
+  {
+    "prompt": "How can I earn the highest possible bonus in this task?",
+    "options": [
+      "(A) By writing the most interesting descriptions for the pictures in the second part of the task.",
+      "(B) By clicking through the second part of the task as fast as possible, so that I can finish the task quickly.",
+      "(C) By paying attention to the videos in the first part of the task, so that I can pick the best choices in the second part of the task."
+    ],
+    "required": true
+  },
+  {
+    "prompt": "What is the rule about choosing tangrams in the second part?",
+    "options": [
+      "(A) You must choose the same tangram on every trial",
+      "(B) You must choose a different tangram on each trial than you chose on the previous trial",
+      "(C) You can choose any tangram you want on each trial"
+    ],
+    "required": true
+  }
+]
