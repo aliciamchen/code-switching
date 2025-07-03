@@ -36,8 +36,8 @@ async function createVideoTrials(item_id, counterbalance, jsPsych) {
       type: jsPsychHtmlButtonResponse,
       stimulus: `
       <h2>Phase 1: First Round</h2>
-      <p>You will now see the first round where both groups talk about their tangrams.</p>
-      <p>The red group will talk about 8 tangrams, and the blue group will talk about 8 tangrams.</p>
+      <p>You will now see the first round where both groups talk about their pictures.</p>
+      <p>The red group will talk about 8 pictures, and the blue group will talk about 8 pictures.</p>
       `,
       choices: ["Continue"],
     };
@@ -48,7 +48,7 @@ async function createVideoTrials(item_id, counterbalance, jsPsych) {
       type: jsPsychHtmlButtonResponse,
       stimulus: `
       <h2>Red Group - Round 1</h2>
-      <p>You will now see the red group talk about their tangrams.</p>
+      <p>You will now see the red group talk about their pictures.</p>
       `,
       choices: ["Continue"],
     };
@@ -80,7 +80,7 @@ async function createVideoTrials(item_id, counterbalance, jsPsych) {
       type: jsPsychHtmlButtonResponse,
       stimulus: `
       <h2>Blue Group - Round 1</h2>
-      <p>You will now see the blue group talk about their tangrams.</p>
+      <p>You will now see the blue group talk about their pictures.</p>
       `,
       choices: ["Continue"],
     };
@@ -113,7 +113,7 @@ async function createVideoTrials(item_id, counterbalance, jsPsych) {
       stimulus: `
       <h2>Phase 2: Blue Group</h2>
       <p>Now we will focus on the blue group as they develop their communication system.</p>
-      <p>You will see them talk about their tangrams over multiple rounds.</p>
+      <p>You will see them talk about their pictures over multiple rounds.</p>
       `,
       choices: ["Continue"],
     };
