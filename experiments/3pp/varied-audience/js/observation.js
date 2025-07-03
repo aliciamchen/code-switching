@@ -60,7 +60,6 @@ async function createVideoTrials(item_id, counterbalance, jsPsych) {
           };
           video_trials.push(video_trial);
         }
-
       }
       const end_of_round = {
         type: jsPsychHtmlButtonResponse,

@@ -44,13 +44,10 @@ async function createFreeResponseTrialInfo(item_id, counterbalance, jsPsych) {
 
   // Create trials by assigning tangrams to conditions
   const trials = [];
-  let trialIndex = 0;
 
   audienceConditions.forEach((condition, conditionIndex) => {
     const availableTangrams = [...all_tangrams];
     const trial = {
-      trial_index: trialIndex++,
-      condition_index: conditionIndex,
       n_blue: condition.n_blue,
       n_naive: condition.n_naive,
       goal: condition.goal,
@@ -204,27 +201,21 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
   selection_phase_timeline.push({
     type: jsPsychHtmlButtonResponse,
     stimulus: `
-      <h2>🤨 Test Phase: Free Response 🤨</h2>
+      <h2>🤨 Part 2: Questions 🤨</h2>
       <div class="align-left">
       <p>
-        In this phase, you will be asked to <strong>choose a tangram</strong> and <strong>write a label</strong> for it.
+        In this phase, you will be asked to <strong>choose a picture</strong> and <strong>write a label</strong> for it.
       </p>
       <p>
         On each trial, you will see:
         <ul>
           <li>An <strong>audience</strong> (blue group members and/or naive participants)</li>
-          <li>A <strong>goal</strong> (referential or social)</li>
-          <li>All 12 tangrams to choose from</li>
+          <li>What question the audience will be answering</li>
+          <li>12 pictures to choose from</li>
         </ul>
       </p>
       <p>
-        <strong>Important:</strong> You must choose a different tangram on each trial than you chose on the previous trial.
-      </p>
-      <p>
-        <strong>Referential goal:</strong> Choose a label that helps everyone in the audience identify the correct tangram.
-      </p>
-      <p>
-        <strong>Social goal:</strong> Choose a label that helps blue group members identify you as a member of their group.
+        <strong>Important:</strong> You must choose a different picture on each trial than you chose on the previous trial.
       </p>
       <p>You will do this ${trialInfo.length} times.</p>
       </div>
