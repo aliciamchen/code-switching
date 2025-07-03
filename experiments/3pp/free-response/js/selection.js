@@ -55,7 +55,7 @@ async function createFreeResponseTrialInfo(item_id, counterbalance, jsPsych) {
       groupA_tangrams: groupA_tangrams,
       groupB_tangrams: groupB_tangrams,
       groupC_tangrams: groupC_tangrams,
-      data: data,
+      convo_info: data,
     };
     trials.push(trial);
   });
@@ -67,7 +67,7 @@ async function createFreeResponseTrialInfo(item_id, counterbalance, jsPsych) {
 let previous_selection = null;
 
 // Helper: Generate a single selection trial
-function makeFreeResponseSelectionTrial(trial) {
+function makeFreeResponseSelectionTrial(trial, trial_index) {
   // Exclude previously selected tangram if needed
   let availableTangrams = trial.available_tangrams;
   if (previous_selection) {
@@ -141,8 +141,8 @@ function makeFreeResponseSelectionTrial(trial) {
     choices: "NO_KEYS",
     data: {
       trialInfo: trial,
+      trial_num: trial_index,
       task: "tangram_selection",
-      trial_index: trial.trial_index,
     },
     on_load: function () {
       let selectedTangram = null;
@@ -177,13 +177,31 @@ function makeFreeResponseSelectionTrial(trial) {
       }
 
       continueBtn.addEventListener("click", function () {
+        let this_previous_selection = previous_selection;
         previous_selection = selectedTangram; // Update global variable
         
-        jsPsych.finishTrial({
+        let selected_tangram_group = null;
+        if (trial.groupA_tangrams.includes(selectedTangram)) {
+          selected_tangram_group = "A";
+        } else if (trial.groupB_tangrams.includes(selectedTangram)) {
+          selected_tangram_group = "B";
+        } else if (trial.groupC_tangrams.includes(selectedTangram)) {
+          selected_tangram_group = "C";
+        }
+        
+        const trialData = {
           selected_tangram: selectedTangram,
-          previous_selection: previous_selection,
+          selected_tangram_group: selected_tangram_group,
+          previous_selection: this_previous_selection,
           written_label: labelInput.value.trim(),
-        });
+        };
+
+        // console.log("Full trial info:", {
+        //   trial: trial,
+        //   response: trialData,
+        // });
+
+        jsPsych.finishTrial(trialData);
       });
     },
   };
@@ -229,7 +247,7 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
   // Build selection trials, enforcing no repeat tangram
   for (let i = 0; i < randomizedTrials.length; i++) {
     const trial = randomizedTrials[i];
-    selection_phase_timeline.push(makeFreeResponseSelectionTrial(trial));
+    selection_phase_timeline.push(makeFreeResponseSelectionTrial(trial, i));
     selection_phase_timeline.push({
       type: jsPsychHtmlKeyboardResponse,
       stimulus: "Recording selection...",
