@@ -1,7 +1,7 @@
 // put all the trials together
 async function makeTrials(jsPsych) {
   try {
-    const condition = await jsPsychPipe.getCondition("UdZbwi36zeM5");
+    const condition = await jsPsychPipe.getCondition("rdlLghSQ1D3c");
     // Always use item_0_a for now
     const item_id = 0;
     const counterbalance = 'a';
