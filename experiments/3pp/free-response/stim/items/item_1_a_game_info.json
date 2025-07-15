@@ -2,41 +2,49 @@
   "red": {
     "A": {
       "label": "thriller",
+      "earlier_label": "a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",
       "group": "shared",
       "game": "3WzEi9zkHF77vdTw5"
     },
     "B": {
       "label": "mouse",
+      "earlier_label": "the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",
       "group": "shared",
       "game": "hHoRuwi7p8k2XhzD3"
     },
     "C": {
       "label": "italian",
+      "earlier_label": "square head balancing on a cornder, body is a rectangle on a lean, then two arms reaching up above the head",
       "group": "shared",
       "game": "LfuChcnEB54q8Ztys"
     },
     "D": {
       "label": "priest",
+      "earlier_label": "someone facing left, their back is a straight line, sort of looks like they're holding a book open",
       "group": "shared",
       "game": "kBQMXHtyqWiM2LxL6"
     },
     "E": {
       "label": "crazy hat person",
+      "earlier_label": "sitting down, facing right, with the hat thing on its head",
       "group": "red_specific",
       "game": "hhTtzgf2BMCbDwG5i"
     },
     "F": {
       "label": "sad",
+      "earlier_label": "Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",
       "group": "red_specific",
       "game": "pAaZt2Cv9MEFRCAY5"
     },
     "G": {
       "label": "horse",
+      "earlier_label": "Its a lot of shapes. On the bottom is a parollelogram. It doesn't look like a person, top of it a square that's tilted to the left, top of it a square that's tilted to the left almost looks like it's falling off, triangle on the right also falling off",
       "group": "red_specific",
       "game": "kBQMXHtyqWiM2LxL6"
     },
     "H": {
       "label": "the innocent one",
+      "earlier_label": "He is sitting down. Only one side of his knee is visible. His one knee is pointing to the RIGHT in the pic. His head is a classic diamond shape. No arms visible. No hands and no legs. No feet visible.",
       "group": "red_specific",
       "game": "XpTJWaJYpSojYdngB"
     }
@@ -44,41 +52,49 @@
   "blue": {
     "A": {
       "label": "crane kick",
+      "earlier_label": "Similar to the karate kid movie, the crane kick, looks like they have dangly sleeves",
       "group": "shared",
       "game": "BXWWg9XvCErxTpT9k"
     },
     "B": {
       "label": "princess dance",
+      "earlier_label": "the person is kneeling with their hands streched out, not the one facing sideways, looks like their heels are up behind them, with a little triangle sticking up behind them",
       "group": "shared",
       "game": "BXWWg9XvCErxTpT9k"
     },
     "C": {
       "label": "shrug",
+      "earlier_label": "Looks like a man raising both hands into the air. It looks a bit like they are shrugging.",
       "group": "shared",
       "game": "P8wDF8HAYYAcwBYsm"
     },
     "D": {
       "label": "long sleeved book",
+      "earlier_label": "this looks like a standing person with a triangle and square put together sticking out of the left side, and the bottom is flat and there's a small triangle at the bottom sticking out left too, like a guy with long sleeves looking at a book",
       "group": "shared",
       "game": "cA2SjWv3CePYZgyzS"
     },
     "I": {
       "label": "yoga guy",
+      "earlier_label": "the one that looks like a standing person with one leg on the ground and one sticking out to the right, and two triangles pointing left",
       "group": "blue_specific",
       "game": "cA2SjWv3CePYZgyzS"
     },
     "J": {
       "label": "large cube",
+      "earlier_label": "the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right",
       "group": "blue_specific",
       "game": "3AT9PDD5rDrb5GS4e"
     },
     "K": {
       "label": "duck",
+      "earlier_label": "its a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, like a duck looking right with a diamond on top",
       "group": "blue_specific",
       "game": "3WzEi9zkHF77vdTw5"
     },
     "L": {
       "label": "squats",
+      "earlier_label": "Mand Kneeling, praying. Not all the way to the ground though. Also looks like someone doing a squat. Knees bent",
       "group": "blue_specific",
       "game": "yYtSpzsEi4mnTuPrj"
     }
