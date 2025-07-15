@@ -220,10 +220,10 @@ function makeFreeResponseSelectionTrial(trial, trial_index) {
           written_label: labelInput.value.trim(),
         };
 
-        console.log("Full trial info:", {
-          trial: trial,
-          response: trialData,
-        });
+        // console.log("Full trial info:", {
+        //   trial: trial,
+        //   response: trialData,
+        // });
 
         jsPsych.finishTrial(trialData);
       });

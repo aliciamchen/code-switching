@@ -21,10 +21,7 @@ async function loadInstructionsFromHTML(item_id) {
     let text = await response.text();
 
     // Define JavaScript variables for the video sources
-    const videoSrc =
-      item_id === 1
-        ? `stim/convo_vids/videos/480p15/item_${item_id}_a_blue_target_E_repNum_0.mp4`
-        : `stim/convo_vids/videos/480p15/item_${item_id}_a_blue_target_A_repNum_0.mp4`;
+    const videoSrc = `stim/convo_vids/videos/480p15/item_0_a_blue_target_E_repNum_0.mp4`;
 
     const tangramsSrc = `stim/images/tangrams.png`;
     const targetSrc = `stim/images/target_tangram.png`;
