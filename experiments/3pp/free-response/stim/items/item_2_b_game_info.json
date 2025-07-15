@@ -1,86 +1,87 @@
 {
-    "blue": {
+    "red": {
       "A": {
         "label": "thriller",
-        "group": "blue_specific",
+        "group": "shared",
         "game": "3WzEi9zkHF77vdTw5"
       },
       "B": {
         "label": "mouse",
-        "group": "blue_specific",
+        "group": "shared",
         "game": "hHoRuwi7p8k2XhzD3"
-      },
-      "C": {
-        "label": "italian",
-        "group": "blue_specific",
-        "game": "LfuChcnEB54q8Ztys"
       },
       "D": {
         "label": "priest",
-        "group": "blue_specific",
-        "game": "kBQMXHtyqWiM2LxL6"
-      },
-      "E": {
-        "label": "crazy hat person",
         "group": "shared",
-        "game": "hhTtzgf2BMCbDwG5i"
+        "game": "kBQMXHtyqWiM2LxL6"
       },
       "F": {
         "label": "sad",
         "group": "shared",
         "game": "pAaZt2Cv9MEFRCAY5"
       },
+      "C": {
+        "label": "italian",
+        "group": "red_specific",
+        "game": "LfuChcnEB54q8Ztys"
+      },
+      "E": {
+        "label": "crazy hat person",
+        "group": "red_specific",
+        "game": "hhTtzgf2BMCbDwG5i"
+      },
       "G": {
         "label": "horse",
-        "group": "shared",
+        "group": "red_specific",
         "game": "kBQMXHtyqWiM2LxL6"
       },
       "H": {
         "label": "the innocent one",
-        "group": "shared",
+        "group": "red_specific",
         "game": "XpTJWaJYpSojYdngB"
       }
     },
-    "red": {
-      "E": {
-        "label": "windmill",
-        "group": "shared",
-        "game": "kBQMXHtyqWiM2LxL6"
-      },
-      "F": {
-        "label": "arms under knees",
+    "blue": {
+      "A": {
+        "label": "crane kick",
         "group": "shared",
         "game": "BXWWg9XvCErxTpT9k"
       },
-      "G": {
-        "label": "strike a pose",
+      "B": {
+        "label": "princess dance",
         "group": "shared",
-        "game": "hhTtzgf2BMCbDwG5i"
+        "game": "BXWWg9XvCErxTpT9k"
       },
-      "H": {
-        "label": "blob",
+      "D": {
+        "label": "long sleeved book",
         "group": "shared",
-        "game": "yYtSpzsEi4mnTuPrj"
+        "game": "cA2SjWv3CePYZgyzS"
+      },
+      "F": {
+        "label": "pointed toes",
+        "group": "shared",
+        "game": "JmgdhSKRPPxDKvprr"
       },
       "I": {
         "label": "yoga guy",
-        "group": "red_specific",
+        "group": "blue_specific",
         "game": "cA2SjWv3CePYZgyzS"
       },
       "J": {
         "label": "large cube",
-        "group": "red_specific",
+        "group": "blue_specific",
         "game": "3AT9PDD5rDrb5GS4e"
       },
       "K": {
         "label": "duck",
-        "group": "red_specific",
+        "group": "blue_specific",
         "game": "3WzEi9zkHF77vdTw5"
       },
       "L": {
         "label": "squats",
-        "group": "red_specific",
+        "group": "blue_specific",
         "game": "yYtSpzsEi4mnTuPrj"
       }
     }
   }
+  

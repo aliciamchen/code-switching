@@ -1,23 +1,23 @@
 {
-    "blue": {
+    "red": {
       "A": {
         "label": "thriller",
-        "group": "blue_specific",
+        "group": "red_specific",
         "game": "3WzEi9zkHF77vdTw5"
       },
       "B": {
         "label": "mouse",
-        "group": "blue_specific",
+        "group": "red_specific",
         "game": "hHoRuwi7p8k2XhzD3"
       },
       "C": {
         "label": "italian",
-        "group": "blue_specific",
+        "group": "red_specific",
         "game": "LfuChcnEB54q8Ztys"
       },
       "D": {
         "label": "priest",
-        "group": "blue_specific",
+        "group": "red_specific",
         "game": "kBQMXHtyqWiM2LxL6"
       },
       "E": {
@@ -41,7 +41,7 @@
         "game": "XpTJWaJYpSojYdngB"
       }
     },
-    "red": {
+    "blue": {
       "E": {
         "label": "windmill",
         "group": "shared",
@@ -64,22 +64,22 @@
       },
       "I": {
         "label": "yoga guy",
-        "group": "red_specific",
+        "group": "blue_specific",
         "game": "cA2SjWv3CePYZgyzS"
       },
       "J": {
         "label": "large cube",
-        "group": "red_specific",
+        "group": "blue_specific",
         "game": "3AT9PDD5rDrb5GS4e"
       },
       "K": {
         "label": "duck",
-        "group": "red_specific",
+        "group": "blue_specific",
         "game": "3WzEi9zkHF77vdTw5"
       },
       "L": {
         "label": "squats",
-        "group": "red_specific",
+        "group": "blue_specific",
         "game": "yYtSpzsEi4mnTuPrj"
       }
     }

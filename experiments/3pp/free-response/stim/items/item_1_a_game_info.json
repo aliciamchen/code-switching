@@ -1,0 +1,86 @@
+{
+  "red": {
+    "A": {
+      "label": "thriller",
+      "group": "shared",
+      "game": "3WzEi9zkHF77vdTw5"
+    },
+    "B": {
+      "label": "mouse",
+      "group": "shared",
+      "game": "hHoRuwi7p8k2XhzD3"
+    },
+    "C": {
+      "label": "italian",
+      "group": "shared",
+      "game": "LfuChcnEB54q8Ztys"
+    },
+    "D": {
+      "label": "priest",
+      "group": "shared",
+      "game": "kBQMXHtyqWiM2LxL6"
+    },
+    "E": {
+      "label": "crazy hat person",
+      "group": "red_specific",
+      "game": "hhTtzgf2BMCbDwG5i"
+    },
+    "F": {
+      "label": "sad",
+      "group": "red_specific",
+      "game": "pAaZt2Cv9MEFRCAY5"
+    },
+    "G": {
+      "label": "horse",
+      "group": "red_specific",
+      "game": "kBQMXHtyqWiM2LxL6"
+    },
+    "H": {
+      "label": "the innocent one",
+      "group": "red_specific",
+      "game": "XpTJWaJYpSojYdngB"
+    }
+  },
+  "blue": {
+    "A": {
+      "label": "crane kick",
+      "group": "shared",
+      "game": "BXWWg9XvCErxTpT9k"
+    },
+    "B": {
+      "label": "princess dance",
+      "group": "shared",
+      "game": "BXWWg9XvCErxTpT9k"
+    },
+    "C": {
+      "label": "shrug",
+      "group": "shared",
+      "game": "P8wDF8HAYYAcwBYsm"
+    },
+    "D": {
+      "label": "long sleeved book",
+      "group": "shared",
+      "game": "cA2SjWv3CePYZgyzS"
+    },
+    "I": {
+      "label": "yoga guy",
+      "group": "blue_specific",
+      "game": "cA2SjWv3CePYZgyzS"
+    },
+    "J": {
+      "label": "large cube",
+      "group": "blue_specific",
+      "game": "3AT9PDD5rDrb5GS4e"
+    },
+    "K": {
+      "label": "duck",
+      "group": "blue_specific",
+      "game": "3WzEi9zkHF77vdTw5"
+    },
+    "L": {
+      "label": "squats",
+      "group": "blue_specific",
+      "game": "yYtSpzsEi4mnTuPrj"
+    }
+  }
+}
