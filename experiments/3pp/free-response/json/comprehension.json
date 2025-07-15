@@ -20,8 +20,8 @@
   {
     "prompt": "What did the Speaker do in each of the rounds?",
     "options": [
-      "(A) The Speaker generated the most creative description of each of the 8 pictures, that they could think of.",
-      "(B) The Speaker described each of the 8 pictures to the Listeners. Then, the Speaker role rotated to the next player.",
+      "(A) The Speaker generated the most creative description of 8 of the pictures, that they could think of.",
+      "(B) The Speaker described 8 of the pictures to the Listeners. Then, the Speaker role rotated to the next player.",
       "(C) The Speaker described a random picture to the Listeners. Then, the Speaker role rotated to the next player."
     ],
     "required": true
