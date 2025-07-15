@@ -2,9 +2,8 @@
 async function makeTrials(jsPsych) {
   try {
     const condition = await jsPsychPipe.getCondition("rdlLghSQ1D3c");
-    // Always use item_0_a for now
-    const item_id = 0;
-    const counterbalance = 'a';
+    const item_id = Math.floor(condition / 2) % 3;
+    const counterbalance = condition % 2 === 0 ? 'a' : 'b';
 
     console.log(condition, item_id, counterbalance);
 
@@ -35,7 +34,7 @@ async function makeTrials(jsPsych) {
     const comprehensionLoop = await createComprehensionLoop(item_id, jsPsych);
     timeline.push(comprehensionLoop);
 
-    // observation phase
+    // // observation phase
     const videoTrials = await createVideoTrials(item_id, counterbalance, jsPsych);
     timeline.push(videoTrials);
 

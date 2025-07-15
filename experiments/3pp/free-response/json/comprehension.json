@@ -29,10 +29,10 @@
   {
     "prompt": "What will you be asked to do in the second part of the experiment?",
     "options": [
-      "(A) Choose between two labels for each picture",
-      "(B) Choose a picture and write your own label for it",
-      "(C) Rate how well different labels describe each picture",
-      "(D) Memorize the labels used by the groups"
+      "(A) Choose between two descriptions for each picture",
+      "(B) Choose a picture and write your own description for it",
+      "(C) Rate how well different descriptions describe each picture",
+      "(D) Memorize the descriptions used by the groups"
     ],
     "required": true
   },

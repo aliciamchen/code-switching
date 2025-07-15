@@ -246,7 +246,7 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
       <h2>🤨 Part 2: Questions 🤨</h2>
       <div class="align-left">
       <p>
-        In this phase, you will be asked to <strong>choose a picture</strong> and <strong>write a label</strong> for it.
+        In this phase, you will be asked to <strong>choose a picture</strong> and <strong>write a description</strong> for it.
       </p>
       <p>
         On each trial, you will see:
