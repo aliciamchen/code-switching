@@ -104,7 +104,7 @@ class ChatAnimation(Scene):
         super().__init__(**kwargs)
 
     def construct(self):
-        image_grid = self.create_image_grid(2, 4)
+        image_grid = self.create_image_grid(3, 4)
         image_grid.to_edge(RIGHT, buff=0.3)
         self.add(image_grid)
 
@@ -277,18 +277,11 @@ class ChatAnimation(Scene):
 def generate_videos_for_item(item_number, counterbalance):
     with open(f"../items/item_{item_number}_{counterbalance}_game_info.json", "r") as f:
         game_info = json.load(f)
-    red_tangrams = list(game_info["red"].keys())
-    blue_tangrams = list(game_info["blue"].keys())
 
     config.media_dir = "../convo_vids"
 
     for color, tangram_info in game_info.items():
-        if color == "red":
-            available_tangrams = red_tangrams
-        elif color == "blue":
-            available_tangrams = blue_tangrams
-        else:
-            continue
+        available_tangrams = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"] 
         
         # Process targets in sorted order to ensure consistent behavior
         sorted_targets = sorted(tangram_info.items())
@@ -314,3 +307,8 @@ def generate_videos_for_item(item_number, counterbalance):
 if __name__ == "__main__":
 
     generate_videos_for_item(item_number=0, counterbalance="a")
+    generate_videos_for_item(item_number=0, counterbalance="b")
+    generate_videos_for_item(item_number=1, counterbalance="a")
+    generate_videos_for_item(item_number=1, counterbalance="b")
+    generate_videos_for_item(item_number=2, counterbalance="a")
+    generate_videos_for_item(item_number=2, counterbalance="b")
