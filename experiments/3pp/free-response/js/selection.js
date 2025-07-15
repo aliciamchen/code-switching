@@ -109,8 +109,8 @@ function makeFreeResponseSelectionTrial(trial, trial_index) {
       });
       html += `</div>
         <div style="margin:30px 0; text-align:center;">
-          <label for="label-input" style="font-size: 1em; font-weight: bold; margin-bottom: 6px; display: block;"><strong>Write a label for the selected picture:</strong></label>
-          <textarea id="label-input" rows="1" cols="30" placeholder="Enter your label here..." required
+          <label for="label-input" style="font-size: 1em; font-weight: bold; margin-bottom: 6px; display: block;"><strong>Write a description for the selected picture:</strong></label>
+          <textarea id="label-input" rows="1" cols="30" placeholder="Enter your description here..." required
             style="font-size: 1em; padding: 14px; border-radius: 8px; border: 1.5px solid #8e44ad; width: 80%; max-width: 500px; box-sizing: border-box; margin-bottom: 10px; resize: vertical;"></textarea>
         </div>
         <div style="text-align:center; margin-bottom: 30px;">
