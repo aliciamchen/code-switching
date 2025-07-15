@@ -8,7 +8,7 @@ async function createExit(item_id, jsPsych) {
     const exit_survey = {
       type: jsPsychSurveyHtmlForm,
       preamble: `
-        <p>You have reached the end of the experiment! Thank you for your participation. Note: There weren't any 'correct' answers to the questions, so we will award everyone a bonus of $5.</p>
+        <p>You have reached the end of the experiment! Thank you for your participation. Note: There weren't any 'correct' answers to the questions, so we will award everyone a bonus of $6.</p>
         <p><strong>To collect your pay, please complete the following questions. Your answer to these questions will not affect your pay, so please answer honestly.</strong></p>
         `,
       html: text,
@@ -34,7 +34,7 @@ async function createExit(item_id, jsPsych) {
     const debrief = {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: `<p>Thanks for participating in the experiment!</p>
-                    <p><a href="https://app.prolific.com/submissions/complete?cc=C1AKB1HA">Click here to return to Prolific and complete the study</a>.</p>
+                    <p><a href="https://app.prolific.com/submissions/complete?cc=C1CT0X39">Click here to return to Prolific and complete the study</a>.</p>
                     <p>It is now safe to close the window. Your pay will be delivered within a few days.</p>
                     `,
       choices: "NO_KEYS",
