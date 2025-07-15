@@ -181,6 +181,11 @@ function makeFreeResponseSelectionTrial(trial, trial_index) {
         previous_selection = selectedTangram; // Update global variable
         
         let selected_tangram_group = null;
+        let selected_tangram_earlier_red = null;
+        let selected_tangram_earlier_blue = null;
+        let selected_tangram_later_red = null;
+        let selected_tangram_later_blue = null;
+
         if (trial.blue_specific_tangrams.includes(selectedTangram)) {
           selected_tangram_group = "blue_specific";
         } else if (trial.shared_tangrams.includes(selectedTangram)) {
@@ -188,18 +193,37 @@ function makeFreeResponseSelectionTrial(trial, trial_index) {
         } else if (trial.red_specific_tangrams.includes(selectedTangram)) {
           selected_tangram_group = "red_specific";
         }
-        
+
+        if (selected_tangram_group === "red_specific") {
+          selected_tangram_earlier_red = trial.convo_info.red[selectedTangram].earlier_label;
+          selected_tangram_later_red = trial.convo_info.red[selectedTangram].label;
+        } else if (selected_tangram_group === "blue_specific") {
+          selected_tangram_earlier_blue = trial.convo_info.blue[selectedTangram].earlier_label;
+          selected_tangram_later_blue = trial.convo_info.blue[selectedTangram].label;
+        }
+
+        if (selected_tangram_group === "shared") {
+          selected_tangram_earlier_red = trial.convo_info.red[selectedTangram].earlier_label;
+          selected_tangram_later_red = trial.convo_info.red[selectedTangram].label;
+          selected_tangram_earlier_blue = trial.convo_info.blue[selectedTangram].earlier_label;
+          selected_tangram_later_blue = trial.convo_info.blue[selectedTangram].label;
+        }
+
         const trialData = {
           selected_tangram: selectedTangram,
           selected_tangram_group: selected_tangram_group,
+          selected_tangram_earlier_red: selected_tangram_earlier_red,
+          selected_tangram_earlier_blue: selected_tangram_earlier_blue,
+          selected_tangram_later_red: selected_tangram_later_red,
+          selected_tangram_later_blue: selected_tangram_later_blue,
           previous_selection: this_previous_selection,
           written_label: labelInput.value.trim(),
         };
 
-        // console.log("Full trial info:", {
-        //   trial: trial,
-        //   response: trialData,
-        // });
+        console.log("Full trial info:", {
+          trial: trial,
+          response: trialData,
+        });
 
         jsPsych.finishTrial(trialData);
       });
