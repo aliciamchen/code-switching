@@ -13,13 +13,13 @@ async function createFreeResponseTrialInfo(item_id, counterbalance, jsPsych) {
   const all_tangrams = [...new Set([...blue_tangrams, ...red_tangrams])];
 
   // Categorize tangrams by group
-  const groupA_tangrams = blue_tangrams.filter(
-    (t) => data.blue[t].group === "A"
+  const blue_specific_tangrams = blue_tangrams.filter(
+    (t) => data.blue[t].group === "blue_specific"
   ); // Blue only
-  const groupB_tangrams = blue_tangrams.filter(
-    (t) => data.blue[t].group === "B"
+  const shared_tangrams = blue_tangrams.filter(
+    (t) => data.blue[t].group === "shared"
   ); // Shared between red and blue
-  const groupC_tangrams = red_tangrams.filter((t) => data.red[t].group === "C"); // Red only
+  const red_specific_tangrams = red_tangrams.filter((t) => data.red[t].group === "red_specific"); // Red only
 
   // Create audience conditions matching make_2afc_trials.py
   const ns_ingroup = [0, 1, 2, 3, 4];
@@ -52,9 +52,9 @@ async function createFreeResponseTrialInfo(item_id, counterbalance, jsPsych) {
       n_naive: condition.n_naive,
       goal: condition.goal,
       available_tangrams: availableTangrams,
-      groupA_tangrams: groupA_tangrams,
-      groupB_tangrams: groupB_tangrams,
-      groupC_tangrams: groupC_tangrams,
+      blue_specific_tangrams: blue_specific_tangrams,
+      shared_tangrams: shared_tangrams,
+      red_specific_tangrams: red_specific_tangrams,
       convo_info: data,
     };
     trials.push(trial);
@@ -181,12 +181,12 @@ function makeFreeResponseSelectionTrial(trial, trial_index) {
         previous_selection = selectedTangram; // Update global variable
         
         let selected_tangram_group = null;
-        if (trial.groupA_tangrams.includes(selectedTangram)) {
-          selected_tangram_group = "A";
-        } else if (trial.groupB_tangrams.includes(selectedTangram)) {
-          selected_tangram_group = "B";
-        } else if (trial.groupC_tangrams.includes(selectedTangram)) {
-          selected_tangram_group = "C";
+        if (trial.blue_specific_tangrams.includes(selectedTangram)) {
+          selected_tangram_group = "blue_specific";
+        } else if (trial.shared_tangrams.includes(selectedTangram)) {
+          selected_tangram_group = "shared";
+        } else if (trial.red_specific_tangrams.includes(selectedTangram)) {
+          selected_tangram_group = "red_specific";
         }
         
         const trialData = {

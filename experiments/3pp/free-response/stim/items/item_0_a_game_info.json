@@ -2,84 +2,84 @@
     "blue": {
       "A": {
         "label": "thriller",
-        "group": "A",
+        "group": "blue_specific",
         "game": "3WzEi9zkHF77vdTw5"
       },
       "B": {
         "label": "mouse",
-        "group": "A",
+        "group": "blue_specific",
         "game": "hHoRuwi7p8k2XhzD3"
       },
       "C": {
         "label": "italian",
-        "group": "A",
+        "group": "blue_specific",
         "game": "LfuChcnEB54q8Ztys"
       },
       "D": {
         "label": "priest",
-        "group": "A",
+        "group": "blue_specific",
         "game": "kBQMXHtyqWiM2LxL6"
       },
       "E": {
         "label": "crazy hat person",
-        "group": "B",
+        "group": "shared",
         "game": "hhTtzgf2BMCbDwG5i"
       },
       "F": {
         "label": "sad",
-        "group": "B",
+        "group": "shared",
         "game": "pAaZt2Cv9MEFRCAY5"
       },
       "G": {
         "label": "horse",
-        "group": "B",
+        "group": "shared",
         "game": "kBQMXHtyqWiM2LxL6"
       },
       "H": {
         "label": "the innocent one",
-        "group": "B",
+        "group": "shared",
         "game": "XpTJWaJYpSojYdngB"
       }
     },
     "red": {
       "E": {
         "label": "windmill",
-        "group": "B",
+        "group": "shared",
         "game": "kBQMXHtyqWiM2LxL6"
       },
       "F": {
         "label": "arms under knees",
-        "group": "B",
+        "group": "shared",
         "game": "BXWWg9XvCErxTpT9k"
       },
       "G": {
         "label": "strike a pose",
-        "group": "B",
+        "group": "shared",
         "game": "hhTtzgf2BMCbDwG5i"
       },
       "H": {
         "label": "blob",
-        "group": "B",
+        "group": "shared",
         "game": "yYtSpzsEi4mnTuPrj"
       },
       "I": {
         "label": "yoga guy",
-        "group": "C",
+        "group": "red_specific",
         "game": "cA2SjWv3CePYZgyzS"
       },
       "J": {
         "label": "large cube",
-        "group": "C",
+        "group": "red_specific",
         "game": "3AT9PDD5rDrb5GS4e"
       },
       "K": {
         "label": "duck",
-        "group": "C",
+        "group": "red_specific",
         "game": "3WzEi9zkHF77vdTw5"
       },
       "L": {
         "label": "squats",
-        "group": "C",
+        "group": "red_specific",
         "game": "yYtSpzsEi4mnTuPrj"
       }
     }
