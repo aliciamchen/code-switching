@@ -19,7 +19,9 @@ async function createFreeResponseTrialInfo(item_id, counterbalance, jsPsych) {
   const shared_tangrams = blue_tangrams.filter(
     (t) => data.blue[t].group === "shared"
   ); // Shared between red and blue
-  const red_specific_tangrams = red_tangrams.filter((t) => data.red[t].group === "red_specific"); // Red only
+  const red_specific_tangrams = red_tangrams.filter(
+    (t) => data.red[t].group === "red_specific"
+  ); // Red only
 
   // Create audience conditions matching make_2afc_trials.py
   const ns_ingroup = [0, 1, 2, 3, 4];
@@ -179,7 +181,7 @@ function makeFreeResponseSelectionTrial(trial, trial_index) {
       continueBtn.addEventListener("click", function () {
         let this_previous_selection = previous_selection;
         previous_selection = selectedTangram; // Update global variable
-        
+
         let selected_tangram_group = null;
         let selected_tangram_earlier_red = null;
         let selected_tangram_earlier_blue = null;
@@ -195,18 +197,26 @@ function makeFreeResponseSelectionTrial(trial, trial_index) {
         }
 
         if (selected_tangram_group === "red_specific") {
-          selected_tangram_earlier_red = trial.convo_info.red[selectedTangram].earlier_label;
-          selected_tangram_later_red = trial.convo_info.red[selectedTangram].label;
+          selected_tangram_earlier_red =
+            trial.convo_info.red[selectedTangram].earlier_label;
+          selected_tangram_later_red =
+            trial.convo_info.red[selectedTangram].label;
         } else if (selected_tangram_group === "blue_specific") {
-          selected_tangram_earlier_blue = trial.convo_info.blue[selectedTangram].earlier_label;
-          selected_tangram_later_blue = trial.convo_info.blue[selectedTangram].label;
+          selected_tangram_earlier_blue =
+            trial.convo_info.blue[selectedTangram].earlier_label;
+          selected_tangram_later_blue =
+            trial.convo_info.blue[selectedTangram].label;
         }
 
         if (selected_tangram_group === "shared") {
-          selected_tangram_earlier_red = trial.convo_info.red[selectedTangram].earlier_label;
-          selected_tangram_later_red = trial.convo_info.red[selectedTangram].label;
-          selected_tangram_earlier_blue = trial.convo_info.blue[selectedTangram].earlier_label;
-          selected_tangram_later_blue = trial.convo_info.blue[selectedTangram].label;
+          selected_tangram_earlier_red =
+            trial.convo_info.red[selectedTangram].earlier_label;
+          selected_tangram_later_red =
+            trial.convo_info.red[selectedTangram].label;
+          selected_tangram_earlier_blue =
+            trial.convo_info.blue[selectedTangram].earlier_label;
+          selected_tangram_later_blue =
+            trial.convo_info.blue[selectedTangram].label;
         }
 
         const trialData = {
@@ -259,7 +269,7 @@ async function createSelectionTrials(item_id, counterbalance, jsPsych) {
       <p>
         <strong>Important:</strong> You must choose a different picture on each trial than you chose on the previous trial.
       </p>
-      <p>You will do this ${trialInfo.length} times.</p>
+      <p>You will do this ${trialInfo.length} times. We know the task might feel repetitive, but we really care about your responses on each trial, so please try your best to stay focused! You will receive a bonus of $0.10 for each correct choice, for a total bonus of up to $6.</p>
       </div>
     `,
     choices: ["Continue"],
