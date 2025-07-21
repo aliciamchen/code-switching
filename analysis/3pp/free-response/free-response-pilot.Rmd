@@ -1,0 +1,351 @@
+---
+title: "free-response-pilot"
+author: "Alicia Chen"
+date: "2025-07-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(tidyboot)
+library(glue)
+library(lme4)
+library(lmerTest)
+library(emmeans)
+library(simr)
+library(GGally)
+library(ggimage)
+library(reshape2)
+library(tidyr)
+
+theme_set(theme_classic(base_size = 15))
+options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
+```
+
+# Load data
+
+```{r}
+data <- read_csv(here("data/3pp/free-response/selection_trials.csv")) %>%
+  mutate(prop_naive = n_naive / (n_blue + n_naive))
+```
+
+# Sanity checks
+
+First check the conditions for each subject 
+For each subject count the number of unique combinations of (n_blue, n_naive, goal)
+
+```{r}
+data %>%
+  group_by(subject_id, n_blue, n_naive, goal) %>% 
+  summarise(n_trials = n()) 
+```
+
+
+## Learning metrics
+
+Learning metrics: 
+- `n_unique`: number of unique tangrams selected per participant (higher = more learning)
+- `prop_red`: proportion of times the 'red-specific' tangrams were selected for the 'social' goal (lower = more learning)
+- `utt_memory`: mean cosine similarity of the later utterance to the observed later utterance, for trials where there were no naive members in the audience (higher = more learning)
+
+```{r}
+learning_metrics <- data %>%
+  group_by(subject_id) %>%
+  summarise(
+    n_unique = n_distinct(selected_tangram),
+    prop_red = mean(selected_tangram_group[goal == "social"] == "red_specific", na.rm = TRUE),
+    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE),
+  )
+
+learning_metrics
+```
+
+Pairplot of learning metrics
+
+```{r}
+ggpairs(learning_metrics, columns = c("n_unique", "prop_red", "utt_memory"))
+```
+
+We will use the `utt_memory` metric as the main learning metric
+
+Filter out participants who perform in bottom 50% of the distribution of `utt_memory`
+
+```{r}
+data_better_performance <- data %>%
+  filter(subject_id %in% learning_metrics$subject_id[learning_metrics$utt_memory > quantile(learning_metrics$utt_memory, 0.5)])
+```
+
+
+## Tangram selection
+
+How likely are participants to select each of the tangrams, for the 'refer' and 'social' goals? (note that this is averaged across tangram assignments, so doesn't tell us anything about how likely people are to select red-specific tangrams.)
+
+```{r}
+tangram_letters <- sort(unique(na.omit(data$selected_tangram)))
+tangram_grid <- matrix(tangram_letters, nrow = 3, ncol = 4, byrow = TRUE)
+
+get_counts_matrix <- function(goal) {
+  counts <- data %>%
+    filter(goal == !!goal) %>%
+    count(selected_tangram) %>%
+    complete(selected_tangram = tangram_letters, fill = list(n = 0)) %>%
+    arrange(selected_tangram)
+  matrix(counts$n, nrow = 3, ncol = 4, byrow = TRUE)
+}
+
+goals <- c("refer", "social")
+plot_data <- lapply(goals, function(goal) {
+  mat <- get_counts_matrix(goal)
+  df <- melt(mat)
+  df$goal <- goal
+  df$letter <- as.vector(tangram_grid)
+  df
+})
+plot_data <- do.call(rbind, plot_data)
+colnames(plot_data)[1:2] <- c("row", "col")
+
+plot_data$image <- file.path(
+  "../../../experiments/3pp/free-response/stim/tangrams",
+  paste0("tangram_", plot_data$letter, ".png")
+)
+
+ggplot(plot_data, aes(x = col, y = row, fill = value)) +
+  geom_tile(color = "white") +
+  geom_image(aes(image = image), size = 0.12, asp = 1) +
+  scale_fill_gradient(low = "white", high = "blue") +
+  scale_y_reverse() +
+  facet_wrap(~goal) +
+  theme_minimal(base_size = 15) +
+  theme(
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank()
+  ) +
+  labs(fill = "Count")
+```
+
+# Main analyses
+
+## Tangram selection
+
+How often do people select the red-specific tangrams, for the 'refer' and 'social' goals, by proportion naive?
+
+```{r fig.width=10, fig.height=4}
+ggplot(data, aes(x = prop_naive, fill = factor(selected_tangram_group, levels = c("blue_specific", "shared", "red_specific")))) +
+  geom_histogram(position = "fill", binwidth = 0.1) +
+  labs(
+    x = "Proportion naive",
+    y = "Proportion",
+    fill = "Tangram group"
+  ) +
+  scale_fill_manual(
+    values = c("red_specific" = "red", "shared" = "purple", "blue_specific" = "blue"),
+    breaks = c("blue_specific", "shared", "red_specific")
+  ) +
+  facet_wrap(~goal)
+```
+
+
+##  Utterance length
+
+Plot utterance length by proportion naive and goal
+
+```{r}
+utt_length_summary <- data %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(utt_length, na.rm = TRUE)
+```
+
+```{r}
+ggplot(utt_length_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "Utterance length", color = "Goal") 
+```
+
+
+## Cosine similarity to later utterance
+
+Plot cosine similarity to later utterance by proportion naive and goal
+
+```{r}
+cos_diff_summary <- data %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(1 - sbert_cosine_later_blue, na.rm = TRUE)
+```
+
+```{r}
+ggplot(cos_diff_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "1 - cosine similarity to later", color = "Goal") 
+```
+
+## Filter out trials where participants selected red-specific tangrams
+
+```{r}
+data_no_red <- data %>%
+  filter(selected_tangram_group != "red_specific")
+```
+
+Remake utt length and semantic similarity without red-specific tangrams
+
+```{r}
+utt_length_summary_no_red <- data_no_red %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(utt_length, na.rm = TRUE)
+```
+
+```{r}
+cos_diff_summary_no_red <- data_no_red %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(1 - sbert_cosine_later_blue, na.rm = TRUE)
+```
+
+Plots
+
+```{r}
+ggplot(utt_length_summary_no_red, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "Utterance length", title = "Without red-specific choices", color = "Goal") 
+```
+
+```{r}
+ggplot(cos_diff_summary_no_red, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "1 - cosine similarity to later", title = "Without red-specific choices", color = "Goal") 
+```
+
+# Data analysis
+
+```{r}
+data <- data %>%
+  mutate(
+    tangram_choice = ifelse(selected_tangram_group == "red_specific", 1, 0),
+    goal = factor(goal, levels = c("social", "refer")),
+    prop_naive = as.numeric(prop_naive)
+  )
+
+mod <- glmer(
+  tangram_choice ~ prop_naive * goal
+  + (prop_naive + goal | subject_id)
+  + (prop_naive + goal | item_id)
+  + (prop_naive + goal |
+       selected_tangram),
+  data = data,
+  family = 'binomial', 
+  control = glmerControl(optimizer = "bobyqa")
+)
+
+summary(mod)
+```
+```{r}
+mod <- lmer(
+  utt_length ~ prop_naive * goal
+  + (prop_naive * goal | subject_id)
+  + (prop_naive * goal | item_id)
+  + (prop_naive * goal |
+       selected_tangram),
+  data = data
+)
+
+summary(mod)
+```
+
+
+
+```{r}
+mod <- lmer(
+  sbert_cosine_later_blue ~ prop_naive * goal
+  + (goal | subject_id)
+  + (goal | item_id)
+  + (goal |
+       selected_tangram),
+  data = data
+)
+
+summary(mod)
+```
+
+## Remake plots with better performing participants
+
+Recalculate summary statistics with better performing participants
+
+```{r}
+utt_length_summary_better_performance <- data_better_performance %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(utt_length, na.rm = TRUE)
+```
+
+```{r}
+cos_diff_summary_better_performance <- data_better_performance %>%
+  filter(!is.na(sbert_cosine_later_blue)) %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(1 - sbert_cosine_later_blue, na.rm = TRUE)
+```
+
+Plots
+
+```{r fig.width=10, fig.height=4}
+ggplot(data_better_performance, aes(x = prop_naive, fill = factor(selected_tangram_group, levels = c("blue_specific", "shared", "red_specific")))) +
+  geom_histogram(position = "fill", binwidth = 0.1) +
+  labs(
+    x = "Proportion naive",
+    y = "Proportion",
+    title = "Better memory participants",
+    fill = "Tangram group"
+  ) +
+  scale_fill_manual(
+    values = c("red_specific" = "red", "shared" = "purple", "blue_specific" = "blue"),
+    breaks = c("blue_specific", "shared", "red_specific")
+  ) +
+  facet_wrap(~goal)
+```
+
+```{r}
+ggplot(utt_length_summary_better_performance, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "Utterance length", title = "Better memory participants", color = "Goal") 
+```
+
+```{r}
+ggplot(cos_diff_summary_better_performance, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "1 - cosine similarity to later", title = "Better memory participants", color = "Goal") 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
