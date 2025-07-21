@@ -23,11 +23,40 @@ theme_set(theme_classic(base_size = 15))
 options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 ```
 
-# Load data
+# Load data and demographics
 
 ```{r}
 data <- read_csv(here("data/3pp/free-response/selection_trials.csv")) %>%
   mutate(prop_naive = n_naive / (n_blue + n_naive))
+
+demographics <- read_csv(here("data/3pp/free-response/exit_survey.csv"))
+```
+
+Summary statistics
+
+```{r}
+demographics %>%
+  summarise(
+    age_mean = mean(age, na.rm = TRUE),
+    age_sd = sd(age, na.rm = TRUE),
+    gender_counts = table(gender)
+  )
+```
+
+Gender breakdown
+
+```{r}
+demographics %>%
+  group_by(gender) %>%
+  summarise(n = n())
+```
+
+How many participants that understood the instructions?
+
+```{r}
+demographics %>%
+  filter(understood == "yes") %>%
+  summarise(n_unique = n_distinct(subject_id))
 ```
 
 # Sanity checks
@@ -254,6 +283,7 @@ mod <- glmer(
 
 summary(mod)
 ```
+
 ```{r}
 mod <- lmer(
   utt_length ~ prop_naive * goal
@@ -336,6 +366,71 @@ ggplot(cos_diff_summary_better_performance, aes(x = prop_naive, y = empirical_st
   scale_color_brewer(palette = "Set2") +
   labs(x = "Proportion naive", y = "1 - cosine similarity to later", title = "Better memory participants", color = "Goal") 
 ```
+
+## Other tests
+
+Correlate how well people learned the descriptions, with size of 'goal' effect for each participant
+
+```{r}
+eff_cor_tangram <- data %>%
+  group_by(subject_id) %>%
+  summarise(
+    goal_effect = mean(tangram_choice[goal == "refer"], na.rm = TRUE) - mean(tangram_choice[goal == "social"], na.rm = TRUE),
+    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE)
+  ) 
+
+eff_cor_sbert <- data %>%
+  group_by(subject_id) %>%
+  summarise(
+    goal_effect = mean(sbert_cosine_later_blue[goal == "social"], na.rm = TRUE) - mean(sbert_cosine_later_blue[goal == "refer"], na.rm = TRUE),
+    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE)
+  ) 
+
+eff_cor_length <- data %>%
+  group_by(subject_id) %>%
+  summarise(
+    goal_effect = mean(utt_length[goal == "refer"], na.rm = TRUE) - mean(utt_length[goal == "social"], na.rm = TRUE),
+    goal_effect_log = mean(log(utt_length[goal == "refer"]), na.rm = TRUE) - mean(log(utt_length[goal == "social"]), na.rm = TRUE),
+    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE)
+  ) 
+```
+
+Plot
+
+```{r}
+ggplot(eff_cor_sbert, aes(x = utt_memory, y = goal_effect)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
+  labs(x = "Memory of later blue utterances", y = "Goal effect - semantic similarity")
+```
+
+```{r}
+ggplot(eff_cor_length, aes(x = utt_memory, y = goal_effect)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
+  labs(x = "Memory of later blue utterances", y = "Goal effect - utterance length")
+```
+
+```{r}
+ggplot(eff_cor_length, aes(x = utt_memory, y = goal_effect_log)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
+  labs(x = "Memory of later blue utterances", y = "Goal effect - log utterance length")
+```
+
+```{r}
+ggplot(eff_cor_tangram, aes(x = utt_memory, y = goal_effect)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
+  labs(x = "Memory of later blue utterances", y = "Goal effect - tangram choice")
+```
+
+
+
 
 
 
