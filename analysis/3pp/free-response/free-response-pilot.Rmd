@@ -1,5 +1,5 @@
 ---
-title: "free-response-pilot"
+title: "free-response experiment"
 author: "Alicia Chen"
 date: "2025-07-14"
 output: html_document
@@ -38,8 +38,7 @@ Summary statistics
 demographics %>%
   summarise(
     age_mean = mean(age, na.rm = TRUE),
-    age_sd = sd(age, na.rm = TRUE),
-    gender_counts = table(gender)
+    age_sd = sd(age, na.rm = TRUE)
   )
 ```
 
@@ -175,6 +174,135 @@ ggplot(data, aes(x = prop_naive, fill = factor(selected_tangram_group, levels = 
   facet_wrap(~goal)
 ```
 
+For the 'social' goal, what are people writing when they choose red-specific tangrams? 
+
+First compare whether the description was more similar to later red, versus blue-specific tangrams to later blue. 
+
+```{r}
+red_similarity_summary <- data %>% filter(goal == "social", selected_tangram_group == "red_specific") %>%
+  tidyboot_mean(sbert_cosine_later_red, na.rm = TRUE) %>% 
+  mutate(selected_tangram_group = "red_specific")
+
+blue_similarity_summary <- data %>% filter(goal == "social", selected_tangram_group == "blue_specific") %>%
+  tidyboot_mean(sbert_cosine_later_blue, na.rm = TRUE) %>% 
+  mutate(selected_tangram_group = "blue_specific")
+
+similarity_summary <- rbind(red_similarity_summary, blue_similarity_summary)
+```
+
+```{r}
+ggplot(similarity_summary, aes(x = selected_tangram_group, y = empirical_stat, color = selected_tangram_group)) +
+  geom_jitter(
+    data = data %>% filter(goal == "social", selected_tangram_group %in% c("red_specific", "blue_specific")),
+    aes(
+      x = selected_tangram_group,
+      y = ifelse(selected_tangram_group == "red_specific", sbert_cosine_later_red, sbert_cosine_later_blue),
+      color = selected_tangram_group
+    ),
+    width = 0.15, alpha = 0.05, size = 2, inherit.aes = FALSE
+  ) +
+  geom_point(position = position_dodge(width = 0.03), size = 2) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 2, width = 0) +
+  scale_color_manual(values = c("red_specific" = "red", "blue_specific" = "blue")) +
+  labs(x = "Tangram group", y = "Cosine similarity to later", title = "Social goal", subtitle = "is blue more similar to later blue, or red more similar to later red?") 
+```
+
+The above plot shows that when participants choose blue-specific tangrams, they write descriptions that are similar to the blue group's converged utterances for those tangrams — but when participants select red-specific tangrams, they do NOT write descriptions that are similar to the red group's converged utterances for those tangrams
+
+Next, what exactly are they writing? When people choose red-specific tangrams, are they writing something that's similar to the blue-group expressions? (i.e. do they talk about things that are not the tangram they selected, and instead provide descriptions that are identifiable by the blue group?)
+
+For each time a red-specific tangram is selected for the social goal: 
+- calculate similarity of the written description to each of the blue-group converged expressions for all of the blue-group tangrams (blue-specific + shared)
+- calculate similarity of the written description to each of the red-group converged expressions for all of the red-group tangrams (red-specific + shared)
+- select the most similar later description among each of the blue-group tangrams
+- select the most similar later description among each of the red-group tangrams
+
+We need to do this in a python script so we can use the SBERT model, but first find the converged expressions for each tangram
+
+```{r}
+converged_expressions <- data %>%
+  group_by(item_id, counterbalance, selected_tangram, selected_tangram_group, selected_tangram_later_red, selected_tangram_later_blue) %>%
+  summarise()
+
+# save to csv
+write_csv(converged_expressions, here("data/3pp/free-response/converged_expressions.csv"))
+```
+
+This is where we run `red_social_similarity.py` and the output of that is in `red_social_similarity_results.csv`
+
+```{r}
+red_social_similarity <- read_csv(here("analysis/3pp/free-response/red_social_similarity_results.csv"))
+```
+
+```{r}
+ggplot(red_social_similarity, aes(x = max_blue_sim, y = max_red_sim)) +
+  geom_point(size = 2, alpha = 0.4) +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "red") + 
+  lims(x = c(0, 1), y = c(0, 1)) +
+  labs(x = "Max similarity to blue-group converged", y = "Max similarity to red-group converged", title = "Social goal", subtitle = "Descriptions for selected red-specific (vs blue-specific)") + 
+  facet_wrap(~selected_tangram_group) +
+  coord_fixed() 
+```
+
+```{r}
+ggplot(red_social_similarity, aes(x = mean_blue_sim, y = mean_red_sim)) +
+  geom_point(size = 2, alpha = 0.4) +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "red") + 
+  labs(x = "Mean similarity to blue-group converged", y = "Mean similarity to red-group converged", title = "Social goal", subtitle = "Descriptions for selected red-specific (vs blue-specific)") + 
+  facet_wrap(~selected_tangram_group) +
+  coord_fixed() 
+```
+
+
+```{r}
+summary_max_blue <- red_social_similarity %>%
+  group_by(selected_tangram_group) %>%
+  tidyboot_mean(max_blue_sim, na.rm = TRUE) %>%
+  mutate(similarity_to = "blue-group")
+
+summary_max_red <- red_social_similarity %>%
+  group_by(selected_tangram_group) %>%
+  tidyboot_mean(max_red_sim, na.rm = TRUE) %>%
+  mutate(similarity_to = "red-group")
+
+summary_max <- rbind(summary_max_blue, summary_max_red)
+```
+
+```{r}
+ggplot(summary_max, aes(x = similarity_to, y = empirical_stat, color = similarity_to)) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_manual(values = c("blue-group" = "blue", "red-group" = "red")) +
+  labs(x = "similarity_to", y = "Cosine similarity", title = "Social goal", subtitle = "Descriptions for selected red-specific (vs blue-specific)") + 
+  facet_wrap(~selected_tangram_group) 
+```
+
+The above plot shows that in general, people write blue group labels when they select blue-specific tangrams, and they write red-group labels when they select red-specific tangrams. BUT, while participants are extremely likely to write blue-group labels for blue-specific tangrams (recall that the social goal is only directed to the blue group), they are comparatively less likely to write red-group labels for red-specific tangrams.
+
+Remake plot with individual points
+
+```{r}
+ggplot(summary_max, aes(x = similarity_to, y = empirical_stat, color = similarity_to)) +
+  geom_jitter(
+    data = red_social_similarity %>% filter(selected_tangram_group %in% c("red_specific", "blue_specific")) %>% pivot_longer(cols = c(max_blue_sim, max_red_sim), names_to = "similarity_to", values_to = "value") %>% mutate(similarity_to = ifelse(similarity_to == "max_blue_sim", "blue-group", "red-group")),
+    aes(
+      x = similarity_to,
+      y = value,
+      color = similarity_to
+    ),
+    width = 0.2, alpha = 0.03, size = 2, inherit.aes = FALSE
+  ) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_manual(values = c("blue-group" = "blue", "red-group" = "red")) +
+  labs(x = "similarity_to", y = "Cosine similarity", title = "Social goal", subtitle = "Descriptions for selected red-specific (vs blue-specific)") + 
+  facet_wrap(~selected_tangram_group) 
+```
+
+
 
 ##  Utterance length
 
@@ -196,6 +324,59 @@ ggplot(utt_length_summary, aes(x = prop_naive, y = empirical_stat, color = goal)
   labs(x = "Proportion naive", y = "Utterance length", color = "Goal") 
 ```
 
+Add individual points
+
+```{r fig.width=10}
+
+ggplot(utt_length_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_jitter(
+    data = data,
+    aes(x = prop_naive, y = utt_length, color = goal),
+   alpha = 0.1, size = 2, inherit.aes = FALSE,
+   position = position_jitterdodge(dodge.width = 0.05)
+  ) +
+  geom_point(position = position_dodge(width = 0.05), size = 3) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.05), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "Utterance length", color = "Goal") 
+```
+
+Log transform utterance lengths 
+
+```{r}
+utt_length_summary_log <- data %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(log(utt_length), na.rm = TRUE)
+```
+
+```{r}
+ggplot(utt_length_summary_log, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_point(position = position_dodge(width = 0.03), size = 3) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.03), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "Log utterance length", color = "Goal") 
+```
+
+```{r fig.width=10}
+ggplot(utt_length_summary_log, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_jitter(
+    data = data,
+    aes(x = prop_naive, y = log(utt_length), color = goal),
+   alpha = 0.1, size = 2, inherit.aes = FALSE,
+   position = position_jitterdodge(dodge.width = 0.05, jitter.height = 0.1)
+  ) +
+  geom_point(position = position_dodge(width = 0.05), size = 3) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.05), size = 1.7, width = 0) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "Log utterance length", color = "Goal") 
+```
+
+
 
 ## Cosine similarity to later utterance
 
@@ -216,6 +397,26 @@ ggplot(cos_diff_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) 
   scale_color_brewer(palette = "Set2") +
   labs(x = "Proportion naive", y = "1 - cosine similarity to later", color = "Goal") 
 ```
+
+Add individual points
+
+```{r fig.width=10}
+ggplot(cos_diff_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_jitter(
+    data = data,
+    aes(x = prop_naive, y = 1 - sbert_cosine_later_blue, color = goal),
+   alpha = 0.1, size = 2, inherit.aes = FALSE,
+   position = position_jitterdodge(dodge.width = 0.05, jitter.height = 0.01)
+  ) +
+  geom_point(position = position_dodge(width = 0.05), size = 3) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.05), size = 1.7, width = 0) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Proportion naive", y = "1 - cosine similarity to later", color = "Goal") 
+```
+
+
 
 ## Filter out trials where participants selected red-specific tangrams
 
