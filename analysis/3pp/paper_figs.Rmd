@@ -1,0 +1,120 @@
+---
+title: "paper_figs"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(tidyboot)
+library(glue)
+library(showtext)
+library(ggpubr)
+
+theme_set(theme_classic(base_size = 23))
+seaborn_colorblind <- c(
+  "#0173b2", # blue
+  "#de8f05", # orange
+  "#029e73", # green
+  "#d55e00", # red
+  "#cc78bc", # purple
+  "#ca9161", # brown
+  "#fbafe4", # pink
+  "#949494", # gray
+  "#ece133", # yellow
+  "#56b4e9"  # light blue
+)
+
+palette <- c(
+  "Refer" = seaborn_colorblind[3],
+  "Social" = seaborn_colorblind[2]
+)
+```
+
+# Experiment 1
+
+
+```{r}
+data <- read_csv(here("data/3pp/free-response/selection_trials.csv")) %>%
+  mutate(prop_naive = n_naive / (n_blue + n_naive),
+         goal = if_else(goal == "refer", "Refer", "Social"))
+
+demographics <- read_csv(here("data/3pp/free-response/exit_survey.csv"))
+```
+
+## Tangram selection
+
+How often do people choose tangrams that belong to the in-group? 
+
+```{r}
+data <- data %>% 
+  mutate(selected_out_group = if_else(selected_tangram_group == "red_specific", 1, 0))
+```
+
+```{r}
+tangram_selection_means <- data %>%
+  group_by(prop_naive, goal) %>%
+  tidyboot_mean(selected_out_group, na.rm = TRUE)
+```
+
+
+Plot
+
+```{r fig.width=7.5, fig.height=5}
+ggplot(tangram_selection_means, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(position = position_dodge(width = 0.04), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.04), size = 2, width = 0) +
+  scale_color_manual(values = palette) +
+  labs(x = "Proportion naive", y = "P(selected out-group tangram)", color = "Goal") 
+
+ggsave(here("figures/outputs/tangram_selection.pdf"))
+```
+
+##  Utterance length
+
+Plot utterance length by proportion naive and goal
+
+```{r}
+utt_length_summary <- data %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(utt_length, na.rm = TRUE)
+```
+
+
+```{r fig.width=7.5, fig.height=5}
+ggplot(utt_length_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(position = position_dodge(width = 0.04), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.04), size = 2, width = 0) +
+  scale_color_manual(values = palette) +
+  labs(x = "Proportion naive", y = "Utterance length", color = "Goal") 
+
+ggsave(here("figures/outputs/utterance_length.pdf"))
+```
+
+## Cosine similarity to later utterance
+
+Plot cosine similarity to later utterance by proportion naive and goal
+
+```{r}
+cos_diff_summary <- data %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(1 - sbert_cosine_later_blue, na.rm = TRUE)
+```
+
+```{r fig.width=7.5, fig.height=5}
+ggplot(cos_diff_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(position = position_dodge(width = 0.04), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.04), size = 2, width = 0) +
+  scale_color_manual(values = palette) +
+  labs(x = "Proportion naive", y = "Semantic distance to later", color = "Goal") 
+
+ggsave(here("figures/outputs/cosine_similarity.pdf"))
+```
+
+
