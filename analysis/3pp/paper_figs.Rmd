@@ -11,7 +11,7 @@ library(glue)
 library(showtext)
 library(ggpubr)
 
-theme_set(theme_classic(base_size = 23))
+theme_set(theme_classic(base_size = 24))
 seaborn_colorblind <- c(
   "#0173b2", # blue
   "#de8f05", # orange
@@ -39,6 +39,10 @@ data <- read_csv(here("data/3pp/free-response/selection_trials.csv")) %>%
   mutate(prop_naive = n_naive / (n_blue + n_naive),
          goal = if_else(goal == "refer", "Refer", "Social"))
 
+data_filtered <- read_csv(here("data/3pp/free-response/selection_trials_filtered.csv")) %>%
+  mutate(prop_naive = n_naive / (n_blue + n_naive),
+         goal = if_else(goal == "refer", "Refer", "Social"))
+
 demographics <- read_csv(here("data/3pp/free-response/exit_survey.csv"))
 ```
 
@@ -49,10 +53,17 @@ How often do people choose tangrams that belong to the in-group?
 ```{r}
 data <- data %>% 
   mutate(selected_out_group = if_else(selected_tangram_group == "red_specific", 1, 0))
+
+data_filtered <- data_filtered %>% 
+  mutate(selected_out_group = if_else(selected_tangram_group == "red_specific", 1, 0))
 ```
 
 ```{r}
 tangram_selection_means <- data %>%
+  group_by(prop_naive, goal) %>%
+  tidyboot_mean(selected_out_group, na.rm = TRUE)
+
+tangram_selection_means_filtered <- data_filtered %>%
   group_by(prop_naive, goal) %>%
   tidyboot_mean(selected_out_group, na.rm = TRUE)
 ```
@@ -60,16 +71,30 @@ tangram_selection_means <- data %>%
 
 Plot
 
-```{r fig.width=7.5, fig.height=5}
+```{r fig.width=6, fig.height=6}
 ggplot(tangram_selection_means, aes(x = prop_naive, y = empirical_stat, color = goal)) +
   geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
   geom_point(position = position_dodge(width = 0.04), size = 5) +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
                 position = position_dodge(width = 0.04), size = 2, width = 0) +
   scale_color_manual(values = palette) +
-  labs(x = "Proportion naive", y = "P(selected out-group tangram)", color = "Goal") 
+  labs(x = "Proportion naive", y = "P(selected out-group tangram)", color = "Goal") +
+  theme(legend.position = "bottom")
 
 ggsave(here("figures/outputs/tangram_selection.pdf"))
+```
+
+```{r fig.width=6, fig.height=6}
+ggplot(tangram_selection_means_filtered, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(position = position_dodge(width = 0.04), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.04), size = 2, width = 0) +
+  scale_color_manual(values = palette) +
+  labs(x = "Proportion naive", y = "P(selected out-group tangram)", color = "Goal") +
+  theme(legend.position = "bottom")
+
+ggsave(here("figures/outputs/tangram_selection_filtered.pdf"))
 ```
 
 ##  Utterance length
@@ -80,19 +105,36 @@ Plot utterance length by proportion naive and goal
 utt_length_summary <- data %>%
   group_by(goal, prop_naive) %>%
   tidyboot_mean(utt_length, na.rm = TRUE)
+
+utt_length_summary_filtered <- data_filtered %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(utt_length, na.rm = TRUE)
 ```
 
 
-```{r fig.width=7.5, fig.height=5}
+```{r fig.width=6, fig.height=6}
 ggplot(utt_length_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
   geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
   geom_point(position = position_dodge(width = 0.04), size = 5) +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
                 position = position_dodge(width = 0.04), size = 2, width = 0) +
   scale_color_manual(values = palette) +
-  labs(x = "Proportion naive", y = "Utterance length", color = "Goal") 
+  labs(x = "Proportion naive", y = "Utterance length", color = "Goal") +
+  theme(legend.position = "bottom")
 
 ggsave(here("figures/outputs/utterance_length.pdf"))
+```
+```{r fig.width=6, fig.height=6}
+ggplot(utt_length_summary_filtered, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(position = position_dodge(width = 0.04), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.04), size = 2, width = 0) +
+  scale_color_manual(values = palette) +
+  labs(x = "Proportion naive", y = "Utterance length", color = "Goal") +
+  theme(legend.position = "bottom")
+
+ggsave(here("figures/outputs/utterance_length_filtered.pdf"))
 ```
 
 ## Cosine similarity to later utterance
@@ -103,18 +145,164 @@ Plot cosine similarity to later utterance by proportion naive and goal
 cos_diff_summary <- data %>%
   group_by(goal, prop_naive) %>%
   tidyboot_mean(1 - sbert_cosine_later_blue, na.rm = TRUE)
+
+cos_diff_summary_filtered <- data_filtered %>%
+  group_by(goal, prop_naive) %>%
+  tidyboot_mean(1 - sbert_cosine_later_blue, na.rm = TRUE)
 ```
 
-```{r fig.width=7.5, fig.height=5}
+```{r fig.width=6, fig.height=6}
 ggplot(cos_diff_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
   geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
   geom_point(position = position_dodge(width = 0.04), size = 5) +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
                 position = position_dodge(width = 0.04), size = 2, width = 0) +
   scale_color_manual(values = palette) +
-  labs(x = "Proportion naive", y = "Semantic distance to later", color = "Goal") 
+  labs(x = "Proportion naive", y = "Semantic distance to later", color = "Goal") +
+  theme(legend.position = "bottom")
 
 ggsave(here("figures/outputs/cosine_similarity.pdf"))
 ```
+
+```{r fig.width=6, fig.height=6}
+ggplot(cos_diff_summary_filtered, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(position = position_dodge(width = 0.04), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.04), size = 2, width = 0) +
+  scale_color_manual(values = palette) +
+  labs(x = "Proportion naive", y = "Semantic distance to later", color = "Goal") +
+  theme(legend.position = "bottom")
+
+ggsave(here("figures/outputs/cosine_similarity_filtered.pdf"))
+```
+
+# Experiment 2
+
+```{r}
+exp2.results <- read_csv(here("model/preds_exp2.csv")) %>% 
+  mutate(goal = ifelse(goal == "refer", "Refer", "Social"), 
+         audience = ifelse(audience == "either", "Uncertain", "In-group"), 
+         model = case_when(
+           model == "base model" ~ "Base model",
+           model == "social model" ~ "Social model",
+           model == "data" ~ "Data"
+         )) %>% 
+  mutate(model = factor(model, levels = c("Base model", "Social model", "Data")),
+         audience = factor(audience, levels = c("In-group", "Uncertain")),
+         goal = factor(goal, levels = c("Refer", "Social")))
+```
+```{r}
+exp2.summary <- exp2.results %>% 
+  group_by(audience, goal, model) %>% 
+  tidyboot_mean(p_shared, na.rm = TRUE)
+```
+
+Plot
+
+```{r fig.width=11, fig.height=3.8}
+ggplot(exp2.summary, aes(x = audience, y = empirical_stat, color = goal)) +
+  geom_hline(yintercept = 0.5, color = "gray", linetype = "dashed") +
+  geom_point(position = position_dodge(width = 0.4), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.4), size = 2, width = 0) +
+  geom_line(aes(group = goal), position = position_dodge(width = 0.4), size = 2) +
+  scale_color_manual(values = palette) +
+  labs(x = "Audience", y = "P(shared label)", color = "Goal", shape = "Model") +
+  facet_wrap(~model) 
+
+ggsave(here("figures/outputs/exp2_results.pdf"))
+```
+
+# Experiment 3
+
+```{r}
+exp3.results <- read_csv(here("model/preds_exp3.csv")) %>% 
+  mutate(goal = ifelse(goal == "refer", "Refer", "Social"), 
+         audience = ifelse(audience == "either", "Uncertain", "In-group"), 
+         tangram_type = ifelse(tangram_type == "shared", "Shared", "Group-specific"),
+         model = case_when(
+           model == "base model" ~ "Base model",
+           model == "social model" ~ "Social model",
+           model == "data" ~ "Data"
+         )) %>% 
+  mutate(model = factor(model, levels = c("Base model", "Social model", "Data")),
+         audience = factor(audience, levels = c("In-group", "Uncertain")),
+         tangram_type = factor(tangram_type, levels = c("Shared", "Group-specific")),
+         goal = factor(goal, levels = c("Refer", "Social")))
+```
+
+```{r}
+exp3.summary <- exp3.results %>% 
+  group_by(audience, goal, tangram_type, model) %>% 
+  tidyboot_mean(p_earlier, na.rm = TRUE)
+```
+
+calculate mean and SD for power analysis (later move this somewhere else)
+
+```{r}
+exp3.means <- exp3.results %>% 
+  group_by(audience, goal, tangram_type, model) %>% 
+  summarize(mean = mean(p_earlier, na.rm = TRUE),
+            sd = sd(p_earlier, na.rm = TRUE))
+```
+
+
+```{r fig.width=11.5, fig.height=6}
+ggplot(exp3.summary, aes(x = audience, y = empirical_stat, color = goal)) +
+  geom_hline(yintercept = 0.5, color = "gray", linetype = "dashed") +
+  geom_point(position = position_dodge(width = 0.4), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.4), size = 2, width = 0) +
+  geom_line(aes(group = goal), position = position_dodge(width = 0.4), size = 2) +
+  scale_color_manual(values = palette) +
+  labs(x = "Audience", y = "P(earlier label)", color = "Goal", shape = "Model") +
+  facet_grid(tangram_type ~ model) 
+
+ggsave(here("figures/outputs/exp3_results.pdf"))
+```
+
+# Experiment 4
+
+```{r}
+exp4.results <- read_csv(here("model/preds_exp4.csv")) %>% 
+  mutate(goal = ifelse(goal == "refer", "Refer", "Social"), 
+         model = case_when(
+           model == "base model" ~ "Base model",
+           model == "social model" ~ "Social model",
+           model == "data" ~ "Data"
+         )) %>% 
+  mutate(model = factor(model, levels = c("Base model", "Social model", "Data")),
+         goal = factor(goal, levels = c("Refer", "Social")))
+```
+```{r}
+exp4.summary <- exp4.results %>% 
+  group_by(goal, model, prop_naive) %>% 
+  tidyboot_mean(p_earlier, na.rm = TRUE)
+```
+
+Plot
+
+```{r fig.width=12.5, fig.height=3.8}
+ggplot(exp4.summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_hline(yintercept = 0.5, color = "gray", linetype = "dashed") +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(position = position_dodge(width = 0.05), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.05), size = 2, width = 0) +
+  scale_color_manual(values = palette) +
+  labs(x = "Proportion naive", y = "P(earlier label)", color = "Goal") +
+  # legend on bottom 
+  facet_wrap(~model)
+
+ggsave(here("figures/outputs/exp4_results.pdf"))
+```
+
+
+
+
+
+
+
 
 
