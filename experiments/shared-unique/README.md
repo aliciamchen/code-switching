@@ -1,4 +1,4 @@
-# Experiment 1
+# shared vs. unique
 
 ## `/stim`
 
@@ -32,6 +32,3 @@ The files in `items` are used to generate the `.json` files in `2AFC_trials` and
 
 `rsync -av --exclude 'stim/boyce_data' --exclude 'stim/convo_vids/videos/480p15/partial_movie_files' --exclude 'stim/convos' --exclude 'stim/convo_vids/texts' shared-unique/ aliciach@athena.dialup.mit.edu:~/www/tangrams/s-u`
 
-
-website is at
-https://web.mit.edu/aliciach/www/tangrams/s-u
