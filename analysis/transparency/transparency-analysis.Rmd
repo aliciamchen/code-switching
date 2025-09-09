@@ -21,7 +21,7 @@ options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 ```
 
 ```{r}
-data <- read_csv(here("data/3pp/transparency/selection_trials.csv")) %>% 
+data <- read_csv(here("data/transparency/selection_trials.csv")) %>% 
   mutate(correct = ifelse(correct == TRUE, 1, 0)) %>% 
   filter(understood == "yes")
 ```
@@ -41,7 +41,7 @@ means.by.label = data %>%
 
 means.by.label
 # save to csv
-write_csv(means.by.label, here("data/3pp/transparency/means_by_label.csv"))
+write_csv(means.by.label, here("data/transparency/means_by_label.csv"))
 ```
 
 Aggregate and compare informativity of earlier vs. later utterances

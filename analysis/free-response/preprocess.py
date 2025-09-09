@@ -1,16 +1,17 @@
 import os
 import json
 import csv
+import uuid
 import numpy as np
 from sentence_transformers import SentenceTransformer, util
 from tqdm import tqdm
 
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../"))
-RAW_DATA_DIR = os.path.join(PROJECT_ROOT, "data/3pp/free-response/raw_data")
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
+RAW_DATA_DIR = os.path.join(PROJECT_ROOT, "data/free-response/raw_data")
 SELECTION_TRIALS_CSV = os.path.join(
-    PROJECT_ROOT, "data/3pp/free-response/selection_trials.csv"
+    PROJECT_ROOT, "data/free-response/selection_trials.csv"
 )
-EXIT_SURVEY_CSV = os.path.join(PROJECT_ROOT, "data/3pp/free-response/exit_survey.csv")
+EXIT_SURVEY_CSV = os.path.join(PROJECT_ROOT, "data/free-response/exit_survey.csv")
 
 selection_trials_fields = [
     "subject_id",
@@ -36,7 +37,7 @@ selection_trials_fields = [
 ]
 
 
-def extract_selection_trials(trials):
+def extract_selection_trials(trials, subject_id_map):
     # Load SBERT model once
     model = SentenceTransformer("paraphrase-MiniLM-L6-v2")
     rows = []
@@ -63,7 +64,7 @@ def extract_selection_trials(trials):
             sbert_cosine_later_red = sbert_similarity(written_label, later_red)
             utt_length = len(written_label.split())
             row = {
-                "subject_id": trial.get("subject_id"),
+                "subject_id": subject_id_map.get(trial.get("subject_id"), trial.get("subject_id")),
                 "item_id": trial.get("item_id"),
                 "counterbalance": trial.get("counterbalance"),
                 "trial_num": trial.get("trial_num"),
@@ -92,11 +93,11 @@ def extract_selection_trials(trials):
     return rows
 
 
-def extract_exit_survey(trials):
+def extract_exit_survey(trials, subject_id_map):
     # Find the last survey-multi-choice trial (exit survey)
     for trial in reversed(trials):
         if trial.get("trial_type") == "survey-html-form" and "response" in trial:
-            row = {"subject_id": trial.get("subject_id")}
+            row = {"subject_id": subject_id_map.get(trial.get("subject_id"), trial.get("subject_id"))}
             for k, v in trial["response"].items():
                 row[k] = v
             return row
@@ -106,6 +107,13 @@ def extract_exit_survey(trials):
 def main():
     selection_trials = []
     exit_surveys = []
+    subject_id_map = {}
+    
+    def get_anonymized_id(original_id):
+        if original_id not in subject_id_map:
+            subject_id_map[original_id] = str(uuid.uuid4())
+        return subject_id_map[original_id]
+    
     for fname in os.listdir(RAW_DATA_DIR):
         if fname.endswith(".json"):
             with open(os.path.join(RAW_DATA_DIR, fname), "r") as f:
@@ -114,8 +122,13 @@ def main():
                 except Exception as e:
                     print(f"Error loading {fname}: {e}")
                     continue
-            selection_trials.extend(extract_selection_trials(trials))
-            exit_survey = extract_exit_survey(trials)
+            # Anonymize subject IDs in the trials data
+            for trial in trials:
+                if "subject_id" in trial:
+                    trial["subject_id"] = get_anonymized_id(trial["subject_id"])
+            
+            selection_trials.extend(extract_selection_trials(trials, subject_id_map))
+            exit_survey = extract_exit_survey(trials, subject_id_map)
             if exit_survey:
                 exit_surveys.append(exit_survey)
 

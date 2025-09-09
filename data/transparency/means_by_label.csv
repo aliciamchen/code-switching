@@ -1,91 +1,91 @@
 tangram_set,target,earlier,length,label,n,empirical_stat,ci_lower,mean,ci_upper
-0,A,earlier,27,"it looks like someone stood up with their feet both pointing left, there's a square and a trapesium at the top, with one leg in the air",42,0.9523809523809523,0.8775510204081632,0.9527968771738302,1
-0,A,earlier,41,"a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",45,0.6,0.442296511627907,0.5958261463001172,0.7380952380952381
-0,A,earlier,43,it looks like a person kicking one foot in front of them. their head looks like it has a beak! they have a box over their right shoulder. It could also in theory looking like a person carrying another person over their shoulder.,43,0.930232558139535,0.8421052631578947,0.926577629220802,1
-0,A,later,1,thriller,35,0.5714285714285714,0.4074074074074074,0.5693136951272979,0.7242163009404389
-0,A,later,1,zombie,36,0.6388888888888888,0.48571428571428565,0.638138451782616,0.7857683982683982
-0,B,earlier,27,"two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side, you could say it is wearing a dress",44,0.8409090909090909,0.7209302325581395,0.8422239948774289,0.9444444444444444
-0,B,earlier,28,"the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",39,0.6153846153846154,0.45631559220389806,0.6134444316807394,0.7561140408701384
-0,B,earlier,28,"two big ears, pointing nose, facing left. A small triangle on the left side could be its foot or tail, its ears are a diamond and a triangle",29,0.8275862068965517,0.6666666666666667,0.8279390891450495,0.954594861660079
-0,B,later,1,mouse,44,0.5681818181818181,0.41666666666666663,0.5616777986634465,0.7027487714987715
-0,B,later,2,princess dance,45,0.5333333333333333,0.3863199300699301,0.5326871205452546,0.675
+0,A,earlier,27,"it looks like someone stood up with their feet both pointing left, there's a square and a trapesium at the top, with one leg in the air",42,0.9523809523809523,0.8723061084420042,0.9508868013732564,1
+0,A,earlier,41,"a guy facing left with his head to the right over his back and a leg out to the left, his arms are level with his head and his head comes past the right side of his body by a bit",45,0.6,0.4633677298311445,0.599378739780007,0.7381211180124224
+0,A,earlier,43,it looks like a person kicking one foot in front of them. their head looks like it has a beak! they have a box over their right shoulder. It could also in theory looking like a person carrying another person over their shoulder.,43,0.930232558139535,0.8437088815789474,0.9295794784126794,1
+0,A,later,1,thriller,35,0.5714285714285714,0.4,0.5685732527975249,0.7222701149425287
+0,A,later,1,zombie,36,0.6388888888888888,0.47488970588235296,0.6364948473708545,0.7955681818181817
+0,B,earlier,27,"two triangle arms, one facing left and one facing right, kneeling a little with a leg to the side, you could say it is wearing a dress",44,0.8409090909090909,0.7272281639928697,0.8435143800921374,0.9434224318658281
+0,B,earlier,28,"the head is on a flat surface with a triangle stuck to the side of the head, the head and neck look a bit like a pacman mouth",39,0.6153846153846154,0.4523617511520738,0.6161015794098684,0.7647058823529411
+0,B,earlier,28,"two big ears, pointing nose, facing left. A small triangle on the left side could be its foot or tail, its ears are a diamond and a triangle",29,0.8275862068965517,0.6896551724137931,0.8285719968548536,0.9583333333333334
+0,B,later,1,mouse,44,0.5681818181818181,0.42857142857142855,0.5702783971752591,0.7143530997304582
+0,B,later,2,princess dance,45,0.5333333333333333,0.3902439024390244,0.5351452239575653,0.6818181818181818
 0,C,earlier,22,"almost looks like someone slipped and is falling backward with hands in the air, looks like it's from the waist up only",44,1,1,1,1
-0,C,earlier,30,"rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs",34,0.6176470588235294,0.45443181818181816,0.6172783293385321,0.7878787878787878
-0,C,earlier,32,"it looks like a person is falling backwards with his arms outstretched, body is slanted to the left, one arm facing up and to the right and the other to the left",46,0.9565217391304348,0.8863636363636364,0.9563756448249295,1
-0,C,later,2,falling guy,39,0.9487179487179487,0.8695366132723112,0.9492086888798361,1
-0,C,later,2,no legs,38,0.7631578947368421,0.6333333333333333,0.7655857723570477,0.8936450167973125
-0,D,earlier,17,looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up,40,0.95,0.8709040747028862,0.9496248150439123,1
-0,D,earlier,18,"Someone facing left, their back is a straight line, sort of looks like they're holding a book open",48,0.9583333333333334,0.8979591836734694,0.959158261453122,1
-0,D,earlier,36,"this looks like a standing person, with a triangle and square put together sticking out of the left sie, and the bottom is flat and there's a small triangle at the bottom sticking out left too",39,0.6153846153846154,0.45443181818181816,0.6129495010764316,0.7741935483870968
-0,D,later,1,priest,33,0.9090909090909091,0.8180397727272727,0.9126437945916048,1
-0,D,later,3,long sleeved book,41,0.3902439024390244,0.25639534883720927,0.3953416423072945,0.5556201550387596
-0,H,earlier,25,"looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",53,0.9056603773584906,0.8200000000000001,0.9045810326286373,0.9791666666666666
-0,H,earlier,27,"this one you can't really see the feet, hard to tell if they're sitting or what, no arms, facing right, and nothing on top of the head",41,0.8536585365853658,0.75,0.8545117511885961,0.9583545918367347
-0,H,earlier,33,"it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon",38,0.868421052631579,0.75,0.867406345625683,0.9575490998363339
-0,H,later,1,baby,27,0.8148148148148148,0.6499264705882353,0.8160122116910498,0.954594861660079
-0,H,later,2,no arms,42,0.9761904761904762,0.918918918918919,0.9769731506505529,1
-0,L,earlier,18,This looks like a person giving a speech from a book again but this time with knees bent,39,0.8461538461538461,0.7221899224806202,0.8460492472648173,0.95
-0,L,earlier,21,"someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",47,0.851063829787234,0.7380390835579516,0.8506989076061976,0.9433962264150944
-0,L,earlier,30,"diamond head, facing to the right, standing but knees are bent, one arm visible extending to the right, no hands on the left, the legs are like a zig zag",41,0.8780487804878049,0.7666176470588236,0.8790158676229352,0.9736842105263158
-0,L,later,1,zigzag,33,0.8484848484848485,0.7141705069124424,0.8479246070734848,0.9629629629629629
-0,L,later,2,bent knees,41,0.9512195121951219,0.8775510204081632,0.9494163396774082,1
-1,E,earlier,2,bunny ears,42,0.9761904761904762,0.9188626126126127,0.975195204296136,1
-1,E,earlier,23,"It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",44,0.7954545454545454,0.6666666666666667,0.7980225583280164,0.9048172757475084
-1,E,earlier,27,"The gentleman is lunging forward throwing hands in the air, it is difficult to make out, also looks like a rabbit with head down and big ears",38,0.4473684210526316,0.2954211229946525,0.45239692773694695,0.6136800699300697
-1,E,later,1,windmill,36,0.5833333333333333,0.4185053885422575,0.5832847117439979,0.7419585253456221
-1,E,later,2,bunny ears,41,0.926829268292683,0.8387096774193549,0.9285651487285032,1
-1,F,earlier,1,"looks like a person sitting facing the left with their knees bent and feet sticking out, head tilted down slightly, like they're curled up in the fetal position, square on top balancing on corner",38,0.9736842105263158,0.9142857142857143,0.9751460440329842,1
+0,C,earlier,30,"rectangle body with two arms and a head, arms out wide, straight body lines, one arm has a triangle for a hand and the other is a square, no legs",34,0.6176470588235294,0.43462732919254665,0.6165471338180873,0.7778455284552845
+0,C,earlier,32,"it looks like a person is falling backwards with his arms outstretched, body is slanted to the left, one arm facing up and to the right and the other to the left",46,0.9565217391304348,0.8935738930419781,0.9582474565389346,1
+0,C,later,2,falling guy,39,0.9487179487179487,0.8666216216216217,0.947883066530285,1
+0,C,later,2,no legs,38,0.7631578947368421,0.6110772357723577,0.7632378026514681,0.8888888888888888
+0,D,earlier,17,looks like a priest wearing a robe. facing left. arms stretched out holding something. standing straight up,40,0.95,0.875,0.9509587179495261,1
+0,D,earlier,18,"Someone facing left, their back is a straight line, sort of looks like they're holding a book open",48,0.9583333333333334,0.8979591836734694,0.959844849744235,1
+0,D,earlier,36,"this looks like a standing person, with a triangle and square put together sticking out of the left sie, and the bottom is flat and there's a small triangle at the bottom sticking out left too",39,0.6153846153846154,0.4704306722689075,0.6166401339589297,0.7714285714285715
+0,D,later,1,priest,33,0.9090909090909091,0.7878787878787878,0.9093848837201323,1
+0,D,later,3,long sleeved book,41,0.3902439024390244,0.23913043478260873,0.39128769939992425,0.5454545454545454
+0,H,earlier,25,"looks like the letter 'i', no hand sticking out just a head and a body, like a baby that has been swaddled in a blanket",53,0.9056603773584906,0.8222222222222222,0.9064499878020171,0.9787234042553191
+0,H,earlier,27,"this one you can't really see the feet, hard to tell if they're sitting or what, no arms, facing right, and nothing on top of the head",41,0.8536585365853658,0.7446535733769776,0.854859214674344,0.950030487804878
+0,H,earlier,33,"it's a blog in the middle with a head on top, only two shapes, sort of looks like a wrapped up baby, square head, the main shape is sort of like a hexagon",38,0.868421052631579,0.75,0.8697026226732689,0.9687736742424242
+0,H,later,1,baby,27,0.8148148148148148,0.6666666666666666,0.8175314001656597,0.96
+0,H,later,2,no arms,42,0.9761904761904762,0.92,0.9765531752522917,1
+0,L,earlier,18,This looks like a person giving a speech from a book again but this time with knees bent,39,0.8461538461538461,0.7272727272727273,0.8457258906302997,0.953514799154334
+0,L,earlier,21,"someone kneeling down with his arms pointing right with his knees pointing right too, his legs are combined into a square",47,0.851063829787234,0.7498774509803922,0.8524867347271461,0.9474021592442644
+0,L,earlier,30,"diamond head, facing to the right, standing but knees are bent, one arm visible extending to the right, no hands on the left, the legs are like a zig zag",41,0.8780487804878049,0.7659261576971215,0.8770506115130137,0.9697192513368984
+0,L,later,1,zigzag,33,0.8484848484848485,0.71875,0.8466200094752551,0.9642857142857143
+0,L,later,2,bent knees,41,0.9512195121951219,0.88,0.9538877715101516,1
+1,E,earlier,2,bunny ears,42,0.9761904761904762,0.9189051296194154,0.975810339723708,1
+1,E,earlier,23,"It looks like a windmill on top of a hill, the peak is on the left, two triangles and a square on top",44,0.7954545454545454,0.6791759156492786,0.7959782747545897,0.909141414141414
+1,E,earlier,27,"The gentleman is lunging forward throwing hands in the air, it is difficult to make out, also looks like a rabbit with head down and big ears",38,0.4473684210526316,0.2799767441860465,0.444190000165119,0.6001315789473682
+1,E,later,1,windmill,36,0.5833333333333333,0.4242424242424242,0.5873185946096348,0.7419354838709677
+1,E,later,2,bunny ears,41,0.926829268292683,0.838687881429817,0.9269179048828685,1
+1,F,earlier,1,"looks like a person sitting facing the left with their knees bent and feet sticking out, head tilted down slightly, like they're curled up in the fetal position, square on top balancing on corner",38,0.9736842105263158,0.9165441176470588,0.9739367128091354,1
 1,F,earlier,23,"Person sitting down, facing the left, kind of like he's looking down, foot is facing left, knees kind of make a triangle shape",36,1,1,1,1
-1,F,earlier,28,"Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears",39,0.9230769230769231,0.825,0.9235057289202688,1
-1,F,later,1,fetal position,46,0.8043478260869565,0.6764507154213036,0.8027410404086653,0.9090909090909091
-1,F,later,1,sad,42,0.8095238095238095,0.6904017857142857,0.8113600217905944,0.92
-1,G,earlier,21,"arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",37,0.6216216216216217,0.46875,0.624803371335952,0.7750694444444444
-1,G,earlier,39,"this looks like it's striking a pose or something, one foot outstretched behind him and the other close in front, facing right, one hand kind of up in the air by the head, head tilted back to the left",49,0.653061224489796,0.5134663733500943,0.6498257088061687,0.7799999999999999
-1,G,earlier,61,"a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left",36,0.6666666666666667,0.5,0.6631788873752157,0.8125578703703703
-1,G,later,1,leg,37,0.13513513513513517,0.03223286290322582,0.13529481947655075,0.25
-1,G,later,3,strike a pose,42,0.5476190476190476,0.39988372093023256,0.5478390558095769,0.7059182209469153
+1,F,earlier,28,"Person sat down, their head is a rotated square, they look as if they are sad so the head is tilted down, 1 knee up no bunny ears",39,0.9230769230769231,0.8204545454545454,0.9224105162670625,1
+1,F,later,1,fetal position,46,0.8043478260869565,0.681794003868472,0.8061427935246932,0.9210526315789473
+1,F,later,1,sad,42,0.8095238095238095,0.6842105263157895,0.8080113866279667,0.9230769230769231
+1,G,earlier,21,"arm stretched out facing above, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",37,0.6216216216216217,0.4633677298311445,0.6226074988734978,0.7674865831842576
+1,G,earlier,39,"this looks like it's striking a pose or something, one foot outstretched behind him and the other close in front, facing right, one hand kind of up in the air by the head, head tilted back to the left",49,0.653061224489796,0.5,0.6534019434411541,0.7805834528933524
+1,G,earlier,61,"a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, bottom right leg is a triangle, triangle with the right angle on the bottom left",36,0.6666666666666667,0.5,0.6628434974967959,0.8181818181818182
+1,G,later,1,leg,37,0.13513513513513517,0.02941176470588235,0.1331397731873362,0.2580943847072879
+1,G,later,3,strike a pose,42,0.5476190476190476,0.3863636363636364,0.5454965197318732,0.6969873150105709
 1,I,earlier,18,"man standing on one leg, the other behind him, two arms out but apart, like it's ice skating",47,1,1,1,1
-1,I,earlier,28,"standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right",39,0.9743589743589743,0.9148784194528875,0.9747842975208292,1
-1,I,earlier,41,"It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",33,0.9696969696969697,0.896551724137931,0.9687372840823983,1
-1,I,later,1,ballerina,39,0.7948717948717949,0.6578759398496241,0.7947765373759462,0.9166666666666666
-1,I,later,2,ice skater,43,0.9767441860465116,0.9183248299319728,0.9776162011416861,1
-1,J,earlier,17,"it looks like a fat man sticking his arm out for a bus, left side entirely flat",38,0.9210526315789473,0.8285714285714286,0.9204683640046233,1
-1,J,earlier,26,the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right,34,0.8823529411764706,0.75,0.8799338543928162,0.9722222222222222
-1,J,earlier,48,"The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",34,0.7352941176470589,0.5881845841784988,0.7405453804174676,0.8928571428571429
-1,J,later,2,fat guy,53,0.5660377358490566,0.4347826086956522,0.5680274516059047,0.7111111111111111
-1,J,later,2,large cube,42,0.9285714285714286,0.8461538461538461,0.9295478847835311,1
-1,K,earlier,27,"cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right",34,0.8235294117647058,0.6896012931034483,0.8228495297548041,0.9411764705882353
-1,K,earlier,32,"it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, like a duck looking right with a diamond on top",48,0.7916666666666666,0.6666666666666666,0.7907131689259349,0.8974489795918368
-1,K,earlier,85,"this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",35,0.5428571428571428,0.36666666666666664,0.5430361861244227,0.7106203007518795
-1,K,later,1,duck,43,0.4186046511627907,0.2641261171797419,0.41534404709563705,0.5589154411764705
-1,K,later,3,on their knees,41,0.8536585365853658,0.7418870967741936,0.8568246755835643,0.950030487804878
-2,A,earlier,11,The picture looks like it's carrying a flag over its shoulder,39,0.8974358974358975,0.8,0.8984287152646876,0.9778014184397162
-2,A,earlier,26,"this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side",34,0.8823529411764706,0.7666176470588236,0.8834651207293295,0.9761904761904762
-2,A,earlier,33,"Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",23,0.7391304347826086,0.5332352941176471,0.7361651537948114,0.9048701298701298
-2,A,later,1,thriller,49,0.5306122448979591,0.4,0.5314580920273605,0.672736013986014
-2,A,later,1,zombie,56,0.8571428571428571,0.7718176254589962,0.8580058691290832,0.9423076923076923
+1,I,earlier,28,"standing on one leg with the other leg high in the air, facing left, hands outstretched to the left, the leg in the air is on the right",39,0.9743589743589743,0.9142857142857143,0.9738721937628767,1
+1,I,earlier,41,"It looks like a dancer, standing upright one leg, the other leg pointing to the right, two arms to the left, like a ballerina kind of, body is mostly in the left half and the legs are on the right half",33,0.9696969696969697,0.8974137931034484,0.9693165412568376,1
+1,I,later,1,ballerina,39,0.7948717948717949,0.6666666666666667,0.7976511558984654,0.9166666666666666
+1,I,later,2,ice skater,43,0.9767441860465116,0.92852787456446,0.9773395463184935,1
+1,J,earlier,17,"it looks like a fat man sticking his arm out for a bus, left side entirely flat",38,0.9210526315789473,0.8275696286472148,0.9193578634105374,1
+1,J,earlier,26,the image where there is it has a cube (i.e. the most cube-shaped body) for a body with a point sticking out pointing towards the right,34,0.8823529411764706,0.7692307692307693,0.8832777227913461,0.9737010796221323
+1,J,earlier,48,"The person has his/her foot pointing to the right, his hand is also pointed to the right, the left side of his body is completely straight from top to bottom, there is just one box on top as the head and the head is a diamond shape",34,0.7352941176470589,0.5833333333333333,0.7370819386025363,0.8709677419354838
+1,J,later,2,fat guy,53,0.5660377358490566,0.4347826086956522,0.5686565867730535,0.6964597176079734
+1,J,later,2,large cube,42,0.9285714285714286,0.8420526315789473,0.9281708941500948,1
+1,K,earlier,27,"cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting, facing right",34,0.8235294117647058,0.6873125,0.8223139605758799,0.9393939393939394
+1,K,earlier,32,"it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, like a duck looking right with a diamond on top",48,0.7916666666666666,0.6666666666666667,0.7909201055357522,0.9
+1,K,earlier,85,"this one is a slim one like a person standing again, but it has a big white triangle on the right side, and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",35,0.5428571428571428,0.37204995693367787,0.54319474566864,0.717948717948718
+1,K,later,1,duck,43,0.4186046511627907,0.27903746770025833,0.42195093689970475,0.5676640926640925
+1,K,later,3,on their knees,41,0.8536585365853658,0.7368034055727554,0.8524578423150607,0.9523809523809523
+2,A,earlier,11,The picture looks like it's carrying a flag over its shoulder,39,0.8974358974358975,0.7906670746634027,0.8973542209080502,0.9819444444444441
+2,A,earlier,26,"this one has one foot in the air like it's walking, and one foot planted firmly on the ground, with a diamond on the right side",34,0.8823529411764706,0.7631265664160402,0.8813918512359034,0.9737010796221323
+2,A,earlier,33,"Man looks like he's doing the thriller dance, his head behind him, zombie post to the left, his head to the right, legs are apart to step, arms are together, one leg up",23,0.7391304347826086,0.5555555555555556,0.7388869467132984,0.909189723320158
+2,A,later,1,thriller,49,0.5306122448979591,0.3845454545454546,0.5298036464788358,0.6666666666666667
+2,A,later,1,zombie,56,0.8571428571428571,0.7646791443850267,0.8556475631171224,0.9412319644839067
 2,C,earlier,33,"This guy looks like he is falling backwards, hands in the air, his two arms are obviously flanking both sides of his flailing body, his body looks like a parallelogram here, no legs",44,1,1,1,1
-2,C,earlier,35,"looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y",33,0.9696969696969697,0.9032258064516129,0.9691863090219414,1
-2,C,earlier,40,"it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left",44,0.9318181818181818,0.851063829787234,0.9322793151789097,1
-2,C,later,1,Y,35,0.8571428571428571,0.7296683046683047,0.8577623717878936,0.967741935483871
-2,C,later,2,falling guy,45,0.8222222222222222,0.7027027027027027,0.8235638872925284,0.9302325581395349
-2,E,earlier,11,"sitting down, facing right, with the hat thing on its head",35,0.8285714285714285,0.6976568005637773,0.8292472930146066,0.9428571428571428
-2,E,earlier,19,"bunny ears, face leaning forward to the right, sitting with straight back, head tilted down, no gap between legs",35,0.9428571428571428,0.8484848484848485,0.9424445705702832,1
-2,E,earlier,26,"its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top",42,0.9285714285714286,0.8386878814298169,0.9287910119939361,1
-2,E,later,2,bunny ears,43,0.9534883720930233,0.8780487804878049,0.9527692504169271,1
-2,E,later,3,crazy hat person,46,0.6739130434782609,0.5399615384615386,0.679934360158594,0.8163729128014842
-2,G,earlier,28,"arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",39,0.4102564102564103,0.2708192567567568,0.41248060495066413,0.5625
-2,G,earlier,58,"This one has a square on the left (ear 1) and a four-sided shape on the right (ear 2) it then has another shape that looks like a rectangle going down, it connects to a bigger four-sided shape at the bottom (trapezium?) with a smaller triangle on the right-hand side, kind of looks like a dog to me",41,0.6585365853658536,0.5,0.6629760990648718,0.8077702702702703
-2,G,earlier,79,"It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",40,0.65,0.5,0.6541464758807152,0.7948717948717948
-2,G,later,1,dog,37,0.4864864864864865,0.3243044515103338,0.48451657098538614,0.6571616541353384
-2,G,later,1,leg,44,0.1818181818181818,0.07843137254901963,0.18211464036509262,0.3023255813953488
+2,C,earlier,35,"looks like falling over, diamond face, arms raised, falling to the left, no feet, larger gap between face and arm on the right side compared to the left side, block body, looks like slanted Y",33,0.9696969696969697,0.8964593596059113,0.9694251851838079,1
+2,C,earlier,40,"it's like an angel flying, it's like a rhombus with a diamond in the top corners and a diamond for the head, so it looks like a guy with wings, leaning left, arms above the head, tilted to the left",44,0.9318181818181818,0.8444444444444444,0.9303416170405318,1
+2,C,later,1,Y,35,0.8571428571428571,0.7368034055727554,0.8605188978274781,0.96875
+2,C,later,2,falling guy,45,0.8222222222222222,0.7026351351351351,0.8221178388899535,0.9210655314757482
+2,E,earlier,11,"sitting down, facing right, with the hat thing on its head",35,0.8285714285714285,0.6875,0.8280528539190558,0.9428968253968253
+2,E,earlier,19,"bunny ears, face leaning forward to the right, sitting with straight back, head tilted down, no gap between legs",35,0.9428571428571428,0.8529139433551197,0.9421319275202021,1
+2,E,earlier,26,"its like a rabbit looking right, his head is kind of square, and the body is two triangle, it's lying down, two triangle ears on top",42,0.9285714285714286,0.8378378378378378,0.9294856222930856,1
+2,E,later,2,bunny ears,43,0.9534883720930233,0.875,0.952304873676583,1
+2,E,later,3,crazy hat person,46,0.6739130434782609,0.5263157894736843,0.6750644121403645,0.8048780487804879
+2,G,earlier,28,"arms stretched out facing above, like it's holding something above its head, sort of kneeling, body looks like a parallelogram with one leg in front and one behind",39,0.4102564102564103,0.2666666666666667,0.4150510156028765,0.5863954741379308
+2,G,earlier,58,"This one has a square on the left (ear 1) and a four-sided shape on the right (ear 2) it then has another shape that looks like a rectangle going down, it connects to a bigger four-sided shape at the bottom (trapezium?) with a smaller triangle on the right-hand side, kind of looks like a dog to me",41,0.6585365853658536,0.5142664092664092,0.6628420882807173,0.8055555555555556
+2,G,earlier,79,"It looks like a person looking up and to the right, one leg is on the bottom right, the one on the left is flat on the ground, only one hand is visible, pointing to the top right, no hair or ears, square/head is on the left side, kneeling, the left side of the leg is on the ground, hand is on the top right, only 1 hand visible, triangle with the right angle on the bottom left",40,0.65,0.5,0.6508738973920623,0.7931476569407604
+2,G,later,1,dog,37,0.4864864864864865,0.32350569259962053,0.48213210170064547,0.6452087286527515
+2,G,later,1,leg,44,0.1818181818181818,0.07889676113360324,0.18355848327691338,0.3171463414634145
 2,I,earlier,13,"ice skating one, square head balancing, two triangle arms pointing to the left",27,1,1,1,1
-2,I,earlier,20,"picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back",35,0.9428571428571428,0.85,0.9416448385312183,1
-2,I,earlier,26,"the one that looks like a standing position with one leg on the ground and one sticking out to the right, and two triangles pointing left",54,0.8888888888888888,0.8,0.8898726501569805,0.9636363636363636
-2,I,later,2,ice skater,45,0.9111111111111111,0.8094984802431612,0.9100194665135022,0.9807783018867924
-2,I,later,2,yoga guy,40,0.5,0.3513513513513514,0.5007387324473026,0.6562723214285714
-2,K,earlier,25,"cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting",46,0.8260869565217391,0.6969065656565656,0.8224396212457701,0.925
-2,K,earlier,25,"it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top",32,0.875,0.7390732265446224,0.8726853760632518,0.96875
-2,K,earlier,87,"this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",38,0.5526315789473684,0.38461538461538464,0.5516440032464602,0.7059984520123839
-2,K,later,1,duck,43,0.34883720930232565,0.2161679536679537,0.34743470926341635,0.5
-2,K,later,3,on their knees,42,0.9523809523809523,0.875,0.9514969253755171,1
+2,I,earlier,20,"picture looks like it has 2 hands going forward, standing on one leg and kicking the right leg out back",35,0.9428571428571428,0.86109496124031,0.9462879147630046,1
+2,I,earlier,26,"the one that looks like a standing position with one leg on the ground and one sticking out to the right, and two triangles pointing left",54,0.8888888888888888,0.7999152542372882,0.8881798446655558,0.9649274047186933
+2,I,later,2,ice skater,45,0.9111111111111111,0.8181354359925788,0.9107830201701,0.9818181818181818
+2,I,later,2,yoga guy,40,0.5,0.340897001934236,0.497304238513378,0.6562911184210526
+2,K,earlier,25,"cone sticking out from chest facing right, triangle point sticking up in the back, it's the one that looks like it's kneeling rather than squatting",46,0.8260869565217391,0.7073170731707317,0.8271868617652388,0.9286129568106312
+2,K,earlier,25,"it's a diamond on a diamond with a triangle out to the right, there is a right angled triangle to the left, looks like a duck looking right with a diamond on top",32,0.875,0.7435714285714285,0.8743322125773678,0.9729907539118066
+2,K,earlier,87,"this one is a slim one like a person standing again, but it has a big white triangle on the right side and a white small parallelogram shape cut out of the left side, two black triangles sticking out of the right side, and the left side is flat at the bottom half, and then there's the white small shape cut out of the left side, the parallelogram, there's a right angle triangle in the bottom left of the shape, the black shapes make a right angle",38,0.5526315789473684,0.39988372093023256,0.5512544720907643,0.7000675675675675
+2,K,later,1,duck,43,0.34883720930232565,0.21151315789473685,0.3489822017689702,0.5
+2,K,later,3,on their knees,42,0.9523809523809523,0.8775510204081632,0.9528354557911769,1

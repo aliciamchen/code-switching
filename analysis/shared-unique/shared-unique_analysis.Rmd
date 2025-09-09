@@ -25,7 +25,7 @@ options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 Load data
 
 ```{r}
-selection_trials <- read_csv(here("data/3pp/shared-unique/selection_trials.csv")) %>%
+selection_trials <- read_csv(here("data/shared-unique/selection_trials.csv")) %>%
   group_by(subject_id) %>%
   mutate(trial_num = row_number()) %>%
   rename(response.unique = response.shared) %>%
@@ -37,7 +37,7 @@ selection_trials <- read_csv(here("data/3pp/shared-unique/selection_trials.csv")
 
 selection_trials$condition <- with(selection_trials, interaction(goal, audience, sep = " "))
 
-exit_survey <- read_csv(here("data/3pp/shared-unique/exit_survey.csv"))
+exit_survey <- read_csv(here("data/shared-unique/exit_survey.csv"))
 ```
 How many participants?
 
@@ -170,7 +170,7 @@ selection_trials_clean <- selection_trials %>%
   rename(shared.tangram = option1.tangram, unique.tangram = option2.tangram) %>% 
   select(subject_id, item_id, counterbalance, condition, audience_group, shared.tangram, unique.tangram, response.unique) 
 
-write_csv(selection_trials_clean, here("data/3pp/shared-unique/selection_trials_clean.csv"))
+write_csv(selection_trials_clean, here("data/shared-unique/selection_trials_clean.csv"))
 ```
 
 # baseline trials
@@ -272,7 +272,7 @@ baseline.social.means
 across participants, does % selecting shared, for different tangrams, correlate with % selecting Seen in baseline, in the "either refer" condition?
 
 ```{r}
-pct.seen.both.refer <- baseline.refer %>%
+pct.seen.both.refer <- baseline.trials.refer %>%
   filter(audience == "either") %>%
   group_by(subject_id) %>%
   tidyboot_mean(seen, na.rm = T)
@@ -292,7 +292,7 @@ ggplot(pct.seen.both.refer, aes(x = empirical_stat, y = pct.unique.diff$empirica
 Across participants, does % selecting unique, for different tangrams, correlate with %  Correct in baseline, in the "social" condition?
 
 ```{r}
-pct.correct.social <- baseline.social %>%
+pct.correct.social <- baseline.trials.social %>%
   filter(goal == "social") %>%
   group_by(subject_id) %>%
   tidyboot_mean(group_label, na.rm = T)
@@ -322,11 +322,11 @@ cor.test(pct.correct.social$empirical_stat, pct.unique.diff$empirical_stat)
 Make a bar plot where x axis is participant, and for each participant it shows total baseline trials correct, colored by \# trials selected "seen" for the refer goal, and "group label" for the social goal
 
 ```{r}
-baseline.refer.total <- baseline.refer %>%
+baseline.refer.total <- baseline.trials.refer %>%
   group_by(subject_id) %>%
   summarize(total = sum(seen))
 
-baseline.social.total <- baseline.social %>%
+baseline.social.total <- baseline.trials.social %>%
   group_by(subject_id) %>%
   summarize(total = sum(group_label))
 
@@ -354,10 +354,10 @@ ggplot(baseline.total, aes(x = subject_id, y = total, fill = goal)) +
 Filter for participants who did above chance on both the social and refer goal baseline trials
 
 ```{r}
-above_chance_same <- baseline.refer %>%
+above_chance_same <- baseline.trials.refer %>%
   group_by(subject_id) %>%
   summarize(above_chance = mean(seen) > 0.5) %>%
-  inner_join(baseline.social %>%
+  inner_join(baseline.trials.social %>%
                group_by(subject_id) %>%
                summarize(above_chance = mean(group_label) > 0.5), by = "subject_id") %>%
   filter(above_chance.x & above_chance.y) %>%
@@ -482,7 +482,7 @@ summary(grouped_contrast, infer = T)
 For the "refer" goal, do participants successfully choose the seen label over the unseen label?
 
 ```{r}
-mod.same.refer <- glmer(seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id / option1.tangram), data = baseline.refer, family = "binomial")
+mod.same.refer <- glmer(seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id / option1.tangram), data = baseline.trials.refer, family = "binomial")
 summary(mod.same.refer)
 ```
 
@@ -490,7 +490,7 @@ summary(mod.same.refer)
 For the "social" goal, do participants successfully choose the tangram that belongs to the audience group?
 
 ```{r}
-mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id / option1.tangram), data = baseline.social, family = "binomial")
+mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id / option1.tangram), data = baseline.trials.social, family = "binomial")
 summary(mod.same.social)
 ```
 

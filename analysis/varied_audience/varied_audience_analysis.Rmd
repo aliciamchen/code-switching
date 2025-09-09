@@ -25,7 +25,7 @@ options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 Load data
 
 ```{r}
-selection_trials <- read_csv(here("data/3pp/varied_audience/selection_trials.csv")) %>%
+selection_trials <- read_csv(here("data/varied_audience/selection_trials.csv")) %>%
   group_by(subject_id) %>%
   mutate(trial_num = row_number(), 
          n_total = n_ingroup + n_outgroup, 
@@ -35,7 +35,7 @@ selection_trials <- read_csv(here("data/3pp/varied_audience/selection_trials.csv
 
 selection_trials$tangram <- selection_trials$option1.tangram
 
-exit_survey <-read_csv(here("data/3pp/varied_audience/exit_survey.csv"))
+exit_survey <-read_csv(here("data/varied_audience/exit_survey.csv"))
 ```
 
 How many participants?
@@ -102,7 +102,7 @@ selection_trials_clean <- selection_trials %>%
   filter(type == "main") %>%
   select(subject_id, item_id, counterbalance, n_ingroup, n_outgroup, goal, tangram, response.earlier) 
 
-write_csv(selection_trials_clean, here("data/3pp/varied_audience/selection_trials_clean.csv"))
+write_csv(selection_trials_clean, here("data/varied_audience/selection_trials_clean.csv"))
 ```
 
 # Main trials
@@ -176,7 +176,7 @@ ggplot(means.prop_outgroup, aes(x = prop_outgroup, y = empirical_stat, color = g
 TODO: Correlate per-tangram effects with measured transparency differences between the tangrams
 
 ```{r}
-transparency.data <- read_csv(here("data/3pp/transparency/means_by_label.csv"))
+transparency.data <- read_csv(here("data/transparency/means_by_label.csv"))
 ```
 ```{r}
 main_trials <- main.trials %>%
