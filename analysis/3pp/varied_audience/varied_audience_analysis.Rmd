@@ -59,13 +59,12 @@ Demographics
 
 ```{r}
 exit_survey %>%
-  filter(understood == "yes") %>%
   group_by(gender) %>%
   count()
 
 exit_survey %>%
-  filter(understood == "yes") %>%
-  summarize(mean_age = mean(age), sd_age = sd(age))
+  summarize(mean_age = mean(age), sd_age = sd(age), min_age = min(age),
+    max_age = max(age))
 ```
 
 ## Counterbalancing assignments
@@ -384,18 +383,18 @@ What about a polynomial term?
 
 ```{r}
 mod.with.transparency.poly <- glmer(
-  response.earlier ~ poly(prop_outgroup, 2) * goal + n_total + transparency_diff + (1 |
-                                                                                      subject_id) + (1 |
+  response.earlier ~ poly(prop_outgroup, 2) * goal + transparency_diff + (prop_outgroup + goal |
+                                                                                      subject_id) + (prop_outgroup + goal |
                                                                                                        item_id/tangram),
   data = main_trials,
   family = "binomial",
-  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 50000))
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 500000))
 )
 summary(mod.with.transparency.poly)
 ```
-
 ```{r}
-summary(mod.with.transparency.poly)
+emtrends(mod.with.transparency.poly, ~ goal, var = "prop_outgroup", type = "response", max.degree = 2) %>%
+  summary(infer = T)
 ```
 
 ```{r}

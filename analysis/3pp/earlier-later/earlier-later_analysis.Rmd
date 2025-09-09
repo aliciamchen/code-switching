@@ -59,13 +59,12 @@ Demographics
 
 ```{r}
 exit_survey %>%
-  filter(understood == "yes") %>%
   group_by(gender) %>%
   count()
 
 exit_survey %>%
-  filter(understood == "yes") %>%
-  summarize(mean_age = mean(age), sd_age = sd(age))
+  summarize(mean_age = mean(age), sd_age = sd(age), min_age = min(age),
+    max_age = max(age))
 ```
 
 ## Counterbalancing assignments
@@ -273,7 +272,47 @@ baseline.social.means <- baseline.trials.social %>%
 
 baseline.social.means
 ```
+### Correlate social baseline performance with effect size of social goal
 
+```{r}
+pct.correct.social <- baseline.trials.social %>%
+  group_by(subject_id) %>%
+  summarize(pct_correct = mean(group_label, na.rm = TRUE))
+
+# effect size is mean response.earlier for "one refer" minus mean response.earlier for "one social"
+# calculate effect size for each participant
+one_refer_means <- main.trials %>%
+  filter(condition == "one refer") %>%
+  group_by(subject_id) %>%
+  summarize(one_refer_mean = mean(response.earlier, na.rm = TRUE))
+
+one_social_means <- main.trials %>%
+  filter(condition == "one social") %>%
+  group_by(subject_id) %>%
+  summarize(one_social_mean = mean(response.earlier, na.rm = TRUE))
+
+# merge the two dataframes
+merged_data <- one_refer_means %>%
+  inner_join(one_social_means, by = "subject_id")
+
+# calculate effect size
+merged_data <- merged_data %>%
+  mutate(effect_size = one_refer_mean - one_social_mean)
+
+# merge with pct_correct
+merged_data <- merged_data %>%
+  inner_join(pct.correct.social, by = "subject_id")
+
+# correlate effect size with pct_correct
+cor.test(merged_data$effect_size, merged_data$pct_correct)
+```
+plot scatterplot of effect size vs pct_correct
+```{r}
+ggplot(merged_data, aes(x = effect_size, y = pct_correct)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  labs(x = "Effect size (one refer - one social)", y = "Pct correct (social baseline)", title = "Effect size vs. social baseline performance") 
+```
 
 
 ## Put the baseline trials together
@@ -314,83 +353,83 @@ ggplot(baseline.trials.total, aes(x = subject_id, y = total, fill = goal)) +
 Filter for participants who did above chance on BOTH the social and refer baseline
 
 ```{r}
-# above_chance_same <- baseline.trials.refer %>%
-#   group_by(subject_id) %>%
-#   summarize(above_chance = mean(seen) > 0.5) %>%
-#   inner_join(baseline.trials.social %>%
-#                group_by(subject_id) %>%
-#                summarize(above_chance = mean(group_label) > 0.5), by = "subject_id") %>%
-#   filter(above_chance.x & above_chance.y) %>%
-#   select(subject_id)
-# 
-# selection_trials_filtered <- selection_trials %>%
-#   filter(subject_id %in% above_chance_same$subject_id)
+above_chance_same <- baseline.trials.refer %>%
+  group_by(subject_id) %>%
+  summarize(above_chance = mean(seen) > 0.5) %>%
+  inner_join(baseline.trials.social %>%
+               group_by(subject_id) %>%
+               summarize(above_chance = mean(group_label) > 0.5), by = "subject_id") %>%
+  filter(above_chance.x & above_chance.y) %>%
+  select(subject_id)
+
+selection_trials_filtered <- selection_trials %>%
+  filter(subject_id %in% above_chance_same$subject_id)
 ```
 
 How many participants?
 
 ```{r}
-# n_participants_filtered <- n_distinct(selection_trials_filtered$subject_id)
-# print(glue("we have {n_participants_filtered} participants who did above chance on both the social and refer baseline"))
+n_participants_filtered <- n_distinct(selection_trials_filtered$subject_id)
+print(glue("we have {n_participants_filtered} participants who did above chance on both the social and refer baseline"))
 ```
 
 Calculate means
 
 ```{r}
-# main.trials <- selection_trials_filtered %>%
-#   filter(type == "main") %>%
-#   mutate(response.earlier = ifelse(response.earlier == "earlier", 1, 0))
-# 
-# main.trials.means <- main.trials %>%
-#   group_by(condition, shared) %>%
-#   tidyboot_mean(response.earlier, na.rm = T)
-# 
-# main.trials.means.subj <-
-#   main.trials %>%
-#   group_by(subject_id, condition, shared) %>%
-#   tidyboot_mean(response.earlier, na.rm = T)
+main.trials <- selection_trials_filtered %>%
+  filter(type == "main") %>%
+  mutate(response.earlier = ifelse(response.earlier == "earlier", 1, 0))
+
+main.trials.means <- main.trials %>%
+  group_by(condition, shared) %>%
+  tidyboot_mean(response.earlier, na.rm = T)
+
+main.trials.means.subj <-
+  main.trials %>%
+  group_by(subject_id, condition, shared) %>%
+  tidyboot_mean(response.earlier, na.rm = T)
 ```
 
 Plot
 
 ```{r fig.width=8, fig.height=4}
-# ggplot(main.trials,
-#        aes(x = condition, y = response.earlier, color = shared)) +
-#   geom_point(
-#     data = main.trials.means,
-#     position = position_dodge(width = 0.3),
-#     aes(x = condition, y = empirical_stat, color = shared),
-#     size = 3,
-#     fill = "black",
-#     inherit.aes = FALSE
-#   ) +
-#   geom_errorbar(
-#     data = main.trials.means,
-#     position = position_dodge(width = 0.3),
-#     aes(
-#       x = condition,
-#       ymin = ci_lower,
-#       ymax = ci_upper,
-#       color = shared
-#     ),
-#     size = 1.5,
-#     width = 0.05,
-#     inherit.aes = FALSE
-#   ) +
-#   geom_line(
-#     data = main.trials.means.subj,
-#     aes(x = condition, y = empirical_stat, group = interaction(subject_id, shared), color = shared),
-#     position = position_dodge(width = 0.3),
-#     inherit.aes = FALSE, 
-#     alpha = 0.15
-#   ) +
-#   geom_hline(yintercept = 0.5,
-#              color = "red",
-#              linetype = "dashed") +
-#   labs(x = "condition", y = "earlier or later label", title = "filtered participants") +
-#   scale_y_continuous(breaks = c(0, 1),
-#                      labels = c("later", "earlier")) +
-#   scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
+ggplot(main.trials,
+       aes(x = condition, y = response.earlier, color = shared)) +
+  geom_point(
+    data = main.trials.means,
+    position = position_dodge(width = 0.3),
+    aes(x = condition, y = empirical_stat, color = shared),
+    size = 3,
+    fill = "black",
+    inherit.aes = FALSE
+  ) +
+  geom_errorbar(
+    data = main.trials.means,
+    position = position_dodge(width = 0.3),
+    aes(
+      x = condition,
+      ymin = ci_lower,
+      ymax = ci_upper,
+      color = shared
+    ),
+    size = 1.5,
+    width = 0.05,
+    inherit.aes = FALSE
+  ) +
+  geom_line(
+    data = main.trials.means.subj,
+    aes(x = condition, y = empirical_stat, group = interaction(subject_id, shared), color = shared),
+    position = position_dodge(width = 0.3),
+    inherit.aes = FALSE,
+    alpha = 0.15
+  ) +
+  geom_hline(yintercept = 0.5,
+             color = "red",
+             linetype = "dashed") +
+  labs(x = "condition", y = "earlier or later label", title = "filtered participants") +
+  scale_y_continuous(breaks = c(0, 1),
+                     labels = c("later", "earlier")) +
+  scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
 ```
 
 # Data analysis
@@ -408,6 +447,39 @@ Comparisons between means
 emmeans(mod, pairwise ~ condition) %>%
   summary(infer = T)
 ```
+Power analysis
+
+```{r}
+library(simr)
+```
+
+
+```{r}
+test_oneRef_vs_oneSoc <- function(fit) {
+  em <- emmeans(fit, ~ condition | shared) # include shared if interaction matters
+  # Collapse across 'shared' by averaging if needed:
+  em_collapsed <- summary(em, by = NULL)
+  
+  ct <- contrast(
+    em_collapsed,
+    method = list(
+      "one refer - one social" = c("either refer"=0, "one refer"=1, "one social"=-1)
+    ),
+    adjust = "none"  # or "tukey" for familywise error
+  )
+  
+  summary(ct)$p.value < 0.05
+}
+```
+
+```{r}
+mod_ext <- extend(mod, along = "subject_id", n = 90)
+```
+
+```{r}
+powerSim(mod, test = test_oneRef_vs_oneSoc, nsim = 500)
+```
+
 
 ```{r}
 # We want to check if "one social" is greater than  "one refer" and "either refer" together

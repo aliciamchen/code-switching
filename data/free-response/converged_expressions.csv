@@ -1,0 +1,73 @@
+item_id,counterbalance,selected_tangram,selected_tangram_group,selected_tangram_later_red,selected_tangram_later_blue
+0,a,A,blue_specific,NA,thriller
+0,a,B,blue_specific,NA,mouse
+0,a,C,blue_specific,NA,italian
+0,a,D,blue_specific,NA,priest
+0,a,E,shared,windmill,crazy hat person
+0,a,F,shared,arms under knees,sad
+0,a,G,shared,strike a pose,horse
+0,a,H,shared,blob,the innocent one
+0,a,I,red_specific,yoga guy,NA
+0,a,J,red_specific,large cube,NA
+0,a,K,red_specific,duck,NA
+0,a,L,red_specific,squats,NA
+0,b,A,red_specific,thriller,NA
+0,b,B,red_specific,mouse,NA
+0,b,C,red_specific,italian,NA
+0,b,D,red_specific,priest,NA
+0,b,E,shared,crazy hat person,windmill
+0,b,F,shared,sad,arms under knees
+0,b,G,shared,horse,strike a pose
+0,b,H,shared,the innocent one,blob
+0,b,I,blue_specific,NA,yoga guy
+0,b,J,blue_specific,NA,large cube
+0,b,K,blue_specific,NA,duck
+0,b,L,blue_specific,NA,squats
+1,a,A,shared,thriller,crane kick
+1,a,B,shared,mouse,princess dance
+1,a,C,shared,italian,shrug
+1,a,D,shared,priest,long sleeved book
+1,a,E,red_specific,crazy hat person,NA
+1,a,F,red_specific,sad,NA
+1,a,G,red_specific,horse,NA
+1,a,H,red_specific,the innocent one,NA
+1,a,I,blue_specific,NA,yoga guy
+1,a,J,blue_specific,NA,large cube
+1,a,K,blue_specific,NA,duck
+1,a,L,blue_specific,NA,squats
+1,b,A,shared,crane kick,thriller
+1,b,B,shared,princess dance,mouse
+1,b,C,shared,shrug,italian
+1,b,D,shared,long sleeved book,priest
+1,b,E,blue_specific,NA,crazy hat person
+1,b,F,blue_specific,NA,sad
+1,b,G,blue_specific,NA,horse
+1,b,H,blue_specific,NA,the innocent one
+1,b,I,red_specific,yoga guy,NA
+1,b,J,red_specific,large cube,NA
+1,b,K,red_specific,duck,NA
+1,b,L,red_specific,squats,NA
+2,a,A,shared,crane kick,thriller
+2,a,B,shared,princess dance,mouse
+2,a,C,blue_specific,NA,italian
+2,a,D,shared,long sleeved book,priest
+2,a,E,blue_specific,NA,crazy hat person
+2,a,F,shared,pointed toes,sad
+2,a,G,blue_specific,NA,horse
+2,a,H,blue_specific,NA,the innocent one
+2,a,I,red_specific,yoga guy,NA
+2,a,J,red_specific,large cube,NA
+2,a,K,red_specific,duck,NA
+2,a,L,red_specific,squats,NA
+2,b,A,shared,thriller,crane kick
+2,b,B,shared,mouse,princess dance
+2,b,C,red_specific,italian,NA
+2,b,D,shared,priest,long sleeved book
+2,b,E,red_specific,crazy hat person,NA
+2,b,F,shared,sad,pointed toes
+2,b,G,red_specific,horse,NA
+2,b,H,red_specific,the innocent one,NA
+2,b,I,blue_specific,NA,yoga guy
+2,b,J,blue_specific,NA,large cube
+2,b,K,blue_specific,NA,duck
+2,b,L,blue_specific,NA,squats

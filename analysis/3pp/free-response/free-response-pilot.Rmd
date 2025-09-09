@@ -38,9 +38,13 @@ Summary statistics
 demographics %>%
   summarise(
     age_mean = mean(age, na.rm = TRUE),
-    age_sd = sd(age, na.rm = TRUE)
+    age_sd = sd(age, na.rm = TRUE), 
+    min_age = min(age, na.rm = TRUE),
+    max_age = max(age, na.rm = TRUE)
   )
 ```
+
+
 
 Gender breakdown
 
@@ -102,6 +106,8 @@ Filter out participants who perform in bottom 50% of the distribution of `utt_me
 ```{r}
 data_better_performance <- data %>%
   filter(subject_id %in% learning_metrics$subject_id[learning_metrics$utt_memory > quantile(learning_metrics$utt_memory, 0.5)])
+
+write_csv(data_better_performance, here("data/3pp/free-response/selection_trials_filtered.csv"))
 ```
 
 
@@ -357,7 +363,7 @@ ggplot(utt_length_summary_log, aes(x = prop_naive, y = empirical_stat, color = g
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
                 position = position_dodge(width = 0.03), size = 1.7, width = 0) +
   scale_color_brewer(palette = "Set2") +
-  labs(x = "Proportion naive", y = "Log utterance length", color = "Goal") 
+  labs(x = "Proportion naive", y = "Log utterance length", color = "Goal")
 ```
 
 ```{r fig.width=10}
@@ -485,35 +491,74 @@ mod <- glmer(
 summary(mod)
 ```
 
-```{r}
-mod <- lmer(
-  utt_length ~ prop_naive * goal
-  + (prop_naive * goal | subject_id)
-  + (prop_naive * goal | item_id)
-  + (prop_naive * goal |
-       selected_tangram),
-  data = data
-)
+try with polynomial term
 
-summary(mod)
+```{r}
+mod_poly <- glmer(
+  tangram_choice ~ poly(prop_naive, 2) * goal
+  + (prop_naive + goal | subject_id)
+  + (prop_naive + goal | item_id)
+  + (prop_naive + goal |
+       selected_tangram),
+  data = data,
+  family = 'binomial', 
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))
+)
+summary(mod_poly)
+```
+Likelihood ratio test
+
+```{r}
+anova(mod, mod_poly, test = "Chisq")
+```
+The model with the polynomial fit is a better fit to the data 
+
+```{r}
+emtrends(mod_poly, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
+  summary(infer = T)
 ```
 
 
-
 ```{r}
-mod <- lmer(
-  sbert_cosine_later_blue ~ prop_naive * goal
-  + (goal | subject_id)
-  + (goal | item_id)
-  + (goal |
+mod_utt_length <- lmer(
+  utt_length ~ poly(prop_naive, 2) * goal
+  + (prop_naive + goal | subject_id)
+  + (prop_naive + goal | item_id)
+  + (prop_naive + goal |
        selected_tangram),
+  control = lmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
   data = data
 )
 
-summary(mod)
+summary(mod_utt_length)
 ```
 
-## Remake plots with better performing participants
+```{r}
+emtrends(mod_utt_length, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
+  summary(infer = T)
+```
+
+```{r}
+mod_sbert <- lmer(
+  sbert_cosine_later_blue ~ poly(prop_naive, 2) * goal
+  + (prop_naive + goal | subject_id)
+  + (prop_naive + goal | item_id)
+  + (prop_naive + goal |
+       selected_tangram),
+    control = lmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+  data = data
+)
+
+summary(mod_sbert)
+```
+
+
+```{r}
+emtrends(mod_sbert, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
+  summary(infer = T)
+```
+
+# Remake plots with better performing participants
 
 Recalculate summary statistics with better performing participants
 
@@ -595,6 +640,24 @@ eff_cor_length <- data %>%
     utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE)
   ) 
 ```
+
+Calculate correlations
+
+```{r}
+cor.test(eff_cor_tangram$utt_memory, eff_cor_tangram$goal_effect)
+```
+
+```{r}
+cor.test(eff_cor_length$utt_memory, eff_cor_length$goal_effect)
+```
+
+```{r}
+cor.test(eff_cor_sbert$utt_memory, eff_cor_sbert$goal_effect)
+```
+
+
+
+
 
 Plot
 

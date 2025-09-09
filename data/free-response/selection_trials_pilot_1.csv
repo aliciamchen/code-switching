@@ -1,0 +1,1644 @@
+subject_id,item_id,counterbalance,trial_num,n_blue,n_naive,goal,previous_selection,selected_tangram,selected_tangram_group,written_label
+67171fa93cd108b6c2b59e4e,0,a,0,0,4,refer,,C,A,Laid back arms wide open
+67171fa93cd108b6c2b59e4e,0,a,1,2,4,refer,C,G,B,Looks like praying mantis
+67171fa93cd108b6c2b59e4e,0,a,2,1,1,social,G,E,B,Facing right 2 triangle head
+67171fa93cd108b6c2b59e4e,0,a,3,2,8,social,E,D,A,Facing left holding bucket
+67171fa93cd108b6c2b59e4e,0,a,4,3,8,refer,D,I,C,Kicking to right side
+67171fa93cd108b6c2b59e4e,0,a,5,3,8,social,I,H,B,No limbs
+67171fa93cd108b6c2b59e4e,0,a,6,2,0,refer,H,B,A,On knees arms outstretcched
+67171fa93cd108b6c2b59e4e,0,a,7,1,16,social,B,A,A,Facing right leg up in back
+67171fa93cd108b6c2b59e4e,0,a,8,2,1,social,A,J,C,Almost no limbs block body
+67171fa93cd108b6c2b59e4e,0,a,9,4,4,refer,J,K,C,Woman kneeling triangle on right hand
+67171fa93cd108b6c2b59e4e,0,a,10,1,2,social,K,L,C,Man kneeling 6o right triangle hand
+67171fa93cd108b6c2b59e4e,0,a,11,4,8,refer,L,C,A,Falling backwards. Arms out
+67171fa93cd108b6c2b59e4e,0,a,12,3,0,refer,C,H,B,Sitting no limbs
+67171fa93cd108b6c2b59e4e,0,a,13,3,4,social,H,I,C,Kicking to right
+67171fa93cd108b6c2b59e4e,0,a,14,1,16,refer,I,H,B,Sitting no limbs
+67171fa93cd108b6c2b59e4e,0,a,15,4,0,social,H,J,C,Squatting square body
+67171fa93cd108b6c2b59e4e,0,a,16,4,16,refer,J,A,A,Head to right back leg up
+67171fa93cd108b6c2b59e4e,0,a,17,3,1,refer,A,B,A,Facing right on knees flying triangle arms
+67171fa93cd108b6c2b59e4e,0,a,18,3,16,refer,B,F,B,Sitting to left taking nap
+67171fa93cd108b6c2b59e4e,0,a,19,0,1,refer,F,D,A,Facing left holding bucker
+67171fa93cd108b6c2b59e4e,0,a,20,2,2,social,D,K,C,Woman facing right begging
+67171fa93cd108b6c2b59e4e,0,a,21,1,2,refer,K,L,C,Man to right begging
+67171fa93cd108b6c2b59e4e,0,a,22,2,8,refer,L,G,B,Praying maantis
+67171fa93cd108b6c2b59e4e,0,a,23,1,8,refer,G,C,A,Falling hackwards
+67171fa93cd108b6c2b59e4e,0,a,24,2,1,refer,C,I,C,Karate kick
+67171fa93cd108b6c2b59e4e,0,a,25,3,4,refer,I,D,A,To left holding bucket
+67171fa93cd108b6c2b59e4e,0,a,26,4,2,refer,D,F,B,Man sleeping to left
+67171fa93cd108b6c2b59e4e,0,a,27,4,2,social,F,E,B,Biggest triangle body
+67171fa93cd108b6c2b59e4e,0,a,28,2,2,refer,E,C,A,Man falling backwards
+67171fa93cd108b6c2b59e4e,0,a,29,2,0,social,C,D,A,Facing left holding bucket
+67171fa93cd108b6c2b59e4e,0,a,30,4,1,social,D,B,A,Facing right on knees flying
+67171fa93cd108b6c2b59e4e,0,a,31,4,1,refer,B,G,B,Praying mantis
+67171fa93cd108b6c2b59e4e,0,a,32,3,2,social,G,C,A,Falling backwards
+67171fa93cd108b6c2b59e4e,0,a,33,4,8,social,C,I,C,Karate kick
+67171fa93cd108b6c2b59e4e,0,a,34,1,0,social,I,H,B,Body no limbs
+67171fa93cd108b6c2b59e4e,0,a,35,2,16,refer,H,J,C,Square body
+67171fa93cd108b6c2b59e4e,0,a,36,3,2,refer,J,C,A,Falling baclwards
+67171fa93cd108b6c2b59e4e,0,a,37,4,0,refer,C,I,C,Karate kick
+67171fa93cd108b6c2b59e4e,0,a,38,4,16,social,I,D,A,Facing left holding bucket
+67171fa93cd108b6c2b59e4e,0,a,39,0,2,refer,D,E,B,Biggest triangle bottom
+67171fa93cd108b6c2b59e4e,0,a,40,1,4,social,E,F,B,Facing left napp8ng
+67171fa93cd108b6c2b59e4e,0,a,41,0,16,refer,F,C,A,Falling backwards
+67171fa93cd108b6c2b59e4e,0,a,42,3,0,social,C,G,B,Praying mant⁶⁶
+67171fa93cd108b6c2b59e4e,0,a,43,4,4,social,G,C,A,Falling backwards
+67171fa93cd108b6c2b59e4e,0,a,44,3,16,social,C,H,B,No limbs
+67171fa93cd108b6c2b59e4e,0,a,45,1,4,refer,H,J,C,Block body
+67171fa93cd108b6c2b59e4e,0,a,46,1,8,social,J,E,B,Biggest triangle bottoko
+67171fa93cd108b6c2b59e4e,0,a,47,1,0,refer,E,F,B,Facing left sleepoi⁸
+67171fa93cd108b6c2b59e4e,0,a,48,0,8,refer,F,I,C,Karate kick
+67171fa93cd108b6c2b59e4e,0,a,49,1,1,refer,I,A,A,Facingbrihht one leg up
+67171fa93cd108b6c2b59e4e,0,a,50,2,16,social,A,C,A,Falling backwards
+67171fa93cd108b6c2b59e4e,0,a,51,3,1,social,C,D,A,Facing left with bucket
+67171fa93cd108b6c2b59e4e,0,a,52,2,4,social,D,C,A,Falling backwarde
+66d75f6b56499c908108df57,0,a,0,1,4,refer,,F,B,Head down sitting
+66d75f6b56499c908108df57,0,a,1,1,16,social,F,H,B,Watching
+66d75f6b56499c908108df57,0,a,2,3,2,social,H,I,C,Leg up
+66d75f6b56499c908108df57,0,a,3,4,16,refer,I,C,A,Hands up
+66d75f6b56499c908108df57,0,a,4,3,2,refer,C,F,B,Head down
+66d75f6b56499c908108df57,0,a,5,4,4,social,F,G,B,Yoga
+66d75f6b56499c908108df57,0,a,6,2,0,social,G,A,A,Foot up
+66d75f6b56499c908108df57,0,a,7,3,1,social,A,E,B,Sad
+66d75f6b56499c908108df57,0,a,8,0,8,refer,E,H,B,Watch
+66d75f6b56499c908108df57,0,a,9,1,16,refer,H,F,B,Head down
+66d75f6b56499c908108df57,0,a,10,2,4,social,F,H,B,Watching
+66d75f6b56499c908108df57,0,a,11,2,1,social,H,I,C,Kickback
+66d75f6b56499c908108df57,0,a,12,3,0,social,I,D,A,Stare
+66d75f6b56499c908108df57,0,a,13,1,8,social,D,I,C,Back leg
+66d75f6b56499c908108df57,0,a,14,4,8,refer,I,G,B,Floor
+66d75f6b56499c908108df57,0,a,15,1,2,social,G,F,B,Head down
+66d75f6b56499c908108df57,0,a,16,4,8,social,F,G,B,Yoga
+66d75f6b56499c908108df57,0,a,17,4,4,refer,G,I,C,Back foot up
+66d75f6b56499c908108df57,0,a,18,4,1,refer,I,F,B,Head down
+66d75f6b56499c908108df57,0,a,19,1,1,refer,F,H,B,Watching
+66d75f6b56499c908108df57,0,a,20,3,16,refer,H,B,A,Clap
+66d75f6b56499c908108df57,0,a,21,1,4,social,B,L,C,Beg
+66d75f6b56499c908108df57,0,a,22,4,0,social,L,E,B,Thinking
+66d75f6b56499c908108df57,0,a,23,1,2,refer,E,L,C,Beg
+66d75f6b56499c908108df57,0,a,24,4,2,refer,L,J,C,Stare
+66d75f6b56499c908108df57,0,a,25,0,1,refer,J,H,B,Watching
+66d75f6b56499c908108df57,0,a,26,4,16,social,H,F,B,Sad
+66d75f6b56499c908108df57,0,a,27,2,8,social,F,C,A,Cheer
+66d75f6b56499c908108df57,0,a,28,2,16,social,C,D,A,Stare
+66d75f6b56499c908108df57,0,a,29,2,16,refer,D,C,A,Clap
+66d75f6b56499c908108df57,0,a,30,3,8,social,C,I,C,Leg up
+66d75f6b56499c908108df57,0,a,31,2,0,refer,I,F,B,Sad
+66d75f6b56499c908108df57,0,a,32,4,2,social,F,K,C,Kneeing
+66d75f6b56499c908108df57,0,a,33,3,8,refer,K,D,A,Point
+66d75f6b56499c908108df57,0,a,34,2,2,social,D,I,C,Leg up
+66d75f6b56499c908108df57,0,a,35,1,0,social,I,B,A,Cheer
+66d75f6b56499c908108df57,0,a,36,4,0,refer,B,F,B,Sad
+66d75f6b56499c908108df57,0,a,37,3,0,refer,F,I,C,Kickback
+66d75f6b56499c908108df57,0,a,38,3,1,refer,I,H,B,Pocket
+66d75f6b56499c908108df57,0,a,39,0,4,refer,H,E,B,Thinking
+66d75f6b56499c908108df57,0,a,40,2,1,refer,E,K,C,Praying
+66d75f6b56499c908108df57,0,a,41,4,1,social,K,B,A,Cry
+66d75f6b56499c908108df57,0,a,42,1,0,refer,B,A,A,Walking
+66d75f6b56499c908108df57,0,a,43,2,4,refer,A,H,B,Stare
+66d75f6b56499c908108df57,0,a,44,2,2,refer,H,F,B,Sad
+66d75f6b56499c908108df57,0,a,45,0,16,refer,F,K,C,Pray
+66d75f6b56499c908108df57,0,a,46,3,4,refer,K,C,A,Knee
+66d75f6b56499c908108df57,0,a,47,1,1,social,C,H,B,Stare
+66d75f6b56499c908108df57,0,a,48,2,8,refer,H,K,C,Knee
+66d75f6b56499c908108df57,0,a,49,1,8,refer,K,I,C,Kick
+66d75f6b56499c908108df57,0,a,50,0,2,refer,I,C,A,Cheer
+66d75f6b56499c908108df57,0,a,51,3,4,social,C,F,B,Sad
+66d75f6b56499c908108df57,0,a,52,3,16,social,F,E,B,Thinking
+67c3a7fce94dfdcfaa50c277,0,a,0,2,2,social,,G,B,The yoga pose facing Right
+67c3a7fce94dfdcfaa50c277,0,a,1,1,2,refer,G,L,C,Praying but not all his knees is going throgh
+67c3a7fce94dfdcfaa50c277,0,a,2,0,16,refer,L,H,B,The guy sitting with no arms
+67c3a7fce94dfdcfaa50c277,0,a,3,4,1,social,H,I,C,The one that looks like a standing person with one leg on the ground
+67c3a7fce94dfdcfaa50c277,0,a,4,0,8,refer,I,F,B,sitting and facing right
+67c3a7fce94dfdcfaa50c277,0,a,5,1,0,social,F,G,B,the one flexing his hands back
+67c3a7fce94dfdcfaa50c277,0,a,6,2,8,refer,G,K,C,praying and kneeling through
+67c3a7fce94dfdcfaa50c277,0,a,7,1,16,refer,K,F,B,thinking and facing right
+67c3a7fce94dfdcfaa50c277,0,a,8,2,0,refer,F,B,A,arms spread wide
+67c3a7fce94dfdcfaa50c277,0,a,9,3,4,social,B,F,B,the sad guy
+67c3a7fce94dfdcfaa50c277,0,a,10,3,2,refer,F,J,C,with the cube head
+67c3a7fce94dfdcfaa50c277,0,a,11,3,1,refer,J,A,A,the one with his leg raised up
+67c3a7fce94dfdcfaa50c277,0,a,12,1,1,social,A,C,A,the one looking like he his flying
+67c3a7fce94dfdcfaa50c277,0,a,13,3,4,refer,C,F,B,the one with his hands under his knees
+67c3a7fce94dfdcfaa50c277,0,a,14,3,8,refer,F,D,A,the one looking like a graduation image
+67c3a7fce94dfdcfaa50c277,0,a,15,2,4,refer,D,I,C,The one looking like he is skating
+67c3a7fce94dfdcfaa50c277,0,a,16,3,0,refer,I,L,C,The one with arms pushed to the side and also kneeling halfway
+67c3a7fce94dfdcfaa50c277,0,a,17,0,4,refer,L,J,C,the one facing you but with one hand facing the side
+67c3a7fce94dfdcfaa50c277,0,a,18,2,0,social,J,F,B,The guy sitting with no arms
+67c3a7fce94dfdcfaa50c277,0,a,19,3,16,refer,F,G,B,the yoga pose facing right heading tipping backwards
+67c3a7fce94dfdcfaa50c277,0,a,20,4,16,social,G,H,B,The one sitting with no arms
+67c3a7fce94dfdcfaa50c277,0,a,21,3,16,social,H,K,C,the one kneeling
+67c3a7fce94dfdcfaa50c277,0,a,22,2,8,social,K,E,B,relaxed yoga
+67c3a7fce94dfdcfaa50c277,0,a,23,2,1,social,E,I,C,yoga with one leg stretched to the side
+67c3a7fce94dfdcfaa50c277,0,a,24,3,1,social,I,H,B,sitting with no arms
+67c3a7fce94dfdcfaa50c277,0,a,25,2,4,social,H,F,B,the one thinking
+67c3a7fce94dfdcfaa50c277,0,a,26,4,1,refer,F,H,B,The knees pointing to the left
+67c3a7fce94dfdcfaa50c277,0,a,27,1,8,refer,H,D,A,graduating pose
+67c3a7fce94dfdcfaa50c277,0,a,28,2,1,refer,D,B,A,arms spread wide
+67c3a7fce94dfdcfaa50c277,0,a,29,1,4,social,B,C,A,floating man
+67c3a7fce94dfdcfaa50c277,0,a,30,4,4,social,C,H,B,with no arms sitting
+67c3a7fce94dfdcfaa50c277,0,a,31,3,0,social,H,J,C,cube head
+67c3a7fce94dfdcfaa50c277,0,a,32,0,1,refer,J,G,B,arms spread back
+67c3a7fce94dfdcfaa50c277,0,a,33,3,8,social,G,H,B,"sitting with no arms, knee facing left"
+67c3a7fce94dfdcfaa50c277,0,a,34,4,8,refer,H,C,A,floating man
+67c3a7fce94dfdcfaa50c277,0,a,35,1,4,refer,C,F,B,thinking man
+67c3a7fce94dfdcfaa50c277,0,a,36,4,8,social,F,A,A,"one leg up, face down"
+67c3a7fce94dfdcfaa50c277,0,a,37,0,2,refer,A,L,C,kneeling halfway
+67c3a7fce94dfdcfaa50c277,0,a,38,1,16,social,L,F,B,thinking man
+67c3a7fce94dfdcfaa50c277,0,a,39,4,2,social,F,H,B,sad man
+67c3a7fce94dfdcfaa50c277,0,a,40,1,0,refer,H,B,A,sitting and spread wide
+67c3a7fce94dfdcfaa50c277,0,a,41,2,2,refer,B,H,B,sad man
+67c3a7fce94dfdcfaa50c277,0,a,42,1,2,social,H,F,B,thinking man
+67c3a7fce94dfdcfaa50c277,0,a,43,4,16,refer,F,K,C,knelling all through
+67c3a7fce94dfdcfaa50c277,0,a,44,1,8,social,K,L,C,kneeling halfway
+67c3a7fce94dfdcfaa50c277,0,a,45,2,16,social,L,E,B,meditating
+67c3a7fce94dfdcfaa50c277,0,a,46,1,1,refer,E,F,B,thinking man with no arm shown
+67c3a7fce94dfdcfaa50c277,0,a,47,4,4,refer,F,L,C,kneeling halfway praying
+67c3a7fce94dfdcfaa50c277,0,a,48,3,2,social,L,K,C,kneeling all through
+67c3a7fce94dfdcfaa50c277,0,a,49,2,16,refer,K,I,C,strike a pose
+67c3a7fce94dfdcfaa50c277,0,a,50,4,2,refer,I,A,A,"legs up, face down"
+67c3a7fce94dfdcfaa50c277,0,a,51,4,0,refer,A,H,B,sad man
+67c3a7fce94dfdcfaa50c277,0,a,52,4,0,social,H,C,A,flying man
+671fbc862b5c7b635c9980de,0,a,0,1,1,social,,A,A,thriller
+671fbc862b5c7b635c9980de,0,a,1,1,8,social,A,D,A,Priest
+671fbc862b5c7b635c9980de,0,a,2,2,4,refer,D,C,A,Italian
+671fbc862b5c7b635c9980de,0,a,3,1,8,refer,C,B,A,mouse head
+671fbc862b5c7b635c9980de,0,a,4,1,0,refer,B,E,B,crazy hat person
+671fbc862b5c7b635c9980de,0,a,5,2,1,refer,E,H,B,the innocent one
+671fbc862b5c7b635c9980de,0,a,6,1,0,social,H,F,B,sad guy
+671fbc862b5c7b635c9980de,0,a,7,4,2,social,F,B,A,mouse head
+671fbc862b5c7b635c9980de,0,a,8,4,0,refer,B,E,B,crazy hat person
+671fbc862b5c7b635c9980de,0,a,9,0,8,refer,E,G,B,horse
+671fbc862b5c7b635c9980de,0,a,10,2,0,social,G,A,A,thriller
+671fbc862b5c7b635c9980de,0,a,11,4,1,refer,A,C,A,italian
+671fbc862b5c7b635c9980de,0,a,12,3,16,refer,C,F,B,sad guy
+671fbc862b5c7b635c9980de,0,a,13,2,8,refer,F,D,A,priest
+671fbc862b5c7b635c9980de,0,a,14,3,1,social,D,B,A,mouse head
+671fbc862b5c7b635c9980de,0,a,15,4,16,refer,B,H,B,innocent guy
+671fbc862b5c7b635c9980de,0,a,16,3,16,social,H,F,B,sad guy
+671fbc862b5c7b635c9980de,0,a,17,2,2,social,F,A,A,thriller
+671fbc862b5c7b635c9980de,0,a,18,4,1,social,A,G,B,horsee
+671fbc862b5c7b635c9980de,0,a,19,4,8,refer,G,E,B,crazy hat guy
+671fbc862b5c7b635c9980de,0,a,20,2,8,social,E,D,A,priest
+671fbc862b5c7b635c9980de,0,a,21,4,16,social,D,G,B,horsee
+671fbc862b5c7b635c9980de,0,a,22,4,2,refer,G,H,B,innocent guy
+671fbc862b5c7b635c9980de,0,a,23,3,1,refer,H,F,B,sad guy
+671fbc862b5c7b635c9980de,0,a,24,1,2,social,F,E,B,crazy hat person
+671fbc862b5c7b635c9980de,0,a,25,2,0,refer,E,H,B,the innocent one
+671fbc862b5c7b635c9980de,0,a,26,1,1,refer,H,D,A,priest
+671fbc862b5c7b635c9980de,0,a,27,0,1,refer,D,C,A,italian
+671fbc862b5c7b635c9980de,0,a,28,4,8,social,C,B,A,mouse head
+671fbc862b5c7b635c9980de,0,a,29,3,8,refer,B,A,A,thriller
+671fbc862b5c7b635c9980de,0,a,30,0,16,refer,A,G,B,horse
+671fbc862b5c7b635c9980de,0,a,31,0,4,refer,G,H,B,the innocent one
+671fbc862b5c7b635c9980de,0,a,32,3,2,social,H,L,C,squatting guy
+671fbc862b5c7b635c9980de,0,a,33,2,16,social,L,I,C,yoga guy
+671fbc862b5c7b635c9980de,0,a,34,2,1,social,I,K,C,kneeling guy
+671fbc862b5c7b635c9980de,0,a,35,2,16,refer,K,J,C,standing guy
+671fbc862b5c7b635c9980de,0,a,36,4,4,social,J,C,A,Falling guy
+671fbc862b5c7b635c9980de,0,a,37,4,4,refer,C,E,B,bunny ears guy
+671fbc862b5c7b635c9980de,0,a,38,3,4,social,E,I,C,ballerina
+671fbc862b5c7b635c9980de,0,a,39,1,2,refer,I,F,B,tired guy
+671fbc862b5c7b635c9980de,0,a,40,0,2,refer,F,A,A,matching guy
+671fbc862b5c7b635c9980de,0,a,41,1,16,refer,A,G,B,kneeling with one leg guy
+671fbc862b5c7b635c9980de,0,a,42,2,4,social,G,H,B,Monk guy
+671fbc862b5c7b635c9980de,0,a,43,1,4,refer,H,K,C,proposing guy
+671fbc862b5c7b635c9980de,0,a,44,3,2,refer,K,C,A,ghost guy
+671fbc862b5c7b635c9980de,0,a,45,3,4,refer,C,I,C,bird pose guy
+671fbc862b5c7b635c9980de,0,a,46,4,0,social,I,F,B,sad guy
+671fbc862b5c7b635c9980de,0,a,47,3,0,refer,F,D,A,scholar guy
+671fbc862b5c7b635c9980de,0,a,48,3,0,social,D,B,A,worshipping guy
+671fbc862b5c7b635c9980de,0,a,49,3,8,social,B,J,C,cape guy
+671fbc862b5c7b635c9980de,0,a,50,2,2,refer,J,H,B,innocent guy
+671fbc862b5c7b635c9980de,0,a,51,1,4,social,H,F,B,sad guy
+671fbc862b5c7b635c9980de,0,a,52,1,16,social,F,I,C,outstretching one
+657f5cb338e31904b66cd970,0,a,0,1,0,refer,,D,A,priest
+657f5cb338e31904b66cd970,0,a,1,2,16,social,D,C,A,italian
+657f5cb338e31904b66cd970,0,a,2,2,8,refer,C,F,B,lonely sad boy
+657f5cb338e31904b66cd970,0,a,3,4,2,refer,F,H,B,no arms/ blob
+657f5cb338e31904b66cd970,0,a,4,2,0,refer,H,A,A,man with a backpack
+657f5cb338e31904b66cd970,0,a,5,0,8,refer,A,E,B,man with a weird hat/ windmill
+657f5cb338e31904b66cd970,0,a,6,2,0,social,E,L,C,doing squats
+657f5cb338e31904b66cd970,0,a,7,2,4,refer,L,I,C,standing on one leg arms to the left
+657f5cb338e31904b66cd970,0,a,8,1,16,social,I,J,C,straight/ flat back man
+657f5cb338e31904b66cd970,0,a,9,4,8,refer,J,F,B,"sitting on the floor, knees up"
+657f5cb338e31904b66cd970,0,a,10,3,1,social,F,H,B,no arms shown
+657f5cb338e31904b66cd970,0,a,11,4,16,refer,H,G,B,doing the slide/ head back to left
+657f5cb338e31904b66cd970,0,a,12,3,4,social,G,A,A,hunch back
+657f5cb338e31904b66cd970,0,a,13,2,2,social,A,E,B,box with two triangles sliding down mountain
+657f5cb338e31904b66cd970,0,a,14,3,1,refer,E,F,B,bored and alone on the floor
+657f5cb338e31904b66cd970,0,a,15,4,0,refer,F,K,C,looks like 2 triangles on top of each other arms to right
+657f5cb338e31904b66cd970,0,a,16,2,8,social,K,I,C,figure skating with leg up
+657f5cb338e31904b66cd970,0,a,17,3,0,refer,I,J,C,could be a matodor
+657f5cb338e31904b66cd970,0,a,18,0,2,refer,J,L,C,leg bent into squat position
+657f5cb338e31904b66cd970,0,a,19,4,16,social,L,B,A,kneeling with one arm each way
+657f5cb338e31904b66cd970,0,a,20,3,16,refer,B,C,A,"arms in the air and head to left, body leaning"
+657f5cb338e31904b66cd970,0,a,21,1,2,refer,C,H,B,sitting monk no arms seen
+657f5cb338e31904b66cd970,0,a,22,3,4,refer,H,D,A,reading a book while standing
+657f5cb338e31904b66cd970,0,a,23,2,4,social,D,E,B,"no arms, two triangles and a square"
+657f5cb338e31904b66cd970,0,a,24,2,2,refer,E,I,C,"2 arms to the left, one foot up behind"
+657f5cb338e31904b66cd970,0,a,25,1,1,social,I,G,B,"arm and leg to the right , head back to left, slide"
+657f5cb338e31904b66cd970,0,a,26,4,2,social,G,H,B,"head, no legs , no arms"
+657f5cb338e31904b66cd970,0,a,27,4,4,social,H,F,B,"sitting on butt, knees bent"
+657f5cb338e31904b66cd970,0,a,28,1,8,social,F,C,A,"both arms in the air, body leaning to the left"
+657f5cb338e31904b66cd970,0,a,29,4,4,refer,C,A,A,"walking to the left, bag over shoulder, no arms"
+657f5cb338e31904b66cd970,0,a,30,0,4,refer,A,B,A,kneeling with arms straight out to each side
+657f5cb338e31904b66cd970,0,a,31,3,0,social,B,F,B,lonely sitting person
+657f5cb338e31904b66cd970,0,a,32,2,16,refer,F,C,A,"leaning body, no legs arms up"
+657f5cb338e31904b66cd970,0,a,33,2,1,social,C,H,B,blob
+657f5cb338e31904b66cd970,0,a,34,0,16,refer,H,J,C,"straight line on left side, arm and leg on right"
+657f5cb338e31904b66cd970,0,a,35,4,8,social,J,G,B,electric slide
+657f5cb338e31904b66cd970,0,a,36,1,2,social,G,I,C,"leaning forward to the left, one leg up behind him"
+657f5cb338e31904b66cd970,0,a,37,1,16,refer,I,E,B,sitting indian with hat
+657f5cb338e31904b66cd970,0,a,38,4,0,social,E,D,A,scholar
+657f5cb338e31904b66cd970,0,a,39,1,0,social,D,H,B,criss cross applesauce
+657f5cb338e31904b66cd970,0,a,40,0,1,refer,H,B,A,taking a bow
+657f5cb338e31904b66cd970,0,a,41,4,1,social,B,E,B,box sliding down hill with 2 triangles
+657f5cb338e31904b66cd970,0,a,42,1,4,social,E,L,C,"standing with bended knee, both arms to right"
+657f5cb338e31904b66cd970,0,a,43,3,8,social,L,A,A,one foot in the air with bag on back
+657f5cb338e31904b66cd970,0,a,44,1,1,refer,A,J,C,two thirds of a square with a head on top
+657f5cb338e31904b66cd970,0,a,45,3,2,social,J,G,B,dancing with one arm and leg to right showing
+657f5cb338e31904b66cd970,0,a,46,3,8,refer,G,C,A,falling over because i have no legs
+657f5cb338e31904b66cd970,0,a,47,4,1,refer,C,F,B,"bored, lonely and sad with nowhere to go"
+657f5cb338e31904b66cd970,0,a,48,2,1,refer,F,H,B,"sitting, no arms or legs shown"
+657f5cb338e31904b66cd970,0,a,49,3,16,social,H,K,C,sneaking with 2 heads and arm to right
+657f5cb338e31904b66cd970,0,a,50,3,2,refer,K,I,C,bending over to left with leg up behind them
+657f5cb338e31904b66cd970,0,a,51,1,4,refer,I,L,C,"scooching down, arms to right"
+657f5cb338e31904b66cd970,0,a,52,1,8,refer,L,A,A,sad dinosaur no arms and a bag
+67b8f459f36ac348b98d6cad,0,a,0,4,16,refer,,A,A,"Like a dance, one foot on ground the other foot slightly raised."
+67b8f459f36ac348b98d6cad,0,a,1,3,16,social,A,B,A,Mouse head with funny ears.
+67b8f459f36ac348b98d6cad,0,a,2,3,0,refer,B,C,A,"Arms lifted, outstretched or apart."
+67b8f459f36ac348b98d6cad,0,a,3,4,4,social,C,D,A,Like a priest giving/opening a book - a diamond as head.
+67b8f459f36ac348b98d6cad,0,a,4,2,4,social,D,E,B,A hat looking like a windmill on a hill.
+67b8f459f36ac348b98d6cad,0,a,5,2,16,social,E,F,B,"Sad one, sitting with one knee slightly bent"
+67b8f459f36ac348b98d6cad,0,a,6,2,1,refer,F,G,B,"Like a lying posture although with upper body half raised, with head tilting backwards and arms apart facing downward and upward"
+67b8f459f36ac348b98d6cad,0,a,7,4,8,social,G,H,B,lonely one with no arms or legs
+67b8f459f36ac348b98d6cad,0,a,8,1,8,social,H,I,C,"Like a Karate practice, two triangles facing front"
+67b8f459f36ac348b98d6cad,0,a,9,4,16,social,I,E,B,Funny hat guy
+67b8f459f36ac348b98d6cad,0,a,10,2,16,refer,E,C,A,Italian with arms apart and lifted to the air.
+67b8f459f36ac348b98d6cad,0,a,11,1,0,social,C,D,A,The Priest guy
+67b8f459f36ac348b98d6cad,0,a,12,3,2,refer,D,K,C,The duck. Kneeling and arms forward
+67b8f459f36ac348b98d6cad,0,a,13,3,0,social,K,B,A,The mouse head with two triangles for ears
+67b8f459f36ac348b98d6cad,0,a,14,0,2,refer,B,A,A,"A dancing posture, with left leg on the ground and right leg slightly lifted"
+67b8f459f36ac348b98d6cad,0,a,15,0,16,refer,A,L,C,looks like knees half bent with arms forward
+67b8f459f36ac348b98d6cad,0,a,16,4,1,refer,L,H,B,"no arms, no legs with a diamond as head"
+67b8f459f36ac348b98d6cad,0,a,17,1,4,refer,H,I,C,"Like a karate posture, one leg fully on ground and the other lifted backwards."
+67b8f459f36ac348b98d6cad,0,a,18,0,8,refer,I,K,C,"Kneeling and arms forward posture, two diamonds directly on top"
+67b8f459f36ac348b98d6cad,0,a,19,2,2,refer,K,E,B,Like a windmill as hat or shapes on the peak of a hill
+67b8f459f36ac348b98d6cad,0,a,20,3,8,social,E,C,A,Italian guy with open arms
+67b8f459f36ac348b98d6cad,0,a,21,1,4,social,C,H,B,The lonely guy with no arms and no legs
+67b8f459f36ac348b98d6cad,0,a,22,3,1,refer,H,B,A,"A rock with two triangles hanging on either side, and a square on top"
+67b8f459f36ac348b98d6cad,0,a,23,2,0,social,B,D,A,The priest guy with a book forward
+67b8f459f36ac348b98d6cad,0,a,24,4,2,refer,D,G,B,Square shape slightly hanging/falling off a body with arms facing downward and upward.
+67b8f459f36ac348b98d6cad,0,a,25,1,1,social,G,E,B,The funny hat guy
+67b8f459f36ac348b98d6cad,0,a,26,3,4,refer,E,J,C,Diamond head on a cube
+67b8f459f36ac348b98d6cad,0,a,27,0,1,refer,J,I,C,"Karate posture, with two triangles forward and a square/diamond on top"
+67b8f459f36ac348b98d6cad,0,a,28,1,0,refer,I,L,C,half-bent knee with arms forward
+67b8f459f36ac348b98d6cad,0,a,29,1,16,social,L,C,A,Italian guy with lifted arms
+67b8f459f36ac348b98d6cad,0,a,30,4,4,refer,C,G,B,diamond slightly falling off with a triangle facing downwards and the other triangle upwards
+67b8f459f36ac348b98d6cad,0,a,31,4,0,refer,G,E,B,The one with the funny hat thing
+67b8f459f36ac348b98d6cad,0,a,32,2,8,refer,E,F,B,like a person sitting with knees half bent
+67b8f459f36ac348b98d6cad,0,a,33,3,4,social,F,C,A,code name is Italian guy with lifted arms
+67b8f459f36ac348b98d6cad,0,a,34,3,16,refer,C,G,B,Diamond shape slightly falling off with two arms forward and apart
+67b8f459f36ac348b98d6cad,0,a,35,4,0,social,G,B,A,Mouse head with two ears
+67b8f459f36ac348b98d6cad,0,a,36,0,4,refer,B,D,A,"someone holding a book with the head facing the opposite way, a priest guy"
+67b8f459f36ac348b98d6cad,0,a,37,3,2,social,D,F,B,The sitting sad boy
+67b8f459f36ac348b98d6cad,0,a,38,1,16,refer,F,I,C,"Karate posture, triangles facing forwards and leg backwards"
+67b8f459f36ac348b98d6cad,0,a,39,3,1,social,I,E,B,Funny hat guy
+67b8f459f36ac348b98d6cad,0,a,40,2,4,refer,E,L,C,Knees slightly bent with arms forward and diamond as head
+67b8f459f36ac348b98d6cad,0,a,41,4,1,social,L,C,A,Italian guy with lifted arms
+67b8f459f36ac348b98d6cad,0,a,42,3,8,refer,C,H,B,"No arms or legs,"
+67b8f459f36ac348b98d6cad,0,a,43,4,2,social,H,D,A,The priest with very long sleeves
+67b8f459f36ac348b98d6cad,0,a,44,1,2,social,D,F,B,The sitting sad boy
+67b8f459f36ac348b98d6cad,0,a,45,2,2,social,F,E,B,The funny hat guy
+67b8f459f36ac348b98d6cad,0,a,46,2,0,refer,E,K,C,"Two diamonds at the top, one directly on top the other"
+67b8f459f36ac348b98d6cad,0,a,47,1,2,refer,K,G,B,Diamond/square slightly falling off with two triangles at the front
+67b8f459f36ac348b98d6cad,0,a,48,2,1,social,G,C,A,Italian guy with lifted arms
+67b8f459f36ac348b98d6cad,0,a,49,1,8,refer,C,I,C,"Karate posture, triangles forward and a leg backwards"
+67b8f459f36ac348b98d6cad,0,a,50,1,1,refer,I,J,C,cube with diamond on top and a right triangle
+67b8f459f36ac348b98d6cad,0,a,51,2,8,social,J,H,B,"Lonely guy, no arms no legs"
+67b8f459f36ac348b98d6cad,0,a,52,4,8,refer,H,C,A,"rectangle slightly bent, with a diamond on top and open arms lifted up"
+60e8b06bfb1c78d450ae9f79,0,a,0,1,8,social,,C,A,Italian guy
+60e8b06bfb1c78d450ae9f79,0,a,1,4,1,social,C,F,B,sad guy
+60e8b06bfb1c78d450ae9f79,0,a,2,4,16,refer,F,I,C,yoga kicks
+60e8b06bfb1c78d450ae9f79,0,a,3,1,2,refer,I,E,B,funny hat
+60e8b06bfb1c78d450ae9f79,0,a,4,2,4,social,E,A,A,one leg up going left
+60e8b06bfb1c78d450ae9f79,0,a,5,1,4,social,A,B,A,kneeling hands up two triangles
+60e8b06bfb1c78d450ae9f79,0,a,6,2,1,social,B,G,B,"Guy seeming like falling off, facing left but two hands back"
+60e8b06bfb1c78d450ae9f79,0,a,7,2,4,refer,G,D,A,priest like facing left
+60e8b06bfb1c78d450ae9f79,0,a,8,3,0,social,D,H,B,"legless, seemingly like letter i"
+60e8b06bfb1c78d450ae9f79,0,a,9,4,8,refer,H,J,C,A flat top and straight back left and top
+60e8b06bfb1c78d450ae9f79,0,a,10,2,1,refer,J,K,C,A total kneeling facing right
+60e8b06bfb1c78d450ae9f79,0,a,11,3,1,refer,K,L,C,Seems like doing squats facing right
+60e8b06bfb1c78d450ae9f79,0,a,12,4,2,social,L,E,B,Funny hat
+60e8b06bfb1c78d450ae9f79,0,a,13,1,16,social,E,A,A,One leg forward facing left
+60e8b06bfb1c78d450ae9f79,0,a,14,1,0,refer,A,F,B,A sit down facing left(looks depressed)
+60e8b06bfb1c78d450ae9f79,0,a,15,1,16,refer,F,H,B,Looking like letter i
+60e8b06bfb1c78d450ae9f79,0,a,16,3,2,refer,H,D,A,priest
+60e8b06bfb1c78d450ae9f79,0,a,17,0,8,refer,D,L,C,Squats
+60e8b06bfb1c78d450ae9f79,0,a,18,4,0,social,L,I,C,Yoga back kick
+60e8b06bfb1c78d450ae9f79,0,a,19,2,16,refer,I,C,A,Italian guy
+60e8b06bfb1c78d450ae9f79,0,a,20,1,8,refer,C,G,B,Fall off hands facing back right
+60e8b06bfb1c78d450ae9f79,0,a,21,0,16,refer,G,J,C,straight top and a flat back facing right
+60e8b06bfb1c78d450ae9f79,0,a,22,0,2,refer,J,K,C,Total kneeling facing right
+60e8b06bfb1c78d450ae9f79,0,a,23,2,2,social,K,D,A,priest like facing left
+60e8b06bfb1c78d450ae9f79,0,a,24,4,1,refer,D,B,A,Kneeling down and hands up open
+60e8b06bfb1c78d450ae9f79,0,a,25,1,2,social,B,E,B,funny hats
+60e8b06bfb1c78d450ae9f79,0,a,26,2,16,social,E,I,C,yoga flying back kicks
+60e8b06bfb1c78d450ae9f79,0,a,27,2,0,refer,I,A,A,One leg forward left head facing back
+60e8b06bfb1c78d450ae9f79,0,a,28,1,4,refer,A,C,A,Italian guy
+60e8b06bfb1c78d450ae9f79,0,a,29,3,8,refer,C,H,B,Letter i
+60e8b06bfb1c78d450ae9f79,0,a,30,2,8,refer,H,L,C,Squats
+60e8b06bfb1c78d450ae9f79,0,a,31,3,2,social,L,J,C,Flat top and back facing right
+60e8b06bfb1c78d450ae9f79,0,a,32,4,2,refer,J,H,B,looking like letter i
+60e8b06bfb1c78d450ae9f79,0,a,33,3,16,social,H,E,B,Funny hat
+60e8b06bfb1c78d450ae9f79,0,a,34,4,4,social,E,I,C,back yoga kick
+60e8b06bfb1c78d450ae9f79,0,a,35,0,4,refer,I,F,B,Guy sitting down facing left looking depressed
+60e8b06bfb1c78d450ae9f79,0,a,36,3,1,social,F,L,C,Guy doing squats facing left
+60e8b06bfb1c78d450ae9f79,0,a,37,1,1,social,L,G,B,two hands facing left looking like he is falling off
+60e8b06bfb1c78d450ae9f79,0,a,38,4,16,social,G,E,B,Funny hat seated down.
+60e8b06bfb1c78d450ae9f79,0,a,39,2,8,social,E,B,A,A guy kneeling facing left and two open arms up.
+60e8b06bfb1c78d450ae9f79,0,a,40,3,4,social,B,K,C,kneeling down facing left
+60e8b06bfb1c78d450ae9f79,0,a,41,4,0,refer,K,F,B,depressed guy facing right
+60e8b06bfb1c78d450ae9f79,0,a,42,3,4,refer,F,H,B,Letter i
+60e8b06bfb1c78d450ae9f79,0,a,43,3,0,refer,H,D,A,A priest like moving forward right
+60e8b06bfb1c78d450ae9f79,0,a,44,4,4,refer,D,I,C,Yoga back kick
+60e8b06bfb1c78d450ae9f79,0,a,45,1,0,social,I,E,B,Wind mill like hat seated down facing right
+60e8b06bfb1c78d450ae9f79,0,a,46,3,8,social,E,C,A,A rhombus hands lifted up
+60e8b06bfb1c78d450ae9f79,0,a,47,3,16,refer,C,L,C,Squats facing right
+60e8b06bfb1c78d450ae9f79,0,a,48,4,8,social,L,F,B,A guy seated facing left looking depressed.
+60e8b06bfb1c78d450ae9f79,0,a,49,1,1,refer,F,H,B,Looking letter i
+60e8b06bfb1c78d450ae9f79,0,a,50,2,0,social,H,J,C,Flat top and flat back
+60e8b06bfb1c78d450ae9f79,0,a,51,2,2,refer,J,G,B,Facing left looking like  it is a fall off
+60e8b06bfb1c78d450ae9f79,0,a,52,0,1,refer,G,I,C,Yoga back kick
+5d453e8723a5bb0001492546,0,a,0,1,16,refer,,L,C,"(a) Diamond head, (b) flat back on left side, (c) triangle pointing out from stomach on right side, (d) kneeling facing right />/"
+5d453e8723a5bb0001492546,0,a,1,3,0,social,L,F,B,sad boy
+5d453e8723a5bb0001492546,0,a,2,1,8,refer,F,K,C,"(a) Diamond head, (b) missing chunk out of left side back, (c) triangle facing right coming out of chest, (d) right angle on bottom left corner"
+5d453e8723a5bb0001492546,0,a,3,2,2,social,K,D,A,(a) Priest facing left
+5d453e8723a5bb0001492546,0,a,4,4,1,social,D,C,A,Italian talking with both arms up in the air
+5d453e8723a5bb0001492546,0,a,5,1,16,social,C,H,B,windmill hat on top of a large triangle with right angle on left side of base
+5d453e8723a5bb0001492546,0,a,6,1,0,refer,H,G,B,"(a) Yoga horse, (b) diamond head falling off to the left, (c) small triangle on bottom right corner"
+5d453e8723a5bb0001492546,0,a,7,2,0,refer,G,H,B,"(a) simplest shape, (b) bean facing right, (c) flat backside, (d) triangle foot facing right"
+5d453e8723a5bb0001492546,0,a,8,3,8,social,H,A,A,thriller dancer
+5d453e8723a5bb0001492546,0,a,9,4,2,social,A,B,A,"kneeling fairy, diamond on top of two triangles"
+5d453e8723a5bb0001492546,0,a,10,1,1,social,B,G,B,yoga horse
+5d453e8723a5bb0001492546,0,a,11,3,16,refer,G,J,C,"(a) Diamond on top of flat cubed area, (b) right angle top left corner, (c) facing right"
+5d453e8723a5bb0001492546,0,a,12,4,16,refer,J,I,C,"ice skater facing left/yoga pose with two arms going left, 1 foot stretched out to the right. Standing on one leg."
+5d453e8723a5bb0001492546,0,a,13,3,2,refer,I,E,B,"(a) triangle base with right angle on bottom left corner, (b) two triangles on top of diamond head, (c) flat on left side"
+5d453e8723a5bb0001492546,0,a,14,2,1,refer,E,A,A,"(a) Standing facing left, (b) one left kicking to the left, (c) head looking down"
+5d453e8723a5bb0001492546,0,a,15,1,2,refer,A,I,C,"(a) standing on one left facing left, (b) two arms pointing left, (c) one left in air to the right, perpendicular to standing leg."
+5d453e8723a5bb0001492546,0,a,16,2,16,social,I,F,B,"sad man sitting down, facing left."
+5d453e8723a5bb0001492546,0,a,17,2,4,social,F,C,A,italian talking with both arms in the air
+5d453e8723a5bb0001492546,0,a,18,2,2,refer,C,J,C,"(a) diamond on top of flat surface, (b) large cubed body, (c) facing right, (d) flat left side"
+5d453e8723a5bb0001492546,0,a,19,0,16,refer,J,I,C,"(a) man standing on one leg facing left, (b) two arms facing right, (c) one left stretched out to the right"
+5d453e8723a5bb0001492546,0,a,20,4,8,refer,I,J,C,"(a) diamond on top of flat surface, (b) large cubed body, (c) flat left side, (d) facing right"
+5d453e8723a5bb0001492546,0,a,21,3,8,refer,J,A,A,"(a) man standing facing left, (b) one left kicking, (c) head looking down"
+5d453e8723a5bb0001492546,0,a,22,1,0,social,A,E,B,windmill hat
+5d453e8723a5bb0001492546,0,a,23,2,4,refer,E,F,B,"(a) man sitting down, (b) head looking towards knees, (c) facing left"
+5d453e8723a5bb0001492546,0,a,24,1,2,social,F,D,A,priest facing left
+5d453e8723a5bb0001492546,0,a,25,0,4,refer,D,A,A,"(a) man standing facing left, (b) one leg kicking to the left, (c) head looking down"
+5d453e8723a5bb0001492546,0,a,26,4,1,refer,A,E,B,"(a) large triangle base, (b) right angle bottom left corner, (c) two triangles on top of diamond at top"
+5d453e8723a5bb0001492546,0,a,27,1,4,social,E,F,B,"sad man sitting down, facing left"
+5d453e8723a5bb0001492546,0,a,28,3,1,refer,F,J,C,"(a) diamond on flat surface, (b) large cubed body, (c) flat left side"
+5d453e8723a5bb0001492546,0,a,29,3,16,social,J,F,B,"sad man sitting down, facing left"
+5d453e8723a5bb0001492546,0,a,30,3,4,refer,F,A,A,"(a) man facing to the left, (b) standing one one left, (c) kicking with other leg, (d) head facing down"
+5d453e8723a5bb0001492546,0,a,31,3,1,social,A,D,A,priest facing left
+5d453e8723a5bb0001492546,0,a,32,4,16,social,D,C,A,italian talking with arms waving in the air
+5d453e8723a5bb0001492546,0,a,33,2,1,social,C,F,B,sad man sitting
+5d453e8723a5bb0001492546,0,a,34,4,8,social,F,D,A,priest facing left
+5d453e8723a5bb0001492546,0,a,35,0,2,refer,D,I,C,"(a) man standing on one leg, (b) facing left, (c) two arms facing left, (d) one leg out to the right"
+5d453e8723a5bb0001492546,0,a,36,0,1,refer,I,J,C,"(a) diamond on top of flat surface, (b) large cubed body, (c) flat left side"
+5d453e8723a5bb0001492546,0,a,37,1,4,refer,J,A,A,"(a) man standing facing left, (b) on one leg, (c) kicking with 2nd left"
+5d453e8723a5bb0001492546,0,a,38,3,4,social,A,C,A,italian talking with hands waved in the air
+5d453e8723a5bb0001492546,0,a,39,4,0,social,C,E,B,windmill hat
+5d453e8723a5bb0001492546,0,a,40,1,1,refer,E,J,C,"(a) diamond on flat surface, (b) large cubed body, (c) flat left side, (d) facing right"
+5d453e8723a5bb0001492546,0,a,41,1,8,social,J,D,A,priest facing left
+5d453e8723a5bb0001492546,0,a,42,0,8,refer,D,A,A,"(a) man standing on one leg, (b) facing left, (c) kicking with one left, (d) head looking down"
+5d453e8723a5bb0001492546,0,a,43,2,0,social,A,F,B,sad man
+5d453e8723a5bb0001492546,0,a,44,4,2,refer,F,J,C,"(a) diamond on flat surface, (b) large cubed body, (c) right angle in top left corner, (d) flat left side."
+5d453e8723a5bb0001492546,0,a,45,2,8,social,J,C,A,italian talking with both arms waved in the air
+5d453e8723a5bb0001492546,0,a,46,2,8,refer,C,A,A,"(a) man standing on one leg, (b) facing left, (c) kicking with one leg, (d) head looking down"
+5d453e8723a5bb0001492546,0,a,47,3,0,refer,A,E,B,"(a) large triangle base, (b) right angle on lower left corner, (c) two triangles on top of diamond at top, (d) facing right"
+5d453e8723a5bb0001492546,0,a,48,4,4,social,E,C,A,italian talking with both arms waved in the air
+5d453e8723a5bb0001492546,0,a,49,4,0,refer,C,A,A,"(a) man standing on one leg, (b) facing left, (c) kicking with other leg, (d) head looking down"
+5d453e8723a5bb0001492546,0,a,50,3,2,social,A,D,A,priest facing left
+5d453e8723a5bb0001492546,0,a,51,2,16,refer,D,L,C,"(a) diamond on top, (b) bent knees, (c) triangle coming from chest to the right, (d) />/ pointing right"
+5d453e8723a5bb0001492546,0,a,52,4,4,refer,L,K,C,"(a) diamond on top, (b) chunk missing out of left side, (c) right triangle on bottom left corner, (d) triangle pointing out of chest to the right"
+67cd9cf6fcf63b6ab8f21390,0,a,0,3,1,refer,,F,B,sad boy
+67cd9cf6fcf63b6ab8f21390,0,a,1,3,16,social,F,E,B,crazy hat
+67cd9cf6fcf63b6ab8f21390,0,a,2,0,1,refer,E,A,A,thriller
+67cd9cf6fcf63b6ab8f21390,0,a,3,4,2,refer,A,C,A,italian
+67cd9cf6fcf63b6ab8f21390,0,a,4,2,1,social,C,D,A,priest
+67cd9cf6fcf63b6ab8f21390,0,a,5,2,0,social,D,L,C,squats
+67cd9cf6fcf63b6ab8f21390,0,a,6,1,2,social,L,I,C,yoga person
+67cd9cf6fcf63b6ab8f21390,0,a,7,1,16,social,I,G,B,kungfu
+67cd9cf6fcf63b6ab8f21390,0,a,8,2,16,refer,G,H,B,innocent
+67cd9cf6fcf63b6ab8f21390,0,a,9,2,4,social,H,F,B,depressed guy
+67cd9cf6fcf63b6ab8f21390,0,a,10,3,0,social,F,I,C,exercise lover
+67cd9cf6fcf63b6ab8f21390,0,a,11,2,16,social,I,B,A,prayer warrior
+67cd9cf6fcf63b6ab8f21390,0,a,12,0,16,refer,B,G,B,dancer
+67cd9cf6fcf63b6ab8f21390,0,a,13,1,0,social,G,E,B,judgge
+67cd9cf6fcf63b6ab8f21390,0,a,14,4,16,social,E,L,C,beggar
+67cd9cf6fcf63b6ab8f21390,0,a,15,0,4,refer,L,C,A,beggar
+67cd9cf6fcf63b6ab8f21390,0,a,16,4,2,social,C,H,B,mouse
+67cd9cf6fcf63b6ab8f21390,0,a,17,1,16,refer,H,A,A,angry man
+67cd9cf6fcf63b6ab8f21390,0,a,18,4,4,refer,A,J,C,scarecrow
+67cd9cf6fcf63b6ab8f21390,0,a,19,3,16,refer,J,A,A,v shaped head
+67cd9cf6fcf63b6ab8f21390,0,a,20,3,8,refer,A,B,A,bird with widespread wings
+67cd9cf6fcf63b6ab8f21390,0,a,21,4,16,refer,B,C,A,flat bottom
+67cd9cf6fcf63b6ab8f21390,0,a,22,3,0,refer,C,E,B,sleepy person
+67cd9cf6fcf63b6ab8f21390,0,a,23,2,8,social,E,F,B,calm guy
+67cd9cf6fcf63b6ab8f21390,0,a,24,1,1,refer,F,G,B,violent guy
+67cd9cf6fcf63b6ab8f21390,0,a,25,1,4,social,G,K,C,dancer
+67cd9cf6fcf63b6ab8f21390,0,a,26,2,4,refer,K,F,B,a person crouching
+67cd9cf6fcf63b6ab8f21390,0,a,27,2,1,refer,F,I,C,yoga
+67cd9cf6fcf63b6ab8f21390,0,a,28,4,0,social,I,D,A,priest
+67cd9cf6fcf63b6ab8f21390,0,a,29,3,4,social,D,L,C,beggar
+67cd9cf6fcf63b6ab8f21390,0,a,30,4,4,social,L,K,C,prayer
+67cd9cf6fcf63b6ab8f21390,0,a,31,2,2,social,K,E,B,king
+67cd9cf6fcf63b6ab8f21390,0,a,32,4,0,refer,E,H,B,diamond
+67cd9cf6fcf63b6ab8f21390,0,a,33,2,8,refer,H,J,C,floating bat
+67cd9cf6fcf63b6ab8f21390,0,a,34,4,8,social,J,H,B,listener
+67cd9cf6fcf63b6ab8f21390,0,a,35,1,4,refer,H,F,B,critical thinker
+67cd9cf6fcf63b6ab8f21390,0,a,36,2,2,refer,F,E,B,guilt person
+67cd9cf6fcf63b6ab8f21390,0,a,37,0,8,refer,E,C,A,swimmer
+67cd9cf6fcf63b6ab8f21390,0,a,38,0,2,refer,C,A,A,climber
+67cd9cf6fcf63b6ab8f21390,0,a,39,4,8,refer,A,H,B,ready to jump
+67cd9cf6fcf63b6ab8f21390,0,a,40,3,4,refer,H,B,A,prayer warrior
+67cd9cf6fcf63b6ab8f21390,0,a,41,2,0,refer,B,D,A,father
+67cd9cf6fcf63b6ab8f21390,0,a,42,1,0,refer,D,F,B,depressed person
+67cd9cf6fcf63b6ab8f21390,0,a,43,1,8,social,F,K,C,servant
+67cd9cf6fcf63b6ab8f21390,0,a,44,4,1,social,K,E,B,leader
+67cd9cf6fcf63b6ab8f21390,0,a,45,3,8,social,E,I,C,karate master
+67cd9cf6fcf63b6ab8f21390,0,a,46,1,2,refer,I,G,B,kungfu master
+67cd9cf6fcf63b6ab8f21390,0,a,47,1,8,refer,G,H,B,monk
+67cd9cf6fcf63b6ab8f21390,0,a,48,3,2,social,H,G,B,looks like he is spinning
+67cd9cf6fcf63b6ab8f21390,0,a,49,3,1,social,G,I,C,gymnast
+67cd9cf6fcf63b6ab8f21390,0,a,50,1,1,social,I,G,B,thriller
+67cd9cf6fcf63b6ab8f21390,0,a,51,4,1,refer,G,F,B,thinker
+67cd9cf6fcf63b6ab8f21390,0,a,52,3,2,refer,F,L,C,waiter
+67f02740d233a50f479c4e20,0,a,0,4,2,social,,D,A,Priest
+67f02740d233a50f479c4e20,0,a,1,1,16,social,D,E,B,Crazy hat person
+67f02740d233a50f479c4e20,0,a,2,1,2,refer,E,F,B,Sad guy
+67f02740d233a50f479c4e20,0,a,3,1,16,refer,F,B,A,Mouse head
+67f02740d233a50f479c4e20,0,a,4,3,0,refer,B,G,B,Horsee
+67f02740d233a50f479c4e20,0,a,5,3,16,social,G,H,B,The innocent guy.
+67f02740d233a50f479c4e20,0,a,6,3,8,refer,H,C,A,"Guy with outstretched arms, one on the right and one on the left."
+67f02740d233a50f479c4e20,0,a,7,2,1,social,C,A,A,Triller.
+67f02740d233a50f479c4e20,0,a,8,4,16,refer,A,B,A,Square head with a triangle hanging to the right.
+67f02740d233a50f479c4e20,0,a,9,1,4,refer,B,E,B,Head looking like a windmill on a hill.
+67f02740d233a50f479c4e20,0,a,10,2,0,social,E,D,A,The priest.
+67f02740d233a50f479c4e20,0,a,11,1,0,social,D,C,A,The Italian.
+67f02740d233a50f479c4e20,0,a,12,4,8,refer,C,L,C,"Knees bent to the right in a > shape, not completely kneeling. Appears to be meditating."
+67f02740d233a50f479c4e20,0,a,13,1,1,refer,L,F,B,Sitting down facing to the left. Appears sad.
+67f02740d233a50f479c4e20,0,a,14,3,16,refer,F,E,B,Head like a windmill on a hill.
+67f02740d233a50f479c4e20,0,a,15,1,8,social,E,I,C,One leg lifted up to the right. Hands facing the left. The other leg straight on the ground.
+67f02740d233a50f479c4e20,0,a,16,1,1,social,I,D,A,Priest
+67f02740d233a50f479c4e20,0,a,17,3,2,refer,D,E,B,Head like a windmill on a hill.
+67f02740d233a50f479c4e20,0,a,18,0,2,refer,E,F,B,Sitting down facing to the left. Appears sad.
+67f02740d233a50f479c4e20,0,a,19,1,0,refer,F,C,A,"Italian. Outstretched arms, one on the right and one on the left."
+67f02740d233a50f479c4e20,0,a,20,3,4,social,C,A,A,Triller
+67f02740d233a50f479c4e20,0,a,21,0,1,refer,A,E,B,Head like a windmil on a hill
+67f02740d233a50f479c4e20,0,a,22,3,0,social,E,C,A,Italian
+67f02740d233a50f479c4e20,0,a,23,3,4,refer,C,L,C,Guy facing to the left. Appears to be doing squats. Hands together in a triangular shape like one who is meditating.
+67f02740d233a50f479c4e20,0,a,24,4,2,refer,L,C,A,"Outstretched arms, one on the right and one on the left."
+67f02740d233a50f479c4e20,0,a,25,1,4,social,C,G,B,Striking a pose. Head appears to be falling off to the left.
+67f02740d233a50f479c4e20,0,a,26,2,2,social,G,C,A,Italian with hands oustretched. One to the right and one to the left.
+67f02740d233a50f479c4e20,0,a,27,4,16,social,C,D,A,Priest.
+67f02740d233a50f479c4e20,0,a,28,4,1,refer,D,H,B,Guy with no hands and a relatively straight back seated looking to the right.
+67f02740d233a50f479c4e20,0,a,29,4,8,social,H,G,B,Striking a pose. Head falling off to the left.
+67f02740d233a50f479c4e20,0,a,30,3,1,refer,G,F,B,Guy seated facing to the left. Appears sad.
+67f02740d233a50f479c4e20,0,a,31,4,0,social,F,C,A,Italian
+67f02740d233a50f479c4e20,0,a,32,1,8,refer,C,E,B,Head like a windmill on a hill.
+67f02740d233a50f479c4e20,0,a,33,2,8,social,E,F,B,Sad boy
+67f02740d233a50f479c4e20,0,a,34,2,4,social,F,G,B,"Striking a pose, head appears to be falling off to the left."
+67f02740d233a50f479c4e20,0,a,35,3,1,social,G,C,A,"Italian stretching out arms, one to the right and one to the left."
+67f02740d233a50f479c4e20,0,a,36,2,8,refer,C,F,B,"Seated facing to the left with arms under knees, appears sad."
+67f02740d233a50f479c4e20,0,a,37,2,2,refer,F,J,C,A diamond as head balanced on a flat surface. Left side is straight.
+67f02740d233a50f479c4e20,0,a,38,0,16,refer,J,K,C,Shape of a duck looking right with a diamond on top.
+67f02740d233a50f479c4e20,0,a,39,2,16,refer,K,G,B,Striking a pose with head tilted back to the left. Head appears to be falling off to the left.
+67f02740d233a50f479c4e20,0,a,40,4,1,social,G,E,B,Crazy hat guy.
+67f02740d233a50f479c4e20,0,a,41,4,4,refer,E,C,A,A guy with hands outstretched. One to the right and one to the left.
+67f02740d233a50f479c4e20,0,a,42,4,0,refer,C,F,B,"Seated with arms under the knees, facing to the left. Appears sad."
+67f02740d233a50f479c4e20,0,a,43,1,2,social,F,C,A,Italian.
+67f02740d233a50f479c4e20,0,a,44,0,8,refer,C,G,B,Appears to be striking a pose. Head is titled to the left and appears to be falling off.
+67f02740d233a50f479c4e20,0,a,45,2,16,social,G,D,A,Priest
+67f02740d233a50f479c4e20,0,a,46,3,8,social,D,C,A,Italian
+67f02740d233a50f479c4e20,0,a,47,2,1,refer,C,E,B,Head like a windmill on a hill.
+67f02740d233a50f479c4e20,0,a,48,2,4,refer,E,L,C,Appears to be doing squats. Facing to the right. Knee slightly bent.
+67f02740d233a50f479c4e20,0,a,49,0,4,refer,L,C,A,Outstretched arms. One to the right and one to the left.
+67f02740d233a50f479c4e20,0,a,50,4,4,social,C,G,B,Head falling to the left.
+67f02740d233a50f479c4e20,0,a,51,3,2,social,G,D,A,Priest
+67f02740d233a50f479c4e20,0,a,52,2,0,refer,D,K,C,Kneeling down facing to the right. Appears to be meditating.
+664c4e829445321c23a8de52,0,a,0,4,2,refer,,D,A,"Priest, Monk facing left and giving something."
+664c4e829445321c23a8de52,0,a,1,3,16,social,D,F,B,Sad boy.
+664c4e829445321c23a8de52,0,a,2,1,0,social,F,C,A,Italian.
+664c4e829445321c23a8de52,0,a,3,1,1,social,C,H,B,Innocent.
+664c4e829445321c23a8de52,0,a,4,3,0,refer,H,J,C,Diamond head with fully straight left back.
+664c4e829445321c23a8de52,0,a,5,3,1,social,J,A,A,thriller.
+664c4e829445321c23a8de52,0,a,6,2,8,social,A,E,B,crazy head sitting.
+664c4e829445321c23a8de52,0,a,7,2,1,refer,E,I,C,Ice skater.
+664c4e829445321c23a8de52,0,a,8,1,16,refer,I,B,A,Theres two dancers but the one thats kneeling down.
+664c4e829445321c23a8de52,0,a,9,3,4,social,B,G,B,Two dancers but ones leg is drawn out. Yoga
+664c4e829445321c23a8de52,0,a,10,2,0,social,G,C,A,Italian
+664c4e829445321c23a8de52,0,a,11,3,2,refer,C,L,C,Kneeling giving to the right but SQUATTING.
+664c4e829445321c23a8de52,0,a,12,1,2,social,L,K,C,kneeling to the right but extra kick on left.
+664c4e829445321c23a8de52,0,a,13,4,0,refer,K,C,A,italian
+664c4e829445321c23a8de52,0,a,14,0,4,refer,C,I,C,ice skater.
+664c4e829445321c23a8de52,0,a,15,3,8,refer,I,C,A,ghost
+664c4e829445321c23a8de52,0,a,16,3,16,refer,C,A,A,"thriller, beast walking left with flag on back."
+664c4e829445321c23a8de52,0,a,17,2,2,refer,A,C,A,"ghost, italian."
+664c4e829445321c23a8de52,0,a,18,1,0,refer,C,D,A,priest giving left.
+664c4e829445321c23a8de52,0,a,19,2,2,social,D,H,B,innocent
+664c4e829445321c23a8de52,0,a,20,1,8,social,H,F,B,sad boy
+664c4e829445321c23a8de52,0,a,21,2,4,social,F,C,A,italian
+664c4e829445321c23a8de52,0,a,22,4,16,refer,C,E,B,scissor hat sitting down.
+664c4e829445321c23a8de52,0,a,23,0,8,refer,E,C,A,ghost
+664c4e829445321c23a8de52,0,a,24,0,16,refer,C,I,C,ice skater
+664c4e829445321c23a8de52,0,a,25,2,4,refer,I,E,B,scissor hat sitting down.
+664c4e829445321c23a8de52,0,a,26,4,8,social,E,H,B,innocent
+664c4e829445321c23a8de52,0,a,27,4,8,refer,H,C,A,"Italian, ghost"
+664c4e829445321c23a8de52,0,a,28,0,1,refer,C,I,C,ice skater
+664c4e829445321c23a8de52,0,a,29,1,4,refer,I,F,B,sad boy. sitting facing left.
+664c4e829445321c23a8de52,0,a,30,2,16,social,F,D,A,priest
+664c4e829445321c23a8de52,0,a,31,3,0,social,D,F,B,sad boy
+664c4e829445321c23a8de52,0,a,32,4,4,social,F,H,B,innocent
+664c4e829445321c23a8de52,0,a,33,2,0,refer,H,C,A,italian
+664c4e829445321c23a8de52,0,a,34,4,4,refer,C,I,C,ice skater
+664c4e829445321c23a8de52,0,a,35,1,1,refer,I,D,A,"priest, monk giving left."
+664c4e829445321c23a8de52,0,a,36,4,1,social,D,C,A,italian
+664c4e829445321c23a8de52,0,a,37,2,8,refer,C,A,A,thriller beast walking left flag on back
+664c4e829445321c23a8de52,0,a,38,4,0,social,A,H,B,innocent
+664c4e829445321c23a8de52,0,a,39,2,16,refer,H,F,B,"sad boy, monk sitting down facing left."
+664c4e829445321c23a8de52,0,a,40,3,2,social,F,D,A,priest
+664c4e829445321c23a8de52,0,a,41,3,4,refer,D,C,A,"italian, ghost"
+664c4e829445321c23a8de52,0,a,42,3,8,social,C,D,A,priest
+664c4e829445321c23a8de52,0,a,43,4,1,refer,D,E,B,scissor head sitting facing right.
+664c4e829445321c23a8de52,0,a,44,1,16,social,E,F,B,sad boy
+664c4e829445321c23a8de52,0,a,45,4,16,social,F,D,A,"priest, facing left giving."
+664c4e829445321c23a8de52,0,a,46,1,2,refer,D,C,A,"italian, ghost"
+664c4e829445321c23a8de52,0,a,47,1,4,social,C,F,B,"sad boy, sitting facing left"
+664c4e829445321c23a8de52,0,a,48,1,8,refer,F,I,C,ice skater
+664c4e829445321c23a8de52,0,a,49,4,2,social,I,C,A,"italian, ghost"
+664c4e829445321c23a8de52,0,a,50,2,1,social,C,D,A,"priest, giving left"
+664c4e829445321c23a8de52,0,a,51,0,2,refer,D,J,C,"triangle head, full straight line left."
+664c4e829445321c23a8de52,0,a,52,3,1,refer,J,C,A,"italian, ghost."
+664055c57b165c38262a8803,0,a,0,1,16,refer,,H,B,"person with no arms and no legs, kind of like a bean bag, with 1 square head, body facing right"
+664055c57b165c38262a8803,0,a,1,2,1,refer,H,D,A,"priest like figure, arms out to left"
+664055c57b165c38262a8803,0,a,2,4,1,social,D,C,A,"person who looks like theyre flying, has no legs, 2 arms up"
+664055c57b165c38262a8803,0,a,3,3,2,refer,C,L,C,"person looking right, pointy arm arm, looks like offering something, flat legs, there are 2 version, a female and male one, this one is male/buffer"
+664055c57b165c38262a8803,0,a,4,4,8,social,L,K,C,"person looking right, pointy arm arm, looks like offering something, flat legs, there are 2 version, a female and male one, this one is female/slimmer"
+664055c57b165c38262a8803,0,a,5,1,16,social,K,J,C,"very cubey person, right arm point outwards, 1 little stub for leg"
+664055c57b165c38262a8803,0,a,6,3,1,social,J,I,C,"this person is facing left, has 1 leg out pointing to the right, standing on 1 leg, 2 spikes coming out out body that are facing left"
+664055c57b165c38262a8803,0,a,7,3,4,social,I,E,B,"head looks like it has bunny ears, slumped against a wall with back straight, legs pointing to the right"
+664055c57b165c38262a8803,0,a,8,3,0,refer,E,A,A,"this one has a head facing right, 2 legs both pointing left but one is on the ground and the other is in the air, kind of looksl ike they have w ing on their back"
+664055c57b165c38262a8803,0,a,9,2,1,social,A,F,B,"this is a bigger person facing to the left, back is flat against the right wall, 1 leg facing left,"
+664055c57b165c38262a8803,0,a,10,3,8,refer,F,B,A,"this is more woman shape, one arm going right, one arm going left, she is kneeling down with only 1 foot facing the left"
+664055c57b165c38262a8803,0,a,11,2,4,refer,B,G,B,"this person has an odd posture, legs completely flat on ground, 2 arms facing to the right"
+664055c57b165c38262a8803,0,a,12,4,8,refer,G,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,13,1,0,refer,F,E,B,"person with bunny ears, back is flat against left wall, leg facing right"
+664055c57b165c38262a8803,0,a,14,2,0,refer,E,C,A,person who looks like they are flapping their wings
+664055c57b165c38262a8803,0,a,15,4,4,refer,C,E,B,"person with bunny ears, back against left wall, a very triangle shape, legs facing towards right"
+664055c57b165c38262a8803,0,a,16,0,2,refer,E,D,A,a priest with a book facing to the left
+664055c57b165c38262a8803,0,a,17,1,4,refer,D,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,18,2,16,refer,F,C,A,person who looks like they are flapping their wings
+664055c57b165c38262a8803,0,a,19,3,16,refer,C,E,B,"person with bunny ears, back against left wall, a very triangle shape, legs facing towards right"
+664055c57b165c38262a8803,0,a,20,1,8,refer,E,H,B,"person who looks like a potato sack, no legs, no arms, just a head and a body, the are looking right"
+664055c57b165c38262a8803,0,a,21,4,0,social,H,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,22,2,16,social,F,C,A,person who looks like they are flapping their wings
+664055c57b165c38262a8803,0,a,23,0,16,refer,C,E,B,"person with bunny ears, back against left wall, a very triangle shape, legs facing towards right"
+664055c57b165c38262a8803,0,a,24,3,0,social,E,D,A,a priest with a book facing to the left
+664055c57b165c38262a8803,0,a,25,3,16,social,D,H,B,"person who looks like a potato sack, no legs, no arms, just a head and a body, the are looking right"
+664055c57b165c38262a8803,0,a,26,4,2,refer,H,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,27,2,2,refer,F,C,A,person who looks like they are flapping their wings
+664055c57b165c38262a8803,0,a,28,2,0,social,C,E,B,"person with bunny ears, back against left wall, a very triangle shape, legs facing towards right"
+664055c57b165c38262a8803,0,a,29,3,1,refer,E,D,A,a priest with a book facing to the left
+664055c57b165c38262a8803,0,a,30,1,4,social,D,H,B,"person who looks like a potato sack, no legs, no arms, just a head and a body, the are looking right"
+664055c57b165c38262a8803,0,a,31,4,2,social,H,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,32,0,8,refer,F,C,A,person who looks like they are flapping their wings
+664055c57b165c38262a8803,0,a,33,1,8,social,C,E,B,"person with bunny ears, back against left wall, a very triangle shape, legs facing towards right"
+664055c57b165c38262a8803,0,a,34,3,4,refer,E,D,A,a priest with a book facing to the left
+664055c57b165c38262a8803,0,a,35,3,2,social,D,H,B,"person who looks like a potato sack, no legs, no arms, just a head and a body, the are looking right"
+664055c57b165c38262a8803,0,a,36,4,4,social,H,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,37,4,16,social,F,C,A,person who looks like they are flapping their wings
+664055c57b165c38262a8803,0,a,38,4,1,refer,C,E,B,"person with bunny ears, back against left wall, a very triangle shape, legs facing towards right"
+664055c57b165c38262a8803,0,a,39,1,2,refer,E,D,A,a priest with a book facing to the left
+664055c57b165c38262a8803,0,a,40,0,1,refer,D,H,B,"person who looks like a potato sack, no legs, no arms, just a head and a body, the are looking right"
+664055c57b165c38262a8803,0,a,41,4,16,refer,H,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,42,2,4,social,F,C,A,person who looks like they are flapping their wings
+664055c57b165c38262a8803,0,a,43,1,1,refer,C,E,B,"person with bunny ears, back against left wall, a very triangle shape, legs facing towards right"
+664055c57b165c38262a8803,0,a,44,2,8,social,E,D,A,a priest with a book facing to the left
+664055c57b165c38262a8803,0,a,45,2,8,refer,D,H,B,"person who looks like a potato sack, no legs, no arms, just a head and a body, the are looking right"
+664055c57b165c38262a8803,0,a,46,1,1,social,H,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,47,4,0,refer,F,C,A,person who looks like they are flapping their wings
+664055c57b165c38262a8803,0,a,48,1,2,social,C,E,B,"person with bunny ears, back against left wall, a very triangle shape, legs facing towards right"
+664055c57b165c38262a8803,0,a,49,2,2,social,E,D,A,a priest with a book facing to the left
+664055c57b165c38262a8803,0,a,50,1,0,social,D,H,B,"person who looks like a potato sack, no legs, no arms, just a head and a body, the are looking right"
+664055c57b165c38262a8803,0,a,51,3,8,social,H,F,B,"man with flat back against the right wall, 1 leg facing left, a bit of a fatter man"
+664055c57b165c38262a8803,0,a,52,0,4,refer,F,C,A,person who looks like they are flapping their wings
+671fca7287fb225453006af0,0,a,0,2,4,refer,,A,A,matching guy
+671fca7287fb225453006af0,0,a,1,3,1,social,A,C,A,italian
+671fca7287fb225453006af0,0,a,2,4,8,social,C,I,C,yoga pose
+671fca7287fb225453006af0,0,a,3,0,8,refer,I,L,C,squatting guy
+671fca7287fb225453006af0,0,a,4,1,2,social,L,G,B,proposing guy
+671fca7287fb225453006af0,0,a,5,1,16,refer,G,C,A,flying ghost
+671fca7287fb225453006af0,0,a,6,3,8,social,C,D,A,priest
+671fca7287fb225453006af0,0,a,7,4,4,social,D,E,B,crazy hat guy
+671fca7287fb225453006af0,0,a,8,1,0,social,E,H,B,the innocent guy
+671fca7287fb225453006af0,0,a,9,0,1,refer,H,J,C,huge cube guy
+671fca7287fb225453006af0,0,a,10,4,0,refer,J,F,B,the sad guy
+671fca7287fb225453006af0,0,a,11,2,8,refer,F,I,C,yoga pose
+671fca7287fb225453006af0,0,a,12,3,4,social,I,H,B,no arms guy
+671fca7287fb225453006af0,0,a,13,3,1,refer,H,B,A,mouse head
+671fca7287fb225453006af0,0,a,14,4,8,refer,B,D,A,priest
+671fca7287fb225453006af0,0,a,15,2,1,refer,D,H,B,the monk guy
+671fca7287fb225453006af0,0,a,16,3,0,refer,H,B,A,mouse head
+671fca7287fb225453006af0,0,a,17,4,16,refer,B,E,B,crazy hat
+671fca7287fb225453006af0,0,a,18,1,0,refer,E,A,A,thriller
+671fca7287fb225453006af0,0,a,19,2,2,refer,A,F,B,the sad one
+671fca7287fb225453006af0,0,a,20,3,16,social,F,J,C,large cube
+671fca7287fb225453006af0,0,a,21,1,8,refer,J,A,A,thriller
+671fca7287fb225453006af0,0,a,22,3,0,social,A,C,A,italian
+671fca7287fb225453006af0,0,a,23,2,0,social,C,F,B,the sad one
+671fca7287fb225453006af0,0,a,24,4,1,social,F,D,A,priest
+671fca7287fb225453006af0,0,a,25,3,16,refer,D,K,C,duck
+671fca7287fb225453006af0,0,a,26,1,8,social,K,E,B,bunny ears
+671fca7287fb225453006af0,0,a,27,4,2,social,E,C,A,italian
+671fca7287fb225453006af0,0,a,28,3,2,social,C,H,B,the innocent guy
+671fca7287fb225453006af0,0,a,29,2,1,social,H,A,A,thriller
+671fca7287fb225453006af0,0,a,30,1,4,social,A,I,C,bird pose
+671fca7287fb225453006af0,0,a,31,2,8,social,I,L,C,squatting one
+671fca7287fb225453006af0,0,a,32,1,16,social,L,J,C,large cube
+671fca7287fb225453006af0,0,a,33,3,8,refer,J,D,A,priest
+671fca7287fb225453006af0,0,a,34,4,2,refer,D,E,B,the crazy hat
+671fca7287fb225453006af0,0,a,35,2,16,social,E,K,C,duck
+671fca7287fb225453006af0,0,a,36,1,1,refer,K,B,A,mouse head or hugger
+671fca7287fb225453006af0,0,a,37,2,2,social,B,C,A,italian
+671fca7287fb225453006af0,0,a,38,4,1,refer,C,I,C,yoga pose
+671fca7287fb225453006af0,0,a,39,2,4,social,I,J,C,large cube
+671fca7287fb225453006af0,0,a,40,1,2,refer,J,H,B,blob
+671fca7287fb225453006af0,0,a,41,4,4,refer,H,A,A,thriller
+671fca7287fb225453006af0,0,a,42,4,16,social,A,L,C,squatter
+671fca7287fb225453006af0,0,a,43,0,4,refer,L,F,B,the sad one
+671fca7287fb225453006af0,0,a,44,2,16,refer,F,E,B,the crazy hat
+671fca7287fb225453006af0,0,a,45,1,4,refer,E,K,C,duck
+671fca7287fb225453006af0,0,a,46,3,2,refer,K,B,A,mouse head
+671fca7287fb225453006af0,0,a,47,0,16,refer,B,H,B,the innocent guy
+671fca7287fb225453006af0,0,a,48,3,4,refer,H,C,A,italian
+671fca7287fb225453006af0,0,a,49,4,0,social,C,G,B,horse
+671fca7287fb225453006af0,0,a,50,1,1,social,G,D,A,priest
+671fca7287fb225453006af0,0,a,51,0,2,refer,D,K,C,duck
+671fca7287fb225453006af0,0,a,52,2,0,refer,K,F,B,the sad one
+663b52235d299050aeb29aca,0,a,0,0,1,refer,,A,A,Thriller Dance
+663b52235d299050aeb29aca,0,a,1,1,1,refer,A,B,A,Look like mouse
+663b52235d299050aeb29aca,0,a,2,2,16,refer,B,C,A,Italian
+663b52235d299050aeb29aca,0,a,3,4,8,social,C,D,A,Priest
+663b52235d299050aeb29aca,0,a,4,2,8,refer,D,E,B,funny hat one
+663b52235d299050aeb29aca,0,a,5,2,4,social,E,F,B,sad boy
+663b52235d299050aeb29aca,0,a,6,3,16,refer,F,G,B,yoga pose facing right
+663b52235d299050aeb29aca,0,a,7,3,4,refer,G,H,B,"No arm, No leg"
+663b52235d299050aeb29aca,0,a,8,1,8,refer,H,I,C,yoga guy
+663b52235d299050aeb29aca,0,a,9,4,16,social,I,D,A,priest
+663b52235d299050aeb29aca,0,a,10,3,8,social,D,A,A,Thriller dance
+663b52235d299050aeb29aca,0,a,11,4,8,refer,A,E,B,Funny hat
+663b52235d299050aeb29aca,0,a,12,3,4,social,E,G,B,yoga pose
+663b52235d299050aeb29aca,0,a,13,0,16,refer,G,H,B,"Has no arm, no leg"
+663b52235d299050aeb29aca,0,a,14,1,0,refer,H,D,A,priest
+663b52235d299050aeb29aca,0,a,15,1,4,refer,D,E,B,funny hat
+663b52235d299050aeb29aca,0,a,16,1,0,social,E,F,B,sad boy
+663b52235d299050aeb29aca,0,a,17,4,2,social,F,H,B,"no arm, no leg"
+663b52235d299050aeb29aca,0,a,18,4,4,refer,H,G,B,yoga pose
+663b52235d299050aeb29aca,0,a,19,4,0,social,G,A,A,thriller dance
+663b52235d299050aeb29aca,0,a,20,3,2,social,A,F,B,sad boy
+663b52235d299050aeb29aca,0,a,21,4,2,refer,F,D,A,priest
+663b52235d299050aeb29aca,0,a,22,1,4,social,D,H,B,"no arm, no leg"
+663b52235d299050aeb29aca,0,a,23,2,2,social,H,A,A,Thriller dance
+663b52235d299050aeb29aca,0,a,24,0,4,refer,A,C,A,both hands up in the air
+663b52235d299050aeb29aca,0,a,25,2,4,refer,C,F,B,sad boy
+663b52235d299050aeb29aca,0,a,26,4,16,refer,F,H,B,"no arm, no leg"
+663b52235d299050aeb29aca,0,a,27,3,0,social,H,F,B,sad boy
+663b52235d299050aeb29aca,0,a,28,2,16,social,F,C,A,italian
+663b52235d299050aeb29aca,0,a,29,2,1,refer,C,F,B,sad boy
+663b52235d299050aeb29aca,0,a,30,3,0,refer,F,A,A,thriller dance
+663b52235d299050aeb29aca,0,a,31,1,2,social,A,D,A,priest
+663b52235d299050aeb29aca,0,a,32,0,8,refer,D,G,B,yoga pose
+663b52235d299050aeb29aca,0,a,33,1,16,social,G,H,B,"has no arm, no leg"
+663b52235d299050aeb29aca,0,a,34,3,16,social,H,F,B,sad boy
+663b52235d299050aeb29aca,0,a,35,1,8,social,F,A,A,thriller dance
+663b52235d299050aeb29aca,0,a,36,1,1,social,A,B,A,mouse head
+663b52235d299050aeb29aca,0,a,37,3,2,refer,B,G,B,yoga pose
+663b52235d299050aeb29aca,0,a,38,2,0,refer,G,D,A,priest
+663b52235d299050aeb29aca,0,a,39,0,2,refer,D,H,B,"has no leg, no arm"
+663b52235d299050aeb29aca,0,a,40,4,1,refer,H,A,A,thriller dance
+663b52235d299050aeb29aca,0,a,41,2,1,social,A,F,B,sad boy
+663b52235d299050aeb29aca,0,a,42,4,0,refer,F,G,B,yoga pose
+663b52235d299050aeb29aca,0,a,43,3,1,social,G,D,A,priest
+663b52235d299050aeb29aca,0,a,44,2,8,social,D,A,A,thriller dance
+663b52235d299050aeb29aca,0,a,45,1,2,refer,A,F,B,sad boy
+663b52235d299050aeb29aca,0,a,46,4,1,social,F,C,A,italian
+663b52235d299050aeb29aca,0,a,47,1,16,refer,C,H,B,"no leg, no arm"
+663b52235d299050aeb29aca,0,a,48,2,2,refer,H,F,B,sad boy
+663b52235d299050aeb29aca,0,a,49,3,1,refer,F,D,A,priest
+663b52235d299050aeb29aca,0,a,50,2,0,social,D,G,B,yoga pose
+663b52235d299050aeb29aca,0,a,51,3,8,refer,G,D,A,The priest facing left
+663b52235d299050aeb29aca,0,a,52,4,4,social,D,F,B,sad boy
+607cbf385d3202721e3f719f,0,a,0,1,16,refer,,F,B,sad boy sitting facing left
+607cbf385d3202721e3f719f,0,a,1,4,16,refer,F,H,B,the innocent man with no arms or legs
+607cbf385d3202721e3f719f,0,a,2,4,0,refer,H,A,A,thriller
+607cbf385d3202721e3f719f,0,a,3,3,1,social,A,E,B,crazy hat person with right triangle for a body
+607cbf385d3202721e3f719f,0,a,4,4,1,refer,E,D,A,the priest standing facing left
+607cbf385d3202721e3f719f,0,a,5,0,2,refer,D,L,C,squatting person facing right
+607cbf385d3202721e3f719f,0,a,6,4,1,social,L,I,C,person standing on one leg facing left
+607cbf385d3202721e3f719f,0,a,7,2,8,refer,I,J,C,one with large square base on left side and  a diamond on top
+607cbf385d3202721e3f719f,0,a,8,1,0,social,J,B,A,the mouse
+607cbf385d3202721e3f719f,0,a,9,1,4,social,B,C,A,an Italian with his arms out flying through the air
+607cbf385d3202721e3f719f,0,a,10,4,8,social,C,G,B,a horse with a flat base and a square falling off to the left
+607cbf385d3202721e3f719f,0,a,11,2,4,social,G,K,C,duck or dog facing right with a diamond head and a diamond neck
+607cbf385d3202721e3f719f,0,a,12,3,2,refer,K,A,A,person with two feet facing left doing thriller dance
+607cbf385d3202721e3f719f,0,a,13,2,0,refer,A,E,B,crazy hat man
+607cbf385d3202721e3f719f,0,a,14,4,2,social,E,H,B,the innocent blob who has not arms or legs
+607cbf385d3202721e3f719f,0,a,15,2,1,refer,H,D,A,the priest standing facing left
+607cbf385d3202721e3f719f,0,a,16,2,0,social,D,B,A,the mouse
+607cbf385d3202721e3f719f,0,a,17,3,4,refer,B,L,C,crouching man facing right
+607cbf385d3202721e3f719f,0,a,18,2,1,social,L,J,C,large square on left side with a diamond on top
+607cbf385d3202721e3f719f,0,a,19,4,4,social,J,G,B,a horse with a flat body and a square falling to the left
+607cbf385d3202721e3f719f,0,a,20,3,8,social,G,I,C,man standing on one leg facing left with other leg sticking out to the right
+607cbf385d3202721e3f719f,0,a,21,1,1,social,I,E,B,person with triangle shaped body sitting facing right with funny hat
+607cbf385d3202721e3f719f,0,a,22,1,2,refer,E,B,A,person with triangle wings kneeling and facing right
+607cbf385d3202721e3f719f,0,a,23,0,16,refer,B,C,A,person with his arms out flying through the air
+607cbf385d3202721e3f719f,0,a,24,3,4,social,C,F,B,sad boy
+607cbf385d3202721e3f719f,0,a,25,1,1,refer,F,H,B,innocent man with no visible arms or legs
+607cbf385d3202721e3f719f,0,a,26,1,8,refer,H,C,A,italian with his arms out flying through the air
+607cbf385d3202721e3f719f,0,a,27,3,0,social,C,A,A,thriller
+607cbf385d3202721e3f719f,0,a,28,3,16,refer,A,L,C,man squatting to the right
+607cbf385d3202721e3f719f,0,a,29,2,16,refer,L,G,B,a horse that is X-shaped with flat body
+607cbf385d3202721e3f719f,0,a,30,0,4,refer,G,K,C,person similar to squatting man but looks like it is riding exercise bike
+607cbf385d3202721e3f719f,0,a,31,3,8,refer,K,I,C,person standing on one foot facing left with hands out to left
+607cbf385d3202721e3f719f,0,a,32,3,0,refer,I,D,A,the priest
+607cbf385d3202721e3f719f,0,a,33,4,2,refer,D,E,B,funny hat man with triangle body sitting facing right
+607cbf385d3202721e3f719f,0,a,34,1,8,social,E,C,A,the italian
+607cbf385d3202721e3f719f,0,a,35,2,8,social,C,F,B,sad boy
+607cbf385d3202721e3f719f,0,a,36,1,0,refer,F,A,A,thriller
+607cbf385d3202721e3f719f,0,a,37,4,4,refer,A,J,C,large rectangle on left side with diamond on top
+607cbf385d3202721e3f719f,0,a,38,1,4,refer,J,B,A,a duck or kneeling angel
+607cbf385d3202721e3f719f,0,a,39,1,16,social,B,H,B,the innocent
+607cbf385d3202721e3f719f,0,a,40,2,16,social,H,G,B,the horse
+607cbf385d3202721e3f719f,0,a,41,2,2,social,G,E,B,crazy hat
+607cbf385d3202721e3f719f,0,a,42,1,2,social,E,A,A,thriller
+607cbf385d3202721e3f719f,0,a,43,0,1,refer,A,B,A,kneeling angle with triangle wings facing right
+607cbf385d3202721e3f719f,0,a,44,2,4,refer,B,I,C,one foot yoga pose
+607cbf385d3202721e3f719f,0,a,45,4,8,refer,I,F,B,sad boy sitting facing left with knees up
+607cbf385d3202721e3f719f,0,a,46,2,2,refer,F,A,A,dancing man with two feet facing left
+607cbf385d3202721e3f719f,0,a,47,4,16,social,A,C,A,the italian
+607cbf385d3202721e3f719f,0,a,48,3,16,social,C,D,A,the priest
+607cbf385d3202721e3f719f,0,a,49,4,0,social,D,H,B,the innocent
+607cbf385d3202721e3f719f,0,a,50,3,2,social,H,F,B,sad boy
+607cbf385d3202721e3f719f,0,a,51,0,8,refer,F,L,C,crouching man facing right
+607cbf385d3202721e3f719f,0,a,52,3,1,refer,L,J,C,rectangle with diamond on top
+653703627539f3a8b2ed4af3,0,a,0,1,0,refer,,D,A,Priest facing left
+653703627539f3a8b2ed4af3,0,a,1,1,8,social,D,G,B,Horse
+653703627539f3a8b2ed4af3,0,a,2,2,16,refer,G,F,B,sad boy facing left
+653703627539f3a8b2ed4af3,0,a,3,2,0,social,F,C,A,italian with hands up
+653703627539f3a8b2ed4af3,0,a,4,3,16,social,C,E,B,funny hat on a hill facing right
+653703627539f3a8b2ed4af3,0,a,5,4,4,social,E,A,A,doing a thriller dance with feet facing left
+653703627539f3a8b2ed4af3,0,a,6,4,0,refer,A,B,A,mouse
+653703627539f3a8b2ed4af3,0,a,7,4,8,social,B,H,B,kneeling with no arms or legs
+653703627539f3a8b2ed4af3,0,a,8,2,2,refer,H,D,A,left facing priest
+653703627539f3a8b2ed4af3,0,a,9,0,8,refer,D,J,C,diamond head on flat top body
+653703627539f3a8b2ed4af3,0,a,10,4,16,social,J,C,A,italian with diamond head and arms up
+653703627539f3a8b2ed4af3,0,a,11,1,4,social,C,F,B,sad boy facing left with arms under legs
+653703627539f3a8b2ed4af3,0,a,12,4,16,refer,F,D,A,priest facing left with diamond head
+653703627539f3a8b2ed4af3,0,a,13,3,2,refer,D,G,B,horse rearing back with triangle feet facing right
+653703627539f3a8b2ed4af3,0,a,14,3,16,refer,G,E,B,triangle bunny ears with square head facing right
+653703627539f3a8b2ed4af3,0,a,15,1,0,social,E,I,C,"striking a pose, triangle foot pointing right"
+653703627539f3a8b2ed4af3,0,a,16,2,8,refer,I,H,B,kneeling with diamond head and no arms or legs
+653703627539f3a8b2ed4af3,0,a,17,2,4,social,H,D,A,priest facing left with diamond head
+653703627539f3a8b2ed4af3,0,a,18,2,8,social,D,B,A,mouse with one square and one triangle ear
+653703627539f3a8b2ed4af3,0,a,19,1,2,social,B,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,20,0,16,refer,F,B,A,mouse with one square and one triangle ear facing left
+653703627539f3a8b2ed4af3,0,a,21,3,0,refer,B,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,22,4,4,refer,F,G,B,horse rearing back with triangle legs facing right
+653703627539f3a8b2ed4af3,0,a,23,4,8,refer,G,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,24,3,8,refer,F,C,A,italian with square head leaning left with arms in air
+653703627539f3a8b2ed4af3,0,a,25,2,16,social,C,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,26,2,1,refer,F,B,A,mouse with one square and one triangle ear
+653703627539f3a8b2ed4af3,0,a,27,2,0,refer,B,H,B,the innocent
+653703627539f3a8b2ed4af3,0,a,28,1,2,refer,H,D,A,priest with diamond head facing left
+653703627539f3a8b2ed4af3,0,a,29,2,1,social,D,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,30,1,16,refer,F,H,B,diamond head kneeling with no arms or legs
+653703627539f3a8b2ed4af3,0,a,31,1,4,refer,H,C,A,italian with arms in the air
+653703627539f3a8b2ed4af3,0,a,32,1,16,social,C,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,33,3,0,social,F,D,A,the priest
+653703627539f3a8b2ed4af3,0,a,34,1,8,refer,D,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,35,4,1,refer,F,B,A,mouse with one square and one triangle ear
+653703627539f3a8b2ed4af3,0,a,36,4,2,refer,B,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,37,1,1,social,F,G,B,"horse rearing back, triangle legs facing right"
+653703627539f3a8b2ed4af3,0,a,38,0,4,refer,G,F,B,sad boy facing left with arms under knees and square head
+653703627539f3a8b2ed4af3,0,a,39,3,1,social,F,D,A,the priest facing left with a diamond head and in a robe
+653703627539f3a8b2ed4af3,0,a,40,3,1,refer,D,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,41,4,0,social,F,H,B,the innocent
+653703627539f3a8b2ed4af3,0,a,42,0,2,refer,H,B,A,mouse with square ear and triangle ear
+653703627539f3a8b2ed4af3,0,a,43,3,4,refer,B,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,44,3,4,social,F,L,C,diamond head kneeling with feet behind pointing left and arm pointing right
+653703627539f3a8b2ed4af3,0,a,45,0,1,refer,L,B,A,mouse facing left with square and triangle ear
+653703627539f3a8b2ed4af3,0,a,46,3,2,social,B,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,47,2,2,social,F,H,B,innocent man praying with no visible arms or legs
+653703627539f3a8b2ed4af3,0,a,48,1,1,refer,H,C,A,italian yelling with arms raised in air
+653703627539f3a8b2ed4af3,0,a,49,4,1,social,C,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,50,4,2,social,F,H,B,the innocent kneeling with no arms or legs visible
+653703627539f3a8b2ed4af3,0,a,51,3,8,social,H,F,B,sad boy facing left with arms under knees
+653703627539f3a8b2ed4af3,0,a,52,2,4,refer,F,C,A,italian yelling with arms raised in air
+66e9b7218ddd7ac02496d379,0,a,0,4,1,social,,A,A,1
+66e9b7218ddd7ac02496d379,0,a,1,1,0,refer,A,B,A,CHITTING
+66e9b7218ddd7ac02496d379,0,a,2,3,1,refer,B,C,A,FLYING
+66e9b7218ddd7ac02496d379,0,a,3,4,2,refer,C,D,A,STANDING
+66e9b7218ddd7ac02496d379,0,a,4,2,8,refer,D,F,B,CHITTING
+66e9b7218ddd7ac02496d379,0,a,5,3,0,social,F,G,B,WORKING
+66e9b7218ddd7ac02496d379,0,a,6,1,16,refer,G,H,B,MEDITING
+66e9b7218ddd7ac02496d379,0,a,7,2,1,refer,H,I,C,EXERCISE
+66e9b7218ddd7ac02496d379,0,a,8,3,2,refer,I,J,C,STADING
+66e9b7218ddd7ac02496d379,0,a,9,1,8,social,J,K,C,WORKING
+66e9b7218ddd7ac02496d379,0,a,10,0,8,refer,K,L,C,STANDING
+66e9b7218ddd7ac02496d379,0,a,11,4,2,social,L,A,A,STANDING
+66e9b7218ddd7ac02496d379,0,a,12,2,4,refer,A,B,A,CHITTING
+66e9b7218ddd7ac02496d379,0,a,13,1,0,social,B,C,A,FLYING
+66e9b7218ddd7ac02496d379,0,a,14,2,4,social,C,D,A,STANDING
+66e9b7218ddd7ac02496d379,0,a,15,0,1,refer,D,E,B,STANDING
+66e9b7218ddd7ac02496d379,0,a,16,3,0,refer,E,F,B,CHITTING
+66e9b7218ddd7ac02496d379,0,a,17,1,1,refer,F,G,B,EXERCISE
+66e9b7218ddd7ac02496d379,0,a,18,4,0,refer,G,H,B,MEDITING
+66e9b7218ddd7ac02496d379,0,a,19,2,16,refer,H,I,C,STANDING
+66e9b7218ddd7ac02496d379,0,a,20,4,8,social,I,J,C,CHITTING
+66e9b7218ddd7ac02496d379,0,a,21,2,0,refer,J,K,C,WORKING
+66e9b7218ddd7ac02496d379,0,a,22,1,16,social,K,L,C,READING
+66e9b7218ddd7ac02496d379,0,a,23,4,4,refer,L,A,A,STANDING
+66e9b7218ddd7ac02496d379,0,a,24,3,1,social,A,B,A,WORKING
+66e9b7218ddd7ac02496d379,0,a,25,1,4,refer,B,C,A,FLYING
+66e9b7218ddd7ac02496d379,0,a,26,4,1,refer,C,D,A,READING
+66e9b7218ddd7ac02496d379,0,a,27,1,1,social,D,E,B,WORKING
+66e9b7218ddd7ac02496d379,0,a,28,3,16,social,E,F,B,CHITTING
+66e9b7218ddd7ac02496d379,0,a,29,4,0,social,F,G,B,EXERCISE
+66e9b7218ddd7ac02496d379,0,a,30,2,16,social,G,H,B,CHITTING
+66e9b7218ddd7ac02496d379,0,a,31,0,2,refer,H,I,C,WORKING
+66e9b7218ddd7ac02496d379,0,a,32,4,16,social,I,J,C,CHITTING
+66e9b7218ddd7ac02496d379,0,a,33,1,2,refer,J,K,C,READING
+66e9b7218ddd7ac02496d379,0,a,34,0,4,refer,K,L,C,READING
+66e9b7218ddd7ac02496d379,0,a,35,2,2,social,L,A,A,STANDING
+66e9b7218ddd7ac02496d379,0,a,36,3,4,refer,A,B,A,LISTENING
+66e9b7218ddd7ac02496d379,0,a,37,2,8,social,B,C,A,FLYING
+66e9b7218ddd7ac02496d379,0,a,38,2,1,social,C,D,A,STANDING
+66e9b7218ddd7ac02496d379,0,a,39,3,8,refer,D,E,B,LISTENING
+66e9b7218ddd7ac02496d379,0,a,40,2,0,social,E,F,B,SHITTING
+66e9b7218ddd7ac02496d379,0,a,41,3,8,social,F,G,B,EXERCISE
+66e9b7218ddd7ac02496d379,0,a,42,1,4,social,G,H,B,MEDITATING
+66e9b7218ddd7ac02496d379,0,a,43,1,2,social,H,I,C,STANDING
+66e9b7218ddd7ac02496d379,0,a,44,3,16,refer,I,J,C,STANDING
+66e9b7218ddd7ac02496d379,0,a,45,2,2,refer,J,K,C,READING
+66e9b7218ddd7ac02496d379,0,a,46,1,8,refer,K,L,C,READING
+66e9b7218ddd7ac02496d379,0,a,47,3,2,social,L,A,A,STANDING
+66e9b7218ddd7ac02496d379,0,a,48,3,4,social,A,B,A,LISTENING
+66e9b7218ddd7ac02496d379,0,a,49,4,4,social,B,C,A,FLYING
+66e9b7218ddd7ac02496d379,0,a,50,0,16,refer,C,D,A,READING
+66e9b7218ddd7ac02496d379,0,a,51,4,8,refer,D,E,B,READING
+66e9b7218ddd7ac02496d379,0,a,52,4,16,refer,E,F,B,CHITTING
+6632a7976ac65354ad468c94,0,a,0,4,1,social,,I,C,"dancer, square head, looking left with a leg up"
+6632a7976ac65354ad468c94,0,a,1,0,8,refer,I,C,A,italian guy looking right
+6632a7976ac65354ad468c94,0,a,2,4,4,refer,C,D,A,priest
+6632a7976ac65354ad468c94,0,a,3,0,1,refer,D,B,A,"mouse looking left, with a bow on"
+6632a7976ac65354ad468c94,0,a,4,4,8,refer,B,L,C,"guy looking right, reading a book"
+6632a7976ac65354ad468c94,0,a,5,3,0,refer,L,A,A,"a horse, up looking left"
+6632a7976ac65354ad468c94,0,a,6,3,2,refer,A,E,B,"a guy who is sad, looking right"
+6632a7976ac65354ad468c94,0,a,7,4,4,social,E,F,B,a guy taking a nap looking left
+6632a7976ac65354ad468c94,0,a,8,2,16,social,F,G,B,"square head, looking right, one arm up one arm down"
+6632a7976ac65354ad468c94,0,a,9,3,16,refer,G,H,B,"someone praying, looking left not holding anything"
+6632a7976ac65354ad468c94,0,a,10,3,1,social,H,J,C,"square head, a blob body"
+6632a7976ac65354ad468c94,0,a,11,2,0,refer,J,K,C,"someone praying, looking red, feet are up"
+6632a7976ac65354ad468c94,0,a,12,0,16,refer,K,L,C,"praying, looking right, holding a book"
+6632a7976ac65354ad468c94,0,a,13,4,16,social,L,E,B,"sad person, funny hat"
+6632a7976ac65354ad468c94,0,a,14,3,8,social,E,C,A,someone falling back
+6632a7976ac65354ad468c94,0,a,15,2,0,social,C,A,A,"doing thriller dance, looking left"
+6632a7976ac65354ad468c94,0,a,16,3,2,social,A,B,A,a mouse
+6632a7976ac65354ad468c94,0,a,17,4,2,refer,B,D,A,"a priest, looking left"
+6632a7976ac65354ad468c94,0,a,18,1,2,refer,D,E,B,"a sad person, a funny hat"
+6632a7976ac65354ad468c94,0,a,19,3,4,social,E,F,B,"sad person, legs stretched out, facing left"
+6632a7976ac65354ad468c94,0,a,20,3,4,refer,F,G,B,a horse
+6632a7976ac65354ad468c94,0,a,21,1,16,refer,G,H,B,"praying, empty handed looking right"
+6632a7976ac65354ad468c94,0,a,22,2,1,refer,H,I,C,"ice skating, looking left"
+6632a7976ac65354ad468c94,0,a,23,4,16,refer,I,J,C,a blob with a square head
+6632a7976ac65354ad468c94,0,a,24,3,16,social,J,K,C,"praying, legs are up"
+6632a7976ac65354ad468c94,0,a,25,3,8,refer,K,L,C,praying holding a book
+6632a7976ac65354ad468c94,0,a,26,0,4,refer,L,K,C,"facing right, kicking feet"
+6632a7976ac65354ad468c94,0,a,27,2,8,refer,K,L,C,"praying, sitting and reading"
+6632a7976ac65354ad468c94,0,a,28,1,8,refer,L,K,C,kicking feet
+6632a7976ac65354ad468c94,0,a,29,4,8,social,K,J,C,"weird blob, square head"
+6632a7976ac65354ad468c94,0,a,30,2,16,refer,J,I,C,"ice skating, left"
+6632a7976ac65354ad468c94,0,a,31,4,2,social,I,H,B,"sitting or kneelng, looking right empty handed"
+6632a7976ac65354ad468c94,0,a,32,1,0,social,H,G,B,horse kicking
+6632a7976ac65354ad468c94,0,a,33,4,0,refer,G,F,B,"taking a nap, looking left"
+6632a7976ac65354ad468c94,0,a,34,2,4,social,F,E,B,"taking a nap,lookng right"
+6632a7976ac65354ad468c94,0,a,35,2,2,social,E,D,A,"priest, talking"
+6632a7976ac65354ad468c94,0,a,36,3,1,refer,D,C,A,someone screaming while falling
+6632a7976ac65354ad468c94,0,a,37,4,0,social,C,B,A,a girl mouse
+6632a7976ac65354ad468c94,0,a,38,1,8,social,B,A,A,"someone running away, looking left"
+6632a7976ac65354ad468c94,0,a,39,2,8,social,A,B,A,a mouse looking left
+6632a7976ac65354ad468c94,0,a,40,1,16,social,B,A,A,dancing or running
+6632a7976ac65354ad468c94,0,a,41,2,1,social,A,C,A,italian
+6632a7976ac65354ad468c94,0,a,42,1,1,social,C,D,A,a grad looking left
+6632a7976ac65354ad468c94,0,a,43,1,1,refer,D,E,B,"boy taking nap, looking right with a hat"
+6632a7976ac65354ad468c94,0,a,44,4,1,refer,E,F,B,"looking left, taking a nap"
+6632a7976ac65354ad468c94,0,a,45,3,0,social,F,G,B,"a horse, square head"
+6632a7976ac65354ad468c94,0,a,46,1,4,refer,G,H,B,"kneelng, looking right not doing anything"
+6632a7976ac65354ad468c94,0,a,47,1,0,refer,H,I,C,"skating, looking left"
+6632a7976ac65354ad468c94,0,a,48,1,2,social,I,J,C,"weird design, square"
+6632a7976ac65354ad468c94,0,a,49,2,4,refer,J,K,C,"kicking feet, praying"
+6632a7976ac65354ad468c94,0,a,50,2,2,refer,K,L,C,"sitting down, reading"
+6632a7976ac65354ad468c94,0,a,51,1,4,social,L,K,C,"folded legs, feet up, reading, looking right"
+6632a7976ac65354ad468c94,0,a,52,0,2,refer,K,L,C,sitting down reading
+67dcb6032b8d2b63d2c8ec04,0,a,0,1,4,social,,A,A,Windmill head with one leg lifted high
+67dcb6032b8d2b63d2c8ec04,0,a,1,2,0,social,A,E,B,Sitting monk with ears perked up
+67dcb6032b8d2b63d2c8ec04,0,a,2,2,16,refer,E,I,C,Standing firm with one leg up
+67dcb6032b8d2b63d2c8ec04,0,a,3,2,4,refer,I,F,B,Sad guy with head hung low
+67dcb6032b8d2b63d2c8ec04,0,a,4,4,4,refer,F,I,C,Running man with arms pumping
+67dcb6032b8d2b63d2c8ec04,0,a,5,3,16,social,I,C,A,Flying man
+67dcb6032b8d2b63d2c8ec04,0,a,6,4,0,social,C,D,A,Priest
+67dcb6032b8d2b63d2c8ec04,0,a,7,0,4,refer,D,G,B,Knug fu
+67dcb6032b8d2b63d2c8ec04,0,a,8,2,1,social,G,H,B,Knees bent
+67dcb6032b8d2b63d2c8ec04,0,a,9,3,0,social,H,K,C,Duck man
+67dcb6032b8d2b63d2c8ec04,0,a,10,3,2,refer,K,L,C,Squatter
+67dcb6032b8d2b63d2c8ec04,0,a,11,1,16,refer,L,J,C,Half square
+67dcb6032b8d2b63d2c8ec04,0,a,12,1,0,refer,J,A,A,elephant head
+67dcb6032b8d2b63d2c8ec04,0,a,13,0,8,refer,A,B,A,Strike a pose
+67dcb6032b8d2b63d2c8ec04,0,a,14,3,8,refer,B,C,A,Open arms
+67dcb6032b8d2b63d2c8ec04,0,a,15,4,4,social,C,D,A,Procession with arms forward
+67dcb6032b8d2b63d2c8ec04,0,a,16,3,8,social,D,E,B,Windmill cap
+67dcb6032b8d2b63d2c8ec04,0,a,17,3,4,social,E,F,B,Sit facing left
+67dcb6032b8d2b63d2c8ec04,0,a,18,0,16,refer,F,G,B,Dancing Kunfu
+67dcb6032b8d2b63d2c8ec04,0,a,19,3,4,refer,G,H,B,Innocence facing right
+67dcb6032b8d2b63d2c8ec04,0,a,20,3,2,social,H,I,C,"One leg up, arms to the left"
+67dcb6032b8d2b63d2c8ec04,0,a,21,0,1,refer,I,J,C,Right are strecth
+67dcb6032b8d2b63d2c8ec04,0,a,22,1,4,refer,J,K,C,Duck kneeling man
+67dcb6032b8d2b63d2c8ec04,0,a,23,1,8,social,K,L,C,Squatting to the right
+67dcb6032b8d2b63d2c8ec04,0,a,24,2,0,refer,L,A,A,Square horn
+67dcb6032b8d2b63d2c8ec04,0,a,25,4,8,refer,A,B,A,Triangle arms
+67dcb6032b8d2b63d2c8ec04,0,a,26,1,2,refer,B,C,A,Falling man
+67dcb6032b8d2b63d2c8ec04,0,a,27,0,2,refer,C,D,A,Praying to God
+67dcb6032b8d2b63d2c8ec04,0,a,28,3,16,refer,D,E,B,Crazy hat
+67dcb6032b8d2b63d2c8ec04,0,a,29,4,2,refer,E,F,B,"Sad guy, face down"
+67dcb6032b8d2b63d2c8ec04,0,a,30,4,16,social,F,G,B,hORSEE
+67dcb6032b8d2b63d2c8ec04,0,a,31,2,1,refer,G,H,B,No arms
+67dcb6032b8d2b63d2c8ec04,0,a,32,3,1,social,H,I,C,Triangle leg up 90 degrees
+67dcb6032b8d2b63d2c8ec04,0,a,33,2,2,social,I,J,C,Half square
+67dcb6032b8d2b63d2c8ec04,0,a,34,4,8,social,J,K,C,Duck right
+67dcb6032b8d2b63d2c8ec04,0,a,35,2,8,social,K,L,C,Outstretch squatter
+67dcb6032b8d2b63d2c8ec04,0,a,36,2,2,refer,L,A,A,Two shape head
+67dcb6032b8d2b63d2c8ec04,0,a,37,4,0,refer,A,B,A,Bent knee
+67dcb6032b8d2b63d2c8ec04,0,a,38,2,4,social,B,E,B,Folded legs
+67dcb6032b8d2b63d2c8ec04,0,a,39,2,16,social,E,I,C,Warrior pose
+67dcb6032b8d2b63d2c8ec04,0,a,40,2,8,refer,I,C,A,Arms raised
+67dcb6032b8d2b63d2c8ec04,0,a,41,1,2,social,C,H,B,Submissive figure
+67dcb6032b8d2b63d2c8ec04,0,a,42,4,16,refer,H,L,C,Meditating pose
+67dcb6032b8d2b63d2c8ec04,0,a,43,3,1,refer,L,I,C,Horizontal leg
+67dcb6032b8d2b63d2c8ec04,0,a,44,1,1,social,I,A,A,Sprinting figure with one leg forward
+67dcb6032b8d2b63d2c8ec04,0,a,45,1,1,refer,A,F,B,Sad guy with head hung low
+67dcb6032b8d2b63d2c8ec04,0,a,46,4,1,social,F,C,A,Acrobat in mid-air
+67dcb6032b8d2b63d2c8ec04,0,a,47,1,16,social,C,G,B,Yoga practitioner in a challenging pose
+67dcb6032b8d2b63d2c8ec04,0,a,48,1,0,social,G,J,C,Half straight man
+67dcb6032b8d2b63d2c8ec04,0,a,49,4,1,refer,J,G,B,Dancer
+67dcb6032b8d2b63d2c8ec04,0,a,50,3,0,refer,G,I,C,Kicking dancer
+67dcb6032b8d2b63d2c8ec04,0,a,51,4,2,social,I,F,B,Square looking down
+67dcb6032b8d2b63d2c8ec04,0,a,52,1,8,refer,F,E,B,Monk Meditating
+5fd7782dee03dc08d3f3f491,0,a,0,4,16,refer,,D,A,Looks like a priest with hands outstretched to the left
+5fd7782dee03dc08d3f3f491,0,a,1,3,16,social,D,C,A,"Person with 2 hands in the air like an Italian saying ""I'm walking here"""
+5fd7782dee03dc08d3f3f491,0,a,2,2,2,refer,C,F,B,Sad Boy sitting with head down and legs to the left and knees up.
+5fd7782dee03dc08d3f3f491,0,a,3,0,2,refer,F,J,C,Mostly cube with a chunk on the right missing.
+5fd7782dee03dc08d3f3f491,0,a,4,2,8,refer,J,I,C,Ice skater on one leg
+5fd7782dee03dc08d3f3f491,0,a,5,3,4,social,I,H,B,"Looks like an innocent boy, simple figure, sitting with a knee out to the right"
+5fd7782dee03dc08d3f3f491,0,a,6,2,0,refer,H,E,B,crazy hat
+5fd7782dee03dc08d3f3f491,0,a,7,4,0,refer,E,C,A,italian
+5fd7782dee03dc08d3f3f491,0,a,8,1,4,refer,C,L,C,"person facing right with bent knees, hands out, squating"
+5fd7782dee03dc08d3f3f491,0,a,9,3,16,refer,L,A,A,2 headed person kicking to the left
+5fd7782dee03dc08d3f3f491,0,a,10,1,16,social,A,D,A,priest facing left with hands outstretched
+5fd7782dee03dc08d3f3f491,0,a,11,1,8,social,D,E,B,crazy hat or bunny ears on top head down facing right
+5fd7782dee03dc08d3f3f491,0,a,12,2,1,refer,E,A,A,thriller or kicking to the left
+5fd7782dee03dc08d3f3f491,0,a,13,1,16,refer,A,C,A,person with 2 hands in the air rectangle body
+5fd7782dee03dc08d3f3f491,0,a,14,3,0,social,C,G,B,horse
+5fd7782dee03dc08d3f3f491,0,a,15,3,0,refer,G,H,B,innocent
+5fd7782dee03dc08d3f3f491,0,a,16,4,1,refer,H,D,A,priest facing left with hands outstretched
+5fd7782dee03dc08d3f3f491,0,a,17,4,0,social,D,B,A,mouse
+5fd7782dee03dc08d3f3f491,0,a,18,2,16,refer,B,J,C,mostly cube part of right side missing
+5fd7782dee03dc08d3f3f491,0,a,19,1,8,refer,J,A,A,2 headed person kicking to the left
+5fd7782dee03dc08d3f3f491,0,a,20,2,0,social,A,F,B,sad boy
+5fd7782dee03dc08d3f3f491,0,a,21,0,8,refer,F,I,C,ice skater on one leg
+5fd7782dee03dc08d3f3f491,0,a,22,0,16,refer,I,B,A,square head with big triangle arms or wings. Like an angel. Body is also 2 triangles with one small triangle on left.
+5fd7782dee03dc08d3f3f491,0,a,23,2,2,social,B,C,A,two hands in the air
+5fd7782dee03dc08d3f3f491,0,a,24,1,1,social,C,D,A,priest with hands outstretched to the left
+5fd7782dee03dc08d3f3f491,0,a,25,3,4,refer,D,A,A,2 headed person kicking to the left
+5fd7782dee03dc08d3f3f491,0,a,26,3,8,refer,A,J,C,mostly cube with part on the right missing
+5fd7782dee03dc08d3f3f491,0,a,27,3,8,social,J,C,A,"two hands in the air like an Italian saying ""I'm walking here"""
+5fd7782dee03dc08d3f3f491,0,a,28,1,2,social,C,A,A,"thriller, kick to the left"
+5fd7782dee03dc08d3f3f491,0,a,29,3,2,social,A,D,A,"priest, hands outstretched to the left"
+5fd7782dee03dc08d3f3f491,0,a,30,2,8,social,D,F,B,"sad boy, head down, sitting, legs facing left and knees up"
+5fd7782dee03dc08d3f3f491,0,a,31,4,2,social,F,A,A,"thriller, kicking left"
+5fd7782dee03dc08d3f3f491,0,a,32,3,1,social,A,E,B,crazy hat or bunny ears
+5fd7782dee03dc08d3f3f491,0,a,33,1,1,refer,E,I,C,ice skater on one leg
+5fd7782dee03dc08d3f3f491,0,a,34,3,2,refer,I,G,B,looks like the letter X. Bottom left part of X much thicker
+5fd7782dee03dc08d3f3f491,0,a,35,0,1,refer,G,K,C,person facing left with hand outstretched with a triangle tail or a dress
+5fd7782dee03dc08d3f3f491,0,a,36,2,4,refer,K,J,C,mostly cube with part of right missing.
+5fd7782dee03dc08d3f3f491,0,a,37,4,1,social,J,H,B,innocent
+5fd7782dee03dc08d3f3f491,0,a,38,4,16,social,H,D,A,priest standing facing left with hands outstretched
+5fd7782dee03dc08d3f3f491,0,a,39,4,4,social,D,C,A,two hands in the air
+5fd7782dee03dc08d3f3f491,0,a,40,0,4,refer,C,G,B,looks like letter X with bottom left part being much thicker than the rest
+5fd7782dee03dc08d3f3f491,0,a,41,4,8,social,G,D,A,"priest, standing facing left, hands outstretched"
+5fd7782dee03dc08d3f3f491,0,a,42,2,1,social,D,A,A,thriller
+5fd7782dee03dc08d3f3f491,0,a,43,1,2,refer,A,I,C,ice skater on one leg
+5fd7782dee03dc08d3f3f491,0,a,44,3,1,refer,I,J,C,mostly square with part of right missing
+5fd7782dee03dc08d3f3f491,0,a,45,2,16,social,J,D,A,"priest, standing facing left with hands outstretched"
+5fd7782dee03dc08d3f3f491,0,a,46,1,0,social,D,F,B,sad boy
+5fd7782dee03dc08d3f3f491,0,a,47,1,4,social,F,E,B,"crazy hat or bunny ears, sitting facing right"
+5fd7782dee03dc08d3f3f491,0,a,48,4,4,refer,E,I,C,ice skater on one leg
+5fd7782dee03dc08d3f3f491,0,a,49,4,8,refer,I,J,C,mostly cube with right part missing
+5fd7782dee03dc08d3f3f491,0,a,50,1,0,refer,J,E,B,crazy hat
+5fd7782dee03dc08d3f3f491,0,a,51,2,4,social,E,C,A,two hands in the air like an italian
+5fd7782dee03dc08d3f3f491,0,a,52,4,2,refer,C,A,A,2 heads kicking to the left
+6753519ac83cda11cee58723,0,a,0,1,4,refer,,G,B,striking a pose
+6753519ac83cda11cee58723,0,a,1,2,0,refer,G,E,B,square with the weird thing on its head
+6753519ac83cda11cee58723,0,a,2,2,8,refer,E,D,A,the priest
+6753519ac83cda11cee58723,0,a,3,1,1,social,D,F,B,the one looking sad and sitting
+6753519ac83cda11cee58723,0,a,4,2,16,refer,F,I,C,on one leg and stretching out with a diamond on its head
+6753519ac83cda11cee58723,0,a,5,3,1,social,I,H,B,the blob
+6753519ac83cda11cee58723,0,a,6,4,1,refer,H,K,C,on the knees praying
+6753519ac83cda11cee58723,0,a,7,4,2,social,K,A,A,walking like a zombie with head aback
+6753519ac83cda11cee58723,0,a,8,4,2,refer,A,C,A,looking like they just jumped off an helicopter.. with arms wide open
+6753519ac83cda11cee58723,0,a,9,3,4,social,C,L,C,squatting with hands forward
+6753519ac83cda11cee58723,0,a,10,0,4,refer,L,G,B,"dancing, with one knee on the ground"
+6753519ac83cda11cee58723,0,a,11,1,8,social,G,D,A,the priest
+6753519ac83cda11cee58723,0,a,12,2,4,refer,D,B,A,yoga style
+6753519ac83cda11cee58723,0,a,13,3,0,social,B,H,B,the blob
+6753519ac83cda11cee58723,0,a,14,2,8,social,H,C,A,jumping out of the helicopter person
+6753519ac83cda11cee58723,0,a,15,0,8,refer,C,F,B,sitting down and looking down
+6753519ac83cda11cee58723,0,a,16,3,8,social,F,D,A,the priiest
+6753519ac83cda11cee58723,0,a,17,3,4,refer,D,K,C,kneeling and praying
+6753519ac83cda11cee58723,0,a,18,4,8,social,K,L,C,squatting with hands forward
+6753519ac83cda11cee58723,0,a,19,4,1,social,L,E,B,square with weird looking triangle on the head
+6753519ac83cda11cee58723,0,a,20,4,8,refer,E,B,A,yoga style
+6753519ac83cda11cee58723,0,a,21,1,0,social,B,I,C,standing on one leg with the other leg stretched to the right
+6753519ac83cda11cee58723,0,a,22,3,8,refer,I,G,B,"one leg on the grounf kneeing, and the other standing. image facing right with diamond on its head"
+6753519ac83cda11cee58723,0,a,23,1,4,social,G,H,B,"bl0b, with a diamond shaped head"
+6753519ac83cda11cee58723,0,a,24,0,2,refer,H,F,B,sitting in despair
+6753519ac83cda11cee58723,0,a,25,2,2,refer,F,A,A,"standing on one leg, giving like a zombie pose, and facing left, with the diamond on the head looking like it is about to roll off"
+6753519ac83cda11cee58723,0,a,26,2,2,social,A,J,C,"facing right, diamond head aand big square body"
+6753519ac83cda11cee58723,0,a,27,3,0,refer,J,B,A,"yoga pose, facing right"
+6753519ac83cda11cee58723,0,a,28,1,16,refer,B,D,A,"the priest with hands stretched out, looking left"
+6753519ac83cda11cee58723,0,a,29,1,1,refer,D,K,C,kneel down fully to pray
+6753519ac83cda11cee58723,0,a,30,3,16,refer,K,C,A,the weird structured square with hands streched out of it.. looking like it jumped out of a building
+6753519ac83cda11cee58723,0,a,31,1,2,refer,C,E,B,square with weird triangle on the top of its head
+6753519ac83cda11cee58723,0,a,32,4,4,social,E,B,A,martial art pose.
+6753519ac83cda11cee58723,0,a,33,4,0,refer,B,F,B,sitting on the ground in despair
+6753519ac83cda11cee58723,0,a,34,3,1,refer,F,I,C,standing on one long leg with the other short one at the back
+6753519ac83cda11cee58723,0,a,35,3,2,social,I,L,C,"squatting pose, with hands out"
+6753519ac83cda11cee58723,0,a,36,2,0,social,L,A,A,"zombie pose, looking up"
+6753519ac83cda11cee58723,0,a,37,4,0,social,A,G,B,dance moves with one knee on the ground
+6753519ac83cda11cee58723,0,a,38,1,2,social,G,D,A,the diamond headed priest standing
+6753519ac83cda11cee58723,0,a,39,1,0,refer,D,H,B,"diamond head in mid fourth from the right, the one that looks like a baby wrapped in swaddling cloths"
+6753519ac83cda11cee58723,0,a,40,0,1,refer,H,K,C,kneel to pray
+6753519ac83cda11cee58723,0,a,41,1,8,refer,K,C,A,jump!
+6753519ac83cda11cee58723,0,a,42,4,16,refer,C,F,B,"sad and depressed, onseat facing left"
+6753519ac83cda11cee58723,0,a,43,1,16,social,F,B,A,martial art pose...
+6753519ac83cda11cee58723,0,a,44,2,1,refer,B,L,C,squatting
+6753519ac83cda11cee58723,0,a,45,2,16,social,L,E,B,head with two triangle shape on the top of the head
+6753519ac83cda11cee58723,0,a,46,0,16,refer,E,K,C,"kneeel to pray, facing right"
+6753519ac83cda11cee58723,0,a,47,4,16,social,K,A,A,zombie pose
+6753519ac83cda11cee58723,0,a,48,4,4,refer,A,L,C,squatting
+6753519ac83cda11cee58723,0,a,49,2,1,social,L,H,B,baby wrapped in cloth with diamond head
+6753519ac83cda11cee58723,0,a,50,3,16,social,H,D,A,the standing priest
+6753519ac83cda11cee58723,0,a,51,3,2,refer,D,C,A,jumping off with arms wide open
+6753519ac83cda11cee58723,0,a,52,2,4,social,C,B,A,"karate kid mode, facing right"
+6400d8e645e80091a53f9b21,0,a,0,3,8,social,,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,1,2,2,social,E,H,B,Simple Pose
+6400d8e645e80091a53f9b21,0,a,2,4,8,refer,H,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,3,3,4,refer,E,G,B,Horse Pose
+6400d8e645e80091a53f9b21,0,a,4,4,2,refer,G,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,5,0,16,refer,C,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,6,1,1,social,E,L,C,Prayer Pose
+6400d8e645e80091a53f9b21,0,a,7,1,4,social,L,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,8,4,8,social,E,G,B,Horse Pose
+6400d8e645e80091a53f9b21,0,a,9,2,4,refer,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,10,2,4,social,E,G,B,Horse Pose
+6400d8e645e80091a53f9b21,0,a,11,4,16,refer,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,12,2,0,refer,E,G,B,Horse Pose
+6400d8e645e80091a53f9b21,0,a,13,2,0,social,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,14,1,0,refer,E,L,C,Prayer Pose
+6400d8e645e80091a53f9b21,0,a,15,0,2,refer,L,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,16,4,1,social,E,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,17,0,1,refer,C,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,18,4,1,refer,E,G,B,Horse Pose
+6400d8e645e80091a53f9b21,0,a,19,0,8,refer,G,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,20,3,16,refer,C,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,21,1,2,social,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,22,2,16,social,E,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,23,4,16,social,C,G,B,Horse Pose
+6400d8e645e80091a53f9b21,0,a,24,2,1,refer,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,25,3,4,social,E,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,26,3,2,social,C,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,27,4,4,social,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,28,1,4,refer,E,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,29,3,0,refer,G,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,30,3,2,refer,C,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,31,1,16,refer,G,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,32,4,0,social,C,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,33,3,1,refer,E,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,34,3,8,refer,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,35,1,8,social,E,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,36,2,16,refer,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,37,1,0,social,E,A,A,Person with wings
+6400d8e645e80091a53f9b21,0,a,38,1,16,social,A,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,39,4,4,refer,E,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,40,1,1,refer,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,41,4,2,social,E,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,42,3,16,social,G,H,B,Simple
+6400d8e645e80091a53f9b21,0,a,43,2,8,refer,H,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,44,1,8,refer,C,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,45,0,4,refer,G,E,B,Crazy Hat
+6400d8e645e80091a53f9b21,0,a,46,4,0,refer,E,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,47,1,2,refer,G,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,48,2,2,refer,C,H,B,Simple
+6400d8e645e80091a53f9b21,0,a,49,3,1,social,H,G,B,Horse
+6400d8e645e80091a53f9b21,0,a,50,2,8,social,G,H,B,Simple
+6400d8e645e80091a53f9b21,0,a,51,2,1,social,H,C,A,Arms out
+6400d8e645e80091a53f9b21,0,a,52,3,0,social,C,E,B,Crazy Hat
+5a876665ae9a0b0001a9fbe3,0,a,0,2,1,social,,C,A,Italian
+5a876665ae9a0b0001a9fbe3,0,a,1,1,0,social,C,D,A,Priest
+5a876665ae9a0b0001a9fbe3,0,a,2,4,0,refer,D,F,B,Sad Boy
+5a876665ae9a0b0001a9fbe3,0,a,3,1,4,refer,F,E,B,Weird hat that looks like bunny ears
+5a876665ae9a0b0001a9fbe3,0,a,4,0,16,refer,E,A,A,"Square on the right of the figure, its walking to the left, one foot is in the air"
+5a876665ae9a0b0001a9fbe3,0,a,5,2,16,social,A,C,A,Italian
+5a876665ae9a0b0001a9fbe3,0,a,6,4,16,refer,C,E,B,"Has a weird hat, looks like two bunny ears on top of its head"
+5a876665ae9a0b0001a9fbe3,0,a,7,3,4,refer,E,A,A,"Square hanging off the right of figure, figure is walking left, one foot on ground one in air."
+5a876665ae9a0b0001a9fbe3,0,a,8,1,8,refer,A,G,B,"Figure moving right, arms up like its lurching."
+5a876665ae9a0b0001a9fbe3,0,a,9,1,0,refer,G,I,C,"Square on head, ""tail"" pointing right"
+5a876665ae9a0b0001a9fbe3,0,a,10,4,4,social,I,F,B,sad boy
+5a876665ae9a0b0001a9fbe3,0,a,11,3,2,social,F,D,A,priest
+5a876665ae9a0b0001a9fbe3,0,a,12,0,8,refer,D,H,B,"Diamond head, no legs visible."
+5a876665ae9a0b0001a9fbe3,0,a,13,4,8,refer,H,E,B,Two bunny ears on top of head.
+5a876665ae9a0b0001a9fbe3,0,a,14,1,16,refer,E,B,A,"Diamond head, two triangles for arms that look like drills, seems to be kneeling."
+5a876665ae9a0b0001a9fbe3,0,a,15,3,8,refer,B,D,A,"Diamond head, figure facing left , feet on ground."
+5a876665ae9a0b0001a9fbe3,0,a,16,2,0,refer,D,F,B,"Figure sitting down, legs to the left"
+5a876665ae9a0b0001a9fbe3,0,a,17,3,0,social,F,D,A,Priest
+5a876665ae9a0b0001a9fbe3,0,a,18,1,2,refer,D,I,C,"Diamond head, tail pointing to the right"
+5a876665ae9a0b0001a9fbe3,0,a,19,4,16,social,I,H,B,Inoncent
+5a876665ae9a0b0001a9fbe3,0,a,20,3,2,refer,H,E,B,Looks like it has two bunny ears on top of head
+5a876665ae9a0b0001a9fbe3,0,a,21,4,1,social,E,D,A,Priest
+5a876665ae9a0b0001a9fbe3,0,a,22,4,0,social,D,E,B,Funny Hat
+5a876665ae9a0b0001a9fbe3,0,a,23,4,4,refer,E,F,B,"Guy sitting down, legs outstretched to left"
+5a876665ae9a0b0001a9fbe3,0,a,24,4,2,refer,F,C,A,Guy who appears to be gesturing widely with hands
+5a876665ae9a0b0001a9fbe3,0,a,25,2,4,refer,C,D,A,"Diamond head, body facing left, seems to be holding something in front"
+5a876665ae9a0b0001a9fbe3,0,a,26,0,1,refer,D,E,B,Two bunny ears on top
+5a876665ae9a0b0001a9fbe3,0,a,27,0,4,refer,E,F,B,"Diamond head, legs stretched to the left"
+5a876665ae9a0b0001a9fbe3,0,a,28,3,1,refer,F,A,A,"Diamond head to the right, figure facing left, one foot in the air"
+5a876665ae9a0b0001a9fbe3,0,a,29,2,8,social,A,F,B,sad boy
+5a876665ae9a0b0001a9fbe3,0,a,30,3,0,refer,F,D,A,priest
+5a876665ae9a0b0001a9fbe3,0,a,31,1,1,social,D,E,B,funny hat
+5a876665ae9a0b0001a9fbe3,0,a,32,2,8,refer,E,I,C,figure facing left with pointed tail to the right
+5a876665ae9a0b0001a9fbe3,0,a,33,2,4,social,I,D,A,priest
+5a876665ae9a0b0001a9fbe3,0,a,34,1,2,social,D,E,B,funny hat
+5a876665ae9a0b0001a9fbe3,0,a,35,4,8,social,E,C,A,Italian
+5a876665ae9a0b0001a9fbe3,0,a,36,3,8,social,C,D,A,priest
+5a876665ae9a0b0001a9fbe3,0,a,37,0,2,refer,D,E,B,two bunny ears
+5a876665ae9a0b0001a9fbe3,0,a,38,4,1,refer,E,L,C,"Diamond head facing right, guy seeming to squat"
+5a876665ae9a0b0001a9fbe3,0,a,39,2,2,social,L,E,B,funny hat
+5a876665ae9a0b0001a9fbe3,0,a,40,4,2,social,E,F,B,sad boy
+5a876665ae9a0b0001a9fbe3,0,a,41,3,16,social,F,D,A,priest
+5a876665ae9a0b0001a9fbe3,0,a,42,1,4,social,D,E,B,funny hat
+5a876665ae9a0b0001a9fbe3,0,a,43,2,2,refer,E,J,C,"Diamond head, figure facing right, one foot visible"
+5a876665ae9a0b0001a9fbe3,0,a,44,2,16,refer,J,I,C,"Diamond head, tail pointing right, figure points left"
+5a876665ae9a0b0001a9fbe3,0,a,45,2,0,social,I,E,B,funny hat
+5a876665ae9a0b0001a9fbe3,0,a,46,2,1,refer,E,F,B,"Diamond head, figure sitting down, legs out to left"
+5a876665ae9a0b0001a9fbe3,0,a,47,1,1,refer,F,C,A,"Diamond head, arms spread apart as if in covnersation"
+5a876665ae9a0b0001a9fbe3,0,a,48,3,16,refer,C,A,A,Square head on back
+5a876665ae9a0b0001a9fbe3,0,a,49,1,16,social,A,F,B,sad boy
+5a876665ae9a0b0001a9fbe3,0,a,50,3,1,social,F,D,A,priest
+5a876665ae9a0b0001a9fbe3,0,a,51,3,4,social,D,E,B,funny hat
+5a876665ae9a0b0001a9fbe3,0,a,52,1,8,social,E,D,A,priest
+67884b1aa6c55d9dd2388778,0,a,0,4,1,refer,,I,C,"A dancer facing to the left, arms down and out with one leg completely straight and the other leg up and behind her"
+67884b1aa6c55d9dd2388778,0,a,1,1,1,social,I,B,A,An angel facing right and on her knees praying
+67884b1aa6c55d9dd2388778,0,a,2,1,8,social,B,E,B,Man with a windmill on his head
+67884b1aa6c55d9dd2388778,0,a,3,2,2,social,E,F,B,sad man
+67884b1aa6c55d9dd2388778,0,a,4,3,4,social,F,C,A,man with his arms up and falling backward to the left
+67884b1aa6c55d9dd2388778,0,a,5,3,0,refer,C,D,A,man preaching
+67884b1aa6c55d9dd2388778,0,a,6,4,2,refer,D,L,C,man facing right serving tray of food
+67884b1aa6c55d9dd2388778,0,a,7,2,8,refer,L,H,B,man facing to the right sitting on his knees
+67884b1aa6c55d9dd2388778,0,a,8,1,2,refer,H,E,B,man facing to the right sitting with feathers on his head
+67884b1aa6c55d9dd2388778,0,a,9,2,1,refer,E,B,A,person facing right praying with their arms bent up
+67884b1aa6c55d9dd2388778,0,a,10,2,0,social,B,A,A,man walking to the left wearing a backpack and other hiking gear
+67884b1aa6c55d9dd2388778,0,a,11,3,2,refer,A,C,A,man facing to the right with his arms outstretched toward the sky
+67884b1aa6c55d9dd2388778,0,a,12,0,4,refer,C,F,B,"man facing left, sitting with his legs bent out in front with his back to the wall"
+67884b1aa6c55d9dd2388778,0,a,13,4,16,social,F,H,B,man sitting facing right with no arms
+67884b1aa6c55d9dd2388778,0,a,14,3,4,refer,H,L,C,man facing right in the middle of a squat
+67884b1aa6c55d9dd2388778,0,a,15,4,2,social,L,H,B,man meditating to the right
+67884b1aa6c55d9dd2388778,0,a,16,2,16,refer,H,K,C,woman riding a segway to the right
+67884b1aa6c55d9dd2388778,0,a,17,4,8,refer,K,I,C,ice skater landing a jump with her arms out and one leg out behind her
+67884b1aa6c55d9dd2388778,0,a,18,4,0,refer,I,G,B,A person dragging another person who is facing left while they are sitting up
+67884b1aa6c55d9dd2388778,0,a,19,4,0,social,G,E,B,Windmill on top of a mountain
+67884b1aa6c55d9dd2388778,0,a,20,2,4,social,E,J,C,A planter with a diamond-shaped flower growing out of the top center
+67884b1aa6c55d9dd2388778,0,a,21,3,8,social,J,F,B,sitting facing the left looking straight ahead
+67884b1aa6c55d9dd2388778,0,a,22,3,1,social,F,G,B,looks like the llama from emperor's new groove
+67884b1aa6c55d9dd2388778,0,a,23,0,16,refer,G,A,A,"facing left, a man giving a child a piggy back ride"
+67884b1aa6c55d9dd2388778,0,a,24,3,2,social,A,K,C,robot on a scooter serving a tray of food
+67884b1aa6c55d9dd2388778,0,a,25,1,4,social,K,E,B,mountain with a ski lift stopped at the top
+67884b1aa6c55d9dd2388778,0,a,26,1,1,refer,E,H,B,japanese farmer sitting on his knees facing the right wearing a hat that comes to a point
+67884b1aa6c55d9dd2388778,0,a,27,1,2,social,H,D,A,man wearing church robes carrying the offering plate
+67884b1aa6c55d9dd2388778,0,a,28,2,0,refer,D,L,C,man facing right and kneeling while reading a book
+67884b1aa6c55d9dd2388778,0,a,29,4,16,refer,L,C,A,Michael Jackson doing a reverse anti-gravity lean
+67884b1aa6c55d9dd2388778,0,a,30,1,8,refer,C,B,A,person facing to the right on their knees crying with their head in their hands
+67884b1aa6c55d9dd2388778,0,a,31,2,4,refer,B,G,B,person in a hard yoga position
+67884b1aa6c55d9dd2388778,0,a,32,3,16,social,G,I,C,witch trying to fly on a broomstick
+67884b1aa6c55d9dd2388778,0,a,33,3,1,refer,I,B,A,fairy with wings sitting on her knees
+67884b1aa6c55d9dd2388778,0,a,34,3,16,refer,B,A,A,bigfoot carrying a small child
+67884b1aa6c55d9dd2388778,0,a,35,4,8,social,A,J,C,lit candle in a fancy candle holder
+67884b1aa6c55d9dd2388778,0,a,36,2,16,social,J,H,B,a monk sitting in prayer
+67884b1aa6c55d9dd2388778,0,a,37,1,0,social,H,C,A,man trying to dance
+67884b1aa6c55d9dd2388778,0,a,38,2,1,social,C,I,C,woman wearing a skirt and twirling while ice skating
+67884b1aa6c55d9dd2388778,0,a,39,1,16,refer,I,E,B,"lighthouse at the top of a cliff, the triangles are the beams of light shining"
+67884b1aa6c55d9dd2388778,0,a,40,4,1,social,E,D,A,teacher teaching at a podium
+67884b1aa6c55d9dd2388778,0,a,41,0,8,refer,D,E,B,easter bunny at the top of a mountain
+67884b1aa6c55d9dd2388778,0,a,42,1,4,refer,E,K,C,person running on a treadmill
+67884b1aa6c55d9dd2388778,0,a,43,3,8,refer,K,J,C,fire in a firepit
+67884b1aa6c55d9dd2388778,0,a,44,0,2,refer,J,C,A,person skydiving
+67884b1aa6c55d9dd2388778,0,a,45,2,2,refer,C,B,A,mouse's head and ears
+67884b1aa6c55d9dd2388778,0,a,46,4,4,social,B,G,B,crab walking
+67884b1aa6c55d9dd2388778,0,a,47,1,0,refer,G,H,B,man with no arms sitting
+67884b1aa6c55d9dd2388778,0,a,48,4,4,refer,H,C,A,man talking with their arms and hands going all over the place
+67884b1aa6c55d9dd2388778,0,a,49,1,16,social,C,A,A,angel taking off in flight
+67884b1aa6c55d9dd2388778,0,a,50,2,8,social,A,G,B,a galloping horse
+67884b1aa6c55d9dd2388778,0,a,51,0,1,refer,G,A,A,dancing the thriller dance
+67884b1aa6c55d9dd2388778,0,a,52,3,0,social,A,G,B,doing yoga/pilates
+6642db87936f64e56b101a9b,0,a,0,3,0,refer,,C,A,Italian
+6642db87936f64e56b101a9b,0,a,1,1,4,social,C,A,A,Thriller
+6642db87936f64e56b101a9b,0,a,2,0,1,refer,A,J,C,Diamond on top of a flat surface. Left side of the surface is a straight line and the right side has a triangle pointing out of the top right and bottom left of that right side.
+6642db87936f64e56b101a9b,0,a,3,2,0,social,J,B,A,Mouse with diamond ear and triangle ear.
+6642db87936f64e56b101a9b,0,a,4,2,2,refer,B,L,C,Looks like a guy facing the right and squatting with hands pointed to the right in a triangle shape. Knees are bent making a sharp point toward the right.
+6642db87936f64e56b101a9b,0,a,5,2,8,refer,L,G,B,"Looks like a guy seated but contorted. His legs are together to the left. His square or diamond head looks to the left or forward for him. His arms appear outstretched behind him far apart, higher and lower, as triangles."
+6642db87936f64e56b101a9b,0,a,6,1,8,social,G,F,B,Sad boi. Sad guy sitting.
+6642db87936f64e56b101a9b,0,a,7,2,8,social,F,E,B,Crazy hat.
+6642db87936f64e56b101a9b,0,a,8,2,16,social,E,D,A,Priest guy.
+6642db87936f64e56b101a9b,0,a,9,3,1,social,D,I,C,Yoga pose
+6642db87936f64e56b101a9b,0,a,10,0,16,refer,I,E,B,Looks like a guy seated with his back to the left and legs outstretched in front of himself. Square head is looking down. Two triangles are on top of his head.
+6642db87936f64e56b101a9b,0,a,11,1,2,refer,E,H,B,A diamond head on an armless guy. Seems legless or that he is kneeling with legs pointing to the right in a triangle point. Diamond head could be a square head looking up. Resembles a drifting ghost moving to the left as well.
+6642db87936f64e56b101a9b,0,a,12,4,1,refer,H,K,C,Could be a duck with two diamonds stacked on top of each other on its head. The duck beak points to the right as a triangle and the duck tail behind it is a triangle pointing upward.
+6642db87936f64e56b101a9b,0,a,13,2,4,social,K,D,A,Priest guy.
+6642db87936f64e56b101a9b,0,a,14,1,16,social,D,C,A,Italian.
+6642db87936f64e56b101a9b,0,a,15,0,2,refer,C,A,A,"Looks like a guy walking to the left, one foot in the air as if to take a step. Head is square with a triangle beak attached, looking down. Square backpack behind the head on the back."
+6642db87936f64e56b101a9b,0,a,16,3,2,refer,A,J,C,Diamond on a flat surface. The right side of the surface is uneven with sharp points at the top and bottom right of it. Left side of the surface shape is straight.
+6642db87936f64e56b101a9b,0,a,17,3,4,social,J,F,B,Sad boi.
+6642db87936f64e56b101a9b,0,a,18,4,16,social,F,C,A,Italian.
+6642db87936f64e56b101a9b,0,a,19,4,0,social,C,D,A,Priest guy.
+6642db87936f64e56b101a9b,0,a,20,2,0,refer,D,K,C,Duck with two diamonds on top of each other on its head.
+6642db87936f64e56b101a9b,0,a,21,3,0,social,K,A,A,Thriller.
+6642db87936f64e56b101a9b,0,a,22,1,1,refer,A,I,C,Guy is leaning to the left with a diamond head. Arms in front of him are triangles going to the left. His leg appears raised behind him toward the right as a triangle. Other leg is planted on the ground balancing. Yoga guy.
+6642db87936f64e56b101a9b,0,a,23,3,8,social,I,B,A,Mouse with square ear and triangle ear.
+6642db87936f64e56b101a9b,0,a,24,2,4,refer,B,H,B,"Diamond head, no arms and body is a rectangle. Lower part could be legs or it could be nothing but a drifting ghost. There is a triangle point on the guy's bottom part, pointed to the right. Diamond head could be looking up."
+6642db87936f64e56b101a9b,0,a,25,0,8,refer,H,L,C,Diamond head. A single triangle pointing to the right looks like hands or arms held together. Legs look bent making a sharp point to the right.
+6642db87936f64e56b101a9b,0,a,26,4,4,refer,L,F,B,"Diamond or square head looking to the left. Guy appears to be seated on the ground with bent knees on the left side, back to the right side. Armless or arms at sides."
+6642db87936f64e56b101a9b,0,a,27,1,0,social,F,E,B,Crazy hat.
+6642db87936f64e56b101a9b,0,a,28,4,4,social,E,C,A,Italian.
+6642db87936f64e56b101a9b,0,a,29,3,16,social,C,A,A,Thriller.
+6642db87936f64e56b101a9b,0,a,30,2,1,refer,A,I,C,Two triangle arms pointed to the left. Guy stands on one foot. Other leg and foot are in the air pointing to the right. Diamond head on top looking forward or up.
+6642db87936f64e56b101a9b,0,a,31,3,1,refer,I,A,A,Guy looking down with a square head and triangle nose or mask coming out of his face. One leg is in the air like he is walking to the left. A square is on his back like a backpack.
+6642db87936f64e56b101a9b,0,a,32,2,1,social,A,F,B,Sad boi. Sad guy.
+6642db87936f64e56b101a9b,0,a,33,1,0,refer,F,K,C,Looks like a duck with two diamonds on top of its head. Triangle beak looking to the right and upward.
+6642db87936f64e56b101a9b,0,a,34,0,4,refer,K,G,B,"Looks like a guy with arms outstretched behind himself, spread wide, high and low triangle shapes. His square head could be looking forward or down to the left. His body is thicker on the lower part including legs outstretched to the left."
+6642db87936f64e56b101a9b,0,a,35,4,1,social,G,D,A,Priest guy.
+6642db87936f64e56b101a9b,0,a,36,4,16,refer,D,J,C,Diamond on top of a flat surface. The right side of the surface at the top and bottom corners are triangles pointing right. The left side of the surface is straight.
+6642db87936f64e56b101a9b,0,a,37,3,2,social,J,E,B,Crazy hat.
+6642db87936f64e56b101a9b,0,a,38,4,0,refer,E,B,A,Looks like a mouse looking to the left with a triangle head. A triangle ear points to the right and a diamond ear is to the left of that on top of the head.
+6642db87936f64e56b101a9b,0,a,39,1,16,refer,B,H,B,Diamond head on top of armless rectangle body. Bottom part sort of is shapeless but a triangle points to the right on the right side behind the man's body. Head could be looking upward to the left.
+6642db87936f64e56b101a9b,0,a,40,4,2,refer,H,L,C,"Diamond head looking upward or to the right. Back is on the left and on the right the arms and hands form a single triangle pointing right. Knees appear bent to the right, also a triangle point look."
+6642db87936f64e56b101a9b,0,a,41,2,16,refer,L,G,B,Diamond head is on the left almost separating from the rest of the shape. Triangle arms outstretched high and low behind the guy. Legs extending out from him to the left. Contorted shape look.
+6642db87936f64e56b101a9b,0,a,42,4,2,social,G,A,A,Thriller.
+6642db87936f64e56b101a9b,0,a,43,1,8,refer,A,I,C,Diamond head. Two triangle arms and hands pointing to the left. A leg is planted on the ground like the guy is balancing. The other leg is a triangle lifted up and pointing to the right higher up.
+6642db87936f64e56b101a9b,0,a,44,1,2,social,I,C,A,Italian. Like wings spread out on the left and right of a slanted rectangular shape.
+6642db87936f64e56b101a9b,0,a,45,1,4,refer,C,E,B,Guy has a square head with two triangles on top of it. The body is a large triangle shape like he's sitting facing the right. Head is looking down to the right.
+6642db87936f64e56b101a9b,0,a,46,3,8,refer,E,D,A,"Diamond head, guy facing the left. Appears to be holding a book in front of himself on the left or prayer hands extended out. Mostly rectangle body with sharp point on bottom left side as though feet."
+6642db87936f64e56b101a9b,0,a,47,4,8,refer,D,L,C,Diamond head and like the person is squatting. The knees make a sharp point to the right. The hands and arms form a triangle pointing right.
+6642db87936f64e56b101a9b,0,a,48,3,16,refer,L,C,A,"Diamond head with triangles on the left and right appearing like wings. Body is a slanted, rectangular shape."
+6642db87936f64e56b101a9b,0,a,49,4,8,social,C,A,A,Thriller.
+6642db87936f64e56b101a9b,0,a,50,1,1,social,A,C,A,Italian.
+6642db87936f64e56b101a9b,0,a,51,3,4,refer,C,K,C,Like a duck with two diamonds on top of its head. The triangle beak points to the right and is looking upward. The tail is on the left and is a triangle pointing up. Body also makes a triangle point to the right.
+6642db87936f64e56b101a9b,0,a,52,2,2,social,K,D,A,Priest guy.
+680e67f9d4d42c1a45b04c57,0,a,0,3,2,refer,,E,B,crazy hat
+680e67f9d4d42c1a45b04c57,0,a,1,1,16,social,E,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,2,3,8,social,D,A,A,thriller
+680e67f9d4d42c1a45b04c57,0,a,3,0,2,refer,A,C,A,person with hand up
+680e67f9d4d42c1a45b04c57,0,a,4,1,8,social,C,D,A,italian
+680e67f9d4d42c1a45b04c57,0,a,5,2,16,refer,D,E,B,windmill on hill
+680e67f9d4d42c1a45b04c57,0,a,6,1,0,social,E,F,B,sad boy
+680e67f9d4d42c1a45b04c57,0,a,7,3,0,social,F,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,8,3,4,social,D,H,B,innocent one
+680e67f9d4d42c1a45b04c57,0,a,9,1,4,social,H,G,B,weird horse yoga pose
+680e67f9d4d42c1a45b04c57,0,a,10,2,8,refer,G,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,11,1,1,refer,D,E,B,weird hat
+680e67f9d4d42c1a45b04c57,0,a,12,1,1,social,E,A,A,thriller
+680e67f9d4d42c1a45b04c57,0,a,13,1,2,refer,A,F,B,sad boy
+680e67f9d4d42c1a45b04c57,0,a,14,2,4,social,F,D,A,italian
+680e67f9d4d42c1a45b04c57,0,a,15,1,16,refer,D,G,B,weird yoga pose
+680e67f9d4d42c1a45b04c57,0,a,16,3,2,social,G,C,A,italian
+680e67f9d4d42c1a45b04c57,0,a,17,2,8,social,C,E,B,crazy hat
+680e67f9d4d42c1a45b04c57,0,a,18,4,0,social,E,A,A,thriller
+680e67f9d4d42c1a45b04c57,0,a,19,3,16,refer,A,F,B,sad boy
+680e67f9d4d42c1a45b04c57,0,a,20,0,8,refer,F,I,C,man standing with one leg facing right
+680e67f9d4d42c1a45b04c57,0,a,21,4,4,refer,I,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,22,4,0,refer,D,G,B,weird yoga pose
+680e67f9d4d42c1a45b04c57,0,a,23,1,4,refer,G,A,A,thriller
+680e67f9d4d42c1a45b04c57,0,a,24,3,1,refer,A,F,B,sad boy
+680e67f9d4d42c1a45b04c57,0,a,25,1,2,social,F,H,B,innocent one
+680e67f9d4d42c1a45b04c57,0,a,26,2,0,social,H,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,27,3,8,refer,D,E,B,windmill on hill
+680e67f9d4d42c1a45b04c57,0,a,28,0,1,refer,E,A,A,someone dancing
+680e67f9d4d42c1a45b04c57,0,a,29,4,1,social,A,F,B,sad boy
+680e67f9d4d42c1a45b04c57,0,a,30,4,16,refer,F,C,A,italian
+680e67f9d4d42c1a45b04c57,0,a,31,3,1,social,C,H,B,innocent one
+680e67f9d4d42c1a45b04c57,0,a,32,4,4,social,H,A,A,thriller
+680e67f9d4d42c1a45b04c57,0,a,33,2,2,social,A,G,B,windmill on hill
+680e67f9d4d42c1a45b04c57,0,a,34,3,4,refer,G,E,B,funny hat
+680e67f9d4d42c1a45b04c57,0,a,35,4,8,refer,E,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,36,4,2,refer,D,H,B,inoccent one
+680e67f9d4d42c1a45b04c57,0,a,37,4,8,social,H,G,B,windmill on hill
+680e67f9d4d42c1a45b04c57,0,a,38,0,4,refer,G,E,B,crazy hat
+680e67f9d4d42c1a45b04c57,0,a,39,4,16,social,E,C,A,italian
+680e67f9d4d42c1a45b04c57,0,a,40,4,1,refer,C,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,41,2,2,refer,D,H,B,innocent one
+680e67f9d4d42c1a45b04c57,0,a,42,4,2,social,H,A,A,thriller
+680e67f9d4d42c1a45b04c57,0,a,43,3,0,refer,A,E,B,crazy hat
+680e67f9d4d42c1a45b04c57,0,a,44,1,8,refer,E,L,C,man standing with bent knees
+680e67f9d4d42c1a45b04c57,0,a,45,2,4,refer,L,I,C,kungfu man
+680e67f9d4d42c1a45b04c57,0,a,46,2,1,refer,I,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,47,3,16,social,D,E,B,crazy hat
+680e67f9d4d42c1a45b04c57,0,a,48,2,1,social,E,H,B,innocent one
+680e67f9d4d42c1a45b04c57,0,a,49,2,16,social,H,C,A,italian
+680e67f9d4d42c1a45b04c57,0,a,50,1,0,refer,C,D,A,priest
+680e67f9d4d42c1a45b04c57,0,a,51,2,0,refer,D,A,A,thriller
+680e67f9d4d42c1a45b04c57,0,a,52,0,16,refer,A,F,B,man sited with bent knees
+67ef1646a57b37e076099d5c,0,a,0,2,16,social,,K,C,duck
+67ef1646a57b37e076099d5c,0,a,1,1,16,social,K,H,B,Sad guy
+67ef1646a57b37e076099d5c,0,a,2,2,1,social,H,C,A,Italian
+67ef1646a57b37e076099d5c,0,a,3,1,0,refer,C,E,B,Crazy hat
+67ef1646a57b37e076099d5c,0,a,4,2,0,refer,E,A,A,Triller
+67ef1646a57b37e076099d5c,0,a,5,4,8,social,A,D,A,Innocent one
+67ef1646a57b37e076099d5c,0,a,6,1,1,refer,D,G,B,Horsee
+67ef1646a57b37e076099d5c,0,a,7,0,8,refer,G,L,C,Squats
+67ef1646a57b37e076099d5c,0,a,8,3,4,refer,L,E,B,Windmill on hill
+67ef1646a57b37e076099d5c,0,a,9,4,8,refer,E,G,B,Strike a pose
+67ef1646a57b37e076099d5c,0,a,10,0,2,refer,G,F,B,Arms under knees
+67ef1646a57b37e076099d5c,0,a,11,4,0,social,F,I,C,Knug fu
+67ef1646a57b37e076099d5c,0,a,12,2,2,social,I,H,B,Kneeling guy
+67ef1646a57b37e076099d5c,0,a,13,2,8,refer,H,C,A,Flying
+67ef1646a57b37e076099d5c,0,a,14,1,0,social,C,D,A,Praying priest
+67ef1646a57b37e076099d5c,0,a,15,2,16,refer,D,B,A,Yoga guy
+67ef1646a57b37e076099d5c,0,a,16,4,1,social,B,I,C,One leg up
+67ef1646a57b37e076099d5c,0,a,17,3,16,social,I,E,B,Monk Mode
+67ef1646a57b37e076099d5c,0,a,18,3,1,social,E,C,A,Italian
+67ef1646a57b37e076099d5c,0,a,19,1,8,social,C,F,B,Sad man
+67ef1646a57b37e076099d5c,0,a,20,4,1,refer,F,G,B,Strike a pose
+67ef1646a57b37e076099d5c,0,a,21,2,2,refer,G,H,B,"No arms and legs, sitting man"
+67ef1646a57b37e076099d5c,0,a,22,4,16,refer,H,I,C,Legs 90 degrees apart
+67ef1646a57b37e076099d5c,0,a,23,2,1,refer,I,J,C,Half Square man
+67ef1646a57b37e076099d5c,0,a,24,2,8,social,J,K,C,Kneeling for Grace
+67ef1646a57b37e076099d5c,0,a,25,3,4,social,K,L,C,Squats
+67ef1646a57b37e076099d5c,0,a,26,1,8,refer,L,K,C,"Looking right, kneeling"
+67ef1646a57b37e076099d5c,0,a,27,2,0,social,K,J,C,One arm open
+67ef1646a57b37e076099d5c,0,a,28,4,4,social,J,I,C,One leg up to hands away
+67ef1646a57b37e076099d5c,0,a,29,3,0,refer,I,D,A,Priest
+67ef1646a57b37e076099d5c,0,a,30,2,4,refer,D,H,B,Innocent man on knees
+67ef1646a57b37e076099d5c,0,a,31,3,8,social,H,A,A,Parralelogram head
+67ef1646a57b37e076099d5c,0,a,32,1,1,social,A,E,B,Monk Mode
+67ef1646a57b37e076099d5c,0,a,33,2,4,social,E,J,C,Blov
+67ef1646a57b37e076099d5c,0,a,34,4,16,social,J,D,A,Priest looking left
+67ef1646a57b37e076099d5c,0,a,35,3,1,refer,D,C,A,Diagonal Man with no legs
+67ef1646a57b37e076099d5c,0,a,36,1,4,refer,C,B,A,Ready Fighter
+67ef1646a57b37e076099d5c,0,a,37,4,0,refer,B,A,A,"Double head, One leg up"
+67ef1646a57b37e076099d5c,0,a,38,0,4,refer,A,I,C,One leg pose
+67ef1646a57b37e076099d5c,0,a,39,4,2,social,I,G,B,Mouse head
+67ef1646a57b37e076099d5c,0,a,40,3,0,social,G,F,B,"Thinking man, head down"
+67ef1646a57b37e076099d5c,0,a,41,1,4,social,F,K,C,Duck man
+67ef1646a57b37e076099d5c,0,a,42,3,2,refer,K,E,B,Traingle hats
+67ef1646a57b37e076099d5c,0,a,43,0,1,refer,E,L,C,Squatting man
+67ef1646a57b37e076099d5c,0,a,44,4,4,refer,L,G,B,Strike a pose
+67ef1646a57b37e076099d5c,0,a,45,4,2,refer,G,J,C,Diamond head
+67ef1646a57b37e076099d5c,0,a,46,1,2,refer,J,F,B,Sitting man
+67ef1646a57b37e076099d5c,0,a,47,0,16,refer,F,G,B,Triller
+67ef1646a57b37e076099d5c,0,a,48,3,2,social,G,K,C,Duck
+67ef1646a57b37e076099d5c,0,a,49,3,8,refer,K,I,C,Leg up
+67ef1646a57b37e076099d5c,0,a,50,1,16,refer,I,D,A,Innocent man
+67ef1646a57b37e076099d5c,0,a,51,1,2,social,D,H,B,On his knees
+67ef1646a57b37e076099d5c,0,a,52,3,16,refer,H,B,A,Bent knee
+67e727e0e5b6fb17d760f39f,0,a,0,3,16,social,,A,A,Thriller
+67e727e0e5b6fb17d760f39f,0,a,1,3,16,refer,A,C,A,Italian
+67e727e0e5b6fb17d760f39f,0,a,2,1,4,refer,C,B,A,That guy with a mouse head
+67e727e0e5b6fb17d760f39f,0,a,3,3,8,social,B,D,A,Priest
+67e727e0e5b6fb17d760f39f,0,a,4,1,2,refer,D,E,B,Windmill on a hill
+67e727e0e5b6fb17d760f39f,0,a,5,4,0,refer,E,F,B,Sad boy
+67e727e0e5b6fb17d760f39f,0,a,6,2,2,social,F,G,B,Strike a pose
+67e727e0e5b6fb17d760f39f,0,a,7,1,8,social,G,H,B,Monk
+67e727e0e5b6fb17d760f39f,0,a,8,3,2,social,H,I,C,Yoga guy
+67e727e0e5b6fb17d760f39f,0,a,9,4,1,social,I,J,C,This is image looks like a person with most cubed shaped body
+67e727e0e5b6fb17d760f39f,0,a,10,2,8,social,J,K,C,Duck like posture
+67e727e0e5b6fb17d760f39f,0,a,11,4,16,refer,K,L,C,A man kneeling as if he's praying
+67e727e0e5b6fb17d760f39f,0,a,12,1,1,social,L,A,A,Looks like a person facing on the left direction while carrying a bagpack
+67e727e0e5b6fb17d760f39f,0,a,13,2,4,social,A,B,A,Crazy hat guy
+67e727e0e5b6fb17d760f39f,0,a,14,0,8,refer,B,C,A,Italian guy
+67e727e0e5b6fb17d760f39f,0,a,15,1,0,refer,C,D,A,Priest
+67e727e0e5b6fb17d760f39f,0,a,16,3,1,social,D,E,B,Windmill on a hill
+67e727e0e5b6fb17d760f39f,0,a,17,3,4,social,E,F,B,Sad guy
+67e727e0e5b6fb17d760f39f,0,a,18,4,2,refer,F,G,B,Strike a pose
+67e727e0e5b6fb17d760f39f,0,a,19,2,8,refer,G,H,B,Meditation
+67e727e0e5b6fb17d760f39f,0,a,20,3,8,refer,H,I,C,"Dancing with one leg in the air, another one on the ground while hands facing the left side"
+67e727e0e5b6fb17d760f39f,0,a,21,1,16,social,I,J,C,Blob
+67e727e0e5b6fb17d760f39f,0,a,22,0,4,refer,J,K,C,A duck looking on the right with a diamond head
+67e727e0e5b6fb17d760f39f,0,a,23,1,8,refer,K,L,C,Praying mantis
+67e727e0e5b6fb17d760f39f,0,a,24,4,0,social,L,C,A,Italian guy
+67e727e0e5b6fb17d760f39f,0,a,25,3,0,refer,C,A,A,Thriller
+67e727e0e5b6fb17d760f39f,0,a,26,2,0,refer,A,B,A,"Looks like a mouse head with two ears, one square, one triangle."
+67e727e0e5b6fb17d760f39f,0,a,27,3,2,refer,B,D,A,Priest
+67e727e0e5b6fb17d760f39f,0,a,28,2,16,social,D,E,B,Windmill like guy.
+67e727e0e5b6fb17d760f39f,0,a,29,0,1,refer,E,F,B,Sad boy
+67e727e0e5b6fb17d760f39f,0,a,30,4,8,refer,F,G,B,Strike a pose
+67e727e0e5b6fb17d760f39f,0,a,31,1,16,refer,G,H,B,Monk
+67e727e0e5b6fb17d760f39f,0,a,32,1,0,social,H,I,C,Dancing
+67e727e0e5b6fb17d760f39f,0,a,33,4,4,social,I,J,C,Blob
+67e727e0e5b6fb17d760f39f,0,a,34,2,16,refer,J,K,C,Duck
+67e727e0e5b6fb17d760f39f,0,a,35,2,2,refer,K,L,C,Praying
+67e727e0e5b6fb17d760f39f,0,a,36,3,1,refer,L,A,A,Thriller
+67e727e0e5b6fb17d760f39f,0,a,37,4,1,refer,A,B,A,Crazy hat guy
+67e727e0e5b6fb17d760f39f,0,a,38,4,16,social,B,C,A,Italian
+67e727e0e5b6fb17d760f39f,0,a,39,1,4,social,C,E,B,Windmill head
+67e727e0e5b6fb17d760f39f,0,a,40,2,0,social,E,F,B,Sad guy
+67e727e0e5b6fb17d760f39f,0,a,41,1,2,social,F,G,B,Strike a pose
+67e727e0e5b6fb17d760f39f,0,a,42,2,4,refer,G,H,B,Innocent boy
+67e727e0e5b6fb17d760f39f,0,a,43,0,2,refer,H,I,C,Dance
+67e727e0e5b6fb17d760f39f,0,a,44,2,1,refer,I,J,C,Blob
+67e727e0e5b6fb17d760f39f,0,a,45,2,1,social,J,K,C,Duck head
+67e727e0e5b6fb17d760f39f,0,a,46,4,2,social,K,L,C,Praying
+67e727e0e5b6fb17d760f39f,0,a,47,3,0,social,L,A,A,A guy facing left with his head to the right over his back and a leg out to the left
+67e727e0e5b6fb17d760f39f,0,a,48,3,4,refer,A,B,A,Looks like a kneeling fairy angel
+67e727e0e5b6fb17d760f39f,0,a,49,4,8,social,B,C,A,Italian
+67e727e0e5b6fb17d760f39f,0,a,50,0,16,refer,C,D,A,A student with a long sleeve gown and a graduation cap
+67e727e0e5b6fb17d760f39f,0,a,51,4,4,refer,D,E,B,Windmill on a hill
+67e727e0e5b6fb17d760f39f,0,a,52,1,1,refer,E,F,B,Depressed and sad boy
+5c9ebf067114700016da2813,0,a,0,2,1,refer,,B,A,Praying and looking down
+5c9ebf067114700016da2813,0,a,1,4,1,social,B,C,A,posing like MJ and praising the sun
+5c9ebf067114700016da2813,0,a,2,4,2,social,C,H,B,Innocently looking up
+5c9ebf067114700016da2813,0,a,3,3,4,social,H,D,A,Priest looking up and to left
+5c9ebf067114700016da2813,0,a,4,1,1,social,D,A,A,thriller zombie dance
+5c9ebf067114700016da2813,0,a,5,4,0,social,A,B,A,Praying looking down and to right
+5c9ebf067114700016da2813,0,a,6,1,8,refer,B,H,B,No arms or legs contemplating looking up to left
+5c9ebf067114700016da2813,0,a,7,3,1,social,H,J,C,short square looking up to right
+5c9ebf067114700016da2813,0,a,8,3,2,refer,J,E,B,big bow on head looking down to right
+5c9ebf067114700016da2813,0,a,9,2,8,social,E,L,C,bending knees sticking arms out looking up to right
+5c9ebf067114700016da2813,0,a,10,2,0,social,L,F,B,sadboy
+5c9ebf067114700016da2813,0,a,11,1,1,refer,F,H,B,like ghost looking up no arms or legs
+5c9ebf067114700016da2813,0,a,12,2,16,refer,H,C,A,t posing sideways looking up
+5c9ebf067114700016da2813,0,a,13,1,0,social,C,G,B,horse legs spread
+5c9ebf067114700016da2813,0,a,14,2,8,refer,G,F,B,arms near knees looking up to left
+5c9ebf067114700016da2813,0,a,15,3,1,refer,F,I,C,Ballerina sticking leg out looking up to left
+5c9ebf067114700016da2813,0,a,16,2,2,refer,I,C,A,All you're bases belong to me. Arms spread looking up
+5c9ebf067114700016da2813,0,a,17,3,0,social,C,B,A,mouse
+5c9ebf067114700016da2813,0,a,18,3,16,social,B,L,C,praying bend knees looking up to right
+5c9ebf067114700016da2813,0,a,19,4,8,social,L,E,B,Weird hat looking down to right
+5c9ebf067114700016da2813,0,a,20,2,0,refer,E,F,B,sad boy looking up to left
+5c9ebf067114700016da2813,0,a,21,4,16,refer,F,G,B,legs spread looking up all the way
+5c9ebf067114700016da2813,0,a,22,3,0,refer,G,K,C,praying on knees head up
+5c9ebf067114700016da2813,0,a,23,3,8,refer,K,J,C,short fat square looking down
+5c9ebf067114700016da2813,0,a,24,1,4,refer,J,H,B,Short squarish looking up to left.
+5c9ebf067114700016da2813,0,a,25,4,2,refer,H,D,A,asking for something short looking up
+5c9ebf067114700016da2813,0,a,26,3,2,social,D,F,B,sadboy looking up
+5c9ebf067114700016da2813,0,a,27,1,2,refer,F,A,A,like zombie dance and shirt dangling
+5c9ebf067114700016da2813,0,a,28,0,4,refer,A,C,A,Praise the sun and leaning to the left a bit
+5c9ebf067114700016da2813,0,a,29,1,16,refer,C,G,B,"Legs spread, hands up, one big leg, other leg is small."
+5c9ebf067114700016da2813,0,a,30,0,16,refer,G,H,B,looks like walking w/ hands behind back looking up to left
+5c9ebf067114700016da2813,0,a,31,0,2,refer,H,C,A,arms wide open falling to the left
+5c9ebf067114700016da2813,0,a,32,3,8,social,C,G,B,head diamond falling
+5c9ebf067114700016da2813,0,a,33,0,8,refer,G,L,C,standing and knees bent
+5c9ebf067114700016da2813,0,a,34,1,2,social,L,H,B,looks innocent no arms or legs
+5c9ebf067114700016da2813,0,a,35,1,16,social,H,A,A,looks like thriller dance
+5c9ebf067114700016da2813,0,a,36,4,16,social,A,F,B,looks sad sitting knees bent and looking to left
+5c9ebf067114700016da2813,0,a,37,3,4,refer,F,B,A,praying hands together looking down and to right
+5c9ebf067114700016da2813,0,a,38,4,1,refer,B,D,A,begging standing short looking up left
+5c9ebf067114700016da2813,0,a,39,4,0,refer,D,A,A,looks like its dancing and taking a big step
+5c9ebf067114700016da2813,0,a,40,1,8,social,A,H,B,no arms or legs looking up
+5c9ebf067114700016da2813,0,a,41,2,4,social,H,C,A,italian arms spread looking up
+5c9ebf067114700016da2813,0,a,42,3,16,refer,C,I,C,leg all way up looking up left
+5c9ebf067114700016da2813,0,a,43,4,4,social,I,E,B,Weird head looking down right
+5c9ebf067114700016da2813,0,a,44,2,4,refer,E,K,C,praying triangle leg pointing up and head up
+5c9ebf067114700016da2813,0,a,45,2,16,social,K,A,A,looks like thriller dance
+5c9ebf067114700016da2813,0,a,46,0,1,refer,A,F,B,sitting knees bent looking left
+5c9ebf067114700016da2813,0,a,47,4,4,refer,F,H,B,no arms or legs looking up left
+5c9ebf067114700016da2813,0,a,48,1,0,refer,H,A,A,undead dance
+5c9ebf067114700016da2813,0,a,49,2,1,social,A,B,A,mouse praying looking down
+5c9ebf067114700016da2813,0,a,50,2,2,social,B,C,A,italian arms spread the most
+5c9ebf067114700016da2813,0,a,51,4,8,refer,C,D,A,fat hands sticking out left and looking up
+5c9ebf067114700016da2813,0,a,52,1,4,social,D,H,B,no arms or legs fat looking up
+670a0a98237adcfed719f255,0,a,0,2,16,social,,C,A,Italian
+670a0a98237adcfed719f255,0,a,1,1,4,refer,C,A,A,thriller
+670a0a98237adcfed719f255,0,a,2,3,0,refer,A,F,B,sad one
+670a0a98237adcfed719f255,0,a,3,0,4,refer,F,C,A,italian
+670a0a98237adcfed719f255,0,a,4,0,1,refer,C,D,A,priest
+670a0a98237adcfed719f255,0,a,5,4,8,social,D,E,B,funny hat
+670a0a98237adcfed719f255,0,a,6,1,0,social,E,D,A,priest
+670a0a98237adcfed719f255,0,a,7,2,4,refer,D,H,B,the one with no arms
+670a0a98237adcfed719f255,0,a,8,0,16,refer,H,D,A,price
+670a0a98237adcfed719f255,0,a,9,0,2,refer,D,A,A,thriller
+670a0a98237adcfed719f255,0,a,10,4,8,refer,A,F,B,sad one
+670a0a98237adcfed719f255,0,a,11,3,1,social,F,A,A,thriller
+670a0a98237adcfed719f255,0,a,12,3,2,social,A,H,B,the one with no arms
+670a0a98237adcfed719f255,0,a,13,1,1,social,H,D,A,priest
+670a0a98237adcfed719f255,0,a,14,1,16,social,D,A,A,thriller
+670a0a98237adcfed719f255,0,a,15,2,0,social,A,C,A,italian
+670a0a98237adcfed719f255,0,a,16,3,4,social,C,D,A,priest
+670a0a98237adcfed719f255,0,a,17,4,4,social,D,A,A,thriller
+670a0a98237adcfed719f255,0,a,18,2,16,refer,A,B,A,the kneeling one
+670a0a98237adcfed719f255,0,a,19,4,16,social,B,A,A,thriller
+670a0a98237adcfed719f255,0,a,20,4,0,social,A,C,A,italian
+670a0a98237adcfed719f255,0,a,21,2,1,social,C,F,B,sad one
+670a0a98237adcfed719f255,0,a,22,4,16,refer,F,H,B,the one with no arms
+670a0a98237adcfed719f255,0,a,23,3,2,refer,H,E,B,funny hat
+670a0a98237adcfed719f255,0,a,24,4,1,social,E,B,A,the one kneeling
+670a0a98237adcfed719f255,0,a,25,2,0,refer,B,A,A,thriller
+670a0a98237adcfed719f255,0,a,26,1,2,refer,A,C,A,italian
+670a0a98237adcfed719f255,0,a,27,1,8,social,C,H,B,no arms
+670a0a98237adcfed719f255,0,a,28,3,4,refer,H,B,A,kneeling one
+670a0a98237adcfed719f255,0,a,29,3,16,refer,B,D,A,priest
+670a0a98237adcfed719f255,0,a,30,1,16,refer,D,F,B,sad one
+670a0a98237adcfed719f255,0,a,31,3,16,social,F,I,C,the one with 2 triangles pointing to the left
+670a0a98237adcfed719f255,0,a,32,2,2,refer,I,H,B,no arms
+670a0a98237adcfed719f255,0,a,33,1,1,refer,H,E,B,funny hat
+670a0a98237adcfed719f255,0,a,34,3,0,social,E,C,A,italian
+670a0a98237adcfed719f255,0,a,35,4,2,refer,C,D,A,priest
+670a0a98237adcfed719f255,0,a,36,4,0,refer,D,A,A,thriller
+670a0a98237adcfed719f255,0,a,37,0,8,refer,A,B,A,kneeling one
+670a0a98237adcfed719f255,0,a,38,4,2,social,B,A,A,thriller
+670a0a98237adcfed719f255,0,a,39,1,4,social,A,D,A,priest
+670a0a98237adcfed719f255,0,a,40,2,8,social,D,F,B,sad one
+670a0a98237adcfed719f255,0,a,41,2,8,refer,F,H,B,no arms
+670a0a98237adcfed719f255,0,a,42,3,8,refer,H,I,C,two triangles facing the left
+670a0a98237adcfed719f255,0,a,43,4,4,refer,I,C,A,italian
+670a0a98237adcfed719f255,0,a,44,1,2,social,C,A,A,thriller
+670a0a98237adcfed719f255,0,a,45,2,4,social,A,H,B,no arms
+670a0a98237adcfed719f255,0,a,46,1,8,refer,H,A,A,thriller
+670a0a98237adcfed719f255,0,a,47,4,1,refer,A,B,A,kneeling one
+670a0a98237adcfed719f255,0,a,48,2,2,social,B,D,A,priest
+670a0a98237adcfed719f255,0,a,49,1,0,refer,D,A,A,thriller
+670a0a98237adcfed719f255,0,a,50,3,8,social,A,I,C,two triangles facing the left
+670a0a98237adcfed719f255,0,a,51,3,1,refer,I,F,B,sad one
+670a0a98237adcfed719f255,0,a,52,2,1,refer,F,H,B,no arm
+67b1e771274d3a16c4e32358,0,a,0,4,0,refer,,A,A,Thriller
+67b1e771274d3a16c4e32358,0,a,1,1,8,social,A,B,A,mouse head
+67b1e771274d3a16c4e32358,0,a,2,2,8,social,B,C,A,Italian guy with arms raised
+67b1e771274d3a16c4e32358,0,a,3,0,8,refer,C,D,A,priest facing left
+67b1e771274d3a16c4e32358,0,a,4,2,0,refer,D,E,B,crazy hat guy
+67b1e771274d3a16c4e32358,0,a,5,1,0,refer,E,F,B,sad boi
+67b1e771274d3a16c4e32358,0,a,6,2,2,social,F,G,B,horse
+67b1e771274d3a16c4e32358,0,a,7,4,2,social,G,H,B,innocent guy
+67b1e771274d3a16c4e32358,0,a,8,1,8,refer,H,I,C,yoga
+67b1e771274d3a16c4e32358,0,a,9,0,4,refer,I,J,C,square on top
+67b1e771274d3a16c4e32358,0,a,10,1,4,social,J,K,C,mouse head with square on top
+67b1e771274d3a16c4e32358,0,a,11,1,0,social,K,L,C,a person kneeling with arms facing right
+67b1e771274d3a16c4e32358,0,a,12,4,8,social,L,F,B,sad boi
+67b1e771274d3a16c4e32358,0,a,13,2,1,social,F,A,A,a person walking towards left carrying a square bag
+67b1e771274d3a16c4e32358,0,a,14,1,2,social,A,D,A,priest facing left
+67b1e771274d3a16c4e32358,0,a,15,3,1,social,D,B,A,mouse facing left
+67b1e771274d3a16c4e32358,0,a,16,1,16,social,B,E,B,crazy hat
+67b1e771274d3a16c4e32358,0,a,17,1,1,social,E,C,A,Italian guy
+67b1e771274d3a16c4e32358,0,a,18,2,16,social,C,D,A,priest with hands facing left
+67b1e771274d3a16c4e32358,0,a,19,2,8,refer,D,H,B,innocent guy
+67b1e771274d3a16c4e32358,0,a,20,2,4,refer,H,I,C,yoga
+67b1e771274d3a16c4e32358,0,a,21,3,0,social,I,A,A,thriller
+67b1e771274d3a16c4e32358,0,a,22,1,4,refer,A,K,C,a person with arms facing right
+67b1e771274d3a16c4e32358,0,a,23,3,2,refer,K,C,A,italian guy
+67b1e771274d3a16c4e32358,0,a,24,3,16,social,C,F,B,sad boi
+67b1e771274d3a16c4e32358,0,a,25,4,4,refer,F,A,A,triller
+67b1e771274d3a16c4e32358,0,a,26,3,8,refer,A,E,B,crazy hat guy
+67b1e771274d3a16c4e32358,0,a,27,1,16,refer,E,D,A,priest
+67b1e771274d3a16c4e32358,0,a,28,3,16,refer,D,I,C,dance with one leg raised
+67b1e771274d3a16c4e32358,0,a,29,3,4,social,I,C,A,italian
+67b1e771274d3a16c4e32358,0,a,30,0,2,refer,C,E,B,crazy hat guy
+67b1e771274d3a16c4e32358,0,a,31,4,8,refer,E,D,A,priest facing left
+67b1e771274d3a16c4e32358,0,a,32,4,0,social,D,B,A,mouse head
+67b1e771274d3a16c4e32358,0,a,33,4,1,social,B,A,A,triller
+67b1e771274d3a16c4e32358,0,a,34,2,2,refer,A,L,C,praying person
+67b1e771274d3a16c4e32358,0,a,35,2,0,social,L,G,B,horse
+67b1e771274d3a16c4e32358,0,a,36,2,1,refer,G,F,B,sad boy
+67b1e771274d3a16c4e32358,0,a,37,1,2,refer,F,I,C,yoga
+67b1e771274d3a16c4e32358,0,a,38,0,1,refer,I,H,B,innocent
+67b1e771274d3a16c4e32358,0,a,39,3,4,refer,H,C,A,Italian with hands raised
+67b1e771274d3a16c4e32358,0,a,40,3,8,social,C,D,A,priest
+67b1e771274d3a16c4e32358,0,a,41,1,1,refer,D,G,B,horse
+67b1e771274d3a16c4e32358,0,a,42,3,2,social,G,L,C,kneeling person with hands to the right
+67b1e771274d3a16c4e32358,0,a,43,2,16,refer,L,E,B,crazy hat
+67b1e771274d3a16c4e32358,0,a,44,3,0,refer,E,B,A,mouse with a square on the head
+67b1e771274d3a16c4e32358,0,a,45,2,4,social,B,K,C,a person kneeling with hands stretching to the right
+67b1e771274d3a16c4e32358,0,a,46,3,1,refer,K,C,A,Italian singer
+67b1e771274d3a16c4e32358,0,a,47,0,16,refer,C,A,A,triller
+67b1e771274d3a16c4e32358,0,a,48,4,2,refer,A,D,A,priest
+67b1e771274d3a16c4e32358,0,a,49,4,1,refer,D,I,C,yoga dance
+67b1e771274d3a16c4e32358,0,a,50,4,16,social,I,F,B,Innocent
+67b1e771274d3a16c4e32358,0,a,51,4,4,social,F,G,B,horse galloping
+67b1e771274d3a16c4e32358,0,a,52,4,16,refer,G,K,C,praying person with hands to the right
