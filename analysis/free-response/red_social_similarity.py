@@ -17,9 +17,9 @@ import numpy as np
 from sentence_transformers import SentenceTransformer, util
 from tqdm import tqdm
 
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../"))
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
 converged_expressions_path = os.path.join(
-    PROJECT_ROOT, "data/3pp/free-response/converged_expressions.csv"
+    PROJECT_ROOT, "data/free-response/converged_expressions.csv"
 )
 print(f"Loading converged expressions from {converged_expressions_path}")
 # Load converged expressions
@@ -58,7 +58,7 @@ def get_relevant_trials(csv_path):
 
 # Get relevant trials
 selection_trials_path = os.path.join(
-    PROJECT_ROOT, "data/3pp/free-response/selection_trials.csv"
+    PROJECT_ROOT, "data/free-response/selection_trials.csv"
 )
 social_trials = get_relevant_trials(selection_trials_path)
 
@@ -123,7 +123,7 @@ results_df = pd.DataFrame(results)
 # Save detailed results
 results_df.to_csv(
     os.path.join(
-        PROJECT_ROOT, "analysis/3pp/free-response/red_social_similarity_results.csv"
+        PROJECT_ROOT, "analysis/free-response/red_social_similarity_results.csv"
     ),
     index=False,
 )

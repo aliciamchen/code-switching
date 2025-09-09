@@ -6,7 +6,7 @@ import uuid
 
 def main():
 
-    in_dir = "../../../data/3pp/earlier-later/"
+    in_dir = "../../data/earlier-later/"
     filenames = sorted(glob.glob(in_dir + "raw_data" + "/*.json"))
     print(f"Found {len(filenames)} files")
 

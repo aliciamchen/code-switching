@@ -26,10 +26,10 @@ options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
 # Load data and demographics
 
 ```{r}
-data <- read_csv(here("data/3pp/free-response/selection_trials.csv")) %>%
+data <- read_csv(here("data/free-response/selection_trials.csv")) %>%
   mutate(prop_naive = n_naive / (n_blue + n_naive))
 
-demographics <- read_csv(here("data/3pp/free-response/exit_survey.csv"))
+demographics <- read_csv(here("data/free-response/exit_survey.csv"))
 ```
 
 Summary statistics
@@ -107,7 +107,7 @@ Filter out participants who perform in bottom 50% of the distribution of `utt_me
 data_better_performance <- data %>%
   filter(subject_id %in% learning_metrics$subject_id[learning_metrics$utt_memory > quantile(learning_metrics$utt_memory, 0.5)])
 
-write_csv(data_better_performance, here("data/3pp/free-response/selection_trials_filtered.csv"))
+write_csv(data_better_performance, here("data/free-response/selection_trials_filtered.csv"))
 ```
 
 
@@ -140,7 +140,7 @@ plot_data <- do.call(rbind, plot_data)
 colnames(plot_data)[1:2] <- c("row", "col")
 
 plot_data$image <- file.path(
-  "../../../experiments/3pp/free-response/stim/tangrams",
+  "../../experiments/free-response/stim/tangrams",
   paste0("tangram_", plot_data$letter, ".png")
 )
 
@@ -232,13 +232,13 @@ converged_expressions <- data %>%
   summarise()
 
 # save to csv
-write_csv(converged_expressions, here("data/3pp/free-response/converged_expressions.csv"))
+write_csv(converged_expressions, here("data/free-response/converged_expressions.csv"))
 ```
 
 This is where we run `red_social_similarity.py` and the output of that is in `red_social_similarity_results.csv`
 
 ```{r}
-red_social_similarity <- read_csv(here("analysis/3pp/free-response/red_social_similarity_results.csv"))
+red_social_similarity <- read_csv(here("analysis/free-response/red_social_similarity_results.csv"))
 ```
 
 ```{r}

@@ -6,7 +6,7 @@ import uuid
 
 def main():
 
-    in_dir = "../../../data/3pp/shared-unique/"
+    in_dir = "../../data/shared-unique/"
     filenames = sorted(glob.glob(in_dir + "raw_data" + "/*.json"))
 
     selection_trial_headers = [
