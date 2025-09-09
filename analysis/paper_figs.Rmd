@@ -35,15 +35,15 @@ palette <- c(
 
 
 ```{r}
-data <- read_csv(here("data/3pp/free-response/selection_trials.csv")) %>%
+data <- read_csv(here("data/free-response/selection_trials.csv")) %>%
   mutate(prop_naive = n_naive / (n_blue + n_naive),
          goal = if_else(goal == "refer", "Refer", "Social"))
 
-data_filtered <- read_csv(here("data/3pp/free-response/selection_trials_filtered.csv")) %>%
+data_filtered <- read_csv(here("data/free-response/selection_trials_filtered.csv")) %>%
   mutate(prop_naive = n_naive / (n_blue + n_naive),
          goal = if_else(goal == "refer", "Refer", "Social"))
 
-demographics <- read_csv(here("data/3pp/free-response/exit_survey.csv"))
+demographics <- read_csv(here("data/free-response/exit_survey.csv"))
 ```
 
 ## Tangram selection
