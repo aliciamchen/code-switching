@@ -20,3 +20,8 @@ sandbox
 **/stim/convo_vids/images
 **/stim/convo_vids/texts
 **/stim/scripts/media/texts
+data/1pp
+**/pilots
+experiments/1pp-interactive
+figures/PDF/cogsci-2025
+analysis/1pp

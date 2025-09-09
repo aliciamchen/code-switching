@@ -59,13 +59,12 @@ Demographics
 
 ```{r}
 exit_survey %>%
-  filter(understood == "yes") %>%
   group_by(gender) %>%
   count()
 
 exit_survey %>%
-  filter(understood == "yes") %>%
-  summarize(mean_age = mean(age), sd_age = sd(age))
+  summarize(mean_age = mean(age), sd_age = sd(age), min_age = min(age),
+    max_age = max(age))
 ```
 
 
