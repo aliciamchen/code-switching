@@ -182,7 +182,9 @@ ggplot(main.trials,
   scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
 ```
 
-# Baseline trials
+
+
+# Visualize things about baseline trials
 
 ## "Refer" goal
 
@@ -259,7 +261,7 @@ ggplot(baseline.trials.social.means, aes(x = `red - blue`, y = empirical_stat)) 
   geom_point(size = 3, fill = "black") +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 1.5, width = 0.2) +
   geom_hline(yintercept = 0.5, color = "red", linetype = "dashed") +
-  labs(x = "red label - blue label", y = "P(correct group)", title = "Study 1b manipulation checks, social goal") +
+  labs(x = "red label - blue label", y = "P(correct group)", title = "Manipulation checks, social goal") +
   scale_y_continuous(limits = c(0, 1)) +
   theme(text = element_text(size = 15), axis.text.x = element_text(angle = 45, hjust = 1))
 ```
@@ -304,7 +306,11 @@ merged_data <- merged_data %>%
   inner_join(pct.correct.social, by = "subject_id")
 
 # correlate effect size with pct_correct
+sink(here("analysis/earlier-later/model_outputs.txt"))
+
 cor.test(merged_data$effect_size, merged_data$pct_correct)
+
+sink()
 ```
 plot scatterplot of effect size vs pct_correct
 ```{r}
@@ -346,6 +352,117 @@ ggplot(baseline.trials.total, aes(x = subject_id, y = total, fill = goal)) +
   labs(x = "participant", y = "total correct", fill = "trial type", title = "baseline trials") +
   theme(axis.text.x = element_blank()) + 
   scale_fill_brewer(palette = "Set2") 
+```
+
+# Data analysis
+
+## main trials
+
+```{r}
+sink(here("analysis/earlier-later/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+mod <- glmer(response.earlier ~ condition * shared + (condition * shared | subject_id) + (condition | item_id/ tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 20000)))
+summary(mod)
+
+sink()
+```
+
+Comparisons between means
+
+```{r}
+sink(here("analysis/earlier-later/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+emmeans(mod, pairwise ~ condition) %>%
+  summary(infer = T)
+
+sink()
+```
+
+```{r}
+# We want to check if "one social" is greater than  "one refer" and "either refer" together
+
+sink(here("analysis/earlier-later/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+emmeans_results <- emmeans(mod, ~ condition)
+grouped_contrast <- contrast(emmeans_results,
+                             method = list("one social - grouped refer" = c(0.5, 0.5, -1)),
+                             adjust = "none")
+summary(grouped_contrast, infer = T)
+
+sink()
+```
+
+Broken down by tangram type
+
+```{r}
+sink(here("analysis/earlier-later/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+emmeans(mod, pairwise ~ condition|shared) %>%
+  summary(infer = T)
+
+sink()
+```
+
+```{r}
+sink(here("analysis/earlier-later/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+emmeans(mod, pairwise ~ condition*shared) %>%
+  summary(infer = T)
+
+sink()
+```
+
+## Baseline trials
+
+For the "refer" goal, do participants successfully choose the seen label over the unseen label?
+
+```{r}
+sink(here("analysis/earlier-later/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+mod.same.refer <- glmer(seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id / tangram), data = baseline.trials.refer, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+summary(mod.same.refer)
+
+sink()
+```
+
+For the "social" goal, do participants successfully choose the tangram that belongs to the audience group?
+
+```{r}
+sink(here("analysis/earlier-later/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id / tangram), data = baseline.trials.social, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+summary(mod.same.social)
+
+sink()
+```
+
+Convert intercepts from logit scale
+
+```{r}
+# Inverse logit function
+inv_logit <- function(x) {
+  exp(x) / (1 + exp(x))
+}
+
+sink(here("analysis/earlier-later/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+cat("Baseline refer (inverse logit of intercept):\n")
+print(inv_logit(fixef(mod.same.refer)))
+
+cat("\n")
+
+cat("Baseline social (inverse logit of intercept):\n")
+print(inv_logit(fixef(mod.same.social)))
+
+sink()
 ```
 
 # Only look at participants who did above chance on the baselines
@@ -432,71 +549,7 @@ ggplot(main.trials,
   scale_color_discrete(name = "label", labels = c("shared", "group-specific"))
 ```
 
-# Data analysis
 
-## main trials
-
-```{r}
-mod <- glmer(response.earlier ~ condition * shared + (condition * shared | subject_id) + (condition | item_id/ tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 20000)))
-summary(mod)
-```
-
-Comparisons between means
-
-```{r}
-emmeans(mod, pairwise ~ condition) %>%
-  summary(infer = T)
-```
-
-```{r}
-# We want to check if "one social" is greater than  "one refer" and "either refer" together
-
-emmeans_results <- emmeans(mod, ~ condition)
-grouped_contrast <- contrast(emmeans_results, 
-                             method = list("one social - grouped refer" = c(0.5, 0.5, -1)),
-                             adjust = "none") 
-summary(grouped_contrast, infer = T)
-```
-
-Broken down by tangram type
-
-```{r}
-emmeans(mod, pairwise ~ condition|shared) %>%
-  summary(infer = T)
-```
-
-```{r}
-emmeans(mod, pairwise ~ condition*shared) %>%
-  summary(infer = T)
-```
-
-## Baseline trials
-
-For the "refer" goal, do participants successfully choose the seen label over the unseen label?
-
-```{r}
-mod.same.refer <- glmer(seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id / tangram), data = baseline.trials.refer, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
-summary(mod.same.refer)
-```
-
-For the "social" goal, do participants successfully choose the tangram that belongs to the audience group?
-
-```{r}
-mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id / tangram), data = baseline.trials.social, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
-summary(mod.same.social)
-```
-
-Convert intercepts from logit scale
-
-```{r}
-# Inverse logit function
-inv_logit <- function(x) {
-  exp(x) / (1 + exp(x))
-}
-
-inv_logit(fixef(mod.same.refer))
-inv_logit(fixef(mod.same.social))
-```
 
 # Exit survey
 
