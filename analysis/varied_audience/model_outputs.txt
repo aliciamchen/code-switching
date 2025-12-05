@@ -1,0 +1,435 @@
+
+Call:
+lm(formula = empirical_stat ~ transparency_diff + length.diff, 
+    data = means.by.item %>% filter(goal == "refer"))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.180872 -0.052274 -0.006408  0.061886  0.094520 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.670901   0.031044  21.611  < 2e-16 ***
+transparency_diff 0.172131   0.062702   2.745  0.00997 ** 
+length.diff       0.001161   0.001129   1.029  0.31141    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.07224 on 31 degrees of freedom
+Multiple R-squared:  0.2637,	Adjusted R-squared:  0.2162 
+F-statistic: 5.551 on 2 and 31 DF,  p-value: 0.008697
+
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: response.seen ~ 1 + (1 | subject_id) + (1 | item_id/tangram)
+   Data: baseline.trials
+Control: glmerControl(optimizer = "bobyqa")
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+    725.1     745.1    -358.6     717.1      1070 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.8992  0.1715  0.2321  0.3209  1.5054 
+
+Random effects:
+ Groups          Name        Variance Std.Dev.
+ subject_id      (Intercept) 1.7110   1.3081  
+ tangram:item_id (Intercept) 0.3771   0.6141  
+ item_id         (Intercept) 0.0000   0.0000  
+Number of obs: 1074, groups:  subject_id, 179; tangram:item_id, 18; item_id, 3
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   2.7509     0.2569   10.71   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+
+Baseline (inverse logit of intercept):
+(Intercept) 
+  0.9399627 
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: response.earlier ~ prop_outgroup * goal + n_total + (1 | subject_id) +      (1 | item_id/tangram)
+   Data: main_trials
+Control: glmerControl(optimizer = "bobyqa")
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   9848.5    9905.8   -4916.3    9832.5      9479 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-8.8773 -0.6265  0.2135  0.5845  4.8845 
+
+Random effects:
+ Groups          Name        Variance Std.Dev.
+ subject_id      (Intercept) 1.4283   1.1951  
+ tangram:item_id (Intercept) 0.1619   0.4024  
+ item_id         (Intercept) 0.0000   0.0000  
+Number of obs: 9487, groups:  subject_id, 179; tangram:item_id, 18; item_id, 3
+
+Fixed effects:
+                      Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         -0.8982158  0.1404035  -6.397 1.58e-10 ***
+prop_outgroup        2.0506170  0.1089518  18.821  < 2e-16 ***
+goal1                0.4912888  0.0506784   9.694  < 2e-16 ***
+n_total              0.0003835  0.0061739   0.062     0.95    
+prop_outgroup:goal1  0.7160910  0.0833693   8.589  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) prp_tg goal1  n_totl
+prop_outgrp -0.201                     
+goal1       -0.041  0.170              
+n_total     -0.060 -0.641 -0.100       
+prp_tgrp:g1  0.025 -0.195 -0.850  0.185
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: response.earlier ~ prop_outgroup * goal + n_total + transparency_diff +      (1 | subject_id) + (1 | item_id/tangram)
+   Data: main_trials
+Control: glmerControl(optimizer = "bobyqa")
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   9839.3    9903.7   -4910.7    9821.3      9478 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-8.3419 -0.6299  0.2128  0.5887  4.9188 
+
+Random effects:
+ Groups          Name        Variance Std.Dev.
+ subject_id      (Intercept) 1.42703  1.1946  
+ tangram:item_id (Intercept) 0.09973  0.3158  
+ item_id         (Intercept) 0.00000  0.0000  
+Number of obs: 9487, groups:  subject_id, 179; tangram:item_id, 18; item_id, 3
+
+Fixed effects:
+                      Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         -0.9662478  0.1290690  -7.486 7.08e-14 ***
+prop_outgroup        2.0563229  0.1090190  18.862  < 2e-16 ***
+goal1                0.4922962  0.0507278   9.705  < 2e-16 ***
+n_total              0.0003807  0.0061733   0.062 0.950821    
+transparency_diff    0.6634575  0.1945059   3.411 0.000647 ***
+prop_outgroup:goal1  0.7148018  0.0834135   8.569  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) prp_tg goal1  n_totl trnsp_
+prop_outgrp -0.222                            
+goal1       -0.046  0.171                     
+n_total     -0.066 -0.641 -0.100              
+trnsprncy_d -0.157  0.023  0.011  0.001       
+prp_tgrp:g1  0.028 -0.195 -0.850  0.185 -0.001
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+
+Data: main_trials
+Models:
+mod.without.transparency: response.earlier ~ prop_outgroup * goal + n_total + (1 | subject_id) + (1 | item_id/tangram)
+mod.with.transparency: response.earlier ~ prop_outgroup * goal + n_total + transparency_diff + (1 | subject_id) + (1 | item_id/tangram)
+                         npar    AIC    BIC  logLik -2*log(L)  Chisq Df Pr(>Chisq)    
+mod.without.transparency    8 9848.5 9905.8 -4916.3    9832.5                         
+mod.with.transparency       9 9839.3 9903.7 -4910.7    9821.3 11.204  1  0.0008162 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: response.earlier ~ poly(prop_outgroup, 2) * goal + transparency_diff +  
+    (prop_outgroup + goal | subject_id) + (prop_outgroup + goal |      item_id/tangram)
+   Data: main_trials
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 5e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   7919.1    8098.0   -3934.5    7869.1      9462 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-7.9714 -0.3793  0.0841  0.3940  9.8016 
+
+Random effects:
+ Groups          Name          Variance Std.Dev. Corr       
+ subject_id      (Intercept)   5.413186 2.32663             
+                 prop_outgroup 9.907045 3.14755  -0.74      
+                 goal1         3.125944 1.76803  -0.66  0.54
+ tangram:item_id (Intercept)   0.078981 0.28104             
+                 prop_outgroup 0.134137 0.36625  0.20       
+                 goal1         0.006263 0.07914  1.00  0.14 
+ item_id         (Intercept)   0.007167 0.08466             
+                 prop_outgroup 0.107442 0.32778  -1.00      
+                 goal1         0.020648 0.14369  -1.00  1.00
+Number of obs: 9487, groups:  subject_id, 179; tangram:item_id, 18; item_id, 3
+
+Fixed effects:
+                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                     0.1225     0.1655   0.740 0.459362    
+poly(prop_outgroup, 2)1       116.8508    11.0167  10.607  < 2e-16 ***
+poly(prop_outgroup, 2)2       -28.9379     3.2721  -8.844  < 2e-16 ***
+goal1                           1.5290     0.1666   9.176  < 2e-16 ***
+transparency_diff               1.0029     0.2187   4.586 4.52e-06 ***
+poly(prop_outgroup, 2)1:goal1  23.0498     3.3884   6.802 1.03e-11 ***
+poly(prop_outgroup, 2)2:goal1 -12.2354     3.3179  -3.688 0.000226 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) pl(_,2)1 pl(_,2)2 goal1  trnsp_ p(_,2)1:
+ply(pr_,2)1  0.310                                         
+ply(pr_,2)2  0.016  0.015                                  
+goal1        0.001  0.637   -0.038                         
+trnsprncy_d -0.132  0.016   -0.001    0.009                
+ply(_,2)1:1  0.050 -0.056   -0.134    0.020  0.002         
+ply(_,2)2:1 -0.024  0.029   -0.221    0.063 -0.004  0.045  
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+
+degree = linear:
+ goal   prop_outgroup.trend    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer                 3.83 0.365 Inf      3.12     4.550  10.492  <.0001
+ social                2.73 0.380 Inf      1.98     3.475   7.176  <.0001
+
+degree = quadratic:
+ goal   prop_outgroup.trend    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer                -4.49 0.448 Inf     -5.37    -3.608 -10.009  <.0001
+ social               -1.82 0.561 Inf     -2.92    -0.721  -3.244  0.0012
+
+Confidence level used: 0.95 
+
+
+Data: main_trials
+Models:
+mod.with.transparency: response.earlier ~ prop_outgroup * goal + n_total + transparency_diff + (1 | subject_id) + (1 | item_id/tangram)
+mod.with.transparency.poly: response.earlier ~ poly(prop_outgroup, 2) * goal + transparency_diff + (prop_outgroup + goal | subject_id) + (prop_outgroup + goal | item_id/tangram)
+                           npar    AIC    BIC  logLik -2*log(L)  Chisq Df Pr(>Chisq)    
+mod.with.transparency         9 9839.3 9903.7 -4910.7    9821.3                         
+mod.with.transparency.poly   25 7919.1 8098.0 -3934.5    7869.1 1952.3 16  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$emmeans
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer    2.22 0.238 Inf      1.75     2.685   9.306  <.0001
+ social  -1.12 0.237 Inf     -1.58    -0.655  -4.722  <.0001
+
+Results are given on the logit (not the response) scale. 
+Confidence level used: 0.95 
+
+$contrasts
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.34 0.337 Inf      2.68         4   9.902  <.0001
+
+Results are given on the log odds ratio (not the response) scale. 
+Confidence level used: 0.95 
+
+
+
+$emmeans
+prop_outgroup = 0.000:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer  -1.313 0.189 Inf   -1.6823   -0.9433  -6.963  <.0001
+ social -3.207 0.355 Inf   -3.9031   -2.5111  -9.031  <.0001
+
+prop_outgroup = 0.200:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   0.274 0.176 Inf   -0.0715    0.6202   1.555  0.1200
+ social -2.328 0.293 Inf   -2.9034   -1.7533  -7.936  <.0001
+
+prop_outgroup = 0.250:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   0.615 0.181 Inf    0.2598    0.9704   3.393  0.0007
+ social -2.131 0.282 Inf   -2.6851   -1.5777  -7.545  <.0001
+
+prop_outgroup = 0.333:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   1.133 0.193 Inf    0.7542    1.5119   5.861  <.0001
+ social -1.823 0.267 Inf   -2.3468   -1.3000  -6.828  <.0001
+
+prop_outgroup = 0.400:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   1.503 0.205 Inf    1.1002    1.9050   7.318  <.0001
+ social -1.595 0.257 Inf   -2.0982   -1.0922  -6.216  <.0001
+
+prop_outgroup = 0.500:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   1.982 0.226 Inf    1.5398    2.4244   8.783  <.0001
+ social -1.283 0.243 Inf   -1.7604   -0.8061  -5.271  <.0001
+
+prop_outgroup = 0.571:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   2.270 0.241 Inf    1.7965    2.7428   9.402  <.0001
+ social -1.083 0.236 Inf   -1.5450   -0.6204  -4.590  <.0001
+
+prop_outgroup = 0.667:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   2.582 0.264 Inf    2.0646    3.0991   9.783  <.0001
+ social -0.844 0.229 Inf   -1.2931   -0.3952  -3.685  0.0002
+
+prop_outgroup = 0.727:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   2.738 0.279 Inf    2.1906    3.2857   9.801  <.0001
+ social -0.710 0.228 Inf   -1.1557   -0.2635  -3.118  0.0018
+
+prop_outgroup = 0.800:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   2.882 0.299 Inf    2.2952    3.4691   9.623  <.0001
+ social -0.566 0.230 Inf   -1.0169   -0.1146  -2.458  0.0140
+
+prop_outgroup = 0.842:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   2.944 0.312 Inf    2.3321    3.5555   9.432  <.0001
+ social -0.491 0.234 Inf   -0.9507   -0.0319  -2.096  0.0361
+
+prop_outgroup = 0.889:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   2.994 0.327 Inf    2.3527    3.6348   9.153  <.0001
+ social -0.416 0.242 Inf   -0.8901    0.0580  -1.720  0.0854
+
+prop_outgroup = 0.941:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   3.026 0.345 Inf    2.3497    3.7028   8.767  <.0001
+ social -0.341 0.254 Inf   -0.8395    0.1565  -1.344  0.1789
+
+prop_outgroup = 1.000:
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   3.034 0.368 Inf    2.3131    3.7539   8.253  <.0001
+ social -0.269 0.273 Inf   -0.8046    0.2657  -0.987  0.3237
+
+Results are given on the logit (not the response) scale. 
+Confidence level used: 0.95 
+
+$contrasts
+prop_outgroup = 0.000:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     1.89 0.368 Inf      1.17      2.62   5.142  <.0001
+
+prop_outgroup = 0.200:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     2.60 0.340 Inf      1.94      3.27   7.654  <.0001
+
+prop_outgroup = 0.250:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     2.75 0.339 Inf      2.08      3.41   8.114  <.0001
+
+prop_outgroup = 0.333:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     2.96 0.338 Inf      2.29      3.62   8.749  <.0001
+
+prop_outgroup = 0.400:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.10 0.338 Inf      2.44      3.76   9.165  <.0001
+
+prop_outgroup = 0.500:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.27 0.338 Inf      2.60      3.93   9.669  <.0001
+
+prop_outgroup = 0.571:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.35 0.337 Inf      2.69      4.01   9.952  <.0001
+
+prop_outgroup = 0.667:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.43 0.336 Inf      2.77      4.08  10.209  <.0001
+
+prop_outgroup = 0.727:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.45 0.336 Inf      2.79      4.11  10.275  <.0001
+
+prop_outgroup = 0.800:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.45 0.338 Inf      2.79      4.11  10.208  <.0001
+
+prop_outgroup = 0.842:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.44 0.341 Inf      2.77      4.10  10.077  <.0001
+
+prop_outgroup = 0.889:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.41 0.347 Inf      2.73      4.09   9.840  <.0001
+
+prop_outgroup = 0.941:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.37 0.356 Inf      2.67      4.07   9.453  <.0001
+
+prop_outgroup = 1.000:
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social     3.30 0.372 Inf      2.57      4.03   8.868  <.0001
+
+Results are given on the log odds ratio (not the response) scale. 
+Confidence level used: 0.95 
+
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: response.earlier ~ goal + (1 + goal | subject_id) + (1 + goal |      item_id/tangram)
+   Data: main_trials %>% filter(prop_outgroup == 0)
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 50000))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1312.6    1370.5    -645.3    1290.6      1421 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.6872 -0.3897 -0.1935  0.2843  3.0210 
+
+Random effects:
+ Groups          Name        Variance  Std.Dev.  Corr 
+ subject_id      (Intercept) 5.578e+00 2.362e+00      
+                 goal1       2.903e-01 5.388e-01 -0.28
+ tangram:item_id (Intercept) 1.186e-01 3.443e-01      
+                 goal1       3.597e-06 1.896e-03 1.00 
+ item_id         (Intercept) 0.000e+00 0.000e+00      
+                 goal1       1.070e-13 3.272e-07  NaN 
+Number of obs: 1432, groups:  subject_id, 179; tangram:item_id, 18; item_id, 3
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  -2.0757     0.2568  -8.084 6.27e-16 ***
+goal1         0.3124     0.1587   1.968   0.0491 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+      (Intr)
+goal1 -0.219
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+
+$emmeans
+ goal   emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer   -1.76 0.271 Inf     -2.29     -1.23  -6.514  <.0001
+ social  -2.39 0.330 Inf     -3.04     -1.74  -7.234  <.0001
+
+Results are given on the logit (not the response) scale. 
+Confidence level used: 0.95 
+
+$contrasts
+ contrast       estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer - social    0.625 0.317 Inf   0.00259      1.25   1.968  0.0491
+
+Results are given on the log odds ratio (not the response) scale. 
+Confidence level used: 0.95 
+

@@ -1,0 +1,202 @@
+
+	Pearson's product-moment correlation
+
+data:  pct.seen.both.refer$empirical_stat and pct.unique.diff$empirical_stat
+t = 2.675, df = 63, p-value = 0.009509
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.08184864 0.52256621
+sample estimates:
+      cor 
+0.3193722 
+
+
+
+
+	Pearson's product-moment correlation
+
+data:  pct.correct.social$empirical_stat and pct.unique.diff$empirical_stat
+t = 4.0377, df = 63, p-value = 0.0001489
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.2355590 0.6278737
+sample estimates:
+      cor 
+0.4534086 
+
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: response.shared ~ audience * goal + (1 | subject_id) + (1 | item_id/option2.tangram)
+   Data: main.trials
+Control: glmerControl(optimizer = "bobyqa")
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   4176.7    4213.7   -2082.3    4164.7      3504 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.4580 -0.7432  0.3415  0.7585  2.9833 
+
+Random effects:
+ Groups                  Name        Variance Std.Dev.
+ subject_id              (Intercept) 0.5192   0.7205  
+ option2.tangram:item_id (Intercept) 0.2164   0.4651  
+ item_id                 (Intercept) 0.0000   0.0000  
+Number of obs: 3510, groups:  subject_id, 65; option2.tangram:item_id, 18; item_id, 3
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  0.47059    0.15106   3.115  0.00184 ** 
+audience1    0.68101    0.04842  14.065  < 2e-16 ***
+goal1        0.18178    0.04527   4.015 5.94e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+          (Intr) audnc1
+audience1  0.184       
+goal1     -0.149 -0.448
+fit warnings:
+fixed-effect model matrix is rank deficient so dropping 1 column / coefficient
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: response.shared ~ condition + (condition | subject_id) + (condition |      item_id/option2.tangram)
+   Data: main.trials
+Control: glmerControl(optimizer = "bobyqa")
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   3955.6    4085.0   -1956.8    3913.6      3489 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.9463 -0.7092  0.2213  0.7016  3.6798 
+
+Random effects:
+ Groups                  Name        Variance  Std.Dev.  Corr       
+ subject_id              (Intercept) 4.794e-01 6.924e-01            
+                         condition1  1.707e+00 1.306e+00 -0.32      
+                         condition2  2.517e-01 5.017e-01  0.47 -0.97
+ option2.tangram:item_id (Intercept) 3.376e-01 5.810e-01            
+                         condition1  1.951e-04 1.397e-02 1.00       
+                         condition2  4.473e-03 6.688e-02 1.00  1.00 
+ item_id                 (Intercept) 2.841e-14 1.685e-07            
+                         condition1  1.729e-12 1.315e-06  1.00      
+                         condition2  2.011e-13 4.484e-07 -1.00 -1.00
+Number of obs: 3510, groups:  subject_id, 65; option2.tangram:item_id, 18; item_id, 3
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   0.3525     0.1697   2.077   0.0378 *  
+condition1    1.2480     0.1793   6.962 3.35e-12 ***
+condition2   -0.3951     0.0886  -4.459 8.22e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr) cndtn1
+condition1 -0.093       
+condition2  0.269 -0.791
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+
+$emmeans
+ condition     emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer either  1.6005 0.235 Inf     1.140     2.061   6.807  <.0001
+ refer one    -0.0426 0.212 Inf    -0.457     0.372  -0.201  0.8404
+ social one   -0.5004 0.203 Inf    -0.898    -0.103  -2.466  0.0137
+
+Results are given on the logit (not the response) scale. 
+Confidence level used: 0.95 
+
+$contrasts
+ contrast                  estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer either - refer one     1.643 0.255 Inf     1.045     2.241   6.439  <.0001
+ refer either - social one    2.101 0.293 Inf     1.413     2.789   7.160  <.0001
+ refer one - social one       0.458 0.115 Inf     0.188     0.728   3.977  0.0002
+
+Results are given on the log odds ratio (not the response) scale. 
+Confidence level used: 0.95 
+Conf-level adjustment: tukey method for comparing a family of 3 estimates 
+P value adjustment: tukey method for comparing a family of 3 estimates 
+
+
+
+ contrast                   estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ grouped refer - one social     1.28 0.183 Inf     0.921      1.64   7.001  <.0001
+
+Results are given on the log odds ratio (not the response) scale. 
+Confidence level used: 0.95 
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id/option1.tangram)
+   Data: baseline.trials.refer
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+    309.6     331.5    -149.8     299.6       580 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-5.3456  0.0874  0.1319  0.2028  1.0158 
+
+Random effects:
+ Groups                  Name        Variance  Std.Dev. 
+ subject_id              (Intercept) 4.064e+00 2.0158182
+ option1.tangram:item_id (Intercept) 9.581e-01 0.9788066
+ item_id                 (Intercept) 3.079e-07 0.0005549
+ audience                (Intercept) 1.295e-01 0.3598212
+Number of obs: 585, groups:  subject_id, 65; option1.tangram:item_id, 18; item_id, 3; audience, 2
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   4.1231     0.7048    5.85 4.91e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: group_label ~ 1 + (1 | subject_id) + (1 | item_id/option1.tangram)
+   Data: baseline.trials.social
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+    473.7     489.5    -232.8     465.7       386 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.9131 -0.9866  0.4470  0.6479  1.2220 
+
+Random effects:
+ Groups                  Name        Variance  Std.Dev. 
+ subject_id              (Intercept) 8.361e-01 9.144e-01
+ option1.tangram:item_id (Intercept) 4.151e-09 6.443e-05
+ item_id                 (Intercept) 4.400e-02 2.098e-01
+Number of obs: 390, groups:  subject_id, 65; option1.tangram:item_id, 18; item_id, 3
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   0.9753     0.2108   4.627 3.72e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+optimizer (Nelder_Mead) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+
+Baseline refer (inverse logit of intercept):
+(Intercept) 
+  0.9840645 
+
+Baseline social (inverse logit of intercept):
+(Intercept) 
+  0.7261821 

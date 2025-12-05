@@ -312,8 +312,15 @@ ggplot(pct.correct.social, aes(x = empirical_stat, y = pct.unique.diff$empirical
 Compute correlation
 
 ```{r}
+sink(here("analysis/shared-unique/model_outputs.txt"))
+
 cor.test(pct.seen.both.refer$empirical_stat, pct.unique.diff$empirical_stat)
+
+cat("\n\n")
+
 cor.test(pct.correct.social$empirical_stat, pct.unique.diff$empirical_stat)
+
+sink()
 ```
 
 
@@ -438,43 +445,63 @@ main.trials <- main.trials %>%
 
 ## "Different tangram" main trials
 
-Preregistered model 
+Preregistered model
 
 ```{r}
 # Note that option2.tangram always corresponds to the shared tangram
+sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
 mod <- glmer(response.shared ~ audience * goal + (1 | subject_id) + (1 | item_id/ option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
 summary(mod)
+
+sink()
 ```
 
 Make model specification simpler: Combine audience and goal into `condition` variable
 
 ```{r}
+sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
 mod <- glmer(response.shared ~ condition + (condition | subject_id) + (condition | item_id/ option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
 
 summary(mod)
+
+sink()
 ```
 
 
 Comparisons between means
 
 ```{r}
+sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
 emmeans(mod, pairwise ~ condition) %>%
   summary(infer = T)
+
+sink()
 ```
 
 We predict that participants will choose the group-specific label more often when trying to show social affiliation, compared to when trying to refer effectively. We will test this (1) across all different-tangram trials, (2) across the trials where the audience group is specified, and (3) by comparing the ‘social’ goal for a specified ‘red/blue’ group, to the ‘refer’ goal for an unspecified group.
 
 ```{r}
-# (2) and (3) are tested above. 
+# (2) and (3) are tested above.
 # We want to check if "one social" is greater than  "one refer" and "either refer" together
+
+sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
+cat("\n\n")
 
 emmeans_results <- emmeans(mod, ~ condition)
 
-grouped_contrast <- contrast(emmeans_results, 
+grouped_contrast <- contrast(emmeans_results,
                              method = list("grouped refer - one social" = c(0.5, 0.5, -1)),
                              adjust = "none")  # Adjust as needed
 
 summary(grouped_contrast, infer = T)
+
+sink()
 ```
 
 ## "baseline" trials
@@ -482,16 +509,26 @@ summary(grouped_contrast, infer = T)
 For the "refer" goal, do participants successfully choose the seen label over the unseen label?
 
 ```{r}
+sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
 mod.same.refer <- glmer(seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id / option1.tangram), data = baseline.trials.refer, family = "binomial")
 summary(mod.same.refer)
+
+sink()
 ```
 
 
 For the "social" goal, do participants successfully choose the tangram that belongs to the audience group?
 
 ```{r}
+sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
 mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id / option1.tangram), data = baseline.trials.social, family = "binomial")
 summary(mod.same.social)
+
+sink()
 ```
 
 Convert intercepts from logit scale
@@ -502,8 +539,18 @@ inv_logit <- function(x) {
   exp(x) / (1 + exp(x))
 }
 
-inv_logit(fixef(mod.same.refer))
-inv_logit(fixef(mod.same.social))
+sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+cat("Baseline refer (inverse logit of intercept):\n")
+print(inv_logit(fixef(mod.same.refer)))
+
+cat("\n")
+
+cat("Baseline social (inverse logit of intercept):\n")
+print(inv_logit(fixef(mod.same.social)))
+
+sink()
 ```
 
 
