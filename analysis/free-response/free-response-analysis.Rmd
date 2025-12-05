@@ -494,6 +494,8 @@ summary(mod)
 try with polynomial term
 
 ```{r}
+sink(here("analysis/free-response/model_outputs.txt"))
+
 mod_poly <- glmer(
   tangram_choice ~ poly(prop_naive, 2) * goal
   + (prop_naive + goal | subject_id)
@@ -505,6 +507,8 @@ mod_poly <- glmer(
   control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))
 )
 summary(mod_poly)
+
+sink()
 ```
 Likelihood ratio test
 
@@ -514,12 +518,17 @@ anova(mod, mod_poly, test = "Chisq")
 The model with the polynomial fit is a better fit to the data 
 
 ```{r}
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
 emtrends(mod_poly, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
   summary(infer = T)
 ```
 
 
 ```{r}
+cat("\n\n")
+
 mod_utt_length <- lmer(
   utt_length ~ poly(prop_naive, 2) * goal
   + (prop_naive + goal | subject_id)
@@ -539,13 +548,13 @@ emtrends(mod_utt_length, ~ goal, var = "prop_naive", type = "response", max.degr
 ```
 
 ```{r}
+cat("\n\n")
 mod_sbert <- lmer(
-  sbert_cosine_later_blue ~ poly(prop_naive, 2) * goal
+  1 - sbert_cosine_later_blue ~ poly(prop_naive, 2) * goal
   + (prop_naive + goal | subject_id)
-  + (prop_naive + goal | item_id)
-  + (prop_naive + goal |
-       selected_tangram),
-    control = lmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
+  + (goal | item_id)
+  + (goal | selected_tangram),
+    control = lmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e6)),
   data = data
 )
 
@@ -556,6 +565,8 @@ summary(mod_sbert)
 ```{r}
 emtrends(mod_sbert, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
   summary(infer = T)
+
+sink()
 ```
 
 # Remake plots with better performing participants
@@ -644,15 +655,20 @@ eff_cor_length <- data %>%
 Calculate correlations
 
 ```{r}
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
+cat("\n\n")
 cor.test(eff_cor_tangram$utt_memory, eff_cor_tangram$goal_effect)
 ```
 
 ```{r}
+cat("\n")
 cor.test(eff_cor_length$utt_memory, eff_cor_length$goal_effect)
 ```
 
 ```{r}
+cat("\n")
 cor.test(eff_cor_sbert$utt_memory, eff_cor_sbert$goal_effect)
+sink()
 ```
 
 
