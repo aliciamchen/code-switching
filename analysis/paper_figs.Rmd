@@ -180,16 +180,16 @@ ggsave(here("figures/outputs/cosine_similarity_filtered.pdf"))
 # Experiment 2
 
 ```{r}
-exp2.results <- read_csv(here("model/preds_exp2.csv")) %>% 
-  mutate(goal = ifelse(goal == "refer", "Refer", "Social"), 
-         audience = ifelse(audience == "either", "Uncertain", "In-group"), 
+exp2.results <- read_csv(here("model/preds_exp2.csv")) %>%
+  mutate(goal = ifelse(goal == "refer", "Refer", "Social"),
+         audience = ifelse(audience == "either", "Either", "Known"),
          model = case_when(
            model == "base model" ~ "Base model",
            model == "social model" ~ "Social model",
-           model == "data" ~ "Data"
-         )) %>% 
-  mutate(model = factor(model, levels = c("Base model", "Social model", "Data")),
-         audience = factor(audience, levels = c("In-group", "Uncertain")),
+           model == "data" ~ "Humans"
+         )) %>%
+  mutate(model = factor(model, levels = c("Humans", "Base model", "Social model")),
+         audience = factor(audience, levels = c("Known", "Either")),
          goal = factor(goal, levels = c("Refer", "Social")))
 ```
 ```{r}
@@ -208,8 +208,8 @@ ggplot(exp2.summary, aes(x = audience, y = empirical_stat, color = goal)) +
                 position = position_dodge(width = 0.4), size = 2, width = 0) +
   geom_line(aes(group = goal), position = position_dodge(width = 0.4), size = 2) +
   scale_color_manual(values = palette) +
-  labs(x = "Audience", y = "P(shared label)", color = "Goal", shape = "Model") +
-  facet_wrap(~model) 
+  labs(x = "Audience group", y = "P(shared label)", color = "Goal", shape = "Model") +
+  facet_wrap(~model)
 
 ggsave(here("figures/outputs/exp2_results.pdf"))
 ```
@@ -217,17 +217,17 @@ ggsave(here("figures/outputs/exp2_results.pdf"))
 # Experiment 3
 
 ```{r}
-exp3.results <- read_csv(here("model/preds_exp3.csv")) %>% 
-  mutate(goal = ifelse(goal == "refer", "Refer", "Social"), 
-         audience = ifelse(audience == "either", "Uncertain", "In-group"), 
+exp3.results <- read_csv(here("model/preds_exp3.csv")) %>%
+  mutate(goal = ifelse(goal == "refer", "Refer", "Social"),
+         audience = ifelse(audience == "either", "Either", "Known"),
          tangram_type = ifelse(tangram_type == "shared", "Shared", "Group-specific"),
          model = case_when(
            model == "base model" ~ "Base model",
            model == "social model" ~ "Social model",
-           model == "data" ~ "Data"
-         )) %>% 
-  mutate(model = factor(model, levels = c("Base model", "Social model", "Data")),
-         audience = factor(audience, levels = c("In-group", "Uncertain")),
+           model == "data" ~ "Humans"
+         )) %>%
+  mutate(model = factor(model, levels = c("Humans", "Base model", "Social model")),
+         audience = factor(audience, levels = c("Known", "Either")),
          tangram_type = factor(tangram_type, levels = c("Shared", "Group-specific")),
          goal = factor(goal, levels = c("Refer", "Social")))
 ```
@@ -256,8 +256,8 @@ ggplot(exp3.summary, aes(x = audience, y = empirical_stat, color = goal)) +
                 position = position_dodge(width = 0.4), size = 2, width = 0) +
   geom_line(aes(group = goal), position = position_dodge(width = 0.4), size = 2) +
   scale_color_manual(values = palette) +
-  labs(x = "Audience", y = "P(earlier label)", color = "Goal", shape = "Model") +
-  facet_grid(tangram_type ~ model) 
+  labs(x = "Audience group", y = "P(earlier label)", color = "Goal", shape = "Model") +
+  facet_grid(tangram_type ~ model)
 
 ggsave(here("figures/outputs/exp3_results.pdf"))
 ```
@@ -265,14 +265,14 @@ ggsave(here("figures/outputs/exp3_results.pdf"))
 # Experiment 4
 
 ```{r}
-exp4.results <- read_csv(here("model/preds_exp4.csv")) %>% 
-  mutate(goal = ifelse(goal == "refer", "Refer", "Social"), 
+exp4.results <- read_csv(here("model/preds_exp4.csv")) %>%
+  mutate(goal = ifelse(goal == "refer", "Refer", "Social"),
          model = case_when(
            model == "base model" ~ "Base model",
            model == "social model" ~ "Social model",
-           model == "data" ~ "Data"
-         )) %>% 
-  mutate(model = factor(model, levels = c("Base model", "Social model", "Data")),
+           model == "data" ~ "Humans"
+         )) %>%
+  mutate(model = factor(model, levels = c("Humans", "Base model", "Social model")),
          goal = factor(goal, levels = c("Refer", "Social")))
 ```
 ```{r}
