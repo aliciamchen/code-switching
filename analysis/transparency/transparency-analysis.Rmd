@@ -50,6 +50,8 @@ Aggregate and compare informativity of earlier vs. later utterances
 earlier.later.all.means <- data %>% 
   group_by(earlier) %>% 
   tidyboot_mean(correct, na.rm = T)
+
+write.csv(earlier.later.all.means, here("data/transparency/means_agg.csv"))
 ```
 
 ```{r fig.width=4, fig.height=4}
