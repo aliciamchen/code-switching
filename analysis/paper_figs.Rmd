@@ -298,8 +298,184 @@ ggplot(exp4.summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
 ggsave(here("figures/outputs/exp4_results.pdf"))
 ```
 
+## Experiment 4 transparency plots
 
+```{r}
+# Load transparency data
+means_agg <- read_csv(here("data/transparency/means_agg.csv"))
+means_by_label <- read_csv(here("data/transparency/means_by_label.csv"))
 
+# Load exp4 selection trials
+exp4.selection.trials <- read_csv(here("data/varied_audience/selection_trials.csv")) %>%
+  rename(tangram_set = item_id) %>%
+  mutate(response_coded = if_else(response.earlier == "earlier", 1, 0))
+```
+
+### Figure: Naive audience comprehension (earlier vs later)
+
+```{r fig.width=6, fig.height=6}
+# Prepare data for bar plot
+means_agg_plot <- means_agg %>%
+  mutate(earlier = factor(earlier, levels = c("earlier", "later"),
+                          labels = c("Earlier", "Later")))
+
+ggplot(means_agg_plot, aes(x = earlier, y = empirical_stat)) +
+  geom_hline(yintercept = 1/6, color = "gray", linetype = "dashed") +
+  geom_bar(stat = "identity", fill = "steelblue", width = 0.6) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0.2, linewidth = 1) +
+  labs(x = "Utterance type", y = "Proportion correct") +
+  coord_cartesian(ylim = c(0, 1)) +
+  theme(legend.position = "none")
+
+ggsave(here("figures/outputs/transparency_earlier_later.pdf"))
+```
+
+### Figure: Predicted listener success by audience composition
+
+```{r}
+# Print a few rows to verify data
+head(exp4.selection.trials)
+head(means_by_label)
+```
+
+```{r}
+# Join transparency estimates for option1, option2, and response
+# First, prepare means_by_label for joining
+transparency_lookup <- means_by_label %>%
+  select(tangram_set, target, earlier, label, empirical_stat) %>%
+  rename(transparency = empirical_stat)
+
+# Verify a few rows of the lookup table
+head(transparency_lookup)
+```
+
+```{r}
+# Join option1 transparency
+exp4.with.transparency <- exp4.selection.trials %>%
+  left_join(
+    transparency_lookup %>% rename(option1.transparency = transparency),
+    by = c("tangram_set" = "tangram_set",
+           "option1.tangram" = "target",
+           "option1.earlier" = "earlier",
+           "option1.label" = "label")
+  )
+
+# Verify join
+cat("Option1 join check - rows with NA:", sum(is.na(exp4.with.transparency$option1.transparency)), "\n")
+head(exp4.with.transparency %>% select(tangram_set, option1.tangram, option1.earlier, option1.label, option1.transparency))
+```
+
+```{r}
+# Join option2 transparency
+exp4.with.transparency <- exp4.with.transparency %>%
+  left_join(
+    transparency_lookup %>% rename(option2.transparency = transparency),
+    by = c("tangram_set" = "tangram_set",
+           "option2.tangram" = "target",
+           "option2.earlier" = "earlier",
+           "option2.label" = "label")
+  )
+
+# Verify join
+cat("Option2 join check - rows with NA:", sum(is.na(exp4.with.transparency$option2.transparency)), "\n")
+head(exp4.with.transparency %>% select(tangram_set, option2.tangram, option2.earlier, option2.label, option2.transparency))
+```
+
+```{r}
+# Join response transparency
+exp4.with.transparency <- exp4.with.transparency %>%
+  left_join(
+    transparency_lookup %>% rename(response.transparency = transparency),
+    by = c("tangram_set" = "tangram_set",
+           "response.tangram" = "target",
+           "response.earlier" = "earlier",
+           "response.label" = "label")
+  )
+
+# Verify join
+cat("Response join check - rows with NA:", sum(is.na(exp4.with.transparency$response.transparency)), "\n")
+head(exp4.with.transparency %>% select(tangram_set, response.tangram, response.earlier, response.label, response.transparency))
+```
+
+```{r}
+# Calculate predicted listener success for each option and response
+# Formula: (n_ingroup * 1 + n_outgroup * transparency) / (n_ingroup + n_outgroup)
+exp4.with.transparency <- exp4.with.transparency %>%
+  mutate(
+    option1.pred.success = (n_ingroup * 1 + n_outgroup * option1.transparency) / (n_ingroup + n_outgroup),
+    option2.pred.success = (n_ingroup * 1 + n_outgroup * option2.transparency) / (n_ingroup + n_outgroup),
+    response.pred.success = (n_ingroup * 1 + n_outgroup * response.transparency) / (n_ingroup + n_outgroup),
+    prop_naive = n_outgroup / (n_ingroup + n_outgroup)
+  )
+
+# Verify calculations
+head(exp4.with.transparency %>% select(n_ingroup, n_outgroup, prop_naive, response.transparency, response.pred.success))
+```
+
+```{r}
+# Group by prop_naive and goal, and tidyboot_mean response.pred.success
+pred_success_summary <- exp4.with.transparency %>%
+  filter(type == "main") %>%  # Only main trials
+  mutate(goal = if_else(goal == "refer", "Refer", "Social")) %>%
+  group_by(prop_naive, goal) %>%
+  tidyboot_mean(response.pred.success, na.rm = TRUE)
+
+head(pred_success_summary)
+```
+
+```{r fig.width=6, fig.height=6}
+# Plot predicted listener success by audience composition and goal
+ggplot(pred_success_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(position = position_dodge(width = 0.02), size = 5) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.02), linewidth = 2, width = 0) +
+  scale_color_manual(values = palette) +
+  labs(x = "Proportion naive", y = "Predicted listener success", color = "Goal") +
+  theme(legend.position = "bottom")
+
+ggsave(here("figures/outputs/pred_listener_success.pdf"))
+```
+
+### Figure: Earlier label choice by transparency difference
+
+```{r}
+# For each trial, compute itemwise transparency difference (earlier option minus later option)
+# Since option1 is always earlier and option2 is always later in the main trials,
+# the transparency difference is option1.transparency - option2.transparency
+exp4.with.transparency <- exp4.with.transparency %>%
+  mutate(transparency_diff = option1.transparency - option2.transparency)
+
+# Verify
+head(exp4.with.transparency %>% select(option1.earlier, option2.earlier, option1.transparency, option2.transparency, transparency_diff))
+```
+
+```{r}
+# Group by transparency difference and goal, and tidyboot_mean the response choice
+# Round transparency_diff for binning
+transparency_choice_summary <- exp4.with.transparency %>%
+  filter(type == "main", prop_naive > 0) %>%
+  mutate(goal = if_else(goal == "refer", "Refer", "Social"),
+         transparency_diff_binned = round(transparency_diff, 2)) %>%
+  group_by(transparency_diff_binned, goal) %>%
+  tidyboot_mean(response_coded, na.rm = TRUE)
+
+head(transparency_choice_summary)
+```
+
+```{r fig.width=6, fig.height=6}
+# Plot: likelihood of choosing earlier label by transparency difference and goal
+ggplot(transparency_choice_summary, aes(x = transparency_diff_binned, y = empirical_stat, color = goal)) +
+  geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
+  geom_point(size = 3, alpha = 0.7) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, linewidth = 1, alpha = 0.7) +
+  geom_hline(yintercept = 0.5, color = "gray", linetype = "dashed") +
+  scale_color_manual(values = palette) +
+  labs(x = "Transparency diff (earlier - later)", y = "P(earlier label)", color = "Goal") +
+  theme(legend.position = "bottom")
+
+ggsave(here("figures/outputs/transparency_diff_choice.pdf"))
+```
 
 
 
