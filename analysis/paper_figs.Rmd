@@ -313,7 +313,7 @@ exp4.selection.trials <- read_csv(here("data/varied_audience/selection_trials.cs
 
 ### Figure: Naive audience comprehension (earlier vs later)
 
-```{r fig.width=6, fig.height=6}
+```{r fig.width=5, fig.height=5}
 # Prepare data for bar plot
 means_agg_plot <- means_agg %>%
   mutate(earlier = factor(earlier, levels = c("earlier", "later"),
@@ -321,7 +321,7 @@ means_agg_plot <- means_agg %>%
 
 ggplot(means_agg_plot, aes(x = earlier, y = empirical_stat)) +
   geom_hline(yintercept = 1/6, color = "gray", linetype = "dashed") +
-  geom_bar(stat = "identity", fill = "steelblue", width = 0.6) +
+  geom_bar(stat = "identity", fill = "lightgray", width = 0.6) +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0.2, linewidth = 1) +
   labs(x = "Utterance type", y = "Proportion correct") +
   coord_cartesian(ylim = c(0, 1)) +

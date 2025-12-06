@@ -91,8 +91,8 @@ for (set in c(0, 1, 2)) {
     geom_point(size = 3) +
     geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 2, width = 0.0) +
     geom_text(aes(label = target), vjust = 4, show.legend = F) +
-    geom_hline(yintercept = 1/6, color = "red", linetype = "dashed") +
-    labs(x = "Label", y = "Proportion correct", title = glue("tangram set {set}")) +
+    geom_hline(yintercept = 1/6, color = "lightgray", linetype = "dashed") +
+    labs(x = "Label", y = "Proportion correct", title = glue("Tangram set {set}")) +
     ylim(0, 1) +
     theme(axis.text.x = element_text(size = 9, angle = 40, hjust = 1))
   print(p)
