@@ -313,16 +313,87 @@ exp4.selection.trials <- read_csv(here("data/varied_audience/selection_trials.cs
 
 ### Figure: Naive audience comprehension (earlier vs later)
 
-```{r fig.width=5, fig.height=5}
+```{r}
 # Prepare data for bar plot
 means_agg_plot <- means_agg %>%
   mutate(earlier = factor(earlier, levels = c("earlier", "later"),
                           labels = c("Earlier", "Later")))
 
-ggplot(means_agg_plot, aes(x = earlier, y = empirical_stat)) +
+# Get unique option pairs from exp4 main trials only
+# In main trials, option1 is always "earlier" and option2 is always "later"
+unique_option_pairs <- exp4.selection.trials %>%
+  filter(type == "main") %>%
+  select(tangram_set, option1.tangram, option1.label, option2.label) %>%
+  distinct() %>%
+  rename(target = option1.tangram,
+         earlier_label = option1.label,
+         later_label = option2.label)
+
+# Join with means_by_label to get transparency estimates for earlier options
+earlier_transparency <- means_by_label %>%
+  filter(earlier == "earlier") %>%
+  select(tangram_set, target, label, empirical_stat, ci_lower, ci_upper) %>%
+  rename(earlier_label = label)
+
+# Join with means_by_label to get transparency estimates for later options
+later_transparency <- means_by_label %>%
+  filter(earlier == "later") %>%
+  select(tangram_set, target, label, empirical_stat, ci_lower, ci_upper) %>%
+  rename(later_label = label)
+
+# Join to get paired transparency data
+itemwise_transparency <- unique_option_pairs %>%
+  left_join(earlier_transparency, by = c("tangram_set", "target", "earlier_label")) %>%
+  rename(earlier_stat = empirical_stat, earlier_ci_lower = ci_lower, earlier_ci_upper = ci_upper) %>%
+  left_join(later_transparency, by = c("tangram_set", "target", "later_label")) %>%
+  rename(later_stat = empirical_stat, later_ci_lower = ci_lower, later_ci_upper = ci_upper)
+
+# Verify joins worked
+cat("Number of unique option pairs:", nrow(unique_option_pairs), "\n")
+cat("NAs in earlier_stat:", sum(is.na(itemwise_transparency$earlier_stat)), "\n")
+cat("NAs in later_stat:", sum(is.na(itemwise_transparency$later_stat)), "\n")
+
+# Create an item ID for each pair (for connecting lines)
+itemwise_transparency <- itemwise_transparency %>%
+  mutate(item_id = row_number())
+
+# Pivot to long format for plotting
+itemwise_long <- itemwise_transparency %>%
+  select(item_id, earlier_stat, earlier_ci_lower, earlier_ci_upper, later_stat, later_ci_lower, later_ci_upper) %>%
+  pivot_longer(
+    cols = c(earlier_stat, later_stat),
+    names_to = "type",
+    values_to = "empirical_stat"
+  ) %>%
+  mutate(
+    type = factor(if_else(type == "earlier_stat", "Earlier", "Later"), levels = c("Earlier", "Later")),
+    ci_lower = if_else(type == "Earlier", earlier_ci_lower, later_ci_lower),
+    ci_upper = if_else(type == "Earlier", earlier_ci_upper, later_ci_upper)
+  ) %>%
+  select(item_id, type, empirical_stat, ci_lower, ci_upper)
+
+# Add jitter for x position
+set.seed(42)
+itemwise_long <- itemwise_long %>%
+  mutate(x_jitter = as.numeric(type) + runif(n(), -0.08, 0.08))
+```
+
+```{r fig.width=5, fig.height=5}
+ggplot() +
   geom_hline(yintercept = 1/6, color = "gray", linetype = "dashed") +
-  geom_bar(stat = "identity", fill = "lightgray", width = 0.6) +
-  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0.2, linewidth = 1) +
+  # Bar plot of aggregate means
+  geom_bar(data = means_agg_plot, aes(x = earlier, y = empirical_stat),
+           stat = "identity", fill = "lightgray", width = 0.6) +
+  geom_errorbar(data = means_agg_plot, aes(x = earlier, ymin = ci_lower, ymax = ci_upper),
+                width = 0.2, linewidth = 1) +
+  # Connecting lines for each item pair
+  geom_line(data = itemwise_long, aes(x = x_jitter, y = empirical_stat, group = item_id),
+            alpha = 0.3, color = "darkgray") +
+  # Points with error bars for each item
+  geom_point(data = itemwise_long, aes(x = x_jitter, y = empirical_stat),
+             alpha = 0.3, size = 1.5) +
+  # geom_errorbar(data = itemwise_long, aes(x = x_jitter, ymin = ci_lower, ymax = ci_upper),
+  #               width = 0.0, alpha = 0.3, size = 0.5) +
   labs(x = "Utterance type", y = "Proportion correct") +
   coord_cartesian(ylim = c(0, 1)) +
   theme(legend.position = "none")
@@ -471,7 +542,7 @@ ggplot(transparency_choice_summary, aes(x = transparency_diff_binned, y = empiri
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, linewidth = 1, alpha = 0.7) +
   geom_hline(yintercept = 0.5, color = "gray", linetype = "dashed") +
   scale_color_manual(values = palette) +
-  labs(x = "Transparency diff (earlier - later)", y = "P(earlier label)", color = "Goal") +
+  labs(x = "Transparency diff (earlier > later)", y = "P(earlier label)", color = "Goal") +
   theme(legend.position = "bottom")
 
 ggsave(here("figures/outputs/transparency_diff_choice.pdf"))

@@ -6,9 +6,10 @@ First, load the transparency estimates: load means by label from `data/transpare
 
 Now here are the figures to make:
 
-- [x] I want to make a figure showing the overall naive audience comprehension of earlier versus later labels. This is just a bar plot of `means_agg.csv`, with error bars.
+- [x] I want to make a figure showing the overall naive audience comprehension of earlier versus later labels. This is a bar plot of `means_agg.csv`, with error bars.
     - [x] The y-axis should be the proportion correct, and the x-axis should be the type of utterance (earlier or later). The y axis should be labeled "Proportion correct" and the x axis should be labeled "Utterance type".
     - [x] There should be a horizontal line at 1/6 to indicate the baseline. 
+    - [x] Overlaid the bar plot, I also want to plot the itemwise transparency differences between earlier and later utterances, with a line connecting the two options for each item. This requires looking at the experiment 4 trials, finding the unique option sets, plotting the earlier (w error bars) mean on the left bar and the later (w error bars) on the right bar, and connecting the lines for each item. The points should be slightly jittered. 
 
 - [x] Second, a figure showing the predicted listener referential success (y-axis) based on audience composition (x-axis) and goal (color), averaged across items. This would involve taking participants' choices on each trial and using the transparency data to estimate how likely a listener is to choose the correct tangram, based on the audience composition (by using estimated transparency for naive listeners and the assumption that in-group listeners will always get it right). This plot should show that participants' choices for the 'refer' condition should generally lead to higher listener referential success, and how this scales with the audience composition.
     - [x] Load experiment 4 trials from `data/varied_audience/selection_trials.csv`. Each row here is one trial.
