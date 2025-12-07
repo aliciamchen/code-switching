@@ -24,4 +24,5 @@ Now here are the figures to make:
 - [x] Third, a figure showing the likelihood of participants choosing earlier label (y-axis) based on itemwise transparency differences (x-axis), and goal (color), averaged across audiences. This plot should show more sensitivity in the 'refer' condition versus in the 'social' condition, to itemwise transparency differences.
     - [x] For each trial, compute the itemwise transparency difference (earlier option minus later option) and add a column for it to the dataframe
     - [x] Group by transparency difference and goal, exclude the trials where prop_naive is zero, and tidyboot_mean the response choice (where earlier is 1 and later is 0)
-    - [x] Make the plot. 
+    - [x] Make the plot.
+    - [x] Add 95% confidence intervals for the x-axis (transparency difference) using bootstrap methods. Load raw transparency selection trials from `data/transparency/selection_trials.csv`, compute bootstrapped difference in means for each unique option pair, and add horizontal error bars to the plot. 
