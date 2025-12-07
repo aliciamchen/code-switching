@@ -391,7 +391,7 @@ ggplot() +
             alpha = 0.3, color = "darkgray") +
   # Points with error bars for each item
   geom_point(data = itemwise_long, aes(x = x_jitter, y = empirical_stat),
-             alpha = 0.3, size = 1.5) +
+             alpha = 0.2, size = 3, stroke = 0) +
   # geom_errorbar(data = itemwise_long, aes(x = x_jitter, ymin = ci_lower, ymax = ci_upper),
   #               width = 0.0, alpha = 0.3, size = 0.5) +
   labs(x = "Utterance type", y = "Proportion correct") +
@@ -538,8 +538,8 @@ head(transparency_choice_summary)
 # Plot: likelihood of choosing earlier label by transparency difference and goal
 ggplot(transparency_choice_summary, aes(x = transparency_diff_binned, y = empirical_stat, color = goal)) +
   geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
-  geom_point(size = 3, alpha = 0.7) +
-  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, linewidth = 1, alpha = 0.7) +
+  geom_point(size = 4, alpha = 0.7, stroke = 0) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, linewidth = 1.3, alpha = 0.7) +
   geom_hline(yintercept = 0.5, color = "gray", linetype = "dashed") +
   scale_color_manual(values = palette) +
   labs(x = "Transparency diff (earlier > later)", y = "P(earlier label)", color = "Goal") +
