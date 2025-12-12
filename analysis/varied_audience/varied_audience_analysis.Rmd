@@ -459,6 +459,7 @@ emmeans(mod.with.transparency.poly, pairwise ~ goal) %>%
 
 sink()
 ```
+
 differences between goals, for each level of prop_outgroup
 
 ```{r}
@@ -472,7 +473,26 @@ emmeans(mod.with.transparency.poly, pairwise ~ goal | prop_outgroup,
 sink()
 ```
 
-Let's just compare the 'refer' and 'social' conditions for the 0% naive condition (do we replicate the effect in the other experiment?)
+Does effect of transparency depend on goal?
+
+```{r}
+sink(here("analysis/varied_audience/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+emtrends(mod.with.transparency.poly, ~ goal, var = "transparency_diff", type = "response") %>%
+  summary(infer = T)
+sink()
+```
+
+```{r}
+# summary(mod.with.transparency.poly)
+
+emtrends(mod.with.transparency.poly, ~ goal, var = "transparency_diff", type = "response") %>%
+  summary(infer = T)
+```
+
+
+
+### Let's just compare the 'refer' and 'social' conditions for the 0% naive condition (do we replicate the effect in the other experiment?)
 
 ```{r}
 sink(here("analysis/varied_audience/model_outputs.txt"), append = TRUE)
