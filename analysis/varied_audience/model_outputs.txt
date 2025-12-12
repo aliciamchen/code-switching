@@ -99,7 +99,8 @@ boundary (singular) fit: see help('isSingular')
 
 Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
  Family: binomial  ( logit )
-Formula: response.earlier ~ prop_outgroup * goal + n_total + transparency_diff +      (1 | subject_id) + (1 | item_id/tangram)
+Formula: response.earlier ~ prop_outgroup * goal + n_total + transparency_diff +  
+    (1 | subject_id) + (1 | item_id/tangram)
    Data: main_trials
 Control: glmerControl(optimizer = "bobyqa")
 
@@ -378,6 +379,13 @@ prop_outgroup = 1.000:
 Results are given on the log odds ratio (not the response) scale. 
 Confidence level used: 0.95 
 
+
+
+ goal   transparency_diff.trend    SE  df asymp.LCL asymp.UCL z.ratio p.value
+ refer                        1 0.219 Inf     0.574      1.43   4.586  <.0001
+ social                       1 0.219 Inf     0.574      1.43   4.586  <.0001
+
+Confidence level used: 0.95 
 
 
 Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']

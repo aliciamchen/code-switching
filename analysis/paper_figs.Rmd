@@ -511,6 +511,13 @@ ggsave(here("figures/outputs/pred_listener_success.pdf"))
 ### Figure: Earlier label choice by transparency difference
 
 ```{r}
+# Load raw transparency selection trials for bootstrapping CIs on transparency differences
+transparency.selection.trials <- read_csv(here("data/transparency/selection_trials.csv")) %>%
+  mutate(correct = ifelse(correct == TRUE, 1, 0)) %>%
+  filter(understood == "yes")
+```
+
+```{r}
 # For each trial, compute itemwise transparency difference (earlier option minus later option)
 # Since option1 is always earlier and option2 is always later in the main trials,
 # the transparency difference is option1.transparency - option2.transparency
@@ -519,6 +526,134 @@ exp4.with.transparency <- exp4.with.transparency %>%
 
 # Verify
 head(exp4.with.transparency %>% select(option1.earlier, option2.earlier, option1.transparency, option2.transparency, transparency_diff))
+```
+
+```{r}
+# Bootstrap CIs for transparency differences for each unique option pair
+# Get unique option pairs from exp4 main trials
+unique_pairs_for_ci <- exp4.with.transparency %>%
+  filter(type == "main") %>%
+  select(tangram_set, option1.tangram, option1.label, option2.label, transparency_diff) %>%
+  distinct()
+
+# Function to bootstrap the difference in means between two labels
+bootstrap_diff <- function(earlier_data, later_data, n_boot = 1000) {
+  boot_diffs <- replicate(n_boot, {
+    earlier_sample <- sample(earlier_data$correct, replace = TRUE)
+    later_sample <- sample(later_data$correct, replace = TRUE)
+    mean(earlier_sample) - mean(later_sample)
+  })
+  c(ci_lower = quantile(boot_diffs, 0.025),
+    ci_upper = quantile(boot_diffs, 0.975))
+}
+
+# Tests for bootstrap function
+test_bootstrap <- function() {
+  cat("Running bootstrap tests...\n")
+
+  # Test 1: Bootstrap with known data should give sensible CIs
+  set.seed(123)
+  test_earlier <- data.frame(correct = c(rep(1, 80), rep(0, 20)))  # 80% correct
+  test_later <- data.frame(correct = c(rep(1, 50), rep(0, 50)))    # 50% correct
+  test_ci <- bootstrap_diff(test_earlier, test_later, n_boot = 2000)
+
+  point_est <- mean(test_earlier$correct) - mean(test_later$correct)  # 0.30
+
+  # Check CI lower < CI upper
+  stopifnot("CI lower should be less than CI upper" =
+    test_ci["ci_lower.2.5%"] < test_ci["ci_upper.97.5%"])
+
+  # Check point estimate within CI
+  stopifnot("Point estimate should fall within CI" =
+    test_ci["ci_lower.2.5%"] <= point_est & point_est <= test_ci["ci_upper.97.5%"])
+
+  # Check CI is reasonable (not too wide, not too narrow)
+  ci_width <- test_ci["ci_upper.97.5%"] - test_ci["ci_lower.2.5%"]
+  stopifnot("CI width should be reasonable (0.05 to 0.5)" =
+    ci_width > 0.05 & ci_width < 0.5)
+
+  cat("  Test 1 passed: Bootstrap produces valid CIs\n")
+  cat("    Point estimate:", point_est, "\n")
+  cat("    95% CI: [", test_ci["ci_lower.2.5%"], ",", test_ci["ci_upper.97.5%"], "]\n")
+
+  # Test 2: Verify data joins - check sample sizes for each option pair
+  sample_sizes <- unique_pairs_for_ci %>%
+    mutate(
+      n_earlier = pmap_int(list(tangram_set, option1.tangram, option1.label),
+        function(ts, tgt, lab) {
+          nrow(transparency.selection.trials %>%
+            filter(tangram_set == ts, target == tgt, earlier == "earlier", label == lab))
+        }),
+      n_later = pmap_int(list(tangram_set, option1.tangram, option2.label),
+        function(ts, tgt, lab) {
+          nrow(transparency.selection.trials %>%
+            filter(tangram_set == ts, target == tgt, earlier == "later", label == lab))
+        })
+    )
+
+  # Check no empty joins
+  stopifnot("All earlier labels should have data" = all(sample_sizes$n_earlier > 0))
+  stopifnot("All later labels should have data" = all(sample_sizes$n_later > 0))
+
+  cat("  Test 2 passed: All option pairs have valid transparency data\n")
+  cat("    Earlier label sample sizes: min =", min(sample_sizes$n_earlier),
+      ", max =", max(sample_sizes$n_earlier), "\n")
+  cat("    Later label sample sizes: min =", min(sample_sizes$n_later),
+      ", max =", max(sample_sizes$n_later), "\n")
+
+  cat("All bootstrap tests passed!\n\n")
+}
+
+test_bootstrap()
+```
+
+```{r}
+# Compute bootstrapped CIs for each unique option pair using pmap
+transparency_diff_cis <- unique_pairs_for_ci %>%
+  mutate(
+    boot_result = pmap(list(tangram_set, option1.tangram, option1.label, option2.label),
+      function(ts, tgt, earlier_label, later_label) {
+        earlier_data <- transparency.selection.trials %>%
+          filter(tangram_set == ts, target == tgt,
+                 earlier == "earlier", label == earlier_label)
+        later_data <- transparency.selection.trials %>%
+          filter(tangram_set == ts, target == tgt,
+                 earlier == "later", label == later_label)
+        bootstrap_diff(earlier_data, later_data)
+      })
+  ) %>%
+  mutate(
+    transparency_diff_ci_lower = map_dbl(boot_result, ~ .x["ci_lower.2.5%"]),
+    transparency_diff_ci_upper = map_dbl(boot_result, ~ .x["ci_upper.97.5%"])
+  ) %>%
+  select(tangram_set, option1.tangram, option1.label, option2.label,
+         transparency_diff, transparency_diff_ci_lower, transparency_diff_ci_upper)
+
+# Verify computed CIs
+head(transparency_diff_cis)
+
+# Test 3: Validate the computed CIs
+cat("Validating computed CIs...\n")
+
+# Check all CIs have lower < upper
+stopifnot("All CI lowers should be less than uppers" =
+  all(transparency_diff_cis$transparency_diff_ci_lower < transparency_diff_cis$transparency_diff_ci_upper))
+
+# Check point estimates fall within CIs
+within_ci <- transparency_diff_cis$transparency_diff >= transparency_diff_cis$transparency_diff_ci_lower &
+             transparency_diff_cis$transparency_diff <= transparency_diff_cis$transparency_diff_ci_upper
+stopifnot("All point estimates should fall within their CIs" = all(within_ci))
+
+# Check no NAs in CIs
+stopifnot("No NAs in CI lower bounds" = !any(is.na(transparency_diff_cis$transparency_diff_ci_lower)))
+stopifnot("No NAs in CI upper bounds" = !any(is.na(transparency_diff_cis$transparency_diff_ci_upper)))
+
+cat("  All", nrow(transparency_diff_cis), "CIs validated:\n")
+cat("    - All CI lowers < CI uppers\n")
+cat("    - All point estimates within CIs\n")
+cat("    - No missing values\n")
+cat("  CI widths: min =", round(min(transparency_diff_cis$transparency_diff_ci_upper - transparency_diff_cis$transparency_diff_ci_lower), 3),
+    ", max =", round(max(transparency_diff_cis$transparency_diff_ci_upper - transparency_diff_cis$transparency_diff_ci_lower), 3), "\n")
 ```
 
 ```{r}
@@ -531,6 +666,19 @@ transparency_choice_summary <- exp4.with.transparency %>%
   group_by(transparency_diff_binned, goal) %>%
   tidyboot_mean(response_coded, na.rm = TRUE)
 
+# Join with transparency diff CIs (aggregate by binned transparency diff)
+transparency_diff_cis_binned <- transparency_diff_cis %>%
+  mutate(transparency_diff_binned = round(transparency_diff, 2)) %>%
+  group_by(transparency_diff_binned) %>%
+  summarise(
+    x_ci_lower = mean(transparency_diff_ci_lower, na.rm = TRUE),
+    x_ci_upper = mean(transparency_diff_ci_upper, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+transparency_choice_summary <- transparency_choice_summary %>%
+  left_join(transparency_diff_cis_binned, by = "transparency_diff_binned")
+
 head(transparency_choice_summary)
 ```
 
@@ -538,8 +686,11 @@ head(transparency_choice_summary)
 # Plot: likelihood of choosing earlier label by transparency difference and goal
 ggplot(transparency_choice_summary, aes(x = transparency_diff_binned, y = empirical_stat, color = goal)) +
   geom_smooth(method = "gam", linetype = "dashed", fill = "lightgray") +
-  geom_point(size = 4, alpha = 0.7, stroke = 0) +
-  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, linewidth = 1.3, alpha = 0.7) +
+  # Horizontal error bars for x-axis CIs (transparency difference uncertainty)
+  geom_errorbarh(aes(xmin = x_ci_lower, xmax = x_ci_upper), height = 0, linewidth = 1.3, alpha = 0.4) +
+  # Vertical error bars for y-axis CIs (response choice uncertainty)
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0, linewidth = 1.3, alpha = 0.4) +
+  geom_point(size = 4, alpha = 0.4, stroke = 0) +
   geom_hline(yintercept = 0.5, color = "gray", linetype = "dashed") +
   scale_color_manual(values = palette) +
   labs(x = "Transparency diff (earlier > later)", y = "P(earlier label)", color = "Goal") +
