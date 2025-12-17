@@ -40,7 +40,7 @@ conda activate code-switching
 
 ### R dependencies
 
-Open the project in RStudio and run the following code to install the dependencies
+Open the project in RStudio and run the following code to install the dependencies. Make sure you are running R version `4.4.2`.
 
 ```{r}
 # Install renv if not already installed
