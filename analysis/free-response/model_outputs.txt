@@ -1,130 +1,173 @@
-Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
  Family: binomial  ( logit )
-Formula: tangram_choice ~ poly(prop_naive, 2) * goal + (prop_naive + goal |  
-    subject_id) + (prop_naive + goal | item_id) + (prop_naive +      goal | selected_tangram)
+Formula: tangram_choice ~ prop_naive * goal + (prop_naive | subject_id) +  
+    (goal | selected_tangram)
+   Data: data
+Control: glmerControl(optimizer = "bobyqa")
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  10510.5   10582.4   -5245.3   10490.5      9795 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.6152 -0.6062 -0.4309  0.9589  3.8852 
+
+Random effects:
+ Groups           Name        Variance Std.Dev. Corr 
+ subject_id       (Intercept) 0.406159 0.63731       
+                  prop_naive  0.351243 0.59266  -0.87
+ selected_tangram (Intercept) 0.382915 0.61880       
+                  goal1       0.005942 0.07708  -0.10
+Number of obs: 9805, groups:  subject_id, 185; selected_tangram, 12
+
+Fixed effects:
+                 Estimate Std. Error z value Pr(>|z|)    
+(Intercept)      -1.30330    0.19243  -6.773 1.26e-11 ***
+prop_naive        0.31735    0.09319   3.405 0.000661 ***
+goal1            -0.04914    0.05522  -0.890 0.373511    
+prop_naive:goal1 -0.13596    0.07858  -1.730 0.083588 .  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) prp_nv goal1 
+prop_naive  -0.315              
+goal1       -0.014 -0.106       
+prop_nv:gl1 -0.037  0.204 -0.792
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: 
+tangram_choice ~ poly(prop_naive, 2) * goal + (prop_naive | subject_id) +  
+    (goal | selected_tangram)
    Data: data
 Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
 
       AIC       BIC    logLik -2*log(L)  df.resid 
-  10479.2   10651.8   -5215.6   10431.2      9781 
+  10507.3   10593.6   -5241.7   10483.3      9793 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--1.5818 -0.6081 -0.4244  0.9332  3.8547 
+-1.5458 -0.6060 -0.4297  0.9545  3.7849 
 
 Random effects:
- Groups           Name        Variance  Std.Dev. Corr       
- subject_id       (Intercept) 0.4431308 0.66568             
-                  prop_naive  0.3200979 0.56577  -0.87      
-                  goal1       0.0793004 0.28160   0.83 -1.00
- selected_tangram (Intercept) 0.3570064 0.59750             
-                  prop_naive  0.0243774 0.15613   0.26      
-                  goal1       0.0057081 0.07555   0.12 -0.93
- item_id          (Intercept) 0.0084447 0.09189             
-                  prop_naive  0.0096274 0.09812  -1.00      
-                  goal1       0.0003333 0.01826   1.00 -1.00
-Number of obs: 9805, groups:  subject_id, 185; selected_tangram, 12; item_id, 3
+ Groups           Name        Variance Std.Dev. Corr 
+ subject_id       (Intercept) 0.431005 0.65651       
+                  prop_naive  0.396800 0.62992  -0.88
+ selected_tangram (Intercept) 0.382809 0.61872       
+                  goal1       0.005979 0.07732  -0.10
+Number of obs: 9805, groups:  subject_id, 185; selected_tangram, 12
 
 Fixed effects:
                            Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                -1.14991    0.18669  -6.160 7.29e-10 ***
-poly(prop_naive, 2)1       10.81752    3.68471   2.936  0.00333 ** 
-poly(prop_naive, 2)2       -4.49271    2.60614  -1.724  0.08473 .  
-goal1                      -0.16585    0.04181  -3.967 7.28e-05 ***
-poly(prop_naive, 2)1:goal1 -2.98703    2.61659  -1.142  0.25363    
-poly(prop_naive, 2)2:goal1  3.56163    2.59186   1.374  0.16939    
+(Intercept)                -1.12525    0.18289  -6.153 7.62e-10 ***
+poly(prop_naive, 2)1       11.17052    3.11290   3.588 0.000333 ***
+poly(prop_naive, 2)2       -4.67075    2.60022  -1.796 0.072448 .  
+goal1                      -0.12959    0.03411  -3.799 0.000145 ***
+poly(prop_naive, 2)1:goal1 -5.42017    2.61229  -2.075 0.037999 *  
+poly(prop_naive, 2)2:goal1  3.63436    2.62758   1.383 0.166616    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Correlation of Fixed Effects:
             (Intr) pl(_,2)1 pl(_,2)2 goal1  p(_,2)1:
-ply(pr_,2)1  0.050                                  
-ply(pr_,2)2  0.017  0.047                           
-goal1        0.096 -0.390    0.100                  
-ply(_,2)1:1  0.016  0.174    0.223    0.022         
-ply(_,2)2:1  0.021  0.159    0.325    0.079  0.088  
-optimizer (bobyqa) convergence code: 0 (OK)
-boundary (singular) fit: see help('isSingular')
+ply(pr_,2)1 -0.044                                  
+ply(pr_,2)2  0.019  0.060                           
+goal1       -0.044  0.107    0.124                  
+ply(_,2)1:1  0.024  0.196    0.246    0.031         
+ply(_,2)2:1  0.022  0.217    0.315    0.089  0.090  
 
+
+Data: data
+Models:
+mod: tangram_choice ~ prop_naive * goal + (prop_naive | subject_id) + (goal | selected_tangram)
+mod_poly: tangram_choice ~ poly(prop_naive, 2) * goal + (prop_naive | subject_id) + (goal | selected_tangram)
+         npar   AIC   BIC  logLik -2*log(L)  Chisq Df Pr(>Chisq)  
+mod        10 10510 10582 -5245.3     10490                       
+mod_poly   12 10507 10594 -5241.7     10483 7.2374  2    0.02682 *
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
 degree = linear:
  goal   prop_naive.trend    SE  df asymp.LCL asymp.UCL z.ratio p.value
- social           0.2308 0.175 Inf   -0.1113     0.573   1.322  0.1861
- refer            0.3148 0.129 Inf    0.0615     0.568   2.436  0.0149
+ social            0.164 0.164 Inf    -0.157     0.486   1.002  0.3164
+ refer             0.398 0.113 Inf     0.176     0.620   3.520  0.0004
 
 degree = quadratic:
  goal   prop_naive.trend    SE  df asymp.LCL asymp.UCL z.ratio p.value
- social          -0.0998 0.454 Inf   -0.9888     0.789  -0.220  0.8258
- refer           -0.8634 0.324 Inf   -1.4977    -0.229  -2.668  0.0076
+ social           -0.111 0.454 Inf    -1.002     0.780  -0.244  0.8069
+ refer            -0.890 0.328 Inf    -1.533    -0.247  -2.715  0.0066
 
 Confidence level used: 0.95 
 
 
-Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
 Formula: utt_length ~ poly(prop_naive, 2) * goal + (prop_naive + goal |  
-    subject_id) + (prop_naive + goal | item_id) + (prop_naive +      goal | selected_tangram)
+    subject_id) + (prop_naive + goal | selected_tangram)
    Data: data
 Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
 
-REML criterion at convergence: 58619.2
+REML criterion at convergence: 58619.4
 
 Scaled residuals: 
      Min       1Q   Median       3Q      Max 
--10.2845  -0.4685  -0.0853   0.3683  13.6453 
+-10.2842  -0.4686  -0.0849   0.3679  13.6453 
 
 Random effects:
- Groups           Name        Variance  Std.Dev. Corr       
- subject_id       (Intercept) 24.963067 4.99631             
-                  prop_naive  15.865962 3.98321   0.37      
-                  goal1        3.780525 1.94436  -0.05 -0.35
- selected_tangram (Intercept)  0.367666 0.60635             
-                  prop_naive   0.036610 0.19134  -0.21      
-                  goal1        0.020237 0.14226  -0.31 -0.30
- item_id          (Intercept)  0.033524 0.18309             
-                  prop_naive   0.077755 0.27885  1.00       
-                  goal1        0.008078 0.08988  1.00  1.00 
- Residual                     19.776988 4.44713             
-Number of obs: 9805, groups:  subject_id, 185; selected_tangram, 12; item_id, 3
+ Groups           Name        Variance Std.Dev. Corr       
+ subject_id       (Intercept) 24.98594 4.9986              
+                  prop_naive  15.91821 3.9898    0.37      
+                  goal1        3.78585 1.9457   -0.05 -0.35
+ selected_tangram (Intercept)  0.36788 0.6065              
+                  prop_naive   0.03638 0.1907   -0.21      
+                  goal1        0.02014 0.1419   -0.31 -0.31
+ Residual                     19.77706 4.4471              
+Number of obs: 9805, groups:  subject_id, 185; selected_tangram, 12
 
 Fixed effects:
                             Estimate Std. Error        df t value Pr(>|t|)    
-(Intercept)                   7.5066     0.5249    5.3033  14.302 1.94e-05 ***
-poly(prop_naive, 2)1         68.9283    11.8497    3.9865   5.817 0.004394 ** 
-poly(prop_naive, 2)2        -36.0246     4.8084 9220.9920  -7.492 7.41e-14 ***
-goal1                        -0.9776     0.1644    7.1355  -5.945 0.000533 ***
-poly(prop_naive, 2)1:goal1  -21.8555     4.7156 9132.9674  -4.635 3.62e-06 ***
-poly(prop_naive, 2)2:goal1   11.7605     4.8071 9233.8068   2.446 0.014444 *  
+(Intercept)                   7.5012     0.4875  172.0725  15.387  < 2e-16 ***
+poly(prop_naive, 2)1         68.7831    10.6773   96.4810   6.442 4.62e-09 ***
+poly(prop_naive, 2)2        -36.0233     4.8084 9220.8928  -7.492 7.43e-14 ***
+goal1                        -0.9790     0.1561  141.9115  -6.272 4.05e-09 ***
+poly(prop_naive, 2)1:goal1  -21.8547     4.7156 9132.8429  -4.635 3.63e-06 ***
+poly(prop_naive, 2)2:goal1   11.7615     4.8071 9233.7971   2.447   0.0144 *  
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Correlation of Fixed Effects:
             (Intr) pl(_,2)1 pl(_,2)2 goal1  p(_,2)1:
-ply(pr_,2)1  0.614                                  
-ply(pr_,2)2  0.008  0.050                           
-goal1       -0.035 -0.097    0.052                  
-ply(_,2)1:1  0.014  0.084    0.244    0.023         
-ply(_,2)2:1  0.016  0.097    0.280    0.026  0.125  
-optimizer (bobyqa) convergence code: 0 (OK)
-boundary (singular) fit: see help('isSingular')
+ply(pr_,2)1  0.541                                  
+ply(pr_,2)2  0.009  0.055                           
+goal1       -0.171 -0.272    0.055                  
+ply(_,2)1:1  0.015  0.094    0.244    0.025         
+ply(_,2)2:1  0.018  0.108    0.280    0.028  0.125  
+
 
 degree = linear:
  goal   prop_naive.trend    SE  df asymp.LCL asymp.UCL z.ratio p.value
- social             1.12 0.441 Inf     0.255     1.984   2.538  0.0111
- refer              2.14 0.389 Inf     1.383     2.906   5.518  <.0001
+ social             1.11 0.411 Inf      0.31     1.920   2.713  0.0067
+ refer              2.14 0.354 Inf      1.45     2.834   6.045  <.0001
 
 degree = quadratic:
  goal   prop_naive.trend    SE  df asymp.LCL asymp.UCL z.ratio p.value
- social            -2.60 0.824 Inf    -4.217    -0.985  -3.155  0.0016
- refer             -5.12 0.619 Inf    -6.335    -3.910  -8.281  <.0001
+ social            -2.60 0.824 Inf     -4.22    -0.985  -3.154  0.0016
+ refer             -5.12 0.619 Inf     -6.33    -3.910  -8.281  <.0001
 
 Degrees-of-freedom method: asymptotic 
 Confidence level used: 0.95 
 
 
-Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
-Formula: 1 - sbert_cosine_later_blue ~ poly(prop_naive, 2) * goal + (prop_naive +  
-    goal | subject_id) + (goal | item_id) + (goal | selected_tangram)
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: 
+1 - sbert_cosine_later_blue ~ poly(prop_naive, 2) * goal + (prop_naive +  
+    goal | subject_id) + (goal | selected_tangram)
    Data: data
 Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+06))
 
@@ -132,53 +175,82 @@ REML criterion at convergence: 961.6
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--4.2805 -0.5995  0.0583  0.6238  3.0876 
+-4.2797 -0.5994  0.0586  0.6237  3.0877 
 
 Random effects:
- Groups           Name        Variance  Std.Dev. Corr       
- subject_id       (Intercept) 4.041e-02 0.201015            
-                  prop_naive  1.768e-02 0.132967 -0.69      
-                  goal1       4.732e-03 0.068789  0.51 -0.28
- selected_tangram (Intercept) 1.135e-02 0.106556            
-                  goal1       4.523e-04 0.021268 -0.21      
- item_id          (Intercept) 1.771e-05 0.004209            
-                  goal1       4.071e-06 0.002018 -1.00      
- Residual                     5.849e-02 0.241852            
-Number of obs: 7266, groups:  subject_id, 185; selected_tangram, 12; item_id, 3
+ Groups           Name        Variance Std.Dev. Corr       
+ subject_id       (Intercept) 0.040404 0.20101             
+                  prop_naive  0.017676 0.13295  -0.69      
+                  goal1       0.004735 0.06881   0.51 -0.28
+ selected_tangram (Intercept) 0.011354 0.10656             
+                  goal1       0.000454 0.02131  -0.21      
+ Residual                     0.058493 0.24185             
+Number of obs: 7266, groups:  subject_id, 185; selected_tangram, 12
 
 Fixed effects:
-                             Estimate Std. Error         df t value Pr(>|t|)    
-(Intercept)                 5.788e-01  3.316e-02  1.413e+01  17.455 5.85e-11 ***
-poly(prop_naive, 2)1        1.956e+00  4.320e-01  2.006e+02   4.527 1.02e-05 ***
-poly(prop_naive, 2)2       -1.445e+00  3.028e-01  6.785e+03  -4.771 1.87e-06 ***
-goal1                      -3.900e-02  8.634e-03  1.775e+01  -4.517 0.000275 ***
-poly(prop_naive, 2)1:goal1 -6.787e-01  2.965e-01  6.830e+03  -2.289 0.022125 *  
-poly(prop_naive, 2)2:goal1 -1.059e-01  3.029e-01  6.792e+03  -0.350 0.726521    
+                             Estimate Std. Error         df t value Pr(>|t|)
+(Intercept)                 5.789e-01  3.307e-02  1.426e+01  17.503 4.86e-11
+poly(prop_naive, 2)1        1.956e+00  4.320e-01  2.006e+02   4.527 1.02e-05
+poly(prop_naive, 2)2       -1.445e+00  3.028e-01  6.785e+03  -4.771 1.87e-06
+goal1                      -3.902e-02  8.564e-03  2.309e+01  -4.556 0.000139
+poly(prop_naive, 2)1:goal1 -6.788e-01  2.965e-01  6.830e+03  -2.289 0.022102
+poly(prop_naive, 2)2:goal1 -1.058e-01  3.029e-01  6.792e+03  -0.349 0.726738
+                              
+(Intercept)                ***
+poly(prop_naive, 2)1       ***
+poly(prop_naive, 2)2       ***
+goal1                      ***
+poly(prop_naive, 2)1:goal1 *  
+poly(prop_naive, 2)2:goal1    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Correlation of Fixed Effects:
             (Intr) pl(_,2)1 pl(_,2)2 goal1  p(_,2)1:
 ply(pr_,2)1 -0.097                                  
 ply(pr_,2)2  0.008  0.092                           
-goal1       -0.038 -0.087    0.066                  
+goal1       -0.029 -0.088    0.066                  
 ply(_,2)1:1  0.013  0.134    0.228    0.034         
 ply(_,2)2:1  0.017  0.157    0.247    0.029  0.135  
-optimizer (bobyqa) convergence code: 0 (OK)
-boundary (singular) fit: see help('isSingular')
+
 
 degree = linear:
  goal   prop_naive.trend     SE  df asymp.LCL asymp.UCL z.ratio p.value
  social           0.0205 0.0197 Inf   -0.0181    0.0590   1.041  0.2979
- refer            0.0654 0.0156 Inf    0.0350    0.0959   4.207  <.0001
+ refer            0.0655 0.0156 Inf    0.0350    0.0959   4.208  <.0001
 
 degree = quadratic:
  goal   prop_naive.trend     SE  df asymp.LCL asymp.UCL z.ratio p.value
- social          -0.1662 0.0513 Inf   -0.2667   -0.0657  -3.243  0.0012
+ social          -0.1662 0.0513 Inf   -0.2667   -0.0657  -3.242  0.0012
  refer           -0.1435 0.0398 Inf   -0.2216   -0.0654  -3.601  0.0003
 
 Degrees-of-freedom method: asymptotic 
 Confidence level used: 0.95 
+
+
+SENSITIVITY ANALYSIS: social-goal main effect (goal1 coefficient) under
+alternative random-effects specifications (see sensitivity.csv):
+
+              model       specification singular    estimate          SE
+1    tangram_choice     intercepts only    FALSE -0.13553397 0.025195859
+2    tangram_choice    final (reported)    FALSE -0.12959096 0.034110249
+3    tangram_choice  maximal (singular)     TRUE -0.16584635 0.041806233
+4        utt_length     intercepts only    FALSE -0.96535631 0.052803845
+5        utt_length    final (reported)    FALSE -0.97900424 0.156095320
+6        utt_length  maximal (singular)     TRUE -0.97761884 0.164440075
+7 semantic_distance     intercepts only    FALSE -0.04513282 0.003126335
+8 semantic_distance    final (reported)    FALSE -0.03902162 0.008564317
+9 semantic_distance previous (singular)     TRUE -0.03900503 0.008634211
+        stat            p
+1  -5.379216 7.481075e-08
+2  -3.799179 1.451760e-04
+3  -3.967025 7.277548e-05
+4 -18.281932 2.006425e-73
+5  -6.271836 4.048287e-09
+6  -5.945137 5.328769e-04
+7 -14.436334 1.397212e-46
+8  -4.556303 1.394211e-04
+9  -4.517498 2.752317e-04
 
 
 

@@ -21,6 +21,13 @@ library(tidyr)
 
 theme_set(theme_classic(base_size = 15))
 options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
+
+# Seed for the bootstrapped CIs, so rendered outputs are reproducible
+set.seed(2026)
+
+# Helpers for exporting statistics as LaTeX macros for the manuscript
+source(here("analysis/utils/macros.R"))
+macros <- list()
 ```
 
 # Load data and demographics
@@ -35,13 +42,14 @@ demographics <- read_csv(here("data/free-response/exit_survey.csv"))
 Summary statistics
 
 ```{r}
-demographics %>%
+age_summary <- demographics %>%
   summarise(
     age_mean = mean(age, na.rm = TRUE),
-    age_sd = sd(age, na.rm = TRUE), 
+    age_sd = sd(age, na.rm = TRUE),
     min_age = min(age, na.rm = TRUE),
     max_age = max(age, na.rm = TRUE)
   )
+age_summary
 ```
 
 
@@ -49,17 +57,37 @@ demographics %>%
 Gender breakdown
 
 ```{r}
-demographics %>%
+gender_counts <- demographics %>%
   group_by(gender) %>%
   summarise(n = n())
+gender_counts
 ```
 
 How many participants that understood the instructions?
 
 ```{r}
-demographics %>%
+n_participants <- n_distinct(demographics$subject_id)
+
+n_understood <- demographics %>%
   filter(understood == "yes") %>%
-  summarise(n_unique = n_distinct(subject_id))
+  summarise(n_unique = n_distinct(subject_id)) %>%
+  pull(n_unique)
+n_understood
+```
+
+Export demographics as macros
+
+```{r}
+n_gender <- function(g) sum(gender_counts$n[gender_counts$gender == g])
+macros$expOneN <- fmt_int(n_participants)
+macros$expOneNExcluded <- fmt_int(n_participants - n_understood)
+macros$expOneNFemale <- fmt_int(n_gender("female"))
+macros$expOneNMale <- fmt_int(n_gender("male"))
+macros$expOneNNonbinary <- fmt_int(n_gender("nonconforming"))
+macros$expOneAgeMin <- fmt_int(age_summary$min_age)
+macros$expOneAgeMax <- fmt_int(age_summary$max_age)
+macros$expOneAgeMean <- fmt_num(age_summary$age_mean, 1)
+macros$expOneAgeSD <- fmt_num(age_summary$age_sd, 1)
 ```
 
 # Sanity checks
@@ -477,95 +505,269 @@ data <- data %>%
     prop_naive = as.numeric(prop_naive)
   )
 
+# Helpers for extracting the manuscript-quoted statistics from model summaries.
+# glmer coefficients are Wald z tests; lmer coefficients (via lmerTest) are
+# Satterthwaite t tests, so those also export the (data-dependent) df.
+glmer_coef_macros <- function(mod, term) {
+  co <- summary(mod)$coefficients[term, ]
+  list(B = fmt_num(co[["Estimate"]]), Z = fmt_num(co[["z value"]]), P = fmt_p(co[["Pr(>|z|)"]]))
+}
+lmer_coef_macros <- function(mod, term) {
+  co <- summary(mod)$coefficients[term, ]
+  list(
+    B = fmt_num(co[["Estimate"]]), T = fmt_num(co[["t value"]]),
+    Df = fmt_num(co[["df"]], 1), P = fmt_p(co[["Pr(>|t|)"]])
+  )
+}
+# Extract one goal x degree row of an emtrends summary as B/Z/P macro values
+# (with n > 3000 observations, emmeans uses the asymptotic z scale for lmer too)
+trend_macros <- function(trends, deg, g) {
+  row <- as.data.frame(trends)
+  row <- row[row$degree == deg & row$goal == g, ]
+  list(B = fmt_num(row$prop_naive.trend), Z = fmt_num(row$z.ratio), P = fmt_p(row$p.value))
+}
+```
+
+Tangram choice model, with a linear term for proportion naive (kept for the likelihood ratio test against the polynomial model below)
+
+```{r}
+# This sink intentionally opens without append = TRUE: it is the first sink in
+# the document, so each full render rebuilds model_outputs.txt from scratch.
+sink(here("analysis/free-response/model_outputs.txt"))
+
+# The random-effects structure follows the preregistered contingency plan
+# (drop the random interactions, then the slopes, and/or run the Bayesian
+# equivalent). The maximal specification, (prop_naive + goal | subject_id) +
+# (prop_naive + goal | item_id) + (prop_naive + goal | selected_tangram),
+# produced a singular fit, and the boundary components were removed one at a
+# time: the tangram-set (item_id, 3 levels) slope correlations were degenerate
+# (+/-1) and its intercept variance was then estimated at zero, so item_id was
+# removed; the by-participant goal slope was perfectly correlated (-1) with
+# the prop_naive slope, so it was removed; and the by-tangram prop_naive
+# slope was then perfectly correlated (+1) with the by-tangram intercept, so
+# it was removed. The non-singular structure below retains the by-participant
+# prop_naive slopes and the by-tangram goal slopes. The goal estimates are
+# essentially unchanged under alternative specifications (see the sensitivity
+# analysis).
 mod <- glmer(
   tangram_choice ~ prop_naive * goal
-  + (prop_naive + goal | subject_id)
-  + (prop_naive + goal | item_id)
-  + (prop_naive + goal |
-       selected_tangram),
+  + (prop_naive | subject_id)
+  + (goal | selected_tangram),
   data = data,
-  family = 'binomial', 
+  family = 'binomial',
   control = glmerControl(optimizer = "bobyqa")
 )
 
 summary(mod)
+
+sink()
 ```
 
 try with polynomial term
 
 ```{r}
-sink(here("analysis/free-response/model_outputs.txt"))
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
+cat("\n\n")
 
+# Same pruned random-effects structure as the linear model above (see the
+# comment there), so the two models are nested for the likelihood ratio test.
 mod_poly <- glmer(
   tangram_choice ~ poly(prop_naive, 2) * goal
-  + (prop_naive + goal | subject_id)
-  + (prop_naive + goal | item_id)
-  + (prop_naive + goal |
-       selected_tangram),
+  + (prop_naive | subject_id)
+  + (goal | selected_tangram),
   data = data,
-  family = 'binomial', 
+  family = 'binomial',
   control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))
 )
 summary(mod_poly)
 
 sink()
+
+macros <- macros %>%
+  add_macros("expOneTangramSocial", glmer_coef_macros(mod_poly, "goal1"))
 ```
 Likelihood ratio test
-
-```{r}
-anova(mod, mod_poly, test = "Chisq")
-```
-The model with the polynomial fit is a better fit to the data 
 
 ```{r}
 sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
 cat("\n\n")
 
-emtrends(mod_poly, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
+print(anova(mod, mod_poly, test = "Chisq"))
+
+sink()
+```
+The model with the polynomial fit is a better fit to the data
+
+```{r}
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+trends_tangram <- emtrends(mod_poly, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
   summary(infer = T)
+print(trends_tangram)
+
+sink()
+
+macros <- macros %>%
+  add_macros("expOneTangramLin", trend_macros(trends_tangram, "linear", "refer")) %>%
+  add_macros("expOneTangramQuad", trend_macros(trends_tangram, "quadratic", "refer"))
 ```
 
 
 ```{r}
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
 cat("\n\n")
 
+# The random-effects structure follows the preregistered contingency plan
+# (drop the random interactions, then the slopes, and/or run the Bayesian
+# equivalent). The maximal specification, with (prop_naive + goal | item_id),
+# produced a singular fit: the tangram-set (item_id, 3 levels) slope
+# correlations were all degenerate (+1), and with the slopes removed the
+# item_id intercept variance was estimated at exactly zero, so item_id was
+# removed. The non-singular structure below retains the full by-participant
+# and by-tangram slopes. The goal estimates are essentially unchanged under
+# alternative specifications (see the sensitivity analysis).
 mod_utt_length <- lmer(
   utt_length ~ poly(prop_naive, 2) * goal
   + (prop_naive + goal | subject_id)
-  + (prop_naive + goal | item_id)
-  + (prop_naive + goal |
-       selected_tangram),
+  + (prop_naive + goal | selected_tangram),
   control = lmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e5)),
   data = data
 )
 
 summary(mod_utt_length)
+
+sink()
+
+macros <- macros %>%
+  add_macros("expOneLengthSocial", lmer_coef_macros(mod_utt_length, "goal1"))
+macros$expOneLengthInterP <- fmt_p(
+  summary(mod_utt_length)$coefficients["poly(prop_naive, 2)1:goal1", "Pr(>|t|)"]
+)
 ```
 
 ```{r}
-emtrends(mod_utt_length, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
-  summary(infer = T)
-```
-
-```{r}
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
 cat("\n\n")
+
+trends_length <- emtrends(mod_utt_length, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
+  summary(infer = T)
+print(trends_length)
+
+sink()
+
+macros <- macros %>%
+  add_macros("expOneLengthLin", trend_macros(trends_length, "linear", "refer")) %>%
+  add_macros("expOneLengthQuad", trend_macros(trends_length, "quadratic", "refer"))
+```
+
+```{r}
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
+cat("\n\n")
+
+# The random-effects structure follows the preregistered contingency plan
+# (drop the random interactions, then the slopes, and/or run the Bayesian
+# equivalent). The previous specification, with (goal | item_id), produced a
+# singular fit: the tangram-set (item_id, 3 levels) variance components were
+# estimated at essentially zero with a degenerate (-1) correlation, so item_id
+# was removed. The structure below retains the full by-participant and
+# by-tangram components. The goal estimates are essentially unchanged under
+# alternative specifications (see the sensitivity analysis).
 mod_sbert <- lmer(
   1 - sbert_cosine_later_blue ~ poly(prop_naive, 2) * goal
   + (prop_naive + goal | subject_id)
-  + (goal | item_id)
   + (goal | selected_tangram),
     control = lmerControl(optimizer="bobyqa", optCtrl=list(maxfun=2e6)),
   data = data
 )
 
 summary(mod_sbert)
+
+sink()
+
+macros <- macros %>%
+  add_macros("expOneSemSocial", lmer_coef_macros(mod_sbert, "goal1"))
+macros$expOneSemInterP <- fmt_p(
+  summary(mod_sbert)$coefficients["poly(prop_naive, 2)1:goal1", "Pr(>|t|)"]
+)
 ```
 
 
 ```{r}
-emtrends(mod_sbert, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
-  summary(infer = T)
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
+cat("\n\n")
 
+trends_sbert <- emtrends(mod_sbert, ~ goal, var = "prop_naive", type = "response", max.degree = 2) %>%
+  summary(infer = T)
+print(trends_sbert)
+
+sink()
+
+macros <- macros %>%
+  add_macros("expOneSemLin", trend_macros(trends_sbert, "linear", "refer")) %>%
+  add_macros("expOneSemQuad", trend_macros(trends_sbert, "quadratic", "refer"))
+```
+
+## Sensitivity analysis
+
+The social-goal main effect for each of the three models under alternative random-effects specifications, from intercepts-only up to the richest structure previously fit. The richest specifications are singular (boundary fits) and are shown only to demonstrate that the fixed-effects conclusions do not depend on the choice of structure.
+
+```{r}
+sensitivity_specs <- list(
+  tangram_choice = list(
+    response = "tangram_choice",
+    "intercepts only" = ~ (1 | subject_id) + (1 | selected_tangram),
+    "final (reported)" = ~ (prop_naive | subject_id) + (goal | selected_tangram),
+    "maximal (singular)" = ~ (prop_naive + goal | subject_id) + (prop_naive + goal | item_id) + (prop_naive + goal | selected_tangram)
+  ),
+  utt_length = list(
+    response = "utt_length",
+    "intercepts only" = ~ (1 | subject_id) + (1 | selected_tangram),
+    "final (reported)" = ~ (prop_naive + goal | subject_id) + (prop_naive + goal | selected_tangram),
+    "maximal (singular)" = ~ (prop_naive + goal | subject_id) + (prop_naive + goal | item_id) + (prop_naive + goal | selected_tangram)
+  ),
+  semantic_distance = list(
+    response = "1 - sbert_cosine_later_blue",
+    "intercepts only" = ~ (1 | subject_id) + (1 | selected_tangram),
+    "final (reported)" = ~ (prop_naive + goal | subject_id) + (goal | selected_tangram),
+    "previous (singular)" = ~ (prop_naive + goal | subject_id) + (goal | item_id) + (goal | selected_tangram)
+  )
+)
+
+fit_sensitivity <- function(model_name, spec_name) {
+  spec <- sensitivity_specs[[model_name]]
+  re_terms <- paste(deparse(spec[[spec_name]][[2]]), collapse = " ")
+  f <- as.formula(glue("{spec$response} ~ poly(prop_naive, 2) * goal + {re_terms}"))
+  if (model_name == "tangram_choice") {
+    m <- glmer(f, data = data, family = "binomial",
+               control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5)))
+  } else {
+    m <- lmer(f, data = data,
+              control = lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e6)))
+  }
+  co <- summary(m)$coefficients["goal1", ]
+  tibble(
+    model = model_name,
+    specification = spec_name,
+    singular = isSingular(m),
+    estimate = co[["Estimate"]],
+    SE = co[["Std. Error"]],
+    stat = ifelse(model_name == "tangram_choice", co[["z value"]], co[["t value"]]),
+    p = ifelse(model_name == "tangram_choice", co[["Pr(>|z|)"]], co[["Pr(>|t|)"]])
+  )
+}
+
+sensitivity <- map_dfr(names(sensitivity_specs), function(model_name) {
+  spec_names <- setdiff(names(sensitivity_specs[[model_name]]), "response")
+  map_dfr(spec_names, function(spec_name) fit_sensitivity(model_name, spec_name))
+})
+
+write_csv(sensitivity, here("analysis/free-response/sensitivity.csv"))
+
+sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
+cat("\n\nSENSITIVITY ANALYSIS: social-goal main effect (goal1 coefficient) under\n")
+cat("alternative random-effects specifications (see sensitivity.csv):\n\n")
+print(as.data.frame(sensitivity))
 sink()
 ```
 
@@ -657,18 +859,34 @@ Calculate correlations
 ```{r}
 sink(here("analysis/free-response/model_outputs.txt"), append = TRUE)
 cat("\n\n")
-cor.test(eff_cor_tangram$utt_memory, eff_cor_tangram$goal_effect)
-```
 
-```{r}
-cat("\n")
-cor.test(eff_cor_length$utt_memory, eff_cor_length$goal_effect)
-```
+cor_tangram <- cor.test(eff_cor_tangram$utt_memory, eff_cor_tangram$goal_effect)
+print(cor_tangram)
 
-```{r}
 cat("\n")
-cor.test(eff_cor_sbert$utt_memory, eff_cor_sbert$goal_effect)
+
+cor_length <- cor.test(eff_cor_length$utt_memory, eff_cor_length$goal_effect)
+print(cor_length)
+
+cat("\n")
+
+cor_sbert <- cor.test(eff_cor_sbert$utt_memory, eff_cor_sbert$goal_effect)
+print(cor_sbert)
+
 sink()
+
+cor_macros <- function(ct) {
+  list(
+    R = fmt_num(ct$estimate),
+    T = fmt_num(ct$statistic),
+    Df = fmt_int(ct$parameter),
+    P = fmt_p(ct$p.value)
+  )
+}
+macros <- macros %>%
+  add_macros("expOneCorrTangram", cor_macros(cor_tangram)) %>%
+  add_macros("expOneCorrLength", cor_macros(cor_length)) %>%
+  add_macros("expOneCorrSem", cor_macros(cor_sbert))
 ```
 
 
@@ -707,6 +925,14 @@ ggplot(eff_cor_tangram, aes(x = utt_memory, y = goal_effect)) +
   geom_smooth(method = "lm") +
   geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
   labs(x = "Memory of later blue utterances", y = "Goal effect - tangram choice")
+```
+
+# Export statistics as LaTeX macros
+
+Write out every statistic quoted in the manuscript as a LaTeX macro, so the paper never hardcodes a computed value (`make manuscript-stats` copies these into the manuscript).
+
+```{r}
+write_macros(macros, here("analysis/free-response/macros.tex"))
 ```
 
 
