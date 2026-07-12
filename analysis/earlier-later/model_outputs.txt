@@ -12,74 +12,65 @@ sample estimates:
 
 
 
-Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
  Family: binomial  ( logit )
-Formula: response.earlier ~ condition * shared + (condition * shared |  
-    subject_id) + (condition | item_id/tangram)
+Formula: response.earlier ~ condition * shared + (audience + shared |  
+    subject_id) + (1 | item_id:tangram)
    Data: main.trials
-Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 20000))
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 1e+05))
 
       AIC       BIC    logLik -2*log(L)  df.resid 
-   2494.7    2716.1   -1208.3    2416.7      2121 
+   2449.6    2523.4   -1211.8    2423.6      2147 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--3.2411 -0.6044 -0.3664  0.6767  3.7962 
+-3.1258 -0.6125 -0.3725  0.7052  3.7638 
 
 Random effects:
- Groups          Name               Variance  Std.Dev.  Corr                         
- subject_id      (Intercept)        1.304e+00 1.142e+00                              
-                 condition1         4.760e-01 6.899e-01  0.59                        
-                 condition2         1.035e-01 3.217e-01 -0.67 -0.97                  
-                 shared1            1.379e-01 3.713e-01  0.39  0.52 -0.47            
-                 condition1:shared1 6.419e-02 2.533e-01 -0.13 -0.48  0.55  0.44      
-                 condition2:shared1 2.531e-02 1.591e-01 -0.31  0.28 -0.32 -0.43 -0.88
- tangram:item_id (Intercept)        1.742e-01 4.174e-01                              
-                 condition1         3.843e-02 1.960e-01  0.61                        
-                 condition2         6.261e-03 7.912e-02 -0.93 -0.85                  
- item_id         (Intercept)        9.953e-14 3.155e-07                              
-                 condition1         1.668e-12 1.291e-06 -1.00                        
-                 condition2         1.029e-13 3.208e-07  0.98 -0.99                  
-Number of obs: 2160, groups:  subject_id, 60; tangram:item_id, 18; item_id, 3
+ Groups          Name        Variance Std.Dev. Corr     
+ subject_id      (Intercept) 1.5009   1.2251            
+                 audience1   0.2364   0.4862   0.64     
+                 shared1     0.1339   0.3659   0.49 0.60
+ item_id:tangram (Intercept) 0.1648   0.4060            
+Number of obs: 2160, groups:  subject_id, 60; item_id:tangram, 18
 
 Fixed effects:
                    Estimate Std. Error z value Pr(>|z|)    
-(Intercept)        -0.74724    0.18677  -4.001 6.31e-05 ***
-condition1          0.50941    0.12856   3.962 7.42e-05 ***
-condition2         -0.15311    0.08958  -1.709 0.087420 .  
-shared1            -0.21021    0.07381  -2.848 0.004398 ** 
-condition1:shared1 -0.31396    0.08591  -3.654 0.000258 ***
-condition2:shared1  0.17861    0.07921   2.255 0.024144 *  
+(Intercept)        -0.74764    0.18380  -4.068 4.75e-05 ***
+condition1          0.51474    0.11396   4.517 6.28e-06 ***
+condition2         -0.16498    0.08419  -1.960  0.05005 .  
+shared1            -0.20643    0.07272  -2.839  0.00453 ** 
+condition1:shared1 -0.29935    0.07612  -3.932 8.41e-05 ***
+condition2:shared1  0.15677    0.07280   2.153  0.03128 *  
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Correlation of Fixed Effects:
             (Intr) cndtn1 cndtn2 shard1 cnd1:1
-condition1   0.445                            
-condition2  -0.367 -0.641                     
-shared1      0.217  0.251 -0.171              
-cndtn1:shr1 -0.028 -0.084  0.077  0.140       
-cndtn2:shr1 -0.078  0.037 -0.008 -0.120 -0.525
-optimizer (bobyqa) convergence code: 0 (OK)
-boundary (singular) fit: see help('isSingular')
+condition1   0.319                            
+condition2  -0.222 -0.667                     
+shared1      0.252  0.312 -0.214              
+cndtn1:shr1  0.010  0.049 -0.032  0.012       
+cndtn2:shr1 -0.006 -0.025  0.036 -0.024 -0.508
 
 
-
-$emmeans
  condition    emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
- either refer -0.238 0.270 Inf    -0.767     0.291  -0.882  0.3780
- one refer    -0.900 0.175 Inf    -1.243    -0.557  -5.145  <.0001
- one social   -1.104 0.189 Inf    -1.473    -0.734  -5.849  <.0001
+ either refer -0.233 0.245 Inf    -0.713     0.248  -0.950  0.3422
+ one refer    -0.913 0.184 Inf    -1.274    -0.551  -4.950  <.0001
+ one social   -1.097 0.186 Inf    -1.462    -0.733  -5.901  <.0001
 
 Results are averaged over the levels of: shared 
 Results are given on the logit (not the response) scale. 
 Confidence level used: 0.95 
-
-$contrasts
- contrast                  estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
- either refer - one refer     0.663 0.198 Inf     0.198     1.127   3.341  0.0024
- either refer - one social    0.866 0.211 Inf     0.371     1.361   4.098  0.0001
- one refer - one social       0.203 0.138 Inf    -0.121     0.527   1.470  0.3055
+ contrast                  estimate    SE  df asymp.LCL asymp.UCL z.ratio
+ either refer - one refer     0.680 0.181 Inf     0.255     1.105   3.749
+ either refer - one social    0.865 0.183 Inf     0.436     1.293   4.727
+ one refer - one social       0.185 0.125 Inf    -0.109     0.479   1.473
+ p.value
+  0.0005
+  <.0001
+  0.3041
 
 Results are averaged over the levels of: shared 
 Results are given on the log odds ratio (not the response) scale. 
@@ -88,80 +79,101 @@ Conf-level adjustment: tukey method for comparing a family of 3 estimates
 P value adjustment: tukey method for comparing a family of 3 estimates 
 
 
-
- contrast                   estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
- one social - grouped refer    0.534 0.148 Inf     0.243     0.825   3.600  0.0003
+ contrast                   estimate    SE  df asymp.LCL asymp.UCL z.ratio
+ one social - grouped refer    0.525 0.128 Inf     0.274     0.775   4.100
+ p.value
+  <.0001
 
 Results are averaged over the levels of: shared 
 Results are given on the log odds ratio (not the response) scale. 
 Confidence level used: 0.95 
 
 
-$emmeans
 shared = shared:
  condition    emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
- either refer -0.762 0.309 Inf    -1.367    -0.157  -2.467  0.0136
- one refer    -0.932 0.206 Inf    -1.335    -0.529  -4.535  <.0001
- one social   -1.178 0.232 Inf    -1.633    -0.724  -5.078  <.0001
+ either refer -0.739 0.290 Inf     -1.31    -0.169  -2.543  0.0110
+ one refer    -0.962 0.221 Inf     -1.39    -0.530  -4.359  <.0001
+ one social   -1.161 0.224 Inf     -1.60    -0.723  -5.194  <.0001
 
 shared = unique:
  condition    emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
- either refer  0.286 0.282 Inf    -0.266     0.839   1.016  0.3095
- one refer    -0.869 0.199 Inf    -1.259    -0.478  -4.363  <.0001
- one social   -1.029 0.201 Inf    -1.423    -0.634  -5.112  <.0001
+ either refer  0.273 0.241 Inf     -0.20     0.746   1.130  0.2584
+ one refer    -0.863 0.200 Inf     -1.25    -0.471  -4.318  <.0001
+ one social   -1.034 0.202 Inf     -1.43    -0.637  -5.109  <.0001
 
 Results are given on the logit (not the response) scale. 
 Confidence level used: 0.95 
-
-$contrasts
 shared = shared:
- contrast                  estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
- either refer - one refer     0.170 0.237 Inf    -0.386     0.726   0.717  0.7535
- either refer - one social    0.416 0.250 Inf    -0.170     1.002   1.666  0.2186
- one refer - one social       0.246 0.197 Inf    -0.216     0.709   1.250  0.4237
+ contrast                  estimate    SE  df asymp.LCL asymp.UCL z.ratio
+ either refer - one refer     0.224 0.227 Inf    -0.309     0.757   0.983
+ either refer - one social    0.423 0.230 Inf    -0.116     0.961   1.838
+ one refer - one social       0.199 0.180 Inf    -0.223     0.621   1.105
+ p.value
+  0.5875
+  0.1572
+  0.5111
 
 shared = unique:
- contrast                  estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
- either refer - one refer     1.155 0.253 Inf     0.562     1.748   4.565  <.0001
- either refer - one social    1.315 0.264 Inf     0.696     1.934   4.979  <.0001
- one refer - one social       0.160 0.189 Inf    -0.283     0.603   0.846  0.6742
+ contrast                  estimate    SE  df asymp.LCL asymp.UCL z.ratio
+ either refer - one refer     1.136 0.218 Inf     0.625     1.646   5.213
+ either refer - one social    1.306 0.220 Inf     0.790     1.822   5.934
+ one refer - one social       0.171 0.175 Inf    -0.239     0.580   0.976
+ p.value
+  <.0001
+  <.0001
+  0.5919
 
 Results are given on the log odds ratio (not the response) scale. 
 Confidence level used: 0.95 
 Conf-level adjustment: tukey method for comparing a family of 3 estimates 
 P value adjustment: tukey method for comparing a family of 3 estimates 
-
 
 
 $emmeans
  condition    shared emmean    SE  df asymp.LCL asymp.UCL z.ratio p.value
- either refer shared -0.762 0.309 Inf    -1.367    -0.157  -2.467  0.0136
- one refer    shared -0.932 0.206 Inf    -1.335    -0.529  -4.535  <.0001
- one social   shared -1.178 0.232 Inf    -1.633    -0.724  -5.078  <.0001
- either refer unique  0.286 0.282 Inf    -0.266     0.839   1.016  0.3095
- one refer    unique -0.869 0.199 Inf    -1.259    -0.478  -4.363  <.0001
- one social   unique -1.029 0.201 Inf    -1.423    -0.634  -5.112  <.0001
+ either refer shared -0.739 0.290 Inf     -1.31    -0.169  -2.543  0.0110
+ one refer    shared -0.962 0.221 Inf     -1.39    -0.530  -4.359  <.0001
+ one social   shared -1.161 0.224 Inf     -1.60    -0.723  -5.194  <.0001
+ either refer unique  0.273 0.241 Inf     -0.20     0.746   1.130  0.2584
+ one refer    unique -0.863 0.200 Inf     -1.25    -0.471  -4.318  <.0001
+ one social   unique -1.034 0.202 Inf     -1.43    -0.637  -5.109  <.0001
 
 Results are given on the logit (not the response) scale. 
 Confidence level used: 0.95 
 
 $contrasts
- contrast                                  estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value
- either refer shared - one refer shared      0.1700 0.237 Inf    -0.506     0.846   0.717  0.9800
- either refer shared - one social shared     0.4164 0.250 Inf    -0.296     1.129   1.666  0.5548
- either refer shared - either refer unique  -1.0483 0.242 Inf    -1.737    -0.360  -4.338  0.0002
- either refer shared - one refer unique      0.1067 0.283 Inf    -0.701     0.914   0.377  0.9990
- either refer shared - one social unique     0.2667 0.298 Inf    -0.582     1.115   0.896  0.9476
- one refer shared - one social shared        0.2464 0.197 Inf    -0.315     0.808   1.250  0.8120
- one refer shared - either refer unique     -1.2183 0.238 Inf    -1.895    -0.541  -5.127  <.0001
- one refer shared - one refer unique        -0.0632 0.203 Inf    -0.642     0.516  -0.311  0.9996
- one refer shared - one social unique        0.0967 0.211 Inf    -0.506     0.699   0.458  0.9975
- one social shared - either refer unique    -1.4647 0.250 Inf    -2.177    -0.753  -5.864  <.0001
- one social shared - one refer unique       -0.3097 0.212 Inf    -0.913     0.293  -1.463  0.6879
- one social shared - one social unique      -0.1497 0.215 Inf    -0.763     0.464  -0.696  0.9825
- either refer unique - one refer unique      1.1551 0.253 Inf     0.434     1.876   4.565  0.0001
- either refer unique - one social unique     1.3150 0.264 Inf     0.562     2.068   4.979  <.0001
- one refer unique - one social unique        0.1599 0.189 Inf    -0.379     0.698   0.846  0.9588
+ contrast                                  estimate    SE  df asymp.LCL
+ either refer shared - one refer shared      0.2236 0.227 Inf    -0.424
+ either refer shared - one social shared     0.4226 0.230 Inf    -0.233
+ either refer shared - either refer unique  -1.0116 0.212 Inf    -1.615
+ either refer shared - one refer unique      0.1243 0.274 Inf    -0.657
+ either refer shared - one social unique     0.2949 0.276 Inf    -0.492
+ one refer shared - one social shared        0.1990 0.180 Inf    -0.314
+ one refer shared - either refer unique     -1.2352 0.208 Inf    -1.828
+ one refer shared - one refer unique        -0.0993 0.203 Inf    -0.679
+ one refer shared - one social unique        0.0713 0.206 Inf    -0.515
+ one social shared - either refer unique    -1.4341 0.211 Inf    -2.035
+ one social shared - one refer unique       -0.2983 0.206 Inf    -0.886
+ one social shared - one social unique      -0.1277 0.209 Inf    -0.722
+ either refer unique - one refer unique      1.1358 0.218 Inf     0.515
+ either refer unique - one social unique     1.3064 0.220 Inf     0.679
+ one refer unique - one social unique        0.1706 0.175 Inf    -0.327
+ asymp.UCL z.ratio p.value
+     0.872   0.983  0.9234
+     1.078   1.838  0.4410
+    -0.408  -4.776  <.0001
+     0.906   0.453  0.9976
+     1.082   1.068  0.8942
+     0.712   1.105  0.8796
+    -0.642  -5.939  <.0001
+     0.480  -0.488  0.9966
+     0.657   0.347  0.9993
+    -0.833  -6.797  <.0001
+     0.290  -1.446  0.6990
+     0.467  -0.612  0.9902
+     1.757   5.213  <.0001
+     1.934   5.934  <.0001
+     0.669   0.976  0.9256
 
 Results are given on the log odds ratio (not the response) scale. 
 Confidence level used: 0.95 
@@ -170,14 +182,29 @@ P value adjustment: tukey method for comparing a family of 6 estimates
 
 
 
-Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+SENSITIVITY ANALYSIS: refer-known minus social-known contrast (averaged
+over tangram type) under alternative random-effects specifications (see
+sensitivity.csv):
+
+       specification singular  estimate        SE   ci_lower  ci_upper        z
+1    intercepts only    FALSE 0.1839063 0.1257814 -0.1108877 0.4787003 1.462110
+2   final (reported)    FALSE 0.1847871 0.1254778 -0.1092954 0.4788695 1.472667
+3 maximal (singular)     TRUE 0.2031940 0.1382384 -0.1207954 0.5271835 1.469881
+          p
+1 0.3093040
+2 0.3041108
+3 0.3054764
+
+
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
  Family: binomial  ( logit )
-Formula: seen ~ 1 + (1 | subject_id) + (1 | audience) + (1 | item_id/tangram)
+Formula: seen ~ 1 + (1 | subject_id) + (1 | item_id:tangram)
    Data: baseline.trials.refer
 Control: glmerControl(optimizer = "bobyqa")
 
       AIC       BIC    logLik -2*log(L)  df.resid 
-    228.0     249.4    -109.0     218.0       535 
+    224.0     236.9    -109.0     218.0       537 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
@@ -185,23 +212,19 @@ Scaled residuals:
 
 Random effects:
  Groups          Name        Variance Std.Dev.
- subject_id      (Intercept) 17.316   4.1613  
- tangram:item_id (Intercept)  0.767   0.8758  
- item_id         (Intercept)  0.000   0.0000  
- audience        (Intercept)  0.000   0.0000  
-Number of obs: 540, groups:  subject_id, 60; tangram:item_id, 18; item_id, 3; audience, 2
+ subject_id      (Intercept) 17.317   4.1613  
+ item_id:tangram (Intercept)  0.767   0.8758  
+Number of obs: 540, groups:  subject_id, 60; item_id:tangram, 18
 
 Fixed effects:
             Estimate Std. Error z value Pr(>|z|)    
 (Intercept)    6.460      1.514   4.268 1.97e-05 ***
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-optimizer (bobyqa) convergence code: 0 (OK)
-boundary (singular) fit: see help('isSingular')
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
-
-Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
  Family: binomial  ( logit )
 Formula: group_label ~ 1 + (1 | subject_id) + (1 | item_id/tangram)
    Data: baseline.trials.social
@@ -225,7 +248,7 @@ Fixed effects:
             Estimate Std. Error z value Pr(>|z|)    
 (Intercept)   0.8120     0.2361   3.439 0.000584 ***
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
 Baseline refer (inverse logit of intercept):
