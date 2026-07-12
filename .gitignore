@@ -4,6 +4,8 @@
 *.mp4
 .Rhistory
 __pycache__
+.venv/
+.claude/settings.local.json
 partial_movie_files
 old
 .vscode
@@ -26,5 +28,6 @@ experiments/1pp-interactive
 figures/PDF/cogsci-2025
 analysis/1pp
 submissions
-Claude.md
 analysis/new_figures_plan.md
+manuscript
+.claude
