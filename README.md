@@ -46,6 +46,13 @@ uv sync
 
 Open the project in RStudio and run the following code to install the dependencies. Make sure you are running R version `4.4.2`.
 
+Install R version `4.4.2` using `rig` and open project in R studio
+
+```bash
+rig add 4.4.2
+rig rstudio 4.4-arm64
+```
+
 ```{r}
 # Install renv if not already installed
 if (!requireNamespace("renv", quietly = TRUE)) {
