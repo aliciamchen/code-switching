@@ -32,10 +32,11 @@ OSF project: https://osf.io/5j6uk/
 
 ### Python dependencies
 
+The Python packages are managed by [uv](https://docs.astral.sh/uv/).
+
 ```{bash}
 brew install py3cairo ffmpeg pango pkg-config  # (need to install this to run manim)
-conda env create -f environment.yml
-conda activate code-switching
+uv sync
 ```
 
 ### R dependencies
@@ -61,3 +62,5 @@ Then, run the analysis scripts in `analysis/{experiment}`. These notebooks will 
 Then, to fit the computational models, run the notebooks in `model/`.
 
 Then, to generate the plots that directly go into the figures in the paper, run `analysis/paper_figs.Rmd`.
+
+The `Makefile` wraps these steps: run `make help` to see all available targets, or `make all` to run the full pipeline end-to-end (requires the raw data, which is not included in the repo).
