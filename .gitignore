@@ -24,6 +24,7 @@ sandbox
 **/stim/scripts/media/texts
 data/1pp
 **/pilots
+notes
 experiments/1pp-interactive
 figures/PDF/cogsci-2025
 analysis/1pp
@@ -31,3 +32,4 @@ submissions
 analysis/new_figures_plan.md
 manuscript
 .claude
+.codex
