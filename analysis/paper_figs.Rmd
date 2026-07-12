@@ -8,10 +8,9 @@ library(here)
 library(tidyverse)
 library(tidyboot)
 library(glue)
-library(showtext)
 library(ggpubr)
 
-theme_set(theme_classic(base_size = 24))
+theme_set(theme_classic(base_size = 24, base_family = "Arial Nova") + theme(strip.background = element_blank()))
 seaborn_colorblind <- c(
   "#0173b2", # blue
   "#de8f05", # orange
@@ -81,7 +80,7 @@ ggplot(tangram_selection_means, aes(x = prop_naive, y = empirical_stat, color = 
   labs(x = "Proportion naive", y = "P(selected out-group tangram)", color = "Goal") +
   theme(legend.position = "bottom")
 
-ggsave(here("figures/outputs/tangram_selection.pdf"))
+ggsave(here("figures/outputs/tangram_selection.pdf"), device = cairo_pdf)
 ```
 
 ```{r fig.width=6, fig.height=6}
@@ -94,7 +93,7 @@ ggplot(tangram_selection_means_filtered, aes(x = prop_naive, y = empirical_stat,
   labs(x = "Proportion naive", y = "P(selected out-group tangram)", color = "Goal") +
   theme(legend.position = "bottom")
 
-ggsave(here("figures/outputs/tangram_selection_filtered.pdf"))
+ggsave(here("figures/outputs/tangram_selection_filtered.pdf"), device = cairo_pdf)
 ```
 
 ##  Utterance length
@@ -122,7 +121,7 @@ ggplot(utt_length_summary, aes(x = prop_naive, y = empirical_stat, color = goal)
   labs(x = "Proportion naive", y = "Utterance length", color = "Goal") +
   theme(legend.position = "bottom")
 
-ggsave(here("figures/outputs/utterance_length.pdf"))
+ggsave(here("figures/outputs/utterance_length.pdf"), device = cairo_pdf)
 ```
 ```{r fig.width=6, fig.height=6}
 ggplot(utt_length_summary_filtered, aes(x = prop_naive, y = empirical_stat, color = goal)) +
@@ -134,7 +133,7 @@ ggplot(utt_length_summary_filtered, aes(x = prop_naive, y = empirical_stat, colo
   labs(x = "Proportion naive", y = "Utterance length", color = "Goal") +
   theme(legend.position = "bottom")
 
-ggsave(here("figures/outputs/utterance_length_filtered.pdf"))
+ggsave(here("figures/outputs/utterance_length_filtered.pdf"), device = cairo_pdf)
 ```
 
 ## Cosine similarity to later utterance
@@ -161,7 +160,7 @@ ggplot(cos_diff_summary, aes(x = prop_naive, y = empirical_stat, color = goal)) 
   labs(x = "Proportion naive", y = "Semantic distance to later", color = "Goal") +
   theme(legend.position = "bottom")
 
-ggsave(here("figures/outputs/cosine_similarity.pdf"))
+ggsave(here("figures/outputs/cosine_similarity.pdf"), device = cairo_pdf)
 ```
 
 ```{r fig.width=6, fig.height=6}
@@ -174,7 +173,7 @@ ggplot(cos_diff_summary_filtered, aes(x = prop_naive, y = empirical_stat, color 
   labs(x = "Proportion naive", y = "Semantic distance to later", color = "Goal") +
   theme(legend.position = "bottom")
 
-ggsave(here("figures/outputs/cosine_similarity_filtered.pdf"))
+ggsave(here("figures/outputs/cosine_similarity_filtered.pdf"), device = cairo_pdf)
 ```
 
 # Experiment 2
@@ -211,7 +210,7 @@ ggplot(exp2.summary, aes(x = audience, y = empirical_stat, color = goal)) +
   labs(x = "Audience group", y = "P(shared label)", color = "Goal", shape = "Model") +
   facet_wrap(~model)
 
-ggsave(here("figures/outputs/exp2_results.pdf"))
+ggsave(here("figures/outputs/exp2_results.pdf"), device = cairo_pdf)
 ```
 
 # Experiment 3
@@ -259,7 +258,7 @@ ggplot(exp3.summary, aes(x = audience, y = empirical_stat, color = goal)) +
   labs(x = "Audience group", y = "P(earlier label)", color = "Goal", shape = "Model") +
   facet_grid(tangram_type ~ model)
 
-ggsave(here("figures/outputs/exp3_results.pdf"))
+ggsave(here("figures/outputs/exp3_results.pdf"), device = cairo_pdf)
 ```
 
 # Experiment 4
@@ -295,7 +294,7 @@ ggplot(exp4.summary, aes(x = prop_naive, y = empirical_stat, color = goal)) +
   # legend on bottom 
   facet_wrap(~model)
 
-ggsave(here("figures/outputs/exp4_results.pdf"))
+ggsave(here("figures/outputs/exp4_results.pdf"), device = cairo_pdf)
 ```
 
 ## Experiment 4 transparency plots
@@ -398,7 +397,7 @@ ggplot() +
   coord_cartesian(ylim = c(0, 1)) +
   theme(legend.position = "none")
 
-ggsave(here("figures/outputs/transparency_earlier_later.pdf"))
+ggsave(here("figures/outputs/transparency_earlier_later.pdf"), device = cairo_pdf)
 ```
 
 ### Figure: Predicted listener success by audience composition
@@ -505,7 +504,7 @@ ggplot(pred_success_summary, aes(x = prop_naive, y = empirical_stat, color = goa
   labs(x = "Proportion naive", y = "Predicted listener success", color = "Goal") +
   theme(legend.position = "bottom")
 
-ggsave(here("figures/outputs/pred_listener_success.pdf"))
+ggsave(here("figures/outputs/pred_listener_success.pdf"), device = cairo_pdf)
 ```
 
 ### Figure: Earlier label choice by transparency difference
@@ -696,7 +695,7 @@ ggplot(transparency_choice_summary, aes(x = transparency_diff_binned, y = empiri
   labs(x = "Transparency diff (earlier > later)", y = "P(earlier label)", color = "Goal") +
   theme(legend.position = "bottom")
 
-ggsave(here("figures/outputs/transparency_diff_choice.pdf"))
+ggsave(here("figures/outputs/transparency_diff_choice.pdf"), device = cairo_pdf)
 ```
 
 
