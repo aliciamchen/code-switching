@@ -1,5 +1,10 @@
 .DEFAULT_GOAL := help
 
+# The R analyses expect the R version pinned in renv.lock (4.4.x). If your
+# default Rscript is a different version, point RSCRIPT at the right binary,
+# e.g. make analysis RSCRIPT=/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/bin/Rscript
+RSCRIPT ?= Rscript
+
 help: ## Show this help message
 	@grep -E '^[a-zA-Z0-9_-]+:.*?## ' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-28s\033[0m %s\n", $$1, $$2}'
 
@@ -25,19 +30,19 @@ preprocess: preprocess-free-response preprocess-shared-unique preprocess-earlier
 # --- 2. Statistical analysis (data/{experiment} -> figures/outputs) ---------
 
 analysis-free-response: ## Render the free-response statistical analysis
-	Rscript -e "rmarkdown::render('analysis/free-response/free-response-analysis.Rmd')"
+	$(RSCRIPT) -e "rmarkdown::render('analysis/free-response/free-response-analysis.Rmd')"
 
 analysis-shared-unique: ## Render the shared-unique statistical analysis
-	Rscript -e "rmarkdown::render('analysis/shared-unique/shared-unique_analysis.Rmd')"
+	$(RSCRIPT) -e "rmarkdown::render('analysis/shared-unique/shared-unique_analysis.Rmd')"
 
 analysis-earlier-later: ## Render the earlier-later statistical analysis
-	Rscript -e "rmarkdown::render('analysis/earlier-later/earlier-later_analysis.Rmd')"
+	$(RSCRIPT) -e "rmarkdown::render('analysis/earlier-later/earlier-later_analysis.Rmd')"
 
 analysis-transparency: ## Render the transparency statistical analysis
-	Rscript -e "rmarkdown::render('analysis/transparency/transparency-analysis.Rmd')"
+	$(RSCRIPT) -e "rmarkdown::render('analysis/transparency/transparency-analysis.Rmd')"
 
 analysis-varied_audience: ## Render the varied_audience statistical analysis
-	Rscript -e "rmarkdown::render('analysis/varied_audience/varied_audience_analysis.Rmd')"
+	$(RSCRIPT) -e "rmarkdown::render('analysis/varied_audience/varied_audience_analysis.Rmd')"
 
 analysis: analysis-free-response analysis-shared-unique analysis-earlier-later analysis-transparency analysis-varied_audience ## Render statistical analyses for all experiments
 
@@ -59,13 +64,33 @@ model-fit: model-fit-shared-unique model-fit-earlier-later model-fit-varied_audi
 # --- 4. Paper figures --------------------------------------------------------
 
 figures: ## Generate the final paper figures (combines outputs from all experiments)
-	Rscript -e "rmarkdown::render('analysis/paper_figs.Rmd')"
+	$(RSCRIPT) -e "rmarkdown::render('analysis/paper_figs.Rmd')"
+
+# --- 5. Manuscript stats macros ----------------------------------------------
+# The analyses and model fits export their statistics as LaTeX \newcommand
+# macros (analysis/*/macros.tex and model/macros_*.tex). This target copies
+# them into manuscript/stats/ so the paper can \input them instead of
+# hardcoding any computed value. The manuscript directory is not part of the
+# public repository, so this target is a no-op when it is absent.
+
+manuscript-stats: ## Copy generated stats macros into manuscript/stats/ for the paper build
+	@if [ ! -d manuscript ]; then echo "manuscript/ not present; skipping"; exit 0; fi; \
+	mkdir -p manuscript/stats; \
+	for f in analysis/*/macros.tex model/macros_*.tex analysis/sensitivity_table.tex; do \
+		[ -f "$$f" ] || continue; \
+		case "$$f" in \
+			analysis/sensitivity_table.tex) out="manuscript/stats/sensitivity_table.tex" ;; \
+			analysis/*) out="manuscript/stats/$$(basename $$(dirname $$f)).tex" ;; \
+			*) out="manuscript/stats/$$(basename $$f)" ;; \
+		esac; \
+		cp "$$f" "$$out"; echo "  $$f -> $$out"; \
+	done
 
 # --- Full pipeline -----------------------------------------------------------
 
-all: preprocess analysis model-fit figures ## Run the full pipeline end-to-end
+all: preprocess analysis model-fit figures manuscript-stats ## Run the full pipeline end-to-end
 
-.PHONY: help preprocess analysis model-fit figures all \
+.PHONY: help preprocess analysis model-fit figures manuscript-stats all \
 	preprocess-free-response preprocess-shared-unique preprocess-earlier-later preprocess-transparency preprocess-varied_audience \
 	analysis-free-response analysis-shared-unique analysis-earlier-later analysis-transparency analysis-varied_audience \
 	model-fit-shared-unique model-fit-earlier-later model-fit-varied_audience
