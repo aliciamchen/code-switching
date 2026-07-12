@@ -1,14 +1,17 @@
 # Signaling social identity in referential communication
 
-Preprint: TBD
+Preprint: https://doi.org/10.31234/osf.io/cykfe_v2
 
-OSF project: https://osf.io/5j6uk/
+OSF project (preregistrations and stimulus videos): https://osf.io/5j6uk/
+
+Archived code and data: https://doi.org/10.5281/zenodo.17905933
 
 ## Code organization
 
 - `analysis` contains the analysis scripts for each experiment
   - `analysis/paper_figs.Rmd` generates the figures for the paper
-  - `analysis/{experiment}/{experiment}_analysis.Rmd` contains the analysis scripts for each experiment. The outputs of the statistical models are saved in `analysis/{experiment}/model_outputs.txt`.
+  - `analysis/{experiment}/{experiment}_analysis.Rmd` contains the analysis scripts for each experiment. The outputs of the statistical models are saved in `analysis/{experiment}/model_outputs.txt`, so every fitted model can be inspected without running any code. Each experiment's key test is accompanied by a sensitivity analysis over alternative random-effects specifications (`analysis/{experiment}/sensitivity.csv`).
+  - `analysis/utils/macros.R` contains helpers that export the reported statistics as LaTeX macros (see "Where the reported statistics come from" below).
 - `data` contains the preprocessed data
 - `experiments` contains the stimuli and code for each experiment.
   - `stim/convo_vids` contains the videos for each experiment, but they are not included in the repo to save space. They are on OSF at https://osf.io/5j6uk/files/osfstorage. There is one set of videos for Experiment 1, and another set for Experiments 2-4.
@@ -55,12 +58,25 @@ renv::restore()
 
 ### Running the code
 
-Run each of the preprocessing scripts in `analysis/{experiment}` to preprocess and anonymize the raw data (The raw data are not anonymized and thus not included in the repo). The output will be saved in `data/{experiment}`.
+Everything downstream of preprocessing runs from the de-identified data committed in `data/`, so the statistical analyses, model fits, and paper figures are fully reproducible from this repository alone. Preprocessing is the one exception: it reads the raw data, which are not anonymized and therefore not included in the repo. The committed files in `data/{experiment}` are the outputs of that stage.
 
-Then, run the analysis scripts in `analysis/{experiment}`. These notebooks will also output cleaned data for model fitting
+The `Makefile` wraps all of the steps; run `make help` to see the available targets.
 
-Then, to fit the computational models, run the notebooks in `model/`.
+```bash
+make analysis     # render all statistical analyses (runs from the committed data)
+make model-fit    # fit the computational models
+make figures      # generate the paper figures
+make all          # full pipeline end-to-end (requires the raw data)
+```
 
-Then, to generate the plots that directly go into the figures in the paper, run `analysis/paper_figs.Rmd`.
+The analyses expect the R version pinned in `renv.lock` (4.4.x). If your default `Rscript` is a different version, point the `RSCRIPT` variable at the right binary, for example:
 
-The `Makefile` wraps these steps: run `make help` to see all available targets, or `make all` to run the full pipeline end-to-end (requires the raw data, which is not included in the repo).
+```bash
+make analysis RSCRIPT=/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/bin/Rscript
+```
+
+Every analysis script sets a fixed random seed, so the bootstrapped confidence intervals are exactly reproducible, and the computational model fits are deterministic (fixed initializations with gradient-based optimization).
+
+### Where the reported statistics come from
+
+The analyses export every statistic reported in the manuscript -- demographics, regression estimates and contrasts, and model-fit parameters -- as automatically generated LaTeX macros (`analysis/{experiment}/macros.tex` for the statistical analyses and `model/macros_*.tex` for the computational models, produced by the helpers in `analysis/utils/macros.R` and `model/macros.py`). The manuscript inputs these files directly, so no computed value is hardcoded in the paper, and every reported number can be traced to the script that generated it. `make manuscript-stats` copies the macro files into the manuscript directory (which is not part of this repository).
