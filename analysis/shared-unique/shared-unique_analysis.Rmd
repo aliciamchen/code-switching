@@ -18,6 +18,13 @@ library(simr)
 
 theme_set(theme_classic(base_size = 20))
 options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
+
+# Seed for the bootstrapped CIs, so rendered outputs are reproducible
+set.seed(2026)
+
+# Helpers for exporting statistics as LaTeX macros for the manuscript
+source(here("analysis/utils/macros.R"))
+macros <- list()
 ```
 
 # Data, participants, and sanity checks
@@ -58,13 +65,27 @@ selection_trials <- selection_trials %>%
 Demographics
 
 ```{r}
-exit_survey %>%
+gender_counts <- exit_survey %>%
   group_by(gender) %>%
   count()
+gender_counts
 
-exit_survey %>%
+age_summary <- exit_survey %>%
   summarize(mean_age = mean(age), sd_age = sd(age), min_age = min(age),
     max_age = max(age))
+age_summary
+
+n_gender <- function(g) sum(gender_counts$n[gender_counts$gender == g])
+macros$expTwoN <- fmt_int(n_participants)
+macros$expTwoNExcluded <- fmt_int(n_participants - n_understood)
+macros$expTwoNFemale <- fmt_int(n_gender("female"))
+macros$expTwoNMale <- fmt_int(n_gender("male"))
+macros$expTwoNNonbinary <- fmt_int(n_gender("nonconforming"))
+macros$expTwoNAbstain <- fmt_int(n_gender("abstain"))
+macros$expTwoAgeMin <- fmt_int(age_summary$min_age)
+macros$expTwoAgeMax <- fmt_int(age_summary$max_age)
+macros$expTwoAgeMean <- fmt_num(age_summary$mean_age, 1)
+macros$expTwoAgeSD <- fmt_num(age_summary$sd_age, 1)
 ```
 
 
@@ -277,12 +298,12 @@ pct.seen.both.refer <- baseline.trials.refer %>%
   group_by(subject_id) %>%
   tidyboot_mean(seen, na.rm = T)
 
-pct.unique.diff <- main.trials.means.subj %>%
+pct.unique.diff.refer <- main.trials.means.subj %>%
   filter(condition == "refer either")
 ```
 
 ```{r}
-ggplot(pct.seen.both.refer, aes(x = empirical_stat, y = pct.unique.diff$empirical_stat)) +
+ggplot(pct.seen.both.refer, aes(x = empirical_stat, y = pct.unique.diff.refer$empirical_stat)) +
   geom_jitter(alpha = 0.5, size = 3, width = 0.01, height = 0.01) +
   geom_smooth(method = "lm") +
   lims(x = c(0, 1), y = c(-0.05, 1.05)) +
@@ -297,12 +318,12 @@ pct.correct.social <- baseline.trials.social %>%
   group_by(subject_id) %>%
   tidyboot_mean(group_label, na.rm = T)
 
-pct.unique.diff <- main.trials.means.subj %>%
+pct.unique.diff.social <- main.trials.means.subj %>%
   filter(condition == "social one")
 ```
 
 ```{r}
-ggplot(pct.correct.social, aes(x = empirical_stat, y = pct.unique.diff$empirical_stat)) +
+ggplot(pct.correct.social, aes(x = empirical_stat, y = pct.unique.diff.social$empirical_stat)) +
   geom_jitter(alpha = 0.5, size = 3, width = 0.01, height = 0.01) +
   geom_smooth(method = "lm") +
   lims(x = c(0, 1), y = c(0, 1)) +
@@ -312,15 +333,24 @@ ggplot(pct.correct.social, aes(x = empirical_stat, y = pct.unique.diff$empirical
 Compute correlation
 
 ```{r}
+# This sink intentionally opens without append = TRUE: it is the first sink in
+# the document, so each full render rebuilds model_outputs.txt from scratch.
 sink(here("analysis/shared-unique/model_outputs.txt"))
 
-cor.test(pct.seen.both.refer$empirical_stat, pct.unique.diff$empirical_stat)
+cor.refer <- cor.test(pct.seen.both.refer$empirical_stat, pct.unique.diff.refer$empirical_stat)
+cor.refer
 
 cat("\n\n")
 
-cor.test(pct.correct.social$empirical_stat, pct.unique.diff$empirical_stat)
+cor.social <- cor.test(pct.correct.social$empirical_stat, pct.unique.diff.social$empirical_stat)
+cor.social
 
 sink()
+
+macros$expTwoCorrR <- fmt_num(cor.social$estimate)
+macros$expTwoCorrDf <- fmt_int(cor.social$parameter)
+macros$expTwoCorrT <- fmt_num(cor.social$statistic)
+macros$expTwoCorrP <- fmt_p(cor.social$p.value)
 ```
 
 
@@ -452,8 +482,17 @@ Preregistered model
 sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
 cat("\n\n")
 
-mod <- glmer(response.shared ~ audience * goal + (1 | subject_id) + (1 | item_id/ option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
-summary(mod)
+cat("NOTE: The preregistered audience * goal specification below is rank\n")
+cat("deficient because the social goal was only paired with a known-group\n")
+cat("audience (the social x either cell was excluded by design; see the\n")
+cat("preregistration). lme4 therefore drops the interaction column. This\n")
+cat("model is reported for transparency and superseded by the 3-level\n")
+cat("condition model below. Its random effects follow the preregistered\n")
+cat("simplification ladder: the tangram-set (item_id) variance component\n")
+cat("was estimated at zero, so it was removed to avoid a singular fit.\n\n")
+
+mod.prereg <- glmer(response.shared ~ audience * goal + (1 | subject_id) + (1 | item_id:option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+summary(mod.prereg)
 
 sink()
 ```
@@ -464,7 +503,16 @@ Make model specification simpler: Combine audience and goal into `condition` var
 sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
 cat("\n\n")
 
-mod <- glmer(response.shared ~ condition + (condition | subject_id) + (condition | item_id/ option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
+# The random-effects structure follows the preregistered simplification
+# ladder. The maximal specification, (condition | subject_id) +
+# (condition | item_id/option2.tangram), produced a singular fit: the
+# tangram-set (item_id) variance components were estimated at zero and the
+# by-tangram slope correlations were degenerate (+/-1), reflecting that only
+# 3 tangram sets cannot support these components. Removing the zero/degenerate
+# components yields the non-singular structure below, which retains the full
+# by-participant slopes and by-tangram intercepts. Estimates under alternative
+# specifications are essentially identical (see the sensitivity analysis).
+mod <- glmer(response.shared ~ condition + (condition | subject_id) + (1 | item_id:option2.tangram), data = main.trials, family = "binomial", control = glmerControl(optimizer = "bobyqa"))
 
 summary(mod)
 
@@ -478,10 +526,20 @@ Comparisons between means
 sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
 cat("\n\n")
 
-emmeans(mod, pairwise ~ condition) %>%
-  summary(infer = T)
+emm <- emmeans(mod, pairwise ~ condition)
+emm.means <- summary(emm$emmeans, infer = T)
+emm.contrasts <- summary(emm$contrasts, infer = T)
+print(emm.means)
+print(emm.contrasts)
 
 sink()
+
+emm_row <- function(df, col, value) df[df[[col]] == value, ]
+macros <- macros %>%
+  add_macros("expTwoReferEither", emm_row_macros(emm_row(emm.means, "condition", "refer either"))) %>%
+  add_macros("expTwoReferKnown", emm_row_macros(emm_row(emm.means, "condition", "refer one"))) %>%
+  add_macros("expTwoSocialKnown", emm_row_macros(emm_row(emm.means, "condition", "social one"))) %>%
+  add_macros("expTwoReferSocialDiff", emm_row_macros(emm_row(emm.contrasts, "contrast", "refer one - social one")))
 ```
 
 We predict that participants will choose the group-specific label more often when trying to show social affiliation, compared to when trying to refer effectively. We will test this (1) across all different-tangram trials, (2) across the trials where the audience group is specified, and (3) by comparing the ‘social’ goal for a specified ‘red/blue’ group, to the ‘refer’ goal for an unspecified group.
@@ -501,6 +559,41 @@ grouped_contrast <- contrast(emmeans_results,
 
 summary(grouped_contrast, infer = T)
 
+sink()
+```
+
+## Sensitivity analysis
+
+The key contrast (refer-known minus social-known) under alternative random-effects specifications, from intercepts-only to maximal. The maximal specification is singular (boundary fit) and is shown only to demonstrate that the fixed-effects conclusions do not depend on the choice of structure.
+
+```{r}
+sensitivity_specs <- list(
+  "intercepts only" = response.shared ~ condition + (1 | subject_id) + (1 | item_id:option2.tangram),
+  "final (reported)" = response.shared ~ condition + (condition | subject_id) + (1 | item_id:option2.tangram),
+  "maximal (singular)" = response.shared ~ condition + (condition | subject_id) + (condition | item_id / option2.tangram)
+)
+
+sensitivity <- map_dfr(names(sensitivity_specs), function(spec_name) {
+  m <- glmer(sensitivity_specs[[spec_name]], data = main.trials, family = "binomial",
+             control = glmerControl(optimizer = "bobyqa"))
+  con <- summary(emmeans(m, pairwise ~ condition)$contrasts, infer = T) %>%
+    as.data.frame() %>%
+    filter(contrast == "refer one - social one")
+  tibble(
+    specification = spec_name,
+    singular = isSingular(m),
+    estimate = con$estimate, SE = con$SE,
+    ci_lower = con$asymp.LCL, ci_upper = con$asymp.UCL,
+    z = con$z.ratio, p = con$p.value
+  )
+})
+
+write_csv(sensitivity, here("analysis/shared-unique/sensitivity.csv"))
+
+sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
+cat("\n\nSENSITIVITY ANALYSIS: refer-known minus social-known contrast under\n")
+cat("alternative random-effects specifications (see sensitivity.csv):\n\n")
+print(as.data.frame(sensitivity))
 sink()
 ```
 
@@ -525,7 +618,11 @@ For the "social" goal, do participants successfully choose the tangram that belo
 sink(here("analysis/shared-unique/model_outputs.txt"), append = TRUE)
 cat("\n\n")
 
-mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id / option1.tangram), data = baseline.trials.social, family = "binomial")
+# Following the preregistered simplification ladder: the maximal
+# (1 | subject_id) + (1 | item_id/option1.tangram) fit was singular because
+# the tangram-within-set variance was estimated at zero, so that component
+# was removed. The intercept is unchanged to two decimals.
+mod.same.social <- glmer(group_label ~ 1 + (1 | subject_id) + (1 | item_id), data = baseline.trials.social, family = "binomial")
 summary(mod.same.social)
 
 sink()
@@ -551,6 +648,19 @@ cat("Baseline social (inverse logit of intercept):\n")
 print(inv_logit(fixef(mod.same.social)))
 
 sink()
+
+baseline_macros <- function(mod) {
+  coefs <- summary(mod)$coefficients
+  list(
+    Pct = fmt_pct(inv_logit(coefs[1, "Estimate"])),
+    Int = fmt_num(coefs[1, "Estimate"]),
+    Z = fmt_num(coefs[1, "z value"]),
+    P = fmt_p(coefs[1, "Pr(>|z|)"])
+  )
+}
+macros <- macros %>%
+  add_macros("expTwoBaselineRefer", baseline_macros(mod.same.refer)) %>%
+  add_macros("expTwoBaselineSocial", baseline_macros(mod.same.social))
 ```
 
 
@@ -560,5 +670,13 @@ What feedback did participants give?
 
 ```{r}
 exit_survey$comments
+```
+
+# Export statistics as LaTeX macros
+
+Write out every statistic quoted in the manuscript as a LaTeX macro, so the paper never hardcodes a computed value (`make manuscript-stats` copies these into the manuscript).
+
+```{r}
+write_macros(macros, here("analysis/shared-unique/macros.tex"))
 ```
 
