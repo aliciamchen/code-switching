@@ -18,6 +18,13 @@ library(simr)
 
 theme_set(theme_classic(base_size = 20))
 options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
+
+# Seed for the bootstrapped CIs, so rendered outputs are reproducible
+set.seed(2026)
+
+# Helpers for exporting statistics as LaTeX macros for the manuscript
+source(here("analysis/utils/macros.R"))
+macros <- list()
 ```
 
 ```{r}
@@ -28,7 +35,10 @@ data <- read_csv(here("data/transparency/selection_trials.csv")) %>%
 How many participants? M(SD) age? 
 
 ```{r}
-nrow(data %>% distinct(subject_id))
+n_participants <- n_distinct(data$subject_id)
+n_participants
+
+macros$transpN <- fmt_int(n_participants)
 ```
 
 
@@ -47,11 +57,24 @@ write_csv(means.by.label, here("data/transparency/means_by_label.csv"))
 Aggregate and compare informativity of earlier vs. later utterances
 
 ```{r}
-earlier.later.all.means <- data %>% 
-  group_by(earlier) %>% 
+earlier.later.all.means <- data %>%
+  group_by(earlier) %>%
   tidyboot_mean(correct, na.rm = T)
 
 write.csv(earlier.later.all.means, here("data/transparency/means_agg.csv"))
+
+agg_row <- function(v) earlier.later.all.means[earlier.later.all.means$earlier == v, ]
+macros <- macros %>%
+  add_macros("transpEarlier", list(
+    Pct = fmt_pct(agg_row("earlier")$empirical_stat),
+    CILo = fmt_num(100 * agg_row("earlier")$ci_lower, 1),
+    CIHi = fmt_num(100 * agg_row("earlier")$ci_upper, 1)
+  )) %>%
+  add_macros("transpLater", list(
+    Pct = fmt_pct(agg_row("later")$empirical_stat),
+    CILo = fmt_num(100 * agg_row("later")$ci_lower, 1),
+    CIHi = fmt_num(100 * agg_row("later")$ci_upper, 1)
+  ))
 ```
 
 ```{r fig.width=4, fig.height=4}
@@ -97,6 +120,14 @@ for (set in c(0, 1, 2)) {
     theme(axis.text.x = element_text(size = 9, angle = 40, hjust = 1))
   print(p)
 }
+```
+
+# Export statistics as LaTeX macros
+
+Write out every statistic quoted in the manuscript as a LaTeX macro, so the paper never hardcodes a computed value (`make manuscript-stats` copies these into the manuscript).
+
+```{r}
+write_macros(macros, here("analysis/transparency/macros.tex"))
 ```
 
 
