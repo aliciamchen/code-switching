@@ -1,0 +1,4 @@
+model,random_effects
+Label choice (main),(audience + shared | subject_id) + (1 | item_id:tangram)
+Manipulation check: refer,(1 | subject_id) + (1 | item_id:tangram)
+Manipulation check: social,(1 | subject_id) + (1 | tangram:item_id) + (1 | item_id)

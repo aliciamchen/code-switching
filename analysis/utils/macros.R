@@ -66,6 +66,16 @@ add_macros <- function(macros, prefix, values) {
   c(macros, values)
 }
 
+# Deparse the random-effects part of a fitted lme4 model, e.g.
+# "(condition | subject_id) + (1 | item_id:option2.tangram)". Used to export
+# each model's final structure for the manuscript's appendix table, so the
+# table always reflects the models actually fit. Note that nested terms like
+# (1 | set/tangram) are shown in their expanded form.
+re_terms <- function(mod) {
+  bars <- lme4::findbars(formula(mod))
+  paste0("(", vapply(bars, deparse1, character(1)), ")", collapse = " + ")
+}
+
 # Write a named list of macro values to a .tex file of \newcommand definitions.
 # Names are validated to be letters-only so the file always compiles.
 write_macros <- function(macros, path) {
