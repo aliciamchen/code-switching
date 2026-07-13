@@ -82,6 +82,8 @@ The analyses expect the R version pinned in `renv.lock` (4.4.x). If your default
 make analysis RSCRIPT=/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/bin/Rscript
 ```
 
+The analysis targets track their input files (each render's `macros.tex` serves as the up-to-date marker), so `make analysis` only re-renders experiments whose analysis script or data changed. Two knobs help during iteration: touch the `.Rmd` (or delete its `macros.tex`) to force a render, and set `RUN_SENSITIVITY=false` to skip the slow sensitivity refits -- the bulk of each render's time. Run a full default render before committing regenerated outputs, so the committed `model_outputs.txt` and `sensitivity.csv` stay complete.
+
 Every analysis script sets a fixed random seed, so the bootstrapped confidence intervals are exactly reproducible, and the computational model fits are deterministic (fixed initializations with gradient-based optimization).
 
 ### Where the reported statistics come from
