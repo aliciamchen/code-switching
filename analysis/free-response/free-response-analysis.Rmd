@@ -28,6 +28,12 @@ set.seed(2026)
 # Helpers for exporting statistics as LaTeX macros for the manuscript
 source(here("analysis/utils/macros.R"))
 macros <- list()
+
+# The sensitivity section refits the slowest (maximal) models and is the
+# bulk of the render time. Skip it during iteration with
+# RUN_SENSITIVITY=false make analysis-...; run the default (true) before
+# committing so the sinked outputs and sensitivity.csv stay complete.
+run_sensitivity <- tolower(Sys.getenv("RUN_SENSITIVITY", "true")) == "true"
 ```
 
 # Load data and demographics
@@ -712,7 +718,7 @@ macros <- macros %>%
 
 The social-goal main effect for each of the three models under alternative random-effects specifications, from intercepts-only up to the richest structure previously fit. The richest specifications are singular (boundary fits) and are shown only to demonstrate that the fixed-effects conclusions do not depend on the choice of structure.
 
-```{r}
+```{r, eval = run_sensitivity}
 sensitivity_specs <- list(
   tangram_choice = list(
     response = "tangram_choice",
@@ -933,6 +939,14 @@ Write out every statistic quoted in the manuscript as a LaTeX macro, so the pape
 
 ```{r}
 write_macros(macros, here("analysis/free-response/macros.tex"))
+
+# Export the final random-effects structure of each fitted model, straight
+# from the fitted objects, for the manuscript's appendix table.
+re_structures <- tibble::tibble(
+  model = c("Tangram choice", "Utterance length", "Semantic distance"),
+  random_effects = vapply(list(mod_poly, mod_utt_length, mod_sbert), re_terms, character(1))
+)
+write_csv(re_structures, here("analysis/free-response/re_structures.csv"))
 ```
 
 

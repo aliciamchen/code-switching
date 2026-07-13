@@ -28,21 +28,38 @@ preprocess-varied_audience: ## Preprocess raw data for varied_audience (Experime
 preprocess: preprocess-free-response preprocess-shared-unique preprocess-earlier-later preprocess-transparency preprocess-varied_audience ## Preprocess raw data for all experiments
 
 # --- 2. Statistical analysis (data/{experiment} -> figures/outputs) ---------
+# Each render's macros.tex is the up-to-date marker, so `make analysis` only
+# re-renders experiments whose analysis script or inputs changed (touch the
+# Rmd or delete the macros.tex to force a render). Set RUN_SENSITIVITY=false
+# to skip the slow sensitivity refits while iterating, and run a full default
+# render before committing regenerated outputs.
 
-analysis-free-response: ## Render the free-response statistical analysis
+analysis/free-response/macros.tex: analysis/free-response/free-response-analysis.Rmd analysis/utils/macros.R data/free-response/selection_trials.csv data/free-response/exit_survey.csv analysis/free-response/red_social_similarity_results.csv
 	$(RSCRIPT) -e "rmarkdown::render('analysis/free-response/free-response-analysis.Rmd')"
 
-analysis-shared-unique: ## Render the shared-unique statistical analysis
+analysis-free-response: analysis/free-response/macros.tex ## Render the free-response statistical analysis
+
+analysis/shared-unique/macros.tex: analysis/shared-unique/shared-unique_analysis.Rmd analysis/utils/macros.R data/shared-unique/selection_trials.csv data/shared-unique/exit_survey.csv
 	$(RSCRIPT) -e "rmarkdown::render('analysis/shared-unique/shared-unique_analysis.Rmd')"
 
-analysis-earlier-later: ## Render the earlier-later statistical analysis
+analysis-shared-unique: analysis/shared-unique/macros.tex ## Render the shared-unique statistical analysis
+
+analysis/earlier-later/macros.tex: analysis/earlier-later/earlier-later_analysis.Rmd analysis/utils/macros.R data/earlier-later/selection_trials.csv data/earlier-later/exit_survey.csv
 	$(RSCRIPT) -e "rmarkdown::render('analysis/earlier-later/earlier-later_analysis.Rmd')"
 
-analysis-transparency: ## Render the transparency statistical analysis
+analysis-earlier-later: analysis/earlier-later/macros.tex ## Render the earlier-later statistical analysis
+
+analysis/transparency/macros.tex: analysis/transparency/transparency-analysis.Rmd analysis/utils/macros.R data/transparency/selection_trials.csv
 	$(RSCRIPT) -e "rmarkdown::render('analysis/transparency/transparency-analysis.Rmd')"
 
-analysis-varied_audience: ## Render the varied_audience statistical analysis
+analysis-transparency: analysis/transparency/macros.tex ## Render the transparency statistical analysis
+
+# The transparency render also refreshes data/transparency/means_by_label.csv,
+# which the varied_audience analysis reads (hence the dependency below).
+analysis/varied_audience/macros.tex: analysis/varied_audience/varied_audience_analysis.Rmd analysis/utils/macros.R data/varied_audience/selection_trials.csv data/varied_audience/exit_survey.csv analysis/transparency/macros.tex
 	$(RSCRIPT) -e "rmarkdown::render('analysis/varied_audience/varied_audience_analysis.Rmd')"
+
+analysis-varied_audience: analysis/varied_audience/macros.tex ## Render the varied_audience statistical analysis
 
 analysis: analysis-free-response analysis-shared-unique analysis-earlier-later analysis-transparency analysis-varied_audience ## Render statistical analyses for all experiments
 
@@ -76,10 +93,10 @@ figures: ## Generate the final paper figures (combines outputs from all experime
 manuscript-stats: ## Copy generated stats macros into manuscript/stats/ for the paper build
 	@if [ ! -d manuscript ]; then echo "manuscript/ not present; skipping"; exit 0; fi; \
 	mkdir -p manuscript/stats; \
-	for f in analysis/*/macros.tex model/macros_*.tex analysis/sensitivity_table.tex; do \
+	for f in analysis/*/macros.tex model/macros_*.tex analysis/sensitivity_table.tex analysis/re_structure_table.tex; do \
 		[ -f "$$f" ] || continue; \
 		case "$$f" in \
-			analysis/sensitivity_table.tex) out="manuscript/stats/sensitivity_table.tex" ;; \
+			analysis/sensitivity_table.tex|analysis/re_structure_table.tex) out="manuscript/stats/$$(basename $$f)" ;; \
 			analysis/*) out="manuscript/stats/$$(basename $$(dirname $$f)).tex" ;; \
 			*) out="manuscript/stats/$$(basename $$f)" ;; \
 		esac; \

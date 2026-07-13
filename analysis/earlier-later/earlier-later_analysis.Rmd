@@ -25,6 +25,12 @@ set.seed(2026)
 # Helpers for exporting statistics as LaTeX macros for the manuscript
 source(here("analysis/utils/macros.R"))
 macros <- list()
+
+# The sensitivity section refits the slowest (maximal) models and is the
+# bulk of the render time. Skip it during iteration with
+# RUN_SENSITIVITY=false make analysis-...; run the default (true) before
+# committing so the sinked outputs and sensitivity.csv stay complete.
+run_sensitivity <- tolower(Sys.getenv("RUN_SENSITIVITY", "true")) == "true"
 ```
 
 # Data, participants, and sanity checks
@@ -154,10 +160,12 @@ main.trials.means <- main.trials %>%
   group_by(condition, shared) %>%
   tidyboot_mean(response.earlier, na.rm = T)
 
+# Per-participant means for the spaghetti lines; plain means (no bootstrap)
+# because only the point estimates are used downstream.
 main.trials.means.subj <-
   main.trials %>%
   group_by(subject_id, condition, shared) %>%
-  tidyboot_mean(response.earlier, na.rm = T)
+  summarize(empirical_stat = mean(response.earlier, na.rm = T), .groups = "drop")
 ```
 
 Plot
@@ -485,7 +493,7 @@ sink()
 
 The key contrast (refer-known minus social-known, averaged over tangram type) under alternative random-effects specifications, from intercepts-only to maximal. The maximal specification is singular (boundary fit) and is shown only to demonstrate that the fixed-effects conclusions do not depend on the choice of structure.
 
-```{r}
+```{r, eval = run_sensitivity}
 sensitivity_specs <- list(
   "intercepts only" = response.earlier ~ condition * shared + (1 | subject_id) + (1 | item_id:tangram),
   "final (reported)" = response.earlier ~ condition * shared + (audience + shared | subject_id) + (1 | item_id:tangram),
@@ -606,10 +614,12 @@ main.trials.means <- main.trials %>%
   group_by(condition, shared) %>%
   tidyboot_mean(response.earlier, na.rm = T)
 
+# Per-participant means for the spaghetti lines; plain means (no bootstrap)
+# because only the point estimates are used downstream.
 main.trials.means.subj <-
   main.trials %>%
   group_by(subject_id, condition, shared) %>%
-  tidyboot_mean(response.earlier, na.rm = T)
+  summarize(empirical_stat = mean(response.earlier, na.rm = T), .groups = "drop")
 ```
 
 Plot
@@ -670,4 +680,12 @@ Write out every statistic quoted in the manuscript as a LaTeX macro, so the pape
 
 ```{r}
 write_macros(macros, here("analysis/earlier-later/macros.tex"))
+
+# Export the final random-effects structure of each fitted model, straight
+# from the fitted objects, for the manuscript's appendix table.
+re_structures <- tibble::tibble(
+  model = c("Label choice (main)", "Manipulation check: refer", "Manipulation check: social"),
+  random_effects = vapply(list(mod, mod.same.refer, mod.same.social), re_terms, character(1))
+)
+write_csv(re_structures, here("analysis/earlier-later/re_structures.csv"))
 ```
