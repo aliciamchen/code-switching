@@ -1,0 +1,6 @@
+model,random_effects
+Manipulation check,(1 | subject_id) + (1 | item_id:tangram)
+Label choice (preregistered),(1 | subject_id) + (1 | item_id:tangram)
+Label choice (+ transparency),(1 | subject_id) + (1 | item_id:tangram)
+Label choice (quadratic),(prop_outgroup + goal | subject_id) + (prop_outgroup | item_id:tangram)
+All--in-group subset,(1 + goal | subject_id) + (1 | item_id:tangram)

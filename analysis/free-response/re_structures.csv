@@ -1,0 +1,4 @@
+model,random_effects
+Tangram choice,(prop_naive | subject_id) + (goal | selected_tangram)
+Utterance length,(prop_naive + goal | subject_id) + (prop_naive + goal | selected_tangram)
+Semantic distance,(prop_naive + goal | subject_id) + (goal | selected_tangram)
