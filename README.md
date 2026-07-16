@@ -1,6 +1,6 @@
 # Signaling social identity in referential communication
 
-Preprint: https://doi.org/10.31234/osf.io/cykfe_v2
+Preprint: https://doi.org/10.31234/osf.io/cykfe_v3
 
 OSF project (preregistrations and stimulus videos): https://osf.io/5j6uk/
 
@@ -10,12 +10,12 @@ Archived code and data: https://doi.org/10.5281/zenodo.17905933
 
 - `analysis` contains the analysis scripts for each experiment
   - `analysis/paper_figs.Rmd` generates the figures for the paper
-  - `analysis/{experiment}/{experiment}_analysis.Rmd` contains the analysis scripts for each experiment. The outputs of the statistical models are saved in `analysis/{experiment}/model_outputs.txt`, so every fitted model can be inspected without running any code. Each experiment's key test is accompanied by a sensitivity analysis over alternative random-effects specifications (`analysis/{experiment}/sensitivity.csv`).
+  - `analysis/{experiment}/{experiment}_analysis.Rmd` is each experiment's analysis script. The outputs of the statistical models are saved in `analysis/{experiment}/model_outputs.txt`. Each experiment's key test is accompanied by a sensitivity analysis over alternative random-effects specifications (`analysis/{experiment}/sensitivity.csv`).
   - `analysis/utils/macros.R` contains helpers that export the reported statistics as LaTeX macros (see "Where the reported statistics come from" below).
-- `data` contains the preprocessed data
+- `data` contains the preprocessed, de-identified data; `data/README.md` is a data dictionary describing every file and column
 - `experiments` contains the stimuli and code for each experiment.
   - `stim/convo_vids` contains the videos for each experiment, but they are not included in the repo to save space. They are on OSF at https://osf.io/5j6uk/files/osfstorage. There is one set of videos for Experiment 1, and another set for Experiments 2-4.
-- `figures` contains the figures for the paper. The outputs directly from the notebooks in `analysis` are in `figures/outputs`. The final figures are in `figures/PDF`.
+- `figures` contains the figures for the paper. The outputs directly from the notebooks in `analysis` are in `figures/outputs`. The final figures in `figures/PDF` are assembled from those outputs in Adobe Illustrator (`figures/figures.ai`), which adds the schematic panels and layout. 
 - `model` contains the model fitting notebooks and outputs
 
 ### Experiment labels in the code
@@ -38,20 +38,23 @@ Archived code and data: https://doi.org/10.5281/zenodo.17905933
 The Python packages are managed by [uv](https://docs.astral.sh/uv/).
 
 ```{bash}
-brew install py3cairo ffmpeg pango pkg-config  # (need to install this to run manim)
+brew install py3cairo ffmpeg pango pkg-config  # (need to install this to run manim for generating the videos -- but they are also in OSF)
+```
+
+```{bash}
 uv sync
 ```
 
 ### R dependencies
 
-Open the project in RStudio and run the following code to install the dependencies. Make sure you are running R version `4.4.2`.
-
-Install R version `4.4.2` using `rig` and open project in R studio
+The analyses are conducted with R version `4.4.2` (the version pinned in `renv.lock`). One way to install it is with [rig](https://github.com/r-lib/rig), which can also launch RStudio under that version (the `4.4-arm64` name below is for Apple Silicon; run `rig list` to see the installed name on other platforms):
 
 ```bash
 rig add 4.4.2
 rig rstudio 4.4-arm64
 ```
+
+Then open the project in RStudio and run the following code to restore the R packages from `renv.lock`:
 
 ```{r}
 # Install renv if not already installed
@@ -59,13 +62,13 @@ if (!requireNamespace("renv", quietly = TRUE)) {
   install.packages("renv")
 }
 
-# Initialize renv (this will restore packages from renv.lock)
+# Restore packages from renv.lock
 renv::restore()
 ```
 
 ### Running the code
 
-Everything downstream of preprocessing runs from the de-identified data committed in `data/`, so the statistical analyses, model fits, and paper figures are fully reproducible from this repository alone. Preprocessing is the one exception: it reads the raw data, which are not anonymized and therefore not included in the repo. The committed files in `data/{experiment}` are the outputs of that stage.
+Everything downstream of preprocessing runs from the de-identified data committed in `data/`. Preprocessing is the one exception: it reads the raw data, which are not anonymized and therefore not included in the repo. The committed files in `data/{experiment}` are the outputs of that stage.
 
 The `Makefile` wraps all of the steps; run `make help` to see the available targets.
 
@@ -77,7 +80,7 @@ make figures      # generate the paper figures
 make all          # full pipeline end-to-end (requires the raw data)
 ```
 
-The `make reproduce` target is the recommended public workflow. It forces fresh renders of the statistical analyses, runs the computational models, generates the paper figures, and refreshes the manuscript statistics. The `make all` target additionally runs preprocessing and therefore requires the private, non-anonymized raw data.
+To reproduce results, run `make reproduce`. This runs the statistical analyses, runs the computational models, generates the paper figures, and refreshes the manuscript statistics. The `make all` target additionally runs preprocessing and therefore requires the private, non-anonymized raw data.
 
 The analyses expect the R version pinned in `renv.lock` (4.4.x). If your default `Rscript` is a different version, point the `RSCRIPT` variable at the right binary, for example:
 
@@ -85,9 +88,8 @@ The analyses expect the R version pinned in `renv.lock` (4.4.x). If your default
 make reproduce RSCRIPT=/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/bin/Rscript
 ```
 
-The analysis targets track their input files (each render's `macros.tex` serves as the up-to-date marker), so `make analysis` only re-renders experiments whose analysis script or data changed. Two knobs help during iteration: touch the `.Rmd` (or delete its `macros.tex`) to force a render, and set `RUN_SENSITIVITY=false` to skip the slow sensitivity refits -- the bulk of each render's time. Run a full default render before committing regenerated outputs, so the committed `model_outputs.txt` and `sensitivity.csv` stay complete.
-
-Every analysis script sets a fixed random seed, so the bootstrapped confidence intervals are exactly reproducible, and the computational model fits are deterministic (fixed initializations with gradient-based optimization).
+The analysis targets track their input files (each render's `macros.tex` serves as the up-to-date marker), so `make analysis` only re-renders experiments whose analysis script or data changed. 
+You can set `RUN_SENSITIVITY=false` to skip the slow sensitivity refits. 
 
 ### Where the reported statistics come from
 
