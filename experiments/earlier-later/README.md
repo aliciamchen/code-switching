@@ -1,33 +1,25 @@
-# earlier vs. later 
+# Earlier vs. later (Experiment 3)
 
-## `/stim`
+This experiment tests whether participants choose an earlier (longer, more descriptive) or later (shorter, converged) label for the same tangram, depending on their audience and goal. This folder contains the jsPsych experiment code, and `stim/` contains the stimuli and randomization along with the scripts that generate them. The stimulus pipeline mirrors the shared-unique experiment (Experiment 2), which shares the same set of observation videos.
 
-This folder contains the stimuli and randomization for Experiment 1 (as well as the scripts needed to generate them)
+## Game info from the Boyce et al. data
 
-### Game info from Boyce data
+The stimuli are built from a corpus of online multiplayer reference games (Boyce et al.), included here as `stim/boyce_data/filtered_chat.csv` (chat messages) and `stim/boyce_data/round_results.csv` (listener responses).
 
-`conventions.json` contains all the possible final referring expressions, for each tangram. The `shared` expressions correspond to the expressions that two or more groups converged on, and the `unique` expressions are the (abstract) expressions that one group converged on. These expressions were selected by manually inspecting the final referring expressions (round 5) from `../boyce_data/filtered_chat.csv`, and filtering by games where 2/3 or 3/3 participants got the answer right.
+`stim/scripts/conventions.json` contains the candidate final referring expressions for each tangram. The `shared` expressions are those that two or more groups converged on, and the `unique` expressions are the (abstract) expressions that a single group converged on. These expressions were selected by manually inspecting the final referring expressions (round 5) in `filtered_chat.csv`, keeping games where 2/3 or 3/3 listeners chose the correct tangram.
 
-`conventions_games.json` contains the `gameId` that each of the conventions in `conventions.json` belongs to, formatted this way for ease of access
+`stim/scripts/conventions_games.json` records the `gameId` that each expression in `conventions.json` came from, formatted for ease of access.
 
-`scripts/get_convos.py` extracts and formats the conversation and selection history for each tangram-game pair in `conventions_games.json`. It uses the chat data in `boyce_data/filtered_chat.csv` and the response data in `boyce_data/round_results.csv`; outputs are saved in `convos`. These files are among the inputs that are needed for generating the videos.
+`stim/scripts/get_convos.py` extracts and formats the conversation and selection history for each tangram–game pair in `conventions_games.json`, using the chat and response data above. The outputs are saved in `stim/convos` and are inputs to the video generation step.
 
-### Making the items, stimuli, trials, etc:
+## Items and trials
 
-`items` contains the game info and lexicon for each counterbalancing assignment (called an 'item') here. (these names might have to be changed later if we actually use different items)
+`stim/items` contains the game info and lexicon for each counterbalancing assignment (called an "item"). These files were assembled by choosing referring expressions from `conventions.json`; which tangrams are shared versus unique is arbitrary (and reversed across counterbalancing assignments), and the source games for each expression are taken in order from `conventions_games.json`.
 
-Right now, these are generated manually by choosing from the referring expressions in `conventions.json` and `conventions_games.json`. Which tangrams are shared and unique are arbitrary selected (and the assigment is reversed by counterbalancing assignment), and the games to pull from for each expression are chosen in order from `conventions_games.json`
+The files in `stim/items` generate the `.json` files in `stim/2AFC_trials`, and both directories are direct inputs to the JavaScript experiment.
 
-The files in `items` are used to generate the `.json` files in `2AFC_trials` and to the video generation script. And both the files in `items` and `2AFC_trials` are also direct inputs to the javascript experiment.
+## Generating the stimuli
 
-### Making the individual stimuli
+`stim/scripts/make_videos.py` generates the video stimuli for a specified item. It loads the game info for that item from `stim/items`, finds the corresponding conversations in `stim/convos`, and saves the videos to `stim/convo_vids/videos`. The rendered videos are not committed to the repository because of their size; they are available on OSF at https://osf.io/5j6uk/files/osfstorage.
 
-`make_videos.py` generates all the video stimuli for a specified item number. It loads in the game info for the specified item from `../items`, and finds the relevant conversation info from `../convos`. Videos are saved in `../convo_vids/videos`.
-
-`make_2afc_trials.py` takes each item and generates its corresponding 2AFC trials. Right now for the 'unseen' tangrams, are taken from the other counterbalancing assignment
-
-## scp ing to MIT scripts
-
-`cd experiments/3pp`
-
-`rsync -av --exclude 'stim/boyce_data' --exclude 'stim/convo_vids/videos/480p15/partial_movie_files' --exclude 'stim/convos' --exclude 'stim/convo_vids/texts' earlier-later/ aliciach@athena.dialup.mit.edu:~/www/tangrams/e-l`
+`stim/scripts/make_2afc_trials.py` generates each item's 2AFC trials. The "unseen" tangram labels (used in manipulation-check trials) are taken from the other counterbalancing assignment.

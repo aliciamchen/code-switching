@@ -34,8 +34,8 @@ preprocess: preprocess-free-response preprocess-shared-unique preprocess-earlier
 # to skip the slow sensitivity refits while iterating, and run a full default
 # render before committing regenerated outputs.
 
-analysis/free-response/macros.tex: analysis/free-response/free-response-analysis.Rmd analysis/utils/macros.R data/free-response/selection_trials.csv data/free-response/exit_survey.csv analysis/free-response/red_social_similarity_results.csv
-	$(RSCRIPT) -e "rmarkdown::render('analysis/free-response/free-response-analysis.Rmd')"
+analysis/free-response/macros.tex: analysis/free-response/free-response_analysis.Rmd analysis/utils/macros.R data/free-response/selection_trials.csv data/free-response/exit_survey.csv analysis/free-response/red_social_similarity_results.csv
+	$(RSCRIPT) -e "rmarkdown::render('analysis/free-response/free-response_analysis.Rmd')"
 
 analysis-free-response: analysis/free-response/macros.tex ## Render the free-response statistical analysis
 
@@ -49,8 +49,8 @@ analysis/earlier-later/macros.tex: analysis/earlier-later/earlier-later_analysis
 
 analysis-earlier-later: analysis/earlier-later/macros.tex ## Render the earlier-later statistical analysis
 
-analysis/transparency/macros.tex: analysis/transparency/transparency-analysis.Rmd analysis/utils/macros.R data/transparency/selection_trials.csv
-	$(RSCRIPT) -e "rmarkdown::render('analysis/transparency/transparency-analysis.Rmd')"
+analysis/transparency/macros.tex: analysis/transparency/transparency_analysis.Rmd analysis/utils/macros.R data/transparency/selection_trials.csv
+	$(RSCRIPT) -e "rmarkdown::render('analysis/transparency/transparency_analysis.Rmd')"
 
 analysis-transparency: analysis/transparency/macros.tex ## Render the transparency statistical analysis
 
@@ -65,7 +65,7 @@ analysis: analysis-free-response analysis-shared-unique analysis-earlier-later a
 
 # --- 3. Computational modeling (data/{experiment} -> model/*.ipynb outputs) -
 # Notebook numbering follows paper experiment numbers, not the internal
-# experiment labels above -- see CLAUDE.md's "Experiment Labels" section.
+# experiment labels above -- see the README's "Experiment labels in the code".
 
 model-fit-shared-unique: ## Fit the shared-unique (Experiment 2) computational model
 	uv run jupyter nbconvert --to notebook --execute --inplace model/fit-predict-exp-2.ipynb
