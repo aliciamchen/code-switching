@@ -70,16 +70,19 @@ Everything downstream of preprocessing runs from the de-identified data committe
 The `Makefile` wraps all of the steps; run `make help` to see the available targets.
 
 ```bash
+make reproduce    # reproduce all downstream results from the committed de-identified data
 make analysis     # render all statistical analyses (runs from the committed data)
 make model-fit    # fit the computational models
 make figures      # generate the paper figures
 make all          # full pipeline end-to-end (requires the raw data)
 ```
 
+The `make reproduce` target is the recommended public workflow. It forces fresh renders of the statistical analyses, runs the computational models, generates the paper figures, and refreshes the manuscript statistics. The `make all` target additionally runs preprocessing and therefore requires the private, non-anonymized raw data.
+
 The analyses expect the R version pinned in `renv.lock` (4.4.x). If your default `Rscript` is a different version, point the `RSCRIPT` variable at the right binary, for example:
 
 ```bash
-make analysis RSCRIPT=/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/bin/Rscript
+make reproduce RSCRIPT=/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/bin/Rscript
 ```
 
 The analysis targets track their input files (each render's `macros.tex` serves as the up-to-date marker), so `make analysis` only re-renders experiments whose analysis script or data changed. Two knobs help during iteration: touch the `.Rmd` (or delete its `macros.tex`) to force a render, and set `RUN_SENSITIVITY=false` to skip the slow sensitivity refits -- the bulk of each render's time. Run a full default render before committing regenerated outputs, so the committed `model_outputs.txt` and `sensitivity.csv` stay complete.

@@ -507,12 +507,19 @@ sink()
 
 trends_df <- as.data.frame(prop_outgroup.trends)
 refer_trend <- function(deg) trends_df[trends_df$goal == "refer" & trends_df$degree == deg, ]
+social_trend <- function(deg) trends_df[trends_df$goal == "social" & trends_df$degree == deg, ]
 macros$expFourReferLinB <- fmt_num(refer_trend("linear")$prop_outgroup.trend)
 macros$expFourReferLinZ <- fmt_num(refer_trend("linear")$z.ratio)
 macros$expFourReferLinP <- fmt_p(refer_trend("linear")$p.value)
 macros$expFourReferQuadB <- fmt_num(refer_trend("quadratic")$prop_outgroup.trend)
 macros$expFourReferQuadZ <- fmt_num(refer_trend("quadratic")$z.ratio)
 macros$expFourReferQuadP <- fmt_p(refer_trend("quadratic")$p.value)
+macros$expFourSocialLinB <- fmt_num(social_trend("linear")$prop_outgroup.trend)
+macros$expFourSocialLinZ <- fmt_num(social_trend("linear")$z.ratio)
+macros$expFourSocialLinP <- fmt_p(social_trend("linear")$p.value)
+macros$expFourSocialQuadB <- fmt_num(social_trend("quadratic")$prop_outgroup.trend)
+macros$expFourSocialQuadZ <- fmt_num(social_trend("quadratic")$z.ratio)
+macros$expFourSocialQuadP <- fmt_p(social_trend("quadratic")$p.value)
 ```
 
 ```{r}
