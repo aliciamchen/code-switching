@@ -10,6 +10,10 @@ library(tidyboot)
 library(glue)
 library(ggpubr)
 
+# Initialize reproducible random state for bootstraps and plotting offsets.
+# A later simulation resets the seed explicitly for its own reproducibility.
+set.seed(67)
+
 theme_set(theme_classic(base_size = 24, base_family = "Arial Nova") + theme(strip.background = element_blank()))
 seaborn_colorblind <- c(
   "#0173b2", # blue
@@ -304,8 +308,11 @@ ggsave(here("figures/outputs/exp4_results.pdf"), device = cairo_pdf)
 means_agg <- read_csv(here("data/transparency/means_agg.csv"))
 means_by_label <- read_csv(here("data/transparency/means_by_label.csv"))
 
-# Load exp4 selection trials
+# Load exp4 selection trials.
+# Exclude participants who did not understand the instructions, matching the
+# exclusion applied in the exp4 regression (varied_audience_analysis.Rmd).
 exp4.selection.trials <- read_csv(here("data/varied_audience/selection_trials.csv")) %>%
+  filter(understood == "yes") %>%
   rename(tangram_set = item_id) %>%
   mutate(response_coded = if_else(response.earlier == "earlier", 1, 0))
 ```
@@ -372,7 +379,6 @@ itemwise_long <- itemwise_transparency %>%
   select(item_id, type, empirical_stat, ci_lower, ci_upper)
 
 # Add jitter for x position
-set.seed(42)
 itemwise_long <- itemwise_long %>%
   mutate(x_jitter = as.numeric(type) + runif(n(), -0.08, 0.08))
 ```
@@ -697,8 +703,6 @@ ggplot(transparency_choice_summary, aes(x = transparency_diff_binned, y = empiri
 
 ggsave(here("figures/outputs/transparency_diff_choice.pdf"), device = cairo_pdf)
 ```
-
-
 
 
 

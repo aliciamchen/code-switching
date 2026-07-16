@@ -11,10 +11,6 @@ library(here)
 library(tidyverse)
 library(tidyboot)
 library(glue)
-library(lme4)
-library(lmerTest)
-library(emmeans)
-library(simr)
 
 theme_set(theme_classic(base_size = 20))
 options(contrasts = c(unordered = "contr.sum", ordered = "contr.poly"))
@@ -28,8 +24,8 @@ macros <- list()
 ```
 
 ```{r}
-data <- read_csv(here("data/transparency/selection_trials.csv")) %>% 
-  mutate(correct = ifelse(correct == TRUE, 1, 0)) %>% 
+data <- read_csv(here("data/transparency/selection_trials.csv")) |>
+  mutate(correct = ifelse(correct == TRUE, 1, 0)) |>
   filter(understood == "yes")
 ```
 How many participants? M(SD) age? 
@@ -45,8 +41,8 @@ macros$transpN <- fmt_int(n_participants)
 How much of each utterance? There should be ~40
 
 ```{r}
-means.by.label = data %>% 
-  group_by(tangram_set, target, earlier, length, label) %>% 
+means.by.label = data |>
+  group_by(tangram_set, target, earlier, length, label) |>
   tidyboot_mean(correct, na.rm = T)
 
 means.by.label
@@ -57,19 +53,19 @@ write_csv(means.by.label, here("data/transparency/means_by_label.csv"))
 Aggregate and compare informativity of earlier vs. later utterances
 
 ```{r}
-earlier.later.all.means <- data %>%
-  group_by(earlier) %>%
+earlier.later.all.means <- data |>
+  group_by(earlier) |>
   tidyboot_mean(correct, na.rm = T)
 
-write.csv(earlier.later.all.means, here("data/transparency/means_agg.csv"))
+write_csv(earlier.later.all.means, here("data/transparency/means_agg.csv"))
 
 agg_row <- function(v) earlier.later.all.means[earlier.later.all.means$earlier == v, ]
-macros <- macros %>%
+macros <- macros |>
   add_macros("transpEarlier", list(
     Pct = fmt_pct(agg_row("earlier")$empirical_stat),
     CILo = fmt_num(100 * agg_row("earlier")$ci_lower, 1),
     CIHi = fmt_num(100 * agg_row("earlier")$ci_upper, 1)
-  )) %>%
+  )) |>
   add_macros("transpLater", list(
     Pct = fmt_pct(agg_row("later")$empirical_stat),
     CILo = fmt_num(100 * agg_row("later")$ci_lower, 1),
@@ -110,7 +106,7 @@ truncate_label <- function(text, max_words = 6) {
 means.by.label$short_label <- sapply(means.by.label$label, truncate_label)
 
 for (set in c(0, 1, 2)) {
-  p <- ggplot(means.by.label %>% filter(tangram_set == set), aes(x = reorder(short_label, empirical_stat), y = empirical_stat, color = earlier)) +
+  p <- ggplot(means.by.label |> filter(tangram_set == set), aes(x = reorder(short_label, empirical_stat), y = empirical_stat, color = earlier)) +
     geom_point(size = 3) +
     geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), size = 2, width = 0.0) +
     geom_text(aes(label = target), vjust = 4, show.legend = F) +

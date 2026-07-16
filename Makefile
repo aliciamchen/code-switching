@@ -105,9 +105,15 @@ manuscript-stats: ## Copy generated stats macros into manuscript/stats/ for the 
 
 # --- Full pipeline -----------------------------------------------------------
 
+reproduce: ## Reproduce all downstream results from the committed de-identified data
+	$(MAKE) -B analysis
+	$(MAKE) model-fit
+	$(MAKE) figures
+	$(MAKE) manuscript-stats
+
 all: preprocess analysis model-fit figures manuscript-stats ## Run the full pipeline end-to-end
 
-.PHONY: help preprocess analysis model-fit figures manuscript-stats all \
+.PHONY: help preprocess analysis model-fit figures manuscript-stats reproduce all \
 	preprocess-free-response preprocess-shared-unique preprocess-earlier-later preprocess-transparency preprocess-varied_audience \
 	analysis-free-response analysis-shared-unique analysis-earlier-later analysis-transparency analysis-varied_audience \
 	model-fit-shared-unique model-fit-earlier-later model-fit-varied_audience

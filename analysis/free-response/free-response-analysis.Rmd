@@ -662,9 +662,11 @@ print(trends_length)
 
 sink()
 
-macros <- macros %>%
-  add_macros("expOneLengthLin", trend_macros(trends_length, "linear", "refer")) %>%
-  add_macros("expOneLengthQuad", trend_macros(trends_length, "quadratic", "refer"))
+macros <- macros |>
+  add_macros("expOneLengthLin", trend_macros(trends_length, "linear", "refer")) |>
+  add_macros("expOneLengthQuad", trend_macros(trends_length, "quadratic", "refer")) |>
+  add_macros("expOneLengthSocialLin", trend_macros(trends_length, "linear", "social")) |>
+  add_macros("expOneLengthSocialQuad", trend_macros(trends_length, "quadratic", "social"))
 ```
 
 ```{r}
@@ -948,7 +950,6 @@ re_structures <- tibble::tibble(
 )
 write_csv(re_structures, here("analysis/free-response/re_structures.csv"))
 ```
-
 
 
 
