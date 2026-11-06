@@ -113,7 +113,7 @@ data %>%
 Learning metrics: 
 - `n_unique`: number of unique tangrams selected per participant (higher = more learning)
 - `prop_red`: proportion of times the 'red-specific' tangrams were selected for the 'social' goal (lower = more learning)
-- `utt_memory`: mean cosine similarity of the later utterance to the observed later utterance, for trials where there were no naive members in the audience (higher = more learning)
+- `utt_memory`: mean cosine similarity of the later utterance to the observed later utterance, for referential-goal trials where there were no naive members in the audience (higher = more learning). This is the "learning score" in the manuscript; it is restricted to referential-goal trials so that it does not share trials with the social-goal effects it is correlated with below.
 
 ```{r}
 learning_metrics <- data %>%
@@ -121,7 +121,7 @@ learning_metrics <- data %>%
   summarise(
     n_unique = n_distinct(selected_tangram),
     prop_red = mean(selected_tangram_group[goal == "social"] == "red_specific", na.rm = TRUE),
-    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE),
+    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0 & goal == "refer"], na.rm = TRUE),
   )
 
 learning_metrics
@@ -843,14 +843,14 @@ eff_cor_tangram <- data %>%
   group_by(subject_id) %>%
   summarise(
     goal_effect = mean(tangram_choice[goal == "refer"], na.rm = TRUE) - mean(tangram_choice[goal == "social"], na.rm = TRUE),
-    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE)
+    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0 & goal == "refer"], na.rm = TRUE)
   ) 
 
 eff_cor_sbert <- data %>%
   group_by(subject_id) %>%
   summarise(
     goal_effect = mean(sbert_cosine_later_blue[goal == "social"], na.rm = TRUE) - mean(sbert_cosine_later_blue[goal == "refer"], na.rm = TRUE),
-    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE)
+    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0 & goal == "refer"], na.rm = TRUE)
   ) 
 
 eff_cor_length <- data %>%
@@ -858,7 +858,7 @@ eff_cor_length <- data %>%
   summarise(
     goal_effect = mean(utt_length[goal == "refer"], na.rm = TRUE) - mean(utt_length[goal == "social"], na.rm = TRUE),
     goal_effect_log = mean(log(utt_length[goal == "refer"]), na.rm = TRUE) - mean(log(utt_length[goal == "social"]), na.rm = TRUE),
-    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0], na.rm = TRUE)
+    utt_memory = mean(sbert_cosine_later_blue[n_naive == 0 & goal == "refer"], na.rm = TRUE)
   ) 
 ```
 

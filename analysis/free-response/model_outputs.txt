@@ -257,37 +257,37 @@ alternative random-effects specifications (see sensitivity.csv):
 	Pearson's product-moment correlation
 
 data:  eff_cor_tangram$utt_memory and eff_cor_tangram$goal_effect
-t = 3.8394, df = 183, p-value = 0.0001698
+t = 1.7814, df = 183, p-value = 0.0765
 alternative hypothesis: true correlation is not equal to 0
 95 percent confidence interval:
- 0.1340461 0.4014884
+ -0.01397272  0.26974682
 sample estimates:
       cor 
-0.2730346 
+0.1305591 
 
 
 
 	Pearson's product-moment correlation
 
 data:  eff_cor_length$utt_memory and eff_cor_length$goal_effect
-t = 6.7009, df = 183, p-value = 2.477e-10
+t = 4.6282, df = 183, p-value = 6.968e-06
 alternative hypothesis: true correlation is not equal to 0
 95 percent confidence interval:
- 0.3201059 0.5527479
+ 0.1882278 0.4470950
 sample estimates:
-      cor 
-0.4438758 
+     cor 
+0.323706 
 
 
 
 	Pearson's product-moment correlation
 
 data:  eff_cor_sbert$utt_memory and eff_cor_sbert$goal_effect
-t = 6.2592, df = 183, p-value = 2.679e-09
+t = 1.9592, df = 183, p-value = 0.0516
 alternative hypothesis: true correlation is not equal to 0
 95 percent confidence interval:
- 0.2934271 0.5319613
+ -0.0009524355  0.2817776189
 sample estimates:
       cor 
-0.4199196 
+0.1433359 
 
